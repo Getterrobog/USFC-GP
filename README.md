@@ -10,7 +10,7 @@ Chris Bird, PhD, Texas A&M Corpus Christi
 Malin Pinsky, PhD, University of California Santa Cruz
 
 **Co-I:**
-Elizabeth Wallace, PhD, Florida Fish and Wild
+Elizabeth Wallace, PhD, Florida Fish and Wildlife Conservation Commission
 Dianne Pitassy, MS, Museum Specialist, Division of Fishes, Smithsonian Institution
 
 **GRA:**
