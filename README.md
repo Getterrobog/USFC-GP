@@ -13,5 +13,5 @@ Malin Pinsky, PhD, University of California Santa Cruz
 Elizabeth Wallace, PhD, Florida Fish and Wildlife Conservation Commission  
 Dianne Pitassy, MS, Museum Specialist, Division of Fishes, Smithsonian Institution  
 
-**GRA:** 
+**GRA:**  
 Iván R. López, MS, University of Central Florida  
