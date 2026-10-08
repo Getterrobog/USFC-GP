@@ -1,7 +1,5 @@
-# **USFC-GP**
-
-![USFC_GP Logo](https://github.com/Getterrobog/USFC-GP/raw/main/USFC-GP.jpeg)
-
+![USFC_GP Logo](https://github.com/Getterrobog/USFC-GP/raw/main/USFC-GP.jpeg)  
+# **USFC-GP**  
 ## The United State Fish Commission Genomics Project
 ### Comparative genomic analysis of historical 1880s USFC collections stored at USNM, and modern Western Atlantic coastal fishes to evaluate century-scale evolutionary shifts.
 
