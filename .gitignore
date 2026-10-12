@@ -1,0 +1,8 @@
+.R-library/
+.Rhistory
+.RData
+Output/SamplingAtlas/
+Output/AtlasPreview/
+Output/AtlasDataOnly/
+Output/AtlasNoGIF/
+

@@ -18,3 +18,38 @@ Iván R. López, MS, University of Central Florida
 **Collaborators:**  
 Elizabeth Wallace, PhD, Florida Fish and Wildlife Conservation Commission  
 Dianne Pitassy, MS, Museum Specialist, Division of Fishes, Smithsonian Institution  
+
+### Historical sampling atlas
+
+The reproducible R workflow in `Scripts/build_sampling_atlas.R` inventories species
+with at least **50 dated specimens through 1930** across the western Atlantic,
+Caribbean, and Gulf of Mexico. It separates larvae, adult/non-larval lots, and
+unsplit mixed-stage lots, and produces annual geographic heatmaps, animated GIFs,
+sampling matrices, and candidate-selection tables.
+
+```bash
+Rscript Scripts/install_atlas_dependencies.R
+Rscript tests/test_sampling_atlas.R
+Rscript Scripts/build_sampling_atlas.R
+Rscript Scripts/summarize_sampling_candidates.R
+```
+
+GIF rendering also requires ImageMagick (`magick` or `convert`). Open
+`Output/SamplingAtlas/index.html` after running. See
+[the workflow and interpretation guide](docs/sampling_atlas.md) for assumptions,
+configuration, output definitions, and sampling-design guidance.
+
+### Species selection protocol
+
+The [species selection plan](docs/species_selection_plan.md) connects the proposal's
+three aims to assemblage design, feasibility gates, DNA recovery pilots, power
+analysis, portfolio selection and documentation for peer review. The
+[repository review](docs/repository_review.md) records limitations of the legacy
+candidate tables and explains how to reproduce the accompanying audit:
+
+```bash
+python3 Scripts/audit_selection_inputs.py
+```
+
+The audit writes to `Output/SelectionAudit/` and requires only Python's standard
+library. Its descriptive counts do not establish final species eligibility.

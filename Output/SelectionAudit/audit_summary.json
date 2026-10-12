@@ -1,0 +1,36 @@
+{
+  "candidate_names_match_potential": true,
+  "candidate_raw_date_classes": {
+    "ambiguous_or_missing_raw_join": 15,
+    "explicit_years_outside_1880_1929": 45,
+    "explicit_years_within_1880_1929": 732,
+    "missing": 113,
+    "no_explicit_four_digit_year": 122
+  },
+  "candidate_rows_missing_raw_coordinates": 236,
+  "candidates_absent_from_summary": [
+    "Helicolenus dactylopterus",
+    "Hippoglossoides platessoides"
+  ],
+  "legacy_clusters_with_diameter_over_40km": 36,
+  "max_legacy_cluster_diameter_km": 249.43,
+  "potential_legacy_clusters": 168,
+  "potential_legacy_species": 96,
+  "potential_repeated_catalog_keys": 5,
+  "potential_rows": 1027,
+  "potential_unique_catalog_keys": 1017,
+  "raw_date_classes": {
+    "explicit_years_outside_1880_1929": 653,
+    "explicit_years_within_1880_1929": 5145,
+    "missing": 465,
+    "no_explicit_four_digit_year": 903
+  },
+  "raw_preservation_method_nonempty": 0,
+  "raw_rows": 7166,
+  "removed_rows": 1906,
+  "retained_plus_removed_catalog_multiset_equals_raw": true,
+  "retained_plus_removed_equal_raw_rows": true,
+  "retained_rows": 5260,
+  "scope": "Offline descriptive audit of legacy artifacts; not eligibility, abundance, or biological population inference",
+  "summary_names_absent_from_candidates": []
+}

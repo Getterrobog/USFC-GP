@@ -1,0 +1,1028 @@
+potential_data_row,species,legacy_cluster,catalog_number,potential_rows_for_catalog,raw_rows_for_catalog,legacy_specimen_count,legacy_date,raw_date,raw_date_class,raw_coordinate_pair_missing,legacy_cluster_diameter_km,raw_country,raw_province_state
+1,Acanthurus bahianus,Population 1 of Acanthurus bahianus,73821,1,1,24,18 Jan 1899,18 Jan 1899,explicit_years_within_1880_1929,0,0,United States,Puerto Rico
+2,Acanthurus bahianus,Population 1 of Acanthurus bahianus,50196,1,1,5,18 Jan 1899,18 Jan 1899,explicit_years_within_1880_1929,0,0,United States,Puerto Rico
+3,Acanthurus bahianus,Population 1 of Acanthurus bahianus,63064,1,1,2,18 Jan 1899,18 Jan 1899,explicit_years_within_1880_1929,0,0,United States,Puerto Rico
+4,Acanthurus bahianus,Population 1 of Acanthurus bahianus,50141,1,1,1,18 Jan 1899,18 Jan 1899,explicit_years_within_1880_1929,0,0,United States,Puerto Rico
+5,Acanthurus chirurgus,Population 1 of Acanthurus chirurgus,73826,1,1,12,1 Feb 1899 (1899 Feb 01 - 0000 00 00),1 Feb 1899 (1899 Feb 01 - 0000 00 00),explicit_years_within_1880_1929,0,62.68,United States,Puerto Rico
+6,Acanthurus chirurgus,Population 1 of Acanthurus chirurgus,50214,1,1,4,28 Jan 1899,28 Jan 1899,explicit_years_within_1880_1929,0,62.68,United States,Puerto Rico
+7,Acanthurus chirurgus,Population 1 of Acanthurus chirurgus,73823,1,1,3,26 Jan 1899,26 Jan 1899,explicit_years_within_1880_1929,0,62.68,United States,Puerto Rico
+8,Acanthurus chirurgus,Population 1 of Acanthurus chirurgus,63063,1,1,1,27 Jan 1899,27 Jan 1899,explicit_years_within_1880_1929,0,62.68,United States,Puerto Rico
+9,Acanthurus chirurgus,Population 1 of Acanthurus chirurgus,63065,1,1,1,26 Jan 1899,26 Jan 1899,explicit_years_within_1880_1929,0,62.68,United States,Puerto Rico
+10,Acanthurus chirurgus,Population 1 of Acanthurus chirurgus,63662,1,1,1,1899,1899,explicit_years_within_1880_1929,0,62.68,United States,Puerto Rico
+11,Ahlia egmontis,Population 1 of Ahlia egmontis,91408,1,1,24,25 Nov 1919 (1919 Nov 25 - 0000 00 00),25 Nov 1919 (1919 Nov 25 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Florida
+12,Alosa aestivalis,Population 1 of Alosa aestivalis,90135,1,1,100,19-Jan-14,19-Jan-14,no_explicit_four_digit_year,0,129.89,United States,Maryland
+13,Alosa aestivalis,Population 1 of Alosa aestivalis,90142,1,1,100,19-Jan-14,19-Jan-14,no_explicit_four_digit_year,0,129.89,United States,Maryland
+14,Alosa aestivalis,Population 1 of Alosa aestivalis,90202,1,1,100,12 Mar 1916 (1916 Mar 12 - 0000 00 00; 08:10 - 10:30),12 Mar 1916 (1916 Mar 12 - 0000 00 00; 08:10 - 10:30),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+15,Alosa aestivalis,Population 1 of Alosa aestivalis,90192,1,1,100,12 Mar 1916 (1916 Mar 12 - 0000 00 00; 06:40 - 07:00),12 Mar 1916 (1916 Mar 12 - 0000 00 00; 06:40 - 07:00),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+16,Alosa aestivalis,Population 1 of Alosa aestivalis,90203,1,1,84,21-Mar-14,21-Mar-14,no_explicit_four_digit_year,0,129.89,United States,Maryland
+17,Alosa aestivalis,Population 1 of Alosa aestivalis,90223,1,1,81,12-Mar-16,12-Mar-16,no_explicit_four_digit_year,0,129.89,United States,Maryland
+18,Alosa aestivalis,Population 2 of Alosa aestivalis,67721,1,1,50,4 May 1894,4 May 1894,explicit_years_within_1880_1929,1,21.94,United States,Virginia
+19,Alosa aestivalis,Population 1 of Alosa aestivalis,90214,1,1,50,19-Mar-14,19-Mar-14,no_explicit_four_digit_year,1,129.89,United States,Maryland
+20,Alosa aestivalis,Population 1 of Alosa aestivalis,90143,1,1,50,18 Feb 1914 (1914 Feb 18 - 0000 00 00; 15:42 - 16:00),18 Feb 1914 (1914 Feb 18 - 0000 00 00; 15:42 - 16:00),explicit_years_within_1880_1929,1,129.89,United States,Maryland
+21,Alosa aestivalis,Population 1 of Alosa aestivalis,90217,1,1,50,23-Mar-14,23-Mar-14,no_explicit_four_digit_year,1,129.89,United States,Maryland
+22,Alosa aestivalis,Population 1 of Alosa aestivalis,90221,1,1,50,18 Feb 1914 (1914 Feb 18 - 0000 00 00; 15:42 - 16:00),18 Feb 1914 (1914 Feb 18 - 0000 00 00; 15:42 - 16:00),explicit_years_within_1880_1929,1,129.89,United States,Maryland
+23,Alosa aestivalis,Population 3 of Alosa aestivalis,90201,1,1,50,6 Mar 1916 (1916 Mar 06 - 0000 00 00; 12:25 - 13:55),6 Mar 1916 (1916 Mar 06 - 0000 00 00; 12:25 - 13:55),explicit_years_within_1880_1929,0,51.95,United States,Virginia
+24,Alosa aestivalis,Population 1 of Alosa aestivalis,90218,1,1,50,19-Jan-14,19-Jan-14,no_explicit_four_digit_year,0,129.89,United States,Maryland
+25,Alosa aestivalis,Population 1 of Alosa aestivalis,90155,1,1,43,22-Mar-14,22-Mar-14,no_explicit_four_digit_year,1,129.89,United States,Maryland
+26,Alosa aestivalis,Population 1 of Alosa aestivalis,90200,1,1,40,19 Jan 1916 (1916 Jan 19 - 0000 00 00; 16:21 - 17:30),19 Jan 1916 (1916 Jan 19 - 0000 00 00; 16:21 - 17:30),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+27,Alosa aestivalis,Population 1 of Alosa aestivalis,90204,1,1,34,20-Jan-14,20-Jan-14,no_explicit_four_digit_year,0,129.89,United States,Maryland
+28,Alosa aestivalis,Population 1 of Alosa aestivalis,90216,1,1,30,23 Mar 1914 (0000 00 00 - 0000 00 00),23 Mar 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,129.89,United States,Maryland
+29,Alosa aestivalis,Population 1 of Alosa aestivalis,90222,1,1,25,20 Jan 1916 (1916 Jan 20 - 0000 00 00; 10:48 - 12:15),20 Jan 1916 (1916 Jan 20 - 0000 00 00; 10:48 - 12:15),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+30,Alosa aestivalis,Population 1 of Alosa aestivalis,90163,1,1,25,19-Feb-14,19-Feb-14,no_explicit_four_digit_year,1,129.89,United States,Maryland
+31,Alosa aestivalis,Population 1 of Alosa aestivalis,90161,1,1,25,20 Jan 1914 (0000 00 00 - 0000 00 00),20 Jan 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+32,Alosa aestivalis,Population 1 of Alosa aestivalis,90134,1,1,25,19 Feb 1914 (0000 00 00 - 0000 00 00),19 Feb 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+33,Alosa aestivalis,Population 1 of Alosa aestivalis,155973,1,1,25,9-Mar-16,9-Mar-16,no_explicit_four_digit_year,0,129.89,United States,Virginia
+34,Alosa aestivalis,Population 1 of Alosa aestivalis,90144,1,1,24,12-Mar-16,12-Mar-16,no_explicit_four_digit_year,0,129.89,United States,Maryland
+35,Alosa aestivalis,Population 4 of Alosa aestivalis,90151,1,1,22,21-Mar-14,21-Mar-14,no_explicit_four_digit_year,0,0,United States,Maryland
+36,Alosa aestivalis,Population 1 of Alosa aestivalis,90190,1,1,22,19-Feb-14,19-Feb-14,no_explicit_four_digit_year,1,129.89,United States,Maryland
+37,Alosa aestivalis,Population 5 of Alosa aestivalis,90212,1,1,21,18-Feb-14,18-Feb-14,no_explicit_four_digit_year,1,0,United States,
+38,Alosa aestivalis,Population 1 of Alosa aestivalis,90149,1,1,20,19-Feb-14,19-Feb-14,no_explicit_four_digit_year,1,129.89,United States,Maryland
+39,Alosa aestivalis,Population 1 of Alosa aestivalis,90152,1,1,14,21 Mar 1914 (1914 Mar 21 - 0000 00 00; 15:40 - 15:51),21 Mar 1914 (1914 Mar 21 - 0000 00 00; 15:40 - 15:51),explicit_years_within_1880_1929,1,129.89,United States,Maryland
+40,Alosa aestivalis,Population 1 of Alosa aestivalis,30393,1,1,13,1882 (1882 00 00 - 0000 00 00),1882 (1882 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+41,Alosa aestivalis,Population 3 of Alosa aestivalis,90141,1,1,13,23 Jan 1921 (1921 Jan 23 - 0000 00 00; 08:20 - 09:26),23 Jan 1921 (1921 Jan 23 - 0000 00 00; 08:20 - 09:26),explicit_years_within_1880_1929,0,51.95,United States,Virginia
+42,Alosa aestivalis,Population 1 of Alosa aestivalis,90182,1,1,13,10 Mar 1916 (1916 Mar 10 - 0000 00 00; 07:30 - 09:00),10 Mar 1916 (1916 Mar 10 - 0000 00 00; 07:30 - 09:00),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+43,Alosa aestivalis,Population 1 of Alosa aestivalis,90206,1,1,11,20 Jan 1914 (1914 Jan 20 - 0000 00 00),20 Jan 1914 (1914 Jan 20 - 0000 00 00),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+44,Alosa aestivalis,Population 3 of Alosa aestivalis,90166,1,1,11,21-Feb-14,21-Feb-14,no_explicit_four_digit_year,0,51.95,United States,Virginia
+45,Alosa aestivalis,Population 1 of Alosa aestivalis,90147,1,1,10,22 Mar 1914 (1914 Mar 22 - 0000 00 00; 16:00 - 16:12),22 Mar 1914 (1914 Mar 22 - 0000 00 00; 16:00 - 16:12),explicit_years_within_1880_1929,1,129.89,United States,
+46,Alosa aestivalis,Population 1 of Alosa aestivalis,30349,1,1,10,11 Mar 1882 (1882 Mar 11 - 0000 00 00; 11:22),11 Mar 1882 (1882 Mar 11 - 0000 00 00; 11:22),explicit_years_within_1880_1929,1,129.89,United States,Maryland
+47,Alosa aestivalis,Population 5 of Alosa aestivalis,90215,1,1,9,21-Mar-14,21-Mar-14,no_explicit_four_digit_year,1,0,United States,
+48,Alosa aestivalis,Population 1 of Alosa aestivalis,30362,1,1,9,11 Mar 1882 (1882 Mar 11 - 0000 00 00),11 Mar 1882 (1882 Mar 11 - 0000 00 00),explicit_years_within_1880_1929,1,129.89,United States,Maryland
+49,Alosa aestivalis,Population 3 of Alosa aestivalis,90213,1,1,9,21-Feb-14,21-Feb-14,no_explicit_four_digit_year,0,51.95,United States,Virginia
+50,Alosa aestivalis,Population 1 of Alosa aestivalis,90207,1,1,9,18-Feb-14,18-Feb-14,no_explicit_four_digit_year,0,129.89,United States,Maryland
+51,Alosa aestivalis,Population 1 of Alosa aestivalis,90153,1,1,7,17-Feb-14,17-Feb-14,no_explicit_four_digit_year,0,129.89,United States,Maryland
+52,Alosa aestivalis,Population 3 of Alosa aestivalis,90136,1,1,7,22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),explicit_years_within_1880_1929,0,51.95,United States,Virginia
+53,Alosa aestivalis,Population 1 of Alosa aestivalis,90150,1,1,7,21 Mar 1914 (0000 00 00 - 0000 00 00),21 Mar 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+54,Alosa aestivalis,Population 1 of Alosa aestivalis,90194,1,1,6,11 Mar 1916 (1916 Mar 11 - 0000 00 00; 17:18),11 Mar 1916 (1916 Mar 11 - 0000 00 00; 17:18),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+55,Alosa aestivalis,Population 5 of Alosa aestivalis,90211,1,1,5,21 Feb 1914 (1914 Feb 21 - 0000 00 00),21 Feb 1914 (1914 Feb 21 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,
+56,Alosa aestivalis,Population 1 of Alosa aestivalis,30387,1,1,5,28 Feb 1882 (1882 Feb 28 - 0000 00 00; 12:30),28 Feb 1882 (1882 Feb 28 - 0000 00 00; 12:30),explicit_years_within_1880_1929,1,129.89,United States,Maryland
+57,Alosa aestivalis,Population 1 of Alosa aestivalis,90146,1,1,4,22-Mar-14,22-Mar-14,no_explicit_four_digit_year,1,129.89,United States,Maryland
+58,Alosa aestivalis,Population 1 of Alosa aestivalis,90219,1,1,4,18 Feb 1914 (1914 Feb 18 - 0000 00 00; 15:42 - 16:00),18 Feb 1914 (1914 Feb 18 - 0000 00 00; 15:42 - 16:00),explicit_years_within_1880_1929,1,129.89,United States,Maryland
+59,Alosa aestivalis,Population 1 of Alosa aestivalis,129762,1,1,3,26 Jan 1921 (1921 Jan 26 - 0000 00 00),26 Jan 1921 (1921 Jan 26 - 0000 00 00),explicit_years_within_1880_1929,1,129.89,United States,Maryland
+60,Alosa aestivalis,Population 1 of Alosa aestivalis,90210,1,1,3,20 Jan 1914 (1914 Jan 20 - 0000 00 00),20 Jan 1914 (1914 Jan 20 - 0000 00 00),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+61,Alosa aestivalis,Population 3 of Alosa aestivalis,90205,1,1,3,7-Mar-16,7-Mar-16,no_explicit_four_digit_year,0,51.95,United States,Virginia
+62,Alosa aestivalis,Population 3 of Alosa aestivalis,90209,1,1,3,6-Jan-14,6-Jan-14,no_explicit_four_digit_year,0,51.95,United States,Virginia
+63,Alosa aestivalis,Population 3 of Alosa aestivalis,90139,1,1,3,22-Jan-21,22-Jan-21,no_explicit_four_digit_year,0,51.95,United States,Virginia
+64,Alosa aestivalis,Population 1 of Alosa aestivalis,90148,1,1,3,19-Feb-14,19-Feb-14,no_explicit_four_digit_year,1,129.89,United States,Maryland
+65,Alosa aestivalis,Population 1 of Alosa aestivalis,90185,1,1,2,26 Jan 1921 (1921 Jan 26 - 0000 00 00; 13:28 - 14:22),26 Jan 1921 (1921 Jan 26 - 0000 00 00; 13:28 - 14:22),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+66,Alosa aestivalis,Population 1 of Alosa aestivalis,90186,1,1,2,10 Mar 1916 (1916 Mar 10 - 0000 00 00; 11:37 - 13:06),10 Mar 1916 (1916 Mar 10 - 0000 00 00; 11:37 - 13:06),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+67,Alosa aestivalis,Population 1 of Alosa aestivalis,90160,1,1,2,21-Jan-14,21-Jan-14,no_explicit_four_digit_year,0,129.89,United States,Maryland
+68,Alosa aestivalis,Population 1 of Alosa aestivalis,90170,1,1,2,22-Feb-14,22-Feb-14,no_explicit_four_digit_year,1,129.89,United States,Maryland
+69,Alosa aestivalis,Population 1 of Alosa aestivalis,90191,1,1,2,18-Jan-14,18-Jan-14,no_explicit_four_digit_year,1,129.89,United States,Virginia
+70,Alosa aestivalis,Population 2 of Alosa aestivalis,329861,1,1,2,20 Apr 1994 (1994 Apr 20 - 0000 00 00; 01:55 - 02:55),20 Apr 1994 (1994 Apr 20 - 0000 00 00; 01:55 - 02:55),explicit_years_outside_1880_1929,0,21.94,United States,Massachusetts
+71,Alosa aestivalis,Population 3 of Alosa aestivalis,90138,1,1,1,16 Jan 1916 (1916 Jan 16 - 0000 00 00),16 Jan 1916 (1916 Jan 16 - 0000 00 00),explicit_years_within_1880_1929,0,51.95,United States,Virginia
+72,Alosa aestivalis,Population 5 of Alosa aestivalis,90167,1,1,1,24-Mar-14,24-Mar-14,no_explicit_four_digit_year,1,0,United States,
+73,Alosa aestivalis,Population 3 of Alosa aestivalis,90168,1,1,1,15 Jan 1914 (0000 00 00 - 0000 00 00),15 Jan 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,51.95,United States,Virginia
+74,Alosa aestivalis,Population 1 of Alosa aestivalis,90183,1,1,1,20 Jan 1916 (1916 Jan 20 - 0000 00 00; 07:45 - 09:55),20 Jan 1916 (1916 Jan 20 - 0000 00 00; 07:45 - 09:55),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+75,Alosa aestivalis,Population 1 of Alosa aestivalis,91385,1,1,1,19-Jan-14,19-Jan-14,no_explicit_four_digit_year,0,129.89,United States,Virginia
+76,Alosa aestivalis,Population 1 of Alosa aestivalis,90220,1,1,1,20-Jan-14,20-Jan-14,no_explicit_four_digit_year,0,129.89,United States,Maryland
+77,Alosa aestivalis,Population 5 of Alosa aestivalis,90189,1,1,1,23 Feb 1914 (1914 Feb 23 - 0000 00 00),23 Feb 1914 (1914 Feb 23 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,
+78,Alosa aestivalis,Population 1 of Alosa aestivalis,90184,1,1,1,27 Jan 1916 (1916 Jan 27 - 0000 00 00; 07:36 - 08:25),27 Jan 1916 (1916 Jan 27 - 0000 00 00; 07:36 - 08:25),explicit_years_within_1880_1929,0,129.89,United States,Maryland
+79,Alosa aestivalis,Population 5 of Alosa aestivalis,90164,1,1,1,23 Mar 1914 (0000 00 00 - 0000 00 00),23 Mar 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,
+80,Alosa aestivalis,Population 1 of Alosa aestivalis,90169,1,1,1,22 Feb 1914 (0000 00 00 - 0000 00 00),22 Feb 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,129.89,United States,Maryland
+81,Alosa aestivalis,Population 1 of Alosa aestivalis,90193,1,1,1,9-Mar-16,9-Mar-16,no_explicit_four_digit_year,0,129.89,United States,Virginia
+82,Alosa aestivalis,Population 5 of Alosa aestivalis,90208,1,1,1,22-Mar-14,22-Mar-14,no_explicit_four_digit_year,1,0,United States,
+83,Alosa aestivalis,Population 1 of Alosa aestivalis,90145,1,1,1,19 Jan 1916 (1916 Jan 19 - 0000 00 00; 06:58 - 09:04),19 Jan 1916 (1916 Jan 19 - 0000 00 00; 06:58 - 09:04),explicit_years_within_1880_1929,0,129.89,United States,Virginia
+84,Alosa aestivalis,Population 1 of Alosa aestivalis,90156,1,1,1,"21 Mar 1914 (March 21, 1914)","21 Mar 1914 (March 21, 1914)",explicit_years_within_1880_1929,0,129.89,United States,Maryland
+85,Alosa aestivalis,Population 1 of Alosa aestivalis,90158,1,1,1,18-Mar-14,18-Mar-14,no_explicit_four_digit_year,0,129.89,United States,Maryland
+86,Alosa aestivalis,Population 5 of Alosa aestivalis,90159,1,1,1,23 Feb 1914 (1914 Feb 23 - 0000 00 00; 11:40 - 11:51),23 Feb 1914 (1914 Feb 23 - 0000 00 00; 11:40 - 11:51),explicit_years_within_1880_1929,1,0,United States,
+87,Alosa aestivalis,Population 1 of Alosa aestivalis,90162,1,1,1,3-Mar-14,3-Mar-14,no_explicit_four_digit_year,1,129.89,United States,Maryland
+88,Alosa aestivalis,Population 5 of Alosa aestivalis,90157,1,1,1,23-Mar-14,23-Mar-14,no_explicit_four_digit_year,1,0,United States,
+89,Alosa pseudoharengus,Population 1 of Alosa pseudoharengus,129792,1,1,100,22-Aug-15,22-Aug-15,no_explicit_four_digit_year,0,0,United States,Maine
+90,Alosa pseudoharengus,Population 2 of Alosa pseudoharengus,129796,1,1,100,21-Jul-15,21-Jul-15,no_explicit_four_digit_year,0,0,United States,Maine
+91,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90051,1,1,74,12 Mar 1916 (1916 Mar 12 - 0000 00 00; 06:40 - 07:00),12 Mar 1916 (1916 Mar 12 - 0000 00 00; 06:40 - 07:00),explicit_years_within_1880_1929,0,130.12,United States,Maryland
+92,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90044,1,1,68,19-Jan-14,,missing,0,130.12,United States,Maryland
+93,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90052,1,1,54,12 Mar 1916 (1916 Mar 12 - 0000 00 00; 06:40 - 07:00),12 Mar 1916 (1916 Mar 12 - 0000 00 00; 06:40 - 07:00),explicit_years_within_1880_1929,0,130.12,United States,Maryland
+94,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90046,1,1,49,10 Mar 1916 (1916 Mar 10 - 0000 00 00; 15:30 - 16:30),,missing,0,130.12,United States,Maryland
+95,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90078,1,1,39,21-Mar-14,,missing,1,130.12,United States,Maryland
+96,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90054,1,1,37,,,missing,0,130.12,United States,Maryland
+97,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90056,1,1,37,,,missing,1,130.12,United States,Maryland
+98,Alosa pseudoharengus,Population 4 of Alosa pseudoharengus,90119,1,1,36,21-Mar-14,21-Mar-14,no_explicit_four_digit_year,1,0,United States,
+99,Alosa pseudoharengus,Population 5 of Alosa pseudoharengus,90092,1,1,31,,,missing,1,0,,
+100,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90058,1,1,28,23 Mar 1914 (0000 00 00 - 0000 00 00),23 Mar 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,130.12,United States,Maryland
+101,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90076,1,1,28,20 Jan 1914 (0000 00 00 - 0000 00 00),20 Jan 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,130.12,United States,Maryland
+102,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90077,1,1,27,26 Jan 1921 (1921 Jan 26 - 0000 00 00),,missing,0,130.12,United States,Maryland
+103,Alosa pseudoharengus,Population 5 of Alosa pseudoharengus,90093,1,1,27,,,missing,1,0,,
+104,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90057,1,1,26,21 Mar 1914 (0000 00 00 - 0000 00 00),21 Mar 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,130.12,United States,Maryland
+105,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90074,1,1,25,19-Jan-14,,missing,0,130.12,United States,Virginia
+106,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90125,1,1,25,19 Jan 1916 (1916 Jan 19 - 0000 00 00; 06:58 - 09:04),,missing,0,130.12,United States,Virginia
+107,Alosa pseudoharengus,Population 6 of Alosa pseudoharengus,67882,1,1,25,24 Mar 1894,24 Mar 1894,explicit_years_within_1880_1929,1,0,United States,Virginia
+108,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90124,1,1,25,12 Mar 1916 (1916 Mar 12 - 0000 00 00; 06:40 - 07:00),12 Mar 1916 (1916 Mar 12 - 0000 00 00; 06:40 - 07:00),explicit_years_within_1880_1929,0,130.12,United States,Maryland
+109,Alosa pseudoharengus,Population 1 of Alosa pseudoharengus,129793,1,1,25,22-Aug-15,22-Aug-15,no_explicit_four_digit_year,0,0,United States,Maine
+110,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90068,1,1,23,,,missing,0,130.12,United States,Maryland
+111,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90075,1,1,23,,,missing,0,130.12,United States,Maryland
+112,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90112,1,1,23,20 Jan 1916 (1916 Jan 20 - 0000 00 00; 10:48 - 12:15),,missing,0,130.12,United States,Maryland
+113,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90115,1,1,20,12-Mar-16,12-Mar-16,no_explicit_four_digit_year,0,130.12,United States,Maryland
+114,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90121,1,1,20,19 Feb 1914 (0000 00 00 - 0000 00 00),19 Feb 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,130.12,United States,Maryland
+115,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90065,1,1,19,19 Jan 1916 (1916 Jan 19 - 0000 00 00; 16:21 - 17:30),19 Jan 1916 (1916 Jan 19 - 0000 00 00; 16:21 - 17:30),explicit_years_within_1880_1929,0,130.12,United States,Maryland
+116,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90043,1,1,18,26 Jan 1921 (1921 Jan 26 - 0000 00 00; 13:28 - 14:22),,missing,0,130.12,United States,Maryland
+117,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90045,1,1,18,,,missing,1,130.12,United States,Maryland
+118,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90122,1,1,18,,,missing,0,130.12,United States,Maryland
+119,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90049,1,1,17,,,missing,1,130.12,United States,Maryland
+120,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90116,1,1,17,,,missing,1,130.12,United States,Maryland
+121,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90053,1,1,16,18-Feb-14,,missing,0,130.12,United States,Maryland
+122,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90061,1,1,16,"21 Mar 1914 (March 21, 1914)","21 Mar 1914 (March 21, 1914)",explicit_years_within_1880_1929,0,130.12,United States,Maryland
+123,Alosa pseudoharengus,Population 7 of Alosa pseudoharengus,90098,1,1,15,22-Jan-21,22-Jan-21,no_explicit_four_digit_year,0,45.51,United States,Virginia
+124,Alosa pseudoharengus,Population 7 of Alosa pseudoharengus,90114,1,1,15,6 Mar 1916 (1916 Mar 06 - 0000 00 00; 12:25 - 13:55),6 Mar 1916 (1916 Mar 06 - 0000 00 00; 12:25 - 13:55),explicit_years_within_1880_1929,0,45.51,United States,Virginia
+125,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90079,1,1,14,,,missing,0,130.12,United States,Maryland
+126,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90066,1,1,13,,,missing,0,130.12,United States,Maryland
+127,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90117,1,1,12,,,missing,0,130.12,United States,Maryland
+128,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90080,1,1,10,20 Jan 1914 (1914 Jan 20 - 0000 00 00),,missing,0,130.12,United States,Maryland
+129,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,129778,1,1,10,26 Jan 1921 (1921 Jan 26 - 0000 00 00),26 Jan 1921 (1921 Jan 26 - 0000 00 00),explicit_years_within_1880_1929,0,130.12,United States,
+130,Alosa pseudoharengus,Population 7 of Alosa pseudoharengus,90081,1,1,9,7-Mar-16,,missing,0,45.51,United States,Virginia
+131,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90073,1,1,8,,,missing,0,130.12,United States,Maryland
+132,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90105,1,1,8,,,missing,0,130.12,United States,Virginia
+133,Alosa pseudoharengus,Population 7 of Alosa pseudoharengus,90108,1,1,8,23 Jan 1921 (1921 Jan 23 - 0000 00 00; 08:20 - 09:26),23 Jan 1921 (1921 Jan 23 - 0000 00 00; 08:20 - 09:26),explicit_years_within_1880_1929,0,45.51,United States,Virginia
+134,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90055,1,1,7,22 Mar 1914 (1914 Mar 22 - 0000 00 00; 16:00 - 16:12),22 Mar 1914 (1914 Mar 22 - 0000 00 00; 16:00 - 16:12),explicit_years_within_1880_1929,1,130.12,United States,
+135,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90060,1,1,7,,,missing,0,130.12,United States,Maryland
+136,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90059,1,1,6,,,missing,0,130.12,United States,Maryland
+137,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,129795,1,1,6,26 Jan 1921 (1921 Jan 26 - 0000 00 00),26 Jan 1921 (1921 Jan 26 - 0000 00 00),explicit_years_within_1880_1929,1,130.12,United States,Maryland
+138,Alosa pseudoharengus,Population 7 of Alosa pseudoharengus,90440,1,1,6,22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),explicit_years_within_1880_1929,0,45.51,United States,Virginia
+139,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90110,1,1,5,,,missing,0,130.12,United States,Maryland
+140,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90539,1,1,5,23-Mar-14,23-Mar-14,no_explicit_four_digit_year,1,130.12,United States,Maryland
+141,Alosa pseudoharengus,Population 5 of Alosa pseudoharengus,90090,1,1,4,,,missing,1,0,,
+142,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90109,1,1,4,27 Jan 1916 (1916 Jan 27 - 0000 00 00; 07:36 - 08:25),27 Jan 1916 (1916 Jan 27 - 0000 00 00; 07:36 - 08:25),explicit_years_within_1880_1929,0,130.12,United States,Maryland
+143,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90131,1,1,4,17-Feb-14,17-Feb-14,no_explicit_four_digit_year,0,130.12,United States,Maryland
+144,Alosa pseudoharengus,Population 7 of Alosa pseudoharengus,90089,1,1,3,,,missing,0,45.51,United States,Virginia
+145,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90106,1,1,3,,,missing,0,130.12,United States,Maryland
+146,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90113,1,1,3,26 Jan 1921 (1921 Jan 26 - 0000 00 00; 13:28 - 14:22),26 Jan 1921 (1921 Jan 26 - 0000 00 00; 13:28 - 14:22),explicit_years_within_1880_1929,0,130.12,United States,Maryland
+147,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90123,1,1,3,24-May-16,,missing,0,130.12,United States,Maryland
+148,Alosa pseudoharengus,Population 5 of Alosa pseudoharengus,90438,1,1,3,23 Feb 1914 (1914 Feb 23 - 0000 00 00),23 Feb 1914 (1914 Feb 23 - 0000 00 00),explicit_years_within_1880_1929,1,0,,
+149,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90088,1,1,2,22 Feb 1914 (0000 00 00 - 0000 00 00),22 Feb 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,130.12,United States,Maryland
+150,Alosa pseudoharengus,Population 7 of Alosa pseudoharengus,90107,1,1,2,22-Jan-21,22-Jan-21,no_explicit_four_digit_year,0,45.51,United States,Virginia
+151,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90111,1,1,2,20 Jan 1916 (1916 Jan 20 - 0000 00 00; 07:45 - 09:55),,missing,0,130.12,United States,Maryland
+152,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,342313,1,1,2,28 Feb 1882 (1882 Feb 28 - 0000 00 00; 12:30),28 Feb 1882 (1882 Feb 28 - 0000 00 00; 12:30),explicit_years_within_1880_1929,1,130.12,United States,Maryland
+153,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90067,1,1,1,10 Mar 1916 (1916 Mar 10 - 0000 00 00; 07:30 - 09:00),,missing,0,130.12,United States,Maryland
+154,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90070,1,1,1,,,missing,0,130.12,United States,Maryland
+155,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90071,1,1,1,,,missing,1,130.12,United States,Maryland
+156,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90085,1,1,1,21 Mar 1914 (0000 00 00 - 0000 00 00),,missing,0,130.12,United States,Maryland
+157,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90091,1,1,1,27 Jan 1921 (0000 00 00 - 0000 00 00),27 Jan 1921 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,130.12,United States,Maryland
+158,Alosa pseudoharengus,Population 4 of Alosa pseudoharengus,90094,1,1,1,23 Mar 1914 (0000 00 00 - 0000 00 00),23 Mar 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,
+159,Alosa pseudoharengus,Population 7 of Alosa pseudoharengus,90104,1,1,1,15 Jan 1914 (0000 00 00 - 0000 00 00),15 Jan 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,45.51,United States,Virginia
+160,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90129,1,1,1,,,missing,0,130.12,United States,Maryland
+161,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90130,1,1,1,,,missing,0,130.12,United States,Maryland
+162,Alosa pseudoharengus,Population 4 of Alosa pseudoharengus,90439,1,1,1,23 Feb 1914 (1914 Feb 23 - 0000 00 00),23 Feb 1914 (1914 Feb 23 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,
+163,Alosa pseudoharengus,Population 4 of Alosa pseudoharengus,90437,1,1,1,27 Jan 1921 (1921 Jan 27 - 0000 00 00),27 Jan 1921 (1921 Jan 27 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,
+164,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,129786,1,1,1,10 Dec 1915 (1915 Dec 10 - 0000 00 00),10 Dec 1915 (1915 Dec 10 - 0000 00 00),explicit_years_within_1880_1929,1,130.12,United States,Maryland
+165,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90524,1,1,1,9 Dec 1920 (1920 Dec 09 - 0000 00 00),9 Dec 1920 (1920 Dec 09 - 0000 00 00),explicit_years_within_1880_1929,1,130.12,United States,
+166,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90540,1,1,1,21 Mar 1914 (1914 Mar 21 - 0000 00 00; 15:40 - 15:51),21 Mar 1914 (1914 Mar 21 - 0000 00 00; 15:40 - 15:51),explicit_years_within_1880_1929,1,130.12,United States,Maryland
+167,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90536,1,1,1,28-Apr-14,28-Apr-14,no_explicit_four_digit_year,0,130.12,United States,Maryland
+168,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90538,1,1,1,17 Feb 1914 (1914 Feb 17 - 0000 00 00; 16:35 - 16:50),17 Feb 1914 (1914 Feb 17 - 0000 00 00; 16:35 - 16:50),explicit_years_within_1880_1929,0,130.12,United States,Maryland
+169,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,90435,1,1,1,10 Mar 1916 (1916 Mar 10 - 0000 00 00; 11:37 - 13:06),10 Mar 1916 (1916 Mar 10 - 0000 00 00; 11:37 - 13:06),explicit_years_within_1880_1929,0,130.12,United States,Maryland
+170,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,91384,1,1,1,19-Jan-14,19-Jan-14,no_explicit_four_digit_year,0,130.12,United States,Virginia
+171,Alosa pseudoharengus,Population 4 of Alosa pseudoharengus,90047,1,1,1,18-Feb-14,18-Feb-14,no_explicit_four_digit_year,1,0,United States,
+172,Alosa pseudoharengus,Population 7 of Alosa pseudoharengus,90436,1,1,1,22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),explicit_years_within_1880_1929,0,45.51,United States,Virginia
+173,Alosa pseudoharengus,Population 6 of Alosa pseudoharengus,69723,1,1,1,31 Mar 1894,31 Mar 1894,explicit_years_within_1880_1929,1,0,United States,Virginia
+174,Alosa pseudoharengus,Population 7 of Alosa pseudoharengus,30397,1,1,1,1882,1882,explicit_years_within_1880_1929,1,45.51,United States,Virginia
+175,Alosa pseudoharengus,Population 3 of Alosa pseudoharengus,30348,1,1,1,1882 (1882 00 00 - 0000 00 00),1882 (1882 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,130.12,United States,
+176,Alosa pseudoharengus,Population 4 of Alosa pseudoharengus,90537,1,1,1,15-Jan-14,15-Jan-14,no_explicit_four_digit_year,1,0,United States,
+177,Alosa pseudoharengus,Population 7 of Alosa pseudoharengus,39069,1,1,1,8 Apr 1887,8 Apr 1887,explicit_years_within_1880_1929,1,45.51,United States,Virginia
+178,Alosa sapidissima,Population 1 of Alosa sapidissima,69740,1,1,8,31 Mar 1894,31 Mar 1894,explicit_years_within_1880_1929,1,0,United States,Virginia
+179,Alosa sapidissima,Population 1 of Alosa sapidissima,129747,1,1,8,6-Mar-16,6-Mar-16,no_explicit_four_digit_year,1,0,United States,Virginia
+180,Alosa sapidissima,Population 1 of Alosa sapidissima,69738,1,1,6,16 Mar 1894,16 Mar 1894,explicit_years_within_1880_1929,1,0,United States,Virginia
+181,Alosa sapidissima,Population 1 of Alosa sapidissima,67689,1,1,5,24 Mar 1894,24 Mar 1894,explicit_years_within_1880_1929,1,0,United States,Virginia
+182,Alosa sapidissima,Population 1 of Alosa sapidissima,69739,1,1,4,31 Mar 1894,31 Mar 1894,explicit_years_within_1880_1929,1,0,United States,Virginia
+183,Ammodytes dubius,Population 1 of Ammodytes dubius,67636,1,1,85,9 Jun 1896 (1896 Jun 09 - 0000 00 00),9 Jun 1896 (1896 Jun 09 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Massachusetts
+184,Ammodytes dubius,Population 2 of Ammodytes dubius,302233,1,1,25,22 Sep 1988 (1988 Sep 22 - 0000 00 00),22 Sep 1988 (1988 Sep 22 - 0000 00 00),explicit_years_outside_1880_1929,0,0,,
+185,Ammodytes dubius,Population 3 of Ammodytes dubius,302238,1,1,24,18 Sep 1988 (1988 Sep 18 - 0000 00 00),18 Sep 1988 (1988 Sep 18 - 0000 00 00),explicit_years_outside_1880_1929,0,35.07,,
+186,Ammodytes dubius,Population 4 of Ammodytes dubius,302239,1,1,22,13 Sep 1988 (1988 Sep 13 - 0000 00 00),13 Sep 1988 (1988 Sep 13 - 0000 00 00),explicit_years_outside_1880_1929,0,0,,
+187,Ammodytes dubius,Population 5 of Ammodytes dubius,302235,1,1,20,23 Sep 1988 (1988 Sep 23 - 0000 00 00),23 Sep 1988 (1988 Sep 23 - 0000 00 00),explicit_years_outside_1880_1929,0,21.58,,
+188,Ammodytes dubius,Population 5 of Ammodytes dubius,302232,1,1,19,23 Sep 1988 (1988 Sep 23 - 0000 00 00),23 Sep 1988 (1988 Sep 23 - 0000 00 00),explicit_years_outside_1880_1929,0,21.58,,
+189,Ammodytes dubius,Population 3 of Ammodytes dubius,302359,1,1,15,18 Sep 1988 (1988 Sep 18 - 0000 00 00),18 Sep 1988 (1988 Sep 18 - 0000 00 00),explicit_years_outside_1880_1929,0,35.07,,
+190,Ammodytes dubius,Population 1 of Ammodytes dubius,126459,1,1,5,9 Jun 1896 (1896 Jun 09 - 0000 00 00),9 Jun 1896 (1896 Jun 09 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Massachusetts
+191,Ammodytes dubius,Population 3 of Ammodytes dubius,302236,1,1,2,18 Sep 1988 (1988 Sep 18 - 0000 00 00),18 Sep 1988 (1988 Sep 18 - 0000 00 00),explicit_years_outside_1880_1929,0,35.07,,
+192,Anchoa cayorum,Population 1 of Anchoa cayorum,83804,1,1,51,17 Mar 1885 (1885 Mar 17 - 0000 00 00),17 Mar 1885 (1885 Mar 17 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Florida
+193,Anchoa cayorum,Population 2 of Anchoa cayorum,54963,1,1,41,Jul 1892 (1892 Jul 00 - 0000 00 00),Jul 1892 (1892 Jul 00 - 0000 00 00),explicit_years_within_1880_1929,0,8.71,United States,Virginia
+194,Anchoa cayorum,Population 2 of Anchoa cayorum,54968,1,1,35,28 Jun 1892 (1892 Jun 28 - 0000 00 00),28 Jun 1892 (1892 Jun 28 - 0000 00 00),explicit_years_within_1880_1929,0,8.71,United States,Virginia
+195,Anchoa cayorum,Population 3 of Anchoa cayorum,37053,1,1,24,24 Jan 1885 (1885 Jan 24 - 0000 00 00),24 Jan 1885 (1885 Jan 24 - 0000 00 00),explicit_years_within_1880_1929,1,33.92,Mexico,Quintana Roo
+196,Anchoa cayorum,Population 3 of Anchoa cayorum,37105,1,1,23,27 Jan 1885 (0000 00 00 - 0000 00 00),27 Jan 1885 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,33.92,Mexico,Yucatan
+197,Anchoa cayorum,Population 2 of Anchoa cayorum,54979,1,1,10,7 Jul 1892 (1892 Jul 07 - 0000 00 00),7 Jul 1892 (1892 Jul 07 - 0000 00 00),explicit_years_within_1880_1929,0,8.71,United States,Virginia
+198,Anchoa cayorum,Population 2 of Anchoa cayorum,69727,1,1,10,29 Jun 1892 (1892 Jun 29 - 0000 00 00),29 Jun 1892 (1892 Jun 29 - 0000 00 00),explicit_years_within_1880_1929,0,8.71,United States,Virginia
+199,Anchoa colonensis,Population 1 of Anchoa colonensis,134058,1,1,100,1 Mar 1884 to 11 Mar 1884 (1884 Mar 01 - 1884 Mar 11),1 Mar 1884 to 11 Mar 1884 (1884 Mar 01 - 1884 Mar 11),explicit_years_within_1880_1929,1,0,Jamaica,
+200,Anchoa colonensis,Population 1 of Anchoa colonensis,131288,1,1,56,1 Mar 1884 to 11 Mar 1884 (1884 Mar 01 - 1884 Mar 11),1 Mar 1884 to 11 Mar 1884 (1884 Mar 01 - 1884 Mar 11),explicit_years_within_1880_1929,1,0,Jamaica,
+201,Anchoa colonensis,Population 2 of Anchoa colonensis,83803,1,1,53,16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),explicit_years_within_1880_1929,1,0,Colombia,Atlantico
+202,Anchoa colonensis,Population 2 of Anchoa colonensis,123223,1,1,1,16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),explicit_years_within_1880_1929,1,0,Colombia,Atlantico
+203,Anchoa hepsetus,Population 1 of Anchoa hepsetus,105340,1,1,30,18-Aug-14,18-Aug-14,no_explicit_four_digit_year,0,0,United States,North Carolina
+204,Anchoa lyolepis,Population 1 of Anchoa lyolepis,127626,1,1,12,10 Feb 1899 (1899 Feb 10 - 0000 00 00),10 Feb 1899 (1899 Feb 10 - 0000 00 00),explicit_years_within_1880_1929,0,1.31,United States,Puerto Rico
+205,Anchoa lyolepis,Population 1 of Anchoa lyolepis,127624,1,1,10,,,missing,1,1.31,United States,Puerto Rico
+206,Anchoa lyolepis,Population 1 of Anchoa lyolepis,50221,1,1,5,10 Feb 1899 (1899 Feb 10 - 0000 00 00),10 Feb 1899 (1899 Feb 10 - 0000 00 00),explicit_years_within_1880_1929,0,1.31,United States,Puerto Rico
+207,Anchoa mitchilli,Population 1 of Anchoa mitchilli,127518,1,1,50,9 Jul 1915 (1915 Jul 09 - 0000 00 00; 22:35 - 23:35),9 Jul 1915 (1915 Jul 09 - 0000 00 00; 22:35 - 23:35),explicit_years_within_1880_1929,0,0,United States,South Carolina
+208,Anchoa mitchilli,Population 2 of Anchoa mitchilli,90508,1,1,39,28-Mar-21,28-Mar-21,no_explicit_four_digit_year,1,37.23,United States,Maryland
+209,Anchoa mitchilli,Population 3 of Anchoa mitchilli,395381,1,1,30,9 Dec 1920 (1920 Dec 09 - 0000 00 00),9 Dec 1920 (1920 Dec 09 - 0000 00 00),explicit_years_within_1880_1929,1,93.32,United States,
+210,Anchoa mitchilli,Population 3 of Anchoa mitchilli,30343,1,1,25,6 Mar 1882,6 Mar 1882,explicit_years_within_1880_1929,0,93.32,United States,Virginia
+211,Anchoa mitchilli,Population 3 of Anchoa mitchilli,90238,1,1,25,16 Jan 1916 (1916 Jan 16 - 0000 00 00),16 Jan 1916 (1916 Jan 16 - 0000 00 00),explicit_years_within_1880_1929,0,93.32,United States,Virginia
+212,Anchoa mitchilli,Population 4 of Anchoa mitchilli,127747,1,1,22,15 Feb 1917 (1917 Feb 15 - 0000 00 00),15 Feb 1917 (1917 Feb 15 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Louisiana
+213,Anchoa mitchilli,Population 2 of Anchoa mitchilli,90264,1,1,15,28-Apr-14,28-Apr-14,no_explicit_four_digit_year,1,37.23,United States,Maryland
+214,Anchoa mitchilli,Population 3 of Anchoa mitchilli,54969,1,1,15,6 Jul 1892 (1892 Jul 06 - 0000 00 00),,missing,0,93.32,United States,Virginia
+215,Anchoa mitchilli,Population 2 of Anchoa mitchilli,90509,1,1,12,29-Mar-21,29-Mar-21,no_explicit_four_digit_year,1,37.23,United States,Maryland
+216,Anchoa mitchilli,Population 2 of Anchoa mitchilli,30386,1,1,12,28 Feb 1882 (1882 Feb 28 - 0000 00 00; 12:30),28 Feb 1882 (1882 Feb 28 - 0000 00 00; 12:30),explicit_years_within_1880_1929,1,37.23,United States,Maryland
+217,Anchoa mitchilli,Population 3 of Anchoa mitchilli,90510,1,1,12,22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),explicit_years_within_1880_1929,0,93.32,United States,Virginia
+218,Anchoa mitchilli,Population 2 of Anchoa mitchilli,30383,1,1,12,28 Feb 1882,28 Feb 1882,explicit_years_within_1880_1929,0,37.23,United States,Maryland
+219,Anchoa mitchilli,Population 3 of Anchoa mitchilli,127710,1,1,11,28 Jun 1892 (1892 Jun 28 - 0000 00 00),28 Jun 1892 (1892 Jun 28 - 0000 00 00),explicit_years_within_1880_1929,0,93.32,United States,Virginia
+220,Anchoa mitchilli,Population 3 of Anchoa mitchilli,30398,1,1,10,1882,1882,explicit_years_within_1880_1929,1,93.32,United States,Virginia
+221,Anchoa mitchilli,Population 2 of Anchoa mitchilli,90255,1,1,8,25-Aug-20,25-Aug-20,no_explicit_four_digit_year,1,37.23,United States,Maryland
+222,Anchoa mitchilli,Population 2 of Anchoa mitchilli,90493,1,1,5,28-Mar-21,28-Mar-21,no_explicit_four_digit_year,1,37.23,United States,Maryland
+223,Anchoa mitchilli,Population 2 of Anchoa mitchilli,90251,1,1,5,28-Mar-21,28-Mar-21,no_explicit_four_digit_year,1,37.23,United States,Maryland
+224,Anchoa mitchilli,Population 2 of Anchoa mitchilli,90250,1,1,5,30-Mar-21,30-Mar-21,no_explicit_four_digit_year,1,37.23,United States,Maryland
+225,Anchoa mitchilli,Population 2 of Anchoa mitchilli,90342,1,1,4,27 Jan 1921 (1921 Jan 27 - 0000 00 00),27 Jan 1921 (1921 Jan 27 - 0000 00 00),explicit_years_within_1880_1929,1,37.23,United States,Maryland
+226,Anchoa mitchilli,Population 3 of Anchoa mitchilli,90639,1,1,3,4 Dec 1920 (1920 Dec 04 - 0000 00 00; 17:38 - 18:24),4 Dec 1920 (1920 Dec 04 - 0000 00 00; 17:38 - 18:24),explicit_years_within_1880_1929,0,93.32,United States,Virginia
+227,Anchoa mitchilli,Population 3 of Anchoa mitchilli,90341,1,1,2,24-Jan-21,24-Jan-21,no_explicit_four_digit_year,1,93.32,United States,Virginia
+228,Anchoa mitchilli,Population 3 of Anchoa mitchilli,90495,1,1,2,2-Dec-15,2-Dec-15,no_explicit_four_digit_year,0,93.32,United States,Virginia
+229,Anchoa mitchilli,Population 3 of Anchoa mitchilli,54822,1,1,2,,,missing,1,93.32,United States,Virginia
+230,Anchoa mitchilli,Population 2 of Anchoa mitchilli,90492,1,1,1,28-Mar-21,28-Mar-21,no_explicit_four_digit_year,1,37.23,United States,Maryland
+231,Anchoa mitchilli,Population 3 of Anchoa mitchilli,90491,1,1,1,22-Jan-21,22-Jan-21,no_explicit_four_digit_year,0,93.32,United States,Virginia
+232,Anchoa mitchilli,Population 2 of Anchoa mitchilli,30389,1,1,1,28 Feb 1882,28 Feb 1882,explicit_years_within_1880_1929,0,37.23,United States,Maryland
+233,Anchoa mitchilli,Population 2 of Anchoa mitchilli,90268,1,1,1,17-Oct-20,17-Oct-20,no_explicit_four_digit_year,1,37.23,United States,Maryland
+234,Anchoa mitchilli,Population 3 of Anchoa mitchilli,127705,1,1,1,27 Jul 1916 (1916 Jul 27 - 0000 00 00; 09:33 - 10:25),27 Jul 1916 (1916 Jul 27 - 0000 00 00; 09:33 - 10:25),explicit_years_within_1880_1929,0,93.32,United States,Virginia
+235,Ancylopsetta dilecta,Population 1 of Ancylopsetta dilecta,151953,1,1,30,29 Jan 1950 (1950 Jan 29 - 0000 00 00),29 Jan 1950 (1950 Jan 29 - 0000 00 00),explicit_years_outside_1880_1929,0,34.03,United States,South Carolina
+236,Ancylopsetta dilecta,Population 1 of Ancylopsetta dilecta,151875,1,1,3,27 May 1949 (1949 May 27 - 0000 00 00),27 May 1949 (1949 May 27 - 0000 00 00),explicit_years_outside_1880_1929,0,34.03,United States,South Carolina
+237,Ancylopsetta dilecta,Population 1 of Ancylopsetta dilecta,151957,1,1,2,30 Jan 1950 (1950 Jan 30 - 0000 00 00),30 Jan 1950 (1950 Jan 30 - 0000 00 00),explicit_years_outside_1880_1929,0,34.03,United States,South Carolina
+238,Ancylopsetta dilecta,Population 1 of Ancylopsetta dilecta,151889,1,1,2,27 May 1949 (1949 May 27 - 0000 00 00),27 May 1949 (1949 May 27 - 0000 00 00),explicit_years_outside_1880_1929,0,34.03,United States,South Carolina
+239,Ancylopsetta dilecta,Population 1 of Ancylopsetta dilecta,45597,1,1,1,5 Jan 1885,5 Jan 1885,explicit_years_within_1880_1929,0,34.03,United States,South Carolina
+240,Ancylopsetta dilecta,Population 1 of Ancylopsetta dilecta,45595,1,1,1,5 Jan 1885,5 Jan 1885,explicit_years_within_1880_1929,0,34.03,United States,South Carolina
+241,Ancylopsetta dilecta,Population 1 of Ancylopsetta dilecta,45596,1,1,1,5 Jan 1885,5 Jan 1885,explicit_years_within_1880_1929,0,34.03,United States,South Carolina
+242,Apogon pseudomaculatus,Population 1 of Apogon pseudomaculatus,39151,1,1,13,18 Mar 1885,18 Mar 1885,explicit_years_within_1880_1929,0,30,United States,Florida
+243,Apogon pseudomaculatus,Population 1 of Apogon pseudomaculatus,131579,1,1,6,19 Mar 1885,19 Mar 1885,explicit_years_within_1880_1929,0,30,United States,Florida
+244,Apogon pseudomaculatus,Population 1 of Apogon pseudomaculatus,101567,1,1,3,18 Mar 1885,18 Mar 1885,explicit_years_within_1880_1929,0,30,United States,Florida
+245,Atherina harringtonensis,Population 1 of Atherina harringtonensis,37094,1,1,34,29 Jan 1885 (1885 Jan 29 - 0000 00 00),29 Jan 1885 (1885 Jan 29 - 0000 00 00),explicit_years_within_1880_1929,1,0,Mexico,Quintana Roo
+246,Atherina harringtonensis,Population 1 of Atherina harringtonensis,37095,1,1,32,29 Jan 1885 (1885 Jan 29 - 0000 00 00),29 Jan 1885 (1885 Jan 29 - 0000 00 00),explicit_years_within_1880_1929,1,0,Mexico,Quintana Roo
+247,Atherina harringtonensis,Population 2 of Atherina harringtonensis,92615,1,1,28,,,missing,1,0,Panama,Colon Province
+248,Atherina harringtonensis,Population 1 of Atherina harringtonensis,37097,1,1,12,29 Jan 1885 (1885 Jan 29 - 0000 00 00),29 Jan 1885 (1885 Jan 29 - 0000 00 00),explicit_years_within_1880_1929,1,0,Mexico,Quintana Roo
+249,Atherinomorus stipes,Population 1 of Atherinomorus stipes,38457,1,1,150,5 Mar 1886 (1886 Mar 05 - 0000 00 00),5 Mar 1886 (1886 Mar 05 - 0000 00 00),explicit_years_within_1880_1929,1,0,Bahamas,
+250,Atherinomorus stipes,Population 2 of Atherinomorus stipes,73827,1,1,128,30 Jan 1899,30 Jan 1899,explicit_years_within_1880_1929,0,0,United States,Puerto Rico
+251,Atherinomorus stipes,Population 3 of Atherinomorus stipes,38700,1,1,105,14 Jan 1885 (1885 Jan 14 - 0000 00 00),14 Jan 1885 (1885 Jan 14 - 0000 00 00),explicit_years_within_1880_1929,0,3.71,United States,Florida
+252,Atherinomorus stipes,Population 4 of Atherinomorus stipes,73829,1,1,86,11 Feb 1899 (1899 Feb 11 - 0000 00 00),11 Feb 1899 (1899 Feb 11 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Puerto Rico
+253,Atherinomorus stipes,Population 1 of Atherinomorus stipes,38456,1,1,75,5 Mar 1886 (1886 Mar 05 - 0000 00 00),5 Mar 1886 (1886 Mar 05 - 0000 00 00),explicit_years_within_1880_1929,1,0,Bahamas,
+254,Atherinomorus stipes,Population 5 of Atherinomorus stipes,37098,1,1,50,29 Jan 1885 (1885 Jan 29 - 0000 00 00),29 Jan 1885 (1885 Jan 29 - 0000 00 00),explicit_years_within_1880_1929,1,33.92,Mexico,Yucatan
+255,Atherinomorus stipes,Population 5 of Atherinomorus stipes,37099,1,1,50,24 Jan 1885 (1885 Jan 24 - 0000 00 00),24 Jan 1885 (1885 Jan 24 - 0000 00 00),explicit_years_within_1880_1929,1,33.92,Mexico,Quintana Roo
+256,Atherinomorus stipes,Population 1 of Atherinomorus stipes,38458,1,1,43,5 Mar 1886 (1886 Mar 05 - 0000 00 00),5 Mar 1886 (1886 Mar 05 - 0000 00 00),explicit_years_within_1880_1929,1,0,Bahamas,
+257,Atherinomorus stipes,Population 5 of Atherinomorus stipes,37096,1,1,29,29 Jan 1885 (1885 Jan 29 - 0000 00 00),29 Jan 1885 (1885 Jan 29 - 0000 00 00),explicit_years_within_1880_1929,1,33.92,Mexico,Quintana Roo
+258,Atherinomorus stipes,Population 6 of Atherinomorus stipes,38649,1,1,27,17 Jan 1884 to 24 Jan 1884 (1884 Jan 17 - 1884 Jan 24),17 Jan 1884 to 24 Jan 1884 (1884 Jan 17 - 1884 Jan 24),explicit_years_within_1880_1929,1,0,Virgin Islands (U.S.),
+259,Atherinomorus stipes,Population 4 of Atherinomorus stipes,50121,1,1,8,8 Feb 1899 (1899 Feb 08 - 0000 00 00),8 Feb 1899 (1899 Feb 08 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Puerto Rico
+260,Atherinomorus stipes,Population 3 of Atherinomorus stipes,91413,1,1,7,28 Nov 1919 (1919 Nov 28 - 0000 00 00),28 Nov 1919 (1919 Nov 28 - 0000 00 00),explicit_years_within_1880_1929,0,3.71,United States,Florida
+261,Atherinomorus stipes,Population 1 of Atherinomorus stipes,38460,1,1,5,10 Mar 1886 (1886 Mar 10 - 0000 00 00),10 Mar 1886 (1886 Mar 10 - 0000 00 00),explicit_years_within_1880_1929,1,0,Bahamas,
+262,Atherinomorus stipes,Population 5 of Atherinomorus stipes,37112,1,1,5,29 Jan 1885 (1885 Jan 29 - 0000 00 00),29 Jan 1885 (1885 Jan 29 - 0000 00 00),explicit_years_within_1880_1929,1,33.92,Mexico,Quintana Roo
+263,Atherinomorus stipes,Population 4 of Atherinomorus stipes,63051,1,1,4,11 Feb 1899 (1899 Feb 11 - 0000 00 00),11 Feb 1899 (1899 Feb 11 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Puerto Rico
+264,Atherinomorus stipes,Population 4 of Atherinomorus stipes,123371,1,1,2,11 Feb 1899 (1899 Feb 11 - 0000 00 00),11 Feb 1899 (1899 Feb 11 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Puerto Rico
+265,Atherinomorus stipes,Population 1 of Atherinomorus stipes,38459,1,1,1,,,missing,1,0,Bahamas,
+266,Atherinomorus stipes,Population 5 of Atherinomorus stipes,37059,1,1,1,24 Jan 1885 (1885 Jan 24 - 0000 00 00),24 Jan 1885 (1885 Jan 24 - 0000 00 00),explicit_years_within_1880_1929,1,33.92,Mexico,Quintana Roo
+267,Brevoortia patronus,Population 1 of Brevoortia patronus,134126,1,1,20,27 Feb 1917 (1917 Feb 27 - 0000 00 00),27 Feb 1917 (1917 Feb 27 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Texas
+268,Brevoortia patronus,Population 2 of Brevoortia patronus,124398,1,1,17,9-Mar-17,9-Mar-17,no_explicit_four_digit_year,1,0,United States,Texas
+269,Brevoortia patronus,Population 2 of Brevoortia patronus,134128,1,1,15,9-Mar-17,9-Mar-17,no_explicit_four_digit_year,1,0,United States,Texas
+270,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,134156,1,1,50,22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),explicit_years_within_1880_1929,0,240,United States,Virginia
+271,Brevoortia tyrannus,Population 2 of Brevoortia tyrannus,124397,1,1,50,22-Jan-21,22-Jan-21,no_explicit_four_digit_year,1,0,United States,
+272,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,67821,1,1,50,16 Jul 1892 (1892 Jul 16 - 0000 00 00),16 Jul 1892 (1892 Jul 16 - 0000 00 00),explicit_years_within_1880_1929,0,240,United States,Virginia
+273,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,58810,1,1,50,,,missing,1,240,United States,Virginia
+274,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,89998,1,1,37,,,missing,1,240,United States,
+275,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,134151,1,1,29,26-Jan-16,26-Jan-16,no_explicit_four_digit_year,1,240,United States,Maryland
+276,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90022,1,1,28,26 Jan 1921 (1921 Jan 26 - 0000 00 00; 13:28 - 14:22),26 Jan 1921 (1921 Jan 26 - 0000 00 00; 13:28 - 14:22),explicit_years_within_1880_1929,0,240,United States,Maryland
+277,Brevoortia tyrannus,Population 3 of Brevoortia tyrannus,70147,1,1,25,10 Aug 1892 (1892 Aug 10 - 0000 00 00),10 Aug 1892 (1892 Aug 10 - 0000 00 00),explicit_years_within_1880_1929,0,29.79,United States,Massachusetts
+278,Brevoortia tyrannus,Population 4 of Brevoortia tyrannus,59812,1,1,25,1894,1894,explicit_years_within_1880_1929,1,0,United States,Virginia
+279,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90029,1,1,20,26 Jan 1921 (0000 00 00 - 0000 00 00),26 Jan 1921 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,240,United States,Maryland
+280,Brevoortia tyrannus,Population 4 of Brevoortia tyrannus,54885,1,1,19,21 Apr 1893,21 Apr 1893,explicit_years_within_1880_1929,1,0,United States,Virginia
+281,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,69708,1,1,19,19 Jul 1892 (1892 Jul 19 - 0000 00 00),19 Jul 1892 (1892 Jul 19 - 0000 00 00),explicit_years_within_1880_1929,0,240,United States,Virginia
+282,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90015,1,1,16,19-Jan-14,,missing,0,240,United States,Virginia
+283,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90024,1,1,16,27 Jan 1921 (1921 Jan 27 - 0000 00 00),27 Jan 1921 (1921 Jan 27 - 0000 00 00),explicit_years_within_1880_1929,1,240,United States,Maryland
+284,Brevoortia tyrannus,Population 3 of Brevoortia tyrannus,54879,1,1,15,,,missing,1,29.79,United States,Massachusetts
+285,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90018,1,1,13,19-Jan-14,,missing,0,240,United States,Virginia
+286,Brevoortia tyrannus,Population 4 of Brevoortia tyrannus,59814,1,1,13,1893,1893,explicit_years_within_1880_1929,1,0,United States,Virginia
+287,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90020,1,1,12,27 Jan 1916 (1916 Jan 27 - 0000 00 00; 07:36 - 08:25),27 Jan 1916 (1916 Jan 27 - 0000 00 00; 07:36 - 08:25),explicit_years_within_1880_1929,0,240,United States,Maryland
+288,Brevoortia tyrannus,Population 3 of Brevoortia tyrannus,54880,1,1,12,,,missing,1,29.79,United States,Massachusetts
+289,Brevoortia tyrannus,Population 3 of Brevoortia tyrannus,54882,1,1,12,29 Aug 1892 (1892 Aug 29 - 0000 00 00),,missing,0,29.79,United States,Massachusetts
+290,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90021,1,1,11,,,missing,0,240,United States,Maryland
+291,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90026,1,1,11,8 Dec 1920 (0000 00 00 - 0000 00 00),8 Dec 1920 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,240,United States,Maryland
+292,Brevoortia tyrannus,Population 3 of Brevoortia tyrannus,54878,1,1,11,,,missing,0,29.79,United States,Massachusetts
+293,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,58812,1,1,11,,,missing,1,240,United States,
+294,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,58813,1,1,11,,,missing,1,240,United States,Virginia
+295,Brevoortia tyrannus,Population 3 of Brevoortia tyrannus,54876,1,1,10,2 Sep 1899 (1899 Sep 02 - 0000 00 00),,missing,0,29.79,United States,Massachusetts
+296,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,89999,1,1,9,19 Jan 1916 (1916 Jan 19 - 0000 00 00; 16:21 - 17:30),19 Jan 1916 (1916 Jan 19 - 0000 00 00; 16:21 - 17:30),explicit_years_within_1880_1929,0,240,United States,Maryland
+297,Brevoortia tyrannus,Population 3 of Brevoortia tyrannus,54877,1,1,9,,,missing,0,29.79,United States,Massachusetts
+298,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90011,1,1,7,8 Dec 1920 (0000 00 00 - 0000 00 00),8 Dec 1920 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,240,United States,Maryland
+299,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90016,1,1,7,,,missing,0,240,United States,Maryland
+300,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,67883,1,1,7,30 Apr 1895,30 Apr 1895,explicit_years_within_1880_1929,1,240,United States,Virginia
+301,Brevoortia tyrannus,Population 4 of Brevoortia tyrannus,54884,1,1,7,,,missing,1,0,United States,Virginia
+302,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,134145,1,1,7,20 Jan 1916 (1916 Jan 20 - 0000 00 00; 10:48 - 12:15),20 Jan 1916 (1916 Jan 20 - 0000 00 00; 10:48 - 12:15),explicit_years_within_1880_1929,0,240,United States,Maryland
+303,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90039,1,1,7,18-Feb-14,18-Feb-14,no_explicit_four_digit_year,1,240,United States,Maryland
+304,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90038,1,1,6,23-Apr-16,,missing,0,240,United States,Virginia
+305,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90014,1,1,5,,,missing,1,240,United States,Maryland
+306,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90035,1,1,5,28-Mar-21,28-Mar-21,no_explicit_four_digit_year,1,240,United States,Maryland
+307,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90000,1,1,4,,,missing,0,240,United States,Maryland
+308,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90008,1,1,4,,,missing,0,240,United States,Maryland
+309,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90019,1,1,4,,,missing,1,240,United States,Maryland
+310,Brevoortia tyrannus,Population 2 of Brevoortia tyrannus,90004,1,1,4,27-Mar-21,27-Mar-21,no_explicit_four_digit_year,1,0,United States,
+311,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90005,1,1,3,20 Jan 1916 (1916 Jan 20 - 0000 00 00; 07:45 - 09:55),,missing,0,240,United States,Maryland
+312,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90017,1,1,3,,,missing,1,240,United States,Maryland
+313,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90033,1,1,3,8 Dec 1920 (1920 Dec 08 - 0000 00 00; 12:03 - 12:24),8 Dec 1920 (1920 Dec 08 - 0000 00 00; 12:03 - 12:24),explicit_years_within_1880_1929,1,240,United States,Maryland
+314,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90040,1,1,3,,,missing,1,240,United States,Maryland
+315,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,403969,1,1,3,29-Apr-14,29-Apr-14,no_explicit_four_digit_year,1,240,United States,Maryland
+316,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,67637,1,1,3,27 Jun 1892,27 Jun 1892,explicit_years_within_1880_1929,1,240,United States,Virginia
+317,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,30347,1,1,2,11 Mar 1882 (1882 Mar 11 - 0000 00 00; 11:22),11 Mar 1882 (1882 Mar 11 - 0000 00 00; 11:22),explicit_years_within_1880_1929,1,240,United States,Maryland
+318,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,129760,1,1,2,26 Jan 1921 (1921 Jan 26 - 0000 00 00),26 Jan 1921 (1921 Jan 26 - 0000 00 00),explicit_years_within_1880_1929,1,240,United States,Maryland
+319,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,30377,1,1,2,1882 (1882 00 00 - 0000 00 00),1882 (1882 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,240,United States,Maryland
+320,Brevoortia tyrannus,Population 4 of Brevoortia tyrannus,67820,1,1,2,24 Mar 1894,24 Mar 1894,explicit_years_within_1880_1929,1,0,United States,Virginia
+321,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,54883,1,1,2,,,missing,1,240,United States,
+322,Brevoortia tyrannus,Population 4 of Brevoortia tyrannus,72325,1,1,2,23 Mar 1893,23 Mar 1893,explicit_years_within_1880_1929,1,0,United States,Virginia
+323,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90002,1,1,1,,,missing,0,240,United States,Maryland
+324,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90009,1,1,1,,,missing,0,240,United States,Virginia
+325,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90012,1,1,1,19 Jan 1916 (1916 Jan 19 - 0000 00 00; 06:58 - 09:04),,missing,0,240,United States,Virginia
+326,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90032,1,1,1,,,missing,0,240,United States,Virginia
+327,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,90042,1,1,1,18 Feb 1914 (1914 Feb 18 - 0000 00 00),18 Feb 1914 (1914 Feb 18 - 0000 00 00),explicit_years_within_1880_1929,0,240,United States,Maryland
+328,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,30361,1,1,1,1882 (1882 00 00 - 0000 00 00),1882 (1882 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,240,United States,Maryland
+329,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,30394,1,1,1,1882 (1882 00 00 - 0000 00 00),1882 (1882 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,240,United States,Maryland
+330,Brevoortia tyrannus,Population 1 of Brevoortia tyrannus,30369,1,1,1,5 Mar 1882,5 Mar 1882,explicit_years_within_1880_1929,1,240,United States,Virginia
+331,Centrobranchus nigroocellatus,Population 1 of Centrobranchus nigroocellatus,100610,1,1,44,3 Mar 1914 (1914 Mar 03 - 0000 00 00),3 Mar 1914 (1914 Mar 03 - 0000 00 00),explicit_years_within_1880_1929,0,0,Bahamas,
+332,Centropristis striata,Population 1 of Centropristis striata,70139,1,1,65,1892 (1892 00 00 - 0000 00 00),1892 (1892 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+333,Centropristis striata,Population 1 of Centropristis striata,142818,1,1,61,23 Aug 1892 (1892 00 00 - 0000 00 00),23 Aug 1892 (1892 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+334,Centropristis striata,Population 1 of Centropristis striata,54857,1,1,13,10 Aug 1892 (1892 Aug 10 - 0000 00 00),10 Aug 1892 (1892 Aug 10 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+335,Centropristis striata,Population 1 of Centropristis striata,54833,1,1,11,1892 (1892 00 00 - 0000 00 00),1892 (1892 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+336,Centropristis striata,Population 1 of Centropristis striata,67604,1,1,8,23 Aug 1892,23 Aug 1892,explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+337,Centropristis striata,Population 1 of Centropristis striata,54834,1,1,5,1892 (1892 00 00 - 0000 00 00),1892 (1892 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+338,Centropristis striata,Population 1 of Centropristis striata,120553,1,1,5,28 Aug 1899 (1899 Aug 28 - 0000 00 00),28 Aug 1899 (1899 Aug 28 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+339,Centropristis striata,Population 1 of Centropristis striata,120555,1,1,4,22 Aug 1899 (1899 Aug 22 - 0000 00 00),22 Aug 1899 (1899 Aug 22 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+340,Centropristis striata,Population 1 of Centropristis striata,54832,1,1,1,20 Aug 1892 (1892 Aug 20 - 0000 00 00),20 Aug 1892 (1892 Aug 20 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+341,Centropristis striata,Population 1 of Centropristis striata,120554,1,1,1,1 Sep 1899 (1899 Sep 01 - 0000 00 00),1 Sep 1899 (1899 Sep 01 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+342,Cetengraulis edentulus,Population 1 of Cetengraulis edentulus,117673,1,1,35,16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),explicit_years_within_1880_1929,1,0,Colombia,Atlantico
+343,Cetengraulis edentulus,Population 1 of Cetengraulis edentulus,132212,1,1,4,16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),explicit_years_within_1880_1929,1,0,Colombia,Atlantico
+344,Chlorophthalmus agassizi,Population 1 of Chlorophthalmus agassizi,43826,1,1,21,5 Jan 1885,5 Jan 1885,explicit_years_within_1880_1929,0,36.37,United States,South Carolina
+345,Chlorophthalmus agassizi,Population 1 of Chlorophthalmus agassizi,43852,1,1,3,21 Oct 1885,21 Oct 1885,explicit_years_within_1880_1929,0,36.37,United States,South Carolina
+346,Chlorophthalmus agassizi,Population 1 of Chlorophthalmus agassizi,41600,1,1,2,5 Jan 1885,5 Jan 1885,explicit_years_within_1880_1929,0,36.37,United States,South Carolina
+347,Chloroscombrus chrysurus,Population 1 of Chloroscombrus chrysurus,90787,1,1,46,4 Dec 1919 (1919 Dec 04 - 0000 00 00),4 Dec 1919 (1919 Dec 04 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Florida
+348,Chloroscombrus chrysurus,Population 2 of Chloroscombrus chrysurus,438507,1,1,25,19 Oct 1885,19 Oct 1885,explicit_years_within_1880_1929,0,0,United States,North Carolina
+349,Chromis enchrysurus,Population 1 of Chromis enchrysurus,134277,1,1,24,30 Jan 1885,30 Jan 1885,explicit_years_within_1880_1929,0,0,Mexico,Quintana Roo
+350,Chromis enchrysurus,Population 1 of Chromis enchrysurus,47695,1,1,10,30 Jan 1885,30 Jan 1885,explicit_years_within_1880_1929,0,0,Mexico,Quintana Roo
+351,Chromis enchrysurus,Population 1 of Chromis enchrysurus,44157,1,1,3,30 Jan 1885,30 Jan 1885,explicit_years_within_1880_1929,0,0,Mexico,Quintana Roo
+352,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,26129,1,1,23,1880 (1880 00 00 - 0000 00 00),1880 (1880 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,123.6,United States,Rhode Island
+353,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,59817,1,1,20,1 Sep 1899 (1 Sep 1899; 08:45),1 Sep 1899 (1 Sep 1899; 08:45),explicit_years_within_1880_1929,0,123.6,,
+354,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,45620,1,1,16,26 Sep 1884,26 Sep 1884,explicit_years_within_1880_1929,0,123.6,United States,Massachusetts
+355,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,33541,1,1,15,20 Sep 1883,20 Sep 1883,explicit_years_within_1880_1929,0,123.6,United States,
+356,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,26127,1,1,14,1880 (1880 00 00 - 0000 00 00),1880 (1880 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,123.6,United States,Rhode Island
+357,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,45626,1,1,14,5 Apr 1885,5 Apr 1885,explicit_years_within_1880_1929,0,93.03,United States,Virginia
+358,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,35678,1,1,14,26 Sep 1884,26 Sep 1884,explicit_years_within_1880_1929,0,123.6,United States,Massachusetts
+359,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,35676,1,1,8,27 Sep 1884,27 Sep 1884,explicit_years_within_1880_1929,0,123.6,United States,Massachusetts
+360,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,35675,1,1,7,27 Sep 1884,27 Sep 1884,explicit_years_within_1880_1929,0,123.6,United States,Massachusetts
+361,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,35677,1,1,6,26 Sep 1884,26 Sep 1884,explicit_years_within_1880_1929,0,123.6,United States,Massachusetts
+362,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,35674,1,1,6,27 Sep 1884,27 Sep 1884,explicit_years_within_1880_1929,0,123.6,United States,Massachusetts
+363,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,45613,1,1,6,21 May 1883,21 May 1883,explicit_years_within_1880_1929,0,93.03,United States,Virginia
+364,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,26100,1,1,4,13 Sep 1880 (1880 Sep 13 - 0000 00 00; 08:45),13 Sep 1880 (1880 Sep 13 - 0000 00 00; 08:45),explicit_years_within_1880_1929,0,123.6,United States,Massachusetts
+365,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,45627,1,1,4,5 Apr 1885,5 Apr 1885,explicit_years_within_1880_1929,0,93.03,United States,Virginia
+366,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,45618,1,1,3,16 Jul 1881 (1881 Jul 16 - 0000 00 00; 10:57),16 Jul 1881 (1881 Jul 16 - 0000 00 00; 10:57),explicit_years_within_1880_1929,0,123.6,United States,Massachusetts
+367,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,35474,1,1,3,6 Aug 1884,6 Aug 1884,explicit_years_within_1880_1929,0,123.6,United States,
+368,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,33349,1,1,2,16 Aug 1883 (1883 Aug 16 - 0000 00 00),16 Aug 1883 (1883 Aug 16 - 0000 00 00),explicit_years_within_1880_1929,1,123.6,United States,Massachusetts
+369,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,45617,1,1,2,16 Jul 1881 (1881 Jul 16 - 0000 00 00),16 Jul 1881 (1881 Jul 16 - 0000 00 00),explicit_years_within_1880_1929,0,123.6,United States,Massachusetts
+370,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,35679,1,1,2,26 Sep 1884,26 Sep 1884,explicit_years_within_1880_1929,0,123.6,United States,Massachusetts
+371,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,433306,3,3,1,7-Sep-06,,ambiguous_or_missing_raw_join,,93.03,,
+372,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,433310,3,3,1,7-Sep-06,,ambiguous_or_missing_raw_join,,93.03,,
+373,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,433308,3,3,1,7-Sep-06,,ambiguous_or_missing_raw_join,,93.03,,
+374,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,433306,3,3,1,7-Sep-06,,ambiguous_or_missing_raw_join,,93.03,,
+375,Citharichthys arctifrons,Population 1 of Citharichthys arctifrons,45628,1,1,1,28 Sep 1884,28 Sep 1884,explicit_years_within_1880_1929,0,123.6,United States,Massachusetts
+376,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,45630,1,1,1,23 Mar 1883,23 Mar 1883,explicit_years_within_1880_1929,0,93.03,United States,Virginia
+377,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,433308,3,3,1,7-Sep-06,,ambiguous_or_missing_raw_join,,93.03,,
+378,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,433310,3,3,1,7-Sep-06,,ambiguous_or_missing_raw_join,,93.03,,
+379,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,433306,3,3,1,7-Sep-06,,ambiguous_or_missing_raw_join,,93.03,,
+380,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,433308,3,3,1,7-Sep-06,,ambiguous_or_missing_raw_join,,93.03,,
+381,Citharichthys arctifrons,Population 2 of Citharichthys arctifrons,433310,3,3,1,7-Sep-06,,ambiguous_or_missing_raw_join,,93.03,,
+382,Citharichthys gymnorhinus,Population 1 of Citharichthys gymnorhinus,45610,1,1,23,15 Jan 1885,15 Jan 1885,explicit_years_within_1880_1929,0,2.99,United States,Florida
+383,Citharichthys gymnorhinus,Population 1 of Citharichthys gymnorhinus,397311,1,1,12,15 Jan 1885,15 Jan 1885,explicit_years_within_1880_1929,0,2.99,United States,Florida
+384,Citharichthys gymnorhinus,Population 1 of Citharichthys gymnorhinus,129946,1,1,2,15 Jan 1885,15 Jan 1885,explicit_years_within_1880_1929,0,2.99,United States,Florida
+385,Citharichthys gymnorhinus,Population 1 of Citharichthys gymnorhinus,143120,1,1,1,15 Jan 1885,15 Jan 1885,explicit_years_within_1880_1929,0,2.99,United States,Florida
+386,Clupea harengus,Population 1 of Clupea harengus,143806,1,1,50,19 Mar 1894,19 Mar 1894,explicit_years_within_1880_1929,1,0,United States,Virginia
+387,Clupea harengus,Population 2 of Clupea harengus,155974,1,1,50,,,missing,1,0,United States,Maine
+388,Clupea harengus,Population 3 of Clupea harengus,329955,1,1,28,27 Apr 1994 (1994 Apr 27 - 0000 00 00; 09:39 - 10:09),27 Apr 1994 (1994 Apr 27 - 0000 00 00; 09:39 - 10:09),explicit_years_outside_1880_1929,0,11.1,United States,Massachusetts
+389,Clupea harengus,Population 3 of Clupea harengus,329947,1,1,4,27 Apr 1994 (1994 Apr 27 - 0000 00 00; 08:06 - 08:40),27 Apr 1994 (1994 Apr 27 - 0000 00 00; 08:06 - 08:40),explicit_years_outside_1880_1929,0,11.1,United States,Massachusetts
+390,Clupea harengus,Population 3 of Clupea harengus,325972,1,1,1,21 Apr 1993 (1993 Apr 21 - 0000 00 00; 00:05),21 Apr 1993 (1993 Apr 21 - 0000 00 00; 00:05),explicit_years_outside_1880_1929,0,11.1,United States,Massachusetts
+391,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,28891,1,1,4,8 Sep 1881 (1881 Sep 08 - 0000 00 00),8 Sep 1881 (1881 Sep 08 - 0000 00 00),explicit_years_within_1880_1929,0,136.51,United States,New Jersey
+392,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,26189,1,1,3,2 Oct 1880,2 Oct 1880,explicit_years_within_1880_1929,1,136.51,United States,Rhode Island
+393,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,33512,1,1,3,21 Sep 1883,21 Sep 1883,explicit_years_within_1880_1929,0,136.51,United States,
+394,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,33543,1,1,3,20 Sep 1883,20 Sep 1883,explicit_years_within_1880_1929,0,136.51,United States,
+395,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,35476,1,1,3,2 Aug 1884,2 Aug 1884,explicit_years_within_1880_1929,0,136.51,United States,
+396,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,26197,1,1,2,2 Oct 1880,2 Oct 1880,explicit_years_within_1880_1929,0,136.51,United States,
+397,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,134174,1,1,2,18 Sep 1885 (1885 Sep 18 - 0000 00 00),18 Sep 1885 (1885 Sep 18 - 0000 00 00),explicit_years_within_1880_1929,0,136.51,United States,New Jersey
+398,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,436681,1,1,2,8 Aug 1885,8 Aug 1885,explicit_years_within_1880_1929,0,136.51,United States,
+399,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,26188,1,1,1,2 Oct 1880,2 Oct 1880,explicit_years_within_1880_1929,0,136.51,United States,
+400,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,31775,1,1,1,8 Sep 1882 (1882 Sep 08 - 0000 00 00; 07:24),8 Sep 1882 (1882 Sep 08 - 0000 00 00; 07:24),explicit_years_within_1880_1929,0,136.51,United States,Massachusetts
+401,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,31868,1,1,1,4 Oct 1882 (1882 Oct 04 - 0000 00 00),4 Oct 1882 (1882 Oct 04 - 0000 00 00),explicit_years_within_1880_1929,0,136.51,United States,New Jersey
+402,Coelorinchus carminatus,Population 1 of Coelorinchus carminatus,45694,1,1,1,13 Sep 1880 (1880 Sep 13 - 0000 00 00; 13:20),13 Sep 1880 (1880 Sep 13 - 0000 00 00; 13:20),explicit_years_within_1880_1929,0,136.51,United States,Massachusetts
+403,Conodon nobilis,Population 1 of Conodon nobilis,143171,1,1,17,16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),explicit_years_within_1880_1929,1,0,Colombia,Atlantico
+404,Conodon nobilis,Population 1 of Conodon nobilis,38579,1,1,3,16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),16 Mar 1884 to 22 Mar 1884 (1884 Mar 16 - 1884 Mar 22),explicit_years_within_1880_1929,1,0,Colombia,Atlantico
+405,Cyclopterus lumpus,Population 1 of Cyclopterus lumpus,131969,1,1,53,13-Aug-12,13-Aug-12,no_explicit_four_digit_year,1,0,United States,Maine
+406,Cynoscion nothus,Population 1 of Cynoscion nothus,142662,1,1,30,4 Dec 1919 (1919 Dec 04 - 0000 00 00; 09:30 - 11:30),4 Dec 1919 (1919 Dec 04 - 0000 00 00; 09:30 - 11:30),explicit_years_within_1880_1929,0,0,United States,Florida
+407,Cynoscion regalis,Population 1 of Cynoscion regalis,142535,1,1,10,6-Dec-19,6-Dec-19,no_explicit_four_digit_year,0,0,United States,Florida
+408,Cynoscion regalis,Population 1 of Cynoscion regalis,142533,1,1,10,6-Dec-19,6-Dec-19,no_explicit_four_digit_year,0,0,United States,Florida
+409,Cynoscion regalis,Population 1 of Cynoscion regalis,142532,1,1,7,6-Dec-19,6-Dec-19,no_explicit_four_digit_year,0,0,United States,Florida
+410,Cynoscion regalis,Population 1 of Cynoscion regalis,142531,1,1,1,6-Dec-19,6-Dec-19,no_explicit_four_digit_year,0,0,United States,Florida
+411,Dajaus monticola,Population 1 of Dajaus monticola,73742,1,1,20,9 Jan 1899 (1899 Jan 09 - 0000 00 00),9 Jan 1899 (1899 Jan 09 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Puerto Rico
+412,Decapterus punctatus,Population 1 of Decapterus punctatus,106056,1,1,84,19 Oct 1885,19 Oct 1885,explicit_years_within_1880_1929,0,152.72,United States,North Carolina
+413,Decapterus punctatus,Population 1 of Decapterus punctatus,105446,1,1,19,18 Oct 1885,18 Oct 1885,explicit_years_within_1880_1929,0,152.72,United States,North Carolina
+414,Decapterus punctatus,Population 1 of Decapterus punctatus,105445,1,1,15,2 Sep 1914 (1914 Sep 02 - 0000 00 00),2 Sep 1914 (1914 Sep 02 - 0000 00 00),explicit_years_within_1880_1929,0,152.72,United States,North Carolina
+415,Decapterus punctatus,Population 1 of Decapterus punctatus,302378,1,1,6,16 Sep 1988 (1988 Sep 16 - 0000 00 00),16 Sep 1988 (1988 Sep 16 - 0000 00 00),explicit_years_outside_1880_1929,0,152.72,,
+416,Decapterus punctatus,Population 1 of Decapterus punctatus,83768,1,1,5,18 Oct 1885,18 Oct 1885,explicit_years_within_1880_1929,0,152.72,United States,North Carolina
+417,Decapterus punctatus,Population 1 of Decapterus punctatus,302377,1,1,3,17 Sep 1988 (1988 Sep 17 - 0000 00 00),17 Sep 1988 (1988 Sep 17 - 0000 00 00),explicit_years_outside_1880_1929,0,152.72,,
+418,Decapterus punctatus,Population 1 of Decapterus punctatus,105443,1,1,1,2 Sep 1914 (1914 Sep 02 - 0000 00 00),2 Sep 1914 (1914 Sep 02 - 0000 00 00),explicit_years_within_1880_1929,0,152.72,United States,North Carolina
+419,Decapterus punctatus,Population 1 of Decapterus punctatus,433166,3,3,1,9-Sep-06,,ambiguous_or_missing_raw_join,,152.72,,
+420,Decapterus punctatus,Population 1 of Decapterus punctatus,433184,3,3,1,9-Sep-06,,ambiguous_or_missing_raw_join,,152.72,,
+421,Decapterus punctatus,Population 1 of Decapterus punctatus,433166,3,3,1,9-Sep-06,,ambiguous_or_missing_raw_join,,152.72,,
+422,Decapterus punctatus,Population 1 of Decapterus punctatus,433184,3,3,1,9-Sep-06,,ambiguous_or_missing_raw_join,,152.72,,
+423,Decapterus punctatus,Population 1 of Decapterus punctatus,101575,1,1,1,18 Oct 1885,18 Oct 1885,explicit_years_within_1880_1929,0,152.72,United States,North Carolina
+424,Decapterus punctatus,Population 1 of Decapterus punctatus,433184,3,3,1,9-Sep-06,,ambiguous_or_missing_raw_join,,152.72,,
+425,Decapterus punctatus,Population 1 of Decapterus punctatus,433166,3,3,1,9-Sep-06,,ambiguous_or_missing_raw_join,,152.72,,
+426,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,84543,1,1,8,8 Aug 1885,8 Aug 1885,explicit_years_within_1880_1929,0,191.88,United States,
+427,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,28727,1,1,7,16 Jul 1881 (16 Jul 1881; 15:35),16 Jul 1881 (16 Jul 1881; 15:35),explicit_years_within_1880_1929,0,191.88,United States,
+428,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,83876,1,1,6,25 May 1883,25 May 1883,explicit_years_within_1880_1929,0,191.88,United States,
+429,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,31582,1,1,3,11 Aug 1882 (11 Aug 1882; 13:39),11 Aug 1882 (11 Aug 1882; 13:39),explicit_years_within_1880_1929,0,191.88,United States,
+430,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,45641,1,1,3,25 May 1883,25 May 1883,explicit_years_within_1880_1929,0,191.88,United States,
+431,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,28836,1,1,2,23 Aug 1881 (23 Aug 1881; 09:40),23 Aug 1881 (23 Aug 1881; 09:40),explicit_years_within_1880_1929,0,191.88,United States,
+432,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,45640,1,1,2,25 May 1883,25 May 1883,explicit_years_within_1880_1929,0,191.88,United States,
+433,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,33515,1,1,2,21 Sep 1883,21 Sep 1883,explicit_years_within_1880_1929,0,191.88,United States,
+434,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,45639,1,1,2,7 Aug 1885,7 Aug 1885,explicit_years_within_1880_1929,0,191.88,United States,
+435,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,35564,1,1,2,22 Aug 1884,22 Aug 1884,explicit_years_within_1880_1929,0,191.88,United States,
+436,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,28801,1,1,1,9 Aug 1881 (9 Aug 1881; 14:00),9 Aug 1881 (9 Aug 1881; 14:00),explicit_years_within_1880_1929,0,191.88,United States,
+437,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,28898,1,1,1,8 Sep 1881 (8 Sep 1881; 09:03),8 Sep 1881 (8 Sep 1881; 09:03),explicit_years_within_1880_1929,0,191.88,United States,
+438,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,28907,1,1,1,8 Sep 1881,8 Sep 1881,explicit_years_within_1880_1929,0,191.88,United States,
+439,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,31584,1,1,1,11 Aug 1882 (11 Aug 1882; 08:35),11 Aug 1882 (11 Aug 1882; 08:35),explicit_years_within_1880_1929,0,191.88,United States,
+440,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,31664,1,1,1,22 Aug 1882 (22 Aug 1882; 13:45),22 Aug 1882 (22 Aug 1882; 13:45),explicit_years_within_1880_1929,0,191.88,United States,
+441,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,31765,1,1,1,8 Sep 1882,8 Sep 1882,explicit_years_within_1880_1929,0,191.88,United States,
+442,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,31881,1,1,1,4 Oct 1882,4 Oct 1882,explicit_years_within_1880_1929,0,191.88,United States,
+443,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,31877,1,1,1,4 Oct 1882 (4 Oct 1882; 10:45),4 Oct 1882 (4 Oct 1882; 10:45),explicit_years_within_1880_1929,0,191.88,United States,
+444,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,31601,1,1,1,11 Aug 1882 (11 Aug 1882; 3:10 pm),11 Aug 1882 (11 Aug 1882; 3:10 pm),explicit_years_within_1880_1929,0,191.88,United States,
+445,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,45655,1,1,1,25 May 1883,25 May 1883,explicit_years_within_1880_1929,0,191.88,United States,
+446,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,35403,1,1,1,23 Jul 1884,23 Jul 1884,explicit_years_within_1880_1929,0,191.88,United States,New Jersey
+447,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,35448,1,1,1,2 Aug 1884,2 Aug 1884,explicit_years_within_1880_1929,0,191.88,United States,
+448,Dibranchus atlanticus,Population 1 of Dibranchus atlanticus,380003,1,1,1,9-Jul-74,9-Jul-74,no_explicit_four_digit_year,0,191.88,United States,New Jersey
+449,Dorosoma cepedianum,Population 1 of Dorosoma cepedianum,129834,1,1,21,26-Jan-21,26-Jan-21,no_explicit_four_digit_year,1,0,United States,Maryland
+450,Dorosoma cepedianum,Population 1 of Dorosoma cepedianum,129835,1,1,1,21-Jan-16,21-Jan-16,no_explicit_four_digit_year,1,0,United States,Maryland
+451,Etropus crossotus,Population 1 of Etropus crossotus,156238,1,1,60,9 Mar 1917 (1917 Mar 09 - 0000 00 00),9 Mar 1917 (1917 Mar 09 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Texas
+452,Etropus crossotus,Population 1 of Etropus crossotus,156018,1,1,7,5 Mar 1917 (1917 Mar 05 - 0000 00 00),5 Mar 1917 (1917 Mar 05 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Texas
+453,Eucinostomus argenteus,Population 1 of Eucinostomus argenteus,201425,1,1,49,1 Mar 1884 to 11 Mar 1884 (1884 Mar 01 - 1884 Mar 11),1 Mar 1884 to 11 Mar 1884 (1884 Mar 01 - 1884 Mar 11),explicit_years_within_1880_1929,1,0,Jamaica,
+454,Eucinostomus argenteus,Population 1 of Eucinostomus argenteus,143087,1,1,9,1 Mar 1884 to 11 Mar 1884 (1884 Mar 01 - 1884 Mar 11),1 Mar 1884 to 11 Mar 1884 (1884 Mar 01 - 1884 Mar 11),explicit_years_within_1880_1929,1,0,Jamaica,
+455,Eucinostomus gula,Population 1 of Eucinostomus gula,38669,1,1,31,14 Jan 1885 (1885 Jan 14 - 0000 00 00),14 Jan 1885 (1885 Jan 14 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Florida
+456,Exocoetus volitans,Population 1 of Exocoetus volitans,94720,1,1,55,20 Oct 1885 (1885 Oct 20 - 0000 00 00),20 Oct 1885 (1885 Oct 20 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,South Carolina
+457,Exocoetus volitans,Population 2 of Exocoetus volitans,299576,1,1,29,3 Sep 1914 (1914 Sep 03 - 0000 00 00),3 Sep 1914 (1914 Sep 03 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+458,Exocoetus volitans,Population 2 of Exocoetus volitans,299568,1,1,20,3 Sep 1914 (1914 Sep 03 - 0000 00 00),3 Sep 1914 (1914 Sep 03 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+459,Exocoetus volitans,Population 2 of Exocoetus volitans,299582,1,1,16,11 Aug 1914 (1914 Aug 11 - 0000 00 00),11 Aug 1914 (1914 Aug 11 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+460,Exocoetus volitans,Population 2 of Exocoetus volitans,299585,1,1,15,2 Sep 1914 (1914 Sep 02 - 0000 00 00),2 Sep 1914 (1914 Sep 02 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+461,Exocoetus volitans,Population 2 of Exocoetus volitans,299572,1,1,11,2 Sep 1914 (1914 Sep 02 - 0000 00 00),2 Sep 1914 (1914 Sep 02 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+462,Exocoetus volitans,Population 2 of Exocoetus volitans,299579,1,1,10,3 Sep 1914 (1914 Sep 03 - 0000 00 00),3 Sep 1914 (1914 Sep 03 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+463,Exocoetus volitans,Population 2 of Exocoetus volitans,299578,1,1,9,2 Sep 1914 (1914 Sep 02 - 0000 00 00),2 Sep 1914 (1914 Sep 02 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+464,Exocoetus volitans,Population 2 of Exocoetus volitans,299590,1,1,8,3 Sep 1914 (1914 Sep 03 - 0000 00 00),3 Sep 1914 (1914 Sep 03 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+465,Exocoetus volitans,Population 2 of Exocoetus volitans,299586,1,1,6,3 Sep 1914 (1914 Sep 03 - 0000 00 00),3 Sep 1914 (1914 Sep 03 - 0000 00 00),explicit_years_within_1880_1929,1,102.38,United States,North Carolina
+466,Exocoetus volitans,Population 2 of Exocoetus volitans,299588,1,1,5,12 Aug 1914 (1914 Aug 12 - 0000 00 00),12 Aug 1914 (1914 Aug 12 - 0000 00 00),explicit_years_within_1880_1929,1,102.38,United States,North Carolina
+467,Exocoetus volitans,Population 2 of Exocoetus volitans,299570,1,1,5,28 Jul 1915 (1915 Jul 28 - 0000 00 00),28 Jul 1915 (1915 Jul 28 - 0000 00 00),explicit_years_within_1880_1929,1,102.38,United States,North Carolina
+468,Exocoetus volitans,Population 2 of Exocoetus volitans,299583,1,1,4,12 Aug 1914 (1914 Aug 12),12 Aug 1914 (1914 Aug 12),explicit_years_within_1880_1929,1,102.38,United States,North Carolina
+469,Exocoetus volitans,Population 2 of Exocoetus volitans,299573,1,1,4,12 Aug 1914 (1914 Aug 12 - 0000 00 00),12 Aug 1914 (1914 Aug 12 - 0000 00 00),explicit_years_within_1880_1929,1,102.38,United States,North Carolina
+470,Exocoetus volitans,Population 2 of Exocoetus volitans,299571,1,1,3,11 Aug 1914 (1914 Aug 11 - 0000 00 00),11 Aug 1914 (1914 Aug 11 - 0000 00 00),explicit_years_within_1880_1929,1,102.38,United States,North Carolina
+471,Exocoetus volitans,Population 2 of Exocoetus volitans,299580,1,1,3,12 Aug 1914 (1914 Aug 12 - 0000 00 00),12 Aug 1914 (1914 Aug 12 - 0000 00 00),explicit_years_within_1880_1929,1,102.38,United States,North Carolina
+472,Exocoetus volitans,Population 2 of Exocoetus volitans,299577,1,1,3,12 Aug 1914 (1914 Aug 12 - 0000 00 00),12 Aug 1914 (1914 Aug 12 - 0000 00 00),explicit_years_within_1880_1929,1,102.38,United States,North Carolina
+473,Exocoetus volitans,Population 2 of Exocoetus volitans,299569,1,1,2,(0000 Nov 15 - 0000 00 00),(0000 Nov 15 - 0000 00 00),no_explicit_four_digit_year,1,102.38,United States,North Carolina
+474,Exocoetus volitans,Population 2 of Exocoetus volitans,106421,1,1,1,18 Aug 1914 (1914 Aug 18 - 0000 00 00),18 Aug 1914 (1914 Aug 18 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+475,Exocoetus volitans,Population 2 of Exocoetus volitans,106422,1,1,1,3 Sep 1914 (1914 Sep 03 - 0000 00 00),3 Sep 1914 (1914 Sep 03 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+476,Exocoetus volitans,Population 2 of Exocoetus volitans,106423,1,1,1,3 Sep 1914 (1914 Sep 03 - 0000 00 00),3 Sep 1914 (1914 Sep 03 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+477,Exocoetus volitans,Population 2 of Exocoetus volitans,106424,1,1,1,2 Sep 1914 (1914 Sep 02 - 0000 00 00),2 Sep 1914 (1914 Sep 02 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+478,Exocoetus volitans,Population 2 of Exocoetus volitans,299581,1,1,1,11 Aug 1914 (1914 Aug 11 - 0000 00 00),11 Aug 1914 (1914 Aug 11 - 0000 00 00),explicit_years_within_1880_1929,1,102.38,United States,North Carolina
+479,Exocoetus volitans,Population 2 of Exocoetus volitans,116701,1,1,1,10 Aug 1914 (1914 Aug 10 - 0000 00 00),10 Aug 1914 (1914 Aug 10 - 0000 00 00),explicit_years_within_1880_1929,1,102.38,United States,North Carolina
+480,Exocoetus volitans,Population 2 of Exocoetus volitans,299574,1,1,1,2 Sep 1914 (1914 Sep 02 - 0000 00 00),2 Sep 1914 (1914 Sep 02 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+481,Exocoetus volitans,Population 2 of Exocoetus volitans,299587,1,1,1,1 Sep 1914 (1914 Sep 01 - 0000 00 00),1 Sep 1914 (1914 Sep 01 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+482,Exocoetus volitans,Population 2 of Exocoetus volitans,299575,1,1,1,28 Jul 1915 (1915 Jul 28 - 0000 00 00),28 Jul 1915 (1915 Jul 28 - 0000 00 00),explicit_years_within_1880_1929,1,102.38,United States,North Carolina
+483,Exocoetus volitans,Population 2 of Exocoetus volitans,299584,1,1,1,12 Aug 1914 (1914 Aug 12 - 0000 00 00),12 Aug 1914 (1914 Aug 12 - 0000 00 00),explicit_years_within_1880_1929,0,102.38,United States,North Carolina
+484,Fenestraja plutonia,Population 1 of Fenestraja plutonia,395426,1,1,50,21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,
+485,Fenestraja plutonia,Population 1 of Fenestraja plutonia,395427,1,1,47,21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,
+486,Fenestraja plutonia,Population 1 of Fenestraja plutonia,148299,1,1,42,21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,
+487,Fenestraja plutonia,Population 2 of Fenestraja plutonia,148302,1,1,39,4 May 1886,4 May 1886,explicit_years_within_1880_1929,0,20.58,United States,Florida
+488,Fenestraja plutonia,Population 2 of Fenestraja plutonia,123631,1,1,2,4 May 1886,4 May 1886,explicit_years_within_1880_1929,0,20.58,United States,Florida
+489,Fenestraja plutonia,Population 1 of Fenestraja plutonia,487570,1,1,1,21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,
+490,Fenestraja plutonia,Population 1 of Fenestraja plutonia,487571,1,1,1,21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,
+491,Fenestraja plutonia,Population 1 of Fenestraja plutonia,487572,1,1,1,21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),21 Oct 1885 to 25 Oct 1885 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,
+492,Floridichthys carpio,Population 1 of Floridichthys carpio,130819,1,1,10,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,0,United States,Florida
+493,Floridichthys carpio,Population 1 of Floridichthys carpio,84014,1,1,10,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,0,United States,Florida
+494,Floridichthys carpio,Population 1 of Floridichthys carpio,93855,1,1,6,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,0,United States,Florida
+495,Floridichthys carpio,Population 1 of Floridichthys carpio,129898,1,1,4,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,0,United States,Florida
+496,Floridichthys carpio,Population 1 of Floridichthys carpio,84015,1,1,3,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,0,United States,Florida
+497,Fundulus heteroclitus,Population 1 of Fundulus heteroclitus,67684,1,1,29,26 Jan 1898 (1898 Jan 26 - 0000 00 00),26 Jan 1898 (1898 Jan 26 - 0000 00 00),explicit_years_within_1880_1929,0,19.55,United States,Florida
+498,Fundulus heteroclitus,Population 1 of Fundulus heteroclitus,67685,1,1,25,26 Jan 1898 (1898 Jan 26 - 0000 00 00),26 Jan 1898 (1898 Jan 26 - 0000 00 00),explicit_years_within_1880_1929,0,19.55,United States,Florida
+499,Fundulus heteroclitus,Population 2 of Fundulus heteroclitus,59045,1,1,20,1891 (1891 00 00 - 0000 00 00),1891 (1891 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,39.89,United States,South Carolina
+500,Fundulus heteroclitus,Population 1 of Fundulus heteroclitus,84026,1,1,12,17 Mar 1885 (1885 Mar 17 - 0000 00 00),17 Mar 1885 (1885 Mar 17 - 0000 00 00),explicit_years_within_1880_1929,0,19.55,United States,Florida
+501,Fundulus heteroclitus,Population 2 of Fundulus heteroclitus,59027,1,1,2,1891 (1891 00 00 - 0000 00 00),1891 (1891 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,39.89,United States,Georgia
+502,Fundulus majalis,Population 1 of Fundulus majalis,54971,1,1,7,6 Jul 1892 (1892 Jul 06 - 0000 00 00),,missing,0,49.68,United States,Virginia
+503,Fundulus majalis,Population 1 of Fundulus majalis,125682,1,1,6,19 Jul 1892 (1892 Jul 19 - 0000 00 00),19 Jul 1892 (1892 Jul 19 - 0000 00 00),explicit_years_within_1880_1929,0,49.68,United States,Virginia
+504,Fundulus majalis,Population 1 of Fundulus majalis,54961,1,1,4,28 Jun 1892 (1892 Jun 28 - 0000 00 00),,missing,0,49.68,United States,Virginia
+505,Fundulus majalis,Population 1 of Fundulus majalis,54976,1,1,3,29 Jun 1892 (1892 Jun 29 - 0000 00 00),,missing,0,49.68,United States,Virginia
+506,Fundulus majalis,Population 1 of Fundulus majalis,54982,1,1,3,6 Jul 1892 (1892 Jul 06 - 0000 00 00),,missing,0,49.68,United States,Virginia
+507,Fundulus majalis,Population 1 of Fundulus majalis,69712,1,1,2,1892 (1892 00 00 - 0000 00 00),1892 (1892 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,49.68,United States,Virginia
+508,Fundulus majalis,Population 1 of Fundulus majalis,54960,1,1,1,29 Jun 1892 (1892 Jun 29 - 0000 00 00),,missing,0,49.68,United States,Virginia
+509,Fundulus majalis,Population 1 of Fundulus majalis,69713,1,1,1,1892 (1892 00 00 - 0000 00 00),1892 (1892 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,49.68,United States,Virginia
+510,Fundulus similis,Population 1 of Fundulus similis,130820,1,1,40,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.08,United States,Florida
+511,Fundulus similis,Population 2 of Fundulus similis,67686,1,1,39,26 Jan 1898 (1898 Jan 26 - 0000 00 00),26 Jan 1898 (1898 Jan 26 - 0000 00 00),explicit_years_within_1880_1929,0,19.55,United States,Florida
+512,Fundulus similis,Population 1 of Fundulus similis,84018,1,1,30,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.08,United States,Florida
+513,Fundulus similis,Population 1 of Fundulus similis,132226,1,1,30,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.08,United States,Florida
+514,Fundulus similis,Population 1 of Fundulus similis,84019,1,1,20,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.08,United States,Florida
+515,Fundulus similis,Population 1 of Fundulus similis,109887,1,1,20,15 Apr 1884 (1884 Apr 15 - 0000 00 00),15 Apr 1884 (1884 Apr 15 - 0000 00 00),explicit_years_within_1880_1929,0,2.08,United States,Florida
+516,Fundulus similis,Population 2 of Fundulus similis,84020,1,1,15,1885 (1885 00 00 - 0000 00 00),1885 (1885 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,19.55,United States,Florida
+517,Fundulus similis,Population 1 of Fundulus similis,129896,1,1,10,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.08,United States,Florida
+518,Fundulus similis,Population 2 of Fundulus similis,83848,1,1,6,17 Mar 1885 (1885 Mar 17 - 0000 00 00),17 Mar 1885 (1885 Mar 17 - 0000 00 00),explicit_years_within_1880_1929,0,19.55,United States,Florida
+519,Fundulus similis,Population 1 of Fundulus similis,85474,1,1,5,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.08,United States,Florida
+520,Fundulus similis,Population 1 of Fundulus similis,84021,1,1,5,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.08,United States,Florida
+521,Fundulus similis,Population 1 of Fundulus similis,131617,1,1,2,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.08,United States,Florida
+522,Gambusia affinis,Population 1 of Gambusia affinis,126821,1,1,246,27 Dec 1916 (1916 Dec 27 - 0000 00 00),27 Dec 1916 (1916 Dec 27 - 0000 00 00),explicit_years_within_1880_1929,0,2.6,United States,North Carolina
+523,Gambusia affinis,Population 2 of Gambusia affinis,126779,1,1,25,28 Jan 1917 (1917 Jan 28 - 0000 00 00),28 Jan 1917 (1917 Jan 28 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Florida
+524,Gambusia affinis,Population 1 of Gambusia affinis,124619,1,1,10,29 Dec 1916 (1916 Dec 29 - 0000 00 00),29 Dec 1916 (1916 Dec 29 - 0000 00 00),explicit_years_within_1880_1929,0,2.6,United States,North Carolina
+525,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,26018,1,1,28,,,missing,1,249.43,United States,Rhode Island
+526,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,45529,1,1,9,28 Sep 1884,28 Sep 1884,explicit_years_within_1880_1929,0,249.43,United States,Massachusetts
+527,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,45527,1,1,8,8 Aug 1885,8 Aug 1885,explicit_years_within_1880_1929,0,249.43,United States,Massachusetts
+528,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,28949,1,1,6,14 Sep 1881 (1881 Sep 14 - 0000 00 00; 12:13),14 Sep 1881 (1881 Sep 14 - 0000 00 00; 12:13),explicit_years_within_1880_1929,0,249.43,United States,Massachusetts
+529,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,26113,1,1,5,13 Sep 1880 (1880 Sep 13 - 0000 00 00; 15:12),13 Sep 1880 (1880 Sep 13 - 0000 00 00; 15:12),explicit_years_within_1880_1929,0,249.43,United States,
+530,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,33554,1,1,4,21 Sep 1883,21 Sep 1883,explicit_years_within_1880_1929,0,249.43,United States,
+531,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,28810,1,1,3,9 Aug 1881 (1881 Aug 09 - 0000 00 00),9 Aug 1881 (1881 Aug 09 - 0000 00 00),explicit_years_within_1880_1929,0,249.43,,
+532,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,28782,1,1,3,4 Aug 1881 (1881 Aug 04 - 0000 00 00),4 Aug 1881 (1881 Aug 04 - 0000 00 00),explicit_years_within_1880_1929,0,249.43,United States,Massachusetts
+533,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,45518,1,1,3,8 Aug 1885,8 Aug 1885,explicit_years_within_1880_1929,0,249.43,United States,
+534,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,33529,1,1,3,21 Sep 1883,21 Sep 1883,explicit_years_within_1880_1929,0,249.43,United States,
+535,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,33358,1,1,2,,,missing,0,249.43,,
+536,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,28785,1,1,2,4 Aug 1881 (1881 Aug 04 - 0000 00 00; 12:45),4 Aug 1881 (1881 Aug 04 - 0000 00 00; 12:45),explicit_years_within_1880_1929,0,249.43,United States,Massachusetts
+537,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31772,1,1,2,8 Sep 1882,8 Sep 1882,explicit_years_within_1880_1929,0,249.43,United States,
+538,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,28845,1,1,2,23 Aug 1881 (23 Aug 1881; 09:40),23 Aug 1881 (23 Aug 1881; 09:40),explicit_years_within_1880_1929,0,249.43,United States,
+539,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,45521,1,1,2,8 Aug 1885,8 Aug 1885,explicit_years_within_1880_1929,0,249.43,United States,
+540,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,45519,1,1,2,18 Sep 1885,18 Sep 1885,explicit_years_within_1880_1929,0,249.43,United States,
+541,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,45514,1,1,2,9 Aug 1885,9 Aug 1885,explicit_years_within_1880_1929,0,249.43,United States,
+542,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,35460,1,1,2,3 Aug 1884,3 Aug 1884,explicit_years_within_1880_1929,0,249.43,United States,New Jersey
+543,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,35449,1,1,2,2 Aug 1884,2 Aug 1884,explicit_years_within_1880_1929,0,249.43,United States,
+544,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,35484,1,1,2,2 Aug 1884,2 Aug 1884,explicit_years_within_1880_1929,0,249.43,United States,
+545,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,33587,1,1,2,20 Sep 1883,20 Sep 1883,explicit_years_within_1880_1929,0,249.43,United States,
+546,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,35410,1,1,2,23 Jul 1884,23 Jul 1884,explicit_years_within_1880_1929,0,249.43,United States,New Jersey
+547,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,26068,1,1,1,13 Sep 1880 (1880 Sep 13 - 0000 00 00),,missing,0,249.43,,
+548,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,28713,1,1,1,16 Jul 1881 (0000 00 00 - 0000 00 00),,missing,0,249.43,,
+549,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31615,1,1,1,,,missing,0,249.43,,
+550,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31616,1,1,1,,,missing,0,249.43,,
+551,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31622,1,1,1,,,missing,0,249.43,,
+552,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31674,1,1,1,22 Aug 1882 (1882 Aug 22 - 0000 00 00; 17:30),,missing,0,249.43,,
+553,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31845,1,1,1,4 Oct 1882 (4 Oct 1882; 10:45),,missing,0,249.43,,
+554,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,28910,1,1,1,8 Sep 1881,8 Sep 1881,explicit_years_within_1880_1929,0,249.43,United States,
+555,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,28915,1,1,1,8 Sep 1881 (1881 Sep 08 - 0000 00 00; 04:50),8 Sep 1881 (1881 Sep 08 - 0000 00 00; 04:50),explicit_years_within_1880_1929,0,249.43,United States,Massachusetts
+556,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,28735,1,1,1,16 Jul 1881 (16 Jul 1881; 15:35),16 Jul 1881 (16 Jul 1881; 15:35),explicit_years_within_1880_1929,0,249.43,United States,
+557,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,28918,1,1,1,8 Sep 1881 (1881 Sep 08 - 0000 00 00; 10:34),8 Sep 1881 (1881 Sep 08 - 0000 00 00; 10:34),explicit_years_within_1880_1929,0,249.43,United States,Massachusetts
+558,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31869,1,1,1,4 Oct 1882 (1882 Oct 04 - 0000 00 00),4 Oct 1882 (1882 Oct 04 - 0000 00 00),explicit_years_within_1880_1929,0,249.43,United States,New Jersey
+559,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,26067,1,1,1,1880 (1880 00 00 - 0000 00 00),1880 (1880 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,249.43,United States,Rhode Island
+560,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31698,1,1,1,22 Aug 1882 (1882 Aug 22 - 0000 00 00),22 Aug 1882 (1882 Aug 22 - 0000 00 00),explicit_years_within_1880_1929,0,249.43,,
+561,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31690,1,1,1,18 Aug 1882 (1882 Aug 18 - 0000 00 00),18 Aug 1882 (1882 Aug 18 - 0000 00 00),explicit_years_within_1880_1929,0,249.43,,
+562,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31694,1,1,1,18 Aug 1882 (1882 Aug 18 - 0000 00 00),18 Aug 1882 (1882 Aug 18 - 0000 00 00),explicit_years_within_1880_1929,0,249.43,,
+563,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31697,1,1,1,18 Aug 1882 (1882 Aug 18 - 0000 00 00),18 Aug 1882 (1882 Aug 18 - 0000 00 00),explicit_years_within_1880_1929,0,249.43,,
+564,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31696,1,1,1,18 Aug 1882 (1882 Aug 18 - 0000 00 00),18 Aug 1882 (1882 Aug 18 - 0000 00 00),explicit_years_within_1880_1929,0,249.43,United States,New Jersey
+565,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31675,1,1,1,18 Aug 1882 (1882 Aug 18 - 0000 00 00),18 Aug 1882 (1882 Aug 18 - 0000 00 00),explicit_years_within_1880_1929,0,249.43,United States,New York
+566,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,31850,1,1,1,4 Oct 1882,4 Oct 1882,explicit_years_within_1880_1929,0,249.43,United States,
+567,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,134173,1,1,1,18 Sep 1885 (1885 Sep 18 - 0000 00 00),18 Sep 1885 (1885 Sep 18 - 0000 00 00),explicit_years_within_1880_1929,0,249.43,United States,New Jersey
+568,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,134005,1,1,1,18 Jul 1886,18 Jul 1886,explicit_years_within_1880_1929,0,249.43,United States,
+569,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,35510,1,1,1,22 Jul 1884,22 Jul 1884,explicit_years_within_1880_1929,0,249.43,United States,New Jersey
+570,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,45523,1,1,1,10 Aug 1885,10 Aug 1885,explicit_years_within_1880_1929,0,249.43,United States,
+571,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,39487,1,1,1,10 Aug 1885,10 Aug 1885,explicit_years_within_1880_1929,0,249.43,United States,
+572,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,45631,1,1,1,16 Jul 1886,16 Jul 1886,explicit_years_within_1880_1929,0,249.43,United States,
+573,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,45522,1,1,1,10 Aug 1885,10 Aug 1885,explicit_years_within_1880_1929,0,249.43,United States,
+574,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,44255,1,1,1,8 Aug 1885,8 Aug 1885,explicit_years_within_1880_1929,0,249.43,United States,Massachusetts
+575,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,33021,1,1,1,25 May 1883,25 May 1883,explicit_years_within_1880_1929,0,249.43,United States,
+576,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,38069,1,1,1,20 Sep 1886,20 Sep 1886,explicit_years_within_1880_1929,0,249.43,United States,New Jersey
+577,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,35549,1,1,1,19 Aug 1884,19 Aug 1884,explicit_years_within_1880_1929,0,249.43,United States,
+578,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,33530,1,1,1,20 Sep 1883,20 Sep 1883,explicit_years_within_1880_1929,0,249.43,United States,
+579,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,33017,1,1,1,25 May 1883,25 May 1883,explicit_years_within_1880_1929,0,249.43,United States,
+580,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,35668,1,1,1,26 Sep 1884,26 Sep 1884,explicit_years_within_1880_1929,0,249.43,United States,Massachusetts
+581,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,35667,1,1,1,27 Sep 1884,27 Sep 1884,explicit_years_within_1880_1929,0,249.43,United States,Massachusetts
+582,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,33020,1,1,1,25 May 1883,25 May 1883,explicit_years_within_1880_1929,0,249.43,United States,
+583,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,33018,1,1,1,26 May 1883,26 May 1883,explicit_years_within_1880_1929,0,249.43,United States,New Jersey
+584,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,35550,1,1,1,19 Aug 1884,19 Aug 1884,explicit_years_within_1880_1929,0,249.43,United States,
+585,Glyptocephalus cynoglossus,Population 1 of Glyptocephalus cynoglossus,33531,1,1,1,21 Sep 1883,21 Sep 1883,explicit_years_within_1880_1929,0,249.43,United States,
+586,Gobiosoma ginsburgi,Population 1 of Gobiosoma ginsburgi,350463,1,1,50,10 Jul 1915 (1915 Jul 10 - 0000 00 00),10 Jul 1915 (1915 Jul 10 - 0000 00 00),explicit_years_within_1880_1929,0,1.25,United States,South Carolina
+587,Gobiosoma ginsburgi,Population 2 of Gobiosoma ginsburgi,116655,1,1,21,20 Jul 1916 (1916 Jul 20 - 0000 00 00),20 Jul 1916 (1916 Jul 20 - 0000 00 00),explicit_years_within_1880_1929,0,33.62,United States,Virginia
+588,Gobiosoma ginsburgi,Population 1 of Gobiosoma ginsburgi,350212,1,1,10,9 Jul 1915 (1915 Jul 09 - 0000 00 00; 22:35 - 23:35),9 Jul 1915 (1915 Jul 09 - 0000 00 00; 22:35 - 23:35),explicit_years_within_1880_1929,0,1.25,United States,South Carolina
+589,Gobiosoma ginsburgi,Population 2 of Gobiosoma ginsburgi,91132,1,1,2,16 Jan 1916 (1916 Jan 16 - 0000 00 00),16 Jan 1916 (1916 Jan 16 - 0000 00 00),explicit_years_within_1880_1929,0,33.62,United States,Virginia
+590,Gobiosoma ginsburgi,Population 2 of Gobiosoma ginsburgi,91131,1,1,1,6 Mar 1916 (1916 Mar 06 - 0000 00 00; 12:25 - 13:55),6 Mar 1916 (1916 Mar 06 - 0000 00 00; 12:25 - 13:55),explicit_years_within_1880_1929,0,33.62,United States,Virginia
+591,Gobiosoma ginsburgi,Population 2 of Gobiosoma ginsburgi,91133,1,1,1,4 Dec 1920 (1920 Dec 04 - 0000 00 00; 11:55 - 13:00),4 Dec 1920 (1920 Dec 04 - 0000 00 00; 11:55 - 13:00),explicit_years_within_1880_1929,0,33.62,United States,Virginia
+592,Gonichthys cocco,Population 1 of Gonichthys cocco,38191,1,1,160,25 Oct 1886,25 Oct 1886,explicit_years_within_1880_1929,0,0,United States,Virginia
+593,Gonichthys cocco,Population 2 of Gonichthys cocco,43820,1,1,61,19 Sep 1885,19 Sep 1885,explicit_years_within_1880_1929,0,35.14,United States,
+594,Gonichthys cocco,Population 3 of Gonichthys cocco,43823,1,1,35,24 Oct 1886,24 Oct 1886,explicit_years_within_1880_1929,0,0,United States,Virginia
+595,Gonichthys cocco,Population 4 of Gonichthys cocco,92805,1,1,22,16 Sep 1886,16 Sep 1886,explicit_years_within_1880_1929,0,0,United States,
+596,Gonichthys cocco,Population 2 of Gonichthys cocco,43821,1,1,21,19 Sep 1885,19 Sep 1885,explicit_years_within_1880_1929,0,35.14,United States,
+597,Gonichthys cocco,Population 2 of Gonichthys cocco,43822,1,1,13,19 Sep 1885,19 Sep 1885,explicit_years_within_1880_1929,0,35.14,United States,
+598,Gonichthys cocco,Population 2 of Gonichthys cocco,43816,1,1,2,19 Sep 1885,19 Sep 1885,explicit_years_within_1880_1929,0,35.14,United States,New Jersey
+599,Gonichthys cocco,Population 2 of Gonichthys cocco,487555,1,1,1,19 Sep 1885,19 Sep 1885,explicit_years_within_1880_1929,0,35.14,United States,
+600,Gonichthys cocco,Population 2 of Gonichthys cocco,487554,1,1,1,19 Sep 1885,19 Sep 1885,explicit_years_within_1880_1929,0,35.14,United States,
+601,Gonichthys cocco,Population 2 of Gonichthys cocco,487553,1,1,1,19 Sep 1885,19 Sep 1885,explicit_years_within_1880_1929,0,35.14,United States,
+602,Gonichthys cocco,Population 2 of Gonichthys cocco,487550,1,1,1,19 Sep 1885,19 Sep 1885,explicit_years_within_1880_1929,0,35.14,United States,
+603,Gonichthys cocco,Population 2 of Gonichthys cocco,487552,1,1,1,19 Sep 1885,19 Sep 1885,explicit_years_within_1880_1929,0,35.14,United States,
+604,Gonichthys cocco,Population 2 of Gonichthys cocco,487551,1,1,1,19 Sep 1885,19 Sep 1885,explicit_years_within_1880_1929,0,35.14,United States,
+605,Haemulon aurolineatum,Population 1 of Haemulon aurolineatum,83800,1,1,30,18 Oct 1885,18 Oct 1885,explicit_years_within_1880_1929,0,4.94,United States,North Carolina
+606,Haemulon aurolineatum,Population 2 of Haemulon aurolineatum,101548,1,1,15,18 Mar 1885,18 Mar 1885,explicit_years_within_1880_1929,0,0,United States,Florida
+607,Haemulon aurolineatum,Population 2 of Haemulon aurolineatum,133793,1,1,5,18 Mar 1885,18 Mar 1885,explicit_years_within_1880_1929,0,0,United States,Florida
+608,Haemulon aurolineatum,Population 1 of Haemulon aurolineatum,386625,1,1,5,9-Sep-02,9-Sep-02,no_explicit_four_digit_year,0,4.94,United States,North Carolina
+609,Haemulon aurolineatum,Population 2 of Haemulon aurolineatum,134171,1,1,2,18 Mar 1885,18 Mar 1885,explicit_years_within_1880_1929,0,0,United States,Florida
+610,Haemulon flavolineatum,Population 1 of Haemulon flavolineatum,37086,1,1,19,29 Jan 1885 (1885 Jan 29 - 0000 00 00),29 Jan 1885 (1885 Jan 29 - 0000 00 00),explicit_years_within_1880_1929,1,33.92,Mexico,Quintana Roo
+611,Haemulon flavolineatum,Population 1 of Haemulon flavolineatum,37087,1,1,5,27 Jan 1885 (0000 00 00 - 0000 00 00),27 Jan 1885 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,33.92,Mexico,Yucatan
+612,Haemulon plumierii,Population 1 of Haemulon plumierii,130822,1,1,17,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.71,United States,Florida
+613,Haemulon plumierii,Population 1 of Haemulon plumierii,120505,1,1,3,12-Jan-03,12-Jan-03,no_explicit_four_digit_year,1,2.71,United States,Florida
+614,Haemulon plumierii,Population 1 of Haemulon plumierii,38672,1,1,3,14 Jan 1885 (1885 Jan 14 - 0000 00 00),14 Jan 1885 (1885 Jan 14 - 0000 00 00),explicit_years_within_1880_1929,0,2.71,United States,Florida
+615,Haemulon plumierii,Population 1 of Haemulon plumierii,131506,1,1,1,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.71,United States,Florida
+616,Haemulon plumierii,Population 1 of Haemulon plumierii,83799,1,1,1,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.71,United States,Florida
+617,Haemulon plumierii,Population 1 of Haemulon plumierii,38714,1,1,1,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,2.71,United States,Florida
+618,Harengula clupeola,Population 1 of Harengula clupeola,38664,1,1,20,,,missing,1,0,,
+619,Harengula humeralis,Population 1 of Harengula humeralis,38535,1,1,25,4 Apr 1884 to 9 Apr 1884,4 Apr 1884 to 9 Apr 1884,explicit_years_within_1880_1929,1,0,Colombia,
+620,Harengula humeralis,Population 2 of Harengula humeralis,38663,1,1,22,10 Feb 1884 to 18 Feb 1884,10 Feb 1884 to 18 Feb 1884,explicit_years_within_1880_1929,1,0,Netherlands Antilles,Curacao
+621,Harengula humeralis,Population 3 of Harengula humeralis,37092,1,1,15,29 Jan 1885,29 Jan 1885,explicit_years_within_1880_1929,1,33.92,Mexico,Yucatan
+622,Harengula humeralis,Population 2 of Harengula humeralis,38600,1,1,5,10 Feb 1884 to 18 Feb 1884,10 Feb 1884 to 18 Feb 1884,explicit_years_within_1880_1929,1,0,Netherlands Antilles,Curacao
+623,Harengula humeralis,Population 3 of Harengula humeralis,37079,1,1,5,24 Jan 1885 (1885 Jan 24 - 0000 00 00),24 Jan 1885 (1885 Jan 24 - 0000 00 00),explicit_years_within_1880_1929,1,33.92,Mexico,Quintana Roo
+624,Harengula humeralis,Population 1 of Harengula humeralis,38628,1,1,4,4 Apr 1884 to 9 Apr 1884,4 Apr 1884 to 9 Apr 1884,explicit_years_within_1880_1929,1,0,Colombia,
+625,Helicolenus dactylopterus,Population 1 of Helicolenus dactylopterus,329905,1,1,21,22 Apr 1994 (1994 Apr 22 - 0000 00 00; 06:55 - 09:36),22 Apr 1994 (1994 Apr 22 - 0000 00 00; 06:55 - 09:36),explicit_years_outside_1880_1929,0,37.52,Canada,Nova Scotia
+626,Helicolenus dactylopterus,Population 1 of Helicolenus dactylopterus,329895,1,1,19,22 Apr 1994 (1994 Apr 22 - 0000 00 00; 03:36 - 04:36),22 Apr 1994 (1994 Apr 22 - 0000 00 00; 03:36 - 04:36),explicit_years_outside_1880_1929,0,37.52,Canada,Nova Scotia
+627,Helicolenus dactylopterus,Population 1 of Helicolenus dactylopterus,329917,1,1,2,23 Apr 1994 (1994 Apr 23 - 0000 00 00; 02:58 - 05:13),23 Apr 1994 (1994 Apr 23 - 0000 00 00; 02:58 - 05:13),explicit_years_outside_1880_1929,0,37.52,Canada,Nova Scotia
+628,Helicolenus dactylopterus,Population 1 of Helicolenus dactylopterus,330008,1,1,2,22 Apr 1994 (1994 Apr 22 - 0000 00 00; 20:44 - 23:14),22 Apr 1994 (1994 Apr 22 - 0000 00 00; 20:44 - 23:14),explicit_years_outside_1880_1929,0,37.52,Canada,Nova Scotia
+629,Heterandria formosa,Population 1 of Heterandria formosa,126823,1,1,21,3 Jan 1917 (1917 Jan 03 - 0000 00 00),3 Jan 1917 (1917 Jan 03 - 0000 00 00),explicit_years_within_1880_1929,0,2.6,United States,North Carolina
+630,Heterandria formosa,Population 1 of Heterandria formosa,124620,1,1,4,27 Dec 1916 (1916 Dec 27 - 0000 00 00),27 Dec 1916 (1916 Dec 27 - 0000 00 00),explicit_years_within_1880_1929,0,2.6,United States,North Carolina
+631,Hippoglossoides platessoides,Population 1 of Hippoglossoides platessoides,329951,1,1,12,27 Apr 1994 (1994 Apr 27 - 0000 00 00; 08:06 - 08:40),27 Apr 1994 (1994 Apr 27 - 0000 00 00; 08:06 - 08:40),explicit_years_outside_1880_1929,0,56.22,United States,Massachusetts
+632,Hippoglossoides platessoides,Population 1 of Hippoglossoides platessoides,329944,1,1,10,27 Apr 1994 (1994 Apr 27 - 0000 00 00; 04:46 - 05:46 Ca),27 Apr 1994 (1994 Apr 27 - 0000 00 00; 04:46 - 05:46 Ca),explicit_years_outside_1880_1929,0,56.22,United States,Massachusetts
+633,Hippoglossoides platessoides,Population 1 of Hippoglossoides platessoides,325977,1,1,2,21 Apr 1993 (1993 Apr 21 - 0000 00 00; 00:05),21 Apr 1993 (1993 Apr 21 - 0000 00 00; 00:05),explicit_years_outside_1880_1929,0,56.22,United States,Massachusetts
+634,Hippoglossoides platessoides,Population 1 of Hippoglossoides platessoides,326955,1,1,1,21 Apr 1993 (1993 Apr 21 - 0000 00 00; 09:09),21 Apr 1993 (1993 Apr 21 - 0000 00 00; 09:09),explicit_years_outside_1880_1929,0,56.22,United States,Massachusetts
+635,Histrio histrio,Population 1 of Histrio histrio,83863,1,1,33,25 Feb 1884 (1884 Feb 25 - 0000 00 00),25 Feb 1884 (1884 Feb 25 - 0000 00 00),explicit_years_within_1880_1929,0,0,Cuba,
+636,Jenkinsia lamprotaenia,Population 1 of Jenkinsia lamprotaenia,38465,1,1,158,16 Mar 1886 (1886 Mar 16 - 0000 00 00),16 Mar 1886 (1886 Mar 16 - 0000 00 00),explicit_years_within_1880_1929,1,0,Bahamas,
+637,Jenkinsia lamprotaenia,Population 2 of Jenkinsia lamprotaenia,68646,1,1,25,11 Feb 1899 (1899 Feb 11 - 0000 00 00),11 Feb 1899 (1899 Feb 11 - 0000 00 00),explicit_years_within_1880_1929,0,35.21,United States,Puerto Rico
+638,Jenkinsia lamprotaenia,Population 3 of Jenkinsia lamprotaenia,131593,1,1,17,4 Apr 1884 to 9 Apr 1884,4 Apr 1884 to 9 Apr 1884,explicit_years_within_1880_1929,1,0,Colombia,
+639,Jenkinsia lamprotaenia,Population 2 of Jenkinsia lamprotaenia,67633,1,1,6,11 Feb 1899 (1899 Feb 11 - 0000 00 00),11 Feb 1899 (1899 Feb 11 - 0000 00 00),explicit_years_within_1880_1929,0,35.21,United States,Puerto Rico
+640,Jenkinsia lamprotaenia,Population 2 of Jenkinsia lamprotaenia,50125,1,1,5,11 Feb 1899 (1899 Feb 11 - 0000 00 00),11 Feb 1899 (1899 Feb 11 - 0000 00 00),explicit_years_within_1880_1929,0,35.21,United States,Puerto Rico
+641,Jenkinsia lamprotaenia,Population 3 of Jenkinsia lamprotaenia,150114,1,1,4,4 Apr 1884 to 9 Apr 1884,4 Apr 1884 to 9 Apr 1884,explicit_years_within_1880_1929,1,0,Colombia,
+642,Jenkinsia lamprotaenia,Population 2 of Jenkinsia lamprotaenia,126186,1,1,1,17 Feb 1899 (1899 Feb 17 - 0000 00 00),17 Feb 1899 (1899 Feb 17 - 0000 00 00),explicit_years_within_1880_1929,0,35.21,United States,Puerto Rico
+643,Jenkinsia stolifera,Population 1 of Jenkinsia stolifera,37106,1,1,190,29 Jan 1885,29 Jan 1885,explicit_years_within_1880_1929,1,33.92,Mexico,Yucatan
+644,Jenkinsia stolifera,Population 2 of Jenkinsia stolifera,91412,1,1,114,25-Nov-19,25-Nov-19,no_explicit_four_digit_year,1,0,United States,Florida
+645,Jenkinsia stolifera,Population 3 of Jenkinsia stolifera,38697,1,1,25,14 Jan 1885 (1885 Jan 14 - 0000 00 00),14 Jan 1885 (1885 Jan 14 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Florida
+646,Jenkinsia stolifera,Population 1 of Jenkinsia stolifera,37055,1,1,5,24 Jan 1885 (1885 Jan 24 - 0000 00 00),24 Jan 1885 (1885 Jan 24 - 0000 00 00),explicit_years_within_1880_1929,1,33.92,Mexico,Quintana Roo
+647,Jenkinsia stolifera,Population 1 of Jenkinsia stolifera,487581,1,1,1,29 Jan 1885,29 Jan 1885,explicit_years_within_1880_1929,1,33.92,Mexico,Yucatan
+648,Jenkinsia stolifera,Population 1 of Jenkinsia stolifera,487584,1,1,1,29 Jan 1885,29 Jan 1885,explicit_years_within_1880_1929,1,33.92,Mexico,Yucatan
+649,Jenkinsia stolifera,Population 1 of Jenkinsia stolifera,487580,1,1,1,29 Jan 1885,29 Jan 1885,explicit_years_within_1880_1929,1,33.92,Mexico,Yucatan
+650,Jenkinsia stolifera,Population 1 of Jenkinsia stolifera,487579,1,1,1,29 Jan 1885,29 Jan 1885,explicit_years_within_1880_1929,1,33.92,Mexico,Yucatan
+651,Jenkinsia stolifera,Population 1 of Jenkinsia stolifera,487582,1,1,1,29 Jan 1885,29 Jan 1885,explicit_years_within_1880_1929,1,33.92,Mexico,Yucatan
+652,Jenkinsia stolifera,Population 1 of Jenkinsia stolifera,487583,1,1,1,29 Jan 1885,29 Jan 1885,explicit_years_within_1880_1929,1,33.92,Mexico,Yucatan
+653,Laemonema barbatulum,Population 1 of Laemonema barbatulum,132207,1,1,51,21 Oct 1885,21 Oct 1885,explicit_years_within_1880_1929,0,21.08,United States,South Carolina
+654,Laemonema barbatulum,Population 1 of Laemonema barbatulum,131941,1,1,24,21 Oct 1885,21 Oct 1885,explicit_years_within_1880_1929,0,21.08,United States,South Carolina
+655,Laemonema barbatulum,Population 1 of Laemonema barbatulum,84477,1,1,17,21 Oct 1885,21 Oct 1885,explicit_years_within_1880_1929,0,21.08,United States,South Carolina
+656,Laemonema barbatulum,Population 1 of Laemonema barbatulum,143085,1,1,12,21 Oct 1885,21 Oct 1885,explicit_years_within_1880_1929,0,21.08,United States,South Carolina
+657,Laemonema barbatulum,Population 1 of Laemonema barbatulum,84546,1,1,1,21 Oct 1885,21 Oct 1885,explicit_years_within_1880_1929,0,21.08,United States,South Carolina
+658,Laemonema barbatulum,Population 1 of Laemonema barbatulum,205134,1,1,1,6 May 1886,6 May 1886,explicit_years_within_1880_1929,0,21.08,United States,South Carolina
+659,Lagodon rhomboides,Population 1 of Lagodon rhomboides,118914,1,1,80,15-Jan-13,15-Jan-13,no_explicit_four_digit_year,0,0,United States,Florida
+660,Lagodon rhomboides,Population 1 of Lagodon rhomboides,118915,1,1,1,15-Jan-13,,missing,1,0,United States,Florida
+661,Liparis atlanticus,Population 1 of Liparis atlanticus,133824,1,1,33,27 Sep 1884,27 Sep 1884,explicit_years_within_1880_1929,0,0,United States,Massachusetts
+662,Lutjanus synagris,Population 1 of Lutjanus synagris,38673,1,1,15,14 Jan 1885 (1885 Jan 14 - 0000 00 00),14 Jan 1885 (1885 Jan 14 - 0000 00 00),explicit_years_within_1880_1929,0,11.66,United States,Florida
+663,Lutjanus synagris,Population 1 of Lutjanus synagris,36922,1,1,12,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,11.66,United States,Florida
+664,Lutjanus synagris,Population 1 of Lutjanus synagris,83817,1,1,3,15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),15 Apr 1884 to 27 Apr 1884 (1884 Apr 15 - 1884 Apr 27),explicit_years_within_1880_1929,0,11.66,United States,Florida
+665,Lutjanus synagris,Population 1 of Lutjanus synagris,120525,1,1,2,14-Jan-03,14-Jan-03,no_explicit_four_digit_year,0,11.66,United States,Florida
+666,Lutjanus synagris,Population 1 of Lutjanus synagris,133982,1,1,2,13 Feb 1902 (1902 Feb 13 - 0000 00 00; 11:50),13 Feb 1902 (1902 Feb 13 - 0000 00 00; 11:50),explicit_years_within_1880_1929,0,11.66,United States,Florida
+667,Lutjanus synagris,Population 1 of Lutjanus synagris,75524,1,1,1,1903,1903,explicit_years_within_1880_1929,1,11.66,United States,Florida
+668,Lutjanus synagris,Population 1 of Lutjanus synagris,73026,1,1,1,13 Feb 1902 (1902 Feb 13 - 0000 00 00; 10:35),13 Feb 1902 (1902 Feb 13 - 0000 00 00; 10:35),explicit_years_within_1880_1929,0,11.66,United States,Florida
+669,Lycenchelys verrillii,Population 1 of Lycenchelys verrillii,45930,1,1,18,20 Oct 1884,20 Oct 1884,explicit_years_within_1880_1929,0,0,United States,North Carolina
+670,Lycenchelys verrillii,Population 1 of Lycenchelys verrillii,45935,1,1,16,20 Oct 1884,20 Oct 1884,explicit_years_within_1880_1929,0,0,United States,North Carolina
+671,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,28894,1,1,4,8 Sep 1881 (8 Sep 1881; 09:03),8 Sep 1881 (8 Sep 1881; 09:03),explicit_years_within_1880_1929,0,104.93,United States,
+672,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,26180,1,1,3,2 Oct 1880 (2 Oct 1880; 11:23 - 15:17),2 Oct 1880 (2 Oct 1880; 11:23 - 15:17),explicit_years_within_1880_1929,0,104.93,United States,
+673,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,28736,1,1,3,16 Jul 1881 (16 Jul 1881; 15:35),16 Jul 1881 (16 Jul 1881; 15:35),explicit_years_within_1880_1929,0,104.93,United States,
+674,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,28886,1,1,3,8 Sep 1881 (1881 Sep 08 - 0000 00 00; 04:50),8 Sep 1881 (1881 Sep 08 - 0000 00 00; 04:50),explicit_years_within_1880_1929,0,104.93,United States,Massachusetts
+675,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,26082,1,1,2,13 Sep 1880 (1880 Sep 13 - 0000 00 00; 15:12),13 Sep 1880 (1880 Sep 13 - 0000 00 00; 15:12),explicit_years_within_1880_1929,0,104.93,United States,
+676,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,28842,1,1,2,23 Aug 1881 (23 Aug 1881; 09:40),23 Aug 1881 (23 Aug 1881; 09:40),explicit_years_within_1880_1929,0,104.93,United States,
+677,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,28919,1,1,2,8 Sep 1881 (1881 Sep 08 - 0000 00 00; 10:34),8 Sep 1881 (1881 Sep 08 - 0000 00 00; 10:34),explicit_years_within_1880_1929,0,104.93,United States,Massachusetts
+678,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,45928,1,1,2,8 Aug 1885,8 Aug 1885,explicit_years_within_1880_1929,0,104.93,United States,
+679,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,26096,1,1,1,13 Sep 1880 (1880 Sep 13 - 0000 00 00; 13:20),13 Sep 1880 (1880 Sep 13 - 0000 00 00; 13:20),explicit_years_within_1880_1929,0,104.93,United States,Massachusetts
+680,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,28923,1,1,1,8 Sep 1881 (1881 Sep 08 - 0000 00 00; 10:34),8 Sep 1881 (1881 Sep 08 - 0000 00 00; 10:34),explicit_years_within_1880_1929,0,104.93,United States,Massachusetts
+681,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,132210,1,1,1,18 Jul 1886,18 Jul 1886,explicit_years_within_1880_1929,0,104.93,United States,
+682,Lycenchelys verrillii,Population 2 of Lycenchelys verrillii,35462,1,1,1,3 Aug 1884,3 Aug 1884,explicit_years_within_1880_1929,0,104.93,United States,New Jersey
+683,Lycenchelys verrillii,Population 1 of Lycenchelys verrillii,84544,1,1,1,20 Oct 1884,20 Oct 1884,explicit_years_within_1880_1929,0,0,United States,North Carolina
+684,Malacoraja senta,Population 1 of Malacoraja senta,28747,1,1,4,16 Jul 1881 (0000 00 00 - 0000 00 00),,missing,0,213.44,,
+685,Malacoraja senta,Population 1 of Malacoraja senta,28973,1,1,4,21 Sep 1881,,missing,0,213.44,,
+686,Malacoraja senta,Population 1 of Malacoraja senta,28921,1,1,3,8 Sep 1881 (1881 Sep 08 - 0000 00 00; 10:34),,missing,0,213.44,United States,New York
+687,Malacoraja senta,Population 1 of Malacoraja senta,26177,1,1,2,2 Oct 1880,,missing,0,213.44,,
+688,Malacoraja senta,Population 1 of Malacoraja senta,28788,1,1,2,"4 Aug 1881 (August 4, 1881 5:30pm)","4 Aug 1881 (August 4, 1881 5:30pm)",explicit_years_within_1880_1929,0,213.44,United States,Massachusetts
+689,Malacoraja senta,Population 1 of Malacoraja senta,28803,1,1,2,,,missing,0,213.44,United States,New York
+690,Malacoraja senta,Population 1 of Malacoraja senta,33525,1,1,2,20 Sep 1883,20 Sep 1883,explicit_years_within_1880_1929,0,213.44,United States,
+691,Malacoraja senta,Population 1 of Malacoraja senta,26006,1,1,1,4 Sep 1880 (1880 Sep 04 - 0000 00 00),,missing,0,213.44,,
+692,Malacoraja senta,Population 1 of Malacoraja senta,26201,1,1,1,,,missing,0,213.44,United States,
+693,Malacoraja senta,Population 1 of Malacoraja senta,28770,1,1,1,4 Aug 1881 (1881 Aug 04 - 0000 00 00; 14:44),,missing,0,213.44,United States,
+694,Malacoraja senta,Population 1 of Malacoraja senta,28781,1,1,1,4 Aug 1881 (0000 00 00 - 0000 00 00),,missing,0,213.44,United States,New Jersey
+695,Malacoraja senta,Population 1 of Malacoraja senta,28808,1,1,1,9 Aug 1881 (1881 Aug 09 - 0000 00 00),,missing,0,213.44,,
+696,Malacoraja senta,Population 1 of Malacoraja senta,28828,1,1,1,,,missing,0,213.44,,
+697,Malacoraja senta,Population 1 of Malacoraja senta,28937,1,1,1,,,missing,0,213.44,,
+698,Malacoraja senta,Population 1 of Malacoraja senta,28946,1,1,1,,,missing,0,213.44,,
+699,Malacoraja senta,Population 1 of Malacoraja senta,31589,1,1,1,,,missing,0,213.44,,
+700,Malacoraja senta,Population 1 of Malacoraja senta,31606,1,1,1,,,missing,0,213.44,,
+701,Malacoraja senta,Population 1 of Malacoraja senta,31621,1,1,1,11 Aug 1882 (11 Aug 1882; 3:10 pm),11 Aug 1882 (11 Aug 1882; 3:10 pm),explicit_years_within_1880_1929,0,213.44,United States,
+702,Malacoraja senta,Population 1 of Malacoraja senta,31882,1,1,1,4 Oct 1882,,missing,0,213.44,,
+703,Malacoraja senta,Population 1 of Malacoraja senta,148309,1,1,1,28 Sep 1884,28 Sep 1884,explicit_years_within_1880_1929,0,213.44,United States,Massachusetts
+704,Malacoraja senta,Population 1 of Malacoraja senta,33536,1,1,1,21 Sep 1883,21 Sep 1883,explicit_years_within_1880_1929,0,213.44,United States,
+705,Malacoraja senta,Population 1 of Malacoraja senta,148283,1,1,1,7 Aug 1885,7 Aug 1885,explicit_years_within_1880_1929,0,213.44,United States,
+706,Malacoraja senta,Population 1 of Malacoraja senta,148284,1,1,1,10 Aug 1885,10 Aug 1885,explicit_years_within_1880_1929,0,213.44,United States,
+707,Malacoraja senta,Population 1 of Malacoraja senta,148285,1,1,1,18 Jul 1886,18 Jul 1886,explicit_years_within_1880_1929,0,213.44,United States,
+708,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,391335,1,1,31,19-Oct-94,19-Oct-94,no_explicit_four_digit_year,0,80.56,United States,Massachusetts
+709,Melanostigma atlanticum,Population 2 of Melanostigma atlanticum,408669,1,1,13,19-Oct-94,19-Oct-94,no_explicit_four_digit_year,0,36.67,United States,Massachusetts
+710,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,329938,1,1,11,27 Apr 1994 (1994 Apr 27 - 0000 00 00; 00:35 - 02:35),27 Apr 1994 (1994 Apr 27 - 0000 00 00; 00:35 - 02:35),explicit_years_outside_1880_1929,0,80.56,United States,Massachusetts
+711,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,391392,1,1,9,25-Apr-95,25-Apr-95,no_explicit_four_digit_year,0,80.56,United States,Massachusetts
+712,Melanostigma atlanticum,Population 2 of Melanostigma atlanticum,391334,1,1,9,8-Oct-94,8-Oct-94,no_explicit_four_digit_year,0,36.67,United States,
+713,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,391394,1,1,7,21-Apr-93,21-Apr-93,no_explicit_four_digit_year,0,80.56,United States,Massachusetts
+714,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,388285,1,1,5,23-Apr-02,23-Apr-02,no_explicit_four_digit_year,0,80.56,United States,Massachusetts
+715,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,325965,1,1,4,22 Apr 1993 (1993 Apr 22 - 0000 00 00; 03:08),22 Apr 1993 (1993 Apr 22 - 0000 00 00; 03:08),explicit_years_outside_1880_1929,0,80.56,United States,Massachusetts
+716,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,391389,1,1,4,20-Apr-95,20-Apr-95,no_explicit_four_digit_year,0,80.56,United States,Massachusetts
+717,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,322175,1,1,3,26 Oct 1988 (1988 Oct 26 - 0000 00 00),26 Oct 1988 (1988 Oct 26 - 0000 00 00),explicit_years_outside_1880_1929,0,80.56,,
+718,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,391336,1,1,3,19-Oct-94,19-Oct-94,no_explicit_four_digit_year,0,80.56,United States,Massachusetts
+719,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,325949,1,1,2,21 Apr 1993 (1993 Apr 21 - 0000 00 00; 20:44),21 Apr 1993 (1993 Apr 21 - 0000 00 00; 20:44),explicit_years_outside_1880_1929,0,80.56,United States,Massachusetts
+720,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,391393,1,1,1,26-Apr-95,26-Apr-95,no_explicit_four_digit_year,0,80.56,United States,Massachusetts
+721,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,329933,1,1,1,26 Apr 1994 (1994 Apr 26 - 0000 00 00; 10:34 - 12:49),26 Apr 1994 (1994 Apr 26 - 0000 00 00; 10:34 - 12:49),explicit_years_outside_1880_1929,0,80.56,United States,Massachusetts
+722,Melanostigma atlanticum,Population 2 of Melanostigma atlanticum,391381,1,1,1,8-Oct-94,8-Oct-94,no_explicit_four_digit_year,0,36.67,United States,
+723,Melanostigma atlanticum,Population 1 of Melanostigma atlanticum,329856,1,1,1,19 Apr 1994 to 20 Apr 1994 (1994 Apr 19 - 1994 Apr 20; 23:11 - 00:11),19 Apr 1994 to 20 Apr 1994 (1994 Apr 19 - 1994 Apr 20; 23:11 - 00:11),explicit_years_outside_1880_1929,0,80.56,United States,Massachusetts
+724,Membras martinica,Population 1 of Membras martinica,111564,1,1,48,9 Jul 1915 (1915 Jul 09 - 0000 00 00; 22:35 - 23:35),9 Jul 1915 (1915 Jul 09 - 0000 00 00; 22:35 - 23:35),explicit_years_within_1880_1929,0,0,United States,South Carolina
+725,Membras martinica,Population 2 of Membras martinica,69733,1,1,36,28 Jun 1892 (1892 Jun 28 - 0000 00 00),28 Jun 1892 (1892 Jun 28 - 0000 00 00),explicit_years_within_1880_1929,0,32.97,United States,Virginia
+726,Membras martinica,Population 3 of Membras martinica,59023,1,1,24,7 Apr 1891 (1891 Apr 07 - 0000 00 00),7 Apr 1891 (1891 Apr 07 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,North Carolina
+727,Membras martinica,Population 2 of Membras martinica,90358,1,1,14,21 Jul 1916 (1916 Jul 21 - 0000 00 00),21 Jul 1916 (1916 Jul 21 - 0000 00 00),explicit_years_within_1880_1929,0,32.97,United States,Virginia
+728,Membras martinica,Population 2 of Membras martinica,69734,1,1,14,28 Jun 1892,28 Jun 1892,explicit_years_within_1880_1929,0,32.97,United States,Virginia
+729,Membras martinica,Population 2 of Membras martinica,125451,1,1,12,28 Jun 1892 (1892 Jun 28 - 0000 00 00),28 Jun 1892 (1892 Jun 28 - 0000 00 00),explicit_years_within_1880_1929,0,32.97,United States,Virginia
+730,Membras martinica,Population 2 of Membras martinica,69731,1,1,2,7 Jul 1892 (1892 Jul 07 - 0000 00 00),7 Jul 1892 (1892 Jul 07 - 0000 00 00),explicit_years_within_1880_1929,0,32.97,United States,Virginia
+731,Membras martinica,Population 2 of Membras martinica,69732,1,1,2,29 Jun 1892 (1892 Jun 29 - 0000 00 00),29 Jun 1892 (1892 Jun 29 - 0000 00 00),explicit_years_within_1880_1929,0,32.97,United States,Virginia
+732,Menidia menidia,Population 1 of Menidia menidia,59047,1,1,37,1891 (1891 00 00 - 0000 00 00),1891 (1891 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,South Carolina
+733,Menidia menidia,Population 2 of Menidia menidia,335883,1,1,25,12 Jul 1915 (1915 Jul 12 - 0000 00 00),12 Jul 1915 (1915 Jul 12 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,North Carolina
+734,Menidia menidia,Population 3 of Menidia menidia,84597,1,1,25,6 Jun 1891 (1891 Jun 06 - 0000 00 00),6 Jun 1891 (1891 Jun 06 - 0000 00 00),explicit_years_within_1880_1929,0,6.45,United States,South Carolina
+735,Menidia menidia,Population 4 of Menidia menidia,68135,1,1,23,30 Aug 1892 (1892 Aug 30 - 0000 00 00),30 Aug 1892 (1892 Aug 30 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Maine
+736,Menidia menidia,Population 5 of Menidia menidia,84596,1,1,20,5 Aug 1885 (1885 Aug 05 - 0000 00 00),5 Aug 1885 (1885 Aug 05 - 0000 00 00),explicit_years_within_1880_1929,0,76.24,United States,Massachusetts
+737,Menidia menidia,Population 6 of Menidia menidia,69821,1,1,18,6 Jul 1892 (1892 Jul 06 - 0000 00 00),6 Jul 1892 (1892 Jul 06 - 0000 00 00),explicit_years_within_1880_1929,1,102.77,United States,Maryland
+738,Menidia menidia,Population 7 of Menidia menidia,125455,1,1,17,6 Jul 1892 (1892 Jul 06 - 0000 00 00),6 Jul 1892 (1892 Jul 06 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Virginia
+739,Menidia menidia,Population 6 of Menidia menidia,90596,1,1,13,10 Mar 1916 (1916 Mar 10 - 0000 00 00; 15:30 - 16:30),10 Mar 1916 (1916 Mar 10 - 0000 00 00; 15:30 - 16:30),explicit_years_within_1880_1929,0,102.77,United States,Maryland
+740,Menidia menidia,Population 8 of Menidia menidia,59025,1,1,13,1891 (1891 00 00 - 0000 00 00),1891 (1891 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,83.5,United States,Georgia
+741,Menidia menidia,Population 9 of Menidia menidia,69701,1,1,11,7 Jul 1892 (1892 Jul 07 - 0000 00 00),7 Jul 1892 (1892 Jul 07 - 0000 00 00),explicit_years_within_1880_1929,0,44.73,United States,Virginia
+742,Menidia menidia,Population 1 of Menidia menidia,59081,1,1,10,1891 (1891 00 00 - 0000 00 00),1891 (1891 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,South Carolina
+743,Menidia menidia,Population 6 of Menidia menidia,90564,1,1,9,9 Dec 1915 (1915 Dec 09 - 0000 00 00; 11:12 - 12:05),9 Dec 1915 (1915 Dec 09 - 0000 00 00; 11:12 - 12:05),explicit_years_within_1880_1929,0,102.77,United States,Maryland
+744,Menidia menidia,Population 9 of Menidia menidia,69697,1,1,9,19 Jul 1892 (1892 Jul 19 - 0000 00 00),19 Jul 1892 (1892 Jul 19 - 0000 00 00),explicit_years_within_1880_1929,0,44.73,United States,Virginia
+745,Menidia menidia,Population 6 of Menidia menidia,90567,1,1,7,10 Mar 1916 (1916 Mar 10 - 0000 00 00; 07:30 - 09:00),10 Mar 1916 (1916 Mar 10 - 0000 00 00; 07:30 - 09:00),explicit_years_within_1880_1929,0,102.77,United States,Maryland
+746,Menidia menidia,Population 8 of Menidia menidia,59038,1,1,6,3 Mar 1891 (1891 Mar 03 - 0000 00 00),3 Mar 1891 (1891 Mar 03 - 0000 00 00),explicit_years_within_1880_1929,0,83.5,United States,South Carolina
+747,Menidia menidia,Population 9 of Menidia menidia,69699,1,1,6,19 Jul 1892 (1892 Jul 19 - 0000 00 00),19 Jul 1892 (1892 Jul 19 - 0000 00 00),explicit_years_within_1880_1929,0,44.73,United States,Virginia
+748,Menidia menidia,Population 5 of Menidia menidia,70140,1,1,5,10 Aug 1892 (1892 Aug 10 - 0000 00 00),10 Aug 1892 (1892 Aug 10 - 0000 00 00),explicit_years_within_1880_1929,0,76.24,United States,Massachusetts
+749,Menidia menidia,Population 9 of Menidia menidia,69700,1,1,5,7 Jul 1892 (1892 Jul 07 - 0000 00 00),7 Jul 1892 (1892 Jul 07 - 0000 00 00),explicit_years_within_1880_1929,0,44.73,United States,Virginia
+750,Menidia menidia,Population 6 of Menidia menidia,90566,1,1,4,18 Feb 1914 (1914 Feb 18 - 0000 00 00; 15:42 - 16:00),18 Feb 1914 (1914 Feb 18 - 0000 00 00; 15:42 - 16:00),explicit_years_within_1880_1929,1,102.77,United States,Maryland
+751,Menidia menidia,Population 5 of Menidia menidia,116192,1,1,4,29 Oct 1887 (1887 Oct 29 - 0000 00 00),29 Oct 1887 (1887 Oct 29 - 0000 00 00),explicit_years_within_1880_1929,0,76.24,United States,Massachusetts
+752,Menidia menidia,Population 6 of Menidia menidia,90594,1,1,3,19 Jan 1916 (1916 Jan 19 - 0000 00 00; 16:21 - 17:30),19 Jan 1916 (1916 Jan 19 - 0000 00 00; 16:21 - 17:30),explicit_years_within_1880_1929,0,102.77,United States,Maryland
+753,Menidia menidia,Population 6 of Menidia menidia,90568,1,1,3,22 Mar 1914 (1914 Mar 22 - 0000 00 00; 16:00 - 16:12),22 Mar 1914 (1914 Mar 22 - 0000 00 00; 16:00 - 16:12),explicit_years_within_1880_1929,1,102.77,United States,
+754,Menidia menidia,Population 5 of Menidia menidia,120596,1,1,3,4 Sep 1899 (1899 Sep 04 - 0000 00 00),4 Sep 1899 (1899 Sep 04 - 0000 00 00),explicit_years_within_1880_1929,0,76.24,United States,Massachusetts
+755,Menidia menidia,Population 5 of Menidia menidia,120593,1,1,3,28 Aug 1899 (1899 Aug 28 - 0000 00 00),28 Aug 1899 (1899 Aug 28 - 0000 00 00),explicit_years_within_1880_1929,0,76.24,United States,Massachusetts
+756,Menidia menidia,Population 8 of Menidia menidia,59034,1,1,3,1891,1891,explicit_years_within_1880_1929,0,83.5,United States,South Carolina
+757,Menidia menidia,Population 7 of Menidia menidia,69814,1,1,3,7 Jul 1892 (1892 Jul 07 - 0000 00 00),7 Jul 1892 (1892 Jul 07 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Virginia
+758,Menidia menidia,Population 6 of Menidia menidia,90366,1,1,2,11 Mar 1916 (1916 Mar 11 - 0000 00 00; 17:18),11 Mar 1916 (1916 Mar 11 - 0000 00 00; 17:18),explicit_years_within_1880_1929,0,102.77,United States,Maryland
+759,Menidia menidia,Population 6 of Menidia menidia,90367,1,1,2,20 Jan 1916 (1916 Jan 20 - 0000 00 00; 10:48 - 12:15),20 Jan 1916 (1916 Jan 20 - 0000 00 00; 10:48 - 12:15),explicit_years_within_1880_1929,0,102.77,United States,Maryland
+760,Menidia menidia,Population 6 of Menidia menidia,90365,1,1,2,10 Mar 1916 (1916 Mar 10 - 0000 00 00; 11:37 - 13:06),10 Mar 1916 (1916 Mar 10 - 0000 00 00; 11:37 - 13:06),explicit_years_within_1880_1929,0,102.77,United States,Maryland
+761,Menidia menidia,Population 6 of Menidia menidia,90595,1,1,2,12 Mar 1916 (1916 Mar 12 - 0000 00 00; 06:40 - 07:00),12 Mar 1916 (1916 Mar 12 - 0000 00 00; 06:40 - 07:00),explicit_years_within_1880_1929,0,102.77,United States,Maryland
+762,Menidia menidia,Population 3 of Menidia menidia,59052,1,1,2,1890 (1890 00 00 - 0000 00 00),1890 (1890 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,6.45,United States,South Carolina
+763,Menidia menidia,Population 5 of Menidia menidia,117403,1,1,2,5 Aug 1885 (1885 Aug 05 - 0000 00 00),5 Aug 1885 (1885 Aug 05 - 0000 00 00),explicit_years_within_1880_1929,0,76.24,United States,Massachusetts
+764,Menidia menidia,Population 9 of Menidia menidia,69702,1,1,2,28 Jun 1892 (1892 Jun 28 - 0000 00 00),28 Jun 1892 (1892 Jun 28 - 0000 00 00),explicit_years_within_1880_1929,0,44.73,United States,Virginia
+765,Menidia menidia,Population 9 of Menidia menidia,69703,1,1,2,29 Jun 1892 (1892 Jun 29 - 0000 00 00),29 Jun 1892 (1892 Jun 29 - 0000 00 00),explicit_years_within_1880_1929,0,44.73,United States,Virginia
+766,Menidia menidia,Population 7 of Menidia menidia,69822,1,1,2,6 Jul 1892 (1892 Jul 06 - 0000 00 00),6 Jul 1892 (1892 Jul 06 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Virginia
+767,Menidia menidia,Population 9 of Menidia menidia,69698,1,1,2,19 Jul 1892 (1892 Jul 19 - 0000 00 00),19 Jul 1892 (1892 Jul 19 - 0000 00 00),explicit_years_within_1880_1929,0,44.73,United States,Virginia
+768,Menidia menidia,Population 9 of Menidia menidia,90364,1,1,1,7 Mar 1916 (1916 Mar 07 - 0000 00 00; 06:35 - 07:10),7 Mar 1916 (1916 Mar 07 - 0000 00 00; 06:35 - 07:10),explicit_years_within_1880_1929,0,44.73,United States,Virginia
+769,Menidia menidia,Population 5 of Menidia menidia,120600,1,1,1,22 Aug 1899 (1899 Aug 22 - 0000 00 00),22 Aug 1899 (1899 Aug 22 - 0000 00 00),explicit_years_within_1880_1929,0,76.24,United States,Massachusetts
+770,Menidia menidia,Population 6 of Menidia menidia,90513,1,1,1,22 Feb 1914 (0000 00 00 - 0000 00 00),22 Feb 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,102.77,United States,Maryland
+771,Menidia menidia,Population 6 of Menidia menidia,30380,1,1,1,11 Mar 1882 (1882 Mar 11 - 0000 00 00; 10:45),11 Mar 1882 (1882 Mar 11 - 0000 00 00; 10:45),explicit_years_within_1880_1929,1,102.77,United States,Maryland
+772,Menidia menidia,Population 6 of Menidia menidia,90363,1,1,1,17 Feb 1914 (1914 Feb 17 - 0000 00 00; 16:35 - 16:50),17 Feb 1914 (1914 Feb 17 - 0000 00 00; 16:35 - 16:50),explicit_years_within_1880_1929,0,102.77,United States,Maryland
+773,Menidia menidia,Population 5 of Menidia menidia,120598,1,1,1,2 Sep 1899 (1899 Sep 02 - 0000 00 00),2 Sep 1899 (1899 Sep 02 - 0000 00 00),explicit_years_within_1880_1929,0,76.24,United States,Massachusetts
+774,Menidia menidia,Population 5 of Menidia menidia,120594,1,1,1,1 Sep 1899 (1899 Sep 01 - 0000 00 00),1 Sep 1899 (1899 Sep 01 - 0000 00 00),explicit_years_within_1880_1929,0,76.24,United States,Massachusetts
+775,Menidia menidia,Population 5 of Menidia menidia,120597,1,1,1,30 Aug 1899 (1899 Aug 30 - 0000 00 00),30 Aug 1899 (1899 Aug 30 - 0000 00 00),explicit_years_within_1880_1929,0,76.24,United States,Massachusetts
+776,Menidia menidia,Population 8 of Menidia menidia,59046,1,1,1,1891 (1891 00 00 - 0000 00 00),1891 (1891 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,83.5,United States,South Carolina
+777,Menidia menidia,Population 5 of Menidia menidia,120595,1,1,1,28 Aug 1899 (1899 Aug 28 - 0000 00 00),28 Aug 1899 (1899 Aug 28 - 0000 00 00),explicit_years_within_1880_1929,0,76.24,United States,Massachusetts
+778,Menidia menidia,Population 5 of Menidia menidia,325947,1,1,1,20 Apr 1993 (1993 Apr 20 - 0000 00 00; 13:00),20 Apr 1993 (1993 Apr 20 - 0000 00 00; 13:00),explicit_years_outside_1880_1929,0,76.24,United States,Connecticut
+779,Menidia menidia,Population 5 of Menidia menidia,325946,1,1,1,20 Apr 1993 (1993 Apr 20 - 0000 00 00; 17:58),20 Apr 1993 (1993 Apr 20 - 0000 00 00; 17:58),explicit_years_outside_1880_1929,0,76.24,United States,Massachusetts
+780,Menidia menidia,Population 9 of Menidia menidia,70223,1,1,1,6 Jul 1892 (1892 Jul 06 - 0000 00 00),6 Jul 1892 (1892 Jul 06 - 0000 00 00),explicit_years_within_1880_1929,0,44.73,United States,Virginia
+781,Menidia menidia,Population 7 of Menidia menidia,69815,1,1,1,6 Jul 1892 (1892 Jul 06 - 0000 00 00),6 Jul 1892 (1892 Jul 06 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Virginia
+782,Menidia peninsulae,Population 1 of Menidia peninsulae,58972,1,1,34,21 Jan 1898 to 25 Jan 1898 (1898 Jan 21 - 1898 Jan 25),21 Jan 1898 to 25 Jan 1898 (1898 Jan 21 - 1898 Jan 25),explicit_years_within_1880_1929,0,19.55,United States,Florida
+783,Menidia peninsulae,Population 1 of Menidia peninsulae,84039,1,1,15,17 Mar 1885 (1885 Mar 17 - 0000 00 00),17 Mar 1885 (1885 Mar 17 - 0000 00 00),explicit_years_within_1880_1929,0,19.55,United States,Florida
+784,Menidia peninsulae,Population 1 of Menidia peninsulae,83843,1,1,9,17 Mar 1885 (1885 Mar 17 - 0000 00 00),17 Mar 1885 (1885 Mar 17 - 0000 00 00),explicit_years_within_1880_1929,0,19.55,United States,Florida
+785,Menidia peninsulae,Population 1 of Menidia peninsulae,67676,1,1,1,21 Jan 1898 (1898 Jan 21 - 0000 00 00),21 Jan 1898 (1898 Jan 21 - 0000 00 00),explicit_years_within_1880_1929,0,19.55,United States,Florida
+786,Merluccius albidus,Population 1 of Merluccius albidus,157755,1,1,3,27 Sep 1884,27 Sep 1884,explicit_years_within_1880_1929,0,91.25,United States,Massachusetts
+787,Merluccius albidus,Population 1 of Merluccius albidus,31842,1,1,2,4 Oct 1882 (4 Oct 1882; 10:45),,missing,0,91.25,,
+788,Merluccius albidus,Population 1 of Merluccius albidus,31863,1,1,2,4 Oct 1882,4 Oct 1882,explicit_years_within_1880_1929,0,91.25,United States,
+789,Merluccius albidus,Population 1 of Merluccius albidus,157756,1,1,2,26 Sep 1884,26 Sep 1884,explicit_years_within_1880_1929,0,91.25,United States,Massachusetts
+790,Merluccius albidus,Population 1 of Merluccius albidus,45964,1,1,2,7 Aug 1885,7 Aug 1885,explicit_years_within_1880_1929,0,91.25,United States,
+791,Merluccius albidus,Population 1 of Merluccius albidus,26190,1,1,1,2 Oct 1880,2 Oct 1880,explicit_years_within_1880_1929,0,91.25,United States,
+792,Merluccius albidus,Population 1 of Merluccius albidus,31844,1,1,1,,,missing,0,91.25,,
+793,Merluccius albidus,Population 1 of Merluccius albidus,31686,1,1,1,18 Aug 1882 (1882 Aug 18 - 0000 00 00),18 Aug 1882 (1882 Aug 18 - 0000 00 00),explicit_years_within_1880_1929,0,91.25,,
+794,Merluccius albidus,Population 1 of Merluccius albidus,31677,1,1,1,18 Aug 1882 (1882 Aug 18 - 0000 00 00),18 Aug 1882 (1882 Aug 18 - 0000 00 00),explicit_years_within_1880_1929,0,91.25,United States,New York
+795,Merluccius albidus,Population 1 of Merluccius albidus,432768,1,1,1,2 Nov 1966 to 13 Nov 1966,2 Nov 1966 to 13 Nov 1966,explicit_years_outside_1880_1929,0,91.25,,
+796,Merluccius albidus,Population 1 of Merluccius albidus,432766,1,1,1,2 Nov 1966 to 13 Nov 1966,2 Nov 1966 to 13 Nov 1966,explicit_years_outside_1880_1929,0,91.25,,
+797,Merluccius albidus,Population 1 of Merluccius albidus,432773,1,1,1,2 Nov 1966 to 13 Nov 1966,2 Nov 1966 to 13 Nov 1966,explicit_years_outside_1880_1929,0,91.25,,
+798,Merluccius albidus,Population 1 of Merluccius albidus,432767,1,1,1,2 Nov 1966 to 13 Nov 1966,2 Nov 1966 to 13 Nov 1966,explicit_years_outside_1880_1929,0,91.25,,
+799,Merluccius albidus,Population 1 of Merluccius albidus,44264,1,1,1,7 Aug 1885,7 Aug 1885,explicit_years_within_1880_1929,0,91.25,United States,
+800,Merluccius albidus,Population 1 of Merluccius albidus,432769,1,1,1,2 Nov 1966 to 13 Nov 1966,2 Nov 1966 to 13 Nov 1966,explicit_years_outside_1880_1929,0,91.25,,
+801,Merluccius albidus,Population 1 of Merluccius albidus,432770,1,1,1,2 Nov 1966 to 13 Nov 1966,2 Nov 1966 to 13 Nov 1966,explicit_years_outside_1880_1929,0,91.25,,
+802,Merluccius albidus,Population 1 of Merluccius albidus,432771,1,1,1,2 Nov 1966 to 13 Nov 1966,2 Nov 1966 to 13 Nov 1966,explicit_years_outside_1880_1929,0,91.25,,
+803,Merluccius albidus,Population 1 of Merluccius albidus,432772,1,1,1,2 Nov 1966 to 13 Nov 1966,2 Nov 1966 to 13 Nov 1966,explicit_years_outside_1880_1929,0,91.25,,
+804,Monacanthus ciliatus,Population 1 of Monacanthus ciliatus,38691,1,1,27,14 Jan 1885 (1885 Jan 14 - 0000 00 00),14 Jan 1885 (1885 Jan 14 - 0000 00 00),explicit_years_within_1880_1929,0,43.63,United States,Florida
+805,Monacanthus ciliatus,Population 2 of Monacanthus ciliatus,119758,1,1,14,30 Jan 1885,30 Jan 1885,explicit_years_within_1880_1929,0,19.78,Mexico,Quintana Roo
+806,Monacanthus ciliatus,Population 2 of Monacanthus ciliatus,101588,1,1,10,30 Jan 1885,30 Jan 1885,explicit_years_within_1880_1929,0,19.78,Mexico,Quintana Roo
+807,Monacanthus ciliatus,Population 1 of Monacanthus ciliatus,72987,1,1,8,13 Feb 1902 (1902 Feb 13; 2:40pm),13 Feb 1902 (1902 Feb 13; 2:40pm),explicit_years_within_1880_1929,0,43.63,United States,Florida
+808,Monacanthus ciliatus,Population 1 of Monacanthus ciliatus,72988,1,1,8,13 Feb 1902 (1902 Feb 13),13 Feb 1902 (1902 Feb 13),explicit_years_within_1880_1929,0,43.63,United States,Florida
+809,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,72998,1,1,8,21-Nov-01,21-Nov-01,no_explicit_four_digit_year,0,213.89,United States,Florida
+810,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,72991,1,1,7,7-Nov-01,7-Nov-01,no_explicit_four_digit_year,0,213.89,United States,Florida
+811,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,72996,1,1,6,17-Jan-02,17-Jan-02,no_explicit_four_digit_year,0,213.89,United States,Florida
+812,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,105019,1,1,6,15-Jan-02,15-Jan-02,no_explicit_four_digit_year,0,213.89,United States,Florida
+813,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,105018,1,1,4,15-Jan-02,15-Jan-02,no_explicit_four_digit_year,0,213.89,United States,Florida
+814,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,73204,1,1,4,6-Nov-01,6-Nov-01,no_explicit_four_digit_year,0,213.89,United States,Florida
+815,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,72989,1,1,3,6-Nov-01,6-Nov-01,no_explicit_four_digit_year,0,213.89,United States,Florida
+816,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,73202,1,1,3,17-Jan-02,17-Jan-02,no_explicit_four_digit_year,0,213.89,United States,Florida
+817,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,105017,1,1,3,21 Nov 1901 (1901 Nov 21 - 0000 00 00),21 Nov 1901 (1901 Nov 21 - 0000 00 00),explicit_years_within_1880_1929,0,213.89,United States,Florida
+818,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,119763,1,1,3,24 Jan 1902 (1902 Jan 24 - 0000 00 00; 09:00),24 Jan 1902 (1902 Jan 24 - 0000 00 00; 09:00),explicit_years_within_1880_1929,0,213.89,United States,Florida
+819,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,119764,1,1,3,7 Nov 1901 (1901 Nov 07; 13:05),7 Nov 1901 (1901 Nov 07; 13:05),explicit_years_within_1880_1929,0,213.89,United States,Florida
+820,Monacanthus ciliatus,Population 1 of Monacanthus ciliatus,129860,1,1,2,22 Dec 1902 (1902 Dec 22),22 Dec 1902 (1902 Dec 22),explicit_years_within_1880_1929,1,43.63,United States,Florida
+821,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,72997,1,1,2,15 Jan 1902 (15 Jan 1902; 09:55),15 Jan 1902 (15 Jan 1902; 09:55),explicit_years_within_1880_1929,0,213.89,United States,Florida
+822,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,119760,1,1,2,28 Nov 1901 (28 Nov 1901; 9:25 am),28 Nov 1901 (28 Nov 1901; 9:25 am),explicit_years_within_1880_1929,0,213.89,United States,Florida
+823,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,73000,1,1,1,23-Jan-02,23-Jan-02,no_explicit_four_digit_year,0,213.89,United States,Florida
+824,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,72990,1,1,1,15-Jan-02,15-Jan-02,no_explicit_four_digit_year,0,213.89,United States,Florida
+825,Monacanthus ciliatus,Population 1 of Monacanthus ciliatus,73205,1,1,1,24-Feb-02,24-Feb-02,no_explicit_four_digit_year,0,43.63,United States,Florida
+826,Monacanthus ciliatus,Population 1 of Monacanthus ciliatus,105016,1,1,1,24 Feb 1902 (24 Feb 1902; 08:20),24 Feb 1902 (24 Feb 1902; 08:20),explicit_years_within_1880_1929,0,43.63,United States,Florida
+827,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,105015,1,1,1,24-Jan-02,24-Jan-02,no_explicit_four_digit_year,0,213.89,United States,Florida
+828,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,119762,1,1,1,6 Dec 1901 (1901 Dec 6),6 Dec 1901 (1901 Dec 6),explicit_years_within_1880_1929,0,213.89,United States,Florida
+829,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,119765,1,1,1,17 Jan 1902 (1902 Jan 17; 12:00 midnight),17 Jan 1902 (1902 Jan 17; 12:00 midnight),explicit_years_within_1880_1929,0,213.89,United States,Florida
+830,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,119761,1,1,1,5 Dec 1901 (1901 Dec 5),5 Dec 1901 (1901 Dec 5),explicit_years_within_1880_1929,0,213.89,United States,Florida
+831,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,73206,1,1,1,17-Jan-02,17-Jan-02,no_explicit_four_digit_year,0,213.89,United States,Florida
+832,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,73210,1,1,1,21 Nov 1901 (1901 Nov 21 - 0000 00 00),21 Nov 1901 (1901 Nov 21 - 0000 00 00),explicit_years_within_1880_1929,0,213.89,United States,Florida
+833,Monacanthus ciliatus,Population 1 of Monacanthus ciliatus,73245,1,1,1,24-Feb-02,24-Feb-02,no_explicit_four_digit_year,0,43.63,United States,Florida
+834,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,73209,1,1,1,6 Nov 1901 (6 Nov 1901; 2:15pm),6 Nov 1901 (6 Nov 1901; 2:15pm),explicit_years_within_1880_1929,0,213.89,United States,Florida
+835,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,73211,1,1,1,28 Nov 1901 (28 Nov 1901; 12:00 pm),28 Nov 1901 (28 Nov 1901; 12:00 pm),explicit_years_within_1880_1929,0,213.89,United States,Florida
+836,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,73212,1,1,1,28 Nov 1901 (28 Nov 1901; 11:15 am),28 Nov 1901 (28 Nov 1901; 11:15 am),explicit_years_within_1880_1929,0,213.89,United States,Florida
+837,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,73213,1,1,1,20-Nov-01,20-Nov-01,no_explicit_four_digit_year,0,213.89,United States,Florida
+838,Monacanthus ciliatus,Population 3 of Monacanthus ciliatus,49718,1,1,1,28 Mar 1901 (28 Mar 1901; 10:30 am),28 Mar 1901 (28 Mar 1901; 10:30 am),explicit_years_within_1880_1929,0,213.89,United States,Florida
+839,Monacanthus ciliatus,Population 1 of Monacanthus ciliatus,134223,1,1,1,15 Jan 1885,15 Jan 1885,explicit_years_within_1880_1929,0,43.63,United States,Florida
+840,Monacanthus ciliatus,Population 1 of Monacanthus ciliatus,38692,1,1,1,14 Jan 1885 (1885 Jan 14 - 0000 00 00),14 Jan 1885 (1885 Jan 14 - 0000 00 00),explicit_years_within_1880_1929,0,43.63,United States,Florida
+841,Monacanthus ciliatus,Population 1 of Monacanthus ciliatus,38694,1,1,1,14 Jan 1885 (1885 Jan 14 - 0000 00 00),14 Jan 1885 (1885 Jan 14 - 0000 00 00),explicit_years_within_1880_1929,0,43.63,United States,Florida
+842,Monacanthus ciliatus,Population 1 of Monacanthus ciliatus,134163,1,1,1,15 Jan 1885,15 Jan 1885,explicit_years_within_1880_1929,0,43.63,United States,Florida
+843,Monolene sessilicauda,Population 1 of Monolene sessilicauda,26121,1,1,17,13 Sep 1880 (1880 Sep 13 - 0000 00 00; 09:40),13 Sep 1880 (1880 Sep 13 - 0000 00 00; 09:40),explicit_years_within_1880_1929,0,61.14,United States,
+844,Monolene sessilicauda,Population 1 of Monolene sessilicauda,120626,1,1,1,1 Sep 1899 (1 Sep 1899; 08:45),1 Sep 1899 (1 Sep 1899; 08:45),explicit_years_within_1880_1929,0,61.14,,
+845,Monolene sessilicauda,Population 1 of Monolene sessilicauda,26099,1,1,1,13 Sep 1880 (1880 Sep 13 - 0000 00 00; 08:45),13 Sep 1880 (1880 Sep 13 - 0000 00 00; 08:45),explicit_years_within_1880_1929,0,61.14,United States,Massachusetts
+846,Monolene sessilicauda,Population 1 of Monolene sessilicauda,26120,1,1,1,13 Sep 1880 (1880 Sep 13 - 0000 00 00; 09:40),13 Sep 1880 (1880 Sep 13 - 0000 00 00; 09:40),explicit_years_within_1880_1929,0,61.14,United States,
+847,Monolene sessilicauda,Population 1 of Monolene sessilicauda,45670,1,1,1,9 Aug 1885,9 Aug 1885,explicit_years_within_1880_1929,0,61.14,United States,
+848,Monolene sessilicauda,Population 1 of Monolene sessilicauda,33575,1,1,1,21 Sep 1883,21 Sep 1883,explicit_years_within_1880_1929,0,61.14,United States,
+849,Mullus auratus,Population 1 of Mullus auratus,91451,1,1,46,"2 May 1915 (May 2, 1915, 19:00-20:00pm)","2 May 1915 (May 2, 1915, 19:00-20:00pm)",explicit_years_within_1880_1929,1,23.1,United States,Florida
+850,Mullus auratus,Population 1 of Mullus auratus,126796,1,1,20,3 Apr 1917 (1917 Apr 03 - 0000 00 00),3 Apr 1917 (1917 Apr 03 - 0000 00 00),explicit_years_within_1880_1929,0,23.1,United States,Florida
+851,Mullus auratus,Population 1 of Mullus auratus,466260,1,1,1,3 Apr 1917 (1917 Apr 03 - 0000 00 00),3 Apr 1917 (1917 Apr 03 - 0000 00 00),explicit_years_within_1880_1929,0,23.1,United States,Florida
+852,Myctophum affine,Population 1 of Myctophum affine,92808,1,1,60,23 Oct 1886,23 Oct 1886,explicit_years_within_1880_1929,0,0,United States,Virginia
+853,Myctophum affine,Population 2 of Myctophum affine,92804,1,1,21,16 Sep 1886,16 Sep 1886,explicit_years_within_1880_1929,0,0,United States,
+854,Myoxocephalus octodecemspinosus,Population 1 of Myoxocephalus octodecemspinosus,329956,1,1,9,27 Apr 1994 (1994 Apr 27 - 0000 00 00; 09:39 - 10:09),27 Apr 1994 (1994 Apr 27 - 0000 00 00; 09:39 - 10:09),explicit_years_outside_1880_1929,0,63.13,United States,Massachusetts
+855,Myoxocephalus octodecemspinosus,Population 1 of Myoxocephalus octodecemspinosus,120624,1,1,7,,,missing,0,63.13,United States,Massachusetts
+856,Myoxocephalus octodecemspinosus,Population 1 of Myoxocephalus octodecemspinosus,329940,1,1,4,27 Apr 1994 (1994 Apr 27 - 0000 00 00; 04:46 - 05:46 Ca),27 Apr 1994 (1994 Apr 27 - 0000 00 00; 04:46 - 05:46 Ca),explicit_years_outside_1880_1929,0,63.13,United States,Massachusetts
+857,Myoxocephalus octodecemspinosus,Population 1 of Myoxocephalus octodecemspinosus,325928,1,1,1,21 Apr 1993 (1993 Apr 21 - 0000 00 00; 00:05),21 Apr 1993 (1993 Apr 21 - 0000 00 00; 00:05),explicit_years_outside_1880_1929,0,63.13,United States,Massachusetts
+858,Myoxocephalus octodecemspinosus,Population 1 of Myoxocephalus octodecemspinosus,325984,1,1,1,20 Apr 1993 (1993 Apr 20 - 0000 00 00; 14:31),20 Apr 1993 (1993 Apr 20 - 0000 00 00; 14:31),explicit_years_outside_1880_1929,0,63.13,United States,New York
+859,Nezumia bairdii,Population 1 of Nezumia bairdii,26193,1,1,9,2 Oct 1880,2 Oct 1880,explicit_years_within_1880_1929,0,138.48,United States,
+860,Nezumia bairdii,Population 1 of Nezumia bairdii,26062,1,1,6,13 Sep 1880 (1880 Sep 13 - 0000 00 00; 13:20),13 Sep 1880 (1880 Sep 13 - 0000 00 00; 13:20),explicit_years_within_1880_1929,0,138.48,United States,Massachusetts
+861,Nezumia bairdii,Population 1 of Nezumia bairdii,33513,1,1,6,21 Sep 1883,21 Sep 1883,explicit_years_within_1880_1929,0,138.48,United States,
+862,Nezumia bairdii,Population 1 of Nezumia bairdii,35427,1,1,6,23 Jul 1884,23 Jul 1884,explicit_years_within_1880_1929,0,138.48,United States,New Jersey
+863,Nezumia bairdii,Population 1 of Nezumia bairdii,35434,1,1,4,23 Jul 1884,23 Jul 1884,explicit_years_within_1880_1929,0,138.48,United States,New Jersey
+864,Nezumia bairdii,Population 1 of Nezumia bairdii,45778,1,1,4,18 Jul 1886,18 Jul 1886,explicit_years_within_1880_1929,0,138.48,United States,
+865,Nezumia bairdii,Population 1 of Nezumia bairdii,92828,1,1,4,11 Aug 1885,11 Aug 1885,explicit_years_within_1880_1929,0,138.48,United States,New Jersey
+866,Nezumia bairdii,Population 1 of Nezumia bairdii,26166,1,1,3,2 Oct 1880,2 Oct 1880,explicit_years_within_1880_1929,1,138.48,United States,Rhode Island
+867,Nezumia bairdii,Population 1 of Nezumia bairdii,28892,1,1,3,8 Sep 1881 (1881 Sep 08 - 0000 00 00),8 Sep 1881 (1881 Sep 08 - 0000 00 00),explicit_years_within_1880_1929,0,138.48,United States,New Jersey
+868,Nezumia bairdii,Population 1 of Nezumia bairdii,45743,1,1,3,9 Aug 1885,9 Aug 1885,explicit_years_within_1880_1929,0,138.48,United States,
+869,Nezumia bairdii,Population 1 of Nezumia bairdii,45703,1,1,3,8 Aug 1885,8 Aug 1885,explicit_years_within_1880_1929,0,138.48,United States,Massachusetts
+870,Nezumia bairdii,Population 1 of Nezumia bairdii,31643,1,1,2,22 Aug 1882 (22 Aug 1882; 13:45),22 Aug 1882 (22 Aug 1882; 13:45),explicit_years_within_1880_1929,0,138.48,United States,
+871,Nezumia bairdii,Population 1 of Nezumia bairdii,31855,1,1,2,4 Oct 1882 (4 Oct 1882; 10:45),4 Oct 1882 (4 Oct 1882; 10:45),explicit_years_within_1880_1929,0,138.48,United States,
+872,Nezumia bairdii,Population 1 of Nezumia bairdii,28909,1,1,2,8 Sep 1881,8 Sep 1881,explicit_years_within_1880_1929,0,138.48,United States,
+873,Nezumia bairdii,Population 1 of Nezumia bairdii,45712,1,1,2,9 Aug 1885,9 Aug 1885,explicit_years_within_1880_1929,0,138.48,United States,New Jersey
+874,Nezumia bairdii,Population 1 of Nezumia bairdii,45731,1,1,2,8 Aug 1885,8 Aug 1885,explicit_years_within_1880_1929,0,138.48,United States,Massachusetts
+875,Nezumia bairdii,Population 1 of Nezumia bairdii,26187,1,1,1,2 Oct 1880,2 Oct 1880,explicit_years_within_1880_1929,1,138.48,United States,Rhode Island
+876,Nezumia bairdii,Population 1 of Nezumia bairdii,28913,1,1,1,8 Sep 1881 (1881 Sep 08 - 0000 00 00; 04:50),8 Sep 1881 (1881 Sep 08 - 0000 00 00; 04:50),explicit_years_within_1880_1929,0,138.48,United States,Massachusetts
+877,Nezumia bairdii,Population 1 of Nezumia bairdii,31646,1,1,1,18 Aug 1882 (1882 Aug 18 - 0000 00 00),18 Aug 1882 (1882 Aug 18 - 0000 00 00),explicit_years_within_1880_1929,0,138.48,,
+878,Nezumia bairdii,Population 1 of Nezumia bairdii,31880,1,1,1,4 Oct 1882,4 Oct 1882,explicit_years_within_1880_1929,0,138.48,United States,
+879,Nezumia bairdii,Population 1 of Nezumia bairdii,26198,1,1,1,,,missing,0,138.48,United States,
+880,Nezumia bairdii,Population 1 of Nezumia bairdii,31657,1,1,1,18 Aug 1882 (1882 Aug 18 - 0000 00 00; 14:40),18 Aug 1882 (1882 Aug 18 - 0000 00 00; 14:40),explicit_years_within_1880_1929,0,138.48,United States,
+881,Nezumia bairdii,Population 1 of Nezumia bairdii,28903,1,1,1,8 Sep 1881 (1881 Sep 08),8 Sep 1881 (1881 Sep 08),explicit_years_within_1880_1929,0,138.48,United States,Massachusetts
+882,Nezumia bairdii,Population 1 of Nezumia bairdii,28739,1,1,1,16 Jul 1881 (0000 00 00 - 0000 00 00),16 Jul 1881 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,138.48,United States,Massachusetts
+883,Nezumia bairdii,Population 1 of Nezumia bairdii,45780,1,1,1,16 Jul 1886,16 Jul 1886,explicit_years_within_1880_1929,0,138.48,United States,
+884,Nezumia bairdii,Population 1 of Nezumia bairdii,45708,1,1,1,8 Aug 1885,8 Aug 1885,explicit_years_within_1880_1929,0,138.48,United States,
+885,Nezumia bairdii,Population 1 of Nezumia bairdii,134004,1,1,1,18 Jul 1886,18 Jul 1886,explicit_years_within_1880_1929,0,138.48,United States,
+886,Nezumia bairdii,Population 1 of Nezumia bairdii,39231,1,1,1,19 Sep 1887,19 Sep 1887,explicit_years_within_1880_1929,0,138.48,United States,
+887,Nezumia bairdii,Population 1 of Nezumia bairdii,33008,1,1,1,25 May 1883,25 May 1883,explicit_years_within_1880_1929,0,138.48,United States,
+888,Nezumia bairdii,Population 1 of Nezumia bairdii,35598,1,1,1,22 Aug 1884,22 Aug 1884,explicit_years_within_1880_1929,0,138.48,United States,
+889,Nezumia bairdii,Population 1 of Nezumia bairdii,35435,1,1,1,23 Jul 1884,23 Jul 1884,explicit_years_within_1880_1929,0,138.48,United States,New Jersey
+890,Nezumia bairdii,Population 1 of Nezumia bairdii,33037,1,1,1,25 May 1883,25 May 1883,explicit_years_within_1880_1929,0,138.48,United States,
+891,Nezumia bairdii,Population 1 of Nezumia bairdii,33006,1,1,1,25 May 1883,25 May 1883,explicit_years_within_1880_1929,0,138.48,United States,
+892,Opisthonema oglinum,Population 1 of Opisthonema oglinum,73764,1,1,16,19 Jan 1899 (1899 Jan 19 - 0000 00 00),19 Jan 1899 (1899 Jan 19 - 0000 00 00),explicit_years_within_1880_1929,0,46.94,United States,Puerto Rico
+893,Opisthonema oglinum,Population 1 of Opisthonema oglinum,73769,1,1,7,21 Jan 1899 (1899 Jan 21 - 0000 00 00),21 Jan 1899 (1899 Jan 21 - 0000 00 00),explicit_years_within_1880_1929,0,46.94,United States,Puerto Rico
+894,Opisthonema oglinum,Population 1 of Opisthonema oglinum,63059,1,1,2,19 Jan 1899 (1899 Jan 19 - 0000 00 00),19 Jan 1899 (1899 Jan 19 - 0000 00 00),explicit_years_within_1880_1929,0,46.94,United States,Puerto Rico
+895,Opisthonema oglinum,Population 1 of Opisthonema oglinum,73765,1,1,1,28 Jan 1899,28 Jan 1899,explicit_years_within_1880_1929,0,46.94,United States,Puerto Rico
+896,Opisthonema oglinum,Population 1 of Opisthonema oglinum,73768,1,1,1,8 Feb 1899,8 Feb 1899,explicit_years_within_1880_1929,1,46.94,United States,Puerto Rico
+897,Paralepis coregonoides,Population 1 of Paralepis coregonoides,196079,1,1,24,1 Feb 1914 (1914 Feb 01 - 0000 00 00),1 Feb 1914 (1914 Feb 01 - 0000 00 00),explicit_years_within_1880_1929,0,0,,
+898,Paralichthys dentatus,Population 1 of Paralichthys dentatus,91250,1,1,10,22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),22 Jan 1921 (1921 Jan 22 - 0000 00 00; 11:02 - 11:54),explicit_years_within_1880_1929,0,78.55,United States,Virginia
+899,Paralichthys dentatus,Population 1 of Paralichthys dentatus,91251,1,1,7,16 Jan 1914 (1914 Jan 16 - 0000 00 00; 13:25 - 13:48),16 Jan 1914 (1914 Jan 16 - 0000 00 00; 13:25 - 13:48),explicit_years_within_1880_1929,0,78.55,United States,Virginia
+900,Paralichthys dentatus,Population 1 of Paralichthys dentatus,91264,1,1,4,16 May 1916 (1916 May 16 - 0000 00 00),16 May 1916 (1916 May 16 - 0000 00 00),explicit_years_within_1880_1929,0,78.55,United States,Virginia
+901,Paralichthys dentatus,Population 1 of Paralichthys dentatus,91248,1,1,3,23 Jan 1921 (1921 Jan 23 - 0000 00 00; 08:20 - 09:26),23 Jan 1921 (1921 Jan 23 - 0000 00 00; 08:20 - 09:26),explicit_years_within_1880_1929,0,78.55,United States,Virginia
+902,Paralichthys dentatus,Population 1 of Paralichthys dentatus,54956,1,1,3,28 Jun 1892 (1892 Jun 28 - 0000 00 00),28 Jun 1892 (1892 Jun 28 - 0000 00 00),explicit_years_within_1880_1929,0,78.55,United States,Virginia
+903,Paralichthys dentatus,Population 1 of Paralichthys dentatus,67747,1,1,2,30 Mar 1894 (1894 Mar 30 - 0000 00 00),30 Mar 1894 (1894 Mar 30 - 0000 00 00),explicit_years_within_1880_1929,0,78.55,United States,Virginia
+904,Paralichthys dentatus,Population 1 of Paralichthys dentatus,157630,1,1,2,4 Dec 1920 (1920 Dec 04 - 0000 00 00; 11:55 - 13:00),4 Dec 1920 (1920 Dec 04 - 0000 00 00; 11:55 - 13:00),explicit_years_within_1880_1929,0,78.55,United States,Virginia
+905,Paralichthys dentatus,Population 1 of Paralichthys dentatus,54952,1,1,2,6 Jul 1892 (1892 Jul 06 - 0000 00 00),6 Jul 1892 (1892 Jul 06 - 0000 00 00),explicit_years_within_1880_1929,0,78.55,United States,Virginia
+906,Paralichthys dentatus,Population 1 of Paralichthys dentatus,54940,1,1,1,16 Jul 1892 (1892 Jul 16 - 0000 00 00),16 Jul 1892 (1892 Jul 16 - 0000 00 00),explicit_years_within_1880_1929,0,78.55,United States,Virginia
+907,Paralichthys dentatus,Population 1 of Paralichthys dentatus,54955,1,1,1,29 Jun 1892 (1892 Jun 29 - 0000 00 00),29 Jun 1892 (1892 Jun 29 - 0000 00 00),explicit_years_within_1880_1929,0,78.55,United States,Virginia
+908,Paralichthys dentatus,Population 1 of Paralichthys dentatus,54965,1,1,1,18 Jul 1892 (1892 Jul 18 - 0000 00 00),18 Jul 1892 (1892 Jul 18 - 0000 00 00),explicit_years_within_1880_1929,0,78.55,United States,Virginia
+909,Phycis chesteri,Population 1 of Phycis chesteri,25903,1,1,44,4 Sep 1880,4 Sep 1880,explicit_years_within_1880_1929,1,33.39,United States,Rhode Island
+910,Phycis chesteri,Population 1 of Phycis chesteri,25904,1,1,17,4 Sep 1880 (1880 Sep 04 - 0000 00 00),4 Sep 1880 (1880 Sep 04 - 0000 00 00),explicit_years_within_1880_1929,0,33.39,United States,Rhode Island
+911,Phycis chesteri,Population 1 of Phycis chesteri,441821,1,1,1,4 Sep 1880,4 Sep 1880,explicit_years_within_1880_1929,1,33.39,United States,Rhode Island
+912,Poecilia latipinna,Population 1 of Poecilia latipinna,126785,1,1,30,28 Jan 1917 (1917 Jan 28 - 0000 00 00),28 Jan 1917 (1917 Jan 28 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Florida
+913,Poecilia vivipara,Population 1 of Poecilia vivipara,73831,1,1,220,14 Feb 1899 (1899 Feb 14 - 0000 00 00),14 Feb 1899 (1899 Feb 14 - 0000 00 00),explicit_years_within_1880_1929,0,18.72,United States,Puerto Rico
+914,Poecilia vivipara,Population 1 of Poecilia vivipara,126130,1,1,13,17 Feb 1899 (1899 Feb 17 - 0000 00 00),17 Feb 1899 (1899 Feb 17 - 0000 00 00),explicit_years_within_1880_1929,0,18.72,United States,Puerto Rico
+915,Poecilia vivipara,Population 1 of Poecilia vivipara,50154,1,1,10,14 Feb 1899 (1899 Feb 14 - 0000 00 00),14 Feb 1899 (1899 Feb 14 - 0000 00 00),explicit_years_within_1880_1929,0,18.72,United States,Puerto Rico
+916,Poecilia vivipara,Population 1 of Poecilia vivipara,63048,1,1,6,17 Feb 1899 (1899 Feb 17 - 0000 00 00),17 Feb 1899 (1899 Feb 17 - 0000 00 00),explicit_years_within_1880_1929,0,18.72,United States,Puerto Rico
+917,Poecilia vivipara,Population 1 of Poecilia vivipara,63066,1,1,5,14 Feb 1899 (1899 Feb 14 - 0000 00 00),14 Feb 1899 (1899 Feb 14 - 0000 00 00),explicit_years_within_1880_1929,0,18.72,United States,Puerto Rico
+918,Pseudopleuronectes americanus,Population 1 of Pseudopleuronectes americanus,91271,1,1,12,20 Jan 1916 (1916 Jan 20 - 0000 00 00; 10:48 - 12:15),20 Jan 1916 (1916 Jan 20 - 0000 00 00; 10:48 - 12:15),explicit_years_within_1880_1929,0,66,United States,Maryland
+919,Pseudopleuronectes americanus,Population 1 of Pseudopleuronectes americanus,91270,1,1,11,20 Jan 1916 (1916 Jan 20 - 0000 00 00; 07:45 - 09:55),20 Jan 1916 (1916 Jan 20 - 0000 00 00; 07:45 - 09:55),explicit_years_within_1880_1929,0,66,United States,Maryland
+920,Pseudopleuronectes americanus,Population 1 of Pseudopleuronectes americanus,91269,1,1,9,20 Jan 1916 (1916 Jan 20 - 0000 00 00; 10:48 - 12:15),20 Jan 1916 (1916 Jan 20 - 0000 00 00; 10:48 - 12:15),explicit_years_within_1880_1929,0,66,United States,Maryland
+921,Pseudopleuronectes americanus,Population 1 of Pseudopleuronectes americanus,91272,1,1,6,27 Jan 1916 (1916 Jan 27 - 0000 00 00; 07:36 - 08:25),27 Jan 1916 (1916 Jan 27 - 0000 00 00; 07:36 - 08:25),explicit_years_within_1880_1929,0,66,United States,Maryland
+922,Pseudopleuronectes americanus,Population 2 of Pseudopleuronectes americanus,286377,1,1,3,23 Aug 1892 (1892 Aug 23 - 0000 00 00; 11:30),23 Aug 1892 (1892 Aug 23 - 0000 00 00; 11:30),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+923,Pseudopleuronectes americanus,Population 2 of Pseudopleuronectes americanus,120657,1,1,3,1 Sep 1899 (1899 Sep 01 - 0000 00 00),1 Sep 1899 (1899 Sep 01 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+924,Pseudopleuronectes americanus,Population 2 of Pseudopleuronectes americanus,120655,1,1,3,22 Aug 1899 (1899 Aug 22 - 0000 00 00),22 Aug 1899 (1899 Aug 22 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+925,Pseudopleuronectes americanus,Population 2 of Pseudopleuronectes americanus,49622,1,1,2,28 Aug 1899 (1899 Aug 28 - 0000 00 00),28 Aug 1899 (1899 Aug 28 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+926,Pseudopleuronectes americanus,Population 1 of Pseudopleuronectes americanus,91268,1,1,2,25 Apr 1916 (1916 Apr 25 - 0000 00 00; 06:50 - 07:25),25 Apr 1916 (1916 Apr 25 - 0000 00 00; 06:50 - 07:25),explicit_years_within_1880_1929,0,66,United States,Maryland
+927,Pseudopleuronectes americanus,Population 2 of Pseudopleuronectes americanus,67626,1,1,2,23 Aug 1892 (1892 Aug 23 - 0000 00 00; 12:00),23 Aug 1892 (1892 Aug 23 - 0000 00 00; 12:00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+928,Pseudopleuronectes americanus,Population 1 of Pseudopleuronectes americanus,91267,1,1,2,1916 (1916 00 00 - 0000 00 00),1916 (1916 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,66,United States,Maryland
+929,Pseudopleuronectes americanus,Population 2 of Pseudopleuronectes americanus,120654,1,1,2,28 Aug 1899 (1899 Aug 28 - 0000 00 00),28 Aug 1899 (1899 Aug 28 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+930,Pseudopleuronectes americanus,Population 2 of Pseudopleuronectes americanus,120656,1,1,2,30 Aug 1899 (1899 Aug 30 - 0000 00 00),30 Aug 1899 (1899 Aug 30 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+931,Pseudopleuronectes americanus,Population 2 of Pseudopleuronectes americanus,54864,1,1,2,19 Aug 1892 (1892 Aug 19 - 0000 00 00),19 Aug 1892 (1892 Aug 19 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+932,Pseudopleuronectes americanus,Population 1 of Pseudopleuronectes americanus,156098,1,1,1,19 Jan 1914 (1914 Jan 19 - 0000 00 00; 14:38 - 14:52),19 Jan 1914 (1914 Jan 19 - 0000 00 00; 14:38 - 14:52),explicit_years_within_1880_1929,0,66,United States,Maryland
+933,Pseudopleuronectes americanus,Population 2 of Pseudopleuronectes americanus,54843,1,1,1,9 Aug 1892 (1892 Aug 09 - 0000 00 00),9 Aug 1892 (1892 Aug 09 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+934,Pseudopleuronectes americanus,Population 2 of Pseudopleuronectes americanus,49248,1,1,1,Aug 1899 (1899 Aug 00 - 0000 00 00),Aug 1899 (1899 Aug 00 - 0000 00 00),explicit_years_within_1880_1929,0,29.12,United States,Massachusetts
+935,Sebastes norvegicus,Population 1 of Sebastes norvegicus,184968,1,1,20,"31 Aug 1915 (August 31, 1915)","31 Aug 1915 (August 31, 1915)",explicit_years_within_1880_1929,0,0,United States,Maine
+936,Sparisoma radians,Population 1 of Sparisoma radians,73796,1,1,11,17 Feb 1899 (1899 Feb 17 - 0000 00 00),17 Feb 1899 (1899 Feb 17 - 0000 00 00),explicit_years_within_1880_1929,0,18.72,United States,Puerto Rico
+937,Sparisoma radians,Population 1 of Sparisoma radians,126144,1,1,11,13 Feb 1899 (1899 Feb 13 - 0000 00 00),13 Feb 1899 (1899 Feb 13 - 0000 00 00),explicit_years_within_1880_1929,0,18.72,United States,Puerto Rico
+938,Sparisoma radians,Population 2 of Sparisoma radians,73794,1,1,10,31 Jan 1899 (1899 Jan 31 - 0000 00 00),31 Jan 1899 (1899 Jan 31 - 0000 00 00),explicit_years_within_1880_1929,0,61.58,United States,Puerto Rico
+939,Sparisoma radians,Population 1 of Sparisoma radians,50155,1,1,8,17 Feb 1899 (1899 Feb 17 - 0000 00 00),17 Feb 1899 (1899 Feb 17 - 0000 00 00),explicit_years_within_1880_1929,0,18.72,United States,Puerto Rico
+940,Sparisoma radians,Population 2 of Sparisoma radians,63041,1,1,5,19 Jan 1899 (1899 Jan 19 - 0000 00 00),19 Jan 1899 (1899 Jan 19 - 0000 00 00),explicit_years_within_1880_1929,0,61.58,United States,Puerto Rico
+941,Sparisoma radians,Population 1 of Sparisoma radians,73797,1,1,4,17 Feb 1899 (1899 Feb 17 - 0000 00 00),17 Feb 1899 (1899 Feb 17 - 0000 00 00),explicit_years_within_1880_1929,0,18.72,United States,Puerto Rico
+942,Sparisoma radians,Population 2 of Sparisoma radians,73791,1,1,4,26 Jan 1899,26 Jan 1899,explicit_years_within_1880_1929,0,61.58,United States,Puerto Rico
+943,Sparisoma radians,Population 2 of Sparisoma radians,73793,1,1,2,28 Jan 1899,28 Jan 1899,explicit_years_within_1880_1929,0,61.58,United States,Puerto Rico
+944,Sparisoma radians,Population 2 of Sparisoma radians,73792,1,1,1,27 Jan 1899,27 Jan 1899,explicit_years_within_1880_1929,0,61.58,United States,Puerto Rico
+945,Sparisoma radians,Population 2 of Sparisoma radians,73790,1,1,1,21 Jan 1899 (1899 Jan 21 - 0000 00 00),21 Jan 1899 (1899 Jan 21 - 0000 00 00),explicit_years_within_1880_1929,0,61.58,United States,Puerto Rico
+946,Sparisoma radians,Population 2 of Sparisoma radians,73795,1,1,1,8 Feb 1899,8 Feb 1899,explicit_years_within_1880_1929,1,61.58,United States,Puerto Rico
+947,Sphoeroides maculatus,Population 1 of Sphoeroides maculatus,120669,1,1,7,22 Aug 1899,22 Aug 1899,explicit_years_within_1880_1929,0,46.57,United States,Massachusetts
+948,Sphoeroides maculatus,Population 1 of Sphoeroides maculatus,54852,1,1,6,2 Aug 1892,2 Aug 1892,explicit_years_within_1880_1929,0,46.57,United States,Massachusetts
+949,Sphoeroides maculatus,Population 1 of Sphoeroides maculatus,54853,1,1,2,29 Aug 1892 (1892 Aug 29 - 0000 00 00),,missing,0,46.57,United States,Massachusetts
+950,Sphoeroides maculatus,Population 1 of Sphoeroides maculatus,120665,1,1,1,4 Sep 1899 (1899 Sep 04 - 0000 00 00),4 Sep 1899 (1899 Sep 04 - 0000 00 00),explicit_years_within_1880_1929,0,46.57,United States,Massachusetts
+951,Sphoeroides maculatus,Population 1 of Sphoeroides maculatus,120668,1,1,1,30 Aug 1899 (1899 Aug 30 - 0000 00 00),30 Aug 1899 (1899 Aug 30 - 0000 00 00),explicit_years_within_1880_1929,0,46.57,United States,Massachusetts
+952,Sphoeroides maculatus,Population 1 of Sphoeroides maculatus,120664,1,1,1,22 Aug 1899,22 Aug 1899,explicit_years_within_1880_1929,0,46.57,United States,Massachusetts
+953,Sphoeroides maculatus,Population 1 of Sphoeroides maculatus,54851,1,1,1,10 Aug 1892 (1892 Aug 10 - 0000 00 00),10 Aug 1892 (1892 Aug 10 - 0000 00 00),explicit_years_within_1880_1929,0,46.57,United States,Massachusetts
+954,Sphoeroides maculatus,Population 1 of Sphoeroides maculatus,120666,1,1,1,1 Sep 1899,1 Sep 1899,explicit_years_within_1880_1929,0,46.57,United States,Massachusetts
+955,Sphoeroides maculatus,Population 1 of Sphoeroides maculatus,120667,1,1,1,28 Aug 1899 (1899 Aug 28 - 0000 00 00),28 Aug 1899 (1899 Aug 28 - 0000 00 00),explicit_years_within_1880_1929,0,46.57,United States,Massachusetts
+956,Stellifer lanceolatus,Population 1 of Stellifer lanceolatus,142782,1,1,750,10 Jul 1915 (1915 Jul 10 - 0000 00 00),10 Jul 1915 (1915 Jul 10 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,South Carolina
+957,Stenotomus caprinus,Population 1 of Stenotomus caprinus,143825,1,1,16,28-Feb-17,28-Feb-17,no_explicit_four_digit_year,0,24.94,United States,Texas
+958,Stenotomus caprinus,Population 1 of Stenotomus caprinus,126766,1,1,10,1-Mar-17,1-Mar-17,no_explicit_four_digit_year,0,24.94,United States,Texas
+959,Stenotomus chrysops,Population 1 of Stenotomus chrysops,54901,1,1,10,,,missing,0,29.33,United States,Massachusetts
+960,Stenotomus chrysops,Population 1 of Stenotomus chrysops,31638,1,1,5,18 Aug 1882 (1882 Aug 18 - 0000 00 00; 15:00),18 Aug 1882 (1882 Aug 18 - 0000 00 00; 15:00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+961,Stenotomus chrysops,Population 1 of Stenotomus chrysops,54829,1,1,2,1892 (1892 00 00 - 0000 00 00),1892 (1892 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+962,Stenotomus chrysops,Population 1 of Stenotomus chrysops,120673,1,1,2,22 Aug 1899,22 Aug 1899,explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+963,Stenotomus chrysops,Population 1 of Stenotomus chrysops,70119,1,1,1,3 Sep 1892 (1892 Sep 03 - 0000 00 00),3 Sep 1892 (1892 Sep 03 - 0000 00 00),explicit_years_within_1880_1929,1,29.33,United States,Massachusetts
+964,Stenotomus chrysops,Population 1 of Stenotomus chrysops,54824,1,1,1,20 Aug 1892,20 Aug 1892,explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+965,Stenotomus chrysops,Population 1 of Stenotomus chrysops,120674,1,1,1,28 Aug 1899 (1899 Aug 28 - 0000 00 00),28 Aug 1899 (1899 Aug 28 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+966,Stenotomus chrysops,Population 1 of Stenotomus chrysops,120672,1,1,1,30 Aug 1899 (1899 Aug 30 - 0000 00 00),30 Aug 1899 (1899 Aug 30 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+967,Stenotomus chrysops,Population 1 of Stenotomus chrysops,120671,1,1,1,1 Sep 1899 (1899 Sep 01 - 0000 00 00),1 Sep 1899 (1899 Sep 01 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+968,Stephanolepis hispida,Population 1 of Stephanolepis hispida,106253,1,1,22,7-Sep-13,7-Sep-13,no_explicit_four_digit_year,1,14.5,United States,North Carolina
+969,Stephanolepis hispida,Population 2 of Stephanolepis hispida,105722,1,1,14,12 Aug 1914 (1914 Aug 12 - 0000 00 00),12 Aug 1914 (1914 Aug 12 - 0000 00 00),explicit_years_within_1880_1929,1,32.4,United States,North Carolina
+970,Stephanolepis hispida,Population 3 of Stephanolepis hispida,120610,1,1,13,1 Sep 1899,1 Sep 1899,explicit_years_within_1880_1929,0,5,United States,Massachusetts
+971,Stephanolepis hispida,Population 2 of Stephanolepis hispida,105720,1,1,7,10 Aug 1914 (1914 Aug 10 - 0000 00 00),10 Aug 1914 (1914 Aug 10 - 0000 00 00),explicit_years_within_1880_1929,1,32.4,United States,North Carolina
+972,Stephanolepis hispida,Population 2 of Stephanolepis hispida,106320,1,1,4,12 Aug 1914 (1914 Aug 12 - 0000 00 00),12 Aug 1914 (1914 Aug 12 - 0000 00 00),explicit_years_within_1880_1929,1,32.4,United States,North Carolina
+973,Stephanolepis hispida,Population 3 of Stephanolepis hispida,120607,1,1,4,1 Sep 1899 (1899 Sep 01 - 0000 00 00),1 Sep 1899 (1899 Sep 01 - 0000 00 00),explicit_years_within_1880_1929,0,5,United States,Massachusetts
+974,Stephanolepis hispida,Population 2 of Stephanolepis hispida,105712,1,1,2,2-Sep-14,2-Sep-14,no_explicit_four_digit_year,0,32.4,United States,North Carolina
+975,Stephanolepis hispida,Population 2 of Stephanolepis hispida,105859,1,1,2,23-Sep-05,23-Sep-05,no_explicit_four_digit_year,1,32.4,United States,
+976,Stephanolepis hispida,Population 3 of Stephanolepis hispida,120608,1,1,2,4 Sep 1899 (1899 Sep 04 - 0000 00 00),4 Sep 1899 (1899 Sep 04 - 0000 00 00),explicit_years_within_1880_1929,0,5,United States,Massachusetts
+977,Stephanolepis hispida,Population 1 of Stephanolepis hispida,106291,1,1,2,7 Sep 1913 or 8 Sep 1913,7 Sep 1913 or 8 Sep 1913,explicit_years_within_1880_1929,0,14.5,United States,North Carolina
+978,Stephanolepis hispida,Population 2 of Stephanolepis hispida,106318,1,1,1,21-Jun-26,21-Jun-26,no_explicit_four_digit_year,0,32.4,United States,North Carolina
+979,Stephanolepis hispida,Population 2 of Stephanolepis hispida,106319,1,1,1,12-Aug-14,12-Aug-14,no_explicit_four_digit_year,1,32.4,United States,North Carolina
+980,Stephanolepis hispida,Population 3 of Stephanolepis hispida,120609,1,1,1,30 Aug 1899 (1899 Aug 30 - 0000 00 00),30 Aug 1899 (1899 Aug 30 - 0000 00 00),explicit_years_within_1880_1929,0,5,United States,Massachusetts
+981,Strongylura marina,Population 1 of Strongylura marina,69820,1,1,17,6 Jul 1892 (1892 Jul 06 - 0000 00 00),6 Jul 1892 (1892 Jul 06 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Maryland
+982,Strongylura marina,Population 1 of Strongylura marina,291467,1,1,5,6 Jul 1892 (1892 Jul 06 - 0000 00 00),6 Jul 1892 (1892 Jul 06 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Maryland
+983,Strongylura marina,Population 1 of Strongylura marina,125475,1,1,5,6 Jul 1892 (1892 Jul 06 - 0000 00 00),6 Jul 1892 (1892 Jul 06 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Maryland
+984,Syacium papillosum,Population 1 of Syacium papillosum,236125,1,1,27,16 Mar 1917 (1917 Mar 16 - 0000 00 00),16 Mar 1917 (1917 Mar 16 - 0000 00 00),explicit_years_within_1880_1929,0,28.17,United States,Texas
+985,Syacium papillosum,Population 2 of Syacium papillosum,156227,1,1,21,5 Mar 1917 (1917 Mar 05 - 0000 00 00),5 Mar 1917 (1917 Mar 05 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Texas
+986,Syacium papillosum,Population 2 of Syacium papillosum,156345,1,1,12,9 Mar 1917 (1917 Mar 09 - 0000 00 00),9 Mar 1917 (1917 Mar 09 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Texas
+987,Syacium papillosum,Population 1 of Syacium papillosum,126500,1,1,11,26 Feb 1917 to 27 Feb 1917 (1917 Feb 26 - 1917 Feb 27),26 Feb 1917 to 27 Feb 1917 (1917 Feb 26 - 1917 Feb 27),explicit_years_within_1880_1929,1,28.17,United States,Texas
+988,Syngnathus fuscus,Population 1 of Syngnathus fuscus,72319,1,1,59,7 Jul 1892,7 Jul 1892,explicit_years_within_1880_1929,0,147.89,United States,Virginia
+989,Syngnathus fuscus,Population 2 of Syngnathus fuscus,132737,1,1,54,1 Oct 1915 (1915 Oct 01 - 0000 00 00),1 Oct 1915 (1915 Oct 01 - 0000 00 00),explicit_years_within_1880_1929,0,0,United States,Massachusetts
+990,Syngnathus fuscus,Population 3 of Syngnathus fuscus,30403,1,1,14,6 Mar 1882,6 Mar 1882,explicit_years_within_1880_1929,0,55.78,United States,Virginia
+991,Syngnathus fuscus,Population 3 of Syngnathus fuscus,72317,1,1,9,2 Mar 1894,2 Mar 1894,explicit_years_within_1880_1929,0,55.78,United States,Virginia
+992,Syngnathus fuscus,Population 3 of Syngnathus fuscus,72318,1,1,6,7 Jul 1892 (1892 Jul 07 - 0000 00 00),7 Jul 1892 (1892 Jul 07 - 0000 00 00),explicit_years_within_1880_1929,0,55.78,United States,Virginia
+993,Syngnathus fuscus,Population 1 of Syngnathus fuscus,389223,1,1,1,20-Oct-20,20-Oct-20,no_explicit_four_digit_year,0,147.89,United States,Virginia
+994,Syngnathus fuscus,Population 3 of Syngnathus fuscus,90086,1,1,1,6 Mar 1916 (1916 Mar 06 - 0000 00 00; 12:25 - 13:55),6 Mar 1916 (1916 Mar 06 - 0000 00 00; 12:25 - 13:55),explicit_years_within_1880_1929,0,55.78,United States,Virginia
+995,Syngnathus fuscus,Population 3 of Syngnathus fuscus,132725,1,1,1,4 Dec 1920 (1920 Dec 04 - 0000 00 00; 17:38 - 18:24),4 Dec 1920 (1920 Dec 04 - 0000 00 00; 17:38 - 18:24),explicit_years_within_1880_1929,0,55.78,United States,Virginia
+996,Syngnathus fuscus,Population 1 of Syngnathus fuscus,132730,1,1,1,23 Mar 1914 (0000 00 00 - 0000 00 00),23 Mar 1914 (0000 00 00 - 0000 00 00),explicit_years_within_1880_1929,1,147.89,United States,Maryland
+997,Syngnathus fuscus,Population 3 of Syngnathus fuscus,107756,1,1,1,25-Jun-16,25-Jun-16,no_explicit_four_digit_year,0,55.78,United States,Virginia
+998,Syngnathus fuscus,Population 3 of Syngnathus fuscus,91344,1,1,1,12 Sep 1916 (1916 Sep 12 - 0000 00 00; 07:15 - 08:05),12 Sep 1916 (1916 Sep 12 - 0000 00 00; 07:15 - 08:05),explicit_years_within_1880_1929,0,55.78,United States,Virginia
+999,Syngnathus fuscus,Population 1 of Syngnathus fuscus,77922,1,1,1,9 Dec 1915 (1915 Dec 09 - 0000 00 00; 11:12 - 12:05),9 Dec 1915 (1915 Dec 09 - 0000 00 00; 11:12 - 12:05),explicit_years_within_1880_1929,0,147.89,United States,Maryland
+1000,Syngnathus fuscus,Population 1 of Syngnathus fuscus,77923,1,1,1,6 Dec 1915 (1915 Dec 06 - 0000 00 00),6 Dec 1915 (1915 Dec 06 - 0000 00 00),explicit_years_within_1880_1929,0,147.89,United States,Maryland
+1001,Syngnathus fuscus,Population 1 of Syngnathus fuscus,77925,1,1,1,7 Dec 1915 to 8 Dec 1915 (1915 Dec 08 - 0000 00 00),7 Dec 1915 to 8 Dec 1915 (1915 Dec 08 - 0000 00 00),explicit_years_within_1880_1929,0,147.89,United States,Maryland
+1002,Syngnathus fuscus,Population 1 of Syngnathus fuscus,77926,1,1,1,10-Dec-15,10-Dec-15,no_explicit_four_digit_year,0,147.89,United States,Maryland
+1003,Syngnathus fuscus,Population 3 of Syngnathus fuscus,30402,1,1,1,6 Mar 1882,6 Mar 1882,explicit_years_within_1880_1929,0,55.78,United States,Virginia
+1004,Syngnathus fuscus,Population 1 of Syngnathus fuscus,399916,1,1,1,,,missing,1,147.89,United States,
+1005,Syngnathus fuscus,Population 3 of Syngnathus fuscus,100429,1,1,1,17-Nov-16,17-Nov-16,no_explicit_four_digit_year,0,55.78,,Virginia
+1006,Syngnathus fuscus,Population 3 of Syngnathus fuscus,54967,1,1,1,6 Jul 1892 (1892 Jul 06 - 0000 00 00),6 Jul 1892 (1892 Jul 06 - 0000 00 00),explicit_years_within_1880_1929,0,55.78,United States,Virginia
+1007,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,100299,1,1,30,1892 (1892 00 00 - 0000 00 00),1892 (1892 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1008,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,70130,1,1,17,3 Sep 1892 (1892 Sep 03 - 0000 00 00),3 Sep 1892 (1892 Sep 03 - 0000 00 00),explicit_years_within_1880_1929,1,29.33,United States,Massachusetts
+1009,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,67625,1,1,11,20 Aug 1892 (1892 Aug 20 - 0000 00 00),20 Aug 1892 (1892 Aug 20 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1010,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,54825,1,1,4,1892 (1892 00 00 - 0000 00 00),1892 (1892 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1011,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,125000,1,1,4,18 Aug 1892 (1892 Aug 18 - 0000 00 00),18 Aug 1892 (1892 Aug 18 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1012,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,54856,1,1,2,10 Aug 1892 (1892 Aug 10 - 0000 00 00),10 Aug 1892 (1892 Aug 10 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1013,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,54826,1,1,2,1892 (1892 00 00 - 0000 00 00),1892 (1892 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1014,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,54827,1,1,2,20 Aug 1892 (1892 Aug 20 - 0000 00 00),20 Aug 1892 (1892 Aug 20 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1015,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,54828,1,1,2,23 Aug 1892 (1892 00 00 - 0000 00 00),23 Aug 1892 (1892 00 00 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1016,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,120694,1,1,2,22 Aug 1899 (1899 Aug 22 - 0000 00 00),22 Aug 1899 (1899 Aug 22 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1017,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,120693,1,1,2,1 Sep 1899 (1899 Sep 01 - 0000 00 00),1 Sep 1899 (1899 Sep 01 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1018,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,120678,1,1,1,1 Sep 1899 (1899 Sep 01 - 0000 00 00),1 Sep 1899 (1899 Sep 01 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1019,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,120679,1,1,1,4 Sep 1899 (1899 Sep 04 - 0000 00 00),4 Sep 1899 (1899 Sep 04 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1020,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,120692,1,1,1,1 Sep 1899 (1899 Sep 01 - 0000 00 00),1 Sep 1899 (1899 Sep 01 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1021,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,120695,1,1,1,30 Aug 1899 (1899 Aug 30 - 0000 00 00),30 Aug 1899 (1899 Aug 30 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1022,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,120696,1,1,1,30 Aug 1899 (1899 Aug 30 - 0000 00 00),30 Aug 1899 (1899 Aug 30 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1023,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,120697,1,1,1,28 Aug 1899 (1899 Aug 28 - 0000 00 00),28 Aug 1899 (1899 Aug 28 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1024,Tautogolabrus adspersus,Population 1 of Tautogolabrus adspersus,49629,1,1,1,28 Aug 1899 (1899 Aug 28 - 0000 00 00),28 Aug 1899 (1899 Aug 28 - 0000 00 00),explicit_years_within_1880_1929,0,29.33,United States,Massachusetts
+1025,Trinectes maculatus,Population 1 of Trinectes maculatus,156015,1,1,12,8 Dec 1920 (1920 Dec 08 - 0000 00 00; 12:03 - 12:24),8 Dec 1920 (1920 Dec 08 - 0000 00 00; 12:03 - 12:24),explicit_years_within_1880_1929,1,0,United States,Maryland
+1026,Trinectes maculatus,Population 1 of Trinectes maculatus,156458,1,1,5,6 Dec 1920 (1920 Dec 06 - 0000 00 00),6 Dec 1920 (1920 Dec 06 - 0000 00 00),explicit_years_within_1880_1929,1,0,United States,Maryland
+1027,Trinectes maculatus,Population 1 of Trinectes maculatus,286794,1,1,4,4 Jul 1920 (1920 Jul 04 - 0000 00 00; 16:00 - 16:47),4 Jul 1920 (1920 Jul 04 - 0000 00 00; 16:00 - 16:47),explicit_years_within_1880_1929,1,0,United States,Maryland
