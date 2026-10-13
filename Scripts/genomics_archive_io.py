@@ -266,6 +266,10 @@ def export_sqlite():
         temp.unlink()
     con = sqlite3.connect(temp)
     for path in sorted(out.glob('*.csv')):
+        # Derived viewer exports are built separately from the scientific inventory.
+        # Importing an older map export during an inventory refresh would mix snapshots.
+        if path.name.startswith('map_'):
+            continue
         records = rows(path)
         with open(path, encoding='utf-8-sig', newline='') as f:
             fields = next(csv.reader(f))

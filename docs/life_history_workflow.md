@@ -308,7 +308,9 @@ This is a **targeted, machine-assisted first pass**, not an exhaustive systemati
 review. Every original gap has an archived targeted query, results and assessment
 note in the [gap review](../Output/LifeHistorySupplement/migration_gap_review.csv).
 Absence of supporting results does not establish absence of published evidence.
-Search extracts are discovery records, not stand-alone evidence for an assignment.
+Short search snippets are discovery records, not stand-alone evidence for an
+assignment. The broader integration below separately labels substantial indexed
+IUCN assessment sections; these are not authenticated API records or complete PDFs.
 Two full-source acquisitions (cunner and sand-lance leads) returned HTTP 403;
 those leads remain unavailable in the registry and support no imported trait.
 Next review priorities are the Stoner interpretation, blocked source leads, and
@@ -356,6 +358,210 @@ check unchanged original values, trait-specific evidence links, unknown/held cas
 units and age qualifiers, rejection of missing attribution/conflicts/tampered sources,
 all-gap audit coverage and deterministic CSV/coverage rebuilds. Excel ZIP timestamps
 can vary. This supplement does not modify the atlas, spatial thresholds or rankings.
+
+## Integrated conservation, trophic and functional-trait database
+
+Implemented 12–13 October 2026. The scope now covers all available life-history
+domains, rather than prioritizing migration alone. The frozen roster, species
+pooling and existing taxonomic crosswalk remain unchanged.
+
+Use the [80-species workbook](../Output/SpeciesTraits/species_traits_80.xlsx),
+[SQLite database](../Output/SpeciesTraits/species_traits.sqlite), or canonical
+[species summary CSV](../Output/SpeciesTraits/species_summary.csv). These outputs
+extend the previous extraction; they do not overwrite it. The database contains
+one species record per project name and normalized, individually attributed
+evidence linked to conservation, trophic, functional and contextual trait tables.
+
+### Coverage and interpretation
+
+| Component | Current coverage | Interpretation |
+| --- | --- | --- |
+| Red List assessment categories carried by FishBase | 72/80: 67 LC, 4 VU, 1 NT | Attributed snapshot categories, not a completed audit of current global status. |
+| Other Red List rows | 7 source-coded `N.E.`; 1 unresolved taxon | Preserve `N.E.` as FishBase's report. The current IUCN evaluation status remains unverified; unresolved taxonomy stays separate. |
+| Numerical trophic level | 67/80 | 44 species have species-level diet-composition estimates; 65 have food-item estimates, with overlap. Prefer diet-composition estimates without averaging methods. |
+| Broad feeding class or diet guild | 69/80 | 68 FishBase broad classes; 16 finer reef-dataset guilds, including one additional species. Contextual diet evidence is also retained. |
+| Body shape and reported maximum size | 79/80 | One ambiguous taxon remains withheld. Other functional dimensions have their own coverage. |
+| Atlantic reef-fish dataset matches | 18/80 | Partial, source-specific coverage; no extrapolation to unlisted marine or freshwater species. |
+
+The integrated database contains 3,165 evidence records: the original 2,670
+FishBase records, 22 prior supplemental records, 348 newly exposed FishBase
+fields, 112 reef-dataset trait records and 13 newly curated assessment/narrative
+records. These are **characterizations, not independent studies**. Repeated
+references and inherited database information must not be counted as replication.
+Independent scientific review remains pending.
+
+### IUCN status and assessment biology
+
+The user confirmed that no API token is available and authorized using available
+sources. `iucn_status` retains all 80 species, original FishBase category strings,
+assessment dates, criteria when supplied, IUCN taxon/assessment IDs, assessment
+URLs, taxon-match decisions and verification status. Only the FishBase
+`species in general` stock is used for this table; population-specific stocks
+are not substituted. Source taxon names make transfers to accepted species or
+species aggregates visible. Geographic assessment scope is explicitly unverified
+unless inspected in assessment text. No failed request or absent match becomes
+Least Concern, Data Deficient or Not Evaluated.
+
+None of the 80 records is labeled as authenticated **current/latest** verification.
+Category dates can substantially precede both the FishBase release and our retrieval
+date. Regional, national and global conservation categories are not interchangeable.
+For example, the Canadian COSEWIC or Baltic HELCOM classification of lumpfish must
+not fill its missing global IUCN assessment. A future authorized API/export update
+must retain assessment history, scope and taxon identity and identify corrections
+or superseded assessments before changing the preferred status.
+
+IUCN is also a biological source. The substantial publicly indexed text of
+[Cadrin et al. (2022), witch flounder assessment](https://doi.org/10.2305/IUCN.UK.2022-2.RLTS.T18214757A162704857.en)
+is archived with its URL, retrieval timestamp, representation type and checksum.
+The inspected sections supply a generation-length estimate of 16–17 years,
+regional/sex-specific maturation ages, reported maximum age, an upper larval-period
+estimate, spawning aggregation, egg and diet information. The generation-length
+estimate is assessment-derived; it is not a direct observation or equivalent to
+the FishBase growth-derived generation-time model. The larval period is a reported
+upper value, not a mean dispersal duration. Regional maturation records are retained
+individually and not combined into a universal maturity age. Original publications
+cited by the assessment have not been independently checked.
+
+This representation contains substantive assessment sections, rather than an
+isolated search snippet, but it can omit material. Its inclusion is explicitly
+marked `public_indexed_assessment_text`; it is not presented as a downloaded
+complete assessment or API response. Short snippets from other assessments remain
+source leads. The workflow can therefore benefit from available IUCN biology
+while keeping the access and verification limits visible.
+
+### Trophic information and functional connections
+
+FishBase `DietTroph` and `FoodTroph` are **estimates**, with their respective SEs,
+remarks, references and source stock retained. `trophic_level_preferred` uses
+the species-level diet estimate when available, otherwise the species-level
+food-item estimate. It does not average the two, borrow an SE from the other
+method, derive a value from taxonomy, or impute a missing value from a guild.
+An explicitly recorded zero SE is retained as a source value, not treated as
+proof of zero biological variation. The archive contains additional contextual
+records; a population-specific record is not silently promoted to a global value.
+
+FishBase's broad `Herbivory2` class, feeding mechanism and the Atlantic dataset's
+diet guild are separate columns. The broad class already incorporates trophic
+information, so it must not be treated as an independent measurement alongside
+the numerical trophic level. The reef guilds distinguish generalized carnivores,
+mobile/sessile invertivores, herbivores/detritivores, omnivores and planktivores.
+They come from [Cord et al., version v2, June 2025](https://doi.org/10.5281/zenodo.15636151),
+whose sources include FishBase, Smithsonian records and literature; per-cell
+upstream citations are not supplied. Attribution therefore honestly stops at the
+dataset when the original source is unidentified.
+
+`functional_traits` connects the species to body size and shape, water-column
+position, depth, generation time, growth, maturation, longevity, migration,
+reproductive traits, social grouping, habitat breadth and rafting. Trophic traits
+join on the same species key; `contextual_traits` adds region-specific literature
+values with units, sex/life stage and evidence IDs. These describe potential
+differences in resource use, habitat exposure, movement and reproductive schedules
+relevant to Aim 3. They are trait profiles, not measured ecosystem-process rates
+or precomputed functional-diversity scores.
+
+Source definitions constrain interpretation:
+
+- TL, SL, FL and unspecified lengths remain distinct; no silent conversion or
+  pooling of maximum body size, maturation size, L50 and length at first maturity.
+- Reef rafting codes are often assigned at genus level. They are retained as
+  compiled classifications, never relabeled as species-level observations.
+- Reef spawning categories remain separate from FishBase parental care and egg
+  traits. The pipefish `live` category requires interpretation before equating it
+  with physiological viviparity.
+- Source-coded reef binary zeros are retained under their explicit codebook.
+  FishBase zero habitat/behavior flags are not used as evidence of absence;
+  only positive schooling, batch-spawning and aggregation flags are promoted.
+- Pinfish has documented ontogenetic feeding changes. NOAA's adult-omnivory
+  description is retained beside the reef mobile-invertivore guild, whose life
+  stage is unspecified. A universal single guild would conceal this distinction.
+
+For later analysis, predefine ecological domains and weights; do not count several
+correlated size/growth/generation-time estimates as independent predictors. Mixed
+categorical/continuous traits require suitable distance methods and explicit
+scaling, length conventions and missing-data rules before functional-space or
+diversity calculations. Test sensitivity to model-only values, genus-level
+classifications, taxon proxies and uncertain regional transfers. Conservation
+status is a separate response/risk descriptor, not an intrinsic functional trait;
+using a modern decline-based status to predict historical demographic change
+requires particular care about temporal ordering and circularity. No such model,
+imputation or final species ranking is performed here.
+
+### Full gap inventory and source-quality audit
+
+`trait_gaps` has **2,320 rows: 80 species × 29 domains**. `trait_field_gaps` also
+enumerates each individual evidence field for every species, so domain coverage
+does not conceal missing subtraits. Both distinguish available contextual evidence,
+model-only evidence, held-only evidence and missing information. Availability does
+not mean that all populations, life stages or trait definitions are covered.
+
+The reef workbook has 1,637 rows and 1,636 distinct names after mechanical removal
+of padding/underscores. Two *Cerdale floridana* rows differ; neither matches our
+roster. They are retained in `source_issues`, and multiple matches to any project
+species cause the build to fail. Source `NA` strings are missing, not categories.
+The *Dibranchus atlanticus* 1-cm size entry is retained but held after a large
+disagreement with the FishBase size; it does not replace the existing value.
+
+Some inherited FishBase reference IDs lack bibliography rows in the frozen source.
+Their source record, reference ID and link remain available, with an explicit
+`upstream_bibliographic_record_missing` flag. No author/title is invented. One
+reference's malformed `PaperURL` is removed from the usable URL field and preserved
+as escaped JSON with a quality flag. The original parquet remains unchanged.
+Excel-only escaping/truncation, if needed, is recorded in `excel_export_notes`;
+complete canonical values remain in CSV/SQLite or the explicit raw-JSON field.
+
+### Rebuild and query
+
+Using the same pinned environment as the earlier extraction:
+
+```bash
+# Explicit acquisition of configured public sources, if absent:
+python3 Scripts/download_species_traits.py
+
+# Offline construction and validation:
+python3 Scripts/build_species_traits.py
+python3 -m unittest discover -s tests -p test_species_traits.py -v
+```
+
+Configuration lives in `config/species_traits_{sources,policy,curated_evidence}.json`.
+New archives, metadata and discovery logs are under `Data/SpeciesTraits/`.
+The builder verifies the frozen baseline, existing supplement outputs and source
+checksums, then writes a manifest of input/output hashes and software versions.
+It uses the existing crosswalk without fuzzy matching, new taxonomy cleaning or
+subspecies expansion. Files in earlier output directories remain unchanged.
+
+SQLite contains `species`, `sources`, `trait_evidence`, `iucn_status`,
+`trophic_traits`, `functional_traits`, `contextual_traits`, `summary_evidence`,
+`trait_gaps`, `trait_field_gaps`, `references` and audit tables. Evidence has
+species/source foreign keys, numeric values/bounds where meaningful and a context
+JSON field for population, sex, stage and source details. `trait_provenance` joins
+each characterization to its source citation, version, URL and archive hash.
+`summary_evidence` links individual summary fields back to supporting records.
+
+For example:
+
+```sql
+SELECT species, iucn_category_reported, assessment_date,
+       assessment_url, verification
+FROM iucn_status;
+
+SELECT species, trophic_level_preferred, trophic_level_method,
+       trophic_level_se, fishbase_feeding_group, reef_diet_guild
+FROM trophic_traits;
+
+SELECT species, trait, value, unit, citation, locator,
+       upstream_citation, reference_scope, qc_flags
+FROM trait_provenance
+WHERE species = 'Glyptocephalus cynoglossus';
+
+SELECT species, trait, coverage_status
+FROM trait_field_gaps
+WHERE coverage_status IN ('missing', 'held_only', 'model_only');
+```
+
+Tests check preservation of all original values, unresolved taxonomy, Red List
+scope/missingness, trophic-method/SE pairing, source and summary links, source
+disagreements, contextual bounds, complete gap enumeration, SQLite integrity and
+numeric types, Excel display changes and deterministic offline CSV rebuilds.
 
 ## Reproduce and audit
 

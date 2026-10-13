@@ -332,7 +332,11 @@ def enrich_reef(db, crosswalk, trophic, functional, base):
     reef = pd.read_excel(path, sheet_name='traits&distributions', dtype=str, keep_default_na=False)
     reef.insert(0, 'excel_row', range(2, len(reef) + 2))
     reef['match_name'] = reef.species.str.strip().str.replace('_', ' ', regex=False)
-    require(reef.match_name.is_unique, 'Duplicate reef names need review')
+    # The release contains duplicate Cerdale floridana rows outside our roster.
+    # Preserve that audit; fail only if a project taxon has multiple matches.
+    source_issues=reef.loc[reef.match_name.duplicated(keep=False),['species','excel_row','match_name']].copy()
+    source_issues=source_issues.rename(columns={'species':'source_species'})
+    source_issues['issue']='duplicate source taxon; no automatic deduplication'
     matched = []
     for c in ['reef_group_size','reef_group_size_evidence_ids','reef_spawning_mode','reef_spawning_mode_evidence_ids',
               'reef_multihabitat','reef_multihabitat_evidence_ids','reef_rafting','reef_rafting_evidence_ids']:
@@ -351,10 +355,11 @@ def enrich_reef(db, crosswalk, trophic, functional, base):
             continue
         r = rows.iloc[0]
         sp = tax['species']
-        matched.append(dict(project_species=sp, taxon_match=tax['match_status'], **r.to_dict()))
+        matched.append(dict(species=sp, source_species=r['species'], taxon_match=tax['match_status'],
+                            **{k:v for k,v in r.to_dict().items() if k!='species'}))
         for field, trait, unit in fields:
             raw = val(r[field]).strip()
-            if not raw:
+            if raw in {'','NA','N/A'}:
                 continue
             normalized = raw
             if field in ['diet','groupsize','spawning']:
@@ -396,7 +401,7 @@ def enrich_reef(db, crosswalk, trophic, functional, base):
                 ix = functional.index[functional.species == sp][0]
                 functional.loc[ix,[trait,trait+'_evidence_ids']] = [normalized,key]
                 db.link('functional_traits', sp, trait, [key])
-    return pd.DataFrame(matched)
+    return pd.DataFrame(matched),source_issues
 
 
 def import_curated(db, base, tables, trophic, iucn):
@@ -418,6 +423,8 @@ def import_curated(db, base, tables, trophic, iucn):
         if r['trait'] == 'diet_guild_contextual':
             ix = trophic.index[trophic.species == r['species']][0]
             trophic.loc[ix,['contextual_diet_guild','contextual_diet_guild_evidence_ids']] = [r['value'],r['evidence_id']]
+            if r.get('comparison_note'):
+                trophic.loc[ix,'source_comparison']=r['comparison_note']
             db.link('trophic_traits', r['species'], 'contextual_diet_guild', [r['evidence_id']])
         if r['trait'] == 'iucn_assessment_category':
             ix = iucn.index[iucn.species == r['species']][0]
@@ -503,7 +510,11 @@ def reference_bibliography(db, tables):
         if not match:
             continue
         number=int(match.group(1))
-        require(number in refs.index,'Referenced bibliography record missing')
+        if number not in refs.index:
+            e['qc_flags']='; '.join(filter(None,[e['qc_flags'],'upstream_bibliographic_record_missing']))
+            e['upstream_citation']+=' (bibliographic record absent from pinned reference table)'
+            # The FishBase record remains attributable; do not invent a primary citation.
+            continue
         selected.add(number)
         row=refs.loc[number]
         require(isinstance(row,pd.Series),'Duplicate reference record')
@@ -512,7 +523,15 @@ def reference_bibliography(db, tables):
         e['upstream_url']=f'https://www.fishbase.se/references/FBRefSummary.php?ID={number}'
     out=refs.loc[sorted(selected)].reset_index()
     keep=[c for c in ['RefNo','Author','Year','Title','Source','DOI','PaperURL'] if c in out]
-    return out[keep].fillna('')
+    out=out[keep].fillna('')
+    out['PaperURL_raw_json']=''
+    out['bibliography_qc_flag']=''
+    for ix,url in out.PaperURL.items():
+        if re.search(r'[^\x09\x0a\x0d\x20-\ud7ff\ue000-\ufffd\U00010000-\U0010ffff]',str(url)):
+            out.loc[ix,'PaperURL_raw_json']=json.dumps(url,ensure_ascii=True)
+            out.loc[ix,'PaperURL']=''
+            out.loc[ix,'bibliography_qc_flag']='malformed source URL; raw value retained as escaped JSON'
+    return out
 
 
 DOMAINS = {
@@ -532,7 +551,7 @@ DOMAINS = {
  'egg_traits': ['egg_buoyancy'], 'larval_habitat': ['PlaceofDevelopment'],
  'trophic_level': ['DietTroph','FoodTroph'],
  'trophic_group': ['fishbase_feeding_group','reef_diet_guild','diet_guild_contextual'],
- 'feeding_mechanism': ['feeding_mechanism','FeedingType'],
+ 'feeding_mechanism': ['feeding_mechanism','FeedingType','feeding_type'],
  'sociality': ['schooling_reported','reef_group_size'],
  'activity': ['activity_reported'], 'mating_system': ['mating_system'],
  'habitat_breadth': ['reef_multihabitat'], 'rafting': ['reef_rafting'],
@@ -542,6 +561,8 @@ DOMAINS = {
 
 def gaps_and_dictionary(db, base):
     rows=[]
+    field_rows=[]
+    all_traits=sorted({e['trait'] for e in db.evidence.values()}|{t for values in DOMAINS.values() for t in values})
     for sp in base.species:
         ev=[e for e in db.evidence.values() if e['species']==sp]
         for domain, traits in DOMAINS.items():
@@ -552,10 +573,17 @@ def gaps_and_dictionary(db, base):
             rows.append(dict(species=sp,trait_domain=domain,coverage_status=status,
                 evidence_ids='; '.join(e['evidence_id'] for e in found),
                 note='Availability is not independent verification; scope, methods and quality flags remain mandatory.'))
+        for trait in all_traits:
+            found=[e for e in ev if e['trait']==trait]
+            usable=[e for e in found if e['decision']!='hold']
+            nonmodel=[e for e in usable if e['evidence_type']!='model_or_derived_keyfacts']
+            state='available_contextual' if nonmodel else 'model_only' if usable else 'held_only' if found else 'missing'
+            field_rows.append(dict(species=sp,trait=trait,coverage_status=state,
+                evidence_ids='; '.join(e['evidence_id'] for e in found)))
     definitions=[dict(field=f,domain=d,source_trait=t,unit=u,interpretation=n) for f,(d,t,u,n) in AXES.items()]
     definitions += [dict(field=k,domain=k,source_trait='; '.join(v),unit='see evidence records',
                        interpretation='Gap-audit domain; source-specific measurements are not automatically interchangeable.') for k,v in DOMAINS.items()]
-    return pd.DataFrame(rows),pd.DataFrame(definitions)
+    return pd.DataFrame(rows),pd.DataFrame(definitions),pd.DataFrame(field_rows)
 
 
 def write_sqlite(path, tables):
@@ -599,18 +627,42 @@ def write_sqlite(path, tables):
     temp.replace(path)
 
 
+def excel_frame(frame, table, changes):
+    """Excel cannot store some source control characters or very long cells.
+
+    Escape only the convenience export; canonical CSV/SQLite remain lossless.
+    """
+    result=frame.copy()
+    for column in frame:
+        for index,value in frame[column].items():
+            if not isinstance(value,str):
+                continue
+            safe=re.sub(r'[^\x09\x0a\x0d\x20-\ud7ff\ue000-\ufffd\U00010000-\U0010ffff]',
+                        lambda m:f'\\u{ord(m[0]):04x}',value)
+            reasons=[]
+            if safe!=value:
+                reasons.append('control characters visibly escaped')
+            if len(safe)>32767:
+                safe=safe[:32600]+' [Excel display truncated; complete value in CSV/SQLite]'
+                reasons.append('Excel cell length limit')
+            if reasons:
+                changes.append(dict(table=table,csv_row=int(index)+2,column=column,reason='; '.join(reasons)))
+                result.at[index,column]=safe
+    return result
+
+
 def build(out=None):
     out=Path(out) if out else ROOT/'Output/SpeciesTraits'
     db=Database()
     base,crosswalk,tables,policy=load_inputs(db)
     old=import_previous(db,base)
     iucn,trophic,functional=enrich_fishbase(db,base,crosswalk,tables)
-    reef=enrich_reef(db,crosswalk,trophic,functional,base)
+    reef,source_issues=enrich_reef(db,crosswalk,trophic,functional,base)
     curated=import_curated(db,base,tables,trophic,iucn)
     existing_axes(db,base,functional)
     contextual=contextual_profiles(db,base)
     references=reference_bibliography(db,tables)
-    gap,dictionary=gaps_and_dictionary(db,base)
+    gap,dictionary,field_gaps=gaps_and_dictionary(db,base)
     species=crosswalk.copy()
     sources=pd.DataFrame(db.sources.values()).fillna('')
     evidence=pd.DataFrame(db.evidence.values()).fillna('')
@@ -637,12 +689,14 @@ def build(out=None):
         any_trophic_group_species=int(((trophic.fishbase_feeding_group!='')|(trophic.reef_diet_guild!='')|(trophic.contextual_diet_guild!='')).sum()),
         body_shape_species=int((functional.body_shape!='').sum()),
         curated_new_evidence_records=len(curated), total_evidence_records=len(evidence),
-        gap_audit_rows=len(gap),independent_review='pending',
+        gap_audit_rows=len(gap),field_gap_audit_rows=len(field_gaps),independent_review='pending',
         limitation='Red List values are attributed snapshots, not a live/current global-status audit. No API token was available.')
     database_tables={'species':species,'sources':sources,'trait_evidence':evidence,
         'iucn_status':iucn,'trophic_traits':trophic,'functional_traits':functional,
         'summary_evidence':links,'trait_gaps':gap,'trait_dictionary':dictionary,
         'contextual_traits':contextual,'references':references,
+        'source_issues':source_issues,
+        'trait_field_gaps':field_gaps,
         'reef_match_records':reef,'curated_evidence':curated,'species_summary':summary}
     out.mkdir(parents=True,exist_ok=True)
     for name,frame in database_tables.items():
@@ -663,16 +717,20 @@ def build(out=None):
         ('Missingness','trait_gaps covers all trait domains. Missing is not zero/absence. Model-only and held-only coverage are separate.'),
         ('Reproduce','python3 Scripts/build_species_traits.py; see docs/life_history_workflow.md'),
     ],columns=['item','description'])
+    excel_changes=[]
     with pd.ExcelWriter(out/'species_traits_80.xlsx',engine='openpyxl') as writer:
         notes.to_excel(writer,sheet_name='README',index=False)
         for name in ['species_summary','iucn_status','trophic_traits','functional_traits','contextual_traits',
-                     'trait_gaps','curated_evidence','sources','references','summary_evidence','trait_dictionary']:
-            database_tables[name].to_excel(writer,sheet_name=name,index=False)
-        provenance.to_excel(writer,sheet_name='trait_provenance',index=False)
+                     'trait_gaps','trait_field_gaps','curated_evidence','reef_match_records','source_issues',
+                     'sources','references','summary_evidence','trait_dictionary']:
+            excel_frame(database_tables[name],name,excel_changes).to_excel(writer,sheet_name=name,index=False)
+        excel_frame(provenance,'trait_provenance',excel_changes).to_excel(writer,sheet_name='trait_provenance',index=False)
+        pd.DataFrame(excel_changes,columns=['table','csv_row','column','reason']).to_excel(writer,sheet_name='excel_export_notes',index=False)
         for ws in writer.book.worksheets:
             ws.freeze_panes='B2';ws.auto_filter.ref=ws.dimensions
             for col in ws.columns:
                 ws.column_dimensions[col[0].column_letter].width=min(60,max(18,len(str(col[0].value))+2))
+    pd.DataFrame(excel_changes,columns=['table','csv_row','column','reason']).to_csv(out/'excel_export_notes.csv',index=False)
     (out/'coverage.json').write_text(json.dumps(coverage,indent=2)+'\n')
     files=[ROOT/'Scripts/build_species_traits.py',ROOT/'Scripts/download_species_traits.py',
            ROOT/'requirements-life-history.txt',RAW/'download_manifest.json']

@@ -316,5 +316,32 @@
     "assessment_scope": "Global",
     "publication_year": "2022",
     "criteria": "A1bd"
+  },
+  {
+    "evidence_id": "CUR013",
+    "species": "Lagodon rhomboides",
+    "source_taxon": "Lagodon rhomboides",
+    "source_id": "SUP_ELMR1997",
+    "trait": "diet_guild_contextual",
+    "value": "adult omnivory; juvenile/subadult predation",
+    "unit": "category",
+    "definition": "Reported diet changes with life stage; a single adult/juvenile guild should not be assumed.",
+    "locator": "printed p. 243; PDF p. 248, Food and Feeding / Trophic Mode",
+    "population": "Gulf of Mexico synthesis",
+    "life_stage": "juvenile/subadult versus adult",
+    "sex": "not specified in extracted passage",
+    "study_period": "historical studies summarized in 1997",
+    "method": "NOAA literature synthesis",
+    "evidence_type": "report_synthesis",
+    "upstream_citation": "Carr and Adams (1973); Stoner (1979, 1980)",
+    "upstream_inspected": "no",
+    "decision": "include_contextual",
+    "review_status": "independent scientific review pending",
+    "qc_flags": "primary_study_review_pending",
+    "value_min": "",
+    "value_max": "",
+    "value_numeric": "",
+    "notes": "No inference about current population state or applicability to every sampled population.",
+    "comparison_note": "ontogenetic diet variation reported in NOAA synthesis; reef mobile-invertivore guild has unspecified life stage"
   }
 ]

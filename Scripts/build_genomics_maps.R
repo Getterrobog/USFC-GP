@@ -1,0 +1,15 @@
+#!/usr/bin/env Rscript
+# Offline genomic geographic viewer and report attachment; no historical counts change.
+args <- commandArgs(trailingOnly=TRUE)
+script <- sub("^--file=","",grep("^--file=",commandArgs(),value=TRUE)[1])
+setwd(normalizePath(file.path(dirname(script),"..")))
+if(length(args)) stop("This build uses config/genomics.R and the saved historical atlas.")
+if(dir.exists(".R-library")) .libPaths(c(normalizePath(".R-library"),.libPaths()))
+if(!requireNamespace("maps",quietly=TRUE)) stop("Run Scripts/install_atlas_dependencies.R first.")
+source("Scripts/sampling_atlas_functions.R")
+source("Scripts/genomics_maps.R")
+source("config/genomics.R")
+build_genomics_maps(genomics_config)
+status <- system2(file.path(R.home("bin"),"Rscript"),"Scripts/refresh_sampling_atlas_index.R")
+if(status!=0) stop("Genomic maps built, but historical atlas page refresh failed.")
+message("Built Output/Genomics/maps.html and refreshed both historical atlas pages.")

@@ -2,6 +2,7 @@
 <style>body{font:16px system-ui;margin:40px auto;max-width:1100px;padding:0 24px;color:#233342;background:#f5f7f8}h1{font-size:36px}article{background:white;padding:20px 28px;margin:20px 0;border:1px solid #d5dfe4;border-radius:8px}a{color:#175b88}img{max-width:100%;height:auto}.map-view{display:block;width:100%;background:#fff}.map-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:12px 0}.year-label{font-size:24px;font-weight:700;margin-right:auto}.map-controls button,.map-controls select{font:inherit;padding:8px 12px;border:1px solid #aabac5;border-radius:5px;background:#f7fafb;color:#233342}.map-controls button{cursor:pointer}.map-controls button:disabled{opacity:.45;cursor:default}.year-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.year-gallery figure{margin:0}.year-gallery figcaption{font-size:14px}summary{cursor:pointer;padding:12px 0}small,.map-status{color:#526171}input{font:inherit;padding:10px;width:90%}.stage{border-top:1px solid #d5dfe4;padding-top:8px;margin-top:24px}.extent{padding:12px;background:#e7f0f5;border-radius:5px}</style>
 <h1>USFC all-year sampling maps</h1>
 <nav><a href="index.html">Year-by-year atlas and animations</a> · <strong>All-year species maps</strong></nav>
+<p><a href="../Genomics/maps.html">Genomic sampling maps</a> · <a href="../Genomics/index.html">Public genomic inventory</a> · <a href="tables/genomic_summary.csv">Genomic summary for these species</a></p>
 <p>80 species with at least 50 dated specimens through 1930 in the western Atlantic, Caribbean and Gulf of Mexico. Eligibility sums specimens across stages. Undated specimens do not confer eligibility.</p>
 <p class="extent"><strong>Every map uses the same extent:</strong> 100°W to 50°W longitude, 5°N to 60°N latitude. Grid: 2° × 2°. No zooming or cropping between species, stages or years.</p>
 <p>One map per species combines all eligible years and all life stages, including undated lots. Numbered cells connect to their collection-year labels; parentheses show specimen counts for that cell and year. Colors show total specimens per cell, not abundance. Enlarge labels for a scrollable view; the geographic extent stays fixed.</p>
@@ -89,6 +90,14 @@
 <label>Region<select id="region"><option value="">All regions</option><option>Atlantic</option><option>Caribbean</option><option>Gulf of Mexico</option></select></label>
 <label>Minimum sampled years<input id="min-years" type="number" min="1" step="1" value="1"></label></div>
 <label class="filter-check"><input id="mapped-only" type="checkbox"> Count only specimens with recorded coordinates</label>
+<details id="genomic-filters"><summary><strong>Genomic data filters</strong></summary>
+<p>Contemporary means a reported collection year after 1930. Worldwide counts include records needing biological review. Regional candidates pass the date, coordinate and biological screens in the Atlantic–Caribbean–Gulf window. These species-level filters are independent of the historical stage and region filters.</p><div class="filter-grid">
+<label>Genomic availability<select id="genomics-availability"><option value="">Any / unknown</option><option value="wgs">WGS found worldwide</option><option value="contemporary">Dated contemporary WGS</option><option value="mapped">Regional mapping candidates</option><option value="none">No WGS returned in search</option><option value="unknown">Unknown / unresolved</option></select></label>
+<label>Genome assembly<select id="genomics-reference"><option value="">Any / unknown</option><option value="assemblies">Current genome found</option><option value="annotated">Annotated genome found</option><option value="references">Annotated reference found</option></select></label>
+<label>Minimum WGS accessions worldwide<input id="genomics-min-wgs" type="number" min="0" step="1" value="0"></label>
+<label>Minimum contemporary WGS accessions<input id="genomics-min-contemporary" type="number" min="0" step="1" value="0"></label>
+<label>Minimum regional mapping candidates<input id="genomics-min-candidates" type="number" min="0" step="1" value="0"></label></div>
+<label class="filter-check"><input id="genomics-low" type="checkbox"> Has explicitly labeled low-coverage WGS</label></details>
 <details id="trait-filters"><summary><strong>Life-history filters</strong> <span id="trait-filter-count"></span></summary>
 <p>Combine traits with the sampling filters above. Different fields must all match. Water types and habitat tags test membership in positive records; an unlisted tag is not evidence of absence. Missing or withheld values remain visible until an active trait filter excludes them.</p>
 <div class="filter-grid">
@@ -187,6 +196,17 @@
 <figcaption>Alosa aestivalis — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1574&amp;what=species&amp;pic=Alaes_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="2" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>2</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Alosa_aestivalis">View genomic sampling map</a> · <a href="../Genomics/index.html#Alosa_aestivalis">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.6968898773193359"><dt>Generation time — model (years)</dt><dd>4.7</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="15.936699867248535"><dt>Lifespan — model (years)</dt><dd>15.9</dd></div>
@@ -226,6 +246,17 @@
 <figcaption>Alosa pseudoharengus — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1583&amp;what=species&amp;pic=Alpse_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="1" data-assemblies="4" data-annotated="1" data-references="1" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>4</dd></div>
+<div><dt>Annotated assemblies</dt><dd>1</dd></div>
+<div><dt>Annotated references</dt><dd>1</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Alosa_pseudoharengus">View genomic sampling map</a> · <a href="../Genomics/index.html#Alosa_pseudoharengus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.2903099060058594"><dt>Generation time — model (years)</dt><dd>2.29</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="6.0995101928710938"><dt>Lifespan — model (years)</dt><dd>6.1</dd></div>
@@ -264,6 +295,17 @@
 <figcaption>Atherinomorus stipes — Modder, T., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3234&amp;what=species&amp;pic=Atsti_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="83" data-contemporary="1" data-candidates="0" data-assemblies="1" data-annotated="0" data-references="0" data-low="81"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>83</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>1</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>81</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Atherinomorus_stipes">View genomic sampling map</a> · <a href="../Genomics/index.html#Atherinomorus_stipes">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1363999843597412"><dt>Generation time — model (years)</dt><dd>2.14</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="5.3000001907348633"><dt>Lifespan — model (years)</dt><dd>5.3</dd></div>
@@ -307,6 +349,17 @@
 <figcaption>Stellifer lanceolatus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1193&amp;what=species&amp;pic=Stlan_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="3" data-contemporary="3" data-candidates="3" data-assemblies="0" data-annotated="0" data-references="0" data-low="2"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>3</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>3</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>3</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>2</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Stellifer_lanceolatus">View genomic sampling map</a> · <a href="../Genomics/index.html#Stellifer_lanceolatus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.3705300092697144"><dt>Generation time — model (years)</dt><dd>1.37</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="3.6074700355529785"><dt>Lifespan — model (years)</dt><dd>3.61</dd></div>
@@ -343,6 +396,17 @@
 <figcaption>Brevoortia tyrannus — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1592&amp;what=species&amp;pic=Brtyr_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="8" data-contemporary="8" data-candidates="8" data-assemblies="0" data-annotated="0" data-references="0" data-low="7"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>8</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>8</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>8</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>7</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Brevoortia_tyrannus">View genomic sampling map</a> · <a href="../Genomics/index.html#Brevoortia_tyrannus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1005899906158447"><dt>Generation time — model (years)</dt><dd>2.1</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="6.5503501892089844"><dt>Lifespan — model (years)</dt><dd>6.55</dd></div>
@@ -379,6 +443,17 @@
 <article data-species="anchoa mitchilli" data-search="anchoa mitchilli bay anchovy" data-order="Clupeiformes" data-family="Engraulidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Engraulidae</p><h2><i>Anchoa mitchilli</i> <span class="common-name">— Bay anchovy</span></h2><p>617 dated specimens through 1930 + 20 undated · 41 lots · 9 sampled years · 2 regions · 67% dated with recorded coordinates</p><p>190 specimens in 20 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=545&amp;what=species&amp;pic=Anmit_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Anchoa mitchilli — Christie, B.L., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="5" data-contemporary="5" data-candidates="5" data-assemblies="0" data-annotated="0" data-references="0" data-low="4"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>5</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>5</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>5</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>4</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Anchoa_mitchilli">View genomic sampling map</a> · <a href="../Genomics/index.html#Anchoa_mitchilli">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.1177499294281006"><dt>Generation time — model (years)</dt><dd>3.12</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="7.7398900985717773"><dt>Lifespan — model (years)</dt><dd>7.74</dd></div>
@@ -418,6 +493,17 @@
 <article data-species="menidia menidia" data-search="menidia menidia atlantic silverside" data-order="Atheriniformes" data-family="Atherinopsidae"><p class="taxonomy-line">Order: Atheriniformes · Family: Atherinopsidae</p><h2><i>Menidia menidia</i> <span class="common-name">— Atlantic silverside</span></h2><p>359 dated specimens through 1930 + 0 undated · 62 lots · 13 sampled years · 1 regions · 68% dated with recorded coordinates</p><p>114 specimens in 21 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=339&amp;what=species&amp;pic=Memen_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Menidia menidia — Eakins, R., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1277" data-contemporary="599" data-candidates="238" data-assemblies="5" data-annotated="2" data-references="1" data-low="1265"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1,277</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>599</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>238</dd></div>
+<div><dt>Current assembly records</dt><dd>5</dd></div>
+<div><dt>Annotated assemblies</dt><dd>2</dd></div>
+<div><dt>Annotated references</dt><dd>1</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1,265</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Menidia_menidia">View genomic sampling map</a> · <a href="../Genomics/index.html#Menidia_menidia">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.85626399517059326"><dt>Generation time — model (years)</dt><dd>0.856</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="2.6948699951171875"><dt>Lifespan — model (years)</dt><dd>2.69</dd></div>
@@ -460,6 +546,17 @@
 <figcaption>Gonichthys cocco — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1716&amp;what=species&amp;pic=Gococ_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Gonichthys_cocco">View genomic sampling map</a> · <a href="../Genomics/index.html#Gonichthys_cocco">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.6965800523757935"><dt>Generation time — model (years)</dt><dd>1.7</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="3.7999999523162842"><dt>Lifespan — model (years)</dt><dd>3.8</dd></div>
@@ -502,6 +599,17 @@
 <figcaption>Jenkinsia stolifera — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1464&amp;what=species&amp;pic=Jesto_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Jenkinsia_stolifera">View genomic sampling map</a> · <a href="../Genomics/index.html#Jenkinsia_stolifera">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.32238999009132385"><dt>Generation time — model (years)</dt><dd>0.322</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="0.69999998807907104"><dt>Lifespan — model (years)</dt><dd>0.7</dd></div>
@@ -540,6 +648,17 @@
 <figcaption>Citharichthys arctifrons — Durie, C., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4209&amp;what=species&amp;pic=Ciarc_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="5" data-contemporary="5" data-candidates="5" data-assemblies="0" data-annotated="0" data-references="0" data-low="4"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>5</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>5</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>5</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>4</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Citharichthys_arctifrons">View genomic sampling map</a> · <a href="../Genomics/index.html#Citharichthys_arctifrons">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.0533699989318848"><dt>Generation time — model (years)</dt><dd>1.05</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="2.7999999523162842"><dt>Lifespan — model (years)</dt><dd>2.8</dd></div>
@@ -585,6 +704,17 @@
 <figcaption>Gambusia affinis — Cada, L.A., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3215&amp;what=species&amp;pic=Gaaff_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">color drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="5" data-contemporary="2" data-candidates="1" data-assemblies="3" data-annotated="2" data-references="1" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>5</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>3</dd></div>
+<div><dt>Annotated assemblies</dt><dd>2</dd></div>
+<div><dt>Annotated references</dt><dd>1</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Gambusia_affinis">View genomic sampling map</a> · <a href="../Genomics/index.html#Gambusia_affinis">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.5287100076675415"><dt>Generation time — model (years)</dt><dd>1.53</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="3.4407401084899902"><dt>Lifespan — model (years)</dt><dd>3.44</dd></div>
@@ -616,6 +746,17 @@
 <article data-species="poecilia vivipara" data-search="poecilia vivipara eye spot toothcarp" data-order="Cyprinodontiformes" data-family="Poeciliidae"><p class="taxonomy-line">Order: Cyprinodontiformes · Family: Poeciliidae</p><h2><i>Poecilia vivipara</i> <span class="common-name">— Eye spot toothcarp</span></h2><p>254 dated specimens through 1930 + 0 undated · 5 lots · 1 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=23359&amp;what=species&amp;pic=Poviv_f0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Poecilia vivipara — Ramos, T.P.A., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Poecilia_vivipara">View genomic sampling map</a> · <a href="../Genomics/index.html#Poecilia_vivipara">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.7407000064849854"><dt>Generation time — model (years)</dt><dd>2.74</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="6.5999999046325684"><dt>Lifespan — model (years)</dt><dd>6.6</dd></div>
@@ -649,6 +790,17 @@
 <figcaption>Exocoetus volitans — Cada, L.A., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1032&amp;what=species&amp;pic=Exvol_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">color drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Exocoetus_volitans">View genomic sampling map</a> · <a href="../Genomics/index.html#Exocoetus_volitans">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.78730899095535278"><dt>Generation time — model (years)</dt><dd>0.787</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="2.7999999523162842"><dt>Lifespan — model (years)</dt><dd>2.8</dd></div>
@@ -698,6 +850,17 @@
 <figcaption>Bothus ocellatus — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4207&amp;what=species&amp;pic=Booce_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="0" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Bothus_ocellatus">View genomic sampling map</a> · <a href="../Genomics/index.html#Bothus_ocellatus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.1086201667785645"><dt>Generation time — model (years)</dt><dd>4.11</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="10.800000190734863"><dt>Lifespan — model (years)</dt><dd>10.8</dd></div>
@@ -764,6 +927,17 @@
 <figcaption>Monacanthus ciliatus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4280&amp;what=species&amp;pic=Mocil_u2.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="4" data-contemporary="4" data-candidates="4" data-assemblies="1" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>4</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>4</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>4</dd></div>
+<div><dt>Current assembly records</dt><dd>1</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Monacanthus_ciliatus">View genomic sampling map</a> · <a href="../Genomics/index.html#Monacanthus_ciliatus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1056399345397949"><dt>Generation time — model (years)</dt><dd>2.11</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="5.5999999046325684"><dt>Lifespan — model (years)</dt><dd>5.6</dd></div>
@@ -812,6 +986,17 @@
 <article data-species="fundulus similis" data-search="fundulus similis longnose killifish" data-order="Cyprinodontiformes" data-family="Fundulidae"><p class="taxonomy-line">Order: Cyprinodontiformes · Family: Fundulidae</p><h2><i>Fundulus similis</i> <span class="common-name">— Longnose killifish</span></h2><p>222 dated specimens through 1930 + 0 undated · 12 lots · 3 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3205&amp;what=species&amp;pic=Fusim_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Fundulus similis — Christie, B.L., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Fundulus_similis">View genomic sampling map</a> · <a href="../Genomics/index.html#Fundulus_similis">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.7508200407028198"><dt>Generation time — model (years)</dt><dd>1.75</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="4.4000000953674316"><dt>Lifespan — model (years)</dt><dd>4.4</dd></div>
@@ -846,6 +1031,17 @@
 <figcaption>Jenkinsia lamprotaenia — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1461&amp;what=species&amp;pic=Jelam_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Jenkinsia_lamprotaenia">View genomic sampling map</a> · <a href="../Genomics/index.html#Jenkinsia_lamprotaenia">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.37334200739860535"><dt>Generation time — model (years)</dt><dd>0.373</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="0.82678002119064331"><dt>Lifespan — model (years)</dt><dd>0.827</dd></div>
@@ -882,6 +1078,17 @@
 <figcaption>Anchoa colonensis — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1685&amp;what=species&amp;pic=Ancol_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Anchoa_colonensis">View genomic sampling map</a> · <a href="../Genomics/index.html#Anchoa_colonensis">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.2230299711227417"><dt>Generation time — model (years)</dt><dd>1.22</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="3.2000000476837158"><dt>Lifespan — model (years)</dt><dd>3.2</dd></div>
@@ -917,6 +1124,17 @@
 <figcaption>Anchoa cayorum — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1682&amp;what=species&amp;pic=Ancay_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Anchoa_cayorum">View genomic sampling map</a> · <a href="../Genomics/index.html#Anchoa_cayorum">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.023859977722168"><dt>Generation time — model (years)</dt><dd>1.02</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="2.5"><dt>Lifespan — model (years)</dt><dd>2.5</dd></div>
@@ -951,6 +1169,17 @@
 <article data-species="fenestraja plutonia" data-search="fenestraja plutonia pluto skate" data-order="Rajiformes" data-family="Rajidae"><p class="taxonomy-line">Order: Rajiformes · Family: Rajidae</p><h2><i>Fenestraja plutonia</i> <span class="common-name">— Pluto skate</span></h2><p>202 dated specimens through 1930 + 0 undated · 14 lots · 3 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=51799&amp;what=species&amp;pic=Feplu_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Fenestraja plutonia — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Fenestraja_plutonia">View genomic sampling map</a> · <a href="../Genomics/index.html#Fenestraja_plutonia">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value=""><dt>Lifespan — model (years)</dt><dd>Not reported</dd></div>
@@ -990,6 +1219,17 @@
 <figcaption>Centropristis striata — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=361&amp;what=species&amp;pic=Cestr_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="5" data-contemporary="5" data-candidates="5" data-assemblies="2" data-annotated="1" data-references="1" data-low="2"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>5</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>5</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>5</dd></div>
+<div><dt>Current assembly records</dt><dd>2</dd></div>
+<div><dt>Annotated assemblies</dt><dd>1</dd></div>
+<div><dt>Annotated references</dt><dd>1</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>2</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Centropristis_striata">View genomic sampling map</a> · <a href="../Genomics/index.html#Centropristis_striata">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1244499683380127"><dt>Generation time — model (years)</dt><dd>2.12</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="6.6128602027893066"><dt>Lifespan — model (years)</dt><dd>6.61</dd></div>
@@ -1025,6 +1265,17 @@
 <article data-species="cyclothone microdon" data-search="cyclothone microdon veiled anglemouth" data-order="Stomiiformes" data-family="Gonostomatidae"><p class="taxonomy-line">Order: Stomiiformes · Family: Gonostomatidae</p><h2><i>Cyclothone microdon</i> <span class="common-name">— Veiled anglemouth</span></h2><p>191 dated specimens through 1930 + 0 undated · 31 lots · 7 sampled years · 3 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1775&amp;what=species&amp;pic=Cymic_u5.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Cyclothone microdon — Welter-Schultes, F., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Cyclothone_microdon">View genomic sampling map</a> · <a href="../Genomics/index.html#Cyclothone_microdon">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.425279974937439"><dt>Generation time — model (years)</dt><dd>1.43</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="3.2999999523162842"><dt>Lifespan — model (years)</dt><dd>3.3</dd></div>
@@ -1070,6 +1321,17 @@
 <article data-species="glyptocephalus cynoglossus" data-search="glyptocephalus cynoglossus witch flounder" data-order="Pleuronectiformes" data-family="Pleuronectidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Pleuronectidae</p><h2><i>Glyptocephalus cynoglossus</i> <span class="common-name">— Witch flounder</span></h2><p>139 dated specimens through 1930 + 39 undated · 87 lots · 8 sampled years · 1 regions · 77% dated with recorded coordinates</p><p>32 specimens in 5 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=26&amp;what=species&amp;pic=Glcyn_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Glyptocephalus cynoglossus — Dolgov, A., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="3" data-contemporary="3" data-candidates="2" data-assemblies="0" data-annotated="0" data-references="0" data-low="2"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>3</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>3</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>2</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Glyptocephalus_cynoglossus">View genomic sampling map</a> · <a href="../Genomics/index.html#Glyptocephalus_cynoglossus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="8.9554300308227539"><dt>Generation time — model (years)</dt><dd>8.96</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="28.857599258422852"><dt>Lifespan — model (years)</dt><dd>28.9</dd></div>
@@ -1113,6 +1375,17 @@
 <article data-species="syngnathus fuscus" data-search="syngnathus fuscus northern pipefish" data-order="Syngnathiformes" data-family="Syngnathidae"><p class="taxonomy-line">Order: Syngnathiformes · Family: Syngnathidae</p><h2><i>Syngnathus fuscus</i> <span class="common-name">— Northern pipefish</span></h2><p>173 dated specimens through 1930 + 1 undated · 32 lots · 10 sampled years · 1 regions · 95% dated with recorded coordinates</p><p>9 specimens in 7 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3301&amp;what=species&amp;pic=Syfus_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Syngnathus fuscus — Canadian Museum of Nature, Ottawa, Canada, from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="4" data-contemporary="4" data-candidates="4" data-assemblies="0" data-annotated="0" data-references="0" data-low="4"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>4</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>4</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>4</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>4</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Syngnathus_fuscus">View genomic sampling map</a> · <a href="../Genomics/index.html#Syngnathus_fuscus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.6715500354766846"><dt>Generation time — model (years)</dt><dd>1.67</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="5.9000000953674316"><dt>Lifespan — model (years)</dt><dd>5.9</dd></div>
@@ -1151,6 +1424,17 @@
 <figcaption>Pomatomus saltatrix — Randall, J.E., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=364&amp;what=species&amp;pic=Posal_u2.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">Randall's tank photos · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="7" data-contemporary="6" data-candidates="5" data-assemblies="1" data-annotated="0" data-references="0" data-low="5"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>7</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>6</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>5</dd></div>
+<div><dt>Current assembly records</dt><dd>1</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>5</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Pomatomus_saltatrix">View genomic sampling map</a> · <a href="../Genomics/index.html#Pomatomus_saltatrix">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5485999584197998"><dt>Generation time — model (years)</dt><dd>2.55</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="7.7939600944519043"><dt>Lifespan — model (years)</dt><dd>7.79</dd></div>
@@ -1187,6 +1471,17 @@
 <figcaption>Membras martinica — Thomas, C., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3240&amp;what=species&amp;pic=Memar_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="1" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Membras_martinica">View genomic sampling map</a> · <a href="../Genomics/index.html#Membras_martinica">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.97648698091506958"><dt>Generation time — model (years)</dt><dd>0.976</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="2.5"><dt>Lifespan — model (years)</dt><dd>2.5</dd></div>
@@ -1224,6 +1519,17 @@
 <figcaption>Decapterus punctatus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=994&amp;what=species&amp;pic=Depun_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="5" data-contemporary="5" data-candidates="5" data-assemblies="0" data-annotated="0" data-references="0" data-low="4"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>5</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>5</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>5</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>4</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Decapterus_punctatus">View genomic sampling map</a> · <a href="../Genomics/index.html#Decapterus_punctatus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.49534010887146"><dt>Generation time — model (years)</dt><dd>2.5</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="8.9223403930664062"><dt>Lifespan — model (years)</dt><dd>8.92</dd></div>
@@ -1261,6 +1567,17 @@
 <figcaption>Nezumia bairdii — Mac Eachern, W.J., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3104&amp;what=species&amp;pic=Nebai_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Nezumia_bairdii">View genomic sampling map</a> · <a href="../Genomics/index.html#Nezumia_bairdii">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.1977701187133789"><dt>Generation time — model (years)</dt><dd>3.2</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="10.97920036315918"><dt>Lifespan — model (years)</dt><dd>11</dd></div>
@@ -1312,6 +1629,17 @@
 <figcaption>Laemonema barbatulum — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=28218&amp;what=species&amp;pic=Labar_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="3" data-contemporary="3" data-candidates="3" data-assemblies="0" data-annotated="0" data-references="0" data-low="2"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>3</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>3</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>3</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>2</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Laemonema_barbatulum">View genomic sampling map</a> · <a href="../Genomics/index.html#Laemonema_barbatulum">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.3049502372741699"><dt>Generation time — model (years)</dt><dd>5.3</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="18.899999618530273"><dt>Lifespan — model (years)</dt><dd>18.9</dd></div>
@@ -1347,6 +1675,17 @@
 <article data-species="lagodon rhomboides" data-search="lagodon rhomboides pinfish" data-order="Perciformes" data-family="Sparidae"><p class="taxonomy-line">Order: Perciformes · Family: Sparidae</p><h2><i>Lagodon rhomboides</i> <span class="common-name">— Pinfish</span></h2><p>132 dated specimens through 1930 + 1 undated · 21 lots · 8 sampled years · 2 regions · 91% dated with recorded coordinates</p><p>12 specimens in 3 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3576&amp;what=species&amp;pic=Larho_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Lagodon rhomboides — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="5" data-contemporary="5" data-candidates="5" data-assemblies="1" data-annotated="0" data-references="0" data-low="2"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>5</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>5</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>5</dd></div>
+<div><dt>Current assembly records</dt><dd>1</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>2</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Lagodon_rhomboides">View genomic sampling map</a> · <a href="../Genomics/index.html#Lagodon_rhomboides">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5336999893188477"><dt>Generation time — model (years)</dt><dd>2.53</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="9.141810417175293"><dt>Lifespan — model (years)</dt><dd>9.14</dd></div>
@@ -1391,6 +1730,17 @@
 <figcaption>Chloroscombrus chrysurus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=385&amp;what=species&amp;pic=Chchr_ug.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="0" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Chloroscombrus_chrysurus">View genomic sampling map</a> · <a href="../Genomics/index.html#Chloroscombrus_chrysurus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.4310100078582764"><dt>Generation time — model (years)</dt><dd>1.43</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="5.0758700370788574"><dt>Lifespan — model (years)</dt><dd>5.08</dd></div>
@@ -1433,6 +1783,17 @@
 <figcaption>Haemulon aurolineatum — Libert, F., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1128&amp;what=species&amp;pic=Haaur_u4.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">underwater photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="5" data-contemporary="4" data-candidates="4" data-assemblies="2" data-annotated="0" data-references="0" data-low="2"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>5</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>4</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>4</dd></div>
+<div><dt>Current assembly records</dt><dd>2</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>2</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Haemulon_aurolineatum">View genomic sampling map</a> · <a href="../Genomics/index.html#Haemulon_aurolineatum">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.9843997955322266"><dt>Generation time — model (years)</dt><dd>5.98</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="20.628700256347656"><dt>Lifespan — model (years)</dt><dd>20.6</dd></div>
@@ -1478,6 +1839,17 @@
 <figcaption>Etropus crossotus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4221&amp;what=species&amp;pic=Etcro_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="0" data-annotated="0" data-references="0" data-low="2"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>2</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Etropus_crossotus">View genomic sampling map</a> · <a href="../Genomics/index.html#Etropus_crossotus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.56110298633575439"><dt>Generation time — model (years)</dt><dd>0.561</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="1.7609000205993652"><dt>Lifespan — model (years)</dt><dd>1.76</dd></div>
@@ -1522,6 +1894,17 @@
 <article data-species="fundulus heteroclitus" data-search="fundulus heteroclitus mummichog" data-order="Cyprinodontiformes" data-family="Fundulidae"><p class="taxonomy-line">Order: Cyprinodontiformes · Family: Fundulidae</p><h2><i>Fundulus heteroclitus</i> <span class="common-name">— Mummichog</span></h2><p>110 dated specimens through 1930 + 10 undated · 15 lots · 6 sampled years · 2 regions · 92% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3192&amp;what=species&amp;pic=Fuhet_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Fundulus heteroclitus — Scarola, J.F., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2630" data-contemporary="2619" data-candidates="395" data-assemblies="3" data-annotated="1" data-references="1" data-low="3"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2,630</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2,619</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>395</dd></div>
+<div><dt>Current assembly records</dt><dd>3</dd></div>
+<div><dt>Annotated assemblies</dt><dd>1</dd></div>
+<div><dt>Annotated references</dt><dd>1</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>3</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Fundulus_heteroclitus">View genomic sampling map</a> · <a href="../Genomics/index.html#Fundulus_heteroclitus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.5272599458694458"><dt>Generation time — model (years)</dt><dd>1.53</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="3.7188899517059326"><dt>Lifespan — model (years)</dt><dd>3.72</dd></div>
@@ -1564,6 +1947,17 @@
 <br>Source identification: <i>Hypoatherina harringtonensis</i> (documented combination); project species name retained.
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Atherina_harringtonensis">View genomic sampling map</a> · <a href="../Genomics/index.html#Atherina_harringtonensis">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1363999843597412"><dt>Generation time — model (years)</dt><dd>2.14</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="5.3000001907348633"><dt>Lifespan — model (years)</dt><dd>5.3</dd></div>
@@ -1601,6 +1995,17 @@
 <figcaption>Stephanolepis hispida — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4281&amp;what=species&amp;pic=Sthis_u1.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="3" data-contemporary="3" data-candidates="3" data-assemblies="0" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>3</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>3</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>3</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Stephanolepis_hispida">View genomic sampling map</a> · <a href="../Genomics/index.html#Stephanolepis_hispida">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.0224499702453613"><dt>Generation time — model (years)</dt><dd>2.02</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="7.0728797912597656"><dt>Lifespan — model (years)</dt><dd>7.07</dd></div>
@@ -1644,6 +2049,17 @@
 <figcaption>Histrio histrio — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3089&amp;what=species&amp;pic=Hihis_uc.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="1" data-candidates="1" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Histrio_histrio">View genomic sampling map</a> · <a href="../Genomics/index.html#Histrio_histrio">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value=""><dt>Lifespan — model (years)</dt><dd>Not reported</dd></div>
@@ -1698,6 +2114,17 @@
 <figcaption>Hyporhamphus unifasciatus — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1060&amp;what=species&amp;pic=Hyuni_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing with inserts · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="0" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Hyporhamphus_unifasciatus">View genomic sampling map</a> · <a href="../Genomics/index.html#Hyporhamphus_unifasciatus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.74948298931121826"><dt>Generation time — model (years)</dt><dd>0.749</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="1.9512499570846558"><dt>Lifespan — model (years)</dt><dd>1.95</dd></div>
@@ -1741,6 +2168,17 @@
 <article data-species="tautogolabrus adspersus" data-search="tautogolabrus adspersus cunner" data-order="Perciformes" data-family="Labridae"><p class="taxonomy-line">Order: Perciformes · Family: Labridae</p><h2><i>Tautogolabrus adspersus</i> <span class="common-name">— Cunner</span></h2><p>103 dated specimens through 1930 + 0 undated · 22 lots · 3 sampled years · 1 regions · 83% dated with recorded coordinates</p><p>18 specimens in 2 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3672&amp;what=species&amp;pic=Taads_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Tautogolabrus adspersus — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="811" data-contemporary="3" data-candidates="3" data-assemblies="3" data-annotated="1" data-references="1" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>811</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>3</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>3</dd></div>
+<div><dt>Current assembly records</dt><dd>3</dd></div>
+<div><dt>Annotated assemblies</dt><dd>1</dd></div>
+<div><dt>Annotated references</dt><dd>1</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Tautogolabrus_adspersus">View genomic sampling map</a> · <a href="../Genomics/index.html#Tautogolabrus_adspersus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.9210898876190186"><dt>Generation time — model (years)</dt><dd>3.92</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="14.285599708557129"><dt>Lifespan — model (years)</dt><dd>14.3</dd></div>
@@ -1776,6 +2214,17 @@
 <figcaption>Clupea harengus — Cada, L.A., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=24&amp;what=species&amp;pic=Clhar_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">color drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="718" data-contemporary="240" data-candidates="35" data-assemblies="35" data-annotated="1" data-references="1" data-low="10"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>718</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>240</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>35</dd></div>
+<div><dt>Current assembly records</dt><dd>35</dd></div>
+<div><dt>Annotated assemblies</dt><dd>1</dd></div>
+<div><dt>Annotated references</dt><dd>1</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>10</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Clupea_harengus">View genomic sampling map</a> · <a href="../Genomics/index.html#Clupea_harengus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.3644399642944336"><dt>Generation time — model (years)</dt><dd>3.36</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="10.144100189208984"><dt>Lifespan — model (years)</dt><dd>10.1</dd></div>
@@ -1807,6 +2256,17 @@
 <article data-species="myctophum affine" data-search="myctophum affine metallic lantern fish" data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Myctophum affine</i> <span class="common-name">— Metallic lantern fish</span></h2><p>101 dated specimens through 1930 + 0 undated · 9 lots · 3 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=7424&amp;what=species&amp;pic=Myaff_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Myctophum affine — Dolgov, A., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Myctophum_affine">View genomic sampling map</a> · <a href="../Genomics/index.html#Myctophum_affine">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.0866599082946777"><dt>Generation time — model (years)</dt><dd>2.09</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="4.9000000953674316"><dt>Lifespan — model (years)</dt><dd>4.9</dd></div>
@@ -1847,6 +2307,17 @@
 <figcaption>Dibranchus atlanticus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4956&amp;what=species&amp;pic=Diatl_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="0" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Dibranchus_atlanticus">View genomic sampling map</a> · <a href="../Genomics/index.html#Dibranchus_atlanticus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="6.8063998222351074"><dt>Generation time — model (years)</dt><dd>6.81</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="23.700000762939453"><dt>Lifespan — model (years)</dt><dd>23.7</dd></div>
@@ -1888,6 +2359,17 @@
 <article data-species="ammodytes dubius" data-search="ammodytes dubius northern sand lance" data-order="Perciformes" data-family="Ammodytidae"><p class="taxonomy-line">Order: Perciformes · Family: Ammodytidae</p><h2><i>Ammodytes dubius</i> <span class="common-name">— Northern sand lance</span></h2><p>92 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3821&amp;what=species&amp;pic=Amdub_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Ammodytes dubius — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="343" data-contemporary="343" data-candidates="195" data-assemblies="3" data-annotated="0" data-references="0" data-low="341"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>343</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>343</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>195</dd></div>
+<div><dt>Current assembly records</dt><dd>3</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>341</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Ammodytes_dubius">View genomic sampling map</a> · <a href="../Genomics/index.html#Ammodytes_dubius">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.9652500152587891"><dt>Generation time — model (years)</dt><dd>2.97</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="8.3179302215576172"><dt>Lifespan — model (years)</dt><dd>8.32</dd></div>
@@ -1922,6 +2404,17 @@
 <figcaption>Harengula humeralis — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1479&amp;what=species&amp;pic=Hahum_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Harengula_humeralis">View genomic sampling map</a> · <a href="../Genomics/index.html#Harengula_humeralis">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.0484600067138672"><dt>Generation time — model (years)</dt><dd>1.05</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="2.7344300746917725"><dt>Lifespan — model (years)</dt><dd>2.73</dd></div>
@@ -1958,6 +2451,17 @@
 <article data-species="gobiosoma ginsburgi" data-search="gobiosoma ginsburgi seaboard goby" data-order="Perciformes" data-family="Gobiidae"><p class="taxonomy-line">Order: Perciformes · Family: Gobiidae</p><h2><i>Gobiosoma ginsburgi</i> <span class="common-name">— Seaboard goby</span></h2><p>90 dated specimens through 1930 + 1 undated · 12 lots · 5 sampled years · 1 regions · 98% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3871&amp;what=species&amp;pic=Gogin_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Gobiosoma ginsburgi — Love, J.W., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="1" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Gobiosoma_ginsburgi">View genomic sampling map</a> · <a href="../Genomics/index.html#Gobiosoma_ginsburgi">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.0432800054550171"><dt>Generation time — model (years)</dt><dd>1.04</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="2.4000000953674316"><dt>Lifespan — model (years)</dt><dd>2.4</dd></div>
@@ -1995,6 +2499,17 @@
 <figcaption>Syacium papillosum — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4233&amp;what=species&amp;pic=Sypap_u2.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="6" data-contemporary="6" data-candidates="6" data-assemblies="0" data-annotated="0" data-references="0" data-low="6"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>6</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>6</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>6</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>6</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Syacium_papillosum">View genomic sampling map</a> · <a href="../Genomics/index.html#Syacium_papillosum">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.2687000036239624"><dt>Generation time — model (years)</dt><dd>1.27</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="4.5"><dt>Lifespan — model (years)</dt><dd>4.5</dd></div>
@@ -2032,6 +2547,17 @@
 <br>Source identification: <i>Helicolenus dactylopterus</i> (authority resolved synonym); project species name retained.
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="8" data-contemporary="8" data-candidates="3" data-assemblies="1" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>8</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>8</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>3</dd></div>
+<div><dt>Current assembly records</dt><dd>1</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Helicolenus_maderensis">View genomic sampling map</a> · <a href="../Genomics/index.html#Helicolenus_maderensis">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="10.592300415039062"><dt>Generation time — model (years)</dt><dd>10.6</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="36.430500030517578"><dt>Lifespan — model (years)</dt><dd>36.4</dd></div>
@@ -2070,6 +2596,17 @@
 <article data-species="lycenchelys verrillii" data-search="lycenchelys verrillii wolf eelpout" data-order="Perciformes" data-family="Zoarcidae"><p class="taxonomy-line">Order: Perciformes · Family: Zoarcidae</p><h2><i>Lycenchelys verrillii</i> <span class="common-name">— Wolf eelpout</span></h2><p>82 dated specimens through 1930 + 0 undated · 25 lots · 6 sampled years · 1 regions · 99% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3132&amp;what=species&amp;pic=Lyver_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Lycenchelys verrillii — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="2" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>2</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Lycenchelys_verrillii">View genomic sampling map</a> · <a href="../Genomics/index.html#Lycenchelys_verrillii">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.2821202278137207"><dt>Generation time — model (years)</dt><dd>4.28</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="15.699999809265137"><dt>Lifespan — model (years)</dt><dd>15.7</dd></div>
@@ -2105,6 +2642,17 @@
 <article data-species="pseudopleuronectes americanus" data-search="pseudopleuronectes americanus winter flounder" data-order="Pleuronectiformes" data-family="Pleuronectidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Pleuronectidae</p><h2><i>Pseudopleuronectes americanus</i> <span class="common-name">— Winter flounder</span></h2><p>75 dated specimens through 1930 + 5 undated · 28 lots · 9 sampled years · 1 regions · 82% dated with recorded coordinates</p><p>9 specimens in 8 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=524&amp;what=species&amp;pic=Psame_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Pseudopleuronectes americanus — Lavan, J., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="6" data-contemporary="6" data-candidates="6" data-assemblies="3" data-annotated="0" data-references="0" data-low="3"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>6</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>6</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>6</dd></div>
+<div><dt>Current assembly records</dt><dd>3</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>3</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Pseudopleuronectes_americanus">View genomic sampling map</a> · <a href="../Genomics/index.html#Pseudopleuronectes_americanus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5657100677490234"><dt>Generation time — model (years)</dt><dd>2.57</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="7.4153299331665039"><dt>Lifespan — model (years)</dt><dd>7.42</dd></div>
@@ -2144,6 +2692,17 @@
 <figcaption>Chlorophthalmus agassizi — Kondylatos, G., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1808&amp;what=species&amp;pic=Chaga_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="0" data-annotated="0" data-references="0" data-low="2"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>2</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Chlorophthalmus_agassizi">View genomic sampling map</a> · <a href="../Genomics/index.html#Chlorophthalmus_agassizi">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value=""><dt>Lifespan — model (years)</dt><dd>Not reported</dd></div>
@@ -2186,6 +2745,17 @@
 <figcaption>Anchoa lamprotaenia — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1688&amp;what=species&amp;pic=Anlam_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Anchoa_lamprotaenia">View genomic sampling map</a> · <a href="../Genomics/index.html#Anchoa_lamprotaenia">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.3392599821090698"><dt>Generation time — model (years)</dt><dd>1.34</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="3.2999999523162842"><dt>Lifespan — model (years)</dt><dd>3.3</dd></div>
@@ -2222,6 +2792,17 @@
 <figcaption>Eucinostomus argenteus — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1049&amp;what=species&amp;pic=Euarg_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="0" data-annotated="0" data-references="0" data-low="2"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>2</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Eucinostomus_argenteus">View genomic sampling map</a> · <a href="../Genomics/index.html#Eucinostomus_argenteus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1195499897003174"><dt>Generation time — model (years)</dt><dd>2.12</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="5.6360502243041992"><dt>Lifespan — model (years)</dt><dd>5.64</dd></div>
@@ -2255,6 +2836,17 @@
 <article data-species="myctophum opalinum" data-search="myctophum opalinum " data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Myctophum opalinum</i> <span class="common-name">— Common name not reported</span></h2><p>73 dated specimens through 1930 + 1 undated · 14 lots · 3 sampled years · 1 regions · 99% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Historical illustration available; the catalog flags its taxonomic identity for review. <a href="https://www.gutenberg.org/cache/epub/51702/pg51702-images.html#img_images_i_133a.jpg" target="_blank" rel="noopener noreferrer">View source illustration</a></p><p class="image-credit">Historical illustration labelled Myctophum opalinum Goode &amp; Bean; does not establish current taxonomic identity</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="FALSE" data-wgs="" data-contemporary="" data-candidates="" data-assemblies="" data-annotated="" data-references="" data-low=""><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>Unknown</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>Unknown</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>Unknown</dd></div>
+<div><dt>Current assembly records</dt><dd>Unknown</dd></div>
+<div><dt>Annotated assemblies</dt><dd>Unknown</dd></div>
+<div><dt>Annotated references</dt><dd>Unknown</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>Unknown</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Myctophum_opalinum">View genomic sampling map</a> · <a href="../Genomics/index.html#Myctophum_opalinum">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Withheld — taxonomy unresolved</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value=""><dt>Lifespan — model (years)</dt><dd>Withheld — taxonomy unresolved</dd></div>
@@ -2294,6 +2886,17 @@
 <figcaption>Cheilopogon furcatus — Osmany, H.B., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1028&amp;what=species&amp;pic=Chfur_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Cheilopogon_furcatus">View genomic sampling map</a> · <a href="../Genomics/index.html#Cheilopogon_furcatus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.94282698631286621"><dt>Generation time — model (years)</dt><dd>0.943</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="3.2999999523162842"><dt>Lifespan — model (years)</dt><dd>3.3</dd></div>
@@ -2333,6 +2936,17 @@
 <figcaption>Lutjanus synagris — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=181&amp;what=species&amp;pic=Lusyn_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">color drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="1" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Lutjanus_synagris">View genomic sampling map</a> · <a href="../Genomics/index.html#Lutjanus_synagris">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.9790699481964111"><dt>Generation time — model (years)</dt><dd>2.98</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="10.187100410461426"><dt>Lifespan — model (years)</dt><dd>10.2</dd></div>
@@ -2379,6 +2993,17 @@
 <br>Source identification: <i>Coelorinchus caelorhincus</i> (species aggregate proxy); project species name retained.
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Coelorinchus_carminatus">View genomic sampling map</a> · <a href="../Genomics/index.html#Coelorinchus_carminatus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.6516900062561035"><dt>Generation time — model (years)</dt><dd>2.65</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="8.9427499771118164"><dt>Lifespan — model (years)</dt><dd>8.94</dd></div>
@@ -2420,6 +3045,17 @@
 <article data-species="lycodes terraenovae" data-search="lycodes terraenovae " data-order="Perciformes" data-family="Zoarcidae"><p class="taxonomy-line">Order: Perciformes · Family: Zoarcidae</p><h2><i>Lycodes terraenovae</i> <span class="common-name">— Common name not reported</span></h2><p>67 dated specimens through 1930 + 0 undated · 27 lots · 5 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=48211&amp;what=species&amp;pic=Lyter_u2.gif" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Lycodes terraenovae — SFSA, from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Lycodes_terraenovae">View genomic sampling map</a> · <a href="../Genomics/index.html#Lycodes_terraenovae">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="7.5588598251342773"><dt>Generation time — model (years)</dt><dd>7.56</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="25.899999618530273"><dt>Lifespan — model (years)</dt><dd>25.9</dd></div>
@@ -2461,6 +3097,17 @@
 <figcaption>Mullus auratus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1093&amp;what=species&amp;pic=Muaur_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="1" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Mullus_auratus">View genomic sampling map</a> · <a href="../Genomics/index.html#Mullus_auratus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.8451900482177734"><dt>Generation time — model (years)</dt><dd>1.85</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="6.6999998092651367"><dt>Lifespan — model (years)</dt><dd>6.7</dd></div>
@@ -2492,6 +3139,17 @@
 <article data-species="symphurus plagiusa" data-search="symphurus plagiusa blackcheek tonguefish" data-order="Pleuronectiformes" data-family="Cynoglossidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Cynoglossidae</p><h2><i>Symphurus plagiusa</i> <span class="common-name">— Blackcheek tonguefish</span></h2><p>67 dated specimens through 1930 + 0 undated · 35 lots · 8 sampled years · 3 regions · 90% dated with recorded coordinates</p><p>7 specimens in 4 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1019&amp;what=species&amp;pic=Sypla_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Symphurus plagiusa — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="5" data-contemporary="5" data-candidates="5" data-assemblies="0" data-annotated="0" data-references="0" data-low="3"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>5</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>5</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>5</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>3</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Symphurus_plagiusa">View genomic sampling map</a> · <a href="../Genomics/index.html#Symphurus_plagiusa">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.3166499137878418"><dt>Generation time — model (years)</dt><dd>3.32</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="8.7739496231079102"><dt>Lifespan — model (years)</dt><dd>8.77</dd></div>
@@ -2536,6 +3194,17 @@
 <article data-species="cyclopterus lumpus" data-search="cyclopterus lumpus lumpfish" data-order="Scorpaeniformes" data-family="Cyclopteridae"><p class="taxonomy-line">Order: Scorpaeniformes · Family: Cyclopteridae</p><h2><i>Cyclopterus lumpus</i> <span class="common-name">— Lumpfish</span></h2><p>65 dated specimens through 1930 + 1 undated · 6 lots · 4 sampled years · 1 regions · 3% dated with recorded coordinates</p><p>63 specimens in 3 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=62&amp;what=species&amp;pic=Cylum_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Cyclopterus lumpus — Aquarium Kiel, from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="68" data-contemporary="67" data-candidates="1" data-assemblies="6" data-annotated="1" data-references="1" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>68</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>67</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>6</dd></div>
+<div><dt>Annotated assemblies</dt><dd>1</dd></div>
+<div><dt>Annotated references</dt><dd>1</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Cyclopterus_lumpus">View genomic sampling map</a> · <a href="../Genomics/index.html#Cyclopterus_lumpus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.1451702117919922"><dt>Generation time — model (years)</dt><dd>4.15</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="11.202400207519531"><dt>Lifespan — model (years)</dt><dd>11.2</dd></div>
@@ -2574,6 +3243,17 @@
 <figcaption>Haemulon plumierii — Randall, J.E., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1140&amp;what=species&amp;pic=Haplu_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">underwater photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="3" data-contemporary="2" data-candidates="1" data-assemblies="1" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>3</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>1</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Haemulon_plumierii">View genomic sampling map</a> · <a href="../Genomics/index.html#Haemulon_plumierii">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="7.8526701927185059"><dt>Generation time — model (years)</dt><dd>7.85</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="25.996999740600586"><dt>Lifespan — model (years)</dt><dd>26</dd></div>
@@ -2615,6 +3295,17 @@
 <figcaption>Menidia peninsulae — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3244&amp;what=species&amp;pic=Mepen_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="1" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Menidia_peninsulae">View genomic sampling map</a> · <a href="../Genomics/index.html#Menidia_peninsulae">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.1323399543762207"><dt>Generation time — model (years)</dt><dd>1.13</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="2.9000000953674316"><dt>Lifespan — model (years)</dt><dd>2.9</dd></div>
@@ -2648,6 +3339,17 @@
 <figcaption>Phycis chesteri — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1880&amp;what=species&amp;pic=Phche_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="3" data-contemporary="2" data-candidates="2" data-assemblies="1" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>3</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>1</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Phycis_chesteri">View genomic sampling map</a> · <a href="../Genomics/index.html#Phycis_chesteri">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="6.3197999000549316"><dt>Generation time — model (years)</dt><dd>6.32</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="21.899999618530273"><dt>Lifespan — model (years)</dt><dd>21.9</dd></div>
@@ -2683,6 +3385,17 @@
 <figcaption>Sparisoma radians — Randall, J.E., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3676&amp;what=species&amp;pic=Sprad_m0.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">underwater photo · Source stage: male</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="1" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Sparisoma_radians">View genomic sampling map</a> · <a href="../Genomics/index.html#Sparisoma_radians">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1883800029754639"><dt>Generation time — model (years)</dt><dd>2.19</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="5.9000000953674316"><dt>Lifespan — model (years)</dt><dd>5.9</dd></div>
@@ -2720,6 +3433,17 @@
 <figcaption>Citharichthys spilopterus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4216&amp;what=species&amp;pic=Cispi_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="1" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Citharichthys_spilopterus">View genomic sampling map</a> · <a href="../Genomics/index.html#Citharichthys_spilopterus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5002000331878662"><dt>Generation time — model (years)</dt><dd>2.5</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="6.7157602310180664"><dt>Lifespan — model (years)</dt><dd>6.72</dd></div>
@@ -2760,6 +3484,17 @@
 <figcaption>Brevoortia patronus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1589&amp;what=species&amp;pic=Brpat_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="0" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Brevoortia_patronus">View genomic sampling map</a> · <a href="../Genomics/index.html#Brevoortia_patronus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.8645100593566895"><dt>Generation time — model (years)</dt><dd>1.86</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="6.8934798240661621"><dt>Lifespan — model (years)</dt><dd>6.89</dd></div>
@@ -2790,6 +3525,17 @@
 <article data-species="centrobranchus nigroocellatus" data-search="centrobranchus nigroocellatus roundnose lanternfish" data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Centrobranchus nigroocellatus</i> <span class="common-name">— Roundnose lanternfish</span></h2><p>58 dated specimens through 1930 + 0 undated · 3 lots · 1 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=11879&amp;what=species&amp;pic=Cenig_u5.gif" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Centrobranchus nigroocellatus — Canadian Museum of Nature, Ottawa, Canada, from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Centrobranchus_nigroocellatus">View genomic sampling map</a> · <a href="../Genomics/index.html#Centrobranchus_nigroocellatus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.448930025100708"><dt>Generation time — model (years)</dt><dd>1.45</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="3.2000000476837158"><dt>Lifespan — model (years)</dt><dd>3.2</dd></div>
@@ -2825,6 +3571,17 @@
 <figcaption>Chromis enchrysurus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3643&amp;what=species&amp;pic=Chenc_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Chromis_enchrysurus">View genomic sampling map</a> · <a href="../Genomics/index.html#Chromis_enchrysurus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.6943199634552002"><dt>Generation time — model (years)</dt><dd>1.69</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="4.1999998092651367"><dt>Lifespan — model (years)</dt><dd>4.2</dd></div>
@@ -2860,6 +3617,17 @@
 <figcaption>Eucinostomus gula — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1050&amp;what=species&amp;pic=Eugul_u2.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="3" data-contemporary="3" data-candidates="3" data-assemblies="0" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>3</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>3</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>3</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Eucinostomus_gula">View genomic sampling map</a> · <a href="../Genomics/index.html#Eucinostomus_gula">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.0902199745178223"><dt>Generation time — model (years)</dt><dd>3.09</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="8.2889699935913086"><dt>Lifespan — model (years)</dt><dd>8.29</dd></div>
@@ -2897,6 +3665,17 @@
 <figcaption>Lutjanus apodus — Cada, L.A., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1404&amp;what=species&amp;pic=Luapo_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">color drawing · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="1" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Lutjanus_apodus">View genomic sampling map</a> · <a href="../Genomics/index.html#Lutjanus_apodus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="6.938270092010498"><dt>Generation time — model (years)</dt><dd>6.94</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="23.739799499511719"><dt>Lifespan — model (years)</dt><dd>23.7</dd></div>
@@ -2940,6 +3719,17 @@
 <figcaption>Cynoscion nothus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1175&amp;what=species&amp;pic=Cynot_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="3" data-contemporary="3" data-candidates="3" data-assemblies="0" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>3</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>3</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>3</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Cynoscion_nothus">View genomic sampling map</a> · <a href="../Genomics/index.html#Cynoscion_nothus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.7563300132751465"><dt>Generation time — model (years)</dt><dd>3.76</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="12.948399543762207"><dt>Lifespan — model (years)</dt><dd>12.9</dd></div>
@@ -2972,6 +3762,17 @@
 <article data-species="liparis inquilinus" data-search="liparis inquilinus inquiline snailfish" data-order="Scorpaeniformes" data-family="Liparidae"><p class="taxonomy-line">Order: Scorpaeniformes · Family: Liparidae</p><h2><i>Liparis inquilinus</i> <span class="common-name">— Inquiline snailfish</span></h2><p>55 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4195&amp;what=species&amp;pic=Liinq_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Liparis inquilinus — Canadian Museum of Nature, Ottawa, Canada, from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Liparis_inquilinus">View genomic sampling map</a> · <a href="../Genomics/index.html#Liparis_inquilinus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.34469398856163025"><dt>Generation time — model (years)</dt><dd>0.345</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="0.99570298194885254"><dt>Lifespan — model (years)</dt><dd>0.996</dd></div>
@@ -3007,6 +3808,17 @@
 <figcaption>Nezumia aequalis — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4997&amp;what=species&amp;pic=Neaeq_u2.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="0" data-annotated="0" data-references="0" data-low="2"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>2</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Nezumia_aequalis">View genomic sampling map</a> · <a href="../Genomics/index.html#Nezumia_aequalis">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.0421500205993652"><dt>Generation time — model (years)</dt><dd>5.04</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="17.799999237060547"><dt>Lifespan — model (years)</dt><dd>17.8</dd></div>
@@ -3045,6 +3857,17 @@
 <article data-species="bathygobius soporator" data-search="bathygobius soporator frillfin goby" data-order="Perciformes" data-family="Gobiidae"><p class="taxonomy-line">Order: Perciformes · Family: Gobiidae</p><h2><i>Bathygobius soporator</i> <span class="common-name">— Frillfin goby</span></h2><p>53 dated specimens through 1930 + 0 undated · 22 lots · 4 sampled years · 2 regions · 53% dated with recorded coordinates</p><p>25 specimens in 10 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3837&amp;what=species&amp;pic=Basop_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Bathygobius soporator — Sazima, I., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="1" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Bathygobius_soporator">View genomic sampling map</a> · <a href="../Genomics/index.html#Bathygobius_soporator">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.7180800437927246"><dt>Generation time — model (years)</dt><dd>1.72</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="4.4609298706054688"><dt>Lifespan — model (years)</dt><dd>4.46</dd></div>
@@ -3083,6 +3906,17 @@
 <article data-species="hygophum hygomii" data-search="hygophum hygomii bermuda lantern fish" data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Hygophum hygomii</i> <span class="common-name">— Bermuda lantern fish</span></h2><p>53 dated specimens through 1930 + 0 undated · 12 lots · 6 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1719&amp;what=species&amp;pic=Hyhyg_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Hygophum hygomii — Fischer, L.G., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="1" data-contemporary="1" data-candidates="1" data-assemblies="0" data-annotated="0" data-references="0" data-low="1"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>1</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>1</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>1</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>1</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Hygophum_hygomii">View genomic sampling map</a> · <a href="../Genomics/index.html#Hygophum_hygomii">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.760450005531311"><dt>Generation time — model (years)</dt><dd>1.76</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="4.1999998092651367"><dt>Lifespan — model (years)</dt><dd>4.2</dd></div>
@@ -3118,6 +3952,17 @@
 <article data-species="paralichthys dentatus" data-search="paralichthys dentatus summer flounder" data-order="Pleuronectiformes" data-family="Paralichthyidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Paralichthyidae</p><h2><i>Paralichthys dentatus</i> <span class="common-name">— Summer flounder</span></h2><p>53 dated specimens through 1930 + 0 undated · 23 lots · 9 sampled years · 2 regions · 79% dated with recorded coordinates</p><p>11 specimens in 7 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1338&amp;what=species&amp;pic=Paden_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Paralichthys dentatus — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="6" data-contemporary="6" data-candidates="6" data-assemblies="0" data-annotated="0" data-references="0" data-low="6"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>6</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>6</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>6</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>6</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Paralichthys_dentatus">View genomic sampling map</a> · <a href="../Genomics/index.html#Paralichthys_dentatus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.1849498748779297"><dt>Generation time — model (years)</dt><dd>4.18</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="13.366700172424316"><dt>Lifespan — model (years)</dt><dd>13.4</dd></div>
@@ -3159,6 +4004,17 @@
 <figcaption>Strongylura marina — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=974&amp;what=species&amp;pic=Stmar_u5.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Strongylura_marina">View genomic sampling map</a> · <a href="../Genomics/index.html#Strongylura_marina">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.1110599040985107"><dt>Generation time — model (years)</dt><dd>3.11</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="9.6000003814697266"><dt>Lifespan — model (years)</dt><dd>9.6</dd></div>
@@ -3195,6 +4051,17 @@
 <br>Source identification: <i>Synagrops bellus</i> (documented combination); project species name retained.
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="2" data-contemporary="2" data-candidates="2" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>2</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>2</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>2</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Hypoclydonia_bella">View genomic sampling map</a> · <a href="../Genomics/index.html#Hypoclydonia_bella">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value=""><dt>Lifespan — model (years)</dt><dd>Not reported</dd></div>
@@ -3228,6 +4095,17 @@
 <article data-species="prionotus martis" data-search="prionotus martis gulf of mexico barred searobin" data-order="Scorpaeniformes" data-family="Triglidae"><p class="taxonomy-line">Order: Scorpaeniformes · Family: Triglidae</p><h2><i>Prionotus martis</i> <span class="common-name">— Gulf of Mexico barred searobin</span></h2><p>51 dated specimens through 1930 + 0 undated · 6 lots · 2 sampled years · 1 regions · 96% dated with recorded coordinates</p><p>2 specimens in 1 lots use approximate display positions.</p>
 <aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://biogeodb.stri.si.edu/caribbean/en/pages/random/5461" target="_blank" rel="noopener noreferrer">View source illustration</a></p><p class="image-credit">Prionotus martis illustration; credit FAO; source page states all rights reserved and requires permission</p></aside>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Prionotus_martis">View genomic sampling map</a> · <a href="../Genomics/index.html#Prionotus_martis">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.2798800468444824"><dt>Generation time — model (years)</dt><dd>2.28</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="6"><dt>Lifespan — model (years)</dt><dd>6</dd></div>
@@ -3262,6 +4140,17 @@
 <figcaption>Caranx latus — Estrada Anaya, R.A., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1935&amp;what=species&amp;pic=Calat_u9.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">underwater photo · Source stage: Unsexed; maturity unverified</span>
 </figcaption></figure>
 <p class="filter-match"></p>
+<section class="genomic-stats life-history" data-known="TRUE" data-wgs="0" data-contemporary="0" data-candidates="0" data-assemblies="0" data-annotated="0" data-references="0" data-low="0"><h3>Public genomic data</h3><dl class="trait-grid">
+<div><dt>WGS BioSamples · worldwide</dt><dd>0</dd></div>
+<div><dt>Dated after 1930 · worldwide</dt><dd>0</dd></div>
+<div><dt>Regional mapping candidates</dt><dd>0</dd></div>
+<div><dt>Current assembly records</dt><dd>0</dd></div>
+<div><dt>Annotated assemblies</dt><dd>0</dd></div>
+<div><dt>Annotated references</dt><dd>0</dd></div>
+<div><dt>Labeled low-coverage WGS BioSamples</dt><dd>0</dd></div>
+</dl>
+<p><small>Counts are BioSample accessions and assembly records, not confirmed independent fish. Missing collection years do not establish absence of contemporary data. Annotated does not necessarily mean reference-designated.</small></p>
+<p><a href="../Genomics/maps.html#Caranx_latus">View genomic sampling map</a> · <a href="../Genomics/index.html#Caranx_latus">Assemblies and studies</a> · <a href="../Genomics/location_provenance.csv">Location provenance</a></p></section>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.1114001274108887"><dt>Generation time — model (years)</dt><dd>5.11</dd></div>
 <div class="trait-value" data-trait="lifespan_model_years" data-value="16"><dt>Lifespan — model (years)</dt><dd>16</dd></div>
@@ -3296,6 +4185,27 @@
 <tr><th scope="row">07</th><td>-80 to -78° lon; 8 to 10° lat</td><td>1884 (3)</td><td>3</td><td>3</td></tr>
 </tbody></table></div></details></section>
 </article>
+<script>
+// Shared species-level controls for the historical atlas and genomic maps.
+function matchesGenomics(article) {
+  const d=article.querySelector('.genomic-stats').dataset;
+  const choice=document.getElementById('genomics-availability').value;
+  const known=d.known==='TRUE';
+  if(choice==='unknown' && known)return false;
+  if(choice && choice!=='unknown' && !known)return false;
+  if(choice==='none' && Number(d.wgs)!==0)return false;
+  if(['wgs','contemporary'].includes(choice) && Number(d[choice])<=0)return false;
+  if(choice==='mapped' && Number(d.candidates)<=0)return false;
+  const ref=document.getElementById('genomics-reference').value;
+  if(ref && (!known || Number(d[ref])<=0))return false;
+  for(const key of ['wgs','contemporary','candidates']) {
+    const min=Math.max(0,Number(document.getElementById('genomics-min-'+key).value)||0);
+    if(min>0 && (!known || Number(d[key])<min))return false;
+  }
+  if(document.getElementById('genomics-low').checked && (!known || Number(d.low)<=0))return false;
+  return true;
+}
+</script>
 <script>
 document.querySelectorAll(".species-photo").forEach(img=>{
   const failed=()=>{img.hidden=true;img.closest("figure").querySelector(".image-error").hidden=false;};
@@ -3357,7 +4267,7 @@ function applyFilters(){
       count+=Number(mapped?r.mapped:r.specimens);
       (mapped?r.mappedYears:r.years).split(",").filter(Boolean).forEach(y=>years.add(y));
     });
-    article.hidden=!(article.dataset.search.includes(q)&&ranks.every(r=>!r.value||(r.value==="__missing__"?!article.dataset[r.field]:article.dataset[r.field]===r.value))&&count>0&&count>=minimum&&years.size>=minimumYears&&matchesTraits(candidate,criteria));
+    article.hidden=!(article.dataset.search.includes(q)&&ranks.every(r=>!r.value||(r.value==="__missing__"?!article.dataset[r.field]:article.dataset[r.field]===r.value))&&count>0&&count>=minimum&&years.size>=minimumYears&&matchesTraits(candidate,criteria)&&matchesGenomics(article));
     if(!article.hidden)visible++;
     article.querySelector(".filter-match").textContent=count.toLocaleString()+" dated "+(mapped?"mapped ":"")+"specimens across "+years.size+" distinct year"+(years.size===1?"":"s")+" match the selected stage and region.";
     article.querySelectorAll(".stage,.empty-stage").forEach(stage=>{

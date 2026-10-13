@@ -231,6 +231,43 @@ sample unless its sample mapping supports it.
 
 ## Main field dictionary
 
+### Geographic viewer and historical-atlas attachment
+
+`Rscript Scripts/build_genomics_maps.R` creates `Output/Genomics/maps.html`, then
+refreshes the historical `index.html` and `overview.html`. It uses completed
+inventory CSVs and the existing atlas taxonomy/image tables. It requires no
+network access; the `maps` R package supplies coastlines embedded in the HTML.
+Scientific selection and cell exports are scripted in R. Browser JavaScript
+selects records for interactive frames, keeping coordinates, evidence IDs and
+biological flags from the inventory. Tests reconcile browser frame counts and
+timeline bars with source records.
+
+Historical cards and filters distinguish worldwide WGS accessions, explicitly
+labeled low-coverage WGS, dated post-1930 WGS, regional mapping candidates,
+current assemblies, annotated assemblies and annotated references. Post-1930
+counts require an assigned collection year but do not require coordinates or
+pass the biological screens; candidate counts do. Neither count establishes
+independent wild individuals. Unknown taxonomy remains unknown in cards/filters.
+These species-level filters are independent of historical stage/region thresholds;
+historical specimen totals and media remain unchanged.
+
+The genomic map default uses `map_candidate`. Its optional all-WGS review cohort
+includes flagged records and undated coordinates, explicitly counted as accessions.
+Undated records have a separate frame and never receive a guessed year. All-year
+and annual views use a consistent per-species color scale for the active filter
+selection. Two-degree cells share the atlas origin; world and regional extents are
+explicit global choices, never inferred from the plotted records. Records outside
+the extent or without coordinates are reported rather than silently disappearing.
+GEOME records without verified accession links are not part of either cohort.
+
+The `map_*` exports and fingerprints are separate from the core SQLite inventory;
+rebuild the maps after updating inventory data. This separation prevents old map
+exports from entering a newly refreshed database. Cell-detail links resolve the
+same snapshot's `location_evidence_ids` and `date_evidence_ids` through the saved
+provenance ledger. See [viewer controls](../Output/Genomics/README.md).
+
+### Inventory fields
+
 | Fields | Meaning |
 | --- | --- |
 | `species`, `archive_name`, `tax_id` | Project key, archive label, taxonomy ID |

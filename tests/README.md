@@ -44,3 +44,12 @@ assumptions that require scientific review.
 
 Run the build first with `Rscript Scripts/build_genomics_inventory.R`. All checks
 are offline and do not modify the historical atlas.
+
+After `Rscript Scripts/build_genomics_maps.R`:
+
+- `Rscript tests/test_atlas_genomics.R`: exact species joins, unresolved taxonomy,
+  contemporary counts, cohort/stage/year cell counts, source exports and checksums.
+- `node tests/test_genomics_maps.cjs` with Playwright available on `NODE_PATH`:
+  genomic filters on both historical pages, map/frame counts, timeline bar heights,
+  unchanged extents between years, sample provenance, playback, SVG downloads,
+  undated records, empty results and mobile layout. Uses local files only.

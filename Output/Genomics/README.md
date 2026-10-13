@@ -6,6 +6,45 @@ WGS sample count, annotated assemblies, annotated references, labeled low-covera
 sequencing and mapping candidates. Read [methods and field definitions](../../docs/genomics_inventory.md)
 before interpreting sample counts as contemporary fish.
 
+Open **[maps.html](maps.html)** for the separate genomic geographic viewer.
+It works offline, using embedded records and coastlines. The default view shows
+regional mapping candidates; **All WGS records · review flags included** exposes
+the wider inventory, including duplicate/pool/captive and undated records.
+The historical atlas pages link to these maps and display genomic summary cards
+and availability filters without combining genomic accessions with museum counts.
+
+## Geographic viewer
+
+- Species/common-name, order, family, life-stage, collection-year and genomic
+  availability controls refine the view. Unknown genomic stages remain unknown.
+- Every map uses 2° cells and the fixed 100–50°W, 5–60°N extent. **Worldwide** changes
+  all maps together to −180–180°, −90–90°; years and species never trigger cropping.
+- Each species starts with all selected years. Choose a year, use the arrows,
+  click a timeline bar or **Play years**. Playback cycles dated sampled years in
+  the browser; it does not generate another set of GIFs/PNGs. Gaps remain visible
+  on the chronological timeline, and undated records have a separate static frame.
+- Cell colors count BioSample accessions on a log scale, fixed across displayed
+  years within each species/filter selection. Hatching denotes approximate
+  positions, including publication-reported shared sampling sites.
+- Click a cell (or use keyboard focus + Enter) for accession, study, collection
+  year, locality, spatial scope, source links, evidence IDs and review flags.
+  **Grid cells: years and counts** lists year (accessions) for each cell.
+- **Download SVG** saves the selected geographic map with year, count and legend.
+  All plotting is local; no map tiles, remote JavaScript or server are required.
+
+The summary distinguishes records plotted, outside the selected extent, and
+without coordinates. Geographic conflicts remain unplotted. Undated records in
+the review cohort remain included with year bounds unless their checkbox is
+cleared. The default candidate cohort always requires an assigned year after
+1930. GEOME discovery leads lacking verified WGS links are not plotted.
+
+`map_records.csv` contains every WGS BioSample used by the viewer (including those
+without coordinates); `map_cells.csv` contains geographic counts by species,
+cohort, life stage, year and cell. Cohorts overlap—do not sum them together.
+`map_input_checksums.csv` and `map_session_info.txt` record inputs and environment.
+These `map_*` files are derived viewer exports and are excluded from the inventory
+SQLite database, avoiding stale map tables during an inventory refresh.
+
 **[genomics.sqlite](genomics.sqlite)** contains the CSV tables below, with indexed
 species and accession keys. Open it with DB Browser for SQLite, SQLite, Python's
 `sqlite3`, or R's `DBI`/`RSQLite` if installed. The build itself does not need those
@@ -42,6 +81,8 @@ Run from the repository root:
 ```bash
 Rscript tests/test_genomics_inventory.R
 Rscript Scripts/build_genomics_inventory.R          # cached, offline
+Rscript Scripts/build_genomics_maps.R               # geographic viewer + both historical pages
+Rscript tests/test_atlas_genomics.R
 python3 tests/validate_genomics_inventory.py
 # Explicit network steps, if desired:
 Rscript Scripts/build_genomics_inventory.R --download
@@ -51,6 +92,10 @@ Rscript Scripts/build_genomics_inventory.R --download --refresh
 `--reuse-normalized` skips cache parsing for development; normal offline builds
 verify response SHA256s and reconstruct the transport tables first. Python 3
 standard library plus base R suffice. The helper downloads only metadata.
+The map build additionally uses the atlas's already installed `maps` R package;
+`Scripts/install_atlas_dependencies.R` is the explicit installation step if needed.
+Rebuild maps after refreshing inventory data. Keep the sibling `SamplingAtlas`
+directory for its shared species illustrations, credits and historical links.
 
 ## Use in R or SQL
 

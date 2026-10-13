@@ -3,7 +3,8 @@
 **Start by opening [index.html](index.html) in a web browser.** Download or clone
 the repository first; browsing an HTML file's source on GitHub does not run the
 viewer. No R installation, server or internet connection is needed to browse the
-saved atlas. Keep this directory and its subdirectories together.
+saved atlas. Keep this directory and its subdirectories together; retain the
+sibling `Output/Genomics` directory to use the genomic map and evidence links.
 
 The atlas answers: **which species have historical specimens, in which places
 and years, and at which life stages?** It is an inventory for planning, not a map
@@ -18,7 +19,7 @@ its collection years, with that cell/year’s specimen count in parentheses, e.g
 Undated samples are included and explicitly labeled with their count;
 collections without usable display locations are counted above the map.
 
-The same species, taxonomy, sampling and life-history filters select candidates.
+The same species, taxonomy, sampling, genomic and life-history filters select candidates.
 On this page, filters **do not subset the map**: it always shows the species'
 full included sampling. Use the original atlas for separate stages and years.
 **Enlarge labels** provides a scrollable enlarged image; **Fit map to page**
@@ -35,6 +36,31 @@ Rscript tests/test_sampling_overview.R
 
 Run this after rebuilding the main atlas if its data or configuration change.
 A report-only refresh updates both pages once the companion maps exist.
+
+## Genomic summaries and contemporary-data filters
+
+Both atlas pages show current assembly records, annotated assemblies, annotated
+references, worldwide WGS BioSample counts, explicitly labeled low-coverage WGS,
+dated contemporary WGS and regional mapping candidates for each species.
+Expand **Genomic data filters** to combine those criteria with historical sampling
+and trait filters. “Contemporary” means a reported collection year after 1930;
+unknown years are not assumed contemporary. Regional candidates pass the genomic
+inventory's date, coordinate and biological review screens in the shared bounds.
+
+These are species-level availability filters, independent of the historical stage
+and region controls. They do not add genomic accessions to historical specimen
+counts or modify map cells. BioSample/assembly counts are not independent fish;
+unknown taxonomy is shown as **Unknown**, not zero. `tables/genomic_summary.csv`
+is the attached summary and `tables/genomic_input_checksums.csv` identifies its
+source snapshot and code.
+
+Open [Genomic sampling maps](../Genomics/maps.html) to explore contemporary data
+separately, with year playback, life stages, cell counts, source links and review
+flags. Rebuild that page and refresh both historical pages together with:
+
+```bash
+Rscript Scripts/build_genomics_maps.R
+```
 
 ## Scope and controls
 

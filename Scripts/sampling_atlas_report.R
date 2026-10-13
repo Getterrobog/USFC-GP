@@ -3,6 +3,7 @@ source("Scripts/sampling_atlas_traits.R")
 source("Scripts/sampling_atlas_taxonomy.R")
 source("Scripts/sampling_atlas_overview.R")
 source("Scripts/sampling_atlas_images.R")
+source("Scripts/sampling_atlas_genomics.R")
 geographic_frame_inventory <- function(d, species, stage, config) {
   years <- sort(unique(na.omit(d$year)))
   cycle <- if (length(years) && config$animation_years == "all") seq(min(years), max(years)) else years
@@ -87,11 +88,14 @@ write_atlas_index <- function(manifest, summaries, config, overview = NULL) {
   write_atlas_taxonomy_tables(taxonomy, config)
   images <- read_atlas_images(unique(manifest$species), config)
   write_atlas_image_table(images, config)
+  genomics <- read_atlas_genomics(unique(manifest$species),config)
+  write_atlas_genomics_tables(genomics,config)
   lines <- c('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>USFC geographic sampling atlas</title>',
     '<style>body{font:16px system-ui;margin:40px auto;max-width:1100px;padding:0 24px;color:#233342;background:#f5f7f8}h1{font-size:36px}article{background:white;padding:20px 28px;margin:20px 0;border:1px solid #d5dfe4;border-radius:8px}a{color:#175b88}img{max-width:100%;height:auto}.map-view{display:block;width:100%;background:#fff}.map-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:12px 0}.year-label{font-size:24px;font-weight:700;margin-right:auto}.map-controls button,.map-controls select{font:inherit;padding:8px 12px;border:1px solid #aabac5;border-radius:5px;background:#f7fafb;color:#233342}.map-controls button{cursor:pointer}.map-controls button:disabled{opacity:.45;cursor:default}.year-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.year-gallery figure{margin:0}.year-gallery figcaption{font-size:14px}summary{cursor:pointer;padding:12px 0}small,.map-status{color:#526171}input{font:inherit;padding:10px;width:90%}.stage{border-top:1px solid #d5dfe4;padding-top:8px;margin-top:24px}.extent{padding:12px;background:#e7f0f5;border-radius:5px}</style>',
     if (overview_mode) '<h1>USFC all-year sampling maps</h1>' else '<h1>USFC geographic sampling atlas</h1>',
     if (overview_mode) '<nav><a href="index.html">Year-by-year atlas and animations</a> · <strong>All-year species maps</strong></nav>'
       else if (file.exists(file.path(config$output, "overview.html"))) '<nav><strong>Year-by-year atlas and animations</strong> · <a href="overview.html">All-year species maps</a></nav>',
+    '<p><a href="../Genomics/maps.html">Genomic sampling maps</a> · <a href="../Genomics/index.html">Public genomic inventory</a> · <a href="tables/genomic_summary.csv">Genomic summary for these species</a></p>',
     sprintf('<p>%s species with at least %s dated specimens through %s in the western Atlantic, Caribbean and Gulf of Mexico. Eligibility sums specimens across stages. Undated specimens do not confer eligibility.</p>', sum(summaries$eligible), config$min_specimens, config$max_year),
     sprintf('<p class="extent"><strong>Every map uses the same extent:</strong> %g°W to %g°W longitude, %g°N to %g°N latitude. Grid: %g° × %g°. No zooming or cropping between species, stages or years.</p>', -config$bounds['west'], -config$bounds['east'], config$bounds['south'], config$bounds['north'], config$cell_degrees, config$cell_degrees),
     if (overview_mode) '<p>One map per species combines all eligible years and all life stages, including undated lots. Numbered cells connect to their collection-year labels; parentheses show specimen counts for that cell and year. Colors show total specimens per cell, not abundance. Enlarge labels for a scrollable view; the geographic extent stays fixed.</p>' else '<p>Choose a recorded year to inspect its geographic sample-size heatmap, or play the GIF; the year is printed prominently inside each frame. Colors are fixed across years and stages within each species. Counts are specimens per grid cell, not population abundance. Blank cells mean no plotted sampling.</p>',
@@ -122,7 +126,7 @@ write_atlas_index <- function(manifest, summaries, config, overview = NULL) {
     '<label>Region<select id="region"><option value="">All regions</option><option>Atlantic</option><option>Caribbean</option><option>Gulf of Mexico</option></select></label>',
     '<label>Minimum sampled years<input id="min-years" type="number" min="1" step="1" value="1"></label></div>',
     '<label class="filter-check"><input id="mapped-only" type="checkbox"> Count only specimens with recorded coordinates</label>',
-    atlas_trait_filter_html(traits), '<button type="reset">Reset all filters</button>',
+    atlas_genomics_filter_html(), atlas_trait_filter_html(traits), '<button type="reset">Reset all filters</button>',
     sprintf('<p>Filters refine the %s eligible species using dated records through %s. Specimen counts and distinct years must meet the thresholds within the selected stage and region together. Undated specimens do not count toward these filters.</p>', sum(summaries$eligible), config$max_year),
     if (overview_mode) '<p><strong>Filters select species; maps always show all their included years, regions and life stages.</strong> The stage, region and coordinate controls only affect the candidate thresholds. Undated lots appear on maps but do not count toward those thresholds.</p>' else '<p>Maps show the full sampling distribution for each displayed stage, including other regions and undated frames; filtering does not change their geographic extent. Adult / non-larval maturity is unverified.</p>',
     '</fieldset></form>',
@@ -137,6 +141,7 @@ write_atlas_index <- function(manifest, summaries, config, overview = NULL) {
     lines <- c(lines, sprintf('<article data-species="%s" data-search="%s" data-order="%s" data-family="%s">%s<p>%s dated specimens through %s + %s undated · %s lots · %s sampled years · %s regions · %.0f%% dated with recorded coordinates</p><p>%s specimens in %s lots use approximate display positions.</p>', html_escape(tolower(species)), html_escape(tolower(paste(species, tax$common_name))), html_escape(tax$order), html_escape(tax$family), atlas_taxonomy_heading_html(tax), s$eligibility_specimens, config$max_year, s$undated_specimens, s$lots, s$sampled_years, s$regions, 100 * s$mapped_fraction, s$approximate_specimens, s$approximate_lots))
     if (!is.null(images)) lines <- c(lines, atlas_image_card_html(images[match(species, images$species), ]))
     lines <- c(lines, '<p class="filter-match"></p>')
+    lines <- c(lines,atlas_genomics_card_html(genomics$summary[match(species,genomics$summary$species),]))
     lines <- c(lines, atlas_trait_card_html(traits$traits[match(species, traits$traits$species), ]))
     for (j in which(filter_counts$species == species)) {
       f <- filter_counts[j, ]
@@ -167,7 +172,7 @@ write_atlas_index <- function(manifest, summaries, config, overview = NULL) {
     }
     lines <- c(lines, '</article>')
   }
-  lines <- c(lines, '<script>
+  lines <- c(lines, '<script>',readLines("Scripts/genomics_filters.js",warn=FALSE),'</script>','<script>
 document.querySelectorAll(".species-photo").forEach(img=>{
   const failed=()=>{img.hidden=true;img.closest("figure").querySelector(".image-error").hidden=false;};
   img.addEventListener("error",failed);if(img.complete&&!img.naturalWidth)failed();
@@ -228,7 +233,7 @@ function applyFilters(){
       count+=Number(mapped?r.mapped:r.specimens);
       (mapped?r.mappedYears:r.years).split(",").filter(Boolean).forEach(y=>years.add(y));
     });
-    article.hidden=!(article.dataset.search.includes(q)&&ranks.every(r=>!r.value||(r.value==="__missing__"?!article.dataset[r.field]:article.dataset[r.field]===r.value))&&count>0&&count>=minimum&&years.size>=minimumYears&&matchesTraits(candidate,criteria));
+    article.hidden=!(article.dataset.search.includes(q)&&ranks.every(r=>!r.value||(r.value==="__missing__"?!article.dataset[r.field]:article.dataset[r.field]===r.value))&&count>0&&count>=minimum&&years.size>=minimumYears&&matchesTraits(candidate,criteria)&&matchesGenomics(article));
     if(!article.hidden)visible++;
     article.querySelector(".filter-match").textContent=count.toLocaleString()+" dated "+(mapped?"mapped ":"")+"specimens across "+years.size+" distinct year"+(years.size===1?"":"s")+" match the selected stage and region.";
     article.querySelectorAll(".stage,.empty-stage").forEach(stage=>{

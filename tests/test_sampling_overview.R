@@ -61,6 +61,6 @@ html <- paste(readLines(file.path(out, "overview.html")), collapse = "\n")
 stopifnot(regexpr("</form>", html, fixed = TRUE)[1] < regexpr("<article ", html, fixed = TRUE)[1])
 links <- regmatches(html, gregexpr('(?:href|src)="[^"]+"', html, perl = TRUE))[[1]]
 paths <- sub('^[^=]+="([^"]+)"$', "\\1", links)
-local_paths <- paths[!grepl("^https://", paths)]
+local_paths <- sub("#.*$","",paths[!grepl("^https://", paths)])
 stopifnot(all(file.exists(file.path(out, local_paths))))
 message("Overview checks passed: 80 species, pooled counts, exact cell years, undated and approximate counts, label spacing, links and provenance.")

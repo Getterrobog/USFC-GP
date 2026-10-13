@@ -108,6 +108,7 @@ default. Location sources are documented in
 ```bash
 Rscript Scripts/build_genomics_inventory.R              # offline
 Rscript Scripts/build_genomics_inventory.R --download   # allow cache misses
+Rscript Scripts/build_genomics_maps.R                    # offline maps + atlas summary refresh
 Rscript tests/test_genomics_inventory.R
 python3 tests/validate_genomics_inventory.py
 ```
@@ -120,3 +121,11 @@ document location source registration, exact sample joins and unresolved conflic
 The methods also
 explain counts, taxonomy, data gaps and limitations. This workflow does not modify
 the historical atlas or selection outputs.
+
+`build_genomics_maps.R` and `genomics_maps.R` build the separate geographic viewer
+and its record/cell exports from completed genomic outputs. `genomics_maps.js`
+provides local SVG maps, year playback, sample inspection and export;
+`genomics_maps.css` provides its styling. `sampling_atlas_genomics.R` attaches exact
+species summaries to both historical pages, and `genomics_filters.js` shares the
+availability filters across viewers. Refreshing these reports changes HTML and
+report metadata only; museum map counts and rendered historical media are retained.

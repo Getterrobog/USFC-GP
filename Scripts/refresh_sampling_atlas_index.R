@@ -28,6 +28,7 @@ if (file.exists(overview_path)) {
 write_atlas_index(manifest, summaries, config)
 # Keep the original analysis provenance; record this report-only refresh separately.
 inputs <- unique(c("Scripts/refresh_sampling_atlas_index.R", "Scripts/sampling_atlas_functions.R",
+  "Scripts/sampling_atlas_genomics.R", "Scripts/genomics_filters.js", atlas_genomics_inputs(config),
   "Scripts/sampling_atlas_report.R", "Scripts/sampling_atlas_locations.R", "Scripts/sampling_atlas_traits.R", "Scripts/sampling_atlas_taxonomy.R", "Scripts/sampling_atlas_overview.R", "Scripts/sampling_atlas_images.R", atlas_image_inputs(config),
   if (file.exists(overview_path)) c(overview_path, file.path(out, "tables", "overview_cells.csv")), atlas_taxonomy_inputs(config), atlas_trait_inputs(config), file.path(out, "tables", "records_audit.csv"),
   file.path(out, "resolved_config.R"), file.path(out, "tables", c("artifact_manifest.csv", "species_summary.csv")),
