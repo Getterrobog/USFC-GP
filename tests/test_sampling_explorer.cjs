@@ -15,9 +15,39 @@ const traits=JSON.parse(execFileSync('python3',['-c','import csv,json; print(jso
   assert.equal(await page.locator('#map-host svg:visible').count(),1);
   const selectable=()=>page.evaluate(()=>eligible.map(c=>c.species).sort());
   assert.equal((await selectable()).length,80);
+  const divider=page.locator('#panel-divider');
+  const handle=await divider.boundingBox(),startWidth=Number(await divider.getAttribute('aria-valuenow'));
+  await page.mouse.move(handle.x+handle.width/2,handle.y+handle.height/2);await page.mouse.down();
+  await page.mouse.move(handle.x+handle.width/2+120,handle.y+handle.height/2,{steps:8});await page.mouse.up();
+  const draggedWidth=Number(await divider.getAttribute('aria-valuenow'));
+  assert.equal(draggedWidth,startWidth+120);
+  assert.equal(await page.locator('.sidebar').evaluate(e=>e.getBoundingClientRect().width),draggedWidth);
+  assert.ok(await page.locator('body').evaluate(e=>!e.classList.contains('resizing')));
+  await divider.press('ArrowLeft');assert.equal(Number(await divider.getAttribute('aria-valuenow')),draggedWidth-20);
+  await divider.press('Home');assert.equal(await divider.getAttribute('aria-valuenow'),'260');
+  await divider.press('End');assert.equal(await divider.getAttribute('aria-valuenow'),await divider.getAttribute('aria-valuemax'));
+  await divider.dblclick();assert.equal(await divider.getAttribute('aria-valuenow'),'350');
+  await divider.press('ArrowRight');
   const search=async(name)=>{await page.locator('#species-search').fill(name);await page.locator('#species-search').press('Enter');};
   await search('Menidia menidia');
   assert.equal(await page.locator('#map-host svg').getAttribute('data-species'),'Menidia menidia');
+  assert.equal(await divider.getAttribute('aria-valuenow'),'370');
+  await divider.dblclick();
+  // Species changes retain independent parent/nested disclosure preferences.
+  const menuState=()=>page.locator('#species-details details').evaluateAll(xs=>Object.fromEntries(xs.map(e=>[e.className,e.open])));
+  await page.locator('#species-details details').evaluateAll(xs=>xs.forEach(e=>e.open=true));
+  const expanded=await menuState();
+  await search('Alosa aestivalis');assert.deepEqual(await menuState(),expanded);
+  await page.locator('#species-details .additional-traits').evaluate(e=>e.open=false);
+  const partial=await menuState();
+  await search('Menidia menidia');assert.deepEqual(await menuState(),partial);
+  await page.locator('.filters').evaluate(e=>e.open=true);
+  await page.locator('#min-specimens').fill('999999999');
+  assert.equal(await page.locator('#species-details details').count(),0);
+  await page.locator('#min-specimens').fill('50');assert.deepEqual(await menuState(),partial);
+  await search('Menidia menidia');
+  await page.locator('.filters').evaluate(e=>e.open=false);
+  await page.locator('#species-details details').evaluateAll(xs=>xs.forEach(e=>e.open=false));
   await page.locator('#map-stage').selectOption('larva');
   const larvalCount=await page.locator('#map-host svg').getAttribute('data-specimens');
   await page.locator('#map-stage').selectOption('adult');
@@ -84,7 +114,21 @@ const traits=JSON.parse(execFileSync('python3',['-c','import csv,json; print(jso
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   await page.locator('.filters').evaluate(e=>e.open=true);await page.locator('#trait-filters').evaluate(e=>e.open=true);
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  // The full map stays inside the viewport, even when the sidebar is expanded.
+  for(const [width,height] of [[1366,768],[1280,720],[1920,1080],[800,600],[390,844]]){
+   await page.setViewportSize({width,height});
+   assert.equal(await divider.isVisible(),width>850);
+   await page.locator('.filters').evaluate(e=>e.open=false);
+   const bounds=await page.locator('.map-viewport').boundingBox();
+   assert.ok(bounds.y>=0&&bounds.y+bounds.height<=height,`Map outside ${width}x${height}`);
+   assert.ok(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight&&document.documentElement.scrollWidth<=innerWidth));
+   assert.ok(await page.locator('.map-viewport').evaluate(e=>e.scrollHeight<=e.clientHeight&&e.scrollWidth<=e.clientWidth));
+   await page.locator('.filters').evaluate(e=>e.open=true);
+   await page.locator('#trait-filters').evaluate(e=>e.open=true);
+   assert.deepEqual(await page.locator('.map-viewport').boundingBox(),bounds);
+   assert.ok(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight));
+  }
   assert.deepEqual(errors,[]);
-  console.log('Explorer browser checks passed: 320 maps, searchable/filtered choices, stage counts, bounds/scales, label fit, empty results, download, deep link and mobile layout.');
+  console.log('Explorer browser checks passed: 320 maps, draggable/keyboard panel resizing, searchable/filtered choices, preserved parent/nested menus, stage counts, bounds/scales, label fit, empty results, download, deep link and viewport fit at five screen sizes with expanded filters.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

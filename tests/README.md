@@ -23,7 +23,10 @@ After `Rscript Scripts/build_sampling_explorer.R`, run
 `node tests/test_sampling_explorer.cjs` with Playwright available on `NODE_PATH`.
 This local-file browser check renders all 320 species/stage choices and validates
 cell counts, bounds, label fit, search/keyboard selection, combined filters,
-empty results, SVG download, species/stage deep links and mobile layout.
+empty results, SVG download, species/stage deep links and viewport fit at five
+desktop/mobile sizes, including expanded filters without moving the map.
+It also checks independent parent/nested menu states across species changes and
+empty results, plus mouse/keyboard panel resizing, width limits and reset.
 
 To validate a different completed output directory:
 

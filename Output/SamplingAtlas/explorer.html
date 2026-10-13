@@ -1,11 +1,101 @@
 <!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Historical sampling explorer</title><style>
-body{font:16px/1.5 system-ui,sans-serif;max-width:1250px;margin:32px auto;padding:0 22px;color:#233342;background:#f5f7f8}h1{font-size:36px;line-height:1.15}h2,h3{line-height:1.25}a{color:#175b88}[hidden]{display:none!important}button,input,select{font:inherit}button{padding:9px 13px;border:1px solid #aabac5;border-radius:5px;background:#f7fafb;color:#233342;cursor:pointer}button:disabled,input:disabled,select:disabled{opacity:.5;cursor:default}button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:3px solid #175b88;outline-offset:2px}summary{cursor:pointer;padding:12px 0}.filters{padding:16px 20px;background:#e7f0f5;border-radius:8px;margin:20px 0}.filter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}.filter-grid label{display:flex;flex-direction:column;gap:6px}.filter-grid input,.filter-grid select{box-sizing:border-box;width:100%;padding:9px;border:1px solid #aabac5;border-radius:4px;background:white}.filter-check{display:block;margin:16px 0}.filter-check input{width:auto}#genomic-filters{border-top:1px solid #aabac5;margin-top:16px}.selection{display:grid;grid-template-columns:minmax(0,2fr) minmax(220px,1fr);gap:24px;background:white;padding:20px;border:1px solid #d5dfe4;border-radius:8px}.selection label{display:flex;flex-direction:column;gap:8px;font-weight:600}.selection select{width:100%;box-sizing:border-box;margin-top:8px;padding:11px;border:1px solid #8fa5b4;border-radius:5px;background:white}.species-picker{position:relative;min-width:0}.combo{display:flex;margin-top:8px}.combo input{width:100%;min-width:0;box-sizing:border-box;padding:11px;border:1px solid #8fa5b4;border-radius:5px 0 0 5px}.combo button{border-radius:0 5px 5px 0;margin-left:-1px}#species-options{position:absolute;z-index:10;left:0;right:0;max-height:340px;overflow:auto;padding:6px;margin:4px 0;list-style:none;background:white;border:1px solid #8fa5b4;border-radius:5px;box-shadow:0 8px 22px #19334830}#species-options [role=option]{padding:9px 12px;cursor:pointer;border-radius:4px;overflow-wrap:anywhere}#species-options [role=option]:hover,#species-options [role=option].active{background:#dfeef5}#species-options [aria-selected=true]{font-weight:700}#search-status{font-size:13px;color:#526171;margin:6px 0 0}#selection-status{font-size:14px;color:#405669}#empty-results{padding:20px;background:#fff1d6;border-radius:6px}main{background:white;border:1px solid #d5dfe4;border-radius:8px;padding:20px}.taxonomy-line{color:#526171;font-size:14px;margin:0}h2{margin:5px 0 10px}.common-name{font-size:.8em;font-weight:400}.identity{position:relative;padding-right:310px;min-height:160px}.species-image{position:absolute;right:0;top:0;box-sizing:border-box;width:280px;margin:0;font-size:11px;color:#526171}.species-photo{display:block;max-width:100%;height:auto;max-height:100px;width:auto;margin:0 auto 5px}.species-image figcaption{font-size:10px;line-height:1.3}.species-image a{overflow-wrap:anywhere}.extent{padding:12px;background:#edf4f7;border-radius:6px;font-size:14px}.map-tools{display:flex;gap:12px;flex-wrap:wrap;margin:15px 0}.map-viewport{overflow:auto;border:1px solid #d5dfe4;border-radius:5px}#map-host svg{display:block;width:100%;height:auto}.map-viewport.enlarged #map-host{width:1600px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:10px;vertical-align:top;border-bottom:1px solid #d5dfe4}th{background:#edf3f6}.table-scroll{overflow:auto}.species-information{border-top:1px solid #d5dfe4;margin-top:18px}.life-history{background:#f5f8fa;padding:16px;border-radius:6px;margin:16px 0}.life-history h3{margin-top:0}.trait-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(210px,100%),1fr));gap:14px}.trait-grid dd{margin:5px 0 0}.genomic-stats dd{font-size:22px}footer{margin:25px 0;font-size:14px}svg text{font-family:Arial,sans-serif;fill:#233342}@media(max-width:650px){body{margin:22px auto;padding:0 12px}h1{font-size:29px}.selection{grid-template-columns:1fr;gap:14px;padding:14px}.identity{padding-right:0;min-height:0}.species-image{position:static;max-width:280px;margin:12px 0}main{padding:12px}.filters{padding:12px}}
+/* A viewport-sized workspace: controls beside a map that always fits on screen. */
+*{box-sizing:border-box}
+body{font:14px/1.45 system-ui,sans-serif;margin:0;padding:12px;color:#233342;background:#f5f7f8;height:100vh;height:100dvh;display:flex;flex-direction:column;gap:10px}
+a{color:#175b88}
+[hidden]{display:none!important}
+h1,h2,h3{line-height:1.2}
+h1{font-size:23px;margin:0}
+h2{font-size:21px;margin:6px 0}
+.app-header{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;flex:none}
+.app-header nav{font-size:12px}
+.workspace{display:grid;grid-template-columns:var(--sidebar-width,350px) 12px minmax(0,1fr);flex:1;min-height:0}
+#panel-divider{cursor:col-resize;touch-action:none;display:flex;align-items:center;justify-content:center;border-radius:4px}
+#panel-divider::after{content:'';width:3px;height:48px;background:#aabac5;border-radius:3px}
+#panel-divider:hover,#panel-divider:focus-visible{background:#dfeef5}
+#panel-divider:hover::after,#panel-divider:focus-visible::after{background:#175b88}
+body.resizing,body.resizing *{cursor:col-resize!important;user-select:none!important}
+.sidebar{min-height:0;min-width:0;overflow:auto;padding:14px;background:white;border:1px solid #d5dfe4;border-radius:8px;scrollbar-gutter:stable}
+button,input,select{font:inherit}
+button{padding:7px 10px;border:1px solid #aabac5;border-radius:5px;background:#f7fafb;color:#233342;cursor:pointer}
+button:disabled,input:disabled,select:disabled{opacity:.5;cursor:default}
+button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:3px solid #175b88;outline-offset:2px}
+summary{cursor:pointer;padding:10px 0;font-size:13px}
+.selection{display:grid;gap:10px}
+.selection label{display:flex;flex-direction:column;gap:4px;font-weight:600;font-size:13px}
+.selection select{width:100%;padding:8px;border:1px solid #8fa5b4;border-radius:5px;background:white}
+.species-picker{min-width:0}
+.combo{display:flex;margin-top:5px}
+.combo input{width:100%;min-width:0;padding:9px;border:1px solid #8fa5b4;border-radius:5px 0 0 5px}
+.combo button{border-radius:0 5px 5px 0;margin-left:-1px}
+/* Fixed placement lets suggestions extend beyond the independently scrolling sidebar. */
+#species-options{position:fixed;z-index:20;overflow:auto;padding:6px;margin:0;list-style:none;background:white;border:1px solid #8fa5b4;border-radius:5px;box-shadow:0 8px 22px #19334830}
+#species-options [role=option]{padding:9px 12px;cursor:pointer;border-radius:4px;overflow-wrap:anywhere}
+#species-options [role=option]:hover,#species-options [role=option].active{background:#dfeef5}
+#species-options [aria-selected=true]{font-weight:700}
+#search-status{font-size:11px;color:#526171;margin:4px 0 0}
+.sr-only{position:absolute;top:0;left:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+#empty-results{padding:12px;background:#fff1d6;border-radius:6px}
+.filters{padding:0 10px;background:#e7f0f5;border-radius:6px;margin:12px 0}
+.filter-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+.filter-grid label{display:flex;flex-direction:column;gap:5px}
+.filter-grid input,.filter-grid select{width:100%;min-width:0;padding:8px;border:1px solid #aabac5;border-radius:4px;background:white}
+.filter-check{display:block;margin:14px 0}
+.filter-check input{width:auto}
+#genomic-filters{border-top:1px solid #aabac5;margin-top:14px}
+.filters button[type=reset]{margin-bottom:12px}
+.taxonomy-line{color:#526171;font-size:11px;margin:0}
+.common-name{font-size:.8em;font-weight:400}
+.species-image{margin:8px 0;color:#526171}
+.species-photo{display:block;max-width:100%;height:auto;max-height:72px;width:auto;margin:0 auto 5px}
+.species-image figcaption{font-size:9px;line-height:1.3}
+.species-image a{overflow-wrap:anywhere}
+#map-summary{font-size:12px;background:#edf4f7;padding:10px;border-radius:5px;margin:10px 0}
+.species-information,.cell-details,.map-help{border-top:1px solid #d5dfe4}
+.extent{font-size:12px}
+main{min-width:0;min-height:0;background:white;border:1px solid #d5dfe4;border-radius:8px;padding:8px;display:flex;flex-direction:column}
+.map-tools{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex:none;padding:0 0 8px;font-size:12px}
+.map-tools span{margin-right:auto;color:#526171}
+.map-viewport{min-height:0;flex:1;overflow:auto;border-radius:5px}
+#map-host{width:100%;height:100%}
+#map-host svg{display:block;width:100%;height:100%}
+.map-viewport.enlarged #map-host{width:1600px;height:auto}
+.map-viewport.enlarged #map-host svg{height:auto}
+table{border-collapse:collapse;width:100%;font-size:12px}
+th,td{text-align:left;padding:8px;vertical-align:top;border-bottom:1px solid #d5dfe4}
+th{background:#edf3f6}
+.table-scroll{overflow:auto}
+.life-history{background:#f5f8fa;padding:12px;border-radius:6px;margin:12px 0}
+.life-history h3{margin-top:0}
+.trait-grid{display:grid;grid-template-columns:1fr;gap:12px}
+.trait-grid dd{margin:5px 0 0}
+.genomic-stats dd{font-size:22px}
+footer{margin:16px 0;font-size:12px}
+svg text{font-family:Arial,sans-serif;fill:#233342}
+@media(max-width:850px){
+ body{padding:8px;gap:8px}
+ h1{font-size:19px}
+ .workspace{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,34%) minmax(0,1fr);gap:8px}
+ #panel-divider{display:none}
+ .sidebar{padding:10px}
+ .selection{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
+ .selection select{margin-top:5px}
+ .map-tools{flex-wrap:wrap;gap:5px}
+ .map-tools span{font-size:11px}
+}
+@media(max-width:480px){
+ .app-header{gap:4px}
+ .app-header nav{font-size:11px}
+ .selection{grid-template-columns:minmax(0,1fr)}
+ .map-tools button{padding:6px;font-size:11px}
+}
 .species-traits dd{font-size:16px;line-height:1.45;overflow-wrap:anywhere}.species-traits .trait-grid{grid-template-columns:repeat(auto-fit,minmax(min(210px,100%),1fr))}.trait-grid dt{font-size:13px;color:#526171}.species-traits details{border-top:1px solid #d5dfe4;margin-top:14px}.species-traits table{border-collapse:collapse;width:100%;font-size:13px}.species-traits th,.species-traits td{text-align:left;padding:10px;vertical-align:top;border-bottom:1px solid #d5dfe4;overflow-wrap:anywhere}.species-traits th{background:#edf3f6}.trait-source-note{font-size:14px;color:#69501f}.trait-ranges{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:16px;margin-top:20px}.trait-range{min-width:0;border:1px solid #aabac5;border-radius:5px;padding:12px}.trait-range legend{font-weight:600}.trait-range label{display:flex;flex-direction:column;gap:5px}.trait-range input,.trait-range select{box-sizing:border-box;min-width:0;width:100%;font:inherit;padding:8px;border:1px solid #aabac5;border-radius:4px;background:white}.range-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}#trait-filters{border-top:1px solid #aabac5;margin-top:16px}#trait-filter-count{color:#526171;font-size:14px}#trait-range-error{color:#9b2923}.trait-range input:disabled{opacity:.5}
 </style><body>
-<h1>Historical sampling explorer</h1><nav><a href="overview.html">Original all-species overview</a> · <a href="index.html">Annual maps and animations</a> · <a href="../Genomics/maps.html">Genomic sampling maps</a></nav>
+<header class="app-header"><h1>Historical sampling explorer</h1><nav><a href="overview.html">All-species overview</a> · <a href="index.html">Annual maps</a> · <a href="../Genomics/maps.html">Genomic maps</a></nav></header>
 <noscript><p>This interactive explorer requires JavaScript. Open the <a href="overview.html">original overview</a> to browse saved maps without JavaScript.</p></noscript>
-<p>One fish, one map. Search for a species, then select the life stage to plot. Numbered grid cells connect to labels showing year (specimens), including undated lots.</p>
-<form id="filters"><details class="filters"><summary><strong>Filter selectable species</strong> <span id="filter-count"></span></summary><div class="filter-grid">
+<div class="workspace"><aside class="sidebar" aria-label="Species selection and information"><section class="selection" aria-label="Map selection"><div class="species-picker"><label for="species-search">Species — scientific or common name</label><div class="combo"><input id="species-search" type="text" role="combobox" aria-autocomplete="list" aria-controls="species-options" aria-expanded="false" autocomplete="off" placeholder="Search or choose a fish"><button id="species-toggle" type="button" aria-label="Show selectable species" aria-controls="species-options" aria-expanded="false">▾</button></div><ul id="species-options" role="listbox" aria-label="Selectable species" hidden></ul><p id="search-status" role="status"></p></div>
+<label for="map-stage">Map life stage<select id="map-stage"><option value="all">All life stages</option><option value="adult">Adult / non-larval</option><option value="larva">Larva</option><option value="mixed">Mixed lots</option></select></label></section>
+<form id="filters"><details class="filters"><summary><strong>Filter species</strong> <span id="filter-count"></span></summary><div class="filter-grid">
 <label>Order<select id="taxonomy-order"><option value="">All orders</option>
 <option value="Atheriniformes">Atheriniformes</option>
 <option value="Aulopiformes">Aulopiformes</option>
@@ -229,17 +319,16 @@ body{font:16px/1.5 system-ui,sans-serif;max-width:1250px;margin:32px auto;paddin
 </div><p id="trait-range-error" role="alert" hidden>A minimum exceeds its maximum. Correct the range to show matching species.</p><p>Model ages and reported ages are separate fields. Trophic level prefers the diet estimate, then food items; methods are not averaged. Source-specific feeding classes and reef guilds remain separate. Missing traits do not mean biological absence. IUCN categories are dated source snapshots, not verified latest status. Lengths take the largest reported value across sexes separately for each type; TL, SL and FL are not converted. Numeric bounds apply to the named summary field, not to all population-level observations.</p></details>
 <p>Filters determine which of the 80 eligible species can be selected. Specimen/year thresholds use dated records through 1930 across all life stages within the chosen region. Trait and genomic filters select species. Only the separate map life-stage control changes the plotted data; maps retain all included regions and years, including undated lots.</p>
 <button type="reset">Reset species filters</button></details></form>
-<section class="selection" aria-label="Map selection"><div class="species-picker"><label for="species-search">Species — search scientific or common name</label><div class="combo"><input id="species-search" type="text" role="combobox" aria-autocomplete="list" aria-controls="species-options" aria-expanded="false" autocomplete="off" placeholder="Search or choose a fish"><button id="species-toggle" type="button" aria-label="Show selectable species" aria-controls="species-options" aria-expanded="false">▾</button></div><ul id="species-options" role="listbox" aria-label="Selectable species" hidden></ul><p id="search-status" role="status"></p></div>
-<label for="map-stage">Map life stage<select id="map-stage"><option value="all">All life stages</option><option value="adult">Adult / non-larval</option><option value="larva">Larva</option><option value="mixed">Mixed lots</option></select></label></section>
-<p id="selection-status" role="status" aria-live="polite"></p><p id="empty-results" hidden>No species match these filters. Reset or relax the filters to select a fish.</p>
-<main id="selected-view"><div id="species-heading"></div><p id="map-summary"></p>
+<p id="selection-status" class="sr-only" role="status" aria-live="polite"></p><p id="empty-results" hidden>No species match these filters. Reset or relax the filters to select a fish.</p>
+<div id="species-heading"></div><p id="map-summary"></p><div id="species-details"></div>
+<details class="cell-details"><summary>Grid-cell years and counts</summary><div id="cell-table" class="table-scroll"></div></details>
+<details class="map-help"><summary>Map guide and data downloads</summary><p>Search for a species and choose its life stage. Numbered grid cells connect to labels showing year (specimens), including undated lots. The full map fits the available screen; enlarge labels to inspect it in more detail.</p>
 <p class="extent">Fixed extent: 100–50°W, 5–60°N · 2° cells. Hatching marks approximate positions. Adult / non-larval includes juveniles and unlabeled lots; maturity is unverified.</p>
-<div class="map-tools"><button id="enlarge-map" type="button" aria-pressed="false">Enlarge labels</button><button id="download-map" type="button">Download selected map (SVG)</button></div>
-<div class="map-viewport" tabindex="0" role="region" aria-label="Selected species geographic heatmap"><div id="map-host"></div></div>
 <p>Colors count specimens, not abundance, and use one scale across life stages within the selected species. Blank cells mean no plotted sampling. Approximate positions are display estimates, not verified sites.</p>
-<details><summary>Grid-cell years and specimen counts</summary><div id="cell-table" class="table-scroll"></div></details>
-<div id="species-details"></div></main>
-<footer><a href="tables/explorer_summary.csv">Species/stage totals</a> · <a href="tables/explorer_cells.csv">Species/stage grid cells</a> · <a href="tables/records_audit.csv">Original record audit</a> · <a href="tables/approximate_locations.csv">Location evidence</a> · <a href="README.md">Documentation</a></footer>
+<footer><a href="tables/explorer_summary.csv">Species/stage totals</a> · <a href="tables/explorer_cells.csv">Species/stage grid cells</a> · <a href="tables/records_audit.csv">Original record audit</a> · <a href="tables/approximate_locations.csv">Location evidence</a> · <a href="README.md">Documentation</a></footer></details></aside>
+<div id="panel-divider" role="separator" tabindex="0" aria-label="Resize species panel" aria-orientation="vertical" aria-controls="species-panel" aria-valuemin="260" aria-valuemax="650" aria-valuenow="350" title="Drag to resize; arrow keys adjust width; double-click to reset"></div>
+<main id="selected-view"><div class="map-tools"><span>All years · fixed 2° grid</span><button id="enlarge-map" type="button" aria-pressed="false">Enlarge labels</button><button id="download-map" type="button">Download SVG</button></div>
+<div class="map-viewport" tabindex="0" role="region" aria-label="Selected species geographic heatmap"><div id="map-host"></div></div></main></div>
 <template class="species-template" id="Alosa_aestivalis" data-species="Alosa aestivalis" data-label="Alosa aestivalis — Blueback shad" data-order="Clupeiformes" data-family="Clupeidae">
 <div class="identity">
 <p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Alosa aestivalis</i> <span class="common-name">— Blueback shad</span></h2>
@@ -7282,14 +7371,25 @@ const $=id=>document.getElementById(id),esc=x=>String(x??'').replace(/[&<>"']/g,
 const labels={all:'All life stages',adult:'Adult / non-larval',larva:'Larvae',mixed:'Mixed lots'};
 const candidates=Array.from(document.querySelectorAll('.species-template'),template=>({template,species:template.dataset.species,label:template.dataset.label,traits:traitCandidate(template.content),records:explorer.filters.filter(r=>r.species===template.dataset.species)}));
 let eligible=[],suggestions=[],selected=null,active=-1;
+// Keep disclosure preferences across replaced cards, including temporary empty results.
+const speciesMenuState=new Map();
+const menuKey=el=>el.id||el.className||el.querySelector('summary')?.textContent;
 const input=$('species-search'),list=$('species-options'),background=$('map-background').content.querySelector('svg').innerHTML;
 function closeOptions(restore=true){list.hidden=true;input.setAttribute('aria-expanded','false');$('species-toggle').setAttribute('aria-expanded','false');input.removeAttribute('aria-activedescendant');active=-1;if(restore)input.value=selected?.label||'';}
 function setActive(index){active=index;if(index<0){input.removeAttribute('aria-activedescendant');return;}Array.from(list.children).forEach((el,i)=>el.classList.toggle('active',i===index));const el=list.children[index];input.setAttribute('aria-activedescendant',el.id);el.scrollIntoView({block:'nearest'});}
+function positionOptions(){
+  const box=input.closest('.combo').getBoundingClientRect(),room=innerHeight-box.bottom-12;
+  list.style.left=box.left+'px';list.style.width=Math.min(Math.max(box.width,360),innerWidth-box.left-12)+'px';
+  const above=room<100&&box.top>room;
+  list.style.maxHeight=Math.max(40,Math.min(320,above?box.top-12:room))+'px';
+  list.style.top=above?'auto':(box.bottom+4)+'px';list.style.bottom=above?(innerHeight-box.top+4)+'px':'auto';
+}
 function showOptions(query=''){
   suggestions=eligible.filter(c=>c.label.toLowerCase().includes(query.trim().toLowerCase()));
   list.replaceChildren();active=-1;input.removeAttribute('aria-activedescendant');
   suggestions.forEach((c,i)=>{const li=document.createElement('li');li.id='species-option-'+i;li.role='option';li.setAttribute('aria-selected',String(c===selected));li.textContent=c.label;li.addEventListener('mousedown',e=>e.preventDefault());li.addEventListener('click',()=>{choose(c);closeOptions();input.focus();closeOptions();});list.appendChild(li);});
   list.hidden=!suggestions.length;input.setAttribute('aria-expanded',String(suggestions.length>0));$('species-toggle').setAttribute('aria-expanded',String(suggestions.length>0));
+  positionOptions();
   $('search-status').textContent=suggestions.length?`${suggestions.length} matching selectable species. Use ↑/↓ and Enter, or click a name.`:'No selectable species match this search.';
 }
 input.addEventListener('focus',()=>{input.select();showOptions();});
@@ -7302,6 +7402,35 @@ input.addEventListener('keydown',e=>{
 input.addEventListener('blur',()=>setTimeout(()=>{if(!document.activeElement?.closest('.species-picker'))closeOptions();},0));
 $('species-toggle').addEventListener('click',()=>{if(list.hidden){input.focus();showOptions();}else closeOptions();});
 document.addEventListener('click',e=>{if(!e.target.closest('.species-picker'))closeOptions();});
+window.addEventListener('resize',()=>{if(!list.hidden)positionOptions();});
+document.querySelector('.sidebar').addEventListener('scroll',()=>{if(!list.hidden)closeOptions();});
+// A bounded splitter keeps both the controls and map usable on desktop screens.
+const workspace=document.querySelector('.workspace'),divider=$('panel-divider');
+document.querySelector('.sidebar').id='species-panel';
+let panelWidth=350,resizePointer=null;
+function sizePanel(width=panelWidth){
+  const maximum=Math.max(260,Math.min(650,workspace.clientWidth-332));
+  const value=Math.round(Math.max(260,Math.min(maximum,width)));
+  workspace.style.setProperty('--sidebar-width',value+'px');
+  divider.setAttribute('aria-valuemax',String(maximum));divider.setAttribute('aria-valuenow',String(value));
+  divider.setAttribute('aria-valuetext',value+' pixels');
+  if(!list.hidden)positionOptions();
+  return value;
+}
+divider.addEventListener('pointerdown',e=>{
+  if(e.button!==0)return;e.preventDefault();closeOptions();divider.focus();
+  resizePointer=e.pointerId;divider.setPointerCapture(e.pointerId);document.body.classList.add('resizing');
+});
+divider.addEventListener('pointermove',e=>{if(e.pointerId===resizePointer)panelWidth=sizePanel(e.clientX-workspace.getBoundingClientRect().left-6);});
+function stopResize(){resizePointer=null;document.body.classList.remove('resizing');}
+divider.addEventListener('pointerup',stopResize);divider.addEventListener('pointercancel',stopResize);divider.addEventListener('lostpointercapture',stopResize);
+divider.addEventListener('keydown',e=>{
+  const current=Number(divider.getAttribute('aria-valuenow'));
+  const widths={ArrowLeft:current-20,ArrowRight:current+20,Home:260,End:Number(divider.getAttribute('aria-valuemax'))};
+  if(Object.hasOwn(widths,e.key)){e.preventDefault();panelWidth=sizePanel(widths[e.key]);}
+});
+divider.addEventListener('dblclick',()=>{panelWidth=sizePanel(350);});
+window.addEventListener('resize',()=>sizePanel());sizePanel();
 function filterSpecies(){
   const previous=selected,criteria=traitCriteria(),region=$('region').value,mapped=$('mapped-only').checked;
   const minimum=Math.max(0,Number($('min-specimens').value)||0),yearsMinimum=Math.max(1,Number($('min-years').value)||1);
@@ -7320,10 +7449,12 @@ function filterSpecies(){
   if(previous&&selected&&previous!==selected)$('selection-status').textContent=`${previous.species} no longer matches. Now showing ${selected.species}.`;
 }
 function choose(c){
+  $('species-details').querySelectorAll('details').forEach(el=>speciesMenuState.set(menuKey(el),el.open));
   selected=c;input.value=c?.label||'';$('selected-view').hidden=!c;
-  if(!c){$('map-host').replaceChildren();$('species-heading').replaceChildren();$('species-details').replaceChildren();$('selection-status').textContent='No selected species.';return;}
+  if(!c){for(const id of ['map-host','species-heading','species-details','map-summary','cell-table'])$(id).replaceChildren();$('selection-status').textContent='No selected species.';return;}
   $('species-heading').replaceChildren(c.template.content.querySelector('.identity').cloneNode(true));
   $('species-details').replaceChildren(c.template.content.querySelector('.species-information').cloneNode(true));
+  $('species-details').querySelectorAll('details').forEach(el=>{if(speciesMenuState.has(menuKey(el)))el.open=speciesMenuState.get(menuKey(el));});
   document.querySelectorAll('#species-heading .species-photo').forEach(img=>{const fail=()=>{img.hidden=true;img.closest('figure').querySelector('.image-error').hidden=false;};img.addEventListener('error',fail);if(img.complete&&!img.naturalWidth)fail();});
   for(const option of $('map-stage').options){const total=explorer.summary.find(s=>s.species===c.species&&s.map_stage===option.value);option.textContent=`${labels[option.value]} — ${total.specimens.toLocaleString()} specimens`;}
   renderMap();
@@ -7337,7 +7468,7 @@ function labelPositions(desired,heights,top,bottom,gap=7){
 function yearLabel(c){const years=c.years?String(c.years).split(';'):[],counts=c.year_specimens?String(c.year_specimens).split(';'):[];const parts=years.map((y,i)=>`${y} (${counts[i]})`);if(c.undated_specimens)parts.push(`Undated (${c.undated_specimens})`);return parts.join(', ');}
 $('map-stage').addEventListener('change',renderMap);
 $('filters').addEventListener('input',filterSpecies);$('filters').addEventListener('change',filterSpecies);$('filters').addEventListener('submit',e=>e.preventDefault());$('filters').addEventListener('reset',()=>setTimeout(filterSpecies,0));
-$('enlarge-map').onclick=()=>{const box=document.querySelector('.map-viewport'),on=box.classList.toggle('enlarged');$('enlarge-map').setAttribute('aria-pressed',String(on));$('enlarge-map').textContent=on?'Fit map to page':'Enlarge labels';};
+$('enlarge-map').onclick=()=>{const box=document.querySelector('.map-viewport'),on=box.classList.toggle('enlarged');$('enlarge-map').setAttribute('aria-pressed',String(on));$('enlarge-map').textContent=on?'Fit to screen':'Enlarge labels';};
 $('download-map').onclick=()=>{const svg=$('map-host').querySelector('svg');if(!svg)return;const url=URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(svg)],{type:'image/svg+xml'}));const a=document.createElement('a');a.href=url;a.download=selected.template.id+'_'+$('map-stage').value+'_all_years.svg';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
 const initialHash=decodeURIComponent(location.hash.slice(1)).split('/');
 filterSpecies();const initial=candidates.find(c=>c.template.id===initialHash[0]);if(initial&&eligible.includes(initial)){if(Object.hasOwn(labels,initialHash[1]))$('map-stage').value=initialHash[1];choose(initial);}

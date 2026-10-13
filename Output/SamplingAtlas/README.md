@@ -41,7 +41,7 @@ A report-only refresh updates both pages once the companion maps exist.
 
 For a compact alternative, open [explorer.html](explorer.html). It displays **one
 geographic heatmap at a time**, selected with a searchable scientific/common-name
-dropdown. Expand **Filter selectable species** to restrict that dropdown using
+dropdown. Expand **Filter species** to restrict that dropdown using
 taxonomy, specimen/year thresholds, traits or genomic availability. If the current
 species no longer qualifies, the first matching species is selected; no matches
 produces an explicit empty state.
@@ -56,8 +56,26 @@ species across stages. Year/count labels, approximate-location hatching, fish
 images, traits, genomic summaries and source links remain available. An empty
 stage displays an empty map with an explanatory message.
 
+The explorer fits the browser window: selectors and species information sit in a
+sidebar, and the complete map scales to the remaining screen height without page
+scrolling. Drag the divider between the sidebar and map to adjust their widths;
+the map automatically fits the remaining space. You can also focus the divider
+and use Left/Right arrows (20-pixel steps) or Home/End (minimum/maximum width).
+Double-click the divider to restore the default width. The chosen width remains
+in effect while switching species; reloading restores the default. On narrow
+screens the panels stack and the divider is hidden.
+
+Expanded filters, traits and tables scroll inside the sidebar, leaving
+the map in place. On narrow screens the controls sit above the map in their own
+scrolling panel. Expanded/collapsed menus, including nested trait and evidence
+sections, retain their state when switching species or changing filters.
+**Enlarge labels** allows scrolling within the map for closer
+inspection; **Fit to screen** restores the complete view. The geographic extent
+does not change. Map explanations and data links are under **Map guide and data
+downloads**.
+
 The explorer works offline with JavaScript enabled. Its dropdown supports typing,
-arrow keys, Enter and Escape. **Download selected map (SVG)** exports the current
+arrow keys, Enter and Escape. **Download SVG** exports the current
 map; the URL fragment records the species/stage selection. This separate page
 does not replace or modify the original overview. Rebuild it after updating the
 atlas audit, trait, image or genomic inputs:
