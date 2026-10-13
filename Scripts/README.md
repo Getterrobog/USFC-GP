@@ -98,6 +98,12 @@ from cached ENA and NCBI metadata. `genomics_functions.R` implements scientific
 classification, date/coordinate interpretation, sample screening and reporting
 in base R. `genomics_archive_io.py` uses Python 3's standard library for HTTP,
 JSON/XML transport, compressed-response verification and SQLite export.
+`genomics_locations.R` attaches and reconciles publication-backed locations/years
+and writes the sample-level provenance ledger. `genomics_location_io.py` caches
+publication supplements and GEOME metadata and extracts spreadsheet values;
+it does not infer sample locations. The R runner invokes both helpers offline by
+default. Location sources are documented in
+[Data/Genomics/location_sources](../Data/Genomics/location_sources/README.md).
 
 ```bash
 Rscript Scripts/build_genomics_inventory.R              # offline
@@ -109,5 +115,8 @@ python3 tests/validate_genomics_inventory.py
 Add `--refresh` with `--download` only when intentionally replacing the archive
 snapshot. Configuration is in `config/genomics.R`; evidence-backed assay exceptions
 are in `config/genomics_assay_overrides.csv`. [Methods](../docs/genomics_inventory.md)
+document location source registration, exact sample joins and unresolved conflicts.
+`--refresh` affects ENA/NCBI; the location helper retains its pinned snapshots.
+The methods also
 explain counts, taxonomy, data gaps and limitations. This workflow does not modify
 the historical atlas or selection outputs.

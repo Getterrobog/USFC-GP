@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Alosa+pseudoharengus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:05.051075+00:00",
+  "sha256": "29282606396d9fa0ab180fa0315a6169a2bd939840b3aeef0b9842d38155d8d4",
+  "http_status": 200,
+  "bytes": 2933,
+  "cache_path": "Data/Genomics/raw/geome/58fbd0ffd5468bffe3311d639eedc5cfaa87f8f0fd378ce0fe1b7dcaca917cd7.gz"
+}

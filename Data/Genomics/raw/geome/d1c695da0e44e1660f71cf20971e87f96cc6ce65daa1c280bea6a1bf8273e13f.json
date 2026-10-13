@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Mullus+auratus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:42.272418+00:00",
+  "sha256": "341e4c059b49797d259a19f77182acf554672f1031cba5a56561eb980bfc2a28",
+  "http_status": 200,
+  "bytes": 3871,
+  "cache_path": "Data/Genomics/raw/geome/d1c695da0e44e1660f71cf20971e87f96cc6ce65daa1c280bea6a1bf8273e13f.gz"
+}

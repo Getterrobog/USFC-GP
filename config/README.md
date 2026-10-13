@@ -49,3 +49,12 @@ nominal low-depth screening threshold and contemporary mapping bounds/years.
 library-strategy labels with evidence URLs and reasons. Original taxonomic project
 synonym decisions remain in `life_history_taxon_crosswalk.csv`; genomic-specific
 resolution is recorded in `Output/Genomics/taxon_crosswalk.csv`.
+
+`genomics_location_sources.json` registers publication/repository downloads and
+DOIs. `genomics_publication_sites.csv` retains manually transcribed article-site
+DMS coordinates, section locators and caveats; it does not apply those sites to
+samples without an explicit publication crosswalk. `genomics_publication_review.csv`
+tracks reviewed studies, recovered metadata and unfinished or blocked leads.
+Scientific matching rules and conflict handling live in `Scripts/genomics_locations.R`;
+generated evidence and original source files are documented in
+[Data/Genomics/location_sources](../Data/Genomics/location_sources/README.md).

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Sparisoma+radians%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:10.965545+00:00",
+  "sha256": "ceefaed03e53583b3ca64ca92d96a7c4f70c081e4bc22962f5d653463640df47",
+  "http_status": 200,
+  "bytes": 2860,
+  "cache_path": "Data/Genomics/raw/geome/5c4ec16be2d3690e8acc939f9f9d85b9ce58e896d6ace762bd75a7a20cddff9e.gz"
+}

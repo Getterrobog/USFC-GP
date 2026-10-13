@@ -1,5 +1,15 @@
 #!/usr/bin/env Rscript
 source("Scripts/genomics_functions.R")
+source("Scripts/genomics_locations.R")
+# Population-site reconciliation must reject mismatches, invalid signs/ranges and missing pairs.
+stopifnot(abs(g_dms("39 52 28 N") - 39.8744444444) < 1e-8,
+          abs(g_dms("74 08 19 W") + 74.1386111111) < 1e-8,
+          inherits(try(g_dms("39 60 01 N"), silent=TRUE), "try-error"),
+          inherits(try(g_dms("-39 05 01 N"), silent=TRUE), "try-error"),
+          g_location_agreement(c(25.351302,25.351306),c(-80.258986,-80.259)),
+          !g_location_agreement(c(25.72315,25.72315),c(-80.154616,-80.258986)),
+          !g_location_agreement(91,-80), !g_location_agreement(25,NA_real_),
+          !g_location_agreement(25,numeric()), !g_location_agreement(numeric(),numeric()))
 # Publication/sequencing dates never enter g_date: only allowlisted collection fields.
 stopifnot(g_date("not collected")$date_status == "missing",
           g_date(c("2012", "2012-05-01"))$year == 2012,

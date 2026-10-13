@@ -1,0 +1,51 @@
+species,archive_path,query,retrieved_at
+Membras martinica,Data/LifeHistorySupplement/searches/batch01.json,"""Membras martinica"" migration site:explorer.natureserve.org",2026-10-13T04:13:07.110Z
+Lutjanus synagris,Data/LifeHistorySupplement/searches/batch01.json,"""Lutjanus synagris"" migration movement site:iucnredlist.org",2026-10-13T04:13:07.110Z
+Lutjanus synagris,Data/LifeHistorySupplement/searches/followup01.json,"""Lutjanus synagris"" spawning migration site:noaa.gov",2026-10-13T04:15:05.828Z
+Lutjanus synagris,Data/LifeHistorySupplement/searches/followup02.json,"""Lutjanus synagris"" ""migration"" spawning movements",2026-10-13T04:15:28.911Z
+Monacanthus ciliatus,Data/LifeHistorySupplement/searches/batch01.json,"""Monacanthus ciliatus"" migration movement",2026-10-13T04:13:07.110Z
+Haemulon plumierii,Data/LifeHistorySupplement/searches/batch01.json,"""Haemulon plumierii"" migration movements home range",2026-10-13T04:13:07.110Z
+Lagodon rhomboides,Data/LifeHistorySupplement/searches/batch11.json,"""Lagodon rhomboides"" migration site:explorer.natureserve.org",2026-10-13T04:14:49.777Z
+Sparisoma radians,Data/LifeHistorySupplement/searches/batch02.json,"""Sparisoma radians"" movements home range migration",2026-10-13T04:13:17.946Z
+Tautogolabrus adspersus,Data/LifeHistorySupplement/searches/batch11.json,"""Tautogolabrus adspersus"" ""Local Distribution""",2026-10-13T04:14:49.777Z
+Atherinomorus stipes,Data/LifeHistorySupplement/searches/batch02.json,"""Atherinomorus stipes"" migration",2026-10-13T04:13:17.946Z
+Citharichthys spilopterus,Data/LifeHistorySupplement/searches/batch02.json,"""Citharichthys spilopterus"" migration",2026-10-13T04:13:17.946Z
+Eucinostomus gula,Data/LifeHistorySupplement/searches/batch02.json,"""Eucinostomus gula"" migration",2026-10-13T04:13:17.946Z
+Eucinostomus gula,Data/LifeHistorySupplement/searches/followup01.json,"""Eucinostomus gula"" offshore spawn migration",2026-10-13T04:15:05.828Z
+Eucinostomus gula,Data/LifeHistorySupplement/searches/followup02.json,"""Eucinostomus gula"" ""migrations""",2026-10-13T04:15:28.911Z
+Jenkinsia stolifera,Data/LifeHistorySupplement/searches/batch03.json,"""Jenkinsia stolifera"" migration movement",2026-10-13T04:13:27.139Z
+Stellifer lanceolatus,Data/LifeHistorySupplement/searches/batch03.json,"""Stellifer lanceolatus"" migration",2026-10-13T04:13:27.139Z
+Ammodytes dubius,Data/LifeHistorySupplement/searches/batch03.json,"""Ammodytes dubius"" migration sedentary",2026-10-13T04:13:27.139Z
+Anchoa colonensis,Data/LifeHistorySupplement/searches/batch03.json,"""Anchoa colonensis"" migration",2026-10-13T04:13:27.139Z
+Anchoa lamprotaenia,Data/LifeHistorySupplement/searches/batch04.json,"""Anchoa lamprotaenia"" migration movement",2026-10-13T04:13:37.544Z
+Atherina harringtonensis,Data/LifeHistorySupplement/searches/batch04.json,"""Hypoatherina harringtonensis"" migration movement",2026-10-13T04:13:37.544Z
+Bothus ocellatus,Data/LifeHistorySupplement/searches/batch04.json,"""Bothus ocellatus"" migration movement",2026-10-13T04:13:37.544Z
+Brevoortia patronus,Data/LifeHistorySupplement/searches/batch11.json,"""Brevoortia patronus"" migration NOAA estuaries",2026-10-13T04:14:49.777Z
+Chlorophthalmus agassizi,Data/LifeHistorySupplement/searches/batch04.json,"""Chlorophthalmus agassizi"" migration movement",2026-10-13T04:13:37.544Z
+Chloroscombrus chrysurus,Data/LifeHistorySupplement/searches/batch05.json,"""Chloroscombrus chrysurus"" migration",2026-10-13T04:13:50.390Z
+Citharichthys arctifrons,Data/LifeHistorySupplement/searches/batch05.json,"""Citharichthys arctifrons"" migration",2026-10-13T04:13:50.390Z
+Cyclothone microdon,Data/LifeHistorySupplement/searches/batch05.json,"""Cyclothone microdon"" vertical migration",2026-10-13T04:13:50.390Z
+Cynoscion nothus,Data/LifeHistorySupplement/searches/batch05.json,"""Cynoscion nothus"" migration",2026-10-13T04:13:50.390Z
+Cynoscion nothus,Data/LifeHistorySupplement/searches/followup01.json,"""Cynoscion nothus"" seasonal offshore",2026-10-13T04:15:05.828Z
+Decapterus punctatus,Data/LifeHistorySupplement/searches/batch06.json,"""Decapterus punctatus"" migration",2026-10-13T04:14:01.268Z
+Dibranchus atlanticus,Data/LifeHistorySupplement/searches/batch06.json,"""Dibranchus atlanticus"" migration",2026-10-13T04:14:01.268Z
+Eucinostomus argenteus,Data/LifeHistorySupplement/searches/batch06.json,"""Eucinostomus argenteus"" migration",2026-10-13T04:14:01.268Z
+Eucinostomus argenteus,Data/LifeHistorySupplement/searches/followup02.json,"""Eucinostomus argenteus"" ""migration"" spawning",2026-10-13T04:15:28.911Z
+Fenestraja plutonia,Data/LifeHistorySupplement/searches/batch06.json,"""Fenestraja plutonia"" migration",2026-10-13T04:14:01.268Z
+Gobiosoma ginsburgi,Data/LifeHistorySupplement/searches/batch07.json,"""Gobiosoma ginsburgi"" migration",2026-10-13T04:14:07.911Z
+Haemulon aurolineatum,Data/LifeHistorySupplement/searches/batch07.json,"""Haemulon aurolineatum"" migration movements",2026-10-13T04:14:07.911Z
+Harengula humeralis,Data/LifeHistorySupplement/searches/batch07.json,"""Harengula humeralis"" migration",2026-10-13T04:14:07.911Z
+Helicolenus maderensis,Data/LifeHistorySupplement/searches/batch07.json,"""Helicolenus dactylopterus"" migration sedentary",2026-10-13T04:14:07.911Z
+Hypoclydonia bella,Data/LifeHistorySupplement/searches/batch08.json,"""Synagrops bellus"" migration",2026-10-13T04:14:16.375Z
+Jenkinsia lamprotaenia,Data/LifeHistorySupplement/searches/batch08.json,"""Jenkinsia lamprotaenia"" migration",2026-10-13T04:14:16.375Z
+Laemonema barbatulum,Data/LifeHistorySupplement/searches/batch08.json,"""Laemonema barbatulum"" migration",2026-10-13T04:14:16.375Z
+Liparis inquilinus,Data/LifeHistorySupplement/searches/batch08.json,"""Liparis inquilinus"" migration",2026-10-13T04:14:16.375Z
+Lutjanus apodus,Data/LifeHistorySupplement/searches/batch11.json,"""Lutjanus apodus"" migration telemetry site:tamug.edu",2026-10-13T04:14:49.777Z
+Lycenchelys verrillii,Data/LifeHistorySupplement/searches/batch09.json,"""Lycenchelys verrillii"" migration",2026-10-13T04:14:23.365Z
+Lycodes terraenovae,Data/LifeHistorySupplement/searches/batch09.json,"""Lycodes terraenovae"" migration",2026-10-13T04:14:23.365Z
+Mullus auratus,Data/LifeHistorySupplement/searches/batch09.json,"""Mullus auratus"" migration",2026-10-13T04:14:23.365Z
+Myctophum opalinum,Data/LifeHistorySupplement/searches/batch10.json,"""Myctophum opalinum"" migration",2026-10-13T04:14:30.855Z
+Prionotus martis,Data/LifeHistorySupplement/searches/batch09.json,"""Prionotus martis"" migration",2026-10-13T04:14:23.365Z
+Stephanolepis hispida,Data/LifeHistorySupplement/searches/batch10.json,"""Stephanolepis hispidus"" migration movements",2026-10-13T04:14:30.855Z
+Syacium papillosum,Data/LifeHistorySupplement/searches/batch10.json,"""Syacium papillosum"" migration",2026-10-13T04:14:30.855Z
+Symphurus plagiusa,Data/LifeHistorySupplement/searches/batch10.json,"""Symphurus plagiusa"" migration",2026-10-13T04:14:30.855Z

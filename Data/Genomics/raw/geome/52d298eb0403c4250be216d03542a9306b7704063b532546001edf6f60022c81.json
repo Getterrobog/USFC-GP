@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Phycis+chesteri%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:45.203232+00:00",
+  "sha256": "1003c720b064fe4a4fa69abc9534662d2409d7753d2379d8661b47f508385c41",
+  "http_status": 200,
+  "bytes": 3213,
+  "cache_path": "Data/Genomics/raw/geome/52d298eb0403c4250be216d03542a9306b7704063b532546001edf6f60022c81.gz"
+}

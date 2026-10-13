@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Clupea+harengus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:23.124058+00:00",
+  "sha256": "873248cded55a22c5344b29dd4f55e6aa12136d4bdc909bfd5e89e55c0c56248",
+  "http_status": 200,
+  "bytes": 2908,
+  "cache_path": "Data/Genomics/raw/geome/1be984a6e98c1b16d902ff06c86365b6af8aeacf605ca5b2b0247038f7cb79e2.gz"
+}

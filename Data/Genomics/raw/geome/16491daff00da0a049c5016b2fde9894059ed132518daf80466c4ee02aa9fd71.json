@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Hyporhamphus+unifasciatus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:38.687322+00:00",
+  "sha256": "f84ae6b76c302d3e1d27484534e5d61a386f34540504abc8fad452c0c67a544f",
+  "http_status": 200,
+  "bytes": 2839,
+  "cache_path": "Data/Genomics/raw/geome/16491daff00da0a049c5016b2fde9894059ed132518daf80466c4ee02aa9fd71.gz"
+}

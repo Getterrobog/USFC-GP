@@ -168,11 +168,11 @@ feasibility-gate pass is performed by this extraction.
 
 ## Supplementary sources and attribution requirements
 
-Source assessment, 12 October 2026. The current extraction has migration categories
-for 36 of 80 project rows; 44 are blank. These are missing database assignments,
-not evidence of non-migration. No supplementary assignments have been imported
-by this assessment, and coverage of the external datasets against our roster has
-not yet been measured.
+Source assessment and first supplementary extraction, 12 October 2026 (local
+America/Chicago date; retrieval timestamps are UTC). The original extraction has
+migration categories for 36 of 80 project rows; 44 are blank. These are missing
+database assignments, not evidence of non-migration. The separate supplement below
+adds four regional route interpretations and documents the remaining gaps.
 
 The project requires attribution **for every characterization**, not merely a
 bibliography for the combined table. Supplementary extraction must retain one
@@ -187,7 +187,7 @@ IDs. A source attached to another trait in the same row does not support that va
 | --- | --- | --- |
 | [IUCN Red List movement classification](https://nrl.iucnredlist.org/resources/movement-patterns-classification-scheme) and individual assessments | Migration and congregation categories; assessment narratives and references | Cross-taxon definitions differ from FishBase's salinity-route categories. Preserve both vocabularies. Individual assessment coverage and supporting references require checking; the classification guide itself is not species evidence. |
 | [NOAA Estuarine Living Marine Resources: Gulf species life-history summaries](https://library.oarcloud.noaa.gov/noaa_documents.lib/NOS/ORCA/ELMR_report/ELMR_11.pdf), plus regional Essential Fish Habitat reports and underlying studies | Seasonal and life-stage movements, reproduction, growth and habitat | Regional literature synthesis, requiring species-by-species extraction and original-study review. Especially useful for the coastal and estuarine portion of this roster. |
-| [North American Freshwater Migratory Fish Database](https://doi.org/10.5066/P9WDLLP0), documented by [Dean et al. (2022)](https://repository.library.noaa.gov/view/noaa/50037/noaa_50037_DS1.pdf) | Migratory status, pattern and behaviour, with supporting sources | Covers 1,250 freshwater-using species, including diadromous fishes; not a comprehensive marine database. Match the roster before estimating how many gaps it can fill. |
+| [North American Freshwater Migratory Fish Database](https://doi.org/10.5066/P9WDLLP0), documented by [Dean et al. (2022)](https://repository.library.noaa.gov/view/noaa/50037/noaa_50037_DS1.pdf) | Migratory status, pattern and behaviour, with supporting sources | The paper describes 1,250 freshwater-using species, including diadromous fishes; not a comprehensive marine database. The archived release matches 15 project species; see version-specific counts below. |
 | [Smithsonian Shorefishes of the Greater Caribbean](https://biogeodb.stri.si.edu/caribbean/en/pages) and [Atlantic reef-fish trait dataset, version 1](https://zenodo.org/records/13655554) | Habitat, size, diet and reproductive information for relevant marine taxa | The Atlantic dataset's seven traits include depth, size, rafting, habitat use, diet, group size and spawning, but no migration-type field. Some inputs derive from FishBase; they are not independent corroboration. Geographic residency and rafting are not interchangeable with migration or adult site fidelity. |
 | [FishLife](https://james-thorson-noaa.github.io/FishLife/) | Compiled life-history measurements and model-based predictions with uncertainty | Useful to investigate other missing traits. FishBase contributes inputs, and imputed outputs must remain explicitly modelled. Do not treat predictions as new observations or assume this supplies the missing migration categories. |
 
@@ -205,8 +205,10 @@ for overwintering or spawning, with seasonal and geographic variation. It also
 discusses limited east-west movement and localized populations. This supports
 collecting seasonal estuary/offshore movement evidence; it does not by itself
 establish a universal FishBase category, movement radius or genetically homogeneous
-sampling region. The synthesis was inspected; its cited original studies remain
-unreviewed. No category has been assigned from this lead.
+sampling region. The synthesis and the original Tagatz and Wilkens (1973) sampling
+study have now been inspected. They support the supplement's regional
+`oceano-estuarine` interpretation. Other underlying studies remain unreviewed;
+the two inspected documents share evidence and are not independent replicates.
 
 ### Required evidence fields and checks
 
@@ -251,8 +253,109 @@ Acquisition should archive versioned source snapshots and manifests, followed by
 an offline build using explicit crosswalks. Supplementary evidence must be stored
 separately from the original FishBase snapshot and linked into regenerated outputs;
 generated CSVs must not be hand-edited. These requirements extend the existing
-pipeline; implementing and validating the supplement is a subsequent extraction
-step, not a completed result of this source assessment.
+pipeline and are implemented in the separate supplementary extraction below.
+
+### Supplement implementation and first-pass results
+
+The [supplemented workbook](../Output/LifeHistorySupplement/life_history_80_species_supplemented.xlsx)
+contains the frozen 80-species table, supplementary evidence, sources, all 44 gap
+assessments, search queries, matched NAFMFD records and original FishBase evidence.
+The canonical [CSV](../Output/LifeHistorySupplement/life_history_80_species_supplemented.csv)
+retains **every original column and value**, including original blank migration
+fields. Added trait columns link to evidence IDs. `migration_best_available`
+combines original FishBase categories with four **project-derived regional**
+interpretations; its basis and scope columns must accompany it in reports.
+
+| Species | Additional route interpretation | Inspected support and scope |
+| --- | --- | --- |
+| *Brevoortia patronus* | oceano-estuarine | Tagatz and Wilkens (1973), p. 1, and Pattillo et al. (1997), p. 137; northwestern Florida/Gulf estuary–sea movements, with regional timing differences. |
+| *Lagodon rhomboides* | oceano-estuarine | Pattillo et al. (1997), p. 243; Gulf estuary–sea movements with resident components. Underlying original movement studies remain unreviewed. |
+| *Haemulon aurolineatum* | oceanodromous | Darcy (1983), section 3.51, p. 23; seasonal marine movements on Campeche Bank and in the South Atlantic Bight, with different seasonal directions. Underlying original studies remain unreviewed. |
+| *Lutjanus synagris* | oceanodromous | Claro and Lindeman (2003), pp. 94, 98; historical spawning migrations on the Cuban shelf, drawing on fishers, field observations and earlier work. |
+
+Coverage rises from 36/80 to **40/80** when these regional interpretations are
+included; **40 route classifications remain unknown**. None of the supplementary
+extractions has yet received independent scientific review. These additions must
+not be advertised as new FishBase assignments or universal population attributes.
+
+The [evidence table](../Output/LifeHistorySupplement/trait_evidence.csv) contains
+**22 records across 14 species**: 17 contextual records included in summaries and
+five held records. Additional characteristics include diel habitat movements,
+estuarine use, sex-specific territoriality, vertical migration, maturation size/age
+and observed longevity. Blackcheek tonguefish age remains `5+` years; maturation
+lengths retain TL versus SL and reported definitions. These are separate contextual
+fields, not replacements for incompatible FishBase measures.
+
+The archived NAFMFD workbook has 2,198 reference-level rows and 1,242 distinct
+nonblank names after whitespace trimming. Its version-specific count differs
+from the 1,250 species described in the paper; do not conflate them. It contributes
+34 matched records for 15 project species, including three original migration
+gaps. *Membras martinica* and *Symphurus plagiusa* are explicitly undetermined.
+*Eucinostomus gula* is classified as semi-anadromous, citing Stoner (1986), but a
+NOAA synthesis of that study describes an estuarine resident. Different trait
+vocabularies may explain this; it is not an established biological contradiction.
+Both statements are retained and the migration assignment is held pending review
+of the original study. No semi-anadromous-to-anadromous conversion is made.
+Existing FishBase assignments remain unchanged when NAFMFD terminology differs.
+
+Daily feeding movements, speculative offshore departures and larval drift do not
+qualify for seasonal route assignment. Held records remain visible in the
+evidence/review tables and do not populate summaries. Taxonomic transfers retain
+existing project decisions; subspecies are not split into new rows and the
+unresolved *Myctophum opalinum* transfer stays withheld.
+
+This is a **targeted, machine-assisted first pass**, not an exhaustive systematic
+review. Every original gap has an archived targeted query, results and assessment
+note in the [gap review](../Output/LifeHistorySupplement/migration_gap_review.csv).
+Absence of supporting results does not establish absence of published evidence.
+Search extracts are discovery records, not stand-alone evidence for an assignment.
+Two full-source acquisitions (cunner and sand-lance leads) returned HTTP 403;
+those leads remain unavailable in the registry and support no imported trait.
+Next review priorities are the Stoner interpretation, blocked source leads, and
+primary studies underlying the NOAA syntheses.
+
+### Supplement reproduction and provenance
+
+Using the existing pinned environment, from the repository root:
+
+```bash
+python3 Scripts/build_life_history_supplement.py
+python3 -m unittest discover -s tests -p 'test_life_history*.py' -v
+```
+
+Acquisition is separate, needed only when permitted source snapshots are absent:
+
+```bash
+python3 Scripts/download_life_history_supplement.py
+```
+
+The downloader only requests registry entries marked `download`; unavailable
+leads remain documented. Cached checksum or URL mismatches fail. Keep metadata
+sidecars with the archives. A changed live source is not replication: compare
+downloaded hashes with the archived build manifest before claiming the same release.
+
+Editable inputs are `config/life_history_supplement_{sources,evidence,policy,gap_review}.json`.
+The policy pins the baseline checksum and versioned mapping definitions. Original
+source snapshots and acquisition metadata are in `Data/LifeHistorySupplement/sources/`;
+`searches/` preserves queries, UTC retrieval times and tool-returned results.
+PDF text conversions are inspection aids; original documents and locators are
+the evidence of record.
+
+Each evidence row includes citation, URL, source version, retrieval time, archived
+path/hash, original and normalized values, locator, population/life stage/sex,
+study context, upstream-source inspection status, interpretation and review status.
+Unspecified context is recorded explicitly. NAFMFD matches retain Excel row numbers,
+flags, reference assignments and shared FishBase-reference warnings; they must not
+be counted as independent observations without checking upstream sources.
+
+The offline builder validates source hashes, attribution, taxon matches, mappings,
+held classifications and all 44 assessments. Its `build_manifest.json` hashes code,
+config, baseline, original evidence, taxonomy crosswalk, source snapshots/metadata,
+search archives and outputs, and records Python/pandas/openpyxl versions. Tests
+check unchanged original values, trait-specific evidence links, unknown/held cases,
+units and age qualifiers, rejection of missing attribution/conflicts/tampered sources,
+all-gap audit coverage and deterministic CSV/coverage rebuilds. Excel ZIP timestamps
+can vary. This supplement does not modify the atlas, spatial thresholds or rankings.
 
 ## Reproduce and audit
 

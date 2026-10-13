@@ -1,0 +1,604 @@
+[
+  {
+    "species": "Membras martinica",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch01.json",
+        "query": "\"Membras martinica\" migration site:explorer.natureserve.org",
+        "retrieved_at": "2026-10-13T04:13:07.110Z"
+      }
+    ],
+    "assessment_note": "NAFMFD explicitly Undetermined. NatureServe all-No flags without supporting movement narrative were not treated as non-migration.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Lutjanus synagris",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch01.json",
+        "query": "\"Lutjanus synagris\" migration movement site:iucnredlist.org",
+        "retrieved_at": "2026-10-13T04:13:07.110Z"
+      },
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/followup01.json",
+        "query": "\"Lutjanus synagris\" spawning migration site:noaa.gov",
+        "retrieved_at": "2026-10-13T04:15:05.828Z"
+      },
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/followup02.json",
+        "query": "\"Lutjanus synagris\" \"migration\" spawning movements",
+        "retrieved_at": "2026-10-13T04:15:28.911Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Monacanthus ciliatus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch01.json",
+        "query": "\"Monacanthus ciliatus\" migration movement",
+        "retrieved_at": "2026-10-13T04:13:07.110Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Haemulon plumierii",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch01.json",
+        "query": "\"Haemulon plumierii\" migration movements home range",
+        "retrieved_at": "2026-10-13T04:13:07.110Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Lagodon rhomboides",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch11.json",
+        "query": "\"Lagodon rhomboides\" migration site:explorer.natureserve.org",
+        "retrieved_at": "2026-10-13T04:14:49.777Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Sparisoma radians",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch02.json",
+        "query": "\"Sparisoma radians\" movements home range migration",
+        "retrieved_at": "2026-10-13T04:13:17.946Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Tautogolabrus adspersus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch11.json",
+        "query": "\"Tautogolabrus adspersus\" \"Local Distribution\"",
+        "retrieved_at": "2026-10-13T04:14:49.777Z"
+      }
+    ],
+    "assessment_note": "NOAA seasonal-offshore source lead located, but full source download returned HTTP 403. Search extract alone was not promoted.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Atherinomorus stipes",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch02.json",
+        "query": "\"Atherinomorus stipes\" migration",
+        "retrieved_at": "2026-10-13T04:13:17.946Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Citharichthys spilopterus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch02.json",
+        "query": "\"Citharichthys spilopterus\" migration",
+        "retrieved_at": "2026-10-13T04:13:17.946Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Eucinostomus gula",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch02.json",
+        "query": "\"Eucinostomus gula\" migration",
+        "retrieved_at": "2026-10-13T04:13:17.946Z"
+      },
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/followup01.json",
+        "query": "\"Eucinostomus gula\" offshore spawn migration",
+        "retrieved_at": "2026-10-13T04:15:05.828Z"
+      },
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/followup02.json",
+        "query": "\"Eucinostomus gula\" \"migrations\"",
+        "retrieved_at": "2026-10-13T04:15:28.911Z"
+      }
+    ],
+    "assessment_note": "NAFMFD semi-anadromous assignment and NOAA estuarine-resident description cite the same Stoner (1986) study. Different trait vocabularies may explain the discrepancy; inspect original before choosing a route.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Jenkinsia stolifera",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch03.json",
+        "query": "\"Jenkinsia stolifera\" migration movement",
+        "retrieved_at": "2026-10-13T04:13:27.139Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Stellifer lanceolatus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch03.json",
+        "query": "\"Stellifer lanceolatus\" migration",
+        "retrieved_at": "2026-10-13T04:13:27.139Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Ammodytes dubius",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch03.json",
+        "query": "\"Ammodytes dubius\" migration sedentary",
+        "retrieved_at": "2026-10-13T04:13:27.139Z"
+      }
+    ],
+    "assessment_note": "Population-genomics paper discusses restricted adult movement, but this is not sufficient to assign a general migration route. Publisher download blocked; do not derive migration from population-genetic outcomes used in this project.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Anchoa colonensis",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch03.json",
+        "query": "\"Anchoa colonensis\" migration",
+        "retrieved_at": "2026-10-13T04:13:27.139Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Anchoa lamprotaenia",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch04.json",
+        "query": "\"Anchoa lamprotaenia\" migration movement",
+        "retrieved_at": "2026-10-13T04:13:37.544Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Atherina harringtonensis",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch04.json",
+        "query": "\"Hypoatherina harringtonensis\" migration movement",
+        "retrieved_at": "2026-10-13T04:13:37.544Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Bothus ocellatus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch04.json",
+        "query": "\"Bothus ocellatus\" migration movement",
+        "retrieved_at": "2026-10-13T04:13:37.544Z"
+      }
+    ],
+    "assessment_note": "Larval drift-migration publication located (Evseenko 2008, doi:10.1134/S0032945208090105). Larval transport is not an adult seasonal migration classification; original full study remains a lead.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Brevoortia patronus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch11.json",
+        "query": "\"Brevoortia patronus\" migration NOAA estuaries",
+        "retrieved_at": "2026-10-13T04:14:49.777Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Chlorophthalmus agassizi",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch04.json",
+        "query": "\"Chlorophthalmus agassizi\" migration movement",
+        "retrieved_at": "2026-10-13T04:13:37.544Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Chloroscombrus chrysurus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch05.json",
+        "query": "\"Chloroscombrus chrysurus\" migration",
+        "retrieved_at": "2026-10-13T04:13:50.390Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Citharichthys arctifrons",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch05.json",
+        "query": "\"Citharichthys arctifrons\" migration",
+        "retrieved_at": "2026-10-13T04:13:50.390Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Cyclothone microdon",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch05.json",
+        "query": "\"Cyclothone microdon\" vertical migration",
+        "retrieved_at": "2026-10-13T04:13:50.390Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Cynoscion nothus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch05.json",
+        "query": "\"Cynoscion nothus\" migration",
+        "retrieved_at": "2026-10-13T04:13:50.390Z"
+      },
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/followup01.json",
+        "query": "\"Cynoscion nothus\" seasonal offshore",
+        "retrieved_at": "2026-10-13T04:15:05.828Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Decapterus punctatus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch06.json",
+        "query": "\"Decapterus punctatus\" migration",
+        "retrieved_at": "2026-10-13T04:14:01.268Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Dibranchus atlanticus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch06.json",
+        "query": "\"Dibranchus atlanticus\" migration",
+        "retrieved_at": "2026-10-13T04:14:01.268Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Eucinostomus argenteus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch06.json",
+        "query": "\"Eucinostomus argenteus\" migration",
+        "retrieved_at": "2026-10-13T04:14:01.268Z"
+      },
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/followup02.json",
+        "query": "\"Eucinostomus argenteus\" \"migration\" spawning",
+        "retrieved_at": "2026-10-13T04:15:28.911Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Fenestraja plutonia",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch06.json",
+        "query": "\"Fenestraja plutonia\" migration",
+        "retrieved_at": "2026-10-13T04:14:01.268Z"
+      }
+    ],
+    "assessment_note": "Reproductive literature lead does not establish a migration route; retain missing.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Gobiosoma ginsburgi",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch07.json",
+        "query": "\"Gobiosoma ginsburgi\" migration",
+        "retrieved_at": "2026-10-13T04:14:07.911Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Haemulon aurolineatum",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch07.json",
+        "query": "\"Haemulon aurolineatum\" migration movements",
+        "retrieved_at": "2026-10-13T04:14:07.911Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Harengula humeralis",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch07.json",
+        "query": "\"Harengula humeralis\" migration",
+        "retrieved_at": "2026-10-13T04:14:07.911Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Helicolenus maderensis",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch07.json",
+        "query": "\"Helicolenus dactylopterus\" migration sedentary",
+        "retrieved_at": "2026-10-13T04:14:07.911Z"
+      }
+    ],
+    "assessment_note": "Existing authority-resolved crosswalk retained. Mediterranean H. dactylopterus sedentary-life-history literature is not a validated assignment for historical western Atlantic populations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Hypoclydonia bella",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch08.json",
+        "query": "\"Synagrops bellus\" migration",
+        "retrieved_at": "2026-10-13T04:14:16.375Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Jenkinsia lamprotaenia",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch08.json",
+        "query": "\"Jenkinsia lamprotaenia\" migration",
+        "retrieved_at": "2026-10-13T04:14:16.375Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Laemonema barbatulum",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch08.json",
+        "query": "\"Laemonema barbatulum\" migration",
+        "retrieved_at": "2026-10-13T04:14:16.375Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Liparis inquilinus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch08.json",
+        "query": "\"Liparis inquilinus\" migration",
+        "retrieved_at": "2026-10-13T04:14:16.375Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Lutjanus apodus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch11.json",
+        "query": "\"Lutjanus apodus\" migration telemetry site:tamug.edu",
+        "retrieved_at": "2026-10-13T04:14:49.777Z"
+      }
+    ],
+    "assessment_note": "Relevant evidence retained with its scope and limitations.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Lycenchelys verrillii",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch09.json",
+        "query": "\"Lycenchelys verrillii\" migration",
+        "retrieved_at": "2026-10-13T04:14:23.365Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Lycodes terraenovae",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch09.json",
+        "query": "\"Lycodes terraenovae\" migration",
+        "retrieved_at": "2026-10-13T04:14:23.365Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Mullus auratus",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch09.json",
+        "query": "\"Mullus auratus\" migration",
+        "retrieved_at": "2026-10-13T04:14:23.365Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Myctophum opalinum",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch10.json",
+        "query": "\"Myctophum opalinum\" migration",
+        "retrieved_at": "2026-10-13T04:14:30.855Z"
+      }
+    ],
+    "assessment_note": "Existing ambiguous synonym remains withheld; do not transfer traits from Myctophum affine.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Prionotus martis",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch09.json",
+        "query": "\"Prionotus martis\" migration",
+        "retrieved_at": "2026-10-13T04:14:23.365Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Stephanolepis hispida",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch10.json",
+        "query": "\"Stephanolepis hispidus\" migration movements",
+        "retrieved_at": "2026-10-13T04:14:30.855Z"
+      }
+    ],
+    "assessment_note": "Search included alternate spelling Stephanolepis hispidus; no qualifying movement evidence adopted.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Syacium papillosum",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch10.json",
+        "query": "\"Syacium papillosum\" migration",
+        "retrieved_at": "2026-10-13T04:14:30.855Z"
+      }
+    ],
+    "assessment_note": "Targeted searches did not yield a source supporting a migration-route assignment in this pass. This is not evidence that the fish is non-migratory or that no literature exists.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  },
+  {
+    "species": "Symphurus plagiusa",
+    "review_date": "2026-10-12",
+    "searches": [
+      {
+        "archive_path": "Data/LifeHistorySupplement/searches/batch10.json",
+        "query": "\"Symphurus plagiusa\" migration",
+        "retrieved_at": "2026-10-13T04:14:30.855Z"
+      }
+    ],
+    "assessment_note": "NAFMFD Undetermined; original 1999 study discusses unverified migration. Longevity evidence is usable separately.",
+    "review_status": "machine-assisted first pass; independent review pending"
+  }
+]

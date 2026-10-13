@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Etropus+crossotus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:29.526156+00:00",
+  "sha256": "6cea8bdf62acbdb6f7e273ceeb8768e2b5f92624c56de2d53034471c1d532a34",
+  "http_status": 200,
+  "bytes": 3489,
+  "cache_path": "Data/Genomics/raw/geome/7f243bcf11fee974a99b0c287e0ebb6da973bf45cbef2b040991358c919dc22a.gz"
+}

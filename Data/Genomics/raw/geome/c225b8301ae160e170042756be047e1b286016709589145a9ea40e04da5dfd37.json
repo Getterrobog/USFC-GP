@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Cynoscion+nothus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:26.905216+00:00",
+  "sha256": "0a414b21ab142de595fc53f0031d5bc573084ff6f1f39454028338b1e165b00d",
+  "http_status": 200,
+  "bytes": 4353,
+  "cache_path": "Data/Genomics/raw/geome/c225b8301ae160e170042756be047e1b286016709589145a9ea40e04da5dfd37.gz"
+}

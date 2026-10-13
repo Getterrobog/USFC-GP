@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Cyclothone+microdon%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:26.321883+00:00",
+  "sha256": "b4c92e80d70b7c993d214ffa7b2c4ab1dcaecc8358851432b3cb1182e84fef5e",
+  "http_status": 200,
+  "bytes": 1826,
+  "cache_path": "Data/Genomics/raw/geome/4802fa898227bb8c402afbb0355b4d22b29c94e972a7574abb2273a1a1dfc83b.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Decapterus+punctatus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:27.954105+00:00",
+  "sha256": "d4099d96ed62b39bb4adcd4403cc2cc66b53d459a093792d8adb5796ea7bd93b",
+  "http_status": 200,
+  "bytes": 3750,
+  "cache_path": "Data/Genomics/raw/geome/d3ade098ad8f0742bab3fa115686e51352b9c9e86b947ef52632cd99f7119106.gz"
+}

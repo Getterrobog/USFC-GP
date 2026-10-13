@@ -1,0 +1,22 @@
+{
+  "species": 80,
+  "original_migration_present": 36,
+  "original_migration_missing": 44,
+  "regional_migration_additions": 4,
+  "combined_migration_present": 40,
+  "combined_migration_missing": 40,
+  "evidence_records": 22,
+  "evidence_species": 14,
+  "included_contextual_records": 17,
+  "held_records": 5,
+  "independently_reviewed_supplement_records": 0,
+  "naf_matched_species": 15,
+  "naf_reference_records": 34,
+  "naf_matched_original_gaps": 3,
+  "naf_snapshot": {
+    "raw_rows": 2198,
+    "unique_nonblank_source_names": 1242
+  },
+  "gap_review_records": 44,
+  "interpretation": "New route labels are project-derived regional interpretations, not universal species labels or independently reviewed facts."
+}

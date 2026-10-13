@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Bothus+ocellatus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:18.776401+00:00",
+  "sha256": "08b73c13e9d8dbe5eb04988d8140dbcee399df899340da5225bd494872e58333",
+  "http_status": 200,
+  "bytes": 2687,
+  "cache_path": "Data/Genomics/raw/geome/e44cfa4c8853d7fd9496e651b1ec0314269f8cefd1a9ca09656b991299e0b55d.gz"
+}

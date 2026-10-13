@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Pseudopleuronectes+americanus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:46.799931+00:00",
+  "sha256": "720c550e8b771367c422d468f06ab6da976fe4c61b141451970deddb1b12407d",
+  "http_status": 200,
+  "bytes": 3906,
+  "cache_path": "Data/Genomics/raw/geome/1408cd923617368e40caa76b57d79f745d85b89b8eca717254b836f1099ef724.gz"
+}

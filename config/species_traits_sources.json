@@ -1,0 +1,31 @@
+[
+  {
+    "source_id": "ATLANTIC_REEF_V2",
+    "url": "https://zenodo.org/api/records/15636151/files/Cord%20&%20Floeter%20et%20al.%202024%20-%20Atlantic%20Reef%20Fishes%20(updated_june2025).xlsx/content",
+    "archive_path": "Data/SpeciesTraits/sources/atlantic_reef_v2.xlsx",
+    "expected_md5": "9ea6c1ee4f3069e9ae216a313b368a8c",
+    "citation": "Cord, I., Floeter, S.R., Araujo, G.S., Quimbayo, J.P., Robertson, D.R., Victor, B.C., Wirtz, P., Pinheiro, H.T., Freitas, R., and Rocha, L.A. (2025). Atlantic reef fishes: distributions and life-history traits. Version v2. Zenodo. doi:10.5281/zenodo.15636151.",
+    "version": "v2; updated June 2025",
+    "source_type": "compiled_trait_database",
+    "reference_scope": "dataset; trait-specific upstream references not supplied"
+  },
+  {
+    "source_id": "ATLANTIC_REEF_METADATA",
+    "url": "https://zenodo.org/api/records/15636151",
+    "archive_path": "Data/SpeciesTraits/sources/atlantic_reef_v2_metadata.json",
+    "citation": "Zenodo record 15636151 metadata and data dictionary.",
+    "version": "v2 metadata snapshot",
+    "source_type": "metadata",
+    "reference_scope": "dataset"
+  },
+  {
+    "source_id": "IUCN_162704857",
+    "url": "https://doi.org/10.2305/IUCN.UK.2022-2.RLTS.T18214757A162704857.en",
+    "archive_path": "Data/SpeciesTraits/sources/iucn_162704857_public_text.txt",
+    "acquisition": "archived_public_text",
+    "citation": "Cadrin, S., González Troncoso, D., Nimmegeers, S., Vansteenbrugge, L., Wheeland, L., and Munroe, T.A. (2022). Glyptocephalus cynoglossus. The IUCN Red List of Threatened Species 2022: e.T18214757A162704857. doi:10.2305/IUCN.UK.2022-2.RLTS.T18214757A162704857.en.",
+    "version": "2022-2; assessed 2021-02-12; current-latest status not authenticated",
+    "source_type": "IUCN_assessment_public_indexed_text",
+    "reference_scope": "Assessment synthesis; relevant full narrative sections inspected, underlying primary studies not inspected"
+  }
+]

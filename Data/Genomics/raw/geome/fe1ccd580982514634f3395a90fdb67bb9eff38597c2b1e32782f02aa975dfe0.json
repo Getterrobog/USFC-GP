@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Haemulon+aurolineatum%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:34.820959+00:00",
+  "sha256": "e60864c5496323b1fbc74fe4ef10692fa8e6e28e1fc6b555d90fceb5935c443c",
+  "http_status": 200,
+  "bytes": 3718,
+  "cache_path": "Data/Genomics/raw/geome/fe1ccd580982514634f3395a90fdb67bb9eff38597c2b1e32782f02aa975dfe0.gz"
+}

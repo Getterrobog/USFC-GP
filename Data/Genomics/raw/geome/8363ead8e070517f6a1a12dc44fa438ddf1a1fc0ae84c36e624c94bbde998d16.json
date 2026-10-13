@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Eucinostomus+gula%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:14.159074+00:00",
+  "sha256": "b35fb26f91be3b8dc6b77e556cfd437b8e5a05ea6b0cb1f145dad09a3cf004ba",
+  "http_status": 200,
+  "bytes": 3662,
+  "cache_path": "Data/Genomics/raw/geome/8363ead8e070517f6a1a12dc44fa438ddf1a1fc0ae84c36e624c94bbde998d16.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Fundulus+heteroclitus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:07.965798+00:00",
+  "sha256": "5134e9a3f34709b0c799afb442106b1b8b3e9eaafd1f1929118f1a1ceb409b51",
+  "http_status": 200,
+  "bytes": 2934,
+  "cache_path": "Data/Genomics/raw/geome/92625b12b43acaa3dee0ad81a9f5b0e60b74e365b453996cec4479099eb39941.gz"
+}

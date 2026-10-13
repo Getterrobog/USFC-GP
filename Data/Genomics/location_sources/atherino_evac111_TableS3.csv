@@ -1,0 +1,6 @@
+Population Name,ID,Latitude,Longitude,Sample Size (N),"Coastline Distance (km, from CP site)",source_row,source_member
+Crandon Park,CP,25.723153,-80.258985999999993,15,0,3,evac111_supplementary_data.zip/Hardhead_Supplementary_Tables_revised.xlsx#TableS3
+Cutler Bay,CB,25.579660000000001,-80.305009999999996,15,20,4,evac111_supplementary_data.zip/Hardhead_Supplementary_Tables_revised.xlsx#TableS3
+Homestead Park,HP,25.483070000000001,-80.339320000000001,15,28.5,5,evac111_supplementary_data.zip/Hardhead_Supplementary_Tables_revised.xlsx#TableS3
+Turkey Point,TP,25.396640000000001,-80.327520000000007,15,36.5,6,evac111_supplementary_data.zip/Hardhead_Supplementary_Tables_revised.xlsx#TableS3
+Broad Key,BK,25.351302,-80.258985999999993,15,43,7,evac111_supplementary_data.zip/Hardhead_Supplementary_Tables_revised.xlsx#TableS3

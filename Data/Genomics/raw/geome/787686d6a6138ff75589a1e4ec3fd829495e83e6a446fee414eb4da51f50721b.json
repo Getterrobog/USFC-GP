@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Lutjanus+apodus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:40.684377+00:00",
+  "sha256": "bc5c425bbfc05a65fa99de80bf66a0e3e3cbe44037388eee3339396651f8d825",
+  "http_status": 200,
+  "bytes": 3048,
+  "cache_path": "Data/Genomics/raw/geome/787686d6a6138ff75589a1e4ec3fd829495e83e6a446fee414eb4da51f50721b.gz"
+}

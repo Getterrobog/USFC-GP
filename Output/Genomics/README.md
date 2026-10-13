@@ -26,6 +26,12 @@ R packages. All tables are also ordinary UTF-8 CSVs for spreadsheet/R use.
 | `sample_retrieval.csv` | Full sample XML retrieval status |
 | `queries.csv` | Source URLs, retrieval timestamps, checksums and cached response paths |
 | `input_checksums.csv` | MD5 fingerprints of exact local inputs and scripts used |
+| `location_provenance.csv` | One sample × field × source assertion: original value, URL/DOI, source sample ID, row/section, matching method, precision scope and acceptance/conflict decision |
+| `location_sources.csv` | Publication/repository source registry with original-file URLs, timestamps and SHA256s |
+| `location_coverage.csv` | All 80 species: archive versus enriched geographic/date coverage, newly georeferenced accessions and conflicts |
+| `publication_location_review.csv` | Reviewed study/publication links, recovered tables, blocked downloads and remaining leads |
+| `geome_records.csv`, `geome_searches.csv` | GEOME discovery leads and all 80 search outcomes; not automatically WGS samples |
+| `location_queries.csv` | Exact cached GEOME/publication requests and response hashes |
 
 `resolved_config.R` and `session_info.txt` record settings and the R environment.
 
@@ -82,3 +88,30 @@ The database preserves all collection years worldwide, including historical and
 ancient-study records. Only the candidate export requires a year after 1930 and
 the fixed historical-atlas bounds. It does not alter the historical atlas,
 its counts, or the species-selection rankings.
+
+## Trace a location to its evidence
+
+`samples.csv` preserves original normalized archive values as `archive_latitude`,
+`archive_longitude`, `archive_locality_raw`, `archive_coordinates_raw`,
+`archive_collection_date_raw`, `archive_year` and original parsing statuses.
+The unprefixed fields contain reconciled archive/publication evidence.
+`location_evidence_ids` and `date_evidence_ids` link directly to the provenance
+ledger; IDs are local to the build, so retain the matching output snapshot.
+The stable join across builds is species + BioSample + field + source + source
+record/locator. `location_source_ids` gives the contributing source IDs.
+
+```sql
+SELECT field, value, value2, raw_value, source_url, publication_doi,
+       source_record_id, source_locator, match_method, coordinate_scope, decision
+FROM location_provenance
+WHERE species = 'Menidia menidia' AND sample_accession = 'SAMN06436866';
+```
+
+Publication coordinates can identify a shared sampling site rather than an
+individual GPS position: `coordinate_scope=reported_population_site` and
+`coordinate_approximate=TRUE` make that distinction explicit for newly filled
+locations. Unknown numerical uncertainty is left blank. Conflicting positions
+are kept as separate evidence rows and withheld from the reconciled coordinates.
+Library-quality exclusions from the publication remain in the database but are
+excluded from mapping candidates. GEOME records are leads until an explicit
+sample-level connection to a genomic accession is verified.

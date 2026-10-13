@@ -7,16 +7,22 @@ if (any(!args %in% c("--download", "--refresh", "--reuse-normalized"))) stop("Un
 if ("--refresh" %in% args && !"--download" %in% args) stop("--refresh requires --download")
 source("config/genomics.R"); config <- genomics_config
 source("Scripts/genomics_functions.R")
+source("Scripts/genomics_locations.R")
 python <- Sys.which("python3"); if (python == "") python <- Sys.which("python")
 if (python == "") stop("Python 3 is required for metadata transport and SQLite export (standard library only).")
 if (!"--reuse-normalized" %in% args) {
   flags <- args[args %in% c("--download", "--refresh")]
   if (system2(python, c("Scripts/genomics_archive_io.py", flags)) != 0) stop("Metadata acquisition failed; outputs not rebuilt.")
 }
+location_flags <- if ("--download" %in% args) "--download" else character()
+if (system2(python, c("Scripts/genomics_location_io.py", location_flags)) != 0) stop("Location evidence acquisition failed; outputs not rebuilt.")
 input_files <- list.files(config$input, pattern = "\\.csv$", full.names = TRUE)
 inputs <- c(config$roster, "config/genomics.R", "config/life_history_taxon_crosswalk.csv",
             "Scripts/genomics_archive_io.py", "Scripts/genomics_functions.R", "Scripts/build_genomics_inventory.R", input_files)
 if (file.exists("config/genomics_assay_overrides.csv")) inputs <- c(inputs, "config/genomics_assay_overrides.csv")
+inputs <- c(inputs, "Scripts/genomics_locations.R", "Scripts/genomics_location_io.py",
+  "config/genomics_location_sources.json", "config/genomics_publication_sites.csv", "config/genomics_publication_review.csv",
+  list.files("Data/Genomics/location_sources", pattern="\\.(csv|xml|pdf|zip)$", full.names=TRUE))
 before <- tools::md5sum(inputs)
 read <- function(file) g_read(file.path(config$input, paste0(file, ".csv")))
 taxa <- read("taxa"); roster <- g_read(config$roster)
@@ -40,6 +46,9 @@ stopifnot(!anyDuplicated(paste(runs$species, runs$run_accession)), !anyDuplicate
 attributes <- read("sample_attributes")
 message("Normalizing sample identities, dates, coordinates and biological context...")
 samples <- g_build_samples(runs, assemblies, attributes, config)
+message("Reconciling publication-linked location evidence and preserving archive values...")
+location <- g_enrich_locations(samples, runs, attributes, config)
+samples <- location$samples
 # Species-level query outcomes are explicit: a zero search result is not proof of absence.
 summary <- do.call(rbind, lapply(seq_len(nrow(taxa)), function(i) {
   t <- taxa[i, ]; sp <- t$species; r <- runs[runs$species == sp, ]; a <- assemblies[assemblies$species == sp, ]; s <- samples[samples$species == sp, ]
@@ -66,6 +75,7 @@ summary <- do.call(rbind, lapply(seq_len(nrow(taxa)), function(i) {
 }))
 # A study can contain multiple species; unique key is (species, study_accession).
 project_meta <- read("studies")
+publication_review <- g_read("config/genomics_publication_review.csv")
 study_keys <- unique(rbind(data.frame(species=runs$species, study_accession=runs$study_key), assemblies[c("species", "study_accession")]))
 study_keys <- study_keys[study_keys$study_accession != "", ]
 studies <- do.call(rbind, lapply(seq_len(nrow(study_keys)), function(i) {
@@ -75,7 +85,7 @@ studies <- do.call(rbind, lapply(seq_len(nrow(study_keys)), function(i) {
   m <- project_meta[project_meta$study_accession == id, ]
   w <- s[s$sample_accession %in% r$sample_accession[r$wgs_eligible], ]
   data.frame(species=sp, study_accession=id, study_title=g_join(c(r$study_title, m$study_title)),
-    study_description=g_join(m$study_description), publication_references=g_join(m$publication_references),
+    study_description=g_join(m$study_description), publication_references=g_join(c(m$publication_references, publication_review$publication_doi[publication_review$species==sp & publication_review$study_accession==id])),
     genomic_runs=nrow(r), wgs_runs=sum(r$wgs_eligible), wgs_samples=nrow(w), assembly_records=nrow(a),
     assay_classes=g_join(r$assay_class), mapped_dated_samples=sum(w$map_candidate),
     missing_year_samples=sum(is.na(w$year)), missing_coordinates_samples=sum(!is.finite(w$latitude)),
@@ -83,7 +93,7 @@ studies <- do.call(rbind, lapply(seq_len(nrow(study_keys)), function(i) {
     collection_years=g_join(w$year), localities=g_join(w$locality_raw), source_url=paste0("https://www.ebi.ac.uk/ena/browser/view/", id))
 }))
 studies <- studies[order(-studies$wgs_samples, studies$species, studies$study_accession), ]; rownames(studies) <- NULL
-map <- samples[samples$map_candidate, c("species", "sample_accession", "studies", "year", "latitude", "longitude", "cell_lon", "cell_lat", "coordinate_approximate", "coordinate_status", "locality_raw", "life_stage", "wgs_runs", "nominal_depth", "explicit_low_coverage_label", "source_url")]
+map <- samples[samples$map_candidate, c("species", "sample_accession", "studies", "year", "latitude", "longitude", "cell_lon", "cell_lat", "coordinate_approximate", "coordinate_status", "coordinate_scope", "location_evidence_ids", "date_evidence_ids", "location_source_ids", "locality_raw", "life_stage", "wgs_runs", "nominal_depth", "explicit_low_coverage_label", "source_url")]
 map$sample_count <- 1L; map$count_unit <- "BioSample_accession"; map$specimen_count <- NA_integer_
 map$integration_status <- "candidate_requires_individual_and_population_review"
 cell_columns <- c("species", "year", "life_stage", "cell_lon", "cell_lat")
@@ -95,6 +105,11 @@ stopifnot(!anyDuplicated(g_key(samples)), all(map$year > config$historical_end),
 if(!identical(unname(before), unname(tools::md5sum(inputs)))) stop("Inputs changed during build")
 dir.create(config$output, recursive=TRUE, showWarnings=FALSE)
 write <- function(d, name) write.csv(d, file.path(config$output, paste0(name, ".csv")), row.names=FALSE, na="", fileEncoding="UTF-8")
+write(location$evidence, "location_provenance"); write(location$coverage, "location_coverage"); write(location$sources,"location_sources")
+write(publication_review,"publication_location_review")
+write(g_read("Data/Genomics/location_sources/geome_searches.csv"),"geome_searches")
+write(g_read("Data/Genomics/location_sources/geome_records.csv"),"geome_records")
+write(g_read("Data/Genomics/location_sources/queries.csv"),"location_queries")
 write(summary, "species_summary"); write(taxa, "taxon_crosswalk"); write(runs, "runs"); write(assemblies, "assemblies")
 write(samples, "samples"); write(studies, "studies"); write(map, "atlas_candidates"); write(cells, "atlas_candidate_cells")
 write(review, "metadata_review_queue"); write(attributes, "sample_attributes"); write(read("sample_retrieval"), "sample_retrieval")

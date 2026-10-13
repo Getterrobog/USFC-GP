@@ -33,10 +33,14 @@ assumptions that require scientific review.
 
 - `Rscript tests/test_genomics_inventory.R`: checks date ranges, missing dates,
   coordinate signs/ranges/conflicts, embedded coordinate evidence, assay exclusions,
-  low-coverage labels and repeated FASTQ checksum handling.
+  low-coverage labels, repeated FASTQ checksum handling, DMS site-coordinate parsing
+  and publication coordinate agreement/rejection.
 - `python3 tests/validate_genomics_inventory.py`: verifies a completed inventory's
   80-species roster, accession uniqueness and joins, count reconciliation, mapping
   exclusions, original-input fingerprints and SQLite integrity/CSV agreement.
+  Also checks every attached location/year against its provenance, source SHA256s,
+  exact silverside and Fundulus sample crosswalks, withheld Atherinomorus conflicts,
+  publication quality exclusions, coverage summaries and all GEOME search outcomes.
 
 Run the build first with `Rscript Scripts/build_genomics_inventory.R`. All checks
 are offline and do not modify the historical atlas.

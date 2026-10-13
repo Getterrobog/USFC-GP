@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10370451/supplementaryFiles",
+  "retrieved_utc": "2026-10-13T04:38:56.072998+00:00",
+  "sha256": "0f245edae8136a3e5d910d4c28a2065a542c29cd7aeee018b0a337d2b67a103b",
+  "http_status": 200,
+  "bytes": 622219,
+  "cache_path": "Data/Genomics/raw/location_publications/c98e5010d88a78363e9b3d03119edb6b120e162bd3b00c2f06b0614af4bed90f.gz"
+}

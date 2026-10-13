@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "baseline_path": "Output/LifeHistory/life_history_80_species.csv",
+  "baseline_sha256": "03e79c3466b49acb29e96a9ea1ebf2584ccdb9a7e3beb47266a4cbe06510ec55",
+  "species_count": 80,
+  "fishbase_version": "26.06",
+  "iucn_access": "No API token available; user authorized use of available sources.",
+  "trophic_level_rule": "Prefer DietTroph (diet-composition estimate), otherwise FoodTroph (food-item estimate); do not average methods. Keep both, SEs, remarks, stocks and evidence IDs.",
+  "trophic_group_rule": "Preserve FishBase Herbivory2 broad feeding class separately from Atlantic reef diet guild. Neither field is inferred from body size, taxonomy, habitat or IUCN category. Do not infer a numeric level from guild.",
+  "functional_rule": "Trait matrix with source-specific evidence, not a single inferred ecological role or functional-diversity score. Reef rafting is often genus-level and cannot be counted as observed species-level behavior.",
+  "iucn_rule": "Use species-in-general FishBase stock records only; preserve category/date/taxon ID/assessment ID and provenance. N.E. in FishBase remains source-reported, not proof of current IUCN non-evaluation. No match or access failure is not NE, DD or LC. No regional assessment substitutes for global.",
+  "missing_values": "Blank means unknown/not supplied, never non-migrant or trait absence. Source-coded zeros retained only for explicitly defined binary traits; FishBase habitat zeros not used as biological absences.",
+  "new_data_review": "Machine-assisted compilation; independent scientific review pending."
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Centrobranchus+nigroocellatus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:20.319648+00:00",
+  "sha256": "f650029ed9544f795fa3a7a7e4b39fc600458287a98b749ac7f46083acf56b32",
+  "http_status": 200,
+  "bytes": 2026,
+  "cache_path": "Data/Genomics/raw/geome/02df5fa4f4d9783414d2e19a7aa7e641aacf858192c0c03514ac1c6954cec21b.gz"
+}

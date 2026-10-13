@@ -8,6 +8,9 @@ Start with [the inventory viewer](../../Output/Genomics/index.html) or
 - [raw/](raw/README.md): compressed, original ENA/NCBI responses and request manifests.
 - [normalized/](normalized/README.md): lossless tabular transport of the relevant
   archive fields, prior to scientific classification and screening in R.
+- [location_sources/](location_sources/README.md): publication sample tables,
+  original supplements, GEOME discovery records and source manifests used for
+  evidence-backed location/date enrichment.
 
 Explicitly retrieve missing public metadata and build the inventory:
 
@@ -16,7 +19,8 @@ Rscript Scripts/build_genomics_inventory.R --download
 ```
 
 Omit `--download` to rebuild entirely offline. Add `--refresh` with `--download`
-to replace cached responses with a newer snapshot. Snapshot updates can change
+to replace ENA/NCBI cached responses with a newer snapshot. Publication and GEOME
+snapshots remain pinned by the location helper. Snapshot updates can change
 archive counts; retain the older committed version when comparing releases.
 The ordinary rebuild verifies cached response SHA256s.
 

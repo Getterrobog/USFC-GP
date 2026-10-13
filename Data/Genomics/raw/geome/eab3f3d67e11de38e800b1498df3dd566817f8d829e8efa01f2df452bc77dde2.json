@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Brevoortia+tyrannus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:06.572169+00:00",
+  "sha256": "1c355354832341543b31b58523a6e3e97bd17590d84f6ea02961c191e25739ff",
+  "http_status": 200,
+  "bytes": 5913,
+  "cache_path": "Data/Genomics/raw/geome/eab3f3d67e11de38e800b1498df3dd566817f8d829e8efa01f2df452bc77dde2.gz"
+}

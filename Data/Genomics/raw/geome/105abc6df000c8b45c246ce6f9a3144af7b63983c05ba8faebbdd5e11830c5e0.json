@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Atherinomorus+stipes%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:12.536180+00:00",
+  "sha256": "500a2e4d4bfeb83b8478bdcfee93a9d48fa5b0066af18eab66840376346d0fee",
+  "http_status": 200,
+  "bytes": 2199,
+  "cache_path": "Data/Genomics/raw/geome/105abc6df000c8b45c246ce6f9a3144af7b63983c05ba8faebbdd5e11830c5e0.gz"
+}

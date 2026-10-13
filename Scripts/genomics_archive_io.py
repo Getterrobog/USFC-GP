@@ -270,14 +270,14 @@ def export_sqlite():
         with open(path, encoding='utf-8-sig', newline='') as f:
             fields = next(csv.reader(f))
         # Preserve accession IDs and evidence strings; use explicit numeric affinity only.
-        numeric = {'latitude','longitude','cell_lon','cell_lat','nominal_depth','total_sequence_length','base_count','wgs_bases','short_read_wgs_bases'}
-        integer = {'year','year_start','year_end','wgs_runs','wgs_samples','assembly_records','annotated_assemblies','annotated_reference_assemblies','mapped_dated_samples','genomic_runs','gene_count','protein_coding_gene_count','raw_run_count','read_count','genomic_sample_count','cell_sample_count','run_count','sample_count'}
+        numeric = {'latitude','longitude','archive_latitude','archive_longitude','coordinate_uncertainty_m','cell_lon','cell_lat','nominal_depth','total_sequence_length','base_count','wgs_bases','short_read_wgs_bases'}
+        integer = {'year','archive_year','year_start','year_end','wgs_runs','wgs_samples','assembly_records','annotated_assemblies','annotated_reference_assemblies','mapped_dated_samples','genomic_runs','gene_count','protein_coding_gene_count','raw_run_count','read_count','genomic_sample_count','cell_sample_count','run_count','sample_count','archive_coordinates','enriched_coordinates','newly_georeferenced','archive_localities','enriched_localities','archive_years','enriched_years','coordinate_conflicts','quality_exclusions','mapping_candidates','sample_records','pages'}
         types = {f: ('REAL' if f in numeric else 'INTEGER' if f in integer else 'TEXT') for f in fields}
         name = path.stem
         con.execute('CREATE TABLE "'+name+'" (' + ','.join('"'+f+'" '+types[f] for f in fields) + ')')
         con.executemany('INSERT INTO "'+name+'" VALUES ('+','.join('?' for _ in fields)+')',
                         [[r.get(f) or None for f in fields] for r in records])
-        for key in ('species','sample_accession','run_accession','assembly_accession','study_accession'):
+        for key in ('species','sample_accession','run_accession','assembly_accession','study_accession','source_id','evidence_id'):
             if key in fields:
                 con.execute(f'CREATE INDEX "{name}_{key}" ON "{name}" ("{key}")')
     con.execute('CREATE UNIQUE INDEX samples_key ON samples(species,sample_accession)')

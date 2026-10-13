@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Menidia+peninsulae%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:06.597364+00:00",
+  "sha256": "e2e04cde510b325194a4de1daff9e0d4644808d120f816669ff2dc70c5195407",
+  "http_status": 200,
+  "bytes": 2256,
+  "cache_path": "Data/Genomics/raw/geome/387628c650055add62963d46ad54cca29fecb41e98bd2bf312b39013b540b99f.gz"
+}

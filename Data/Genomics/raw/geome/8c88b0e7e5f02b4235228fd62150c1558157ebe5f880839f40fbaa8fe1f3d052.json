@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Menidia+menidia%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:03.627127+00:00",
+  "sha256": "e69dbeb3de16d5e9a18660e08b7bb4c07d876d03364096dff088b5e4d1708819",
+  "http_status": 200,
+  "bytes": 3386,
+  "cache_path": "Data/Genomics/raw/geome/8c88b0e7e5f02b4235228fd62150c1558157ebe5f880839f40fbaa8fe1f3d052.gz"
+}

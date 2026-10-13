@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Histrio+histrio%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:36.390912+00:00",
+  "sha256": "8fa55099d7599f09c1b5866e2e7b308ef2dd29d460f7ac624ffcf2c3ffe4f1fd",
+  "http_status": 200,
+  "bytes": 2847,
+  "cache_path": "Data/Genomics/raw/geome/3bb2122bd1248bb6b0b99f29f28feecf3a6893f7c84d4f80ad3214fdaf79fb89.gz"
+}

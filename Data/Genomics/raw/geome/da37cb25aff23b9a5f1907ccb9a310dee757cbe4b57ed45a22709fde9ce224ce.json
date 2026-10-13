@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Strongylura+marina%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:48.119104+00:00",
+  "sha256": "c1ea221955b56c8f8e425824b26de04e3924e972c3a989b707e247dfbba196c5",
+  "http_status": 200,
+  "bytes": 3527,
+  "cache_path": "Data/Genomics/raw/geome/da37cb25aff23b9a5f1907ccb9a310dee757cbe4b57ed45a22709fde9ce224ce.gz"
+}

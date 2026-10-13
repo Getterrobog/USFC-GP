@@ -21,6 +21,9 @@ or infer a completed temporal study design.
 5. Save compressed original responses, complete request URLs, retrieval times,
    SHA256s, input fingerprints and the R session. Missing/failed queries are not
    interpreted as zero results. Species-query failures stop the build.
+6. Search GEOME for exact project/approved archive names and recover sample-level
+   evidence from selected linked publications and repositories. Store each
+   location/date assertion separately, with its matching and reconciliation decision.
 
 These are public-archive discovery results, not proof that all data ever generated
 have been found. Private/embargoed studies, archive indexing lag, misidentified or
@@ -129,9 +132,87 @@ sequencing library is not by itself evidence of multiple fish.
 
 ## Mapping and selection
 
+### Publication and GEOME enrichment
+
+The current publication review targets large metadata gaps; it is not an exhaustive
+review of every paper for the 80 species. [The review queue](../Output/Genomics/publication_location_review.csv)
+records successful recovery and unfinished leads. Rebuilds reuse cached source
+files, so the evidence can be inspected even if a web page later changes.
+
+| Species / source | Sample-level join and interpretation |
+| --- | --- |
+| Menidia menidia, [BCO-DMO dataset 854878](https://www.bco-dmo.org/dataset/854878), [Wilder et al.](https://doi.org/10.1002/evl3.189) | Exact BioSample accession, verified study. The CSV has 247 rows despite the title saying 248; site coordinates and collection years attach only to those accessions. Eleven library-problem samples identified by the repository are excluded from map candidates. |
+| Fundulus heteroclitus, [Drown et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10370451/) | Four explicitly listed BioProjects; isolate minus an explicit `_RunN` suffix must equal Table S3 `unique_id`. Table population links to three site coordinates in the Methods. Table timepoint supplies collection year and must agree with archive evidence. Repeated deposits retain duplicate flags; the table's multiplexing `pool` column is not a pool of fish. |
+| Atherinomorus stipes, [Sequencing Bait](https://pmc.ncbi.nlm.nih.gov/articles/PMC9348626/) | PRJNA814490 run sample alias must equal a Table S4 sample ID. Only explicitly named Crandon Park and Broad Key populations are matched. Main-text and Table S3 coordinates are retained independently. Crandon Park longitudes disagree by about 0.104°, so coordinates for those samples are withheld. M61/M87/M26 site codes and collection years remain unresolved. |
+
+The silverside table's original Minas Basin country label is inconsistent with the
+named locality; preserve the source label for review rather than silently editing
+it. Shared population coordinates do not have individual GPS precision, even when
+many decimal places are printed. `coordinate_scope` records this limitation;
+numerical uncertainty remains missing unless supplied by a source. The 0.02°
+coordinate-agreement tolerance is a reconciliation rule, not an uncertainty estimate.
+
+The [cunner study](https://doi.org/10.1111/mec.17063) identifies supplementary sample
+metadata, but its publisher's supplement download returned HTTP 403. No sample
+locations were inferred from the paper-wide study area. A northern sand lance
+publication is also recorded as a follow-up lead. These statuses are not claims
+that the missing information is unavailable elsewhere.
+
+[GEOME's API](https://api.geome-db.org/apidocs/) is queried with `Sample` plus related
+`Event` and `Tissue` records, with pagination. Related records are joined within
+project + expedition + event/sample IDs, never using local IDs alone. All 80
+search outcomes are exported; a failed search stops the completed build.
+The current snapshot contains 388 sample records for 60 species, with no explicit
+BioSample accession links. Many are barcode records. They remain discovery leads,
+not WGS evidence or coordinates assigned solely by species name. Voucher and
+publication crosswalks require further review.
+
+### Provenance contract
+
+`location_provenance.csv` records each attached coordinate pair, locality and
+collection year for each `(species, sample_accession)`, including archive evidence.
+Its fields include:
+
+- `field`, `value`, `value2`, `raw_value`: interpreted and original evidence;
+  for coordinates, `value` is latitude and `value2` is longitude.
+- `source_id`, `supporting_source_id`, `source_url`, `publication_doi`: the main
+  source and any second source needed for the sample-to-site crosswalk.
+- `source_record_id`, `source_locator`, `match_method`: source sample ID,
+  spreadsheet member/worksheet/row or article section, and explicit join rule.
+- `source_file`, `source_sha256`, `retrieved_utc`: exact local evidence and its
+  snapshot. Archive assertions identify both normalized source tables and their
+  hashes in matching order; `sample_attributes` and `queries` trace them back to
+  individual raw responses. Publication originals have single-file SHA256s.
+- `coordinate_scope`, `coordinate_uncertainty_m`: individual versus shared-site
+  evidence and reported uncertainty, never invented precision.
+- `decision`, `note`: accepted missing information, corroboration, conflict,
+  added locality text, or a publication-based quality exclusion.
+
+`location_sources.csv` resolves publication source IDs to original download URLs,
+cached files and hashes; `source_id=archive` is resolved through `queries.csv` and
+the normalized tables listed in the assertion. `location_queries.csv` indexes
+publication and GEOME raw requests. Input fingerprints also cover the curated
+DMS site table, source registry and R matching code.
+
+In `samples.csv`, the `archive_*` fields preserve the pre-enrichment values and
+statuses. Unprefixed fields contain reconciled values. `location_evidence_ids`
+and `date_evidence_ids` reference ledger rows, including withheld conflicts.
+Evidence IDs are snapshot-local, not permanent accessions. Compare snapshots by
+species, accession, field, source and source record/locator instead.
+
+Archive coordinates are retained when corroborated; otherwise the first
+agreeing publication assertion supplies the position. All supporting assertions
+remain visible. Existing ambiguous archive dates/coordinate conflicts are not
+silently resolved by a new single publication value. Publication years, permits
+and sequencing filenames never stand in for collection dates. Original attribute
+values remain available even when no reconciled value can be assigned.
+
+### Candidate screening
+
 `atlas_candidates.csv` requires WGS, a single post-1930 collection year, reported
 coordinates inside the atlas window (longitude −100 to −50, latitude 5 to 60),
-and no detected pool/captive/cell-line/hybrid/duplicate-individual flags. This is
+and no detected pool/captive/cell-line/hybrid/duplicate-individual flags, unresolved
+location conflicts or publication library-quality exclusions. This is
 an automatic screen, not verification that each accession is one independent fish.
 `specimen_count` stays blank until reviewed; cell counts explicitly count BioSamples.
 Cells have the same 2° size and origin as the existing atlas. The bounding box can
@@ -160,6 +241,10 @@ sample unless its sample mapping supports it.
 | `study_key` | Primary project accession, otherwise secondary study accession |
 | `collection_date_raw`, `year_start`, `year_end`, `year`, `date_status` | Original date evidence, interval, assignable year and parsing status |
 | `locality_raw`, `coordinates_raw`, `latitude`, `longitude`, `coordinate_status` | Collection-location evidence and conservative coordinate interpretation |
+| `archive_*` | Original normalized archive location/date values and statuses before enrichment |
+| `location_evidence_ids`, `date_evidence_ids`, `location_source_ids` | Links to assertions and their sources; assertion IDs belong to this output snapshot |
+| `coordinate_scope`, `coordinate_approximate`, `location_conflict` | Reported spatial scope, approximate individual position, unresolved source disagreement |
+| `publication_individual_event_id`, `publication_sample_match`, `publication_quality_exclusion` | Explicit publication crosswalk and quality flag; no automatic merge of repeated deposits |
 | `life_stage`, `life_stage_raw` | Parsed and submitted life stage |
 | `material_status`, `*_flag` | Pool/captive/cell-line/hybrid evidence requiring special treatment |
 | `possible_duplicate_individual` | Repeated voucher/isolate lead; no automatic specimen merge |

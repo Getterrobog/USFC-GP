@@ -1,0 +1,9 @@
+{
+  "requested_url": "https://doi.org/10.2305/IUCN.UK.2022-2.RLTS.T18214757A162704857.en",
+  "resolved_url": "https://doi.org/10.2305/IUCN.UK.2022-2.RLTS.T18214757A162704857.en",
+  "retrieved_at": "2026-10-13T04:41:28.076Z",
+  "sha256": "0ad8185d4e4001dc5753a9bb70ff21265e59a417548ba95340545a311ab2bea9",
+  "bytes": 18514,
+  "representation": "Substantial indexed assessment text returned by web search; not downloaded PDF or authenticated API response.",
+  "parent_archive": "Data/SpeciesTraits/searches/iucn_priority.json"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Glyptocephalus+cynoglossus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:32.672644+00:00",
+  "sha256": "bf474ac451db87615e64223622324091d3427c776cde4a60d2e490e8f31882fe",
+  "http_status": 200,
+  "bytes": 2137,
+  "cache_path": "Data/Genomics/raw/geome/2867ea95dfb38618bde2ec8133da4b1730250394f9d26db143bf31fa364fa75b.gz"
+}

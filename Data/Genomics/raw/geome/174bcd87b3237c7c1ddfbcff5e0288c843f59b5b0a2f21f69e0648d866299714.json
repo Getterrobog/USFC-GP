@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Citharichthys+spilopterus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:13.941922+00:00",
+  "sha256": "182cab31f419f268872c86cd63f2bb638b381c880489d8dee7015efbe971a0fe",
+  "http_status": 200,
+  "bytes": 2255,
+  "cache_path": "Data/Genomics/raw/geome/174bcd87b3237c7c1ddfbcff5e0288c843f59b5b0a2f21f69e0648d866299714.gz"
+}

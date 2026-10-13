@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Dibranchus+atlanticus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:28.467378+00:00",
+  "sha256": "38418745ad06a4dcedaa21b2e094a0504ef47aa99dd12d12d76520bac9499fd7",
+  "http_status": 200,
+  "bytes": 2550,
+  "cache_path": "Data/Genomics/raw/geome/9dc423eb07aec555979e7221933bb3268fe246444296636d8d84e757b0f2e2d3.gz"
+}

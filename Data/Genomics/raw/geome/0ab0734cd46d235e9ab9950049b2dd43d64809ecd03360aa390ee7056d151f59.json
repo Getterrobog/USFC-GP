@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Centropristis+striata%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:09.471821+00:00",
+  "sha256": "35ebb41edbd20d7751f8855bfb5ed065d4585e401c1e92f43e58c67ab08395ee",
+  "http_status": 200,
+  "bytes": 4041,
+  "cache_path": "Data/Genomics/raw/geome/0ab0734cd46d235e9ab9950049b2dd43d64809ecd03360aa390ee7056d151f59.gz"
+}

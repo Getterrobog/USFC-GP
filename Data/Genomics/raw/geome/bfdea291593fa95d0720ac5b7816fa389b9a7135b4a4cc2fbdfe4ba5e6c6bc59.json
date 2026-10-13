@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Citharichthys+arctifrons%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:22.775745+00:00",
+  "sha256": "60057395e1b32a7bb61d0e243dd06775e803ca5f70fe42a06ea42533d338468c",
+  "http_status": 200,
+  "bytes": 4421,
+  "cache_path": "Data/Genomics/raw/geome/bfdea291593fa95d0720ac5b7816fa389b9a7135b4a4cc2fbdfe4ba5e6c6bc59.gz"
+}
