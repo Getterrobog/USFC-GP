@@ -9,6 +9,33 @@ The atlas answers: **which species have historical specimens, in which places
 and years, and at which life stages?** It is an inventory for planning, not a map
 of fish abundance or a final list of species approved for sequencing.
 
+## All-year companion page
+
+Open [overview.html](overview.html) for **one map per species**, combining all
+included years and life stages. Each numbered 2° cell connects to a label listing
+its collection years, with that cell/year’s specimen count in parentheses, e.g.
+`1895 (9)`. Counts pool included life stages and recorded/approximate positions.
+Undated samples are included and explicitly labeled with their count;
+collections without usable display locations are counted above the map.
+
+The same species, taxonomy, sampling and life-history filters select candidates.
+On this page, filters **do not subset the map**: it always shows the species'
+full included sampling. Use the original atlas for separate stages and years.
+**Enlarge labels** provides a scrollable enlarged image; **Fit map to page**
+restores its display size. Both retain the same geographic extent. Expand
+**Grid-cell years and counts** for an accessible table, or open/download the
+standalone SVG map. No network connection or added browser dependencies are needed.
+
+Rebuild this page from the saved atlas audit with:
+
+```bash
+Rscript Scripts/build_sampling_overview.R
+Rscript tests/test_sampling_overview.R
+```
+
+Run this after rebuilding the main atlas if its data or configuration change.
+A report-only refresh updates both pages once the companion maps exist.
+
 ## Scope and controls
 
 - Species qualify with at least **50 dated specimens through 1930**, summed over
@@ -32,6 +59,18 @@ including approved synonyms or proxies; unresolved matches stay unreported.
 Taxonomy filters combine with every other active filter. The downloadable
 [taxonomy snapshot](tables/species_taxonomy.csv) records the common-name source
 species and match status.
+
+## Species illustrations
+
+Both pages show locally cached species illustrations with contributor credits,
+source links and license links. The image catalog currently approves 54 images
+for noncommercial embedding; the other 26 entries link to their sources with
+permission or taxonomic-review notes. Images illustrate species rather than the
+actual sampled lots; source life stage and any source-name exception are shown.
+
+Keep [images/](images/README.md) with the atlas for offline viewing. The files
+retain their original bytes and CC BY-NC 4.0 attribution. For cache/rebuild
+commands and download provenance, see the [image directory guide](images/README.md).
 
 ## Life-history information and filters
 
@@ -70,6 +109,11 @@ Every map uses **2° × 2° cells** and the same extent: **100–50°W, 5–60°
 Colors count specimens per cell, with a logarithmic scale fixed across years and
 stages within each species. Color scales may differ between species.
 
+The timeline below each map counts all specimens in that species and life stage
+for each dated year, including specimens that cannot be mapped. The selected
+year's red bar ends at its specimen count; other years are gray. Undated frames
+do not highlight a year.
+
 **Hatched cells contain estimated locations.** When coordinates were missing,
 other record fields supplied approximate display positions. Some refer to a named
 locality or island; others only to a state, country or basin. A 2° cell does not
@@ -84,7 +128,9 @@ See [estimated lots and their evidence](tables/approximate_locations.csv) and
 
 | Location | Contents |
 | --- | --- |
-| [index.html](index.html) | Interactive local viewer |
+| [index.html](index.html) | Interactive year-by-year viewer |
+| [overview.html](overview.html) | One map per species, with all years and stages pooled |
+| [images/](images/README.md) | Cached species illustrations, credits and download manifest |
 | [species/](species/README.md) | One directory per species, with stage GIFs, annual PNGs and PDF downloads |
 | [tables/](tables/README.md) | Record audit, counts, screening summaries, location evidence and manifests |
 | [run_summary.txt](run_summary.txt) | Counts and caveats from the saved build |

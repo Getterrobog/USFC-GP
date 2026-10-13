@@ -4,7 +4,9 @@ Run these commands from the repository root:
 
 | Command | What it checks |
 | --- | --- |
-| `Rscript tests/test_sampling_atlas.R` | Date/stage parsing, eligibility, counting, fixed map extent, approximate-location provenance and filter aggregates |
+| `Rscript tests/test_sampling_atlas.R` | Date/stage parsing, eligibility, counting, fixed map extent, selected-year timeline heights, approximate-location provenance and filter aggregates |
+| `Rscript tests/test_atlas_images.R` | Image joins, byte hashes, attribution, permitted embeds, source links, taxonomy notes and missing-cache behavior |
+| `Rscript tests/test_sampling_overview.R` | Combined species maps: counts, distinct years, undated/approximate records, label spacing, links and provenance; requires the overview build |
 | `Rscript tests/test_atlas_taxonomy.R` | Catalog row linkage, common-name source agreement, approved aliases and missing/withheld names |
 | `Rscript tests/test_atlas_traits.R` | Trait joins, missingness, withheld taxonomy, positive numeric values and length pooling without mixing types |
 | `Rscript tests/validate_sampling_atlas.R` | A completed atlas: counts, recorded/estimated contributions, PNGs, GIFs, links and provenance |

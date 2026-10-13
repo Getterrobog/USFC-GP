@@ -9,6 +9,7 @@ not need separate instructions:
 
 | Pattern | Meaning |
 | --- | --- |
+| `all_years.svg` | Combined species map with collection-year callouts for every sampled grid cell; used by the [companion page](../overview.html) |
 | `adult.gif`, `larva.gif`, `mixed.gif` | Animation for one life stage; mixed appears where recorded |
 | `adult_frames/year_1892.png` | Full geographic map for that stage and year |
 | `adult_frames/undated.png` | Separate map for lots without an assigned year, when present |

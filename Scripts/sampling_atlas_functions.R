@@ -399,7 +399,7 @@ draw_frame <- function(d, cells, years, year, species, stage, maximum, config, c
     plot(years, totals, type = "h", lwd = 2, col = "#adbfc6", xlim = yrange, ylim = c(0, max(1, totals)),
       xlab = "", ylab = "", axes = FALSE)
     axis(1, cex.axis = 0.8); axis(2, las = 1, cex.axis = 0.7)
-    if (!is_unknown) abline(v = year, col = "#b72924", lwd = 2)
+    if (!is_unknown) segments(year, 0, year, total, col = "#b72924", lwd = 2)
     mtext(if (config$animation_years == "observed") "Collection years only; gaps are skipped. Counts are not population abundance." else "Every calendar year; blank maps mean no recorded sampling.", side = 3, line = 0.2, cex = 0.73)
   } else {
     plot.new(); text(0.5, 0.6, if (!nrow(d)) "No specimens recorded for this stage." else "No securely assigned collection years for this stage.")

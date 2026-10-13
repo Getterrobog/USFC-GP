@@ -357,3 +357,30 @@ The automated checks cover century handling, ambiguous date intervals, stage
 classification, region assignment, duplicate genetic entries, threshold boundaries
 and specimen conservation. Graphic review and GIF frame checks complement those
 data checks; the workflow does not claim to validate the original museum records.
+
+## All-year companion maps
+
+`Rscript Scripts/build_sampling_overview.R` builds `overview.html` and one
+`species/<name>/all_years.svg` per displayed species from the saved audit.
+It pools included lots across life stages and assigned years, retaining undated
+lots. Cell specimen counts include original and approximate display locations;
+lots without usable display locations remain in totals but cannot be plotted.
+Coordinates are reused, never newly estimated.
+
+Each sampled 2° cell receives a numbered label and a leader line to its distinct
+collection years, each followed by the cell/year specimen total in parentheses.
+Counts sum included lots across stages and both recorded/approximate positions;
+Undated also carries its specimen count. The exported `year_specimens` field
+parallels the semicolon-separated `years` field. A deterministic north-to-south layout prevents overlapping
+multiline year labels; generation stops if labels cannot fit. Undated lots
+contribute counts and an explicit Undated annotation, never an invented year.
+The extent and aspect are constant across species, and cell colors use a log
+scale of combined counts, separately scaled per species. SVGs are self-contained
+and can be enlarged without losing text clarity.
+
+The companion reuses the atlas filters and trait/taxonomy attachment. Filters
+select species; the single map always shows all included years and stages.
+The cell table under each map exposes the same years, counts and bounds.
+`overview_cells.csv`, `overview_manifest.csv` and `overview_input_checksums.csv`
+record aggregation, artifacts and input provenance. Rebuild the companion after
+changes to the original atlas data; a report-only refresh reuses its saved maps.

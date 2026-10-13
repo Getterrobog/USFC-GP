@@ -25,6 +25,31 @@ record audit also retains excluded source rows, so filter `included` and
 | [review_queue.csv](review_queue.csv), [excluded_records.csv](excluded_records.csv) | Included records needing review and excluded source rows |
 | [record_disposition.csv](record_disposition.csv), [date_quality_counts.csv](date_quality_counts.csv), [stage_evidence_counts.csv](stage_evidence_counts.csv), [regional_stage_period_counts.csv](regional_stage_period_counts.csv) | Count and quality summaries |
 
+## Species illustrations
+
+- [species_images.csv](species_images.csv): image catalog joined by exact project
+  species name, including credits, source/license URLs, source-stage and taxonomy
+  notes, local image path and `display_status` (`embedded`, `source_link`, or
+  `not_cached`). Only catalog-approved noncommercial images are embedded.
+- [image_input_checksums.csv](image_input_checksums.csv): catalog, cache files,
+  download manifest and R attachment-code fingerprints. The download manifest
+  under [images/](../images/README.md) also preserves the original SHA-256 values.
+
+## All-year companion maps
+
+- [overview_cells.csv](overview_cells.csv): specimens and lots pooled across all
+  included years/stages by species and display grid cell. `years` lists distinct
+  assigned years, separated by semicolons; `year_specimens` lists specimen totals
+  in the same year order. These totals sum across included lots and life stages
+  in that display cell. `undated_specimens` is separate.
+  `cell_label` matches the numbered map annotations. Recorded and approximate
+  counts remain separate columns.
+- [overview_manifest.csv](overview_manifest.csv): species totals, plotted and
+  unplotted counts, cell count, fixed bounds, SVG path and image checksum.
+- [overview_input_checksums.csv](overview_input_checksums.csv): saved audit,
+  configuration and rendering-code fingerprints. The companion uses existing
+  display positions without changing or re-estimating them.
+
 ## Taxonomy and common names
 
 [species_taxonomy.csv](species_taxonomy.csv) contains one row per displayed species:

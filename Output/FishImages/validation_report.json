@@ -1,0 +1,13 @@
+{
+  "build_manifest_sha256": "020130f585f1ea639ad3a45c182dea295e85c36be3287317f37e627f531504e8",
+  "identical_rebuild_files": {
+    "Output/FishImages/coverage.json": "fecc61aa44624ce59a81ba31384e310492447f046e2c306dc7341f5c9c52d552",
+    "Output/FishImages/fish_images_80_species.csv": "4a730dd217b2b544460b3b9ca84ca84b2023187c42c2cbb3ded590ccbc7d3866",
+    "Output/FishImages/fish_images_80_species.json": "0be967dfd014ba4457e6f91c845e4c444b58e741c85e822ef4302fa210384eb4",
+    "Output/FishImages/image_candidates.csv": "7f99ee6169af772c71737ac45e62e4fb19e697486be96df7e87e0145c85573f4"
+  },
+  "offline_network_disabled": true,
+  "tests_output": "test_all_project_species_retained_once (test_fish_image_catalog.ImageCatalogTests.test_all_project_species_retained_once) ... ok\ntest_alternate_leads_stay_separate_and_flagged (test_fish_image_catalog.ImageCatalogTests.test_alternate_leads_stay_separate_and_flagged) ... ok\ntest_license_parser_rejects_wrong_picture_and_generic_footer (test_fish_image_catalog.ImageCatalogTests.test_license_parser_rejects_wrong_picture_and_generic_footer) ... ok\ntest_no_uncertain_synonym_or_family_placeholder_substitution (test_fish_image_catalog.ImageCatalogTests.test_no_uncertain_synonym_or_family_placeholder_substitution) ... ok\ntest_published_eligibility_requires_verified_picture_license (test_fish_image_catalog.ImageCatalogTests.test_published_eligibility_requires_verified_picture_license) ... ok\ntest_selected_urls_have_image_responses (test_fish_image_catalog.ImageCatalogTests.test_selected_urls_have_image_responses) ... ok\ntest_selections_are_eligible_whole_fish_images (test_fish_image_catalog.ImageCatalogTests.test_selections_are_eligible_whole_fish_images) ... ok\ntest_source_page_integrity_and_picture_id_url (test_fish_image_catalog.ImageCatalogTests.test_source_page_integrity_and_picture_id_url) ... ok\ntest_workbook_is_readable_and_contains_all_rows (test_fish_image_catalog.ImageCatalogTests.test_workbook_is_readable_and_contains_all_rows) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 1.047s\n\nOK\n",
+  "tests_return_code": 0,
+  "validated_utc": "2026-10-13T03:24:34.365642+00:00"
+}

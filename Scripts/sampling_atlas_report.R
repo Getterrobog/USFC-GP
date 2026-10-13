@@ -1,6 +1,8 @@
 # Geographic map frames and the local map-first browsing report.
 source("Scripts/sampling_atlas_traits.R")
 source("Scripts/sampling_atlas_taxonomy.R")
+source("Scripts/sampling_atlas_overview.R")
+source("Scripts/sampling_atlas_images.R")
 geographic_frame_inventory <- function(d, species, stage, config) {
   years <- sort(unique(na.omit(d$year)))
   cycle <- if (length(years) && config$animation_years == "all") seq(min(years), max(years)) else years
@@ -75,29 +77,37 @@ atlas_filter_counts <- function(records, species, config) {
   do.call(rbind, result)
 }
 
-write_atlas_index <- function(manifest, summaries, config) {
+write_atlas_index <- function(manifest, summaries, config, overview = NULL) {
+  overview_mode <- !is.null(overview)
   records <- read.csv(file.path(config$output, "tables", "records_audit.csv"), stringsAsFactors = FALSE)
   filter_counts <- atlas_filter_counts(records, unique(manifest$species), config)
   traits <- read_atlas_traits(unique(manifest$species), config)
   write_atlas_trait_tables(traits, config)
   taxonomy <- read_atlas_taxonomy(unique(manifest$species), records, config)
   write_atlas_taxonomy_tables(taxonomy, config)
+  images <- read_atlas_images(unique(manifest$species), config)
+  write_atlas_image_table(images, config)
   lines <- c('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>USFC geographic sampling atlas</title>',
     '<style>body{font:16px system-ui;margin:40px auto;max-width:1100px;padding:0 24px;color:#233342;background:#f5f7f8}h1{font-size:36px}article{background:white;padding:20px 28px;margin:20px 0;border:1px solid #d5dfe4;border-radius:8px}a{color:#175b88}img{max-width:100%;height:auto}.map-view{display:block;width:100%;background:#fff}.map-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:12px 0}.year-label{font-size:24px;font-weight:700;margin-right:auto}.map-controls button,.map-controls select{font:inherit;padding:8px 12px;border:1px solid #aabac5;border-radius:5px;background:#f7fafb;color:#233342}.map-controls button{cursor:pointer}.map-controls button:disabled{opacity:.45;cursor:default}.year-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.year-gallery figure{margin:0}.year-gallery figcaption{font-size:14px}summary{cursor:pointer;padding:12px 0}small,.map-status{color:#526171}input{font:inherit;padding:10px;width:90%}.stage{border-top:1px solid #d5dfe4;padding-top:8px;margin-top:24px}.extent{padding:12px;background:#e7f0f5;border-radius:5px}</style>',
-    '<h1>USFC geographic sampling atlas</h1>',
-    sprintf('<p>%s species with at least %s dated specimens through %s in the western Atlantic, Caribbean and Gulf of Mexico. Eligibility sums specimens across stages. Undated specimens are shown separately and do not confer eligibility.</p>', sum(summaries$eligible), config$min_specimens, config$max_year),
+    if (overview_mode) '<h1>USFC all-year sampling maps</h1>' else '<h1>USFC geographic sampling atlas</h1>',
+    if (overview_mode) '<nav><a href="index.html">Year-by-year atlas and animations</a> · <strong>All-year species maps</strong></nav>'
+      else if (file.exists(file.path(config$output, "overview.html"))) '<nav><strong>Year-by-year atlas and animations</strong> · <a href="overview.html">All-year species maps</a></nav>',
+    sprintf('<p>%s species with at least %s dated specimens through %s in the western Atlantic, Caribbean and Gulf of Mexico. Eligibility sums specimens across stages. Undated specimens do not confer eligibility.</p>', sum(summaries$eligible), config$min_specimens, config$max_year),
     sprintf('<p class="extent"><strong>Every map uses the same extent:</strong> %g°W to %g°W longitude, %g°N to %g°N latitude. Grid: %g° × %g°. No zooming or cropping between species, stages or years.</p>', -config$bounds['west'], -config$bounds['east'], config$bounds['south'], config$bounds['north'], config$cell_degrees, config$cell_degrees),
-    '<p>Choose a recorded year to inspect its geographic sample-size heatmap, or play the GIF; the year is printed prominently inside each frame. Colors are fixed across years and stages within each species. Counts are specimens per grid cell, not population abundance. Blank cells mean no plotted sampling.</p>',
+    if (overview_mode) '<p>One map per species combines all eligible years and all life stages, including undated lots. Numbered cells connect to their collection-year labels; parentheses show specimen counts for that cell and year. Colors show total specimens per cell, not abundance. Enlarge labels for a scrollable view; the geographic extent stays fixed.</p>' else '<p>Choose a recorded year to inspect its geographic sample-size heatmap, or play the GIF; the year is printed prominently inside each frame. Colors are fixed across years and stages within each species. Counts are specimens per grid cell, not population abundance. Blank cells mean no plotted sampling.</p>',
     '<p><strong>Hatched cells include approximate locations.</strong> Missing coordinates are estimated from station, locality, island or broader location labels. These display positions can be much less precise than a grid cell; they are not verified collecting sites. Frame counts separate recorded coordinates from estimates. Original coordinates remain unchanged, and estimates are excluded from precise-location candidate screens.</p>',
-    '<p>Adult / non-larval includes juveniles and unlabeled lots; maturity is unverified. Mixed lots stay separate. Undated lots have a separate frame.</p>',
+    if (overview_mode) '<p>Adults / non-larval, larvae and mixed lots are pooled on these maps. Undated samples are included and labeled Undated in their cells. Use the year-by-year atlas to inspect stages separately.</p>' else '<p>Adult / non-larval includes juveniles and unlabeled lots; maturity is unverified. Mixed lots stay separate. Undated lots have a separate frame.</p>',
     '<p><a href="tables/approximate_locations.csv">Estimated locations and their evidence</a> · <a href="tables/approximation_summary.csv">Estimates by species and location detail</a></p>',
-    sprintf('<p>GIF timing: %s years; gaps are visible on each frame’s timeline.</p>', config$animation_years),
+    if (!overview_mode) sprintf('<p>GIF timing: %s years; gaps are visible on each frame’s timeline.</p>', config$animation_years),
     '<p><a href="tables/species_summary.csv">Species inventory</a> · <a href="tables/candidate_screening.csv">Candidate screening</a> · <a href="tables/shared_year_assemblages.csv">Same-year assemblages</a> · <a href="tables/repeated_historical_cells.csv">Repeated historical sampling</a> · <a href="tables/annual_frame_manifest.csv">Year PNG inventory</a> · <a href="tables/records_audit.csv">Record audit</a></p>')
   if (file.exists(file.path(config$output, "selection_digest.txt")))
     lines <- c(lines, '<p><a href="selection_digest.txt">Selection digest by basin and stage</a> · <a href="tables/regional_candidates.csv">Regional candidate comparison</a></p>')
   if (traits$available) lines <- c(lines, sprintf('<p><strong>Life-history information:</strong> FishBase release %s, from the existing curated trait outputs. Model-derived ages are labelled; primary studies and regional applicability remain unreviewed. Positive water/habitat tags indicate reported associations, not exhaustive habitat limits. FishBase team; Source Cooperative snapshots; CC BY-NC 4.0.</p>', html_escape(paste(unique(traits$traits$fishbase_version[nzchar(traits$traits$fishbase_version)]), collapse = ", "))),
     '<p><a href="tables/life_history_traits.csv">Species traits</a> · <a href="tables/life_history_lengths.csv">Lengths by type</a> · <a href="tables/life_history_evidence.csv">Trait evidence</a> · <a href="tables/life_history_references.csv">References</a> · <a href="tables/life_history_dictionary.csv">Trait definitions</a></p>')
   else lines <- c(lines, '<p>Life-history traits have not been loaded for this build. The sampling inventory remains available.</p>')
+  if (!is.null(images)) lines <- c(lines,
+    sprintf('<p><strong>Species illustrations:</strong> %s locally saved images with credits and noncommercial reuse terms; other entries link to their sources with review notes. Illustrations are representative of the species, not the sampled museum lots. <a href="tables/species_images.csv">Image sources and credits</a></p>', sum(images$display_status == "embedded")),
+    '<style>.species-image{box-sizing:border-box;max-width:560px;margin:18px 0;padding:16px;border:1px solid #d5dfe4;border-radius:6px;background:#fff}.species-photo{display:block;max-width:100%;max-height:240px;width:auto;height:auto;margin:0 auto 12px}.species-image figcaption,.image-credit{font-size:13px;line-height:1.5;color:#526171;overflow-wrap:anywhere}.image-stage{color:#526171}.image-source-only{background:#f5f8fa}.image-source-only p{margin:0 0 6px}</style>')
   lines <- c(lines,
     '<p>Order and family follow the museum catalog labels, which may differ from current classifications. Common names come from cached FishBase records using the existing curated species matches, including approved synonyms or proxies; unresolved matches remain unreported. <a href="tables/species_taxonomy.csv">Taxonomy and common-name sources</a></p>',
     '<style>.taxonomy-line{color:#526171;font-size:14px;margin-bottom:4px}article h2{margin-top:4px;overflow-wrap:anywhere}.common-name{font-weight:400;font-size:.85em}</style>',
@@ -114,19 +124,28 @@ write_atlas_index <- function(manifest, summaries, config) {
     '<label class="filter-check"><input id="mapped-only" type="checkbox"> Count only specimens with recorded coordinates</label>',
     atlas_trait_filter_html(traits), '<button type="reset">Reset all filters</button>',
     sprintf('<p>Filters refine the %s eligible species using dated records through %s. Specimen counts and distinct years must meet the thresholds within the selected stage and region together. Undated specimens do not count toward these filters.</p>', sum(summaries$eligible), config$max_year),
-    '<p>Maps show the full sampling distribution for each displayed stage, including other regions and undated frames; filtering does not change their geographic extent. Adult / non-larval maturity is unverified.</p></fieldset></form>',
+    if (overview_mode) '<p><strong>Filters select species; maps always show all their included years, regions and life stages.</strong> The stage, region and coordinate controls only affect the candidate thresholds. Undated lots appear on maps but do not count toward those thresholds.</p>' else '<p>Maps show the full sampling distribution for each displayed stage, including other regions and undated frames; filtering does not change their geographic extent. Adult / non-larval maturity is unverified.</p>',
+    '</fieldset></form>',
     '<p id="result-count" role="status" aria-live="polite"></p><p id="no-results" hidden>No species match these filters. Lower the thresholds or reset the filters.</p>')
+  if (overview_mode) lines <- c(lines,
+    '<style>.overview-viewport{overflow:auto;border:1px solid #d5dfe4;border-radius:6px;background:white;margin-top:12px}.overview-map{display:block;width:100%;max-width:none;height:auto}.overview-viewport.enlarged .overview-map{width:1600px}.overview-zoom{font:inherit;padding:8px 12px;cursor:pointer}.overview-table{overflow:auto}table{border-collapse:collapse;width:100%}th,td{padding:9px;text-align:left;border-bottom:1px solid #d5dfe4}.species-overview{border-top:1px solid #d5dfe4;margin-top:20px;padding-top:8px}</style>',
+    '<p><a href="tables/overview_cells.csv">All-year grid-cell counts and years</a> · <a href="tables/overview_manifest.csv">Species map inventory</a></p>')
   inventories <- list()
   for (species in unique(manifest$species)) {
     s <- summaries[summaries$species == species, ]
     tax <- taxonomy[match(species, taxonomy$species), ]
     lines <- c(lines, sprintf('<article data-species="%s" data-search="%s" data-order="%s" data-family="%s">%s<p>%s dated specimens through %s + %s undated · %s lots · %s sampled years · %s regions · %.0f%% dated with recorded coordinates</p><p>%s specimens in %s lots use approximate display positions.</p>', html_escape(tolower(species)), html_escape(tolower(paste(species, tax$common_name))), html_escape(tax$order), html_escape(tax$family), atlas_taxonomy_heading_html(tax), s$eligibility_specimens, config$max_year, s$undated_specimens, s$lots, s$sampled_years, s$regions, 100 * s$mapped_fraction, s$approximate_specimens, s$approximate_lots))
+    if (!is.null(images)) lines <- c(lines, atlas_image_card_html(images[match(species, images$species), ]))
     lines <- c(lines, '<p class="filter-match"></p>')
     lines <- c(lines, atlas_trait_card_html(traits$traits[match(species, traits$traits$species), ]))
     for (j in which(filter_counts$species == species)) {
       f <- filter_counts[j, ]
       lines <- c(lines, sprintf('<span class="filter-record" hidden data-stage="%s" data-region="%s" data-specimens="%s" data-mapped="%s" data-years="%s" data-mapped-years="%s"></span>',
         f$life_stage, html_escape(f$region), f$specimens, f$mapped_specimens, f$years, f$mapped_years))
+    }
+    if (overview_mode) {
+      lines <- c(lines, atlas_overview_card_html(species, overview), '</article>')
+      next
     }
     for (i in which(manifest$species == species)) {
       m <- manifest[i, ]
@@ -149,6 +168,14 @@ write_atlas_index <- function(manifest, summaries, config) {
     lines <- c(lines, '</article>')
   }
   lines <- c(lines, '<script>
+document.querySelectorAll(".species-photo").forEach(img=>{
+  const failed=()=>{img.hidden=true;img.closest("figure").querySelector(".image-error").hidden=false;};
+  img.addEventListener("error",failed);if(img.complete&&!img.naturalWidth)failed();
+});
+document.querySelectorAll(".overview-zoom").forEach(button=>button.addEventListener("click",()=>{
+  const viewport=button.nextElementSibling, enlarged=viewport.classList.toggle("enlarged");
+  button.setAttribute("aria-pressed",String(enlarged));button.textContent=enlarged?"Fit map to page":"Enlarge labels";
+}));
 document.querySelectorAll(".stage").forEach(stage=>{
   const select=stage.querySelector("select"), img=stage.querySelector(".map-view"), play=stage.querySelector(".play"), status=stage.querySelector(".map-status"), year=stage.querySelector(".year-label");
   let playing=false;
@@ -219,6 +246,7 @@ form.addEventListener("reset",()=>setTimeout(applyFilters,0));
 applyFilters();
 </script></html>')
   write.csv(filter_counts, file.path(config$output, "tables", "filter_counts.csv"), row.names = FALSE, na = "")
-  write.csv(do.call(rbind, inventories), file.path(config$output, "tables", "annual_frame_manifest.csv"), row.names = FALSE, na = "")
-  writeLines(lines, file.path(config$output, "index.html"))
+  if (!overview_mode) write.csv(do.call(rbind, inventories), file.path(config$output, "tables", "annual_frame_manifest.csv"), row.names = FALSE, na = "")
+  if (overview_mode) lines[1] <- sub("USFC geographic sampling atlas", "USFC all-year sampling maps", lines[1], fixed = TRUE)
+  writeLines(lines, file.path(config$output, if (overview_mode) "overview.html" else "index.html"))
 }

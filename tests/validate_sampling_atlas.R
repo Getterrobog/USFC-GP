@@ -72,7 +72,8 @@ for (i in seq_len(nrow(manifest))) {
 index <- paste(readLines(file.path(out, "index.html")), collapse = "\n")
 links <- regmatches(index, gregexpr('(?:href|src)="[^"]+"', index, perl = TRUE))[[1]]
 paths <- sub('^[^=]+="([^"]+)"$', "\\1", links)
-stopifnot(all(file.exists(file.path(out, paths))))
+local_paths <- paths[!grepl("^https://", paths)]
+stopifnot(all(file.exists(file.path(out, local_paths))))
 checksums <- read_table("input_checksums")
 current_hashes <- unname(tools::md5sum(checksums$path))
 changed <- checksums$path[is.na(current_hashes) | current_hashes != checksums$md5]

@@ -10,6 +10,8 @@ start with [Output](../Output/README.md); rebuilding is unnecessary for browsing
 | [install_atlas_dependencies.R](install_atlas_dependencies.R) | Explicitly install `maps` into the ignored local `.R-library`; requires network access |
 | [build_sampling_atlas.R](build_sampling_atlas.R) | Read the museum export and cached curation; write audits, counts, annual geographic maps and GIFs |
 | [summarize_sampling_candidates.R](summarize_sampling_candidates.R) | Produce the atlas's broad basin/stage candidate digest |
+| [cache_sampling_atlas_images.R](cache_sampling_atlas_images.R) | Verify cached species illustrations; `--download` explicitly retrieves catalog-approved images, then refresh the pages |
+| [build_sampling_overview.R](build_sampling_overview.R) | Create the all-year companion page and annotated SVG maps from a saved atlas |
 | [refresh_sampling_atlas_index.R](refresh_sampling_atlas_index.R) | Refresh the local HTML viewer from saved outputs; does not redo scientific analysis |
 | [build_species_selection.R](build_species_selection.R) | Reuse atlas records for bounded-site, year and stage comparisons, sensitivity and evidence queues |
 
@@ -54,6 +56,10 @@ These files are sourced by the runners rather than invoked as standalone builds:
   HTML viewer and combined candidate filters.
 - [sampling_atlas_taxonomy.R](sampling_atlas_taxonomy.R): catalog order/family,
   cached common-name attachment, taxonomy headings, filters and provenance tables.
+- [sampling_atlas_images.R](sampling_atlas_images.R): exact species-image joins,
+  file verification, credited image cards and source-link fallbacks.
+- [sampling_atlas_overview.R](sampling_atlas_overview.R): all-stage/all-year
+  cell summaries, collision-free year callouts and standalone SVG rendering.
 - [sampling_atlas_traits.R](sampling_atlas_traits.R): exact-key attachment of
   life-history outputs, length pooling by type, trait cards and filter controls.
   Refresh the atlas index after updating the trait outputs; media need not change.

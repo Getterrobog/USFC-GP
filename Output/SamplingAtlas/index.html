@@ -1,7 +1,8 @@
 <!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>USFC geographic sampling atlas</title>
 <style>body{font:16px system-ui;margin:40px auto;max-width:1100px;padding:0 24px;color:#233342;background:#f5f7f8}h1{font-size:36px}article{background:white;padding:20px 28px;margin:20px 0;border:1px solid #d5dfe4;border-radius:8px}a{color:#175b88}img{max-width:100%;height:auto}.map-view{display:block;width:100%;background:#fff}.map-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:12px 0}.year-label{font-size:24px;font-weight:700;margin-right:auto}.map-controls button,.map-controls select{font:inherit;padding:8px 12px;border:1px solid #aabac5;border-radius:5px;background:#f7fafb;color:#233342}.map-controls button{cursor:pointer}.map-controls button:disabled{opacity:.45;cursor:default}.year-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.year-gallery figure{margin:0}.year-gallery figcaption{font-size:14px}summary{cursor:pointer;padding:12px 0}small,.map-status{color:#526171}input{font:inherit;padding:10px;width:90%}.stage{border-top:1px solid #d5dfe4;padding-top:8px;margin-top:24px}.extent{padding:12px;background:#e7f0f5;border-radius:5px}</style>
 <h1>USFC geographic sampling atlas</h1>
-<p>80 species with at least 50 dated specimens through 1930 in the western Atlantic, Caribbean and Gulf of Mexico. Eligibility sums specimens across stages. Undated specimens are shown separately and do not confer eligibility.</p>
+<nav><strong>Year-by-year atlas and animations</strong> · <a href="overview.html">All-year species maps</a></nav>
+<p>80 species with at least 50 dated specimens through 1930 in the western Atlantic, Caribbean and Gulf of Mexico. Eligibility sums specimens across stages. Undated specimens do not confer eligibility.</p>
 <p class="extent"><strong>Every map uses the same extent:</strong> 100°W to 50°W longitude, 5°N to 60°N latitude. Grid: 2° × 2°. No zooming or cropping between species, stages or years.</p>
 <p>Choose a recorded year to inspect its geographic sample-size heatmap, or play the GIF; the year is printed prominently inside each frame. Colors are fixed across years and stages within each species. Counts are specimens per grid cell, not population abundance. Blank cells mean no plotted sampling.</p>
 <p><strong>Hatched cells include approximate locations.</strong> Missing coordinates are estimated from station, locality, island or broader location labels. These display positions can be much less precise than a grid cell; they are not verified collecting sites. Frame counts separate recorded coordinates from estimates. Original coordinates remain unchanged, and estimates are excluded from precise-location candidate screens.</p>
@@ -12,6 +13,8 @@
 <p><a href="selection_digest.txt">Selection digest by basin and stage</a> · <a href="tables/regional_candidates.csv">Regional candidate comparison</a></p>
 <p><strong>Life-history information:</strong> FishBase release 26.06, from the existing curated trait outputs. Model-derived ages are labelled; primary studies and regional applicability remain unreviewed. Positive water/habitat tags indicate reported associations, not exhaustive habitat limits. FishBase team; Source Cooperative snapshots; CC BY-NC 4.0.</p>
 <p><a href="tables/life_history_traits.csv">Species traits</a> · <a href="tables/life_history_lengths.csv">Lengths by type</a> · <a href="tables/life_history_evidence.csv">Trait evidence</a> · <a href="tables/life_history_references.csv">References</a> · <a href="tables/life_history_dictionary.csv">Trait definitions</a></p>
+<p><strong>Species illustrations:</strong> 54 locally saved images with credits and noncommercial reuse terms; other entries link to their sources with review notes. Illustrations are representative of the species, not the sampled museum lots. <a href="tables/species_images.csv">Image sources and credits</a></p>
+<style>.species-image{box-sizing:border-box;max-width:560px;margin:18px 0;padding:16px;border:1px solid #d5dfe4;border-radius:6px;background:#fff}.species-photo{display:block;max-width:100%;max-height:240px;width:auto;height:auto;margin:0 auto 12px}.species-image figcaption,.image-credit{font-size:13px;line-height:1.5;color:#526171;overflow-wrap:anywhere}.image-stage{color:#526171}.image-source-only{background:#f5f8fa}.image-source-only p{margin:0 0 6px}</style>
 <p>Order and family follow the museum catalog labels, which may differ from current classifications. Common names come from cached FishBase records using the existing curated species matches, including approved synonyms or proxies; unresolved matches remain unreported. <a href="tables/species_taxonomy.csv">Taxonomy and common-name sources</a></p>
 <style>.taxonomy-line{color:#526171;font-size:14px;margin-bottom:4px}article h2{margin-top:4px;overflow-wrap:anywhere}.common-name{font-weight:400;font-size:.85em}</style>
 <style>[hidden]{display:none!important}.filters{padding:20px;background:#e7f0f5;border:0;border-radius:8px}.filter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}.filter-grid label{display:flex;flex-direction:column;gap:6px}.filter-grid input,.filter-grid select{box-sizing:border-box;width:100%;font:inherit;padding:9px;border:1px solid #aabac5;border-radius:4px;background:white}.filter-check{display:block;margin:18px 0}.filter-check input{width:auto}.filters button{font:inherit;padding:8px 12px;cursor:pointer}.filter-match{color:#175b88;font-weight:600}</style>
@@ -173,9 +176,15 @@
 </div><p id="trait-range-error" role="alert" hidden>A minimum exceeds its maximum. Correct the range to show matching species.</p><p>Generation time, lifespan and maturity age are model estimates, not observations. Lengths take the largest reported value across sexes separately for each type; a species matches a length range if at least one selected-type maximum is within it. TL, SL and FL are not converted.</p></details>
 <button type="reset">Reset all filters</button>
 <p>Filters refine the 80 eligible species using dated records through 1930. Specimen counts and distinct years must meet the thresholds within the selected stage and region together. Undated specimens do not count toward these filters.</p>
-<p>Maps show the full sampling distribution for each displayed stage, including other regions and undated frames; filtering does not change their geographic extent. Adult / non-larval maturity is unverified.</p></fieldset></form>
+<p>Maps show the full sampling distribution for each displayed stage, including other regions and undated frames; filtering does not change their geographic extent. Adult / non-larval maturity is unverified.</p>
+</fieldset></form>
 <p id="result-count" role="status" aria-live="polite"></p><p id="no-results" hidden>No species match these filters. Lower the thresholds or reset the filters.</p>
 <article data-species="alosa aestivalis" data-search="alosa aestivalis blueback shad" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Alosa aestivalis</i> <span class="common-name">— Blueback shad</span></h2><p>1493 dated specimens through 1930 + 0 undated · 82 lots · 8 sampled years · 1 regions · 69% dated with recorded coordinates</p><p>469 specimens in 34 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Alosa_aestivalis_11399.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Alosa_aestivalis_11399.gif" alt="Alosa aestivalis — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Alosa aestivalis — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1574&amp;what=species&amp;pic=Alaes_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.6968898773193359"><dt>Generation time — model (years)</dt><dd>4.7</dd></div>
@@ -219,6 +228,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="alosa pseudoharengus" data-search="alosa pseudoharengus alewife" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Alosa pseudoharengus</i> <span class="common-name">— Alewife</span></h2><p>719 dated specimens through 1930 + 560 undated · 92 lots · 9 sampled years · 1 regions · 47% dated with recorded coordinates</p><p>213 specimens in 25 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Alosa_pseudoharengus_11416.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Alosa_pseudoharengus_11416.gif" alt="Alosa pseudoharengus — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Alosa pseudoharengus — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1583&amp;what=species&amp;pic=Alpse_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.2903099060058594"><dt>Generation time — model (years)</dt><dd>2.29</dd></div>
@@ -266,6 +280,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="atherinomorus stipes" data-search="atherinomorus stipes hardhead silverside" data-order="Atheriniformes" data-family="Atherinidae"><p class="taxonomy-line">Order: Atheriniformes · Family: Atherinidae</p><h2><i>Atherinomorus stipes</i> <span class="common-name">— Hardhead silverside</span></h2><p>798 dated specimens through 1930 + 1 undated · 21 lots · 5 sampled years · 3 regions · 43% dated with recorded coordinates</p><p>455 specimens in 12 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Atherinomorus_stipes_61288.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Atherinomorus_stipes_61288.jpg" alt="Atherinomorus stipes — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Atherinomorus stipes — Modder, T., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3234&amp;what=species&amp;pic=Atsti_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1363999843597412"><dt>Generation time — model (years)</dt><dd>2.14</dd></div>
@@ -314,6 +333,11 @@
 </div></details></section>
 </article>
 <article data-species="stellifer lanceolatus" data-search="stellifer lanceolatus american stardrum" data-order="Perciformes" data-family="Sciaenidae"><p class="taxonomy-line">Order: Perciformes · Family: Sciaenidae</p><h2><i>Stellifer lanceolatus</i> <span class="common-name">— American stardrum</span></h2><p>761 dated specimens through 1930 + 5 undated · 3 lots · 2 sampled years · 2 regions · 98% dated with recorded coordinates</p><p>16 specimens in 2 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Stellifer_lanceolatus_51371.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Stellifer_lanceolatus_51371.jpg" alt="Stellifer lanceolatus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Stellifer lanceolatus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1193&amp;what=species&amp;pic=Stlan_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.3705300092697144"><dt>Generation time — model (years)</dt><dd>1.37</dd></div>
@@ -348,6 +372,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="brevoortia tyrannus" data-search="brevoortia tyrannus atlantic menhaden" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Brevoortia tyrannus</i> <span class="common-name">— Atlantic menhaden</span></h2><p>446 dated specimens through 1930 + 258 undated · 65 lots · 12 sampled years · 1 regions · 30% dated with recorded coordinates</p><p>384 specimens in 36 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Brevoortia_tyrannus_11430.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Brevoortia_tyrannus_11430.gif" alt="Brevoortia tyrannus — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Brevoortia tyrannus — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1592&amp;what=species&amp;pic=Brtyr_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1005899906158447"><dt>Generation time — model (years)</dt><dd>2.1</dd></div>
@@ -401,6 +430,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="anchoa mitchilli" data-search="anchoa mitchilli bay anchovy" data-order="Clupeiformes" data-family="Engraulidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Engraulidae</p><h2><i>Anchoa mitchilli</i> <span class="common-name">— Bay anchovy</span></h2><p>617 dated specimens through 1930 + 20 undated · 41 lots · 9 sampled years · 2 regions · 67% dated with recorded coordinates</p><p>190 specimens in 20 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=545&amp;what=species&amp;pic=Anmit_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Anchoa mitchilli — Christie, B.L., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.1177499294281006"><dt>Generation time — model (years)</dt><dd>3.12</dd></div>
@@ -458,6 +488,7 @@
 </div></details></section>
 </article>
 <article data-species="menidia menidia" data-search="menidia menidia atlantic silverside" data-order="Atheriniformes" data-family="Atherinopsidae"><p class="taxonomy-line">Order: Atheriniformes · Family: Atherinopsidae</p><h2><i>Menidia menidia</i> <span class="common-name">— Atlantic silverside</span></h2><p>359 dated specimens through 1930 + 0 undated · 62 lots · 13 sampled years · 1 regions · 68% dated with recorded coordinates</p><p>114 specimens in 21 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=339&amp;what=species&amp;pic=Memen_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Menidia menidia — Eakins, R., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.85626399517059326"><dt>Generation time — model (years)</dt><dd>0.856</dd></div>
@@ -518,6 +549,11 @@
 </div></details></section>
 </article>
 <article data-species="gonichthys cocco" data-search="gonichthys cocco cocco's lanternfish" data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Gonichthys cocco</i> <span class="common-name">— Cocco's lanternfish</span></h2><p>351 dated specimens through 1930 + 3 undated · 23 lots · 2 sampled years · 2 regions · 99% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Gonichthys_cocco_19066.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Gonichthys_cocco_19066.gif" alt="Gonichthys cocco — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Gonichthys cocco — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1716&amp;what=species&amp;pic=Gococ_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.6965800523757935"><dt>Generation time — model (years)</dt><dd>1.7</dd></div>
@@ -552,6 +588,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="jenkinsia stolifera" data-search="jenkinsia stolifera florida round herring" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Jenkinsia stolifera</i> <span class="common-name">— Florida round herring</span></h2><p>344 dated specimens through 1930 + 0 undated · 11 lots · 3 sampled years · 3 regions · 7% dated with recorded coordinates</p><p>319 specimens in 10 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Jenkinsia_stolifera_11281.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Jenkinsia_stolifera_11281.gif" alt="Jenkinsia stolifera — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Jenkinsia stolifera — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1464&amp;what=species&amp;pic=Jesto_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.32238999009132385"><dt>Generation time — model (years)</dt><dd>0.322</dd></div>
@@ -587,6 +628,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="citharichthys arctifrons" data-search="citharichthys arctifrons gulf stream flounder" data-order="Pleuronectiformes" data-family="Paralichthyidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Paralichthyidae</p><h2><i>Citharichthys arctifrons</i> <span class="common-name">— Gulf Stream flounder</span></h2><p>282 dated specimens through 1930 + 0 undated · 39 lots · 10 sampled years · 2 regions · 85% dated with recorded coordinates</p><p>43 specimens in 4 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Citharichthys_arctifrons_51807.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Citharichthys_arctifrons_51807.jpg" alt="Citharichthys arctifrons — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Citharichthys arctifrons — Durie, C., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4209&amp;what=species&amp;pic=Ciarc_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.0533699989318848"><dt>Generation time — model (years)</dt><dd>1.05</dd></div>
@@ -642,6 +688,11 @@
 </div></details></section>
 </article>
 <article data-species="gambusia affinis" data-search="gambusia affinis mosquitofish" data-order="Cyprinodontiformes" data-family="Poeciliidae"><p class="taxonomy-line">Order: Cyprinodontiformes · Family: Poeciliidae</p><h2><i>Gambusia affinis</i> <span class="common-name">— Mosquitofish</span></h2><p>281 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Gambusia_affinis_10549.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Gambusia_affinis_10549.gif" alt="Gambusia affinis — representative species illustration (color drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Gambusia affinis — Cada, L.A., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3215&amp;what=species&amp;pic=Gaaff_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">color drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.5287100076675415"><dt>Generation time — model (years)</dt><dd>1.53</dd></div>
@@ -674,6 +725,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="poecilia vivipara" data-search="poecilia vivipara eye spot toothcarp" data-order="Cyprinodontiformes" data-family="Poeciliidae"><p class="taxonomy-line">Order: Cyprinodontiformes · Family: Poeciliidae</p><h2><i>Poecilia vivipara</i> <span class="common-name">— Eye spot toothcarp</span></h2><p>254 dated specimens through 1930 + 0 undated · 5 lots · 1 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=23359&amp;what=species&amp;pic=Poviv_f0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Poecilia vivipara — Ramos, T.P.A., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.7407000064849854"><dt>Generation time — model (years)</dt><dd>2.74</dd></div>
@@ -703,6 +755,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="exocoetus volitans" data-search="exocoetus volitans tropical two-wing flyingfish" data-order="Beloniformes" data-family="Exocoetidae"><p class="taxonomy-line">Order: Beloniformes · Family: Exocoetidae</p><h2><i>Exocoetus volitans</i> <span class="common-name">— Tropical two-wing flyingfish</span></h2><p>239 dated specimens through 1930 + 10 undated · 43 lots · 8 sampled years · 3 regions · 79% dated with recorded coordinates</p><p>52 specimens in 17 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Exocoetus_volitans_10463.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Exocoetus_volitans_10463.gif" alt="Exocoetus volitans — representative species illustration (color drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Exocoetus volitans — Cada, L.A., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1032&amp;what=species&amp;pic=Exvol_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">color drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.78730899095535278"><dt>Generation time — model (years)</dt><dd>0.787</dd></div>
@@ -769,6 +826,11 @@
 </div></details></section>
 </article>
 <article data-species="bothus ocellatus" data-search="bothus ocellatus eyed flounder" data-order="Pleuronectiformes" data-family="Bothidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Bothidae</p><h2><i>Bothus ocellatus</i> <span class="common-name">— Eyed flounder</span></h2><p>236 dated specimens through 1930 + 0 undated · 60 lots · 9 sampled years · 3 regions · 96% dated with recorded coordinates</p><p>10 specimens in 3 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Bothus_ocellatus_6647.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Bothus_ocellatus_6647.gif" alt="Bothus ocellatus — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Bothus ocellatus — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4207&amp;what=species&amp;pic=Booce_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.1086201667785645"><dt>Generation time — model (years)</dt><dd>4.11</dd></div>
@@ -829,6 +891,11 @@
 </div></details></section>
 </article>
 <article data-species="monacanthus ciliatus" data-search="monacanthus ciliatus fringed filefish" data-order="Tetraodontiformes" data-family="Monacanthidae"><p class="taxonomy-line">Order: Tetraodontiformes · Family: Monacanthidae</p><h2><i>Monacanthus ciliatus</i> <span class="common-name">— Fringed filefish</span></h2><p>221 dated specimens through 1930 + 2 undated · 70 lots · 6 sampled years · 3 regions · 91% dated with recorded coordinates</p><p>19 specimens in 12 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Monacanthus_ciliatus_51312.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Monacanthus_ciliatus_51312.jpg" alt="Monacanthus ciliatus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Monacanthus ciliatus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4280&amp;what=species&amp;pic=Mocil_u2.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1056399345397949"><dt>Generation time — model (years)</dt><dd>2.11</dd></div>
@@ -872,6 +939,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="fundulus similis" data-search="fundulus similis longnose killifish" data-order="Cyprinodontiformes" data-family="Fundulidae"><p class="taxonomy-line">Order: Cyprinodontiformes · Family: Fundulidae</p><h2><i>Fundulus similis</i> <span class="common-name">— Longnose killifish</span></h2><p>222 dated specimens through 1930 + 0 undated · 12 lots · 3 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3205&amp;what=species&amp;pic=Fusim_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Fundulus similis — Christie, B.L., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.7508200407028198"><dt>Generation time — model (years)</dt><dd>1.75</dd></div>
@@ -905,6 +973,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="jenkinsia lamprotaenia" data-search="jenkinsia lamprotaenia dwarf round herring" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Jenkinsia lamprotaenia</i> <span class="common-name">— Dwarf round herring</span></h2><p>220 dated specimens through 1930 + 0 undated · 8 lots · 3 sampled years · 2 regions · 17% dated with recorded coordinates</p><p>183 specimens in 4 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Jenkinsia_lamprotaenia_11285.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Jenkinsia_lamprotaenia_11285.gif" alt="Jenkinsia lamprotaenia — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Jenkinsia lamprotaenia — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1461&amp;what=species&amp;pic=Jelam_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.37334200739860535"><dt>Generation time — model (years)</dt><dd>0.373</dd></div>
@@ -939,6 +1012,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="anchoa colonensis" data-search="anchoa colonensis narrow-striped anchovy" data-order="Clupeiformes" data-family="Engraulidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Engraulidae</p><h2><i>Anchoa colonensis</i> <span class="common-name">— Narrow-striped anchovy</span></h2><p>211 dated specimens through 1930 + 0 undated · 5 lots · 1 sampled years · 1 regions · 0% dated with recorded coordinates</p><p>211 specimens in 5 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Anchoa_colonensis_6998.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Anchoa_colonensis_6998.gif" alt="Anchoa colonensis — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Anchoa colonensis — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1685&amp;what=species&amp;pic=Ancol_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.2230299711227417"><dt>Generation time — model (years)</dt><dd>1.22</dd></div>
@@ -968,6 +1046,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="anchoa cayorum" data-search="anchoa cayorum key anchovy" data-order="Clupeiformes" data-family="Engraulidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Engraulidae</p><h2><i>Anchoa cayorum</i> <span class="common-name">— Key anchovy</span></h2><p>206 dated specimens through 1930 + 2 undated · 11 lots · 3 sampled years · 3 regions · 74% dated with recorded coordinates</p><p>53 specimens in 3 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Anchoa_cayorum_6997.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Anchoa_cayorum_6997.gif" alt="Anchoa cayorum — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Anchoa cayorum — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1682&amp;what=species&amp;pic=Ancay_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.023859977722168"><dt>Generation time — model (years)</dt><dd>1.02</dd></div>
@@ -1005,6 +1088,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="fenestraja plutonia" data-search="fenestraja plutonia pluto skate" data-order="Rajiformes" data-family="Rajidae"><p class="taxonomy-line">Order: Rajiformes · Family: Rajidae</p><h2><i>Fenestraja plutonia</i> <span class="common-name">— Pluto skate</span></h2><p>202 dated specimens through 1930 + 0 undated · 14 lots · 3 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=51799&amp;what=species&amp;pic=Feplu_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Fenestraja plutonia — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
@@ -1039,6 +1123,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="centropristis striata" data-search="centropristis striata black seabass" data-order="Perciformes" data-family="Serranidae"><p class="taxonomy-line">Order: Perciformes · Family: Serranidae</p><h2><i>Centropristis striata</i> <span class="common-name">— Black seabass</span></h2><p>200 dated specimens through 1930 + 0 undated · 24 lots · 10 sampled years · 1 regions · 96% dated with recorded coordinates</p><p>9 specimens in 3 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Centropristis_striata_49030.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Centropristis_striata_49030.jpg" alt="Centropristis striata — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Centropristis striata — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=361&amp;what=species&amp;pic=Cestr_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1244499683380127"><dt>Generation time — model (years)</dt><dd>2.12</dd></div>
@@ -1086,6 +1175,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="cyclothone microdon" data-search="cyclothone microdon veiled anglemouth" data-order="Stomiiformes" data-family="Gonostomatidae"><p class="taxonomy-line">Order: Stomiiformes · Family: Gonostomatidae</p><h2><i>Cyclothone microdon</i> <span class="common-name">— Veiled anglemouth</span></h2><p>191 dated specimens through 1930 + 0 undated · 31 lots · 7 sampled years · 3 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1775&amp;what=species&amp;pic=Cymic_u5.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Cyclothone microdon — Welter-Schultes, F., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.425279974937439"><dt>Generation time — model (years)</dt><dd>1.43</dd></div>
@@ -1134,6 +1224,7 @@
 </div></details></section>
 </article>
 <article data-species="glyptocephalus cynoglossus" data-search="glyptocephalus cynoglossus witch flounder" data-order="Pleuronectiformes" data-family="Pleuronectidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Pleuronectidae</p><h2><i>Glyptocephalus cynoglossus</i> <span class="common-name">— Witch flounder</span></h2><p>139 dated specimens through 1930 + 39 undated · 87 lots · 8 sampled years · 1 regions · 77% dated with recorded coordinates</p><p>32 specimens in 5 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=26&amp;what=species&amp;pic=Glcyn_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Glyptocephalus cynoglossus — Dolgov, A., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="8.9554300308227539"><dt>Generation time — model (years)</dt><dd>8.96</dd></div>
@@ -1179,6 +1270,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="syngnathus fuscus" data-search="syngnathus fuscus northern pipefish" data-order="Syngnathiformes" data-family="Syngnathidae"><p class="taxonomy-line">Order: Syngnathiformes · Family: Syngnathidae</p><h2><i>Syngnathus fuscus</i> <span class="common-name">— Northern pipefish</span></h2><p>173 dated specimens through 1930 + 1 undated · 32 lots · 10 sampled years · 1 regions · 95% dated with recorded coordinates</p><p>9 specimens in 7 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3301&amp;what=species&amp;pic=Syfus_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Syngnathus fuscus — Canadian Museum of Nature, Ottawa, Canada, from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.6715500354766846"><dt>Generation time — model (years)</dt><dd>1.67</dd></div>
@@ -1228,6 +1320,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="pomatomus saltatrix" data-search="pomatomus saltatrix bluefish" data-order="Perciformes" data-family="Pomatomidae"><p class="taxonomy-line">Order: Perciformes · Family: Pomatomidae</p><h2><i>Pomatomus saltatrix</i> <span class="common-name">— Bluefish</span></h2><p>161 dated specimens through 1930 + 10 undated · 3 lots · 2 sampled years · 1 regions · 91% dated with recorded coordinates</p><p>5 specimens in 1 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Pomatomus_saltatrix_22755.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Pomatomus_saltatrix_22755.jpg" alt="Pomatomus saltatrix — representative species illustration (Randall's tank photos)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Pomatomus saltatrix — Randall, J.E., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=364&amp;what=species&amp;pic=Posal_u2.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">Randall's tank photos · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5485999584197998"><dt>Generation time — model (years)</dt><dd>2.55</dd></div>
@@ -1266,6 +1363,11 @@
 </div></details></section>
 </article>
 <article data-species="membras martinica" data-search="membras martinica rough silverside" data-order="Atheriniformes" data-family="Atherinopsidae"><p class="taxonomy-line">Order: Atheriniformes · Family: Atherinopsidae</p><h2><i>Membras martinica</i> <span class="common-name">— Rough silverside</span></h2><p>161 dated specimens through 1930 + 0 undated · 13 lots · 5 sampled years · 1 regions · 80% dated with recorded coordinates</p><p>32 specimens in 5 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Membras_martinica_49746.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Membras_martinica_49746.jpg" alt="Membras martinica — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Membras martinica — Thomas, C., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3240&amp;what=species&amp;pic=Memar_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.97648698091506958"><dt>Generation time — model (years)</dt><dd>0.976</dd></div>
@@ -1303,6 +1405,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="decapterus punctatus" data-search="decapterus punctatus round scad" data-order="Perciformes" data-family="Carangidae"><p class="taxonomy-line">Order: Perciformes · Family: Carangidae</p><h2><i>Decapterus punctatus</i> <span class="common-name">— Round scad</span></h2><p>150 dated specimens through 1930 + 6 undated · 13 lots · 3 sampled years · 1 regions · 84% dated with recorded coordinates</p><p>25 specimens in 6 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Decapterus_punctatus_49049.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Decapterus_punctatus_49049.jpg" alt="Decapterus punctatus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Decapterus punctatus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=994&amp;what=species&amp;pic=Depun_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.49534010887146"><dt>Generation time — model (years)</dt><dd>2.5</dd></div>
@@ -1345,6 +1452,11 @@
 </div></details></section>
 </article>
 <article data-species="nezumia bairdii" data-search="nezumia bairdii marlin-spike grenadier" data-order="Gadiformes" data-family="Macrouridae"><p class="taxonomy-line">Order: Gadiformes · Family: Macrouridae</p><h2><i>Nezumia bairdii</i> <span class="common-name">— Marlin-spike grenadier</span></h2><p>141 dated specimens through 1930 + 3 undated · 71 lots · 8 sampled years · 2 regions · 94% dated with recorded coordinates</p><p>5 specimens in 3 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Nezumia_bairdii_63844.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Nezumia_bairdii_63844.jpg" alt="Nezumia bairdii — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Nezumia bairdii — Mac Eachern, W.J., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3104&amp;what=species&amp;pic=Nebai_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.1977701187133789"><dt>Generation time — model (years)</dt><dd>3.2</dd></div>
@@ -1391,6 +1503,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="laemonema barbatulum" data-search="laemonema barbatulum shortbeard codling" data-order="Gadiformes" data-family="Moridae"><p class="taxonomy-line">Order: Gadiformes · Family: Moridae</p><h2><i>Laemonema barbatulum</i> <span class="common-name">— Shortbeard codling</span></h2><p>135 dated specimens through 1930 + 0 undated · 18 lots · 4 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Laemonema_barbatulum_59008.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Laemonema_barbatulum_59008.jpg" alt="Laemonema barbatulum — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Laemonema barbatulum — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=28218&amp;what=species&amp;pic=Labar_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.3049502372741699"><dt>Generation time — model (years)</dt><dd>5.3</dd></div>
@@ -1426,6 +1543,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="lagodon rhomboides" data-search="lagodon rhomboides pinfish" data-order="Perciformes" data-family="Sparidae"><p class="taxonomy-line">Order: Perciformes · Family: Sparidae</p><h2><i>Lagodon rhomboides</i> <span class="common-name">— Pinfish</span></h2><p>132 dated specimens through 1930 + 1 undated · 21 lots · 8 sampled years · 2 regions · 91% dated with recorded coordinates</p><p>12 specimens in 3 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3576&amp;what=species&amp;pic=Larho_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Lagodon rhomboides — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5336999893188477"><dt>Generation time — model (years)</dt><dd>2.53</dd></div>
@@ -1472,6 +1590,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="chloroscombrus chrysurus" data-search="chloroscombrus chrysurus atlantic bumper" data-order="Perciformes" data-family="Carangidae"><p class="taxonomy-line">Order: Perciformes · Family: Carangidae</p><h2><i>Chloroscombrus chrysurus</i> <span class="common-name">— Atlantic bumper</span></h2><p>123 dated specimens through 1930 + 0 undated · 12 lots · 5 sampled years · 3 regions · 89% dated with recorded coordinates</p><p>14 specimens in 4 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Chloroscombrus_chrysurus_59039.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Chloroscombrus_chrysurus_59039.jpg" alt="Chloroscombrus chrysurus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Chloroscombrus chrysurus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=385&amp;what=species&amp;pic=Chchr_ug.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.4310100078582764"><dt>Generation time — model (years)</dt><dd>1.43</dd></div>
@@ -1520,6 +1643,11 @@
 </div></details></section>
 </article>
 <article data-species="haemulon aurolineatum" data-search="haemulon aurolineatum tomtate grunt" data-order="Perciformes" data-family="Haemulidae"><p class="taxonomy-line">Order: Perciformes · Family: Haemulidae</p><h2><i>Haemulon aurolineatum</i> <span class="common-name">— Tomtate grunt</span></h2><p>121 dated specimens through 1930 + 1 undated · 25 lots · 12 sampled years · 3 regions · 66% dated with recorded coordinates</p><p>41 specimens in 9 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Haemulon_aurolineatum_65677.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Haemulon_aurolineatum_65677.jpg" alt="Haemulon aurolineatum — representative species illustration (underwater photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Haemulon aurolineatum — Libert, F., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1128&amp;what=species&amp;pic=Haaur_u4.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">underwater photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.9843997955322266"><dt>Generation time — model (years)</dt><dd>5.98</dd></div>
@@ -1575,6 +1703,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="etropus crossotus" data-search="etropus crossotus fringed flounder" data-order="Pleuronectiformes" data-family="Paralichthyidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Paralichthyidae</p><h2><i>Etropus crossotus</i> <span class="common-name">— Fringed flounder</span></h2><p>121 dated specimens through 1930 + 0 undated · 27 lots · 8 sampled years · 3 regions · 33% dated with recorded coordinates</p><p>81 specimens in 8 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Etropus_crossotus_59014.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Etropus_crossotus_59014.jpg" alt="Etropus crossotus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Etropus crossotus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4221&amp;what=species&amp;pic=Etcro_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.56110298633575439"><dt>Generation time — model (years)</dt><dd>0.561</dd></div>
@@ -1620,6 +1753,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="fundulus heteroclitus" data-search="fundulus heteroclitus mummichog" data-order="Cyprinodontiformes" data-family="Fundulidae"><p class="taxonomy-line">Order: Cyprinodontiformes · Family: Fundulidae</p><h2><i>Fundulus heteroclitus</i> <span class="common-name">— Mummichog</span></h2><p>110 dated specimens through 1930 + 10 undated · 15 lots · 6 sampled years · 2 regions · 92% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3192&amp;what=species&amp;pic=Fuhet_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Fundulus heteroclitus — Scarola, J.F., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.5272599458694458"><dt>Generation time — model (years)</dt><dd>1.53</dd></div>
@@ -1662,6 +1796,12 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="atherina harringtonensis" data-search="atherina harringtonensis reef silverside" data-order="Atheriniformes" data-family="Atherinidae"><p class="taxonomy-line">Order: Atheriniformes · Family: Atherinidae</p><h2><i>Atherina harringtonensis</i> <span class="common-name">— Reef silverside</span></h2><p>78 dated specimens through 1930 + 36 undated · 7 lots · 1 sampled years · 2 regions · 0% dated with recorded coordinates</p><p>114 specimens in 7 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Atherina_harringtonensis_4853.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Atherina_harringtonensis_4853.gif" alt="Atherina harringtonensis — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Atherina harringtonensis — FAO, from FishBase; CC BY-NC 4.0; source identification: Hypoatherina harringtonensis<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3237&amp;what=species&amp;pic=Hyhar_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+<br>Source identification: <i>Hypoatherina harringtonensis</i> (documented combination); project species name retained.
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1363999843597412"><dt>Generation time — model (years)</dt><dd>2.14</dd></div>
@@ -1694,6 +1834,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="stephanolepis hispida" data-search="stephanolepis hispida planehead filefish" data-order="Tetraodontiformes" data-family="Monacanthidae"><p class="taxonomy-line">Order: Tetraodontiformes · Family: Monacanthidae</p><h2><i>Stephanolepis hispida</i> <span class="common-name">— Planehead filefish</span></h2><p>111 dated specimens through 1930 + 0 undated · 28 lots · 10 sampled years · 2 regions · 40% dated with recorded coordinates</p><p>67 specimens in 13 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Stephanolepis_hispida_28625.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Stephanolepis_hispida_28625.gif" alt="Stephanolepis hispida — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Stephanolepis hispida — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4281&amp;what=species&amp;pic=Sthis_u1.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.0224499702453613"><dt>Generation time — model (years)</dt><dd>2.02</dd></div>
@@ -1751,6 +1896,11 @@
 </div></details></section>
 </article>
 <article data-species="histrio histrio" data-search="histrio histrio sargassumfish" data-order="Lophiiformes" data-family="Antennariidae"><p class="taxonomy-line">Order: Lophiiformes · Family: Antennariidae</p><h2><i>Histrio histrio</i> <span class="common-name">— Sargassumfish</span></h2><p>105 dated specimens through 1930 + 0 undated · 29 lots · 7 sampled years · 3 regions · 94% dated with recorded coordinates</p><p>6 specimens in 1 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Histrio_histrio_49089.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Histrio_histrio_49089.jpg" alt="Histrio histrio — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Histrio histrio — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3089&amp;what=species&amp;pic=Hihis_uc.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
@@ -1801,6 +1951,11 @@
 </div></details></section>
 </article>
 <article data-species="hyporhamphus unifasciatus" data-search="hyporhamphus unifasciatus common halfbeak" data-order="Beloniformes" data-family="Hemiramphidae"><p class="taxonomy-line">Order: Beloniformes · Family: Hemiramphidae</p><h2><i>Hyporhamphus unifasciatus</i> <span class="common-name">— Common halfbeak</span></h2><p>101 dated specimens through 1930 + 3 undated · 28 lots · 8 sampled years · 3 regions · 59% dated with recorded coordinates</p><p>43 specimens in 14 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Hyporhamphus_unifasciatus_5156.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Hyporhamphus_unifasciatus_5156.gif" alt="Hyporhamphus unifasciatus — representative species illustration (b/w drawing with inserts)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Hyporhamphus unifasciatus — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1060&amp;what=species&amp;pic=Hyuni_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing with inserts · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.74948298931121826"><dt>Generation time — model (years)</dt><dd>0.749</dd></div>
@@ -1852,6 +2007,7 @@
 </div></details></section>
 </article>
 <article data-species="tautogolabrus adspersus" data-search="tautogolabrus adspersus cunner" data-order="Perciformes" data-family="Labridae"><p class="taxonomy-line">Order: Perciformes · Family: Labridae</p><h2><i>Tautogolabrus adspersus</i> <span class="common-name">— Cunner</span></h2><p>103 dated specimens through 1930 + 0 undated · 22 lots · 3 sampled years · 1 regions · 83% dated with recorded coordinates</p><p>18 specimens in 2 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3672&amp;what=species&amp;pic=Taads_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Tautogolabrus adspersus — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.9210898876190186"><dt>Generation time — model (years)</dt><dd>3.92</dd></div>
@@ -1885,6 +2041,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="clupea harengus" data-search="clupea harengus atlantic herring" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Clupea harengus</i> <span class="common-name">— Atlantic herring</span></h2><p>51 dated specimens through 1930 + 50 undated · 3 lots · 2 sampled years · 1 regions · 0% dated with recorded coordinates</p><p>101 specimens in 3 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Clupea_harengus_10332.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Clupea_harengus_10332.gif" alt="Clupea harengus — representative species illustration (color drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Clupea harengus — Cada, L.A., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=24&amp;what=species&amp;pic=Clhar_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">color drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.3644399642944336"><dt>Generation time — model (years)</dt><dd>3.36</dd></div>
@@ -1918,6 +2079,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="myctophum affine" data-search="myctophum affine metallic lantern fish" data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Myctophum affine</i> <span class="common-name">— Metallic lantern fish</span></h2><p>101 dated specimens through 1930 + 0 undated · 9 lots · 3 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=7424&amp;what=species&amp;pic=Myaff_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Myctophum affine — Dolgov, A., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.0866599082946777"><dt>Generation time — model (years)</dt><dd>2.09</dd></div>
@@ -1958,6 +2120,11 @@
 </div></details></section>
 </article>
 <article data-species="dibranchus atlanticus" data-search="dibranchus atlanticus atlantic batfish" data-order="Lophiiformes" data-family="Ogcocephalidae"><p class="taxonomy-line">Order: Lophiiformes · Family: Ogcocephalidae</p><h2><i>Dibranchus atlanticus</i> <span class="common-name">— Atlantic batfish</span></h2><p>98 dated specimens through 1930 + 0 undated · 37 lots · 7 sampled years · 3 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Dibranchus_atlanticus_49055.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Dibranchus_atlanticus_49055.jpg" alt="Dibranchus atlanticus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Dibranchus atlanticus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4956&amp;what=species&amp;pic=Diatl_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="6.8063998222351074"><dt>Generation time — model (years)</dt><dd>6.81</dd></div>
@@ -2001,6 +2168,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="ammodytes dubius" data-search="ammodytes dubius northern sand lance" data-order="Perciformes" data-family="Ammodytidae"><p class="taxonomy-line">Order: Perciformes · Family: Ammodytidae</p><h2><i>Ammodytes dubius</i> <span class="common-name">— Northern sand lance</span></h2><p>92 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3821&amp;what=species&amp;pic=Amdub_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Ammodytes dubius — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.9652500152587891"><dt>Generation time — model (years)</dt><dd>2.97</dd></div>
@@ -2032,6 +2200,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="harengula humeralis" data-search="harengula humeralis redear herring" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Harengula humeralis</i> <span class="common-name">— Redear herring</span></h2><p>92 dated specimens through 1930 + 0 undated · 11 lots · 6 sampled years · 2 regions · 10% dated with recorded coordinates</p><p>83 specimens in 10 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Harengula_humeralis_6679.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Harengula_humeralis_6679.gif" alt="Harengula humeralis — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Harengula humeralis — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1479&amp;what=species&amp;pic=Hahum_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.0484600067138672"><dt>Generation time — model (years)</dt><dd>1.05</dd></div>
@@ -2072,6 +2245,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="gobiosoma ginsburgi" data-search="gobiosoma ginsburgi seaboard goby" data-order="Perciformes" data-family="Gobiidae"><p class="taxonomy-line">Order: Perciformes · Family: Gobiidae</p><h2><i>Gobiosoma ginsburgi</i> <span class="common-name">— Seaboard goby</span></h2><p>90 dated specimens through 1930 + 1 undated · 12 lots · 5 sampled years · 1 regions · 98% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3871&amp;what=species&amp;pic=Gogin_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Gobiosoma ginsburgi — Love, J.W., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.0432800054550171"><dt>Generation time — model (years)</dt><dd>1.04</dd></div>
@@ -2111,6 +2285,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="syacium papillosum" data-search="syacium papillosum dusky flounder" data-order="Pleuronectiformes" data-family="Paralichthyidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Paralichthyidae</p><h2><i>Syacium papillosum</i> <span class="common-name">— Dusky flounder</span></h2><p>90 dated specimens through 1930 + 0 undated · 8 lots · 2 sampled years · 1 regions · 51% dated with recorded coordinates</p><p>44 specimens in 3 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Syacium_papillosum_59061.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Syacium_papillosum_59061.jpg" alt="Syacium papillosum — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Syacium papillosum — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4233&amp;what=species&amp;pic=Sypap_u2.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.2687000036239624"><dt>Generation time — model (years)</dt><dd>1.27</dd></div>
@@ -2142,6 +2321,12 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="helicolenus maderensis" data-search="helicolenus maderensis blackbelly rosefish" data-order="Scorpaeniformes" data-family="Sebastidae"><p class="taxonomy-line">Order: Scorpaeniformes · Family: Sebastidae</p><h2><i>Helicolenus maderensis</i> <span class="common-name">— Blackbelly rosefish</span></h2><p>86 dated specimens through 1930 + 0 undated · 20 lots · 6 sampled years · 2 regions · 99% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Helicolenus_maderensis_34560.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Helicolenus_maderensis_34560.jpg" alt="Helicolenus maderensis — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Helicolenus maderensis — Østergaard, T., from FishBase; CC BY-NC 4.0; source identification: Helicolenus dactylopterus<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=76&amp;what=species&amp;pic=Hedac_u5.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+<br>Source identification: <i>Helicolenus dactylopterus</i> (authority resolved synonym); project species name retained.
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="10.592300415039062"><dt>Generation time — model (years)</dt><dd>10.6</dd></div>
@@ -2183,6 +2368,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="lycenchelys verrillii" data-search="lycenchelys verrillii wolf eelpout" data-order="Perciformes" data-family="Zoarcidae"><p class="taxonomy-line">Order: Perciformes · Family: Zoarcidae</p><h2><i>Lycenchelys verrillii</i> <span class="common-name">— Wolf eelpout</span></h2><p>82 dated specimens through 1930 + 0 undated · 25 lots · 6 sampled years · 1 regions · 99% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3132&amp;what=species&amp;pic=Lyver_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Lycenchelys verrillii — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.2821202278137207"><dt>Generation time — model (years)</dt><dd>4.28</dd></div>
@@ -2222,6 +2408,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="pseudopleuronectes americanus" data-search="pseudopleuronectes americanus winter flounder" data-order="Pleuronectiformes" data-family="Pleuronectidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Pleuronectidae</p><h2><i>Pseudopleuronectes americanus</i> <span class="common-name">— Winter flounder</span></h2><p>75 dated specimens through 1930 + 5 undated · 28 lots · 9 sampled years · 1 regions · 82% dated with recorded coordinates</p><p>9 specimens in 8 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=524&amp;what=species&amp;pic=Psame_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Pseudopleuronectes americanus — Lavan, J., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5657100677490234"><dt>Generation time — model (years)</dt><dd>2.57</dd></div>
@@ -2269,6 +2456,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="chlorophthalmus agassizi" data-search="chlorophthalmus agassizi shortnose greeneye" data-order="Aulopiformes" data-family="Chlorophthalmidae"><p class="taxonomy-line">Order: Aulopiformes · Family: Chlorophthalmidae</p><h2><i>Chlorophthalmus agassizi</i> <span class="common-name">— Shortnose greeneye</span></h2><p>79 dated specimens through 1930 + 0 undated · 20 lots · 4 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Chlorophthalmus_agassizi_70261.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Chlorophthalmus_agassizi_70261.jpg" alt="Chlorophthalmus agassizi — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Chlorophthalmus agassizi — Kondylatos, G., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1808&amp;what=species&amp;pic=Chaga_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
@@ -2305,6 +2497,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="anchoa lamprotaenia" data-search="anchoa lamprotaenia big-eye anchovy" data-order="Clupeiformes" data-family="Engraulidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Engraulidae</p><h2><i>Anchoa lamprotaenia</i> <span class="common-name">— Big-eye anchovy</span></h2><p>77 dated specimens through 1930 + 0 undated · 6 lots · 4 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Anchoa_lamprotaenia_7001.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Anchoa_lamprotaenia_7001.gif" alt="Anchoa lamprotaenia — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Anchoa lamprotaenia — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1688&amp;what=species&amp;pic=Anlam_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.3392599821090698"><dt>Generation time — model (years)</dt><dd>1.34</dd></div>
@@ -2341,6 +2538,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="eucinostomus argenteus" data-search="eucinostomus argenteus silver mojarra" data-order="Perciformes" data-family="Gerreidae"><p class="taxonomy-line">Order: Perciformes · Family: Gerreidae</p><h2><i>Eucinostomus argenteus</i> <span class="common-name">— Silver mojarra</span></h2><p>77 dated specimens through 1930 + 0 undated · 10 lots · 3 sampled years · 1 regions · 8% dated with recorded coordinates</p><p>71 specimens in 7 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Eucinostomus_argenteus_5031.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Eucinostomus_argenteus_5031.gif" alt="Eucinostomus argenteus — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Eucinostomus argenteus — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1049&amp;what=species&amp;pic=Euarg_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1195499897003174"><dt>Generation time — model (years)</dt><dd>2.12</dd></div>
@@ -2374,6 +2576,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="myctophum opalinum" data-search="myctophum opalinum " data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Myctophum opalinum</i> <span class="common-name">— Common name not reported</span></h2><p>73 dated specimens through 1930 + 1 undated · 14 lots · 3 sampled years · 1 regions · 99% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Historical illustration available; the catalog flags its taxonomic identity for review. <a href="https://www.gutenberg.org/cache/epub/51702/pg51702-images.html#img_images_i_133a.jpg" target="_blank" rel="noopener noreferrer">View source illustration</a></p><p class="image-credit">Historical illustration labelled Myctophum opalinum Goode &amp; Bean; does not establish current taxonomic identity</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Withheld — taxonomy unresolved</dd></div>
@@ -2409,6 +2612,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="cheilopogon furcatus" data-search="cheilopogon furcatus spotfin flyingfish" data-order="Beloniformes" data-family="Exocoetidae"><p class="taxonomy-line">Order: Beloniformes · Family: Exocoetidae</p><h2><i>Cheilopogon furcatus</i> <span class="common-name">— Spotfin flyingfish</span></h2><p>72 dated specimens through 1930 + 0 undated · 31 lots · 3 sampled years · 1 regions · 83% dated with recorded coordinates</p><p>12 specimens in 9 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Cheilopogon_furcatus_59821.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Cheilopogon_furcatus_59821.jpg" alt="Cheilopogon furcatus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Cheilopogon furcatus — Osmany, H.B., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1028&amp;what=species&amp;pic=Chfur_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.94282698631286621"><dt>Generation time — model (years)</dt><dd>0.943</dd></div>
@@ -2451,6 +2659,11 @@
 </div></details></section>
 </article>
 <article data-species="lutjanus synagris" data-search="lutjanus synagris lane snapper" data-order="Perciformes" data-family="Lutjanidae"><p class="taxonomy-line">Order: Perciformes · Family: Lutjanidae</p><h2><i>Lutjanus synagris</i> <span class="common-name">— Lane snapper</span></h2><p>69 dated specimens through 1930 + 2 undated · 24 lots · 7 sampled years · 3 regions · 61% dated with recorded coordinates</p><p>28 specimens in 13 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Lutjanus_synagris_5523.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Lutjanus_synagris_5523.jpg" alt="Lutjanus synagris — representative species illustration (color drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Lutjanus synagris — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=181&amp;what=species&amp;pic=Lusyn_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">color drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.9790699481964111"><dt>Generation time — model (years)</dt><dd>2.98</dd></div>
@@ -2496,6 +2709,12 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="coelorinchus carminatus" data-search="coelorinchus carminatus hollowsnout grenadier" data-order="Gadiformes" data-family="Macrouridae"><p class="taxonomy-line">Order: Gadiformes · Family: Macrouridae</p><h2><i>Coelorinchus carminatus</i> <span class="common-name">— Hollowsnout grenadier</span></h2><p>70 dated specimens through 1930 + 0 undated · 24 lots · 6 sampled years · 3 regions · 96% dated with recorded coordinates</p><p>3 specimens in 1 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Coelorinchus_carminatus_13018.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Coelorinchus_carminatus_13018.gif" alt="Coelorinchus carminatus — representative species illustration (b/w drawing with inserts)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Coelorinchus carminatus — FAO, from FishBase; CC BY-NC 4.0; source identification: Coelorinchus caelorhincus<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1726&amp;what=species&amp;pic=Cacae_u4.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing with inserts · Source stage: Unsexed; maturity unverified</span>
+<br>Source identification: <i>Coelorinchus caelorhincus</i> (species aggregate proxy); project species name retained.
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.6516900062561035"><dt>Generation time — model (years)</dt><dd>2.65</dd></div>
@@ -2538,6 +2757,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="lycodes terraenovae" data-search="lycodes terraenovae " data-order="Perciformes" data-family="Zoarcidae"><p class="taxonomy-line">Order: Perciformes · Family: Zoarcidae</p><h2><i>Lycodes terraenovae</i> <span class="common-name">— Common name not reported</span></h2><p>67 dated specimens through 1930 + 0 undated · 27 lots · 5 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=48211&amp;what=species&amp;pic=Lyter_u2.gif" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Lycodes terraenovae — SFSA, from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="7.5588598251342773"><dt>Generation time — model (years)</dt><dd>7.56</dd></div>
@@ -2575,6 +2795,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="mullus auratus" data-search="mullus auratus red goatfish" data-order="Perciformes" data-family="Mullidae"><p class="taxonomy-line">Order: Perciformes · Family: Mullidae</p><h2><i>Mullus auratus</i> <span class="common-name">— Red goatfish</span></h2><p>67 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 2 regions · 31% dated with recorded coordinates</p><p>46 specimens in 1 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Mullus_auratus_59035.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Mullus_auratus_59035.jpg" alt="Mullus auratus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Mullus auratus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1093&amp;what=species&amp;pic=Muaur_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.8451900482177734"><dt>Generation time — model (years)</dt><dd>1.85</dd></div>
@@ -2607,6 +2832,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="symphurus plagiusa" data-search="symphurus plagiusa blackcheek tonguefish" data-order="Pleuronectiformes" data-family="Cynoglossidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Cynoglossidae</p><h2><i>Symphurus plagiusa</i> <span class="common-name">— Blackcheek tonguefish</span></h2><p>67 dated specimens through 1930 + 0 undated · 35 lots · 8 sampled years · 3 regions · 90% dated with recorded coordinates</p><p>7 specimens in 4 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1019&amp;what=species&amp;pic=Sypla_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Symphurus plagiusa — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.3166499137878418"><dt>Generation time — model (years)</dt><dd>3.32</dd></div>
@@ -2659,6 +2885,7 @@
 </div></details></section>
 </article>
 <article data-species="cyclopterus lumpus" data-search="cyclopterus lumpus lumpfish" data-order="Scorpaeniformes" data-family="Cyclopteridae"><p class="taxonomy-line">Order: Scorpaeniformes · Family: Cyclopteridae</p><h2><i>Cyclopterus lumpus</i> <span class="common-name">— Lumpfish</span></h2><p>65 dated specimens through 1930 + 1 undated · 6 lots · 4 sampled years · 1 regions · 3% dated with recorded coordinates</p><p>63 specimens in 3 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=62&amp;what=species&amp;pic=Cylum_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Cyclopterus lumpus — Aquarium Kiel, from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.1451702117919922"><dt>Generation time — model (years)</dt><dd>4.15</dd></div>
@@ -2702,6 +2929,11 @@
 </div></details></section>
 </article>
 <article data-species="haemulon plumierii" data-search="haemulon plumierii white grunt" data-order="Perciformes" data-family="Haemulidae"><p class="taxonomy-line">Order: Perciformes · Family: Haemulidae</p><h2><i>Haemulon plumierii</i> <span class="common-name">— White grunt</span></h2><p>57 dated specimens through 1930 + 7 undated · 16 lots · 5 sampled years · 3 regions · 67% dated with recorded coordinates</p><p>18 specimens in 6 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Haemulon_plumierii_2574.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Haemulon_plumierii_2574.jpg" alt="Haemulon plumierii — representative species illustration (underwater photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Haemulon plumierii — Randall, J.E., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1140&amp;what=species&amp;pic=Haplu_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">underwater photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="7.8526701927185059"><dt>Generation time — model (years)</dt><dd>7.85</dd></div>
@@ -2743,6 +2975,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="menidia peninsulae" data-search="menidia peninsulae tidewater silverside" data-order="Atheriniformes" data-family="Atherinopsidae"><p class="taxonomy-line">Order: Atheriniformes · Family: Atherinopsidae</p><h2><i>Menidia peninsulae</i> <span class="common-name">— Tidewater silverside</span></h2><p>64 dated specimens through 1930 + 0 undated · 5 lots · 3 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Menidia_peninsulae_51492.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Menidia_peninsulae_51492.gif" alt="Menidia peninsulae — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Menidia peninsulae — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3244&amp;what=species&amp;pic=Mepen_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.1323399543762207"><dt>Generation time — model (years)</dt><dd>1.13</dd></div>
@@ -2776,6 +3013,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="phycis chesteri" data-search="phycis chesteri longfin hake" data-order="Gadiformes" data-family="Phycidae"><p class="taxonomy-line">Order: Gadiformes · Family: Phycidae</p><h2><i>Phycis chesteri</i> <span class="common-name">— Longfin hake</span></h2><p>64 dated specimens through 1930 + 0 undated · 4 lots · 1 sampled years · 1 regions · 27% dated with recorded coordinates</p><p>47 specimens in 3 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Phycis_chesteri_12960.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Phycis_chesteri_12960.gif" alt="Phycis chesteri — representative species illustration (b/w drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Phycis chesteri — FAO, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1880&amp;what=species&amp;pic=Phche_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">b/w drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="6.3197999000549316"><dt>Generation time — model (years)</dt><dd>6.32</dd></div>
@@ -2805,6 +3047,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="sparisoma radians" data-search="sparisoma radians bucktooth parrotfish" data-order="Perciformes" data-family="Scaridae"><p class="taxonomy-line">Order: Perciformes · Family: Scaridae</p><h2><i>Sparisoma radians</i> <span class="common-name">— Bucktooth parrotfish</span></h2><p>62 dated specimens through 1930 + 0 undated · 14 lots · 2 sampled years · 2 regions · 95% dated with recorded coordinates</p><p>3 specimens in 3 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Sparisoma_radians_2640.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Sparisoma_radians_2640.jpg" alt="Sparisoma radians — representative species illustration (underwater photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Sparisoma radians — Randall, J.E., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3676&amp;what=species&amp;pic=Sprad_m0.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">underwater photo · Source stage: male</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1883800029754639"><dt>Generation time — model (years)</dt><dd>2.19</dd></div>
@@ -2837,6 +3084,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="citharichthys spilopterus" data-search="citharichthys spilopterus bay whiff" data-order="Pleuronectiformes" data-family="Paralichthyidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Paralichthyidae</p><h2><i>Citharichthys spilopterus</i> <span class="common-name">— Bay whiff</span></h2><p>61 dated specimens through 1930 + 0 undated · 8 lots · 3 sampled years · 2 regions · 36% dated with recorded coordinates</p><p>39 specimens in 5 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Citharichthys_spilopterus_49036.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Citharichthys_spilopterus_49036.jpg" alt="Citharichthys spilopterus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Citharichthys spilopterus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4216&amp;what=species&amp;pic=Cispi_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5002000331878662"><dt>Generation time — model (years)</dt><dd>2.5</dd></div>
@@ -2878,6 +3130,11 @@
 </div></details></section>
 </article>
 <article data-species="brevoortia patronus" data-search="brevoortia patronus gulf menhaden" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Brevoortia patronus</i> <span class="common-name">— Gulf menhaden</span></h2><p>60 dated specimens through 1930 + 0 undated · 5 lots · 1 sampled years · 1 regions · 12% dated with recorded coordinates</p><p>53 specimens in 4 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Brevoortia_patronus_49020.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Brevoortia_patronus_49020.jpg" alt="Brevoortia patronus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Brevoortia patronus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1589&amp;what=species&amp;pic=Brpat_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.8645100593566895"><dt>Generation time — model (years)</dt><dd>1.86</dd></div>
@@ -2907,6 +3164,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="centrobranchus nigroocellatus" data-search="centrobranchus nigroocellatus roundnose lanternfish" data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Centrobranchus nigroocellatus</i> <span class="common-name">— Roundnose lanternfish</span></h2><p>58 dated specimens through 1930 + 0 undated · 3 lots · 1 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=11879&amp;what=species&amp;pic=Cenig_u5.gif" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Centrobranchus nigroocellatus — Canadian Museum of Nature, Ottawa, Canada, from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.448930025100708"><dt>Generation time — model (years)</dt><dd>1.45</dd></div>
@@ -2936,6 +3194,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="chromis enchrysurus" data-search="chromis enchrysurus yellowtail reeffish" data-order="Perciformes" data-family="Pomacentridae"><p class="taxonomy-line">Order: Perciformes · Family: Pomacentridae</p><h2><i>Chromis enchrysurus</i> <span class="common-name">— Yellowtail reeffish</span></h2><p>58 dated specimens through 1930 + 0 undated · 8 lots · 1 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Chromis_enchrysurus_49035.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Chromis_enchrysurus_49035.jpg" alt="Chromis enchrysurus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Chromis enchrysurus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3643&amp;what=species&amp;pic=Chenc_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.6943199634552002"><dt>Generation time — model (years)</dt><dd>1.69</dd></div>
@@ -2965,6 +3228,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="eucinostomus gula" data-search="eucinostomus gula jenny mojarra" data-order="Perciformes" data-family="Gerreidae"><p class="taxonomy-line">Order: Perciformes · Family: Gerreidae</p><h2><i>Eucinostomus gula</i> <span class="common-name">— Jenny mojarra</span></h2><p>57 dated specimens through 1930 + 0 undated · 5 lots · 3 sampled years · 2 regions · 56% dated with recorded coordinates</p><p>25 specimens in 3 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Eucinostomus_gula_49073.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Eucinostomus_gula_49073.jpg" alt="Eucinostomus gula — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Eucinostomus gula — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1050&amp;what=species&amp;pic=Eugul_u2.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.0902199745178223"><dt>Generation time — model (years)</dt><dd>3.09</dd></div>
@@ -2999,6 +3267,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="lutjanus apodus" data-search="lutjanus apodus schoolmaster snapper" data-order="Perciformes" data-family="Lutjanidae"><p class="taxonomy-line">Order: Perciformes · Family: Lutjanidae</p><h2><i>Lutjanus apodus</i> <span class="common-name">— Schoolmaster snapper</span></h2><p>55 dated specimens through 1930 + 2 undated · 24 lots · 5 sampled years · 2 regions · 47% dated with recorded coordinates</p><p>30 specimens in 12 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Lutjanus_apodus_10477.gif"><img class="species-photo" loading="lazy" decoding="async" src="images/Lutjanus_apodus_10477.gif" alt="Lutjanus apodus — representative species illustration (color drawing)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Lutjanus apodus — Cada, L.A., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1404&amp;what=species&amp;pic=Luapo_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">color drawing · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="6.938270092010498"><dt>Generation time — model (years)</dt><dd>6.94</dd></div>
@@ -3039,6 +3312,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="cynoscion nothus" data-search="cynoscion nothus silver seatrout" data-order="Perciformes" data-family="Sciaenidae"><p class="taxonomy-line">Order: Perciformes · Family: Sciaenidae</p><h2><i>Cynoscion nothus</i> <span class="common-name">— Silver seatrout</span></h2><p>55 dated specimens through 1930 + 0 undated · 4 lots · 2 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Cynoscion_nothus_49043.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Cynoscion_nothus_49043.jpg" alt="Cynoscion nothus — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Cynoscion nothus — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1175&amp;what=species&amp;pic=Cynot_u3.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.7563300132751465"><dt>Generation time — model (years)</dt><dd>3.76</dd></div>
@@ -3071,6 +3349,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="liparis inquilinus" data-search="liparis inquilinus inquiline snailfish" data-order="Scorpaeniformes" data-family="Liparidae"><p class="taxonomy-line">Order: Scorpaeniformes · Family: Liparidae</p><h2><i>Liparis inquilinus</i> <span class="common-name">— Inquiline snailfish</span></h2><p>55 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4195&amp;what=species&amp;pic=Liinq_u0.gif" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Liparis inquilinus — Canadian Museum of Nature, Ottawa, Canada, from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.34469398856163025"><dt>Generation time — model (years)</dt><dd>0.345</dd></div>
@@ -3107,6 +3386,11 @@
 </div></details></section>
 </article>
 <article data-species="nezumia aequalis" data-search="nezumia aequalis common atlantic grenadier" data-order="Gadiformes" data-family="Macrouridae"><p class="taxonomy-line">Order: Gadiformes · Family: Macrouridae</p><h2><i>Nezumia aequalis</i> <span class="common-name">— Common Atlantic grenadier</span></h2><p>54 dated specimens through 1930 + 0 undated · 20 lots · 6 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Nezumia_aequalis_59066.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Nezumia_aequalis_59066.jpg" alt="Nezumia aequalis — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Nezumia aequalis — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=4997&amp;what=species&amp;pic=Neaeq_u2.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.0421500205993652"><dt>Generation time — model (years)</dt><dd>5.04</dd></div>
@@ -3147,6 +3431,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="bathygobius soporator" data-search="bathygobius soporator frillfin goby" data-order="Perciformes" data-family="Gobiidae"><p class="taxonomy-line">Order: Perciformes · Family: Gobiidae</p><h2><i>Bathygobius soporator</i> <span class="common-name">— Frillfin goby</span></h2><p>53 dated specimens through 1930 + 0 undated · 22 lots · 4 sampled years · 2 regions · 53% dated with recorded coordinates</p><p>25 specimens in 10 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3837&amp;what=species&amp;pic=Basop_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Bathygobius soporator — Sazima, I., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.7180800437927246"><dt>Generation time — model (years)</dt><dd>1.72</dd></div>
@@ -3183,6 +3468,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="hygophum hygomii" data-search="hygophum hygomii bermuda lantern fish" data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Hygophum hygomii</i> <span class="common-name">— Bermuda lantern fish</span></h2><p>53 dated specimens through 1930 + 0 undated · 12 lots · 6 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1719&amp;what=species&amp;pic=Hyhyg_u1.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Hygophum hygomii — Fischer, L.G., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.760450005531311"><dt>Generation time — model (years)</dt><dd>1.76</dd></div>
@@ -3222,6 +3508,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="paralichthys dentatus" data-search="paralichthys dentatus summer flounder" data-order="Pleuronectiformes" data-family="Paralichthyidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Paralichthyidae</p><h2><i>Paralichthys dentatus</i> <span class="common-name">— Summer flounder</span></h2><p>53 dated specimens through 1930 + 0 undated · 23 lots · 9 sampled years · 2 regions · 79% dated with recorded coordinates</p><p>11 specimens in 7 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1338&amp;what=species&amp;pic=Paden_u0.jpg" target="_blank" rel="noopener noreferrer">Image source</a></p><p class="image-credit">Paralichthys dentatus — Flescher, D., from FishBase; All rights reserved</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.1849498748779297"><dt>Generation time — model (years)</dt><dd>4.18</dd></div>
@@ -3268,6 +3555,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="strongylura marina" data-search="strongylura marina atlantic needlefish" data-order="Beloniformes" data-family="Belonidae"><p class="taxonomy-line">Order: Beloniformes · Family: Belonidae</p><h2><i>Strongylura marina</i> <span class="common-name">— Atlantic needlefish</span></h2><p>51 dated specimens through 1930 + 1 undated · 11 lots · 2 sampled years · 1 regions · 46% dated with recorded coordinates</p><p>27 specimens in 3 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Strongylura_marina_51369.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Strongylura_marina_51369.jpg" alt="Strongylura marina — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Strongylura marina — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=974&amp;what=species&amp;pic=Stmar_u5.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.1110599040985107"><dt>Generation time — model (years)</dt><dd>3.11</dd></div>
@@ -3301,6 +3593,12 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="hypoclydonia bella" data-search="hypoclydonia bella blackmouth bass" data-order="Perciformes" data-family="Acropomatidae"><p class="taxonomy-line">Order: Perciformes · Family: Acropomatidae</p><h2><i>Hypoclydonia bella</i> <span class="common-name">— Blackmouth bass</span></h2><p>51 dated specimens through 1930 + 0 undated · 7 lots · 1 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Hypoclydonia_bella_59060.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Hypoclydonia_bella_59060.jpg" alt="Hypoclydonia bella — representative species illustration (photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Hypoclydonia bella — NOAA\NMFS\Mississippi Laboratory, from FishBase; CC BY-NC 4.0; source identification: Synagrops bellus<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=3311&amp;what=species&amp;pic=Sybel_u2.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">photo · Source stage: Unsexed; maturity unverified</span>
+<br>Source identification: <i>Synagrops bellus</i> (documented combination); project species name retained.
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
@@ -3332,6 +3630,7 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="prionotus martis" data-search="prionotus martis gulf of mexico barred searobin" data-order="Scorpaeniformes" data-family="Triglidae"><p class="taxonomy-line">Order: Scorpaeniformes · Family: Triglidae</p><h2><i>Prionotus martis</i> <span class="common-name">— Gulf of Mexico barred searobin</span></h2><p>51 dated specimens through 1930 + 0 undated · 6 lots · 2 sampled years · 1 regions · 96% dated with recorded coordinates</p><p>2 specimens in 1 lots use approximate display positions.</p>
+<aside class="species-image image-source-only"><p>Image catalog marks this illustration as requiring permission for reuse. <a href="https://biogeodb.stri.si.edu/caribbean/en/pages/random/5461" target="_blank" rel="noopener noreferrer">View source illustration</a></p><p class="image-credit">Prionotus martis illustration; credit FAO; source page states all rights reserved and requires permission</p></aside>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.2798800468444824"><dt>Generation time — model (years)</dt><dd>2.28</dd></div>
@@ -3363,6 +3662,11 @@
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
 <article data-species="caranx latus" data-search="caranx latus horse-eye jack" data-order="Perciformes" data-family="Carangidae"><p class="taxonomy-line">Order: Perciformes · Family: Carangidae</p><h2><i>Caranx latus</i> <span class="common-name">— Horse-eye jack</span></h2><p>50 dated specimens through 1930 + 0 undated · 8 lots · 4 sampled years · 2 regions · 84% dated with recorded coordinates</p><p>8 specimens in 4 lots use approximate display positions.</p>
+<figure class="species-image">
+<a href="images/Caranx_latus_47401.jpg"><img class="species-photo" loading="lazy" decoding="async" src="images/Caranx_latus_47401.jpg" alt="Caranx latus — representative species illustration (underwater photo)"></a>
+<p class="image-error" hidden>Image unavailable locally. Use the image source link below.</p>
+<figcaption>Caranx latus — Estrada Anaya, R.A., from FishBase; CC BY-NC 4.0<br><a href="https://www.fishbase.se/photos/PicturesSummary.php?ID=1935&amp;what=species&amp;pic=Calat_u9.jpg" target="_blank" rel="noopener noreferrer">Image source</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a><br><span class="image-stage">underwater photo · Source stage: Unsexed; maturity unverified</span>
+</figcaption></figure>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.1114001274108887"><dt>Generation time — model (years)</dt><dd>5.11</dd></div>
@@ -3404,6 +3708,14 @@
 </div></details></section>
 </article>
 <script>
+document.querySelectorAll(".species-photo").forEach(img=>{
+  const failed=()=>{img.hidden=true;img.closest("figure").querySelector(".image-error").hidden=false;};
+  img.addEventListener("error",failed);if(img.complete&&!img.naturalWidth)failed();
+});
+document.querySelectorAll(".overview-zoom").forEach(button=>button.addEventListener("click",()=>{
+  const viewport=button.nextElementSibling, enlarged=viewport.classList.toggle("enlarged");
+  button.setAttribute("aria-pressed",String(enlarged));button.textContent=enlarged?"Fit map to page":"Enlarge labels";
+}));
 document.querySelectorAll(".stage").forEach(stage=>{
   const select=stage.querySelector("select"), img=stage.querySelector(".map-view"), play=stage.querySelector(".play"), status=stage.querySelector(".map-status"), year=stage.querySelector(".year-label");
   let playing=false;

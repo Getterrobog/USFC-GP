@@ -75,6 +75,36 @@ dev.off()
 unlink(extent_plot)
 stopifnot(isTRUE(all.equal(compact_extent, c(-100, -50, 5, 60))),
           isTRUE(all.equal(wide_extent, compact_extent)))
+# The selected-year bar ends at that year's total, including unmapped specimens;
+# it must not become a full-height reference line or use another year's maximum.
+timeline_fixture <- data.frame(year = c(1900L, 1900L, 1902L, NA_integer_),
+  specimen_count = c(3, 4, 100, 50), mapped = c(TRUE, FALSE, TRUE, FALSE),
+  coordinate_approximate = FALSE, region = "Atlantic")
+timeline_env <- new.env(parent = environment(draw_frame))
+timeline_env$segments <- function(x0, y0, x1, y1, ...) {
+  timeline_env$highlight <- c(x0, y0, x1, y1)
+  graphics::segments(x0, y0, x1, y1, ...)
+}
+timeline_env$abline <- function(..., col = NULL) {
+  stopifnot(!identical(col, "#b72924"))
+  graphics::abline(..., col = col)
+}
+timeline_draw <- draw_frame
+environment(timeline_draw) <- timeline_env
+timeline_plot <- tempfile(fileext = ".png")
+png(timeline_plot, width = 960, height = 760, type = "cairo")
+for (selected_year in c(1900L, 1902L, 1901L, NA_integer_)) {
+  timeline_env$highlight <- NULL
+  timeline_draw(timeline_fixture, data.frame(), c(1900L, 1902L), selected_year,
+    "Example species", "adult", 100, atlas_config, coast = NULL)
+  if (is.na(selected_year)) stopifnot(is.null(timeline_env$highlight))
+  else {
+    expected <- c(`1900` = 7, `1902` = 100, `1901` = 0)[as.character(selected_year)]
+    stopifnot(identical(timeline_env$highlight, c(selected_year, 0, selected_year, unname(expected))))
+  }
+}
+dev.off()
+unlink(timeline_plot)
 inventory <- geographic_frame_inventory(tiny, "Example species", "adult", atlas_config)
 stopifnot(identical(inventory$label, c("1900", "Undated")),
           all(inventory$west == -100), all(inventory$east == -50),
