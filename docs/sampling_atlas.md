@@ -195,7 +195,7 @@ needed. Every selected year appears directly on a geographic map; the former
 latitude/longitude-row matrices are no longer displayed. Expand “Show all year
 maps” to see the individual PNGs together. PDFs remain optional downloads.
 
-Combine species name, minimum dated specimens, life stage, region, minimum
+Combine scientific or common name, order, family, minimum dated specimens, life stage, region, minimum
 distinct sampled years, and a coordinates-only checkbox to refine candidates.
 Counts and years are recalculated for the selected stage and region together;
 years shared by several lots or stages count once. Undated records never satisfy
@@ -206,6 +206,16 @@ The matching counts appear on each species card, and Reset restores the defaults
 Selecting a stage displays its maps. Region and coordinate filters select species;
 the maps still display that stage’s full sampling distribution. Filter aggregates
 are exported in `tables/filter_counts.csv` for inspection.
+
+Order and family headings and filters use the original catalog ranks, linked
+through audit `record_id` and checked against catalog numbers. Conflicting ranks
+stop generation; they are not silently resolved. These labels may differ from
+current classifications. Common names follow the scientific name and come from
+the cached FishBase `FBname` field, joined by the existing curated `fishbase_name`.
+Approved synonyms/proxies retain their existing match status; unresolved names
+remain unreported. No fuzzy matching or live lookup is used. The report exports
+`tables/species_taxonomy.csv` and `tables/taxonomy_input_checksums.csv`. Order and
+family require exact matches and combine with all sampling and trait criteria.
 
 The viewer also attaches the existing life-history outputs by exact project
 species name. Expand **Life-history filters** for water types, habitat tags,

@@ -1,5 +1,6 @@
 # Geographic map frames and the local map-first browsing report.
 source("Scripts/sampling_atlas_traits.R")
+source("Scripts/sampling_atlas_taxonomy.R")
 geographic_frame_inventory <- function(d, species, stage, config) {
   years <- sort(unique(na.omit(d$year)))
   cycle <- if (length(years) && config$animation_years == "all") seq(min(years), max(years)) else years
@@ -79,6 +80,8 @@ write_atlas_index <- function(manifest, summaries, config) {
   filter_counts <- atlas_filter_counts(records, unique(manifest$species), config)
   traits <- read_atlas_traits(unique(manifest$species), config)
   write_atlas_trait_tables(traits, config)
+  taxonomy <- read_atlas_taxonomy(unique(manifest$species), records, config)
+  write_atlas_taxonomy_tables(taxonomy, config)
   lines <- c('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>USFC geographic sampling atlas</title>',
     '<style>body{font:16px system-ui;margin:40px auto;max-width:1100px;padding:0 24px;color:#233342;background:#f5f7f8}h1{font-size:36px}article{background:white;padding:20px 28px;margin:20px 0;border:1px solid #d5dfe4;border-radius:8px}a{color:#175b88}img{max-width:100%;height:auto}.map-view{display:block;width:100%;background:#fff}.map-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:12px 0}.year-label{font-size:24px;font-weight:700;margin-right:auto}.map-controls button,.map-controls select{font:inherit;padding:8px 12px;border:1px solid #aabac5;border-radius:5px;background:#f7fafb;color:#233342}.map-controls button{cursor:pointer}.map-controls button:disabled{opacity:.45;cursor:default}.year-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.year-gallery figure{margin:0}.year-gallery figcaption{font-size:14px}summary{cursor:pointer;padding:12px 0}small,.map-status{color:#526171}input{font:inherit;padding:10px;width:90%}.stage{border-top:1px solid #d5dfe4;padding-top:8px;margin-top:24px}.extent{padding:12px;background:#e7f0f5;border-radius:5px}</style>',
     '<h1>USFC geographic sampling atlas</h1>',
@@ -96,11 +99,14 @@ write_atlas_index <- function(manifest, summaries, config) {
     '<p><a href="tables/life_history_traits.csv">Species traits</a> · <a href="tables/life_history_lengths.csv">Lengths by type</a> · <a href="tables/life_history_evidence.csv">Trait evidence</a> · <a href="tables/life_history_references.csv">References</a> · <a href="tables/life_history_dictionary.csv">Trait definitions</a></p>')
   else lines <- c(lines, '<p>Life-history traits have not been loaded for this build. The sampling inventory remains available.</p>')
   lines <- c(lines,
+    '<p>Order and family follow the museum catalog labels, which may differ from current classifications. Common names come from cached FishBase records using the existing curated species matches, including approved synonyms or proxies; unresolved matches remain unreported. <a href="tables/species_taxonomy.csv">Taxonomy and common-name sources</a></p>',
+    '<style>.taxonomy-line{color:#526171;font-size:14px;margin-bottom:4px}article h2{margin-top:4px;overflow-wrap:anywhere}.common-name{font-weight:400;font-size:.85em}</style>',
     '<style>[hidden]{display:none!important}.filters{padding:20px;background:#e7f0f5;border:0;border-radius:8px}.filter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}.filter-grid label{display:flex;flex-direction:column;gap:6px}.filter-grid input,.filter-grid select{box-sizing:border-box;width:100%;font:inherit;padding:9px;border:1px solid #aabac5;border-radius:4px;background:white}.filter-check{display:block;margin:18px 0}.filter-check input{width:auto}.filters button{font:inherit;padding:8px 12px;cursor:pointer}.filter-match{color:#175b88;font-weight:600}</style>',
     '<style>.map-controls label{display:flex;align-items:center;gap:8px;max-width:100%;min-width:0}.map-controls select{min-width:0;max-width:100%}</style>',
     '<style>.trait-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(210px,100%),1fr));gap:14px;margin:12px 0}.trait-grid dt{font-size:13px;color:#526171}.trait-grid dd{margin:5px 0 0;overflow-wrap:anywhere}.life-history{background:#f5f8fa;border-radius:6px;padding:16px;margin:18px 0}.life-history h3{margin:0}.trait-source-note{font-size:14px;color:#69501f}.trait-ranges{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:16px;margin-top:20px}.trait-range{min-width:0;border:1px solid #aabac5;border-radius:5px;padding:12px}.trait-range legend{font-weight:600}.trait-range label{display:flex;flex-direction:column;gap:5px}.trait-range input,.trait-range select{box-sizing:border-box;min-width:0;width:100%;font:inherit;padding:8px;border:1px solid #aabac5;border-radius:4px;background:white}.range-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}#trait-filters{border-top:1px solid #aabac5;margin-top:16px}#trait-filter-count{color:#526171;font-size:14px}#trait-range-error{color:#9b2923}.trait-range input:disabled{opacity:.5}</style>',
     '<form id="filters"><fieldset class="filters"><legend><strong>Find candidate species</strong></legend><div class="filter-grid">',
-    '<label>Species name<input id="search" type="search" placeholder="Filter species by name"></label>',
+    '<label>Scientific or common name<input id="search" type="search" placeholder="Filter species by name"></label>',
+    atlas_taxonomy_filter_html(taxonomy),
     sprintf('<label>Minimum dated specimens<input id="min-specimens" type="number" min="0" step="1" value="%s"></label>', config$min_specimens),
     '<label>Life stage<select id="life-stage"><option value="">All stages</option><option value="adult">Adult / non-larval</option><option value="larva">Larva</option><option value="mixed">Mixed</option></select></label>',
     '<label>Region<select id="region"><option value="">All regions</option><option>Atlantic</option><option>Caribbean</option><option>Gulf of Mexico</option></select></label>',
@@ -113,7 +119,8 @@ write_atlas_index <- function(manifest, summaries, config) {
   inventories <- list()
   for (species in unique(manifest$species)) {
     s <- summaries[summaries$species == species, ]
-    lines <- c(lines, sprintf('<article data-species="%s"><h2><i>%s</i></h2><p>%s dated specimens through %s + %s undated · %s lots · %s sampled years · %s regions · %.0f%% dated with recorded coordinates</p><p>%s specimens in %s lots use approximate display positions.</p>', tolower(species), species, s$eligibility_specimens, config$max_year, s$undated_specimens, s$lots, s$sampled_years, s$regions, 100 * s$mapped_fraction, s$approximate_specimens, s$approximate_lots))
+    tax <- taxonomy[match(species, taxonomy$species), ]
+    lines <- c(lines, sprintf('<article data-species="%s" data-search="%s" data-order="%s" data-family="%s">%s<p>%s dated specimens through %s + %s undated · %s lots · %s sampled years · %s regions · %.0f%% dated with recorded coordinates</p><p>%s specimens in %s lots use approximate display positions.</p>', html_escape(tolower(species)), html_escape(tolower(paste(species, tax$common_name))), html_escape(tax$order), html_escape(tax$family), atlas_taxonomy_heading_html(tax), s$eligibility_specimens, config$max_year, s$undated_specimens, s$lots, s$sampled_years, s$regions, 100 * s$mapped_fraction, s$approximate_specimens, s$approximate_lots))
     lines <- c(lines, '<p class="filter-match"></p>')
     lines <- c(lines, atlas_trait_card_html(traits$traits[match(species, traits$traits$species), ]))
     for (j in which(filter_counts$species == species)) {
@@ -185,6 +192,7 @@ function applyFilters(){
   const q=document.getElementById("search").value.trim().toLowerCase(), selectedStage=document.getElementById("life-stage").value, region=document.getElementById("region").value;
   const minimum=Math.max(0,Number(document.getElementById("min-specimens").value)||0), minimumYears=Math.max(1,Number(document.getElementById("min-years").value)||1), mapped=document.getElementById("mapped-only").checked;
   const criteria=traitCriteria();
+  const ranks=["order","family"].map(field=>({field,value:document.getElementById("taxonomy-"+field).value}));
   let visible=0;
   candidateData.forEach(candidate=>{
     const {article,records}=candidate;
@@ -193,7 +201,7 @@ function applyFilters(){
       count+=Number(mapped?r.mapped:r.specimens);
       (mapped?r.mappedYears:r.years).split(",").filter(Boolean).forEach(y=>years.add(y));
     });
-    article.hidden=!(article.dataset.species.includes(q)&&count>0&&count>=minimum&&years.size>=minimumYears&&matchesTraits(candidate,criteria));
+    article.hidden=!(article.dataset.search.includes(q)&&ranks.every(r=>!r.value||(r.value==="__missing__"?!article.dataset[r.field]:article.dataset[r.field]===r.value))&&count>0&&count>=minimum&&years.size>=minimumYears&&matchesTraits(candidate,criteria));
     if(!article.hidden)visible++;
     article.querySelector(".filter-match").textContent=count.toLocaleString()+" dated "+(mapped?"mapped ":"")+"specimens across "+years.size+" distinct year"+(years.size===1?"":"s")+" match the selected stage and region.";
     article.querySelectorAll(".stage,.empty-stage").forEach(stage=>{

@@ -25,6 +25,17 @@ record audit also retains excluded source rows, so filter `included` and
 | [review_queue.csv](review_queue.csv), [excluded_records.csv](excluded_records.csv) | Included records needing review and excluded source rows |
 | [record_disposition.csv](record_disposition.csv), [date_quality_counts.csv](date_quality_counts.csv), [stage_evidence_counts.csv](stage_evidence_counts.csv), [regional_stage_period_counts.csv](regional_stage_period_counts.csv) | Count and quality summaries |
 
+## Taxonomy and common names
+
+[species_taxonomy.csv](species_taxonomy.csv) contains one row per displayed species:
+`species`, catalog `order` and `family`, `common_name`,
+`common_name_source_species` and `common_name_match_status`. Catalog ranks are
+linked through audit row IDs with catalog-number verification; conflicting labels
+stop generation. FishBase common names come from cached `source_records/species.csv`
+using the existing curated species matches. Missing and withheld names remain blank.
+[taxonomy_input_checksums.csv](taxonomy_input_checksums.csv) fingerprints these
+sources and the R attachment module. No new taxonomic resolution is performed.
+
 ## Life-history tables
 
 - [life_history_traits.csv](life_history_traits.csv): exact species-key attachment

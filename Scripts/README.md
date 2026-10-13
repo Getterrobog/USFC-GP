@@ -52,6 +52,8 @@ These files are sourced by the runners rather than invoked as standalone builds:
   display positions, kept separate from original coordinates.
 - [sampling_atlas_report.R](sampling_atlas_report.R): annual frame inventories,
   HTML viewer and combined candidate filters.
+- [sampling_atlas_taxonomy.R](sampling_atlas_taxonomy.R): catalog order/family,
+  cached common-name attachment, taxonomy headings, filters and provenance tables.
 - [sampling_atlas_traits.R](sampling_atlas_traits.R): exact-key attachment of
   life-history outputs, length pooling by type, trait cards and filter controls.
   Refresh the atlas index after updating the trait outputs; media need not change.

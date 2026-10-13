@@ -16,13 +16,22 @@ of fish abundance or a final list of species approved for sequencing.
   counts specimens, not lots; it is not required separately in every year or stage.
 - Larvae, adult/non-larval lots and unsplit mixed lots are separate. Adult/non-larval
   includes unlabeled lots and juveniles; maturity is unverified.
-- Filter by species name, minimum dated specimens, stage, region, minimum distinct
+- Each heading lists catalog order and family before the scientific name, followed
+  by the FishBase common name when available.
+- Filter by scientific or common name, order, family, minimum dated specimens, stage, region, minimum distinct
   years and recorded-coordinate availability. Thresholds apply jointly within
   the selected stage and region. Undated specimens do not satisfy them.
 - Choose a year, use the previous/next buttons, or play a stage's GIF. GIFs advance
   through sampled years rather than implying uninterrupted annual sampling.
 - Filters select candidates; maps retain the displayed stage's full distribution.
   Undated lots have separate frames.
+
+Order and family use the museum catalog classification, which may differ from
+current classifications. Common names use the existing curated FishBase matches,
+including approved synonyms or proxies; unresolved matches stay unreported.
+Taxonomy filters combine with every other active filter. The downloadable
+[taxonomy snapshot](tables/species_taxonomy.csv) records the common-name source
+species and match status.
 
 ## Life-history information and filters
 

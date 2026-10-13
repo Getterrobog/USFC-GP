@@ -12,11 +12,76 @@
 <p><a href="selection_digest.txt">Selection digest by basin and stage</a> · <a href="tables/regional_candidates.csv">Regional candidate comparison</a></p>
 <p><strong>Life-history information:</strong> FishBase release 26.06, from the existing curated trait outputs. Model-derived ages are labelled; primary studies and regional applicability remain unreviewed. Positive water/habitat tags indicate reported associations, not exhaustive habitat limits. FishBase team; Source Cooperative snapshots; CC BY-NC 4.0.</p>
 <p><a href="tables/life_history_traits.csv">Species traits</a> · <a href="tables/life_history_lengths.csv">Lengths by type</a> · <a href="tables/life_history_evidence.csv">Trait evidence</a> · <a href="tables/life_history_references.csv">References</a> · <a href="tables/life_history_dictionary.csv">Trait definitions</a></p>
+<p>Order and family follow the museum catalog labels, which may differ from current classifications. Common names come from cached FishBase records using the existing curated species matches, including approved synonyms or proxies; unresolved matches remain unreported. <a href="tables/species_taxonomy.csv">Taxonomy and common-name sources</a></p>
+<style>.taxonomy-line{color:#526171;font-size:14px;margin-bottom:4px}article h2{margin-top:4px;overflow-wrap:anywhere}.common-name{font-weight:400;font-size:.85em}</style>
 <style>[hidden]{display:none!important}.filters{padding:20px;background:#e7f0f5;border:0;border-radius:8px}.filter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}.filter-grid label{display:flex;flex-direction:column;gap:6px}.filter-grid input,.filter-grid select{box-sizing:border-box;width:100%;font:inherit;padding:9px;border:1px solid #aabac5;border-radius:4px;background:white}.filter-check{display:block;margin:18px 0}.filter-check input{width:auto}.filters button{font:inherit;padding:8px 12px;cursor:pointer}.filter-match{color:#175b88;font-weight:600}</style>
 <style>.map-controls label{display:flex;align-items:center;gap:8px;max-width:100%;min-width:0}.map-controls select{min-width:0;max-width:100%}</style>
 <style>.trait-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(210px,100%),1fr));gap:14px;margin:12px 0}.trait-grid dt{font-size:13px;color:#526171}.trait-grid dd{margin:5px 0 0;overflow-wrap:anywhere}.life-history{background:#f5f8fa;border-radius:6px;padding:16px;margin:18px 0}.life-history h3{margin:0}.trait-source-note{font-size:14px;color:#69501f}.trait-ranges{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:16px;margin-top:20px}.trait-range{min-width:0;border:1px solid #aabac5;border-radius:5px;padding:12px}.trait-range legend{font-weight:600}.trait-range label{display:flex;flex-direction:column;gap:5px}.trait-range input,.trait-range select{box-sizing:border-box;min-width:0;width:100%;font:inherit;padding:8px;border:1px solid #aabac5;border-radius:4px;background:white}.range-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}#trait-filters{border-top:1px solid #aabac5;margin-top:16px}#trait-filter-count{color:#526171;font-size:14px}#trait-range-error{color:#9b2923}.trait-range input:disabled{opacity:.5}</style>
 <form id="filters"><fieldset class="filters"><legend><strong>Find candidate species</strong></legend><div class="filter-grid">
-<label>Species name<input id="search" type="search" placeholder="Filter species by name"></label>
+<label>Scientific or common name<input id="search" type="search" placeholder="Filter species by name"></label>
+<label>Order<select id="taxonomy-order"><option value="">All orders</option>
+<option value="Atheriniformes">Atheriniformes</option>
+<option value="Aulopiformes">Aulopiformes</option>
+<option value="Beloniformes">Beloniformes</option>
+<option value="Clupeiformes">Clupeiformes</option>
+<option value="Cyprinodontiformes">Cyprinodontiformes</option>
+<option value="Gadiformes">Gadiformes</option>
+<option value="Lophiiformes">Lophiiformes</option>
+<option value="Myctophiformes">Myctophiformes</option>
+<option value="Perciformes">Perciformes</option>
+<option value="Pleuronectiformes">Pleuronectiformes</option>
+<option value="Rajiformes">Rajiformes</option>
+<option value="Scorpaeniformes">Scorpaeniformes</option>
+<option value="Stomiiformes">Stomiiformes</option>
+<option value="Syngnathiformes">Syngnathiformes</option>
+<option value="Tetraodontiformes">Tetraodontiformes</option>
+</select></label>
+<label>Family<select id="taxonomy-family"><option value="">All families</option>
+<option value="Acropomatidae">Acropomatidae</option>
+<option value="Ammodytidae">Ammodytidae</option>
+<option value="Antennariidae">Antennariidae</option>
+<option value="Atherinidae">Atherinidae</option>
+<option value="Atherinopsidae">Atherinopsidae</option>
+<option value="Belonidae">Belonidae</option>
+<option value="Bothidae">Bothidae</option>
+<option value="Carangidae">Carangidae</option>
+<option value="Chlorophthalmidae">Chlorophthalmidae</option>
+<option value="Clupeidae">Clupeidae</option>
+<option value="Cyclopteridae">Cyclopteridae</option>
+<option value="Cynoglossidae">Cynoglossidae</option>
+<option value="Engraulidae">Engraulidae</option>
+<option value="Exocoetidae">Exocoetidae</option>
+<option value="Fundulidae">Fundulidae</option>
+<option value="Gerreidae">Gerreidae</option>
+<option value="Gobiidae">Gobiidae</option>
+<option value="Gonostomatidae">Gonostomatidae</option>
+<option value="Haemulidae">Haemulidae</option>
+<option value="Hemiramphidae">Hemiramphidae</option>
+<option value="Labridae">Labridae</option>
+<option value="Liparidae">Liparidae</option>
+<option value="Lutjanidae">Lutjanidae</option>
+<option value="Macrouridae">Macrouridae</option>
+<option value="Monacanthidae">Monacanthidae</option>
+<option value="Moridae">Moridae</option>
+<option value="Mullidae">Mullidae</option>
+<option value="Myctophidae">Myctophidae</option>
+<option value="Ogcocephalidae">Ogcocephalidae</option>
+<option value="Paralichthyidae">Paralichthyidae</option>
+<option value="Phycidae">Phycidae</option>
+<option value="Pleuronectidae">Pleuronectidae</option>
+<option value="Poeciliidae">Poeciliidae</option>
+<option value="Pomacentridae">Pomacentridae</option>
+<option value="Pomatomidae">Pomatomidae</option>
+<option value="Rajidae">Rajidae</option>
+<option value="Scaridae">Scaridae</option>
+<option value="Sciaenidae">Sciaenidae</option>
+<option value="Sebastidae">Sebastidae</option>
+<option value="Serranidae">Serranidae</option>
+<option value="Sparidae">Sparidae</option>
+<option value="Syngnathidae">Syngnathidae</option>
+<option value="Triglidae">Triglidae</option>
+<option value="Zoarcidae">Zoarcidae</option>
+</select></label>
 <label>Minimum dated specimens<input id="min-specimens" type="number" min="0" step="1" value="50"></label>
 <label>Life stage<select id="life-stage"><option value="">All stages</option><option value="adult">Adult / non-larval</option><option value="larva">Larva</option><option value="mixed">Mixed</option></select></label>
 <label>Region<select id="region"><option value="">All regions</option><option>Atlantic</option><option>Caribbean</option><option>Gulf of Mexico</option></select></label>
@@ -110,7 +175,7 @@
 <p>Filters refine the 80 eligible species using dated records through 1930. Specimen counts and distinct years must meet the thresholds within the selected stage and region together. Undated specimens do not count toward these filters.</p>
 <p>Maps show the full sampling distribution for each displayed stage, including other regions and undated frames; filtering does not change their geographic extent. Adult / non-larval maturity is unverified.</p></fieldset></form>
 <p id="result-count" role="status" aria-live="polite"></p><p id="no-results" hidden>No species match these filters. Lower the thresholds or reset the filters.</p>
-<article data-species="alosa aestivalis"><h2><i>Alosa aestivalis</i></h2><p>1493 dated specimens through 1930 + 0 undated · 82 lots · 8 sampled years · 1 regions · 69% dated with recorded coordinates</p><p>469 specimens in 34 lots use approximate display positions.</p>
+<article data-species="alosa aestivalis" data-search="alosa aestivalis blueback shad" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Alosa aestivalis</i> <span class="common-name">— Blueback shad</span></h2><p>1493 dated specimens through 1930 + 0 undated · 82 lots · 8 sampled years · 1 regions · 69% dated with recorded coordinates</p><p>469 specimens in 34 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.6968898773193359"><dt>Generation time — model (years)</dt><dd>4.7</dd></div>
@@ -153,7 +218,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="alosa pseudoharengus"><h2><i>Alosa pseudoharengus</i></h2><p>719 dated specimens through 1930 + 560 undated · 92 lots · 9 sampled years · 1 regions · 47% dated with recorded coordinates</p><p>213 specimens in 25 lots use approximate display positions.</p>
+<article data-species="alosa pseudoharengus" data-search="alosa pseudoharengus alewife" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Alosa pseudoharengus</i> <span class="common-name">— Alewife</span></h2><p>719 dated specimens through 1930 + 560 undated · 92 lots · 9 sampled years · 1 regions · 47% dated with recorded coordinates</p><p>213 specimens in 25 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.2903099060058594"><dt>Generation time — model (years)</dt><dd>2.29</dd></div>
@@ -200,7 +265,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="atherinomorus stipes"><h2><i>Atherinomorus stipes</i></h2><p>798 dated specimens through 1930 + 1 undated · 21 lots · 5 sampled years · 3 regions · 43% dated with recorded coordinates</p><p>455 specimens in 12 lots use approximate display positions.</p>
+<article data-species="atherinomorus stipes" data-search="atherinomorus stipes hardhead silverside" data-order="Atheriniformes" data-family="Atherinidae"><p class="taxonomy-line">Order: Atheriniformes · Family: Atherinidae</p><h2><i>Atherinomorus stipes</i> <span class="common-name">— Hardhead silverside</span></h2><p>798 dated specimens through 1930 + 1 undated · 21 lots · 5 sampled years · 3 regions · 43% dated with recorded coordinates</p><p>455 specimens in 12 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1363999843597412"><dt>Generation time — model (years)</dt><dd>2.14</dd></div>
@@ -248,7 +313,7 @@
 <figure><a href="species/Atherinomorus_stipes/larva_frames/year_1919.png"><img loading="lazy" width="960" height="760" src="species/Atherinomorus_stipes/larva_frames/year_1919.png" alt="Atherinomorus stipes — Larva — 1919 geographic heatmap"></a><figcaption><strong>1919</strong> · 1 specimens: 1 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="stellifer lanceolatus"><h2><i>Stellifer lanceolatus</i></h2><p>761 dated specimens through 1930 + 5 undated · 3 lots · 2 sampled years · 2 regions · 98% dated with recorded coordinates</p><p>16 specimens in 2 lots use approximate display positions.</p>
+<article data-species="stellifer lanceolatus" data-search="stellifer lanceolatus american stardrum" data-order="Perciformes" data-family="Sciaenidae"><p class="taxonomy-line">Order: Perciformes · Family: Sciaenidae</p><h2><i>Stellifer lanceolatus</i> <span class="common-name">— American stardrum</span></h2><p>761 dated specimens through 1930 + 5 undated · 3 lots · 2 sampled years · 2 regions · 98% dated with recorded coordinates</p><p>16 specimens in 2 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.3705300092697144"><dt>Generation time — model (years)</dt><dd>1.37</dd></div>
@@ -282,7 +347,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="brevoortia tyrannus"><h2><i>Brevoortia tyrannus</i></h2><p>446 dated specimens through 1930 + 258 undated · 65 lots · 12 sampled years · 1 regions · 30% dated with recorded coordinates</p><p>384 specimens in 36 lots use approximate display positions.</p>
+<article data-species="brevoortia tyrannus" data-search="brevoortia tyrannus atlantic menhaden" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Brevoortia tyrannus</i> <span class="common-name">— Atlantic menhaden</span></h2><p>446 dated specimens through 1930 + 258 undated · 65 lots · 12 sampled years · 1 regions · 30% dated with recorded coordinates</p><p>384 specimens in 36 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1005899906158447"><dt>Generation time — model (years)</dt><dd>2.1</dd></div>
@@ -335,7 +400,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="anchoa mitchilli"><h2><i>Anchoa mitchilli</i></h2><p>617 dated specimens through 1930 + 20 undated · 41 lots · 9 sampled years · 2 regions · 67% dated with recorded coordinates</p><p>190 specimens in 20 lots use approximate display positions.</p>
+<article data-species="anchoa mitchilli" data-search="anchoa mitchilli bay anchovy" data-order="Clupeiformes" data-family="Engraulidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Engraulidae</p><h2><i>Anchoa mitchilli</i> <span class="common-name">— Bay anchovy</span></h2><p>617 dated specimens through 1930 + 20 undated · 41 lots · 9 sampled years · 2 regions · 67% dated with recorded coordinates</p><p>190 specimens in 20 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.1177499294281006"><dt>Generation time — model (years)</dt><dd>3.12</dd></div>
@@ -392,7 +457,7 @@
 <figure><a href="species/Anchoa_mitchilli/larva_frames/year_1920.png"><img loading="lazy" width="960" height="760" src="species/Anchoa_mitchilli/larva_frames/year_1920.png" alt="Anchoa mitchilli — Larva — 1920 geographic heatmap"></a><figcaption><strong>1920</strong> · 1 specimens: 1 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="menidia menidia"><h2><i>Menidia menidia</i></h2><p>359 dated specimens through 1930 + 0 undated · 62 lots · 13 sampled years · 1 regions · 68% dated with recorded coordinates</p><p>114 specimens in 21 lots use approximate display positions.</p>
+<article data-species="menidia menidia" data-search="menidia menidia atlantic silverside" data-order="Atheriniformes" data-family="Atherinopsidae"><p class="taxonomy-line">Order: Atheriniformes · Family: Atherinopsidae</p><h2><i>Menidia menidia</i> <span class="common-name">— Atlantic silverside</span></h2><p>359 dated specimens through 1930 + 0 undated · 62 lots · 13 sampled years · 1 regions · 68% dated with recorded coordinates</p><p>114 specimens in 21 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.85626399517059326"><dt>Generation time — model (years)</dt><dd>0.856</dd></div>
@@ -452,7 +517,7 @@
 <figure><a href="species/Menidia_menidia/larva_frames/year_1916.png"><img loading="lazy" width="960" height="760" src="species/Menidia_menidia/larva_frames/year_1916.png" alt="Menidia menidia — Larva — 1916 geographic heatmap"></a><figcaption><strong>1916</strong> · 12 specimens: 12 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="gonichthys cocco"><h2><i>Gonichthys cocco</i></h2><p>351 dated specimens through 1930 + 3 undated · 23 lots · 2 sampled years · 2 regions · 99% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
+<article data-species="gonichthys cocco" data-search="gonichthys cocco cocco's lanternfish" data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Gonichthys cocco</i> <span class="common-name">— Cocco's lanternfish</span></h2><p>351 dated specimens through 1930 + 3 undated · 23 lots · 2 sampled years · 2 regions · 99% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.6965800523757935"><dt>Generation time — model (years)</dt><dd>1.7</dd></div>
@@ -486,7 +551,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="jenkinsia stolifera"><h2><i>Jenkinsia stolifera</i></h2><p>344 dated specimens through 1930 + 0 undated · 11 lots · 3 sampled years · 3 regions · 7% dated with recorded coordinates</p><p>319 specimens in 10 lots use approximate display positions.</p>
+<article data-species="jenkinsia stolifera" data-search="jenkinsia stolifera florida round herring" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Jenkinsia stolifera</i> <span class="common-name">— Florida round herring</span></h2><p>344 dated specimens through 1930 + 0 undated · 11 lots · 3 sampled years · 3 regions · 7% dated with recorded coordinates</p><p>319 specimens in 10 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.32238999009132385"><dt>Generation time — model (years)</dt><dd>0.322</dd></div>
@@ -521,7 +586,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="citharichthys arctifrons"><h2><i>Citharichthys arctifrons</i></h2><p>282 dated specimens through 1930 + 0 undated · 39 lots · 10 sampled years · 2 regions · 85% dated with recorded coordinates</p><p>43 specimens in 4 lots use approximate display positions.</p>
+<article data-species="citharichthys arctifrons" data-search="citharichthys arctifrons gulf stream flounder" data-order="Pleuronectiformes" data-family="Paralichthyidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Paralichthyidae</p><h2><i>Citharichthys arctifrons</i> <span class="common-name">— Gulf Stream flounder</span></h2><p>282 dated specimens through 1930 + 0 undated · 39 lots · 10 sampled years · 2 regions · 85% dated with recorded coordinates</p><p>43 specimens in 4 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.0533699989318848"><dt>Generation time — model (years)</dt><dd>1.05</dd></div>
@@ -576,7 +641,7 @@
 <figure><a href="species/Citharichthys_arctifrons/larva_frames/year_1913.png"><img loading="lazy" width="960" height="760" src="species/Citharichthys_arctifrons/larva_frames/year_1913.png" alt="Citharichthys arctifrons — Larva — 1913 geographic heatmap"></a><figcaption><strong>1913</strong> · 60 specimens: 60 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="gambusia affinis"><h2><i>Gambusia affinis</i></h2><p>281 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="gambusia affinis" data-search="gambusia affinis mosquitofish" data-order="Cyprinodontiformes" data-family="Poeciliidae"><p class="taxonomy-line">Order: Cyprinodontiformes · Family: Poeciliidae</p><h2><i>Gambusia affinis</i> <span class="common-name">— Mosquitofish</span></h2><p>281 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.5287100076675415"><dt>Generation time — model (years)</dt><dd>1.53</dd></div>
@@ -608,7 +673,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="poecilia vivipara"><h2><i>Poecilia vivipara</i></h2><p>254 dated specimens through 1930 + 0 undated · 5 lots · 1 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="poecilia vivipara" data-search="poecilia vivipara eye spot toothcarp" data-order="Cyprinodontiformes" data-family="Poeciliidae"><p class="taxonomy-line">Order: Cyprinodontiformes · Family: Poeciliidae</p><h2><i>Poecilia vivipara</i> <span class="common-name">— Eye spot toothcarp</span></h2><p>254 dated specimens through 1930 + 0 undated · 5 lots · 1 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.7407000064849854"><dt>Generation time — model (years)</dt><dd>2.74</dd></div>
@@ -637,7 +702,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="exocoetus volitans"><h2><i>Exocoetus volitans</i></h2><p>239 dated specimens through 1930 + 10 undated · 43 lots · 8 sampled years · 3 regions · 79% dated with recorded coordinates</p><p>52 specimens in 17 lots use approximate display positions.</p>
+<article data-species="exocoetus volitans" data-search="exocoetus volitans tropical two-wing flyingfish" data-order="Beloniformes" data-family="Exocoetidae"><p class="taxonomy-line">Order: Beloniformes · Family: Exocoetidae</p><h2><i>Exocoetus volitans</i> <span class="common-name">— Tropical two-wing flyingfish</span></h2><p>239 dated specimens through 1930 + 10 undated · 43 lots · 8 sampled years · 3 regions · 79% dated with recorded coordinates</p><p>52 specimens in 17 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.78730899095535278"><dt>Generation time — model (years)</dt><dd>0.787</dd></div>
@@ -703,7 +768,7 @@
 <figure><a href="species/Exocoetus_volitans/mixed_frames/year_1914.png"><img loading="lazy" width="960" height="760" src="species/Exocoetus_volitans/mixed_frames/year_1914.png" alt="Exocoetus volitans — Mixed larvae + non-larvae (unsplit) — 1914 geographic heatmap"></a><figcaption><strong>1914</strong> · 55 specimens: 49 recorded coordinates, 6 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="bothus ocellatus"><h2><i>Bothus ocellatus</i></h2><p>236 dated specimens through 1930 + 0 undated · 60 lots · 9 sampled years · 3 regions · 96% dated with recorded coordinates</p><p>10 specimens in 3 lots use approximate display positions.</p>
+<article data-species="bothus ocellatus" data-search="bothus ocellatus eyed flounder" data-order="Pleuronectiformes" data-family="Bothidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Bothidae</p><h2><i>Bothus ocellatus</i> <span class="common-name">— Eyed flounder</span></h2><p>236 dated specimens through 1930 + 0 undated · 60 lots · 9 sampled years · 3 regions · 96% dated with recorded coordinates</p><p>10 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.1086201667785645"><dt>Generation time — model (years)</dt><dd>4.11</dd></div>
@@ -763,7 +828,7 @@
 <figure><a href="species/Bothus_ocellatus/larva_frames/year_1919.png"><img loading="lazy" width="960" height="760" src="species/Bothus_ocellatus/larva_frames/year_1919.png" alt="Bothus ocellatus — Larva — 1919 geographic heatmap"></a><figcaption><strong>1919</strong> · 75 specimens: 75 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="monacanthus ciliatus"><h2><i>Monacanthus ciliatus</i></h2><p>221 dated specimens through 1930 + 2 undated · 70 lots · 6 sampled years · 3 regions · 91% dated with recorded coordinates</p><p>19 specimens in 12 lots use approximate display positions.</p>
+<article data-species="monacanthus ciliatus" data-search="monacanthus ciliatus fringed filefish" data-order="Tetraodontiformes" data-family="Monacanthidae"><p class="taxonomy-line">Order: Tetraodontiformes · Family: Monacanthidae</p><h2><i>Monacanthus ciliatus</i> <span class="common-name">— Fringed filefish</span></h2><p>221 dated specimens through 1930 + 2 undated · 70 lots · 6 sampled years · 3 regions · 91% dated with recorded coordinates</p><p>19 specimens in 12 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1056399345397949"><dt>Generation time — model (years)</dt><dd>2.11</dd></div>
@@ -806,7 +871,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="fundulus similis"><h2><i>Fundulus similis</i></h2><p>222 dated specimens through 1930 + 0 undated · 12 lots · 3 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="fundulus similis" data-search="fundulus similis longnose killifish" data-order="Cyprinodontiformes" data-family="Fundulidae"><p class="taxonomy-line">Order: Cyprinodontiformes · Family: Fundulidae</p><h2><i>Fundulus similis</i> <span class="common-name">— Longnose killifish</span></h2><p>222 dated specimens through 1930 + 0 undated · 12 lots · 3 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.7508200407028198"><dt>Generation time — model (years)</dt><dd>1.75</dd></div>
@@ -839,7 +904,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="jenkinsia lamprotaenia"><h2><i>Jenkinsia lamprotaenia</i></h2><p>220 dated specimens through 1930 + 0 undated · 8 lots · 3 sampled years · 2 regions · 17% dated with recorded coordinates</p><p>183 specimens in 4 lots use approximate display positions.</p>
+<article data-species="jenkinsia lamprotaenia" data-search="jenkinsia lamprotaenia dwarf round herring" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Jenkinsia lamprotaenia</i> <span class="common-name">— Dwarf round herring</span></h2><p>220 dated specimens through 1930 + 0 undated · 8 lots · 3 sampled years · 2 regions · 17% dated with recorded coordinates</p><p>183 specimens in 4 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.37334200739860535"><dt>Generation time — model (years)</dt><dd>0.373</dd></div>
@@ -873,7 +938,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="anchoa colonensis"><h2><i>Anchoa colonensis</i></h2><p>211 dated specimens through 1930 + 0 undated · 5 lots · 1 sampled years · 1 regions · 0% dated with recorded coordinates</p><p>211 specimens in 5 lots use approximate display positions.</p>
+<article data-species="anchoa colonensis" data-search="anchoa colonensis narrow-striped anchovy" data-order="Clupeiformes" data-family="Engraulidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Engraulidae</p><h2><i>Anchoa colonensis</i> <span class="common-name">— Narrow-striped anchovy</span></h2><p>211 dated specimens through 1930 + 0 undated · 5 lots · 1 sampled years · 1 regions · 0% dated with recorded coordinates</p><p>211 specimens in 5 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.2230299711227417"><dt>Generation time — model (years)</dt><dd>1.22</dd></div>
@@ -902,7 +967,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="anchoa cayorum"><h2><i>Anchoa cayorum</i></h2><p>206 dated specimens through 1930 + 2 undated · 11 lots · 3 sampled years · 3 regions · 74% dated with recorded coordinates</p><p>53 specimens in 3 lots use approximate display positions.</p>
+<article data-species="anchoa cayorum" data-search="anchoa cayorum key anchovy" data-order="Clupeiformes" data-family="Engraulidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Engraulidae</p><h2><i>Anchoa cayorum</i> <span class="common-name">— Key anchovy</span></h2><p>206 dated specimens through 1930 + 2 undated · 11 lots · 3 sampled years · 3 regions · 74% dated with recorded coordinates</p><p>53 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.023859977722168"><dt>Generation time — model (years)</dt><dd>1.02</dd></div>
@@ -939,7 +1004,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="fenestraja plutonia"><h2><i>Fenestraja plutonia</i></h2><p>202 dated specimens through 1930 + 0 undated · 14 lots · 3 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="fenestraja plutonia" data-search="fenestraja plutonia pluto skate" data-order="Rajiformes" data-family="Rajidae"><p class="taxonomy-line">Order: Rajiformes · Family: Rajidae</p><h2><i>Fenestraja plutonia</i> <span class="common-name">— Pluto skate</span></h2><p>202 dated specimens through 1930 + 0 undated · 14 lots · 3 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
@@ -973,7 +1038,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="centropristis striata"><h2><i>Centropristis striata</i></h2><p>200 dated specimens through 1930 + 0 undated · 24 lots · 10 sampled years · 1 regions · 96% dated with recorded coordinates</p><p>9 specimens in 3 lots use approximate display positions.</p>
+<article data-species="centropristis striata" data-search="centropristis striata black seabass" data-order="Perciformes" data-family="Serranidae"><p class="taxonomy-line">Order: Perciformes · Family: Serranidae</p><h2><i>Centropristis striata</i> <span class="common-name">— Black seabass</span></h2><p>200 dated specimens through 1930 + 0 undated · 24 lots · 10 sampled years · 1 regions · 96% dated with recorded coordinates</p><p>9 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1244499683380127"><dt>Generation time — model (years)</dt><dd>2.12</dd></div>
@@ -1020,7 +1085,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="cyclothone microdon"><h2><i>Cyclothone microdon</i></h2><p>191 dated specimens through 1930 + 0 undated · 31 lots · 7 sampled years · 3 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="cyclothone microdon" data-search="cyclothone microdon veiled anglemouth" data-order="Stomiiformes" data-family="Gonostomatidae"><p class="taxonomy-line">Order: Stomiiformes · Family: Gonostomatidae</p><h2><i>Cyclothone microdon</i> <span class="common-name">— Veiled anglemouth</span></h2><p>191 dated specimens through 1930 + 0 undated · 31 lots · 7 sampled years · 3 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.425279974937439"><dt>Generation time — model (years)</dt><dd>1.43</dd></div>
@@ -1068,7 +1133,7 @@
 <figure><a href="species/Cyclothone_microdon/larva_frames/year_1919.png"><img loading="lazy" width="960" height="760" src="species/Cyclothone_microdon/larva_frames/year_1919.png" alt="Cyclothone microdon — Larva — 1919 geographic heatmap"></a><figcaption><strong>1919</strong> · 47 specimens: 47 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="glyptocephalus cynoglossus"><h2><i>Glyptocephalus cynoglossus</i></h2><p>139 dated specimens through 1930 + 39 undated · 87 lots · 8 sampled years · 1 regions · 77% dated with recorded coordinates</p><p>32 specimens in 5 lots use approximate display positions.</p>
+<article data-species="glyptocephalus cynoglossus" data-search="glyptocephalus cynoglossus witch flounder" data-order="Pleuronectiformes" data-family="Pleuronectidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Pleuronectidae</p><h2><i>Glyptocephalus cynoglossus</i> <span class="common-name">— Witch flounder</span></h2><p>139 dated specimens through 1930 + 39 undated · 87 lots · 8 sampled years · 1 regions · 77% dated with recorded coordinates</p><p>32 specimens in 5 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="8.9554300308227539"><dt>Generation time — model (years)</dt><dd>8.96</dd></div>
@@ -1113,7 +1178,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="syngnathus fuscus"><h2><i>Syngnathus fuscus</i></h2><p>173 dated specimens through 1930 + 1 undated · 32 lots · 10 sampled years · 1 regions · 95% dated with recorded coordinates</p><p>9 specimens in 7 lots use approximate display positions.</p>
+<article data-species="syngnathus fuscus" data-search="syngnathus fuscus northern pipefish" data-order="Syngnathiformes" data-family="Syngnathidae"><p class="taxonomy-line">Order: Syngnathiformes · Family: Syngnathidae</p><h2><i>Syngnathus fuscus</i> <span class="common-name">— Northern pipefish</span></h2><p>173 dated specimens through 1930 + 1 undated · 32 lots · 10 sampled years · 1 regions · 95% dated with recorded coordinates</p><p>9 specimens in 7 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.6715500354766846"><dt>Generation time — model (years)</dt><dd>1.67</dd></div>
@@ -1162,7 +1227,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="pomatomus saltatrix"><h2><i>Pomatomus saltatrix</i></h2><p>161 dated specimens through 1930 + 10 undated · 3 lots · 2 sampled years · 1 regions · 91% dated with recorded coordinates</p><p>5 specimens in 1 lots use approximate display positions.</p>
+<article data-species="pomatomus saltatrix" data-search="pomatomus saltatrix bluefish" data-order="Perciformes" data-family="Pomatomidae"><p class="taxonomy-line">Order: Perciformes · Family: Pomatomidae</p><h2><i>Pomatomus saltatrix</i> <span class="common-name">— Bluefish</span></h2><p>161 dated specimens through 1930 + 10 undated · 3 lots · 2 sampled years · 1 regions · 91% dated with recorded coordinates</p><p>5 specimens in 1 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5485999584197998"><dt>Generation time — model (years)</dt><dd>2.55</dd></div>
@@ -1200,7 +1265,7 @@
 <figure><a href="species/Pomatomus_saltatrix/larva_frames/undated.png"><img loading="lazy" width="960" height="760" src="species/Pomatomus_saltatrix/larva_frames/undated.png" alt="Pomatomus saltatrix — Larva — Undated geographic heatmap"></a><figcaption><strong>Undated</strong> · 10 specimens: 10 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="membras martinica"><h2><i>Membras martinica</i></h2><p>161 dated specimens through 1930 + 0 undated · 13 lots · 5 sampled years · 1 regions · 80% dated with recorded coordinates</p><p>32 specimens in 5 lots use approximate display positions.</p>
+<article data-species="membras martinica" data-search="membras martinica rough silverside" data-order="Atheriniformes" data-family="Atherinopsidae"><p class="taxonomy-line">Order: Atheriniformes · Family: Atherinopsidae</p><h2><i>Membras martinica</i> <span class="common-name">— Rough silverside</span></h2><p>161 dated specimens through 1930 + 0 undated · 13 lots · 5 sampled years · 1 regions · 80% dated with recorded coordinates</p><p>32 specimens in 5 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.97648698091506958"><dt>Generation time — model (years)</dt><dd>0.976</dd></div>
@@ -1237,7 +1302,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="decapterus punctatus"><h2><i>Decapterus punctatus</i></h2><p>150 dated specimens through 1930 + 6 undated · 13 lots · 3 sampled years · 1 regions · 84% dated with recorded coordinates</p><p>25 specimens in 6 lots use approximate display positions.</p>
+<article data-species="decapterus punctatus" data-search="decapterus punctatus round scad" data-order="Perciformes" data-family="Carangidae"><p class="taxonomy-line">Order: Perciformes · Family: Carangidae</p><h2><i>Decapterus punctatus</i> <span class="common-name">— Round scad</span></h2><p>150 dated specimens through 1930 + 6 undated · 13 lots · 3 sampled years · 1 regions · 84% dated with recorded coordinates</p><p>25 specimens in 6 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.49534010887146"><dt>Generation time — model (years)</dt><dd>2.5</dd></div>
@@ -1279,7 +1344,7 @@
 <figure><a href="species/Decapterus_punctatus/larva_frames/year_1914.png"><img loading="lazy" width="960" height="760" src="species/Decapterus_punctatus/larva_frames/year_1914.png" alt="Decapterus punctatus — Larva — 1914 geographic heatmap"></a><figcaption><strong>1914</strong> · 1 specimens: 0 recorded coordinates, 1 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="nezumia bairdii"><h2><i>Nezumia bairdii</i></h2><p>141 dated specimens through 1930 + 3 undated · 71 lots · 8 sampled years · 2 regions · 94% dated with recorded coordinates</p><p>5 specimens in 3 lots use approximate display positions.</p>
+<article data-species="nezumia bairdii" data-search="nezumia bairdii marlin-spike grenadier" data-order="Gadiformes" data-family="Macrouridae"><p class="taxonomy-line">Order: Gadiformes · Family: Macrouridae</p><h2><i>Nezumia bairdii</i> <span class="common-name">— Marlin-spike grenadier</span></h2><p>141 dated specimens through 1930 + 3 undated · 71 lots · 8 sampled years · 2 regions · 94% dated with recorded coordinates</p><p>5 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.1977701187133789"><dt>Generation time — model (years)</dt><dd>3.2</dd></div>
@@ -1325,7 +1390,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="laemonema barbatulum"><h2><i>Laemonema barbatulum</i></h2><p>135 dated specimens through 1930 + 0 undated · 18 lots · 4 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="laemonema barbatulum" data-search="laemonema barbatulum shortbeard codling" data-order="Gadiformes" data-family="Moridae"><p class="taxonomy-line">Order: Gadiformes · Family: Moridae</p><h2><i>Laemonema barbatulum</i> <span class="common-name">— Shortbeard codling</span></h2><p>135 dated specimens through 1930 + 0 undated · 18 lots · 4 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.3049502372741699"><dt>Generation time — model (years)</dt><dd>5.3</dd></div>
@@ -1360,7 +1425,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="lagodon rhomboides"><h2><i>Lagodon rhomboides</i></h2><p>132 dated specimens through 1930 + 1 undated · 21 lots · 8 sampled years · 2 regions · 91% dated with recorded coordinates</p><p>12 specimens in 3 lots use approximate display positions.</p>
+<article data-species="lagodon rhomboides" data-search="lagodon rhomboides pinfish" data-order="Perciformes" data-family="Sparidae"><p class="taxonomy-line">Order: Perciformes · Family: Sparidae</p><h2><i>Lagodon rhomboides</i> <span class="common-name">— Pinfish</span></h2><p>132 dated specimens through 1930 + 1 undated · 21 lots · 8 sampled years · 2 regions · 91% dated with recorded coordinates</p><p>12 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5336999893188477"><dt>Generation time — model (years)</dt><dd>2.53</dd></div>
@@ -1406,7 +1471,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="chloroscombrus chrysurus"><h2><i>Chloroscombrus chrysurus</i></h2><p>123 dated specimens through 1930 + 0 undated · 12 lots · 5 sampled years · 3 regions · 89% dated with recorded coordinates</p><p>14 specimens in 4 lots use approximate display positions.</p>
+<article data-species="chloroscombrus chrysurus" data-search="chloroscombrus chrysurus atlantic bumper" data-order="Perciformes" data-family="Carangidae"><p class="taxonomy-line">Order: Perciformes · Family: Carangidae</p><h2><i>Chloroscombrus chrysurus</i> <span class="common-name">— Atlantic bumper</span></h2><p>123 dated specimens through 1930 + 0 undated · 12 lots · 5 sampled years · 3 regions · 89% dated with recorded coordinates</p><p>14 specimens in 4 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.4310100078582764"><dt>Generation time — model (years)</dt><dd>1.43</dd></div>
@@ -1454,7 +1519,7 @@
 <figure><a href="species/Chloroscombrus_chrysurus/larva_frames/year_1915.png"><img loading="lazy" width="960" height="760" src="species/Chloroscombrus_chrysurus/larva_frames/year_1915.png" alt="Chloroscombrus chrysurus — Larva — 1915 geographic heatmap"></a><figcaption><strong>1915</strong> · 2 specimens: 2 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="haemulon aurolineatum"><h2><i>Haemulon aurolineatum</i></h2><p>121 dated specimens through 1930 + 1 undated · 25 lots · 12 sampled years · 3 regions · 66% dated with recorded coordinates</p><p>41 specimens in 9 lots use approximate display positions.</p>
+<article data-species="haemulon aurolineatum" data-search="haemulon aurolineatum tomtate grunt" data-order="Perciformes" data-family="Haemulidae"><p class="taxonomy-line">Order: Perciformes · Family: Haemulidae</p><h2><i>Haemulon aurolineatum</i> <span class="common-name">— Tomtate grunt</span></h2><p>121 dated specimens through 1930 + 1 undated · 25 lots · 12 sampled years · 3 regions · 66% dated with recorded coordinates</p><p>41 specimens in 9 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.9843997955322266"><dt>Generation time — model (years)</dt><dd>5.98</dd></div>
@@ -1509,7 +1574,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="etropus crossotus"><h2><i>Etropus crossotus</i></h2><p>121 dated specimens through 1930 + 0 undated · 27 lots · 8 sampled years · 3 regions · 33% dated with recorded coordinates</p><p>81 specimens in 8 lots use approximate display positions.</p>
+<article data-species="etropus crossotus" data-search="etropus crossotus fringed flounder" data-order="Pleuronectiformes" data-family="Paralichthyidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Paralichthyidae</p><h2><i>Etropus crossotus</i> <span class="common-name">— Fringed flounder</span></h2><p>121 dated specimens through 1930 + 0 undated · 27 lots · 8 sampled years · 3 regions · 33% dated with recorded coordinates</p><p>81 specimens in 8 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.56110298633575439"><dt>Generation time — model (years)</dt><dd>0.561</dd></div>
@@ -1554,7 +1619,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="fundulus heteroclitus"><h2><i>Fundulus heteroclitus</i></h2><p>110 dated specimens through 1930 + 10 undated · 15 lots · 6 sampled years · 2 regions · 92% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="fundulus heteroclitus" data-search="fundulus heteroclitus mummichog" data-order="Cyprinodontiformes" data-family="Fundulidae"><p class="taxonomy-line">Order: Cyprinodontiformes · Family: Fundulidae</p><h2><i>Fundulus heteroclitus</i> <span class="common-name">— Mummichog</span></h2><p>110 dated specimens through 1930 + 10 undated · 15 lots · 6 sampled years · 2 regions · 92% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.5272599458694458"><dt>Generation time — model (years)</dt><dd>1.53</dd></div>
@@ -1596,7 +1661,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="atherina harringtonensis"><h2><i>Atherina harringtonensis</i></h2><p>78 dated specimens through 1930 + 36 undated · 7 lots · 1 sampled years · 2 regions · 0% dated with recorded coordinates</p><p>114 specimens in 7 lots use approximate display positions.</p>
+<article data-species="atherina harringtonensis" data-search="atherina harringtonensis reef silverside" data-order="Atheriniformes" data-family="Atherinidae"><p class="taxonomy-line">Order: Atheriniformes · Family: Atherinidae</p><h2><i>Atherina harringtonensis</i> <span class="common-name">— Reef silverside</span></h2><p>78 dated specimens through 1930 + 36 undated · 7 lots · 1 sampled years · 2 regions · 0% dated with recorded coordinates</p><p>114 specimens in 7 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1363999843597412"><dt>Generation time — model (years)</dt><dd>2.14</dd></div>
@@ -1628,7 +1693,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="stephanolepis hispida"><h2><i>Stephanolepis hispida</i></h2><p>111 dated specimens through 1930 + 0 undated · 28 lots · 10 sampled years · 2 regions · 40% dated with recorded coordinates</p><p>67 specimens in 13 lots use approximate display positions.</p>
+<article data-species="stephanolepis hispida" data-search="stephanolepis hispida planehead filefish" data-order="Tetraodontiformes" data-family="Monacanthidae"><p class="taxonomy-line">Order: Tetraodontiformes · Family: Monacanthidae</p><h2><i>Stephanolepis hispida</i> <span class="common-name">— Planehead filefish</span></h2><p>111 dated specimens through 1930 + 0 undated · 28 lots · 10 sampled years · 2 regions · 40% dated with recorded coordinates</p><p>67 specimens in 13 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.0224499702453613"><dt>Generation time — model (years)</dt><dd>2.02</dd></div>
@@ -1685,7 +1750,7 @@
 <figure><a href="species/Stephanolepis_hispida/larva_frames/year_1914.png"><img loading="lazy" width="960" height="760" src="species/Stephanolepis_hispida/larva_frames/year_1914.png" alt="Stephanolepis hispida — Larva — 1914 geographic heatmap"></a><figcaption><strong>1914</strong> · 13 specimens: 1 recorded coordinates, 12 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="histrio histrio"><h2><i>Histrio histrio</i></h2><p>105 dated specimens through 1930 + 0 undated · 29 lots · 7 sampled years · 3 regions · 94% dated with recorded coordinates</p><p>6 specimens in 1 lots use approximate display positions.</p>
+<article data-species="histrio histrio" data-search="histrio histrio sargassumfish" data-order="Lophiiformes" data-family="Antennariidae"><p class="taxonomy-line">Order: Lophiiformes · Family: Antennariidae</p><h2><i>Histrio histrio</i> <span class="common-name">— Sargassumfish</span></h2><p>105 dated specimens through 1930 + 0 undated · 29 lots · 7 sampled years · 3 regions · 94% dated with recorded coordinates</p><p>6 specimens in 1 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
@@ -1735,7 +1800,7 @@
 <figure><a href="species/Histrio_histrio/larva_frames/year_1919.png"><img loading="lazy" width="960" height="760" src="species/Histrio_histrio/larva_frames/year_1919.png" alt="Histrio histrio — Larva — 1919 geographic heatmap"></a><figcaption><strong>1919</strong> · 1 specimens: 1 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="hyporhamphus unifasciatus"><h2><i>Hyporhamphus unifasciatus</i></h2><p>101 dated specimens through 1930 + 3 undated · 28 lots · 8 sampled years · 3 regions · 59% dated with recorded coordinates</p><p>43 specimens in 14 lots use approximate display positions.</p>
+<article data-species="hyporhamphus unifasciatus" data-search="hyporhamphus unifasciatus common halfbeak" data-order="Beloniformes" data-family="Hemiramphidae"><p class="taxonomy-line">Order: Beloniformes · Family: Hemiramphidae</p><h2><i>Hyporhamphus unifasciatus</i> <span class="common-name">— Common halfbeak</span></h2><p>101 dated specimens through 1930 + 3 undated · 28 lots · 8 sampled years · 3 regions · 59% dated with recorded coordinates</p><p>43 specimens in 14 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.74948298931121826"><dt>Generation time — model (years)</dt><dd>0.749</dd></div>
@@ -1786,7 +1851,7 @@
 <figure><a href="species/Hyporhamphus_unifasciatus/larva_frames/year_1920.png"><img loading="lazy" width="960" height="760" src="species/Hyporhamphus_unifasciatus/larva_frames/year_1920.png" alt="Hyporhamphus unifasciatus — Larva — 1920 geographic heatmap"></a><figcaption><strong>1920</strong> · 2 specimens: 0 recorded coordinates, 2 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="tautogolabrus adspersus"><h2><i>Tautogolabrus adspersus</i></h2><p>103 dated specimens through 1930 + 0 undated · 22 lots · 3 sampled years · 1 regions · 83% dated with recorded coordinates</p><p>18 specimens in 2 lots use approximate display positions.</p>
+<article data-species="tautogolabrus adspersus" data-search="tautogolabrus adspersus cunner" data-order="Perciformes" data-family="Labridae"><p class="taxonomy-line">Order: Perciformes · Family: Labridae</p><h2><i>Tautogolabrus adspersus</i> <span class="common-name">— Cunner</span></h2><p>103 dated specimens through 1930 + 0 undated · 22 lots · 3 sampled years · 1 regions · 83% dated with recorded coordinates</p><p>18 specimens in 2 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.9210898876190186"><dt>Generation time — model (years)</dt><dd>3.92</dd></div>
@@ -1819,7 +1884,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="clupea harengus"><h2><i>Clupea harengus</i></h2><p>51 dated specimens through 1930 + 50 undated · 3 lots · 2 sampled years · 1 regions · 0% dated with recorded coordinates</p><p>101 specimens in 3 lots use approximate display positions.</p>
+<article data-species="clupea harengus" data-search="clupea harengus atlantic herring" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Clupea harengus</i> <span class="common-name">— Atlantic herring</span></h2><p>51 dated specimens through 1930 + 50 undated · 3 lots · 2 sampled years · 1 regions · 0% dated with recorded coordinates</p><p>101 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.3644399642944336"><dt>Generation time — model (years)</dt><dd>3.36</dd></div>
@@ -1852,7 +1917,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="myctophum affine"><h2><i>Myctophum affine</i></h2><p>101 dated specimens through 1930 + 0 undated · 9 lots · 3 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="myctophum affine" data-search="myctophum affine metallic lantern fish" data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Myctophum affine</i> <span class="common-name">— Metallic lantern fish</span></h2><p>101 dated specimens through 1930 + 0 undated · 9 lots · 3 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.0866599082946777"><dt>Generation time — model (years)</dt><dd>2.09</dd></div>
@@ -1892,7 +1957,7 @@
 <figure><a href="species/Myctophum_affine/larva_frames/year_1885.png"><img loading="lazy" width="960" height="760" src="species/Myctophum_affine/larva_frames/year_1885.png" alt="Myctophum affine — Larva — 1885 geographic heatmap"></a><figcaption><strong>1885</strong> · 3 specimens: 3 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="dibranchus atlanticus"><h2><i>Dibranchus atlanticus</i></h2><p>98 dated specimens through 1930 + 0 undated · 37 lots · 7 sampled years · 3 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="dibranchus atlanticus" data-search="dibranchus atlanticus atlantic batfish" data-order="Lophiiformes" data-family="Ogcocephalidae"><p class="taxonomy-line">Order: Lophiiformes · Family: Ogcocephalidae</p><h2><i>Dibranchus atlanticus</i> <span class="common-name">— Atlantic batfish</span></h2><p>98 dated specimens through 1930 + 0 undated · 37 lots · 7 sampled years · 3 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="6.8063998222351074"><dt>Generation time — model (years)</dt><dd>6.81</dd></div>
@@ -1935,7 +2000,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="ammodytes dubius"><h2><i>Ammodytes dubius</i></h2><p>92 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="ammodytes dubius" data-search="ammodytes dubius northern sand lance" data-order="Perciformes" data-family="Ammodytidae"><p class="taxonomy-line">Order: Perciformes · Family: Ammodytidae</p><h2><i>Ammodytes dubius</i> <span class="common-name">— Northern sand lance</span></h2><p>92 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.9652500152587891"><dt>Generation time — model (years)</dt><dd>2.97</dd></div>
@@ -1966,7 +2031,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="harengula humeralis"><h2><i>Harengula humeralis</i></h2><p>92 dated specimens through 1930 + 0 undated · 11 lots · 6 sampled years · 2 regions · 10% dated with recorded coordinates</p><p>83 specimens in 10 lots use approximate display positions.</p>
+<article data-species="harengula humeralis" data-search="harengula humeralis redear herring" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Harengula humeralis</i> <span class="common-name">— Redear herring</span></h2><p>92 dated specimens through 1930 + 0 undated · 11 lots · 6 sampled years · 2 regions · 10% dated with recorded coordinates</p><p>83 specimens in 10 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.0484600067138672"><dt>Generation time — model (years)</dt><dd>1.05</dd></div>
@@ -2006,7 +2071,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="gobiosoma ginsburgi"><h2><i>Gobiosoma ginsburgi</i></h2><p>90 dated specimens through 1930 + 1 undated · 12 lots · 5 sampled years · 1 regions · 98% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
+<article data-species="gobiosoma ginsburgi" data-search="gobiosoma ginsburgi seaboard goby" data-order="Perciformes" data-family="Gobiidae"><p class="taxonomy-line">Order: Perciformes · Family: Gobiidae</p><h2><i>Gobiosoma ginsburgi</i> <span class="common-name">— Seaboard goby</span></h2><p>90 dated specimens through 1930 + 1 undated · 12 lots · 5 sampled years · 1 regions · 98% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.0432800054550171"><dt>Generation time — model (years)</dt><dd>1.04</dd></div>
@@ -2045,7 +2110,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="syacium papillosum"><h2><i>Syacium papillosum</i></h2><p>90 dated specimens through 1930 + 0 undated · 8 lots · 2 sampled years · 1 regions · 51% dated with recorded coordinates</p><p>44 specimens in 3 lots use approximate display positions.</p>
+<article data-species="syacium papillosum" data-search="syacium papillosum dusky flounder" data-order="Pleuronectiformes" data-family="Paralichthyidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Paralichthyidae</p><h2><i>Syacium papillosum</i> <span class="common-name">— Dusky flounder</span></h2><p>90 dated specimens through 1930 + 0 undated · 8 lots · 2 sampled years · 1 regions · 51% dated with recorded coordinates</p><p>44 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.2687000036239624"><dt>Generation time — model (years)</dt><dd>1.27</dd></div>
@@ -2076,7 +2141,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="helicolenus maderensis"><h2><i>Helicolenus maderensis</i></h2><p>86 dated specimens through 1930 + 0 undated · 20 lots · 6 sampled years · 2 regions · 99% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
+<article data-species="helicolenus maderensis" data-search="helicolenus maderensis blackbelly rosefish" data-order="Scorpaeniformes" data-family="Sebastidae"><p class="taxonomy-line">Order: Scorpaeniformes · Family: Sebastidae</p><h2><i>Helicolenus maderensis</i> <span class="common-name">— Blackbelly rosefish</span></h2><p>86 dated specimens through 1930 + 0 undated · 20 lots · 6 sampled years · 2 regions · 99% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="10.592300415039062"><dt>Generation time — model (years)</dt><dd>10.6</dd></div>
@@ -2117,7 +2182,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="lycenchelys verrillii"><h2><i>Lycenchelys verrillii</i></h2><p>82 dated specimens through 1930 + 0 undated · 25 lots · 6 sampled years · 1 regions · 99% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
+<article data-species="lycenchelys verrillii" data-search="lycenchelys verrillii wolf eelpout" data-order="Perciformes" data-family="Zoarcidae"><p class="taxonomy-line">Order: Perciformes · Family: Zoarcidae</p><h2><i>Lycenchelys verrillii</i> <span class="common-name">— Wolf eelpout</span></h2><p>82 dated specimens through 1930 + 0 undated · 25 lots · 6 sampled years · 1 regions · 99% dated with recorded coordinates</p><p>1 specimens in 1 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.2821202278137207"><dt>Generation time — model (years)</dt><dd>4.28</dd></div>
@@ -2156,7 +2221,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="pseudopleuronectes americanus"><h2><i>Pseudopleuronectes americanus</i></h2><p>75 dated specimens through 1930 + 5 undated · 28 lots · 9 sampled years · 1 regions · 82% dated with recorded coordinates</p><p>9 specimens in 8 lots use approximate display positions.</p>
+<article data-species="pseudopleuronectes americanus" data-search="pseudopleuronectes americanus winter flounder" data-order="Pleuronectiformes" data-family="Pleuronectidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Pleuronectidae</p><h2><i>Pseudopleuronectes americanus</i> <span class="common-name">— Winter flounder</span></h2><p>75 dated specimens through 1930 + 5 undated · 28 lots · 9 sampled years · 1 regions · 82% dated with recorded coordinates</p><p>9 specimens in 8 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5657100677490234"><dt>Generation time — model (years)</dt><dd>2.57</dd></div>
@@ -2203,7 +2268,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="chlorophthalmus agassizi"><h2><i>Chlorophthalmus agassizi</i></h2><p>79 dated specimens through 1930 + 0 undated · 20 lots · 4 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="chlorophthalmus agassizi" data-search="chlorophthalmus agassizi shortnose greeneye" data-order="Aulopiformes" data-family="Chlorophthalmidae"><p class="taxonomy-line">Order: Aulopiformes · Family: Chlorophthalmidae</p><h2><i>Chlorophthalmus agassizi</i> <span class="common-name">— Shortnose greeneye</span></h2><p>79 dated specimens through 1930 + 0 undated · 20 lots · 4 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
@@ -2239,7 +2304,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="anchoa lamprotaenia"><h2><i>Anchoa lamprotaenia</i></h2><p>77 dated specimens through 1930 + 0 undated · 6 lots · 4 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="anchoa lamprotaenia" data-search="anchoa lamprotaenia big-eye anchovy" data-order="Clupeiformes" data-family="Engraulidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Engraulidae</p><h2><i>Anchoa lamprotaenia</i> <span class="common-name">— Big-eye anchovy</span></h2><p>77 dated specimens through 1930 + 0 undated · 6 lots · 4 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.3392599821090698"><dt>Generation time — model (years)</dt><dd>1.34</dd></div>
@@ -2275,7 +2340,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="eucinostomus argenteus"><h2><i>Eucinostomus argenteus</i></h2><p>77 dated specimens through 1930 + 0 undated · 10 lots · 3 sampled years · 1 regions · 8% dated with recorded coordinates</p><p>71 specimens in 7 lots use approximate display positions.</p>
+<article data-species="eucinostomus argenteus" data-search="eucinostomus argenteus silver mojarra" data-order="Perciformes" data-family="Gerreidae"><p class="taxonomy-line">Order: Perciformes · Family: Gerreidae</p><h2><i>Eucinostomus argenteus</i> <span class="common-name">— Silver mojarra</span></h2><p>77 dated specimens through 1930 + 0 undated · 10 lots · 3 sampled years · 1 regions · 8% dated with recorded coordinates</p><p>71 specimens in 7 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1195499897003174"><dt>Generation time — model (years)</dt><dd>2.12</dd></div>
@@ -2308,7 +2373,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="myctophum opalinum"><h2><i>Myctophum opalinum</i></h2><p>73 dated specimens through 1930 + 1 undated · 14 lots · 3 sampled years · 1 regions · 99% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="myctophum opalinum" data-search="myctophum opalinum " data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Myctophum opalinum</i> <span class="common-name">— Common name not reported</span></h2><p>73 dated specimens through 1930 + 1 undated · 14 lots · 3 sampled years · 1 regions · 99% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Withheld — taxonomy unresolved</dd></div>
@@ -2343,7 +2408,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="cheilopogon furcatus"><h2><i>Cheilopogon furcatus</i></h2><p>72 dated specimens through 1930 + 0 undated · 31 lots · 3 sampled years · 1 regions · 83% dated with recorded coordinates</p><p>12 specimens in 9 lots use approximate display positions.</p>
+<article data-species="cheilopogon furcatus" data-search="cheilopogon furcatus spotfin flyingfish" data-order="Beloniformes" data-family="Exocoetidae"><p class="taxonomy-line">Order: Beloniformes · Family: Exocoetidae</p><h2><i>Cheilopogon furcatus</i> <span class="common-name">— Spotfin flyingfish</span></h2><p>72 dated specimens through 1930 + 0 undated · 31 lots · 3 sampled years · 1 regions · 83% dated with recorded coordinates</p><p>12 specimens in 9 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.94282698631286621"><dt>Generation time — model (years)</dt><dd>0.943</dd></div>
@@ -2385,7 +2450,7 @@
 <figure><a href="species/Cheilopogon_furcatus/larva_frames/year_1915.png"><img loading="lazy" width="960" height="760" src="species/Cheilopogon_furcatus/larva_frames/year_1915.png" alt="Cheilopogon furcatus — Larva — 1915 geographic heatmap"></a><figcaption><strong>1915</strong> · 1 specimens: 0 recorded coordinates, 1 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="lutjanus synagris"><h2><i>Lutjanus synagris</i></h2><p>69 dated specimens through 1930 + 2 undated · 24 lots · 7 sampled years · 3 regions · 61% dated with recorded coordinates</p><p>28 specimens in 13 lots use approximate display positions.</p>
+<article data-species="lutjanus synagris" data-search="lutjanus synagris lane snapper" data-order="Perciformes" data-family="Lutjanidae"><p class="taxonomy-line">Order: Perciformes · Family: Lutjanidae</p><h2><i>Lutjanus synagris</i> <span class="common-name">— Lane snapper</span></h2><p>69 dated specimens through 1930 + 2 undated · 24 lots · 7 sampled years · 3 regions · 61% dated with recorded coordinates</p><p>28 specimens in 13 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.9790699481964111"><dt>Generation time — model (years)</dt><dd>2.98</dd></div>
@@ -2430,7 +2495,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="coelorinchus carminatus"><h2><i>Coelorinchus carminatus</i></h2><p>70 dated specimens through 1930 + 0 undated · 24 lots · 6 sampled years · 3 regions · 96% dated with recorded coordinates</p><p>3 specimens in 1 lots use approximate display positions.</p>
+<article data-species="coelorinchus carminatus" data-search="coelorinchus carminatus hollowsnout grenadier" data-order="Gadiformes" data-family="Macrouridae"><p class="taxonomy-line">Order: Gadiformes · Family: Macrouridae</p><h2><i>Coelorinchus carminatus</i> <span class="common-name">— Hollowsnout grenadier</span></h2><p>70 dated specimens through 1930 + 0 undated · 24 lots · 6 sampled years · 3 regions · 96% dated with recorded coordinates</p><p>3 specimens in 1 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.6516900062561035"><dt>Generation time — model (years)</dt><dd>2.65</dd></div>
@@ -2472,7 +2537,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="lycodes terraenovae"><h2><i>Lycodes terraenovae</i></h2><p>67 dated specimens through 1930 + 0 undated · 27 lots · 5 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="lycodes terraenovae" data-search="lycodes terraenovae " data-order="Perciformes" data-family="Zoarcidae"><p class="taxonomy-line">Order: Perciformes · Family: Zoarcidae</p><h2><i>Lycodes terraenovae</i> <span class="common-name">— Common name not reported</span></h2><p>67 dated specimens through 1930 + 0 undated · 27 lots · 5 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="7.5588598251342773"><dt>Generation time — model (years)</dt><dd>7.56</dd></div>
@@ -2509,7 +2574,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="mullus auratus"><h2><i>Mullus auratus</i></h2><p>67 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 2 regions · 31% dated with recorded coordinates</p><p>46 specimens in 1 lots use approximate display positions.</p>
+<article data-species="mullus auratus" data-search="mullus auratus red goatfish" data-order="Perciformes" data-family="Mullidae"><p class="taxonomy-line">Order: Perciformes · Family: Mullidae</p><h2><i>Mullus auratus</i> <span class="common-name">— Red goatfish</span></h2><p>67 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 2 regions · 31% dated with recorded coordinates</p><p>46 specimens in 1 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.8451900482177734"><dt>Generation time — model (years)</dt><dd>1.85</dd></div>
@@ -2541,7 +2606,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="symphurus plagiusa"><h2><i>Symphurus plagiusa</i></h2><p>67 dated specimens through 1930 + 0 undated · 35 lots · 8 sampled years · 3 regions · 90% dated with recorded coordinates</p><p>7 specimens in 4 lots use approximate display positions.</p>
+<article data-species="symphurus plagiusa" data-search="symphurus plagiusa blackcheek tonguefish" data-order="Pleuronectiformes" data-family="Cynoglossidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Cynoglossidae</p><h2><i>Symphurus plagiusa</i> <span class="common-name">— Blackcheek tonguefish</span></h2><p>67 dated specimens through 1930 + 0 undated · 35 lots · 8 sampled years · 3 regions · 90% dated with recorded coordinates</p><p>7 specimens in 4 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.3166499137878418"><dt>Generation time — model (years)</dt><dd>3.32</dd></div>
@@ -2593,7 +2658,7 @@
 <figure><a href="species/Symphurus_plagiusa/larva_frames/year_1917.png"><img loading="lazy" width="960" height="760" src="species/Symphurus_plagiusa/larva_frames/year_1917.png" alt="Symphurus plagiusa — Larva — 1917 geographic heatmap"></a><figcaption><strong>1917</strong> · 2 specimens: 2 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="cyclopterus lumpus"><h2><i>Cyclopterus lumpus</i></h2><p>65 dated specimens through 1930 + 1 undated · 6 lots · 4 sampled years · 1 regions · 3% dated with recorded coordinates</p><p>63 specimens in 3 lots use approximate display positions.</p>
+<article data-species="cyclopterus lumpus" data-search="cyclopterus lumpus lumpfish" data-order="Scorpaeniformes" data-family="Cyclopteridae"><p class="taxonomy-line">Order: Scorpaeniformes · Family: Cyclopteridae</p><h2><i>Cyclopterus lumpus</i> <span class="common-name">— Lumpfish</span></h2><p>65 dated specimens through 1930 + 1 undated · 6 lots · 4 sampled years · 1 regions · 3% dated with recorded coordinates</p><p>63 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.1451702117919922"><dt>Generation time — model (years)</dt><dd>4.15</dd></div>
@@ -2636,7 +2701,7 @@
 <figure><a href="species/Cyclopterus_lumpus/larva_frames/year_1916.png"><img loading="lazy" width="960" height="760" src="species/Cyclopterus_lumpus/larva_frames/year_1916.png" alt="Cyclopterus lumpus — Larva — 1916 geographic heatmap"></a><figcaption><strong>1916</strong> · 1 specimens: 1 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="haemulon plumierii"><h2><i>Haemulon plumierii</i></h2><p>57 dated specimens through 1930 + 7 undated · 16 lots · 5 sampled years · 3 regions · 67% dated with recorded coordinates</p><p>18 specimens in 6 lots use approximate display positions.</p>
+<article data-species="haemulon plumierii" data-search="haemulon plumierii white grunt" data-order="Perciformes" data-family="Haemulidae"><p class="taxonomy-line">Order: Perciformes · Family: Haemulidae</p><h2><i>Haemulon plumierii</i> <span class="common-name">— White grunt</span></h2><p>57 dated specimens through 1930 + 7 undated · 16 lots · 5 sampled years · 3 regions · 67% dated with recorded coordinates</p><p>18 specimens in 6 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="7.8526701927185059"><dt>Generation time — model (years)</dt><dd>7.85</dd></div>
@@ -2677,7 +2742,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="menidia peninsulae"><h2><i>Menidia peninsulae</i></h2><p>64 dated specimens through 1930 + 0 undated · 5 lots · 3 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="menidia peninsulae" data-search="menidia peninsulae tidewater silverside" data-order="Atheriniformes" data-family="Atherinopsidae"><p class="taxonomy-line">Order: Atheriniformes · Family: Atherinopsidae</p><h2><i>Menidia peninsulae</i> <span class="common-name">— Tidewater silverside</span></h2><p>64 dated specimens through 1930 + 0 undated · 5 lots · 3 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.1323399543762207"><dt>Generation time — model (years)</dt><dd>1.13</dd></div>
@@ -2710,7 +2775,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="phycis chesteri"><h2><i>Phycis chesteri</i></h2><p>64 dated specimens through 1930 + 0 undated · 4 lots · 1 sampled years · 1 regions · 27% dated with recorded coordinates</p><p>47 specimens in 3 lots use approximate display positions.</p>
+<article data-species="phycis chesteri" data-search="phycis chesteri longfin hake" data-order="Gadiformes" data-family="Phycidae"><p class="taxonomy-line">Order: Gadiformes · Family: Phycidae</p><h2><i>Phycis chesteri</i> <span class="common-name">— Longfin hake</span></h2><p>64 dated specimens through 1930 + 0 undated · 4 lots · 1 sampled years · 1 regions · 27% dated with recorded coordinates</p><p>47 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="6.3197999000549316"><dt>Generation time — model (years)</dt><dd>6.32</dd></div>
@@ -2739,7 +2804,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="sparisoma radians"><h2><i>Sparisoma radians</i></h2><p>62 dated specimens through 1930 + 0 undated · 14 lots · 2 sampled years · 2 regions · 95% dated with recorded coordinates</p><p>3 specimens in 3 lots use approximate display positions.</p>
+<article data-species="sparisoma radians" data-search="sparisoma radians bucktooth parrotfish" data-order="Perciformes" data-family="Scaridae"><p class="taxonomy-line">Order: Perciformes · Family: Scaridae</p><h2><i>Sparisoma radians</i> <span class="common-name">— Bucktooth parrotfish</span></h2><p>62 dated specimens through 1930 + 0 undated · 14 lots · 2 sampled years · 2 regions · 95% dated with recorded coordinates</p><p>3 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.1883800029754639"><dt>Generation time — model (years)</dt><dd>2.19</dd></div>
@@ -2771,7 +2836,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="citharichthys spilopterus"><h2><i>Citharichthys spilopterus</i></h2><p>61 dated specimens through 1930 + 0 undated · 8 lots · 3 sampled years · 2 regions · 36% dated with recorded coordinates</p><p>39 specimens in 5 lots use approximate display positions.</p>
+<article data-species="citharichthys spilopterus" data-search="citharichthys spilopterus bay whiff" data-order="Pleuronectiformes" data-family="Paralichthyidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Paralichthyidae</p><h2><i>Citharichthys spilopterus</i> <span class="common-name">— Bay whiff</span></h2><p>61 dated specimens through 1930 + 0 undated · 8 lots · 3 sampled years · 2 regions · 36% dated with recorded coordinates</p><p>39 specimens in 5 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.5002000331878662"><dt>Generation time — model (years)</dt><dd>2.5</dd></div>
@@ -2812,7 +2877,7 @@
 <figure><a href="species/Citharichthys_spilopterus/larva_frames/year_1917.png"><img loading="lazy" width="960" height="760" src="species/Citharichthys_spilopterus/larva_frames/year_1917.png" alt="Citharichthys spilopterus — Larva — 1917 geographic heatmap"></a><figcaption><strong>1917</strong> · 29 specimens: 8 recorded coordinates, 21 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="brevoortia patronus"><h2><i>Brevoortia patronus</i></h2><p>60 dated specimens through 1930 + 0 undated · 5 lots · 1 sampled years · 1 regions · 12% dated with recorded coordinates</p><p>53 specimens in 4 lots use approximate display positions.</p>
+<article data-species="brevoortia patronus" data-search="brevoortia patronus gulf menhaden" data-order="Clupeiformes" data-family="Clupeidae"><p class="taxonomy-line">Order: Clupeiformes · Family: Clupeidae</p><h2><i>Brevoortia patronus</i> <span class="common-name">— Gulf menhaden</span></h2><p>60 dated specimens through 1930 + 0 undated · 5 lots · 1 sampled years · 1 regions · 12% dated with recorded coordinates</p><p>53 specimens in 4 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.8645100593566895"><dt>Generation time — model (years)</dt><dd>1.86</dd></div>
@@ -2841,7 +2906,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="centrobranchus nigroocellatus"><h2><i>Centrobranchus nigroocellatus</i></h2><p>58 dated specimens through 1930 + 0 undated · 3 lots · 1 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="centrobranchus nigroocellatus" data-search="centrobranchus nigroocellatus roundnose lanternfish" data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Centrobranchus nigroocellatus</i> <span class="common-name">— Roundnose lanternfish</span></h2><p>58 dated specimens through 1930 + 0 undated · 3 lots · 1 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.448930025100708"><dt>Generation time — model (years)</dt><dd>1.45</dd></div>
@@ -2870,7 +2935,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="chromis enchrysurus"><h2><i>Chromis enchrysurus</i></h2><p>58 dated specimens through 1930 + 0 undated · 8 lots · 1 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="chromis enchrysurus" data-search="chromis enchrysurus yellowtail reeffish" data-order="Perciformes" data-family="Pomacentridae"><p class="taxonomy-line">Order: Perciformes · Family: Pomacentridae</p><h2><i>Chromis enchrysurus</i> <span class="common-name">— Yellowtail reeffish</span></h2><p>58 dated specimens through 1930 + 0 undated · 8 lots · 1 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.6943199634552002"><dt>Generation time — model (years)</dt><dd>1.69</dd></div>
@@ -2899,7 +2964,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="eucinostomus gula"><h2><i>Eucinostomus gula</i></h2><p>57 dated specimens through 1930 + 0 undated · 5 lots · 3 sampled years · 2 regions · 56% dated with recorded coordinates</p><p>25 specimens in 3 lots use approximate display positions.</p>
+<article data-species="eucinostomus gula" data-search="eucinostomus gula jenny mojarra" data-order="Perciformes" data-family="Gerreidae"><p class="taxonomy-line">Order: Perciformes · Family: Gerreidae</p><h2><i>Eucinostomus gula</i> <span class="common-name">— Jenny mojarra</span></h2><p>57 dated specimens through 1930 + 0 undated · 5 lots · 3 sampled years · 2 regions · 56% dated with recorded coordinates</p><p>25 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.0902199745178223"><dt>Generation time — model (years)</dt><dd>3.09</dd></div>
@@ -2933,7 +2998,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="lutjanus apodus"><h2><i>Lutjanus apodus</i></h2><p>55 dated specimens through 1930 + 2 undated · 24 lots · 5 sampled years · 2 regions · 47% dated with recorded coordinates</p><p>30 specimens in 12 lots use approximate display positions.</p>
+<article data-species="lutjanus apodus" data-search="lutjanus apodus schoolmaster snapper" data-order="Perciformes" data-family="Lutjanidae"><p class="taxonomy-line">Order: Perciformes · Family: Lutjanidae</p><h2><i>Lutjanus apodus</i> <span class="common-name">— Schoolmaster snapper</span></h2><p>55 dated specimens through 1930 + 2 undated · 24 lots · 5 sampled years · 2 regions · 47% dated with recorded coordinates</p><p>30 specimens in 12 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="6.938270092010498"><dt>Generation time — model (years)</dt><dd>6.94</dd></div>
@@ -2973,7 +3038,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="cynoscion nothus"><h2><i>Cynoscion nothus</i></h2><p>55 dated specimens through 1930 + 0 undated · 4 lots · 2 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="cynoscion nothus" data-search="cynoscion nothus silver seatrout" data-order="Perciformes" data-family="Sciaenidae"><p class="taxonomy-line">Order: Perciformes · Family: Sciaenidae</p><h2><i>Cynoscion nothus</i> <span class="common-name">— Silver seatrout</span></h2><p>55 dated specimens through 1930 + 0 undated · 4 lots · 2 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.7563300132751465"><dt>Generation time — model (years)</dt><dd>3.76</dd></div>
@@ -3005,7 +3070,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="liparis inquilinus"><h2><i>Liparis inquilinus</i></h2><p>55 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="liparis inquilinus" data-search="liparis inquilinus inquiline snailfish" data-order="Scorpaeniformes" data-family="Liparidae"><p class="taxonomy-line">Order: Scorpaeniformes · Family: Liparidae</p><h2><i>Liparis inquilinus</i> <span class="common-name">— Inquiline snailfish</span></h2><p>55 dated specimens through 1930 + 0 undated · 3 lots · 2 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="0.34469398856163025"><dt>Generation time — model (years)</dt><dd>0.345</dd></div>
@@ -3041,7 +3106,7 @@
 <figure><a href="species/Liparis_inquilinus/larva_frames/year_1884.png"><img loading="lazy" width="960" height="760" src="species/Liparis_inquilinus/larva_frames/year_1884.png" alt="Liparis inquilinus — Larva — 1884 geographic heatmap"></a><figcaption><strong>1884</strong> · 30 specimens: 30 recorded coordinates, 0 approximate</figcaption></figure>
 </div></details></section>
 </article>
-<article data-species="nezumia aequalis"><h2><i>Nezumia aequalis</i></h2><p>54 dated specimens through 1930 + 0 undated · 20 lots · 6 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="nezumia aequalis" data-search="nezumia aequalis common atlantic grenadier" data-order="Gadiformes" data-family="Macrouridae"><p class="taxonomy-line">Order: Gadiformes · Family: Macrouridae</p><h2><i>Nezumia aequalis</i> <span class="common-name">— Common Atlantic grenadier</span></h2><p>54 dated specimens through 1930 + 0 undated · 20 lots · 6 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.0421500205993652"><dt>Generation time — model (years)</dt><dd>5.04</dd></div>
@@ -3081,7 +3146,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="bathygobius soporator"><h2><i>Bathygobius soporator</i></h2><p>53 dated specimens through 1930 + 0 undated · 22 lots · 4 sampled years · 2 regions · 53% dated with recorded coordinates</p><p>25 specimens in 10 lots use approximate display positions.</p>
+<article data-species="bathygobius soporator" data-search="bathygobius soporator frillfin goby" data-order="Perciformes" data-family="Gobiidae"><p class="taxonomy-line">Order: Perciformes · Family: Gobiidae</p><h2><i>Bathygobius soporator</i> <span class="common-name">— Frillfin goby</span></h2><p>53 dated specimens through 1930 + 0 undated · 22 lots · 4 sampled years · 2 regions · 53% dated with recorded coordinates</p><p>25 specimens in 10 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.7180800437927246"><dt>Generation time — model (years)</dt><dd>1.72</dd></div>
@@ -3117,7 +3182,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="hygophum hygomii"><h2><i>Hygophum hygomii</i></h2><p>53 dated specimens through 1930 + 0 undated · 12 lots · 6 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="hygophum hygomii" data-search="hygophum hygomii bermuda lantern fish" data-order="Myctophiformes" data-family="Myctophidae"><p class="taxonomy-line">Order: Myctophiformes · Family: Myctophidae</p><h2><i>Hygophum hygomii</i> <span class="common-name">— Bermuda lantern fish</span></h2><p>53 dated specimens through 1930 + 0 undated · 12 lots · 6 sampled years · 1 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="1.760450005531311"><dt>Generation time — model (years)</dt><dd>1.76</dd></div>
@@ -3156,7 +3221,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="paralichthys dentatus"><h2><i>Paralichthys dentatus</i></h2><p>53 dated specimens through 1930 + 0 undated · 23 lots · 9 sampled years · 2 regions · 79% dated with recorded coordinates</p><p>11 specimens in 7 lots use approximate display positions.</p>
+<article data-species="paralichthys dentatus" data-search="paralichthys dentatus summer flounder" data-order="Pleuronectiformes" data-family="Paralichthyidae"><p class="taxonomy-line">Order: Pleuronectiformes · Family: Paralichthyidae</p><h2><i>Paralichthys dentatus</i> <span class="common-name">— Summer flounder</span></h2><p>53 dated specimens through 1930 + 0 undated · 23 lots · 9 sampled years · 2 regions · 79% dated with recorded coordinates</p><p>11 specimens in 7 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="4.1849498748779297"><dt>Generation time — model (years)</dt><dd>4.18</dd></div>
@@ -3202,7 +3267,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="strongylura marina"><h2><i>Strongylura marina</i></h2><p>51 dated specimens through 1930 + 1 undated · 11 lots · 2 sampled years · 1 regions · 46% dated with recorded coordinates</p><p>27 specimens in 3 lots use approximate display positions.</p>
+<article data-species="strongylura marina" data-search="strongylura marina atlantic needlefish" data-order="Beloniformes" data-family="Belonidae"><p class="taxonomy-line">Order: Beloniformes · Family: Belonidae</p><h2><i>Strongylura marina</i> <span class="common-name">— Atlantic needlefish</span></h2><p>51 dated specimens through 1930 + 1 undated · 11 lots · 2 sampled years · 1 regions · 46% dated with recorded coordinates</p><p>27 specimens in 3 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="3.1110599040985107"><dt>Generation time — model (years)</dt><dd>3.11</dd></div>
@@ -3235,7 +3300,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="hypoclydonia bella"><h2><i>Hypoclydonia bella</i></h2><p>51 dated specimens through 1930 + 0 undated · 7 lots · 1 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
+<article data-species="hypoclydonia bella" data-search="hypoclydonia bella blackmouth bass" data-order="Perciformes" data-family="Acropomatidae"><p class="taxonomy-line">Order: Perciformes · Family: Acropomatidae</p><h2><i>Hypoclydonia bella</i> <span class="common-name">— Blackmouth bass</span></h2><p>51 dated specimens through 1930 + 0 undated · 7 lots · 1 sampled years · 2 regions · 100% dated with recorded coordinates</p><p>0 specimens in 0 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value=""><dt>Generation time — model (years)</dt><dd>Not reported</dd></div>
@@ -3266,7 +3331,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="prionotus martis"><h2><i>Prionotus martis</i></h2><p>51 dated specimens through 1930 + 0 undated · 6 lots · 2 sampled years · 1 regions · 96% dated with recorded coordinates</p><p>2 specimens in 1 lots use approximate display positions.</p>
+<article data-species="prionotus martis" data-search="prionotus martis gulf of mexico barred searobin" data-order="Scorpaeniformes" data-family="Triglidae"><p class="taxonomy-line">Order: Scorpaeniformes · Family: Triglidae</p><h2><i>Prionotus martis</i> <span class="common-name">— Gulf of Mexico barred searobin</span></h2><p>51 dated specimens through 1930 + 0 undated · 6 lots · 2 sampled years · 1 regions · 96% dated with recorded coordinates</p><p>2 specimens in 1 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="2.2798800468444824"><dt>Generation time — model (years)</dt><dd>2.28</dd></div>
@@ -3297,7 +3362,7 @@
 </div></details></section>
 <p class="empty-stage" data-stage="larva"><strong>Larva:</strong> no specimens recorded.</p>
 </article>
-<article data-species="caranx latus"><h2><i>Caranx latus</i></h2><p>50 dated specimens through 1930 + 0 undated · 8 lots · 4 sampled years · 2 regions · 84% dated with recorded coordinates</p><p>8 specimens in 4 lots use approximate display positions.</p>
+<article data-species="caranx latus" data-search="caranx latus horse-eye jack" data-order="Perciformes" data-family="Carangidae"><p class="taxonomy-line">Order: Perciformes · Family: Carangidae</p><h2><i>Caranx latus</i> <span class="common-name">— Horse-eye jack</span></h2><p>50 dated specimens through 1930 + 0 undated · 8 lots · 4 sampled years · 2 regions · 84% dated with recorded coordinates</p><p>8 specimens in 4 lots use approximate display positions.</p>
 <p class="filter-match"></p>
 <section class="life-history"><h3>Life history</h3><dl class="trait-grid">
 <div class="trait-value" data-trait="generation_time_model_years" data-value="5.1114001274108887"><dt>Generation time — model (years)</dt><dd>5.11</dd></div>
@@ -3382,6 +3447,7 @@ function applyFilters(){
   const q=document.getElementById("search").value.trim().toLowerCase(), selectedStage=document.getElementById("life-stage").value, region=document.getElementById("region").value;
   const minimum=Math.max(0,Number(document.getElementById("min-specimens").value)||0), minimumYears=Math.max(1,Number(document.getElementById("min-years").value)||1), mapped=document.getElementById("mapped-only").checked;
   const criteria=traitCriteria();
+  const ranks=["order","family"].map(field=>({field,value:document.getElementById("taxonomy-"+field).value}));
   let visible=0;
   candidateData.forEach(candidate=>{
     const {article,records}=candidate;
@@ -3390,7 +3456,7 @@ function applyFilters(){
       count+=Number(mapped?r.mapped:r.specimens);
       (mapped?r.mappedYears:r.years).split(",").filter(Boolean).forEach(y=>years.add(y));
     });
-    article.hidden=!(article.dataset.species.includes(q)&&count>0&&count>=minimum&&years.size>=minimumYears&&matchesTraits(candidate,criteria));
+    article.hidden=!(article.dataset.search.includes(q)&&ranks.every(r=>!r.value||(r.value==="__missing__"?!article.dataset[r.field]:article.dataset[r.field]===r.value))&&count>0&&count>=minimum&&years.size>=minimumYears&&matchesTraits(candidate,criteria));
     if(!article.hidden)visible++;
     article.querySelector(".filter-match").textContent=count.toLocaleString()+" dated "+(mapped?"mapped ":"")+"specimens across "+years.size+" distinct year"+(years.size===1?"":"s")+" match the selected stage and region.";
     article.querySelectorAll(".stage,.empty-stage").forEach(stage=>{
