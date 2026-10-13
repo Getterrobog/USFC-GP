@@ -1,0 +1,826 @@
+"species","site_id","life_stage","year","specimens","lots","largest_lot_fraction","station_recorded_lots","explicit_year_lots","stage_unrecorded_lots","taxonomy_unvalidated_lots","catalog_numbers","qualifies"
+"Bothus ocellatus","D20_S0001","adult",1917,1,1,1,1,1,1,0,"126792",FALSE
+"Etropus crossotus","D20_S0001","adult",1917,11,2,0.909090909090909,2,2,2,0,"286051; 286057",TRUE
+"Syacium papillosum","D20_S0001","adult",1917,27,1,1,1,1,1,0,"236125",TRUE
+"Anchoa mitchilli","D20_S0002","adult",1917,22,1,1,1,1,1,0,"127747",TRUE
+"Brevoortia patronus","D20_S0002","adult",1917,7,1,1,1,1,1,0,"134129",FALSE
+"Etropus crossotus","D20_S0003","adult",1917,4,1,1,0,1,1,0,"126757",FALSE
+"Dibranchus atlanticus","D20_S0004","adult",1885,5,1,1,1,1,1,0,"45638",FALSE
+"Eucinostomus gula","D20_S0005","adult",1885,1,1,1,1,1,1,0,"134199",FALSE
+"Lagodon rhomboides","D20_S0006","adult",1917,2,1,1,1,0,1,0,"143830",FALSE
+"Symphurus plagiusa","D20_S0006","adult",1917,1,1,1,1,1,1,0,"86138",FALSE
+"Gonichthys cocco","D20_S0007","adult",1885,2,1,1,1,1,1,0,"43817",FALSE
+"Lagodon rhomboides","D20_S0008","adult",1885,1,1,1,1,1,1,0,"101562",FALSE
+"Histrio histrio","D20_S0009","adult",1885,3,2,0.666666666666667,2,2,2,0,"133880; 84579",FALSE
+"Monacanthus ciliatus","D20_S0009","adult",1885,2,1,1,1,1,1,0,"84553",FALSE
+"Lagodon rhomboides","D20_S0010","adult",1885,2,1,1,0,1,1,0,"83845",FALSE
+"Syacium papillosum","D20_S0010","adult",1917,1,1,1,1,1,1,0,"126875",FALSE
+"Cyclothone microdon","D20_S0011","adult",1885,3,1,1,1,1,1,0,"44338",FALSE
+"Bothus ocellatus","D20_S0012","adult",1885,3,1,1,1,1,1,0,"101603",FALSE
+"Chromis enchrysurus","D20_S0012","adult",1885,37,3,0.648648648648649,3,3,3,0,"134277; 44157; 47695",TRUE
+"Monacanthus ciliatus","D20_S0012","adult",1885,24,2,0.583333333333333,2,2,2,0,"101588; 119758",TRUE
+"Cyclothone microdon","D20_S0013","adult",1885,1,1,1,1,1,1,0,"85460",FALSE
+"Nezumia aequalis","D20_S0013","adult",1885,2,1,1,1,1,1,0,"45736",FALSE
+"Dibranchus atlanticus","D20_S0014","adult",1885,7,3,0.428571428571429,3,3,3,0,"45635; 45636; 45656",FALSE
+"Nezumia aequalis","D20_S0014","adult",1885,6,3,0.5,3,3,3,0,"45710; 45711; 45732",FALSE
+"Bothus ocellatus","D20_S0015","adult",1919,2,1,1,0,1,1,0,"91434",FALSE
+"Chlorophthalmus agassizi","D20_S0016","adult",1885,3,1,1,1,1,1,0,"43840",FALSE
+"Coelorinchus carminatus","D20_S0016","adult",1885,4,1,1,1,1,1,0,"43625",FALSE
+"Dibranchus atlanticus","D20_S0016","adult",1885,1,1,1,1,1,1,0,"45643",FALSE
+"Histrio histrio","D20_S0016","adult",1885,1,1,1,1,1,1,0,"84580",FALSE
+"Nezumia aequalis","D20_S0016","adult",1885,1,1,1,1,1,1,0,"45713",FALSE
+"Cyclothone microdon","D20_S0017","larva",1919,47,1,1,1,1,0,0,"302576",TRUE
+"Bothus ocellatus","D20_S0018","larva",1917,1,1,1,1,1,0,0,"282532",FALSE
+"Coelorinchus carminatus","D20_S0019","adult",1885,2,1,1,1,1,1,0,"45700",FALSE
+"Histrio histrio","D20_S0019","adult",1885,1,1,1,1,1,1,0,"131525",FALSE
+"Bothus ocellatus","D20_S0020","adult",1885,2,2,0.5,1,2,2,0,"103124; 131633",FALSE
+"Chromis enchrysurus","D20_S0020","adult",1885,2,2,0.5,2,2,2,0,"142891; 143208",FALSE
+"Monacanthus ciliatus","D20_S0020","adult",1885,4,1,1,1,1,1,0,"143207",FALSE
+"Gambusia affinis","D20_S0021","adult",1917,25,1,1,0,1,1,0,"126779",TRUE
+"Symphurus plagiusa","D20_S0021","adult",1917,2,1,1,0,1,1,0,"157398",FALSE
+"Bothus ocellatus","D20_S0022","adult",1885,3,1,1,1,1,1,0,"45683",FALSE
+"Citharichthys arctifrons","D20_S0022","adult",1885,1,1,1,1,1,1,0,"45623",FALSE
+"Anchoa mitchilli","D20_S0023","adult",1917,11,1,1,1,1,1,0,"127721",TRUE
+"Bothus ocellatus","D20_S0024","adult",1885,2,1,1,1,1,1,0,"45684",FALSE
+"Chromis enchrysurus","D20_S0024","adult",1885,1,1,1,1,1,1,0,"131639",FALSE
+"Monacanthus ciliatus","D20_S0024","adult",1885,1,1,1,1,1,1,0,"83511",FALSE
+"Lagodon rhomboides","D20_S0025","adult",1913,80,1,1,0,0,1,0,"118914",TRUE
+"Bothus ocellatus","D20_S0026","larva",1919,2,2,0.5,2,2,0,0,"282565; 282566",FALSE
+"Monacanthus ciliatus","D20_S0027","adult",1901,4,2,0.75,2,2,2,0,"119761; 119764",FALSE
+"Monacanthus ciliatus","D20_S0028","adult",1901,8,3,0.5,3,1,3,0,"72989; 73204; 73209",FALSE
+"Stephanolepis hispida","D20_S0028","adult",1901,3,1,1,1,0,1,0,"73203",FALSE
+"Monacanthus ciliatus","D20_S0029","adult",1901,7,1,1,1,0,1,0,"72991",FALSE
+"Haemulon plumierii","D20_S0030","adult",1901,1,1,1,1,1,1,0,"142867",FALSE
+"Monacanthus ciliatus","D20_S0031","adult",1901,2,2,0.5,2,1,2,0,"119762; 73213",FALSE
+"Monacanthus ciliatus","D20_S0032","adult",1901,12,3,0.666666666666667,3,2,3,0,"105017; 72998; 73210",TRUE
+"Haemulon aurolineatum","D20_S0033","adult",1901,4,1,1,1,1,1,0,"142866",FALSE
+"Haemulon plumierii","D20_S0033","adult",1901,15,1,1,1,1,1,0,"142865",TRUE
+"Monacanthus ciliatus","D20_S0034","adult",1901,4,3,0.5,3,3,3,0,"119760; 73211; 73212",FALSE
+"Monacanthus ciliatus","D20_S0035","adult",1885,1,1,1,1,1,1,0,"101540",FALSE
+"Monacanthus ciliatus","D20_S0036","adult",1902,8,3,0.5,3,0,3,0,"105018; 73202; 73206",FALSE
+"Bothus ocellatus","D20_S0037","larva",1919,1,1,1,1,1,0,0,"282567",FALSE
+"Monacanthus ciliatus","D20_S0038","adult",1901,11,1,1,1,1,1,0,"73214",TRUE
+"Chromis enchrysurus","D20_S0039","adult",1885,1,1,1,1,1,1,0,"101549",FALSE
+"Haemulon aurolineatum","D20_S0039","adult",1885,22,3,0.681818181818182,3,3,3,0,"101548; 133793; 134171",TRUE
+"Monacanthus ciliatus","D20_S0040","adult",1902,1,1,1,1,0,1,0,"73000",FALSE
+"Monacanthus ciliatus","D20_S0041","adult",1902,6,3,0.5,3,2,3,0,"105015; 119763; 72997",FALSE
+"Syacium papillosum","D20_S0041","adult",1902,1,1,1,1,1,1,0,"143175",FALSE
+"Symphurus plagiusa","D20_S0041","adult",1902,1,1,1,1,1,1,0,"133980",FALSE
+"Monacanthus ciliatus","D20_S0042","adult",1902,12,2,0.5,2,0,2,0,"105019; 72996",TRUE
+"Chromis enchrysurus","D20_S0043","adult",1885,17,1,1,1,1,1,0,"131581",TRUE
+"Citharichthys spilopterus","D20_S0044","larva",1917,8,1,1,1,1,0,0,"282519",FALSE
+"Symphurus plagiusa","D20_S0044","larva",1917,2,1,1,1,1,0,0,"105952",FALSE
+"Monacanthus ciliatus","D20_S0045","adult",1902,2,2,0.5,2,1,2,0,"119765; 72990",FALSE
+"Bothus ocellatus","D20_S0046","adult",1885,6,1,1,1,1,1,0,"45685",FALSE
+"Nezumia bairdii","D20_S0047","adult",1885,1,1,1,1,1,1,0,"45737",FALSE
+"Monacanthus ciliatus","D20_S0048","adult",1901,1,1,1,1,1,1,0,"49718",FALSE
+"Lagodon rhomboides","D20_S0049","adult",1889,2,1,1,0,1,1,0,"43573",FALSE
+"Anchoa cayorum","D20_S0050","adult",1885,51,1,1,0,1,1,0,"83804",TRUE
+"Fundulus heteroclitus","D20_S0050","adult",1885,12,1,1,0,1,1,0,"84026",TRUE
+"Fundulus similis","D20_S0050","adult",1885,21,2,0.714285714285714,0,2,2,0,"83848; 84020",TRUE
+"Hyporhamphus unifasciatus","D20_S0050","adult",1885,3,1,1,0,1,1,0,"132218",FALSE
+"Lagodon rhomboides","D20_S0050","adult",1885,17,3,0.529411764705882,0,3,3,0,"132220; 83820; 84043",TRUE
+"Menidia peninsulae","D20_S0050","adult",1885,24,2,0.625,0,2,2,0,"83843; 84039",TRUE
+"Etropus crossotus","D20_S0050","adult",1898,3,1,1,0,1,1,0,"68556",FALSE
+"Fundulus heteroclitus","D20_S0050","adult",1898,54,2,0.537037037037037,0,2,2,0,"67684; 67685",TRUE
+"Fundulus similis","D20_S0050","adult",1898,39,1,1,0,1,1,0,"67686",TRUE
+"Lagodon rhomboides","D20_S0050","adult",1898,2,2,0.5,0,2,2,0,"67673; 67674",FALSE
+"Menidia peninsulae","D20_S0050","adult",1898,35,2,0.971428571428571,0,2,2,0,"58972; 67676",TRUE
+"Symphurus plagiusa","D20_S0050","adult",1898,3,2,0.666666666666667,0,2,2,0,"67679; 67680",FALSE
+"Atherinomorus stipes","D20_S0051","larva",1919,1,1,1,1,1,0,0,"335913",FALSE
+"Bothus ocellatus","D20_S0051","larva",1919,2,1,1,1,1,0,0,"282568",FALSE
+"Bothus ocellatus","D20_S0052","larva",1919,1,1,1,1,1,0,0,"282564",FALSE
+"Haemulon aurolineatum","D20_S0053","adult",1913,5,1,1,0,1,1,0,"118882",FALSE
+"Hyporhamphus unifasciatus","D20_S0053","adult",1915,2,2,0.5,2,2,2,0,"91448; 92207",FALSE
+"Haemulon aurolineatum","D20_S0053","adult",1917,6,1,1,1,1,1,0,"143757",FALSE
+"Mullus auratus","D20_S0053","adult",1917,21,2,0.952380952380952,2,2,2,0,"126796; 466260",TRUE
+"Bothus ocellatus","D20_S0054","larva",1919,2,1,1,1,1,0,0,"282563",FALSE
+"Haemulon aurolineatum","D20_S0055","adult",1889,2,1,1,0,1,1,0,"43575",FALSE
+"Menidia peninsulae","D20_S0055","adult",1889,5,1,1,0,1,1,0,"68516",FALSE
+"Etropus crossotus","D20_S0056","adult",1884,1,1,1,0,1,1,0,"34735",FALSE
+"Dibranchus atlanticus","D20_S0057","adult",1902,9,1,1,1,0,1,0,"73113",FALSE
+"Nezumia aequalis","D20_S0057","adult",1902,2,1,1,1,0,1,0,"113261",FALSE
+"Bothus ocellatus","D20_S0057","larva",1919,6,1,1,1,1,0,0,"282561",FALSE
+"Citharichthys arctifrons","D20_S0058","adult",1902,9,2,0.666666666666667,2,2,2,0,"129825; 73265",FALSE
+"Syacium papillosum","D20_S0058","adult",1902,1,1,1,1,1,1,0,"73180",FALSE
+"Symphurus plagiusa","D20_S0058","adult",1902,6,2,0.5,2,2,2,0,"107320; 107321",FALSE
+"Bothus ocellatus","D20_S0058","larva",1919,1,1,1,1,1,0,0,"282560",FALSE
+"Bothus ocellatus","D20_S0059","larva",1919,2,1,1,1,1,0,0,"282562",FALSE
+"Bothus ocellatus","D20_S0060","adult",1902,2,1,1,1,1,1,0,"73188",FALSE
+"Dibranchus atlanticus","D20_S0060","adult",1902,1,1,1,1,0,1,0,"73244",FALSE
+"Monacanthus ciliatus","D20_S0060","adult",1902,3,3,0.333333333333333,3,1,3,0,"105016; 73205; 73245",FALSE
+"Fundulus heteroclitus","D20_S0061","adult",1884,1,1,1,0,1,1,0,"85473",FALSE
+"Fundulus similis","D20_S0061","adult",1884,162,9,0.246913580246914,0,9,9,0,"109887; 129896; 130820; 131617; 132226; 84018; 84019; 84021; 85474",TRUE
+"Haemulon plumierii","D20_S0061","adult",1884,20,4,0.85,0,4,4,0,"130822; 131506; 38714; 83799",TRUE
+"Hyporhamphus unifasciatus","D20_S0061","adult",1884,4,2,0.75,0,2,2,0,"196380; 38544",FALSE
+"Lagodon rhomboides","D20_S0061","adult",1884,4,3,0.5,0,3,3,0,"130826; 132227; 93854",FALSE
+"Lutjanus synagris","D20_S0061","adult",1884,15,2,0.8,0,2,2,0,"36922; 83817",TRUE
+"Atherinomorus stipes","D20_S0061","adult",1885,105,1,1,0,1,1,0,"38700",TRUE
+"Bothus ocellatus","D20_S0061","adult",1885,5,2,0.6,2,2,2,0,"143140; 45682",FALSE
+"Eucinostomus gula","D20_S0061","adult",1885,31,1,1,0,1,1,0,"38669",TRUE
+"Haemulon aurolineatum","D20_S0061","adult",1885,4,1,1,0,1,1,0,"38678",FALSE
+"Haemulon plumierii","D20_S0061","adult",1885,3,1,1,0,1,1,0,"38672",FALSE
+"Jenkinsia stolifera","D20_S0061","adult",1885,25,1,1,0,1,1,0,"38697",TRUE
+"Lagodon rhomboides","D20_S0061","adult",1885,7,1,1,0,1,1,0,"38671",FALSE
+"Lutjanus synagris","D20_S0061","adult",1885,15,1,1,0,1,1,0,"38673",TRUE
+"Monacanthus ciliatus","D20_S0061","adult",1885,31,5,0.870967741935484,2,5,5,0,"134163; 134223; 38691; 38692; 38694",TRUE
+"Anchoa lamprotaenia","D20_S0061","adult",1886,1,1,1,0,1,1,0,"92637",FALSE
+"Hyporhamphus unifasciatus","D20_S0061","adult",1886,3,1,1,0,1,1,0,"38736",FALSE
+"Bothus ocellatus","D20_S0061","adult",1902,6,2,0.833333333333333,1,2,2,0,"130800; 130844",FALSE
+"Etropus crossotus","D20_S0061","adult",1902,4,2,0.5,2,2,2,0,"73181; 73182",FALSE
+"Haemulon aurolineatum","D20_S0061","adult",1902,1,1,1,1,1,1,0,"133983",FALSE
+"Lutjanus synagris","D20_S0061","adult",1902,3,2,0.666666666666667,2,2,2,0,"133982; 73026",FALSE
+"Monacanthus ciliatus","D20_S0061","adult",1902,16,2,0.5,2,2,2,0,"72987; 72988",TRUE
+"Stephanolepis hispida","D20_S0061","adult",1902,1,1,1,1,1,1,0,"73207",FALSE
+"Syacium papillosum","D20_S0061","adult",1902,16,1,1,1,1,1,0,"73179",TRUE
+"Symphurus plagiusa","D20_S0061","adult",1902,7,4,0.571428571428571,4,4,4,0,"134303; 142838; 143161; 73260",FALSE
+"Haemulon aurolineatum","D20_S0061","adult",1903,2,1,1,0,1,1,0,"120507",FALSE
+"Lutjanus synagris","D20_S0061","adult",1903,2,1,1,0,0,1,0,"120525",FALSE
+"Bothus ocellatus","D20_S0061","adult",1917,1,1,1,1,1,1,0,"126791",FALSE
+"Atherinomorus stipes","D20_S0061","adult",1919,7,1,1,0,1,1,0,"91413",FALSE
+"Bothus ocellatus","D20_S0062","larva",1914,14,1,1,1,1,0,0,"282536",TRUE
+"Dibranchus atlanticus","D20_S0063","adult",1902,9,1,1,1,0,1,0,"73112",FALSE
+"Fenestraja plutonia","D20_S0063","adult",1902,1,1,1,1,0,1,0,"148308",FALSE
+"Nezumia aequalis","D20_S0063","adult",1902,9,1,1,1,0,1,0,"113262",FALSE
+"Histrio histrio","D20_S0064","adult",1902,1,1,1,1,0,1,0,"134323",FALSE
+"Chloroscombrus chrysurus","D20_S0064","adult",1919,46,1,1,1,1,1,0,"90787",TRUE
+"Cynoscion nothus","D20_S0064","adult",1919,30,1,1,1,1,1,0,"142662",TRUE
+"Monacanthus ciliatus","D20_S0065","adult",1902,2,2,0.5,2,2,2,0,"73003; 73200",FALSE
+"Symphurus plagiusa","D20_S0065","adult",1902,1,1,1,1,1,1,0,"73191",FALSE
+"Paralichthys dentatus","D20_S0066","adult",1917,1,1,1,0,1,1,0,"157624",FALSE
+"Symphurus plagiusa","D20_S0066","adult",1917,1,1,1,0,1,1,0,"86152",FALSE
+"Cynoscion nothus","D20_S0066","adult",1919,7,2,0.571428571428571,2,2,2,0,"91396; 91398",FALSE
+"Monacanthus ciliatus","D20_S0067","adult",1902,6,2,0.833333333333333,2,1,2,0,"73001; 73216",FALSE
+"Monacanthus ciliatus","D20_S0068","adult",1902,6,2,0.833333333333333,2,1,2,0,"72995; 73002",FALSE
+"Symphurus plagiusa","D20_S0068","adult",1902,1,1,1,1,1,1,0,"73192",FALSE
+"Monacanthus ciliatus","D20_S0069","adult",1902,5,3,0.4,3,0,3,0,"133073; 72994; 72999",FALSE
+"Symphurus plagiusa","D20_S0069","adult",1902,1,1,1,1,1,1,0,"73190",FALSE
+"Citharichthys arctifrons","D20_S0070","adult",1903,1,1,1,1,1,1,0,"73193",FALSE
+"Symphurus plagiusa","D20_S0071","adult",1903,1,1,1,1,1,1,0,"73142",FALSE
+"Exocoetus volitans","D20_S0072","adult",1884,1,1,1,1,1,1,0,"94693",FALSE
+"Fundulus heteroclitus","D20_S0073","adult",1891,2,1,1,0,1,1,0,"59027",FALSE
+"Menidia menidia","D20_S0073","adult",1891,13,1,1,0,1,1,0,"59025",TRUE
+"Etropus crossotus","D20_S0074","adult",1891,1,1,1,0,1,1,0,"59040",FALSE
+"Symphurus plagiusa","D20_S0074","adult",1891,2,2,0.5,0,2,2,0,"59041; 59090",FALSE
+"Anchoa mitchilli","D20_S0075","adult",1891,1,1,1,0,1,1,0,"59035",FALSE
+"Etropus crossotus","D20_S0075","adult",1891,1,1,1,0,1,1,0,"59031",FALSE
+"Fundulus heteroclitus","D20_S0075","adult",1891,20,1,1,0,1,1,0,"59045",TRUE
+"Menidia menidia","D20_S0075","adult",1891,4,2,0.75,0,2,2,0,"59034; 59046",FALSE
+"Paralichthys dentatus","D20_S0075","adult",1891,2,1,1,0,1,1,0,"59036",FALSE
+"Symphurus plagiusa","D20_S0075","adult",1891,1,1,1,0,1,1,0,"59044",FALSE
+"Lagodon rhomboides","D20_S0076","adult",1903,1,1,1,0,0,1,0,"120509",FALSE
+"Lutjanus synagris","D20_S0076","adult",1903,2,2,0.5,0,0,2,0,"170876; 435926",FALSE
+"Menidia menidia","D20_S0077","adult",1891,6,1,1,0,1,1,0,"59038",FALSE
+"Haemulon plumierii","D20_S0078","adult",1903,2,1,1,0,1,1,0,"120506",FALSE
+"Cheilopogon furcatus","D20_S0079","adult",1886,2,1,1,1,1,1,0,"94694",FALSE
+"Chlorophthalmus agassizi","D20_S0079","adult",1886,7,1,1,1,1,1,0,"46131",FALSE
+"Cyclothone microdon","D20_S0079","adult",1886,1,1,1,1,1,1,0,"135481",FALSE
+"Fenestraja plutonia","D20_S0079","adult",1886,39,1,1,1,1,1,0,"148302",TRUE
+"Laemonema barbatulum","D20_S0079","adult",1886,2,2,0.5,2,2,2,0,"133942; 134056",FALSE
+"Dibranchus atlanticus","D20_S0080","adult",1886,1,1,1,1,1,1,0,"142915",FALSE
+"Laemonema barbatulum","D20_S0080","adult",1886,2,1,1,1,1,1,0,"436678",FALSE
+"Bothus ocellatus","D20_S0081","larva",1919,6,2,0.666666666666667,2,2,0,0,"282557; 282559",FALSE
+"Dibranchus atlanticus","D20_S0082","adult",1886,8,1,1,1,1,1,0,"134086",FALSE
+"Fenestraja plutonia","D20_S0082","adult",1886,2,1,1,1,1,1,0,"123631",FALSE
+"Laemonema barbatulum","D20_S0082","adult",1886,4,1,1,1,1,1,0,"134944",FALSE
+"Etropus crossotus","D20_S0083","adult",1891,1,1,1,1,1,1,0,"59014",FALSE
+"Fundulus heteroclitus","D20_S0083","adult",1891,1,1,1,0,1,1,0,"85504",FALSE
+"Symphurus plagiusa","D20_S0083","adult",1891,9,2,0.888888888888889,2,2,2,0,"433743; 59012",FALSE
+"Bothus ocellatus","D20_S0084","larva",1914,3,1,1,1,1,0,0,"282550",FALSE
+"Laemonema barbatulum","D20_S0085","adult",1886,11,2,0.818181818181818,2,2,2,0,"131518; 84489",TRUE
+"Bothus ocellatus","D20_S0086","larva",1914,4,1,1,1,1,0,0,"282555",FALSE
+"Bothus ocellatus","D20_S0086","larva",1919,2,1,1,1,1,0,0,"282558",FALSE
+"Chlorophthalmus agassizi","D20_S0087","adult",1886,1,1,1,1,1,1,0,"43827",FALSE
+"Fenestraja plutonia","D20_S0087","adult",1886,5,2,0.6,2,2,2,0,"148303; 148304",FALSE
+"Laemonema barbatulum","D20_S0087","adult",1886,1,1,1,1,1,1,0,"134945",FALSE
+"Exocoetus volitans","D20_S0088","adult",1885,55,1,1,0,1,1,0,"94720",TRUE
+"Bothus ocellatus","D20_S0089","larva",1914,3,2,0.666666666666667,2,2,0,0,"282539; 282541",FALSE
+"Nezumia bairdii","D20_S0090","adult",1886,1,1,1,1,1,1,0,"204936",FALSE
+"Fenestraja plutonia","D20_S0091","adult",1886,1,1,1,1,1,1,0,"148305",FALSE
+"Histrio histrio","D20_S0092","larva",1914,1,1,1,1,1,0,0,"458859",FALSE
+"Menidia menidia","D20_S0093","adult",1890,2,1,1,0,1,1,0,"59052",FALSE
+"Syngnathus fuscus","D20_S0093","adult",1890,1,1,1,0,1,1,0,"59051",FALSE
+"Brevoortia tyrannus","D20_S0093","adult",1891,5,1,1,0,1,1,0,"59105",FALSE
+"Fundulus heteroclitus","D20_S0093","adult",1891,2,1,1,0,1,1,0,"59065",FALSE
+"Menidia menidia","D20_S0093","adult",1891,25,1,1,0,1,1,0,"84597",TRUE
+"Paralichthys dentatus","D20_S0093","adult",1891,1,1,1,0,1,1,0,"59020",FALSE
+"Symphurus plagiusa","D20_S0093","adult",1891,3,2,0.666666666666667,1,2,2,0,"59058; 59096",FALSE
+"Anchoa mitchilli","D20_S0093","adult",1915,50,1,1,0,1,1,0,"127518",TRUE
+"Membras martinica","D20_S0093","adult",1915,48,1,1,0,1,1,0,"111564",TRUE
+"Stellifer lanceolatus","D20_S0093","adult",1915,750,1,1,0,1,1,0,"142782",TRUE
+"Symphurus plagiusa","D20_S0093","adult",1915,2,1,1,1,1,1,0,"91436",FALSE
+"Anchoa mitchilli","D20_S0093","larva",1915,250,3,0.4,0,3,0,0,"106208; 454793; 454794",TRUE
+"Chloroscombrus chrysurus","D20_S0093","larva",1915,2,1,1,0,1,0,0,"382311",FALSE
+"Symphurus plagiusa","D20_S0094","adult",1891,6,2,0.833333333333333,1,2,2,0,"59056; 59059",FALSE
+"Laemonema barbatulum","D20_S0095","adult",1885,4,1,1,1,1,1,0,"53050",FALSE
+"Chlorophthalmus agassizi","D20_S0096","adult",1919,1,1,1,1,0,1,0,"91404",FALSE
+"Citharichthys arctifrons","D20_S0096","adult",1919,5,1,1,1,1,1,0,"91405",FALSE
+"Bothus ocellatus","D20_S0097","larva",1914,7,2,0.571428571428571,2,2,0,0,"282534; 282554",FALSE
+"Histrio histrio","D20_S0097","larva",1914,2,1,1,1,1,0,0,"387320",FALSE
+"Exocoetus volitans","D20_S0098","adult",1886,6,2,0.666666666666667,2,2,2,0,"294800; 94706",FALSE
+"Hygophum hygomii","D20_S0098","adult",1886,1,1,1,1,1,1,0,"92809",FALSE
+"Nezumia aequalis","D20_S0098","adult",1886,8,2,0.5,2,2,2,0,"122373; 45843",FALSE
+"Nezumia aequalis","D20_S0099","adult",1886,5,1,1,1,1,1,0,"45842",FALSE
+"Cyclothone microdon","D20_S0100","adult",1886,6,1,1,1,1,1,0,"85459",FALSE
+"Histrio histrio","D20_S0100","adult",1914,4,1,1,1,1,1,0,"134017",FALSE
+"Myctophum affine","D20_S0101","adult",1886,4,1,1,1,1,1,0,"151209",FALSE
+"Menidia menidia","D20_S0102","adult",1915,25,1,1,1,1,1,0,"335883",TRUE
+"Stephanolepis hispida","D20_S0102","adult",1915,3,1,1,1,1,1,0,"105727",FALSE
+"Gambusia affinis","D20_S0103","adult",1916,256,2,0.9609375,0,2,2,0,"124619; 126821",TRUE
+"Fundulus heteroclitus","D20_S0103","adult",1917,2,1,1,0,1,1,0,"86161",FALSE
+"Chlorophthalmus agassizi","D20_S0104","adult",1885,23,2,0.91304347826087,2,2,2,0,"41600; 43826",TRUE
+"Cyclothone microdon","D20_S0105","adult",1886,3,1,1,1,1,1,0,"83855",FALSE
+"Haemulon aurolineatum","D20_S0106","adult",1885,1,1,1,1,1,1,0,"198657",FALSE
+"Histrio histrio","D20_S0106","adult",1885,1,1,1,1,1,0,0,"44245",FALSE
+"Monacanthus ciliatus","D20_S0106","adult",1885,2,1,1,1,1,1,0,"101582",FALSE
+"Chlorophthalmus agassizi","D20_S0107","adult",1885,3,1,1,1,1,1,0,"43852",FALSE
+"Coelorinchus carminatus","D20_S0107","adult",1885,13,1,1,1,1,1,0,"143084",TRUE
+"Dibranchus atlanticus","D20_S0107","adult",1885,3,2,0.666666666666667,2,2,2,0,"83851; 85468",FALSE
+"Laemonema barbatulum","D20_S0107","adult",1885,105,5,0.485714285714286,5,5,5,0,"131941; 132207; 143085; 84477; 84546",TRUE
+"Nezumia bairdii","D20_S0107","adult",1885,1,1,1,1,1,1,0,"205713",FALSE
+"Histrio histrio","D20_S0108","adult",1886,6,1,1,1,1,1,0,"39474",FALSE
+"Histrio histrio","D20_S0109","adult",1885,1,1,1,1,1,1,0,"131631",FALSE
+"Nezumia aequalis","D20_S0109","adult",1885,3,1,1,1,1,1,0,"45823",FALSE
+"Cyclothone microdon","D20_S0109","adult",1886,7,1,1,1,1,1,0,"85462",FALSE
+"Fenestraja plutonia","D20_S0109","adult",1886,2,1,1,1,1,1,0,"148306",FALSE
+"Laemonema barbatulum","D20_S0109","adult",1886,1,1,1,1,1,1,0,"205134",FALSE
+"Haemulon aurolineatum","D20_S0110","adult",1914,1,1,1,1,0,1,0,"111851",FALSE
+"Centropristis striata","D20_S0110","adult",1915,1,1,1,1,1,1,0,"124399",FALSE
+"Cheilopogon furcatus","D20_S0110","adult",1915,4,1,1,1,1,1,0,"116710",FALSE
+"Hyporhamphus unifasciatus","D20_S0110","larva",1914,1,1,1,0,1,0,0,"294420",FALSE
+"Stephanolepis hispida","D20_S0110","larva",1914,1,1,1,0,1,0,0,"105500",FALSE
+"Centrobranchus nigroocellatus","D20_S0111","adult",1914,44,1,1,1,1,1,0,"100610",TRUE
+"Histrio histrio","D20_S0111","adult",1914,4,1,1,1,1,1,0,"164191",FALSE
+"Bothus ocellatus","D20_S0111","larva",1914,1,1,1,1,1,0,0,"282537",FALSE
+"Exocoetus volitans","D20_S0111","larva",1914,1,1,1,1,1,0,0,"294562",FALSE
+"Histrio histrio","D20_S0111","larva",1914,2,2,0.5,2,2,0,0,"387309; 387313",FALSE
+"Exocoetus volitans","D20_S0112","adult",1913,2,1,1,1,1,0,0,"299589",FALSE
+"Stephanolepis hispida","D20_S0113","adult",1913,2,1,1,0,1,1,0,"106291",FALSE
+"Decapterus punctatus","D20_S0113","adult",1915,6,1,1,1,0,1,0,"105441",FALSE
+"Fenestraja plutonia","D20_S0114","adult",1886,10,1,1,1,1,1,0,"148307",TRUE
+"Lycenchelys verrillii","D20_S0114","adult",1886,4,1,1,1,1,1,0,"143041",FALSE
+"Nezumia aequalis","D20_S0114","adult",1886,9,2,0.777777777777778,2,2,2,0,"113260; 205882",FALSE
+"Lycodes terraenovae","D20_S0115","adult",1885,2,1,1,1,1,1,0,"129909",FALSE
+"Nezumia aequalis","D20_S0115","adult",1885,2,1,1,1,1,1,0,"45776",FALSE
+"Haemulon aurolineatum","D20_S0116","adult",1914,1,1,1,1,0,1,0,"398623",FALSE
+"Stephanolepis hispida","D20_S0116","larva",1913,1,1,1,1,0,0,0,"105501",FALSE
+"Exocoetus volitans","D20_S0117","adult",1886,1,1,1,1,1,1,0,"84526",FALSE
+"Nezumia aequalis","D20_S0117","adult",1886,1,1,1,1,1,1,0,"45840",FALSE
+"Bothus ocellatus","D20_S0118","larva",1914,1,1,1,1,1,0,0,"282545",FALSE
+"Histrio histrio","D20_S0118","larva",1914,5,1,1,1,1,0,0,"387326",FALSE
+"Monacanthus ciliatus","D20_S0119","adult",1902,3,1,1,1,0,1,0,"142840",FALSE
+"Cheilopogon furcatus","D20_S0120","adult",1914,1,1,1,0,1,1,0,"294748",FALSE
+"Exocoetus volitans","D20_S0120","adult",1914,56,10,0.285714285714286,2,10,5,0,"106421; 106422; 106423; 106424; 299574; 299578; 299579; 299582; 299584; 299585",TRUE
+"Stephanolepis hispida","D20_S0120","adult",1914,2,1,1,0,0,1,0,"105712",FALSE
+"Stephanolepis hispida","D20_S0120","adult",1926,1,1,1,0,0,1,0,"106318",FALSE
+"Bothus ocellatus","D20_S0120","larva",1914,6,1,1,0,1,0,0,"282576",FALSE
+"Caranx latus","D20_S0120","larva",1914,25,1,1,0,1,0,0,"382323",TRUE
+"Cheilopogon furcatus","D20_S0120","larva",1914,38,11,0.394736842105263,0,11,0,11,"106452; 116708; 294729; 294730; 294735; 294739; 294740; 294746; 294747; 294749; 294760",TRUE
+"Exocoetus volitans","D20_S0120","larva",1914,11,1,1,0,1,0,0,"299572",TRUE
+"Histrio histrio","D20_S0120","larva",1914,1,1,1,0,1,0,0,"387327",FALSE
+"Exocoetus volitans","D20_S0120","mixed",1914,49,2,0.591836734693878,0,2,0,0,"299568; 299576",TRUE
+"Histrio histrio","D20_S0121","adult",1886,3,1,1,1,1,1,0,"164177",FALSE
+"Alosa aestivalis","D20_S0122","adult",1914,1,1,1,1,0,1,0,"90158",FALSE
+"Alosa aestivalis","D20_S0123","adult",1882,13,1,1,0,1,1,0,"30393",TRUE
+"Anchoa mitchilli","D20_S0123","adult",1882,1,1,1,0,1,1,0,"30381",FALSE
+"Brevoortia tyrannus","D20_S0123","adult",1882,4,3,0.5,0,3,3,0,"30361; 30377; 30394",FALSE
+"Alosa aestivalis","D20_S0123","adult",1914,91,2,0.923076923076923,2,0,2,0,"90153; 90203",TRUE
+"Alosa pseudoharengus","D20_S0123","adult",1914,4,1,1,1,0,1,0,"90131",FALSE
+"Syngnathus fuscus","D20_S0123","adult",1915,1,1,1,1,0,1,0,"77926",FALSE
+"Alosa aestivalis","D20_S0123","adult",1916,224,3,0.446428571428571,3,2,3,0,"90144; 90192; 90202",TRUE
+"Alosa pseudoharengus","D20_S0123","adult",1916,153,3,0.483660130718954,3,3,3,0,"90051; 90052; 90124",TRUE
+"Menidia menidia","D20_S0123","adult",1916,2,1,1,1,1,1,0,"90595",FALSE
+"Alosa pseudoharengus","D20_S0123","adult",1921,10,1,1,1,1,1,0,"129778",TRUE
+"Alosa aestivalis","D20_S0124","adult",1914,10,3,0.7,3,2,3,0,"90150; 90156; 90160",TRUE
+"Alosa pseudoharengus","D20_S0124","adult",1914,43,3,0.604651162790698,3,3,3,0,"90057; 90061; 90538",TRUE
+"Menidia menidia","D20_S0124","adult",1914,1,1,1,1,1,1,0,"90363",FALSE
+"Menidia menidia","D20_S0124","adult",1915,9,1,1,1,1,1,0,"90564",FALSE
+"Syngnathus fuscus","D20_S0124","adult",1915,1,1,1,1,1,1,0,"77922",FALSE
+"Alosa aestivalis","D20_S0124","adult",1916,1,1,1,1,1,1,0,"90184",FALSE
+"Alosa pseudoharengus","D20_S0124","adult",1916,4,1,1,1,1,1,0,"90109",FALSE
+"Brevoortia tyrannus","D20_S0124","adult",1916,12,1,1,1,1,1,0,"90020",TRUE
+"Pseudopleuronectes americanus","D20_S0124","adult",1916,6,1,1,1,1,1,0,"91272",FALSE
+"Menidia menidia","D20_S0124","larva",1916,2,1,1,1,1,0,0,"335890",FALSE
+"Alosa pseudoharengus","D20_S0125","adult",1916,1,1,1,1,1,1,0,"90541",FALSE
+"Brevoortia tyrannus","D20_S0126","adult",1892,50,1,1,1,1,1,0,"67821",TRUE
+"Paralichthys dentatus","D20_S0126","adult",1892,1,1,1,1,1,1,0,"54940",FALSE
+"Paralichthys dentatus","D20_S0126","adult",1894,2,1,1,0,1,1,0,"67747",FALSE
+"Gobiosoma ginsburgi","D20_S0126","adult",1916,21,1,1,0,1,1,0,"116655",TRUE
+"Alosa aestivalis","D20_S0127","adult",1916,81,1,1,1,0,1,0,"90223",TRUE
+"Alosa pseudoharengus","D20_S0127","adult",1916,20,1,1,1,0,1,0,"90115",TRUE
+"Histrio histrio","D20_S0128","adult",1886,1,1,1,1,1,1,0,"92689",FALSE
+"Histrio histrio","D20_S0129","adult",1886,1,1,1,1,1,1,0,"92749",FALSE
+"Anchoa mitchilli","D20_S0130","adult",1882,13,2,0.923076923076923,2,2,2,0,"30383; 30389",TRUE
+"Alosa aestivalis","D20_S0130","adult",1914,71,4,0.47887323943662,4,2,4,0,"90161; 90204; 90207; 90210",TRUE
+"Alosa pseudoharengus","D20_S0130","adult",1914,29,2,0.96551724137931,2,1,2,0,"90076; 90536",TRUE
+"Brevoortia tyrannus","D20_S0130","adult",1914,1,1,1,1,1,1,0,"90042",FALSE
+"Gobiosoma ginsburgi","D20_S0130","adult",1914,1,1,1,0,1,1,0,"91130",FALSE
+"Syngnathus fuscus","D20_S0130","adult",1915,1,1,1,1,1,1,0,"77925",FALSE
+"Alosa aestivalis","D20_S0130","adult",1916,31,2,0.806451612903226,2,2,2,0,"90194; 90222",TRUE
+"Brevoortia tyrannus","D20_S0130","adult",1916,7,1,1,1,1,1,0,"134145",FALSE
+"Menidia menidia","D20_S0130","adult",1916,4,2,0.5,2,2,2,0,"90366; 90367",FALSE
+"Pseudopleuronectes americanus","D20_S0130","adult",1916,21,2,0.571428571428571,2,2,2,0,"91269; 91271",TRUE
+"Alosa aestivalis","D20_S0130","adult",1921,2,1,1,1,1,1,0,"90185",FALSE
+"Alosa pseudoharengus","D20_S0130","adult",1921,3,1,1,1,1,1,0,"90113",FALSE
+"Brevoortia tyrannus","D20_S0130","adult",1921,28,1,1,1,1,1,0,"90022",TRUE
+"Paralichthys dentatus","D20_S0130","adult",1921,1,1,1,1,1,1,0,"91259",FALSE
+"Menidia menidia","D20_S0130","larva",1916,10,1,1,1,1,0,0,"335892",TRUE
+"Bothus ocellatus","D20_S0131","larva",1914,7,1,1,1,1,0,0,"282530",FALSE
+"Histrio histrio","D20_S0131","larva",1914,14,1,1,1,1,0,0,"387312",TRUE
+"Pseudopleuronectes americanus","D20_S0132","adult",1914,1,1,1,1,1,1,0,"156098",FALSE
+"Gobiosoma ginsburgi","D20_S0132","adult",1915,1,1,1,1,1,1,0,"123214",FALSE
+"Syngnathus fuscus","D20_S0132","adult",1915,1,1,1,1,1,1,0,"77923",FALSE
+"Alosa aestivalis","D20_S0132","adult",1916,55,3,0.727272727272727,3,3,3,0,"90182; 90186; 90200",TRUE
+"Alosa pseudoharengus","D20_S0132","adult",1916,20,2,0.95,2,2,2,0,"90065; 90435",TRUE
+"Brevoortia tyrannus","D20_S0132","adult",1916,9,1,1,1,1,1,0,"89999",FALSE
+"Etropus crossotus","D20_S0132","adult",1916,1,1,1,1,1,1,0,"91245",FALSE
+"Menidia menidia","D20_S0132","adult",1916,12,3,0.583333333333333,3,3,3,0,"90365; 90567; 90594",TRUE
+"Anchoa cayorum","D20_S0133","adult",1892,96,4,0.427083333333333,3,4,4,0,"54963; 54968; 54979; 69727",TRUE
+"Anchoa mitchilli","D20_S0133","adult",1892,11,1,1,0,1,1,0,"127710",TRUE
+"Fundulus heteroclitus","D20_S0133","adult",1892,1,1,1,0,1,1,0,"69710",FALSE
+"Membras martinica","D20_S0133","adult",1892,66,5,0.545454545454545,3,5,5,0,"125451; 69731; 69732; 69733; 69734",TRUE
+"Menidia menidia","D20_S0133","adult",1892,20,4,0.55,3,4,4,0,"69700; 69701; 69702; 69703",TRUE
+"Paralichthys dentatus","D20_S0133","adult",1892,4,2,0.75,1,2,2,0,"54955; 54956",FALSE
+"Syngnathus fuscus","D20_S0133","adult",1892,6,1,1,1,1,1,0,"72318",FALSE
+"Alosa aestivalis","D20_S0133","adult",1914,1,1,1,1,1,1,0,"90168",FALSE
+"Alosa pseudoharengus","D20_S0133","adult",1914,1,1,1,1,1,1,0,"90104",FALSE
+"Anchoa mitchilli","D20_S0133","adult",1915,2,1,1,0,0,1,0,"90495",FALSE
+"Alosa aestivalis","D20_S0133","adult",1916,51,2,0.980392156862745,2,2,2,0,"90138; 90201",TRUE
+"Alosa pseudoharengus","D20_S0133","adult",1916,15,1,1,1,1,1,0,"90114",TRUE
+"Anchoa mitchilli","D20_S0133","adult",1916,25,1,1,1,1,1,0,"90238",TRUE
+"Gobiosoma ginsburgi","D20_S0133","adult",1916,3,2,0.666666666666667,2,2,2,0,"91131; 91132",FALSE
+"Symphurus plagiusa","D20_S0133","adult",1916,4,2,0.75,2,2,2,0,"157394; 157396",FALSE
+"Syngnathus fuscus","D20_S0133","adult",1916,2,2,0.5,2,1,2,0,"107756; 90086",FALSE
+"Anchoa mitchilli","D20_S0133","adult",1920,3,1,1,1,1,1,0,"90639",FALSE
+"Etropus crossotus","D20_S0133","adult",1920,1,1,1,1,1,1,0,"91246",FALSE
+"Gobiosoma ginsburgi","D20_S0133","adult",1920,1,1,1,1,1,1,0,"91133",FALSE
+"Paralichthys dentatus","D20_S0133","adult",1920,2,1,1,1,1,1,0,"157630",FALSE
+"Syngnathus fuscus","D20_S0133","adult",1920,1,1,1,1,1,1,0,"132725",FALSE
+"Alosa aestivalis","D20_S0133","adult",1921,10,2,0.7,2,1,2,0,"90136; 90139",TRUE
+"Alosa pseudoharengus","D20_S0133","adult",1921,24,4,0.625,4,2,4,0,"90098; 90107; 90436; 90440",TRUE
+"Anchoa mitchilli","D20_S0133","adult",1921,13,2,0.923076923076923,2,1,2,0,"90491; 90510",TRUE
+"Brevoortia tyrannus","D20_S0133","adult",1921,50,1,1,1,1,1,0,"134156",TRUE
+"Paralichthys dentatus","D20_S0133","adult",1921,10,1,1,1,1,1,0,"91250",TRUE
+"Anchoa mitchilli","D20_S0133","larva",1920,1,1,1,1,1,0,0,"401712",FALSE
+"Anchoa cayorum","D20_S0134","adult",1892,3,1,1,0,1,1,0,"69728",FALSE
+"Membras martinica","D20_S0134","adult",1892,1,1,1,0,1,1,0,"69730",FALSE
+"Menidia menidia","D20_S0134","adult",1892,4,1,1,0,1,1,0,"69704",FALSE
+"Paralichthys dentatus","D20_S0134","adult",1892,1,1,1,0,1,1,0,"54965",FALSE
+"Pseudopleuronectes americanus","D20_S0134","adult",1892,1,1,1,0,1,1,0,"54972",FALSE
+"Syngnathus fuscus","D20_S0134","adult",1892,59,1,1,0,1,1,0,"72319",TRUE
+"Bothus ocellatus","D20_S0135","larva",1914,1,1,1,1,1,0,0,"282542",FALSE
+"Alosa aestivalis","D20_S0136","adult",1914,37,3,0.675675675675676,3,2,3,0,"90134; 90206; 90220",TRUE
+"Alosa pseudoharengus","D20_S0136","adult",1914,20,1,1,1,1,1,0,"90121",TRUE
+"Alosa aestivalis","D20_S0136","adult",1916,1,1,1,1,1,1,0,"90183",FALSE
+"Menidia menidia","D20_S0136","adult",1916,13,1,1,1,1,1,0,"90596",TRUE
+"Pseudopleuronectes americanus","D20_S0136","adult",1916,13,2,0.846153846153846,2,2,2,0,"91268; 91270",TRUE
+"Exocoetus volitans","D20_S0137","adult",1914,1,1,1,1,1,0,0,"299587",FALSE
+"Hyporhamphus unifasciatus","D20_S0137","larva",1914,5,1,1,1,1,0,0,"294413",FALSE
+"Lagodon rhomboides","D20_S0138","adult",1885,1,1,1,1,1,1,0,"134269",FALSE
+"Alosa aestivalis","D20_S0139","adult",1914,22,1,1,1,0,1,0,"90151",TRUE
+"Alosa pseudoharengus","D20_S0139","adult",1914,7,1,1,1,0,1,0,"90132",FALSE
+"Alosa aestivalis","D20_S0140","adult",1914,251,4,0.398406374501992,4,0,4,0,"90135; 90142; 90218; 91385",TRUE
+"Alosa pseudoharengus","D20_S0140","adult",1914,1,1,1,1,0,1,0,"91384",FALSE
+"Alosa aestivalis","D20_S0140","adult",1916,27,3,0.925925925925926,3,1,3,0,"155973; 90145; 90193",TRUE
+"Alosa aestivalis","D20_S0141","adult",1914,11,1,1,1,0,1,0,"90166",TRUE
+"Anchoa mitchilli","D20_S0141","adult",1916,1,1,1,1,1,1,0,"127705",FALSE
+"Etropus crossotus","D20_S0141","adult",1916,1,1,1,1,1,1,0,"91242",FALSE
+"Chloroscombrus chrysurus","D20_S0142","adult",1885,25,1,1,1,1,1,0,"438507",TRUE
+"Decapterus punctatus","D20_S0142","adult",1885,84,1,1,1,1,1,0,"106056",TRUE
+"Exocoetus volitans","D20_S0142","adult",1914,8,1,1,1,1,0,0,"299590",FALSE
+"Cheilopogon furcatus","D20_S0142","larva",1914,11,5,0.454545454545455,5,5,0,5,"106455; 294725; 294737; 294741; 294742",TRUE
+"Hyporhamphus unifasciatus","D20_S0142","larva",1914,22,1,1,1,1,0,0,"294421",TRUE
+"Centropristis striata","D20_S0143","adult",1916,1,1,1,1,1,1,0,"91387",FALSE
+"Etropus crossotus","D20_S0143","adult",1916,2,1,1,1,1,1,0,"91243",FALSE
+"Paralichthys dentatus","D20_S0143","adult",1916,4,1,1,0,1,1,0,"91264",FALSE
+"Anchoa mitchilli","D20_S0144","adult",1882,25,1,1,1,1,1,0,"30343",TRUE
+"Syngnathus fuscus","D20_S0144","adult",1882,15,2,0.933333333333333,2,2,2,0,"30402; 30403",TRUE
+"Brevoortia tyrannus","D20_S0144","adult",1892,19,1,1,1,1,1,0,"69708",TRUE
+"Fundulus heteroclitus","D20_S0144","adult",1892,7,1,1,0,1,1,0,"69709",FALSE
+"Menidia menidia","D20_S0144","adult",1892,18,4,0.5,4,4,4,0,"69697; 69698; 69699; 70223",TRUE
+"Paralichthys dentatus","D20_S0144","adult",1892,2,1,1,1,1,1,0,"54952",FALSE
+"Strongylura marina","D20_S0144","adult",1892,5,2,0.8,2,2,2,0,"69696; 70222",FALSE
+"Syngnathus fuscus","D20_S0144","adult",1892,1,1,1,1,1,1,0,"54967",FALSE
+"Syngnathus fuscus","D20_S0144","adult",1894,9,1,1,0,1,1,0,"72317",FALSE
+"Centropristis striata","D20_S0144","adult",1897,2,1,1,0,1,1,0,"67895",FALSE
+"Alosa aestivalis","D20_S0144","adult",1914,3,1,1,1,0,1,0,"90209",FALSE
+"Paralichthys dentatus","D20_S0144","adult",1914,7,1,1,1,1,1,0,"91251",FALSE
+"Alosa aestivalis","D20_S0144","adult",1916,3,1,1,1,0,1,0,"90205",FALSE
+"Symphurus plagiusa","D20_S0144","adult",1916,2,1,1,1,1,1,0,"157395",FALSE
+"Alosa aestivalis","D20_S0144","adult",1921,13,1,1,1,1,1,0,"90141",TRUE
+"Alosa pseudoharengus","D20_S0144","adult",1921,8,1,1,1,1,1,0,"90108",FALSE
+"Paralichthys dentatus","D20_S0144","adult",1921,3,1,1,1,1,1,0,"91248",FALSE
+"Hyporhamphus unifasciatus","D20_S0144","larva",1916,1,1,1,1,1,0,0,"294424",FALSE
+"Alosa aestivalis","D20_S0145","adult",1914,9,1,1,1,0,1,0,"90213",FALSE
+"Centropristis striata","D20_S0145","adult",1916,1,1,1,1,1,1,0,"387607",FALSE
+"Etropus crossotus","D20_S0145","adult",1916,2,1,1,1,1,1,0,"91247",FALSE
+"Membras martinica","D20_S0145","adult",1916,14,1,1,0,1,1,0,"90358",TRUE
+"Menidia menidia","D20_S0145","adult",1916,1,1,1,1,1,1,0,"90364",FALSE
+"Syngnathus fuscus","D20_S0145","adult",1916,1,1,1,1,1,1,0,"91344",FALSE
+"Hyporhamphus unifasciatus","D20_S0145","larva",1916,2,1,1,0,1,0,0,"294406",FALSE
+"Chloroscombrus chrysurus","D20_S0146","adult",1885,4,1,1,1,1,1,0,"438506",FALSE
+"Fenestraja plutonia","D20_S0146","adult",1885,142,6,0.352112676056338,6,6,6,0,"148299; 395426; 395427; 487570; 487571; 487572",TRUE
+"Decapterus punctatus","D20_S0147","adult",1914,16,2,0.9375,2,2,2,0,"105443; 105445",TRUE
+"Stephanolepis hispida","D20_S0147","adult",1914,1,1,1,1,1,1,0,"105721",FALSE
+"Cheilopogon furcatus","D20_S0147","larva",1914,1,1,1,1,0,0,1,"106453",FALSE
+"Hyporhamphus unifasciatus","D20_S0147","larva",1914,18,3,0.833333333333333,3,2,0,0,"294415; 294416; 294423",TRUE
+"Bothus ocellatus","D20_S0148","adult",1885,2,1,1,1,1,1,0,"134052",FALSE
+"Chloroscombrus chrysurus","D20_S0148","adult",1885,3,1,1,1,1,1,0,"438508",FALSE
+"Decapterus punctatus","D20_S0148","adult",1885,24,2,0.791666666666667,2,2,2,0,"105446; 83768",TRUE
+"Haemulon aurolineatum","D20_S0148","adult",1885,30,1,1,1,1,1,0,"83800",TRUE
+"Decapterus punctatus","D20_S0149","adult",1885,1,1,1,1,1,1,0,"101575",FALSE
+"Exocoetus volitans","D20_S0149","mixed",1885,2,1,1,1,1,0,0,"294571",FALSE
+"Syngnathus fuscus","D20_S0150","adult",1916,1,1,1,1,0,1,0,"100429",FALSE
+"Centropristis striata","D20_S0151","adult",1884,1,1,1,1,1,1,0,"101516",FALSE
+"Chloroscombrus chrysurus","D20_S0151","adult",1884,6,1,1,1,1,1,0,"148207",FALSE
+"Etropus crossotus","D20_S0151","adult",1884,4,2,0.75,2,2,2,0,"155811; 93120",FALSE
+"Centropristis striata","D20_S0152","adult",1885,2,2,0.5,2,2,2,0,"134181; 84537",FALSE
+"Chlorophthalmus agassizi","D20_S0152","adult",1885,2,1,1,1,1,1,0,"124294",FALSE
+"Chloroscombrus chrysurus","D20_S0152","larva",1885,19,1,1,1,1,0,0,"382313",TRUE
+"Bothus ocellatus","D20_S0152","larva",1919,50,1,1,1,1,0,0,"282556",TRUE
+"Histrio histrio","D20_S0152","larva",1919,1,1,1,1,1,0,0,"387310",FALSE
+"Lagodon rhomboides","D20_S0153","adult",1883,1,1,1,1,1,1,0,"32817",FALSE
+"Glyptocephalus cynoglossus","D20_S0153","adult",1884,1,1,1,1,1,1,0,"45530",FALSE
+"Cheilopogon furcatus","D20_S0154","adult",1914,2,1,1,1,1,1,0,"118884",FALSE
+"Histrio histrio","D20_S0154","adult",1914,8,1,1,1,1,1,0,"164190",FALSE
+"Bothus ocellatus","D20_S0154","larva",1914,5,1,1,1,1,0,0,"282547",FALSE
+"Laemonema barbatulum","D20_S0155","adult",1883,2,1,1,1,1,1,0,"45860",FALSE
+"Monacanthus ciliatus","D20_S0155","adult",1884,15,1,1,1,1,1,0,"83753",TRUE
+"Centropristis striata","D20_S0156","adult",1884,2,1,1,1,1,1,0,"132195",FALSE
+"Etropus crossotus","D20_S0156","adult",1884,1,1,1,1,1,1,0,"130991",FALSE
+"Histrio histrio","D20_S0157","adult",1884,33,1,1,0,1,1,0,"83863",TRUE
+"Liparis inquilinus","D20_S0158","adult",1913,13,1,1,0,0,1,0,"100574",TRUE
+"Citharichthys arctifrons","D20_S0159","adult",1884,7,2,0.714285714285714,2,2,2,0,"45614; 45625",FALSE
+"Coelorinchus carminatus","D20_S0159","adult",1884,1,1,1,1,1,1,0,"45698",FALSE
+"Glyptocephalus cynoglossus","D20_S0159","adult",1884,1,1,1,1,1,1,0,"45528",FALSE
+"Laemonema barbatulum","D20_S0159","adult",1884,2,2,0.5,2,2,2,0,"45966; 84496",FALSE
+"Lycenchelys verrillii","D20_S0159","adult",1884,35,3,0.514285714285714,3,3,3,0,"45930; 45935; 84544",TRUE
+"Nezumia bairdii","D20_S0159","adult",1884,6,3,0.333333333333333,3,3,3,0,"45706; 45717; 46807",FALSE
+"Gobiosoma ginsburgi","D20_S0160","adult",1916,1,1,1,0,1,1,0,"116642",FALSE
+"Centropristis striata","D20_S0161","adult",1883,1,1,1,1,1,1,0,"32784",FALSE
+"Lagodon rhomboides","D20_S0162","adult",1917,1,1,1,1,1,1,0,"143828",FALSE
+"Chlorophthalmus agassizi","D20_S0163","adult",1885,7,2,0.714285714285714,2,2,2,0,"43831; 43832",FALSE
+"Histrio histrio","D20_S0163","adult",1885,1,1,1,1,1,1,0,"84515",FALSE
+"Coelorinchus carminatus","D20_S0164","adult",1883,1,1,1,1,1,1,0,"32807",FALSE
+"Glyptocephalus cynoglossus","D20_S0164","adult",1883,1,1,1,0,1,1,0,"32786",FALSE
+"Chlorophthalmus agassizi","D20_S0164","adult",1885,2,1,1,1,1,1,0,"43830",FALSE
+"Glyptocephalus cynoglossus","D20_S0164","adult",1885,1,1,1,1,1,1,0,"45510",FALSE
+"Exocoetus volitans","D20_S0165","adult",1886,2,1,1,1,1,1,0,"134298",FALSE
+"Lycodes terraenovae","D20_S0166","adult",1883,11,4,0.363636363636364,4,4,4,0,"43627; 45924; 45925; 45954",TRUE
+"Chlorophthalmus agassizi","D20_S0167","adult",1884,17,1,1,1,1,1,0,"43828",TRUE
+"Chlorophthalmus agassizi","D20_S0167","adult",1885,2,1,1,1,1,1,0,"43829",FALSE
+"Citharichthys arctifrons","D20_S0167","adult",1885,18,2,0.777777777777778,2,2,1,0,"45626; 45627",TRUE
+"Gonichthys cocco","D20_S0168","adult",1886,160,1,1,1,1,1,0,"38191",TRUE
+"Lycodes terraenovae","D20_S0168","adult",1886,12,4,0.5,4,4,4,0,"38143; 38145; 38147; 38156",TRUE
+"Myctophum affine","D20_S0168","adult",1886,1,1,1,1,1,1,0,"92394",FALSE
+"Nezumia bairdii","D20_S0168","adult",1886,1,1,1,1,1,1,0,"38155",FALSE
+"Citharichthys arctifrons","D20_S0169","adult",1883,1,1,1,1,1,1,0,"45630",FALSE
+"Glyptocephalus cynoglossus","D20_S0169","adult",1883,7,2,0.857142857142857,2,2,2,0,"32654; 32814",FALSE
+"Lycodes terraenovae","D20_S0169","adult",1883,1,1,1,1,1,1,0,"32813",FALSE
+"Nezumia aequalis","D20_S0169","adult",1883,1,1,1,0,1,1,0,"205879",FALSE
+"Nezumia bairdii","D20_S0169","adult",1883,3,1,1,1,1,1,0,"32656",FALSE
+"Liparis inquilinus","D20_S0170","adult",1913,12,1,1,1,0,1,0,"100577",TRUE
+"Citharichthys arctifrons","D20_S0170","larva",1913,20,1,1,1,1,0,0,"282513",TRUE
+"Pomatomus saltatrix","D20_S0170","larva",1913,156,1,1,1,0,0,0,"461569",TRUE
+"Coelorinchus carminatus","D20_S0171","adult",1880,9,1,1,1,1,1,0,"26735",FALSE
+"Glyptocephalus cynoglossus","D20_S0171","adult",1880,5,2,0.8,2,2,2,0,"26725; 26729",FALSE
+"Lycenchelys verrillii","D20_S0171","adult",1880,4,2,0.5,2,2,2,0,"26730; 26738",FALSE
+"Nezumia bairdii","D20_S0171","adult",1880,1,1,1,1,1,1,0,"26734",FALSE
+"Citharichthys arctifrons","D20_S0172","adult",1883,6,1,1,1,1,1,0,"45613",FALSE
+"Glyptocephalus cynoglossus","D20_S0172","adult",1883,2,2,0.5,2,2,2,0,"33016; 33019",FALSE
+"Gonichthys cocco","D20_S0173","adult",1886,35,1,1,1,1,1,0,"43823",TRUE
+"Hygophum hygomii","D20_S0173","adult",1886,6,1,1,1,1,1,0,"38193",FALSE
+"Cyclothone microdon","D20_S0174","adult",1883,4,1,1,1,1,1,0,"32661",FALSE
+"Lycodes terraenovae","D20_S0174","adult",1887,18,2,0.611111111111111,2,2,2,0,"39204; 45955",TRUE
+"Lycodes terraenovae","D20_S0175","adult",1887,1,1,1,1,1,1,0,"39239",FALSE
+"Citharichthys arctifrons","D20_S0176","adult",1913,4,1,1,1,1,1,0,"126633",FALSE
+"Glyptocephalus cynoglossus","D20_S0177","adult",1884,2,1,1,1,1,1,0,"35429",FALSE
+"Nezumia aequalis","D20_S0177","adult",1884,1,1,1,1,1,1,0,"205878",FALSE
+"Nezumia bairdii","D20_S0177","adult",1884,2,1,1,1,1,1,0,"35432",FALSE
+"Cyclothone microdon","D20_S0178","adult",1886,8,2,0.875,2,2,2,0,"38188; 85461",FALSE
+"Alosa pseudoharengus","D20_S0179","adult",1887,1,1,1,0,1,1,0,"39097",FALSE
+"Bothus ocellatus","D20_S0180","larva",1914,4,1,1,1,1,0,0,"282553",FALSE
+"Histrio histrio","D20_S0181","adult",1884,1,1,1,1,1,1,0,"133908",FALSE
+"Bothus ocellatus","D20_S0182","larva",1914,1,1,1,1,1,0,0,"282548",FALSE
+"Gonichthys cocco","D20_S0183","adult",1886,13,1,1,1,1,1,0,"43824",TRUE
+"Hygophum hygomii","D20_S0183","adult",1886,1,1,1,1,1,1,0,"38171",FALSE
+"Myctophum affine","D20_S0183","adult",1886,60,1,1,1,1,1,0,"92808",TRUE
+"Centrobranchus nigroocellatus","D20_S0184","adult",1914,2,1,1,1,1,1,0,"100374",FALSE
+"Myctophum affine","D20_S0184","adult",1914,1,1,1,1,1,1,0,"100379",FALSE
+"Bothus ocellatus","D20_S0184","larva",1914,15,1,1,1,1,0,0,"282533",TRUE
+"Citharichthys arctifrons","D20_S0185","adult",1881,3,1,1,1,1,1,0,"29064",FALSE
+"Coelorinchus carminatus","D20_S0185","adult",1881,2,1,1,1,1,1,0,"29054",FALSE
+"Dibranchus atlanticus","D20_S0185","adult",1881,1,1,1,1,1,1,0,"29071",FALSE
+"Nezumia aequalis","D20_S0185","adult",1881,1,1,1,1,1,1,0,"205880",FALSE
+"Lycodes terraenovae","D20_S0186","adult",1884,1,1,1,1,1,1,0,"35628",FALSE
+"Bothus ocellatus","D20_S0187","larva",1914,1,1,1,1,1,0,0,"282546",FALSE
+"Histrio histrio","D20_S0187","larva",1914,1,1,1,1,1,0,0,"387314",FALSE
+"Coelorinchus carminatus","D20_S0188","adult",1881,1,1,1,1,1,1,0,"29048",FALSE
+"Nezumia bairdii","D20_S0188","adult",1881,3,1,1,1,1,1,0,"29049",FALSE
+"Lycodes terraenovae","D20_S0188","adult",1884,1,1,1,1,1,1,0,"35650",FALSE
+"Nezumia bairdii","D20_S0188","adult",1884,2,1,1,1,1,1,0,"35654",FALSE
+"Glyptocephalus cynoglossus","D20_S0188","adult",1887,4,2,0.75,2,2,2,0,"39211; 39248",FALSE
+"Nezumia bairdii","D20_S0188","adult",1887,2,1,1,1,1,1,0,"39250",FALSE
+"Monacanthus ciliatus","D20_S0189","adult",1886,2,1,1,1,1,1,0,"83756",FALSE
+"Nezumia bairdii","D20_S0190","adult",1884,1,1,1,1,1,1,0,"436726",FALSE
+"Nezumia bairdii","D20_S0191","adult",1887,1,1,1,1,1,1,0,"39257",FALSE
+"Centropristis striata","D20_S0192","adult",1890,6,2,0.833333333333333,1,2,2,0,"67607; 67615",FALSE
+"Bothus ocellatus","D20_S0193","larva",1913,3,1,1,1,1,0,0,"282531",FALSE
+"Citharichthys arctifrons","D20_S0193","larva",1913,40,1,1,1,1,0,0,"282514",TRUE
+"Cyclothone microdon","D20_S0194","adult",1887,9,1,1,1,1,1,0,"39222",FALSE
+"Glyptocephalus cynoglossus","D20_S0195","adult",1885,6,1,1,1,1,1,0,"45520",FALSE
+"Lycenchelys verrillii","D20_S0195","adult",1885,1,1,1,1,1,1,0,"45937",FALSE
+"Glyptocephalus cynoglossus","D20_S0196","adult",1885,1,1,1,1,1,1,0,"100392",FALSE
+"Lycenchelys verrillii","D20_S0196","adult",1885,2,1,1,1,1,1,0,"45936",FALSE
+"Gonichthys cocco","D20_S0197","adult",1885,2,1,1,1,1,1,0,"43816",FALSE
+"Citharichthys arctifrons","D20_S0198","adult",1883,1,1,1,1,1,1,0,"45624",FALSE
+"Nezumia bairdii","D20_S0198","adult",1884,2,1,1,1,1,1,0,"45714",FALSE
+"Histrio histrio","D20_S0199","larva",1914,1,1,1,1,1,0,0,"458863",FALSE
+"Gonichthys cocco","D20_S0200","adult",1885,101,9,0.603960396039604,0,9,9,0,"43820; 43821; 43822; 487550; 487551; 487552; 487553; 487554; 487555",TRUE
+"Cyclothone microdon","D20_S0200","adult",1886,1,1,1,1,1,1,0,"92237",FALSE
+"Nezumia bairdii","D20_S0200","adult",1886,1,1,1,1,1,1,0,"38065",FALSE
+"Citharichthys arctifrons","D20_S0201","adult",1884,1,1,1,1,1,1,0,"45678",FALSE
+"Glyptocephalus cynoglossus","D20_S0201","adult",1884,1,1,1,1,1,1,0,"35510",FALSE
+"Lycodes terraenovae","D20_S0202","adult",1884,3,1,1,1,1,1,0,"35652",FALSE
+"Glyptocephalus cynoglossus","D20_S0202","adult",1886,1,1,1,1,1,1,0,"38069",FALSE
+"Alosa aestivalis","D20_S0203","adult",1888,1,1,1,0,1,1,0,"84594",FALSE
+"Glyptocephalus cynoglossus","D20_S0204","adult",1886,1,1,1,1,1,1,0,"38077",FALSE
+"Hygophum hygomii","D20_S0204","adult",1886,4,1,1,1,1,1,0,"43795",FALSE
+"Coelorinchus carminatus","D20_S0205","adult",1882,1,1,1,1,1,1,0,"31775",FALSE
+"Dibranchus atlanticus","D20_S0205","adult",1882,1,1,1,1,1,1,0,"31765",FALSE
+"Glyptocephalus cynoglossus","D20_S0205","adult",1882,2,1,1,1,1,1,0,"31772",FALSE
+"Hygophum hygomii","D20_S0205","adult",1882,1,1,1,1,1,1,0,"151160",FALSE
+"Stephanolepis hispida","D20_S0205","adult",1882,4,1,1,1,1,1,0,"31808",FALSE
+"Glyptocephalus cynoglossus","D20_S0206","adult",1883,1,1,1,1,1,1,0,"33018",FALSE
+"Dibranchus atlanticus","D20_S0206","adult",1884,1,1,1,1,1,1,0,"35403",FALSE
+"Glyptocephalus cynoglossus","D20_S0206","adult",1884,2,1,1,1,1,1,0,"35410",FALSE
+"Nezumia bairdii","D20_S0206","adult",1884,11,3,0.545454545454545,3,3,3,0,"35427; 35434; 35435",TRUE
+"Citharichthys arctifrons","D20_S0207","adult",1885,10,2,0.7,2,2,2,0,"45611; 45616",TRUE
+"Coelorinchus carminatus","D20_S0207","adult",1885,2,1,1,1,1,1,0,"134174",FALSE
+"Glyptocephalus cynoglossus","D20_S0207","adult",1885,4,3,0.5,3,3,3,0,"134173; 45519; 45522",FALSE
+"Myctophum affine","D20_S0207","adult",1885,2,1,1,1,1,1,0,"39484",FALSE
+"Cyclothone microdon","D20_S0208","adult",1884,2,1,1,1,1,1,0,"35608",FALSE
+"Glyptocephalus cynoglossus","D20_S0208","adult",1884,2,2,0.5,2,2,2,0,"35549; 35550",FALSE
+"Lycodes terraenovae","D20_S0208","adult",1884,3,1,1,1,1,1,0,"35536",FALSE
+"Glyptocephalus cynoglossus","D20_S0208","adult",1885,1,1,1,1,1,1,0,"45523",FALSE
+"Coelorinchus carminatus","D20_S0209","adult",1881,4,1,1,1,1,1,0,"28891",FALSE
+"Dibranchus atlanticus","D20_S0209","adult",1881,1,1,1,1,1,1,0,"28907",FALSE
+"Glyptocephalus cynoglossus","D20_S0209","adult",1881,1,1,1,1,1,1,0,"28910",FALSE
+"Nezumia bairdii","D20_S0209","adult",1881,5,2,0.6,2,2,2,0,"28892; 28909",FALSE
+"Glyptocephalus cynoglossus","D20_S0209","adult",1885,1,1,1,1,1,1,0,"39487",FALSE
+"Glyptocephalus cynoglossus","D20_S0209","adult",1886,1,1,1,1,1,1,0,"134005",FALSE
+"Nezumia bairdii","D20_S0209","adult",1886,1,1,1,1,1,1,0,"134004",FALSE
+"Cyclothone microdon","D20_S0210","adult",1881,1,1,1,1,1,1,0,"28885",FALSE
+"Dibranchus atlanticus","D20_S0210","adult",1881,1,1,1,1,1,1,0,"28898",FALSE
+"Glyptocephalus cynoglossus","D20_S0210","adult",1881,2,2,0.5,2,2,2,0,"28915; 28918",FALSE
+"Lycenchelys verrillii","D20_S0210","adult",1881,10,4,0.4,4,4,4,0,"28886; 28894; 28919; 28923",TRUE
+"Nezumia bairdii","D20_S0210","adult",1881,2,2,0.5,2,2,2,0,"28903; 28913",FALSE
+"Centrobranchus nigroocellatus","D20_S0211","adult",1914,12,1,1,1,1,1,0,"100472",TRUE
+"Bothus ocellatus","D20_S0211","larva",1914,6,1,1,1,1,0,0,"282535",FALSE
+"Histrio histrio","D20_S0211","larva",1914,1,1,1,1,1,0,0,"387317",FALSE
+"Nezumia bairdii","D20_S0212","adult",1885,4,1,1,1,1,1,0,"92828",FALSE
+"Lycenchelys verrillii","D20_S0213","adult",1886,1,1,1,1,1,1,0,"132210",FALSE
+"Nezumia bairdii","D20_S0213","adult",1886,4,1,1,1,1,1,0,"45778",FALSE
+"Nezumia bairdii","D20_S0213","adult",1887,1,1,1,1,1,1,0,"39231",FALSE
+"Lycodes terraenovae","D20_S0214","adult",1884,2,1,1,1,1,1,0,"35531",FALSE
+"Dibranchus atlanticus","D20_S0215","adult",1881,1,1,1,1,1,1,0,"28801",FALSE
+"Glyptocephalus cynoglossus","D20_S0215","adult",1881,3,1,1,1,1,1,0,"28810",FALSE
+"Glyptocephalus cynoglossus","D20_S0215","adult",1884,2,1,1,1,1,1,0,"35460",FALSE
+"Lycenchelys verrillii","D20_S0215","adult",1884,1,1,1,1,1,1,0,"35462",FALSE
+"Cyclothone microdon","D20_S0216","adult",1886,11,1,1,1,1,1,0,"85463",TRUE
+"Coelorinchus carminatus","D20_S0217","adult",1880,1,1,1,1,1,1,0,"45694",FALSE
+"Glyptocephalus cynoglossus","D20_S0217","adult",1880,5,1,1,1,1,1,0,"26113",FALSE
+"Lycenchelys verrillii","D20_S0217","adult",1880,6,3,0.5,3,3,3,0,"26082; 26096; 26180",FALSE
+"Nezumia bairdii","D20_S0217","adult",1880,15,2,0.6,2,2,2,0,"26062; 26193",TRUE
+"Cyclothone microdon","D20_S0217","adult",1883,4,2,0.75,2,2,2,0,"33504; 33508",FALSE
+"Lycodes terraenovae","D20_S0217","adult",1883,1,1,1,1,1,1,0,"33521",FALSE
+"Glyptocephalus cynoglossus","D20_S0217","adult",1884,2,1,1,1,1,1,0,"35484",FALSE
+"Cyclothone microdon","D20_S0218","adult",1886,10,2,0.8,2,2,2,0,"53053; 92236",TRUE
+"Citharichthys arctifrons","D20_S0219","adult",1880,4,1,1,1,1,1,0,"26100",FALSE
+"Coelorinchus carminatus","D20_S0219","adult",1880,3,2,0.666666666666667,2,2,2,0,"26188; 26197",FALSE
+"Coelorinchus carminatus","D20_S0219","adult",1883,3,1,1,1,1,1,0,"33512",FALSE
+"Dibranchus atlanticus","D20_S0219","adult",1883,2,1,1,1,1,1,0,"33515",FALSE
+"Glyptocephalus cynoglossus","D20_S0219","adult",1883,8,3,0.5,3,3,3,0,"33529; 33531; 33554",FALSE
+"Nezumia bairdii","D20_S0219","adult",1883,6,1,1,1,1,1,0,"33513",FALSE
+"Coelorinchus carminatus","D20_S0219","adult",1884,3,1,1,1,1,1,0,"35476",FALSE
+"Dibranchus atlanticus","D20_S0219","adult",1884,1,1,1,1,1,1,0,"35448",FALSE
+"Glyptocephalus cynoglossus","D20_S0219","adult",1884,2,1,1,1,1,1,0,"35449",FALSE
+"Chlorophthalmus agassizi","D20_S0219","adult",1885,1,1,1,1,1,1,0,"43836",FALSE
+"Laemonema barbatulum","D20_S0220","adult",1886,1,1,1,1,1,1,0,"148362",FALSE
+"Dibranchus atlanticus","D20_S0221","adult",1881,7,1,1,1,1,1,0,"28727",FALSE
+"Glyptocephalus cynoglossus","D20_S0221","adult",1881,1,1,1,1,1,1,0,"28735",FALSE
+"Lycenchelys verrillii","D20_S0221","adult",1881,3,1,1,1,1,1,0,"28736",FALSE
+"Nezumia bairdii","D20_S0221","adult",1881,1,1,1,1,1,1,0,"28739",FALSE
+"Glyptocephalus cynoglossus","D20_S0221","adult",1882,1,1,1,1,1,1,0,"31675",FALSE
+"Coelorinchus carminatus","D20_S0221","adult",1883,3,1,1,1,1,1,0,"33543",FALSE
+"Chlorophthalmus agassizi","D20_S0221","adult",1885,8,5,0.25,5,5,5,0,"43833; 43834; 43835; 43837; 43838",FALSE
+"Dibranchus atlanticus","D20_S0221","adult",1885,2,1,1,1,1,1,0,"45639",FALSE
+"Monacanthus ciliatus","D20_S0221","adult",1885,2,1,1,1,1,1,0,"84479",FALSE
+"Menidia menidia","D20_S0222","adult",1885,22,2,0.909090909090909,0,2,2,0,"117403; 84596",TRUE
+"Menidia menidia","D20_S0222","adult",1887,4,1,1,0,1,1,0,"116192",FALSE
+"Brevoortia tyrannus","D20_S0222","adult",1892,25,1,1,0,1,1,0,"70147",TRUE
+"Centropristis striata","D20_S0222","adult",1892,164,7,0.396341463414634,5,7,7,0,"142818; 54832; 54833; 54834; 54857; 67604; 70139",TRUE
+"Menidia menidia","D20_S0222","adult",1892,5,1,1,0,1,1,0,"70140",FALSE
+"Pseudopleuronectes americanus","D20_S0222","adult",1892,8,4,0.375,2,4,4,0,"286377; 54843; 54864; 67626",FALSE
+"Syngnathus fuscus","D20_S0222","adult",1892,4,4,0.25,2,4,4,0,"54818; 54820; 54821; 72456",FALSE
+"Tautogolabrus adspersus","D20_S0222","adult",1892,57,8,0.526315789473684,5,8,8,0,"100299; 125000; 54825; 54826; 54827; 54828; 54856; 67625",TRUE
+"Alosa aestivalis","D20_S0222","adult",1899,2,2,0.5,0,2,2,0,"120638; 120640",FALSE
+"Alosa pseudoharengus","D20_S0222","adult",1899,1,1,1,0,1,1,0,"120633",FALSE
+"Centropristis striata","D20_S0222","adult",1899,4,1,1,0,1,1,0,"120555",FALSE
+"Menidia menidia","D20_S0222","adult",1899,2,2,0.5,0,2,2,0,"120598; 120600",FALSE
+"Pseudopleuronectes americanus","D20_S0222","adult",1899,4,2,0.75,0,2,2,0,"120655; 49248",FALSE
+"Strongylura marina","D20_S0222","adult",1899,17,3,0.882352941176471,0,3,3,0,"120685; 120705; 120707",TRUE
+"Syngnathus fuscus","D20_S0222","adult",1899,5,2,0.8,0,2,2,0,"120675; 54889",FALSE
+"Tautogolabrus adspersus","D20_S0222","adult",1899,2,1,1,0,1,1,0,"120694",FALSE
+"Citharichthys arctifrons","D20_S0223","adult",1881,5,2,0.6,2,2,2,0,"45617; 45618",FALSE
+"Glyptocephalus cynoglossus","D20_S0223","adult",1882,4,4,0.25,4,4,4,0,"31694; 31696; 31697; 31698",FALSE
+"Citharichthys arctifrons","D20_S0223","adult",1883,15,1,1,1,1,1,0,"33541",TRUE
+"Glyptocephalus cynoglossus","D20_S0223","adult",1883,3,2,0.666666666666667,2,2,2,0,"33530; 33587",FALSE
+"Cyclothone microdon","D20_S0224","adult",1884,11,1,1,1,1,1,0,"35619",TRUE
+"Nezumia bairdii","D20_S0225","adult",1885,2,1,1,1,1,1,0,"45712",FALSE
+"Menidia menidia","D20_S0226","adult",1895,9,1,1,0,1,1,0,"70143",FALSE
+"Dibranchus atlanticus","D20_S0227","adult",1881,2,1,1,1,1,1,0,"28836",FALSE
+"Glyptocephalus cynoglossus","D20_S0227","adult",1881,2,1,1,1,1,1,0,"28845",FALSE
+"Lycenchelys verrillii","D20_S0227","adult",1881,2,1,1,1,1,1,0,"28842",FALSE
+"Coelorinchus carminatus","D20_S0227","adult",1882,1,1,1,1,1,1,0,"31868",FALSE
+"Dibranchus atlanticus","D20_S0227","adult",1882,3,3,0.333333333333333,3,3,3,0,"31664; 31877; 31881",FALSE
+"Glyptocephalus cynoglossus","D20_S0227","adult",1882,3,3,0.333333333333333,3,3,3,0,"31690; 31850; 31869",FALSE
+"Nezumia bairdii","D20_S0227","adult",1882,7,5,0.285714285714286,5,5,5,0,"31643; 31646; 31657; 31855; 31880",FALSE
+"Dibranchus atlanticus","D20_S0227","adult",1883,9,3,0.666666666666667,3,3,3,0,"45640; 45655; 83876",FALSE
+"Glyptocephalus cynoglossus","D20_S0227","adult",1883,2,2,0.5,2,2,2,0,"33020; 33021",FALSE
+"Nezumia bairdii","D20_S0227","adult",1883,2,2,0.5,2,2,2,0,"33006; 33037",FALSE
+"Dibranchus atlanticus","D20_S0227","adult",1884,2,1,1,1,1,1,0,"35564",FALSE
+"Lycodes terraenovae","D20_S0228","adult",1884,1,1,1,1,1,1,0,"35552",FALSE
+"Nezumia bairdii","D20_S0228","adult",1884,1,1,1,1,1,1,0,"35598",FALSE
+"Glyptocephalus cynoglossus","D20_S0228","adult",1885,2,1,1,1,1,1,0,"45514",FALSE
+"Lycodes terraenovae","D20_S0228","adult",1885,3,2,0.666666666666667,2,2,2,0,"44251; 45926",FALSE
+"Nezumia bairdii","D20_S0228","adult",1885,3,1,1,1,1,1,0,"45743",FALSE
+"Glyptocephalus cynoglossus","D20_S0228","adult",1886,1,1,1,1,1,1,0,"45631",FALSE
+"Lycodes terraenovae","D20_S0228","adult",1886,1,1,1,1,1,1,0,"38088",FALSE
+"Nezumia bairdii","D20_S0228","adult",1886,1,1,1,1,1,1,0,"45780",FALSE
+"Alosa pseudoharengus","D20_S0229","adult",1899,3,2,0.666666666666667,0,2,2,0,"120636; 49633",FALSE
+"Centropristis striata","D20_S0229","adult",1899,5,1,1,0,1,1,0,"120553",FALSE
+"Menidia menidia","D20_S0229","adult",1899,4,2,0.75,0,2,2,0,"120593; 120595",FALSE
+"Pseudopleuronectes americanus","D20_S0229","adult",1899,4,2,0.5,0,2,2,0,"120654; 49622",FALSE
+"Strongylura marina","D20_S0229","adult",1899,1,1,1,0,1,1,0,"120706",FALSE
+"Tautogolabrus adspersus","D20_S0229","adult",1899,2,2,0.5,0,2,2,0,"120697; 49629",FALSE
+"Alosa pseudoharengus","D20_S0230","adult",1899,3,2,0.666666666666667,0,2,2,0,"120634; 120635",FALSE
+"Centropristis striata","D20_S0230","adult",1899,1,1,1,0,1,1,0,"120554",FALSE
+"Menidia menidia","D20_S0230","adult",1899,5,3,0.6,0,3,3,0,"120594; 120596; 120597",FALSE
+"Paralichthys dentatus","D20_S0230","adult",1899,1,1,1,0,1,1,0,"120627",FALSE
+"Pseudopleuronectes americanus","D20_S0230","adult",1899,5,2,0.6,0,2,2,0,"120656; 120657",FALSE
+"Stephanolepis hispida","D20_S0230","adult",1899,20,4,0.65,0,4,4,0,"120607; 120608; 120609; 120610",TRUE
+"Strongylura marina","D20_S0230","adult",1899,1,1,1,0,1,1,0,"120684",FALSE
+"Syngnathus fuscus","D20_S0230","adult",1899,1,1,1,0,1,1,0,"120676",FALSE
+"Tautogolabrus adspersus","D20_S0230","adult",1899,7,6,0.285714285714286,0,6,6,0,"120678; 120679; 120692; 120693; 120695; 120696",FALSE
+"Citharichthys arctifrons","D20_S0231","adult",1884,2,1,1,1,1,1,0,"35679",FALSE
+"Glyptocephalus cynoglossus","D20_S0231","adult",1884,1,1,1,1,1,1,0,"35668",FALSE
+"Dibranchus atlanticus","D20_S0232","adult",1883,3,1,1,1,1,1,0,"45641",FALSE
+"Glyptocephalus cynoglossus","D20_S0232","adult",1883,1,1,1,1,1,1,0,"33017",FALSE
+"Nezumia bairdii","D20_S0232","adult",1883,1,1,1,1,1,1,0,"33008",FALSE
+"Citharichthys arctifrons","D20_S0232","adult",1884,14,1,1,1,1,1,0,"35678",TRUE
+"Chlorophthalmus agassizi","D20_S0232","adult",1885,2,1,1,1,1,1,0,"43839",FALSE
+"Coelorinchus carminatus","D20_S0232","adult",1885,2,1,1,1,1,1,0,"436681",FALSE
+"Citharichthys arctifrons","D20_S0233","adult",1884,22,2,0.727272727272727,2,2,2,0,"35677; 45620",TRUE
+"Cyclothone microdon","D20_S0234","adult",1884,4,1,1,1,1,1,0,"35452",FALSE
+"Hygophum hygomii","D20_S0234","adult",1886,4,1,1,1,1,1,0,"72467",FALSE
+"Myctophum affine","D20_S0234","adult",1886,8,1,1,1,1,1,0,"151159",FALSE
+"Cyclothone microdon","D20_S0235","adult",1881,1,1,1,1,1,1,0,"29833",FALSE
+"Stephanolepis hispida","D20_S0235","adult",1881,5,1,1,1,1,1,0,"28858",FALSE
+"Dibranchus atlanticus","D20_S0235","adult",1885,8,1,1,1,1,1,0,"84543",FALSE
+"Glyptocephalus cynoglossus","D20_S0235","adult",1885,14,4,0.571428571428571,4,4,4,0,"44255; 45518; 45521; 45527",TRUE
+"Hygophum hygomii","D20_S0235","adult",1885,10,1,1,1,1,1,0,"43786",TRUE
+"Lycenchelys verrillii","D20_S0235","adult",1885,2,1,1,1,1,1,0,"45928",FALSE
+"Nezumia aequalis","D20_S0235","adult",1885,2,1,1,1,1,1,0,"205881",FALSE
+"Nezumia bairdii","D20_S0235","adult",1885,6,3,0.5,3,3,3,0,"45703; 45708; 45731",FALSE
+"Citharichthys arctifrons","D20_S0235","adult",1899,20,1,1,1,1,1,0,"59817",TRUE
+"Tautogolabrus adspersus","D20_S0236","adult",1899,1,1,1,0,1,1,0,"120677",FALSE
+"Alosa aestivalis","D20_S0237","adult",1896,2,1,1,0,1,1,0,"67635",FALSE
+"Ammodytes dubius","D20_S0237","adult",1896,90,2,0.944444444444444,0,2,2,0,"126459; 67636",TRUE
+"Pseudopleuronectes americanus","D20_S0237","adult",1899,1,1,1,0,1,1,0,"120658",FALSE
+"Tautogolabrus adspersus","D20_S0237","adult",1899,1,1,1,0,1,1,0,"120680",FALSE
+"Syngnathus fuscus","D20_S0237","adult",1915,54,1,1,0,1,1,0,"132737",TRUE
+"Tautogolabrus adspersus","D20_S0237","adult",1915,15,1,1,0,1,1,0,"154060",TRUE
+"Cyclopterus lumpus","D20_S0237","larva",1916,1,1,1,1,1,0,0,"347649",FALSE
+"Caranx latus","D20_S0238","adult",1886,6,1,1,1,1,1,0,"83790",FALSE
+"Monacanthus ciliatus","D20_S0238","adult",1886,1,1,1,1,1,1,0,"83755",FALSE
+"Caranx latus","D20_S0239","adult",1886,1,1,1,1,1,1,0,"83789",FALSE
+"Gonichthys cocco","D20_S0239","adult",1886,22,1,1,1,1,1,0,"92805",TRUE
+"Myctophum affine","D20_S0239","adult",1886,21,1,1,1,1,1,0,"92804",TRUE
+"Fundulus heteroclitus","D20_S0240","adult",1892,8,1,1,0,1,1,0,"68136",FALSE
+"Menidia menidia","D20_S0240","adult",1892,23,1,1,0,1,1,0,"68135",TRUE
+"Pseudopleuronectes americanus","D20_S0240","adult",1892,2,1,1,0,1,1,0,"68138",FALSE
+"Alosa pseudoharengus","D20_S0240","adult",1915,125,2,0.8,0,0,2,0,"129792; 129793",TRUE
+"Phycis chesteri","D20_S0241","adult",1880,17,1,1,0,1,1,0,"25904",TRUE
+"Citharichthys arctifrons","D20_S0241","adult",1884,6,1,1,1,1,1,0,"35674",FALSE
+"Glyptocephalus cynoglossus","D20_S0241","adult",1884,1,1,1,1,1,1,0,"35667",FALSE
+"Citharichthys arctifrons","D20_S0242","adult",1884,15,2,0.533333333333333,2,2,2,0,"35675; 35676",TRUE
+"Cyclothone microdon","D20_S0243","adult",1883,6,1,1,1,1,1,0,"33283",FALSE
+"Citharichthys arctifrons","D20_S0244","adult",1884,3,1,1,1,1,1,0,"45621",FALSE
+"Coelorinchus carminatus","D20_S0245","adult",1881,7,1,1,1,1,1,0,"28753",FALSE
+"Glyptocephalus cynoglossus","D20_S0245","adult",1881,5,2,0.6,2,2,2,0,"28782; 28785",FALSE
+"Lycenchelys verrillii","D20_S0245","adult",1881,3,1,1,1,1,1,0,"28768",FALSE
+"Nezumia bairdii","D20_S0245","adult",1881,4,2,0.75,2,2,2,0,"28773; 28787",FALSE
+"Dibranchus atlanticus","D20_S0245","adult",1882,5,3,0.6,3,3,3,0,"31582; 31584; 31601",FALSE
+"Lycenchelys verrillii","D20_S0245","adult",1882,3,2,0.666666666666667,2,2,2,0,"31586; 31597",FALSE
+"Nezumia bairdii","D20_S0245","adult",1882,1,1,1,1,1,1,0,"31605",FALSE
+"Citharichthys arctifrons","D20_S0245","adult",1884,3,1,1,1,1,1,0,"35474",FALSE
+"Coelorinchus carminatus","D20_S0245","adult",1884,1,1,1,1,1,1,0,"35478",FALSE
+"Ammodytes dubius","D20_S0246","adult",1915,2,1,1,0,1,1,0,"303534",FALSE
+"Cyclothone microdon","D20_S0247","adult",1883,18,1,1,1,1,1,0,"33549",TRUE
+"Alosa pseudoharengus","D20_S0248","adult",1915,100,1,1,0,0,1,0,"129796",TRUE
+"Glyptocephalus cynoglossus","D20_S0249","adult",1881,6,1,1,1,1,1,0,"28949",FALSE
+"Hygophum hygomii","D20_S0249","adult",1881,1,1,1,1,1,1,0,"28942",FALSE
+"Nezumia bairdii","D20_S0249","adult",1881,2,1,1,1,1,1,0,"28931",FALSE
+"Coelorinchus carminatus","D20_S0249","adult",1884,2,1,1,1,1,1,0,"35686",FALSE
+"Glyptocephalus cynoglossus","D20_S0249","adult",1884,9,1,1,1,1,1,0,"45529",FALSE
+"Lycenchelys verrillii","D20_S0249","adult",1884,4,1,1,1,1,1,0,"35695",FALSE
+"Nezumia bairdii","D20_S0249","adult",1884,1,1,1,1,1,1,0,"35685",FALSE
+"Citharichthys arctifrons","D20_S0250","adult",1884,1,1,1,1,1,0,0,"45628",FALSE
+"Liparis inquilinus","D20_S0250","larva",1884,30,1,1,1,1,0,0,"458795",TRUE
+"Cyclothone microdon","D20_S0251","adult",1883,5,1,1,1,1,1,0,"33282",FALSE
+"Bothus ocellatus","D20_S0252","larva",1914,1,1,1,1,1,0,0,"282544",FALSE
+"Lycodes terraenovae","D20_S0253","adult",1883,3,2,0.666666666666667,2,2,2,0,"33304; 33309",FALSE
+"Bothus ocellatus","D20_S0254","larva",1914,1,1,1,1,1,0,0,"282529",FALSE
+"Coelorinchus carminatus","D20_S0255","adult",1884,1,1,1,1,1,1,0,"45699",FALSE
+"Dibranchus atlanticus","D20_S0255","adult",1884,2,1,1,1,1,1,0,"45642",FALSE
+"Cyclopterus lumpus","D20_S0256","adult",1882,1,1,1,1,1,1,0,"31841",FALSE
+"Nezumia bairdii","D20_S0256","adult",1882,2,1,1,1,1,1,0,"31731",FALSE
+"Nezumia bairdii","D20_S0257","adult",1883,1,1,1,1,1,1,0,"33397",FALSE
+"Bothus ocellatus","D20_S0258","larva",1914,20,1,1,1,1,0,0,"282552",TRUE
+"Cyclothone microdon","D20_S0259","adult",1883,4,1,1,1,1,1,0,"33292",FALSE
+"Gonichthys cocco","D20_S0260","adult",1885,6,2,0.666666666666667,2,2,2,0,"43812; 43815",FALSE
+"Gonichthys cocco","D20_S0261","adult",1885,2,1,1,1,1,1,0,"43814",FALSE
+"Lycodes terraenovae","D20_S0262","adult",1886,1,1,1,1,1,1,0,"38094",FALSE
+"Cyclothone microdon","D20_S0263","adult",1885,13,2,0.846153846153846,2,2,2,0,"44339; 85464",TRUE
+"Nezumia bairdii","D20_S0264","adult",1885,2,1,1,1,1,1,0,"45735",FALSE
+"Bathygobius soporator","D20_S0265","adult",1899,2,2,0.5,0,2,2,0,"63045; 68657",FALSE
+"Caranx latus","D20_S0265","adult",1899,10,1,1,0,1,1,0,"73763",TRUE
+"Eucinostomus argenteus","D20_S0265","adult",1899,4,2,0.5,0,2,2,0,"63056; 63745",FALSE
+"Haemulon plumierii","D20_S0265","adult",1899,2,1,1,0,1,1,0,"50205",FALSE
+"Lutjanus apodus","D20_S0265","adult",1899,8,3,0.75,0,3,3,0,"63074; 68654; 73777",FALSE
+"Lutjanus synagris","D20_S0265","adult",1899,5,2,0.8,0,2,2,0,"63069; 73779",FALSE
+"Sparisoma radians","D20_S0265","adult",1899,11,4,0.454545454545455,0,4,4,0,"63041; 73790; 73791; 73792",TRUE
+"Exocoetus volitans","D20_S0266","adult",1899,1,1,1,0,1,1,0,"126194",FALSE
+"Haemulon aurolineatum","D20_S0266","adult",1899,1,1,1,0,1,1,0,"126420",FALSE
+"Gonichthys cocco","D20_S0267","adult",1885,5,1,1,1,1,1,0,"43813",FALSE
+"Bothus ocellatus","D20_S0268","larva",1914,2,1,1,1,1,0,0,"282551",FALSE
+"Nezumia bairdii","D20_S0269","adult",1885,1,1,1,1,1,1,0,"92831",FALSE
+"Cyclothone microdon","D20_S0270","adult",1883,4,1,1,1,1,1,0,"33474",FALSE
+"Myctophum affine","D20_S0271","larva",1885,3,1,1,1,1,0,0,"302850",FALSE
+"Sparisoma radians","D20_S0272","adult",1899,2,1,1,0,1,1,0,"73793",FALSE
+"Atherinomorus stipes","D20_S0273","adult",1899,128,1,1,0,1,1,0,"73827",TRUE
+"Bathygobius soporator","D20_S0273","adult",1899,5,3,0.6,0,3,3,0,"68655; 68656; 73780",FALSE
+"Etropus crossotus","D20_S0273","adult",1899,2,1,1,0,1,1,0,"50182",FALSE
+"Lutjanus apodus","D20_S0273","adult",1899,1,1,1,0,1,1,0,"63060",FALSE
+"Lutjanus synagris","D20_S0273","adult",1899,1,1,1,0,1,1,0,"63061",FALSE
+"Sparisoma radians","D20_S0273","adult",1899,10,1,1,0,1,1,0,"73794",TRUE
+"Symphurus plagiusa","D20_S0273","adult",1899,4,1,1,0,1,1,0,"50178",FALSE
+"Lycodes terraenovae","D20_S0274","adult",1885,2,1,1,1,1,1,0,"44674",FALSE
+"Nezumia bairdii","D20_S0275","adult",1882,1,1,1,0,1,1,0,"31866",FALSE
+"Gonichthys cocco","D20_S0275","adult",1885,1,1,1,1,1,1,0,"43818",FALSE
+"Glyptocephalus cynoglossus","D20_S0276","adult",1883,1,1,1,1,1,1,0,"33440",FALSE
+"Nezumia bairdii","D20_S0276","adult",1883,2,1,1,1,1,1,0,"33456",FALSE
+"Atherinomorus stipes","D20_S0277","adult",1899,3,1,1,0,1,1,0,"73828",FALSE
+"Bathygobius soporator","D20_S0277","adult",1899,19,6,0.421052631578947,0,6,6,0,"50198; 63071; 73781; 73782; 73783; 73784",TRUE
+"Bothus ocellatus","D20_S0277","adult",1899,1,1,1,0,1,1,0,"50220",FALSE
+"Citharichthys spilopterus","D20_S0277","adult",1899,3,1,1,0,1,1,0,"63052",FALSE
+"Eucinostomus argenteus","D20_S0277","adult",1899,2,1,1,0,1,1,0,"345765",FALSE
+"Lutjanus apodus","D20_S0277","adult",1899,3,1,1,0,1,1,0,"73773",FALSE
+"Sparisoma radians","D20_S0277","adult",1899,2,1,1,0,1,1,0,"50213",FALSE
+"Glyptocephalus cynoglossus","D20_S0278","adult",1883,1,1,1,1,1,1,0,"33475",FALSE
+"Cheilopogon furcatus","D20_S0279","adult",1914,1,1,1,1,1,1,0,"116709",FALSE
+"Lutjanus apodus","D20_S0280","adult",1899,2,2,0.5,0,2,2,0,"73770; 73771",FALSE
+"Bothus ocellatus","D20_S0281","larva",1914,1,1,1,1,1,0,0,"282538",FALSE
+"Anchoa lamprotaenia","D20_S0282","adult",1899,1,1,1,0,1,1,0,"127574",FALSE
+"Citharichthys spilopterus","D20_S0282","adult",1899,11,1,1,0,1,1,0,"73798",TRUE
+"Jenkinsia lamprotaenia","D20_S0282","adult",1899,1,1,1,0,1,1,0,"126186",FALSE
+"Lutjanus apodus","D20_S0282","adult",1899,9,3,0.555555555555556,0,3,3,0,"50190; 73774; 73775",FALSE
+"Poecilia vivipara","D20_S0282","adult",1899,254,5,0.866141732283465,0,5,5,0,"126130; 50154; 63048; 63066; 73831",TRUE
+"Sparisoma radians","D20_S0282","adult",1899,34,4,0.323529411764706,0,4,4,0,"126144; 50155; 73796; 73797",TRUE
+"Glyptocephalus cynoglossus","D20_S0283","adult",1883,2,2,0.5,2,2,2,0,"33384; 45509",FALSE
+"Hygophum hygomii","D20_S0283","adult",1883,1,1,1,1,1,1,0,"33482",FALSE
+"Nezumia bairdii","D20_S0283","adult",1883,9,2,0.888888888888889,2,2,2,0,"33450; 45927",FALSE
+"Myctophum affine","D20_S0283","adult",1885,1,1,1,1,1,1,0,"43785",FALSE
+"Nezumia bairdii","D20_S0283","adult",1885,1,1,1,1,1,1,0,"45739",FALSE
+"Bathygobius soporator","D20_S0284","adult",1899,2,1,1,0,1,1,0,"68658",FALSE
+"Atherinomorus stipes","D20_S0285","adult",1899,100,4,0.86,0,4,4,0,"123371; 50121; 63051; 73829",TRUE
+"Haemulon aurolineatum","D20_S0285","adult",1899,1,1,1,0,1,1,0,"50219",FALSE
+"Jenkinsia lamprotaenia","D20_S0285","adult",1899,36,3,0.694444444444444,0,3,3,0,"50125; 67633; 68646",TRUE
+"Lutjanus apodus","D20_S0285","adult",1899,4,2,0.75,0,2,2,0,"73772; 73776",FALSE
+"Bothus ocellatus","D20_S0286","larva",1914,7,3,0.714285714285714,3,3,0,0,"282540; 282543; 282549",FALSE
+"Gonichthys cocco","D20_S0287","adult",1885,1,1,1,1,1,1,0,"43819",FALSE
+"Nezumia bairdii","D20_S0287","adult",1885,1,1,1,1,1,1,0,"45719",FALSE
+"Exocoetus volitans","D20_S0288","adult",1884,1,1,1,1,1,1,0,"94701",FALSE
+"Anchoa cayorum","D20_S0289","adult",1914,3,1,1,1,1,1,0,"119248",FALSE
+"Harengula humeralis","D20_S0289","adult",1914,9,1,1,1,1,1,0,"123784",FALSE
+"Cyclothone microdon","D20_S0290","adult",1887,2,1,1,1,1,1,0,"85469",FALSE
+"Chloroscombrus chrysurus","D20_S0291","adult",1884,4,1,1,1,1,1,0,"84578",FALSE
+"Glyptocephalus cynoglossus","D20_S0292","adult",1885,2,1,1,1,1,1,0,"45517",FALSE
+"Cynoscion nothus","D20_S0293","adult",1884,18,1,1,1,1,1,0,"131618",TRUE
+"Glyptocephalus cynoglossus","D20_S0294","adult",1885,1,1,1,1,1,1,0,"45525",FALSE
+"Nezumia aequalis","D20_S0295","adult",1885,1,1,1,1,1,1,0,"45720",FALSE
+"Nezumia bairdii","D20_S0296","adult",1885,1,1,1,1,1,1,0,"45718",FALSE
+"Glyptocephalus cynoglossus","D20_S0297","adult",1886,1,1,1,1,1,1,0,"45632",FALSE
+"Nezumia bairdii","D20_S0297","adult",1886,3,1,1,1,1,1,0,"45781",FALSE
+"Nezumia bairdii","D20_S0298","adult",1885,3,1,1,1,1,1,0,"45740",FALSE

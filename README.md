@@ -25,7 +25,13 @@ The reproducible R workflow in `Scripts/build_sampling_atlas.R` inventories spec
 with at least **50 dated specimens through 1930** across the western Atlantic,
 Caribbean, and Gulf of Mexico. It separates larvae, adult/non-larval lots, and
 unsplit mixed-stage lots, and produces annual geographic heatmaps, animated GIFs,
-sampling matrices, and candidate-selection tables.
+per-year geographic PNGs, and candidate-selection tables. The atlas page provides
+year selection and Play/Stop GIF controls with a fixed map extent for every frame.
+Filter candidates jointly by species name, specimen count, life stage, region,
+sampled years, and whether coordinates are recorded.
+Maps use 2° cells and hatch cells containing approximate display locations derived
+from locality metadata. Original coordinates and estimate provenance remain
+separate; precise-location candidate screens use recorded coordinates only.
 
 ```bash
 Rscript Scripts/install_atlas_dependencies.R
@@ -53,3 +59,15 @@ python3 Scripts/audit_selection_inputs.py
 
 The audit writes to `Output/SelectionAudit/` and requires only Python's standard
 library. Its descriptive counts do not establish final species eligibility.
+
+The [implemented historical screen](docs/species_selection_workflow.md) reuses the
+completed atlas to compare bounded sites, separate years and life stages, and
+evaluate 72 screening scenarios:
+
+```bash
+Rscript tests/test_species_selection.R
+Rscript Scripts/build_species_selection.R
+```
+
+Read the [first-pass results](Output/SpeciesSelection/selection_report.md) for the
+species investigation queue, candidate assemblages and outstanding evidence.

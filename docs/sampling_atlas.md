@@ -47,6 +47,9 @@ Rscript Scripts/build_sampling_atlas.R --config=config/sampling_atlas.R
 
 # Interruptible rendering in batches; repeat until all eligible species finish.
 Rscript Scripts/build_sampling_atlas.R --resume --limit=20
+
+# Refresh the map viewer and recover year PNGs from existing GIFs (no analysis rerun).
+Rscript Scripts/refresh_sampling_atlas_index.R
 ```
 
 Change parameters in `config/sampling_atlas.R`. Use a separate output directory for
@@ -111,13 +114,38 @@ reviewable; unsupported vessel names are not guessed. Explicit years are preserv
 without forcibly fitting those windows. Dates are never borrowed from neighboring
 lots. Eligibility includes these explicitly flagged vessel-inferred years.
 
-**Coordinates.** Only original numeric coordinates and reasoned manual overrides
-are mapped. The earlier pipeline's locality-average coordinates are not reused.
-The source calls these positions centroids: their precision/accuracy is not
-established by the number of decimal places. Missing or invalid coordinates stay
-in the inventory and review queue but not on maps. The PR navigation spreadsheet
-is not automatically joined by station number because a reviewed vessel/date/station
-match is needed. Its verified positions can be added via the override file.
+**Coordinates.** Original numeric coordinates and reasoned manual overrides remain
+in `longitude`/`latitude`; `mapped` and `dated_mapped` continue to mean recorded
+coordinates suitable for the existing screening workflow. The source calls these
+positions centroids: decimal places do not establish accuracy.
+
+For display, missing or invalid positions receive separate `display_longitude`
+and `display_latitude` estimates. Matching proceeds through vessel/year/station,
+exact locality and administrative context, named-place rules, island, county,
+state within basin, country within basin, and finally basin. Station matches
+with donor spread above 25 km are rejected. Donor pools contain original physical
+lot positions only; estimates and manual overrides never become donors. Medians
+are calculated across unique coordinate pairs, without weighting by specimen or
+lot counts, and rounded to two decimals. Two decimals are a storage convention,
+not a claim of precision. Existing valid positions are never replaced, including
+those outside the map extent; excluded records are not imputed.
+
+`config/sampling_locality_anchors.csv` contains ordered, editable place-name rules
+and frozen city proxies from `maps::world.cities`, with package version and source
+links. These improve island and locality assignments where the catalog has no
+nearby reference positions. A city can represent a named island; that does not
+claim the collection occurred in that city. Historic names and market localities
+also require review before resampling. The old pipeline's imputed coordinates
+are not reused, and no dates are inferred from these spatial matches.
+
+Every estimate records its resolution level, matching basis, reference catalog
+IDs or gazetteer source, number of distinct reference positions and maximum donor
+distance from their median. Donor spread is descriptive, **not an uncertainty
+radius**: state, country and basin estimates can be much less precise than 2°.
+Hatched map cells include estimates. `display_mapped` describes the combined
+display coverage; `coordinate_approximate` distinguishes estimates. Original
+coordinate filters and precise-location candidate screens exclude estimates.
+Set `approximate_locations = FALSE` to render recorded coordinates alone.
 
 **Study region.** The default mapped window is 100–50°W and 5–60°N. Pacific and
 Adriatic/Mediterranean labels are excluded. Without coordinates, explicit
@@ -156,8 +184,24 @@ preparation fields are empty. Each retains its catalog count of one specimen.
 
 ## Visualizations
 
-Open `Output/SamplingAtlas/index.html` locally. This is a self-contained navigation
-report with species filtering and expandable GIFs; no server or internet is needed.
+Open `Output/SamplingAtlas/index.html` locally. This is a geographic map viewer with
+species filtering, a recorded-year selector, previous/next year buttons, and
+Play/Stop GIF controls for each populated life stage. No server or internet is
+needed. Every selected year appears directly on a geographic map; the former
+latitude/longitude-row matrices are no longer displayed. Expand “Show all year
+maps” to see the individual PNGs together. PDFs remain optional downloads.
+
+Combine species name, minimum dated specimens, life stage, region, minimum
+distinct sampled years, and a coordinates-only checkbox to refine candidates.
+Counts and years are recalculated for the selected stage and region together;
+years shared by several lots or stages count once. Undated records never satisfy
+these thresholds. The default is 50 dated specimens and one sampled year across
+all stages and regions. Lowering the threshold only refines the original eligible
+species pool; it does not admit species with fewer than 50 historical specimens.
+The matching counts appear on each species card, and Reset restores the defaults.
+Selecting a stage displays its maps. Region and coordinate filters select species;
+the maps still display that stage’s full sampling distribution. Filter aggregates
+are exported in `tables/filter_counts.csv` for inspection.
 
 Each eligible species has:
 
@@ -166,24 +210,41 @@ Each eligible species has:
 - **GIFs per stage:** discrete frames with year, inventory count, mapped count,
   and a complete sampling timeline. The default skips unsampled years explicitly;
   `animation_years = "all"` instead inserts every calendar year. There is no
-  interpolation. Empty stages get a clearly labeled status image/GIF.
-- **Geographic cell × year heatmap PDF:** full annual spacing, rows as geographic
-  grid cells, panels/pages separated by life stage. This makes repeat sampling and
-  long temporal gaps easier to see than animation alone.
+  interpolation. Empty stages have a text notice in the viewer.
+- **Geographic PNGs per year and stage:** permanent files such as
+  `species/Menidia_menidia/adult_frames/year_1892.png`, with a prominently printed
+  year. The R renderer saves these PNGs before combining them into a GIF. Undated
+  specimens have a separate `undated.png`; empty-stage placeholders are named
+  `no_records.png`, never assigned a fabricated year.
 - **PNG previews:** the first animation frame for quick inspection.
 
-Maps use a **1° longitude × 1° latitude grid** by default. This is specimen count
+For older builds that discarded their temporary PNGs, the refresh script recovers
+the displayed full-canvas frames from the existing GIFs using ImageMagick coalescing.
+It retains original colors, years and geographic extent, and records report-only
+provenance separately from the original analysis. Existing matrix PDFs may remain
+on disk but are not part of the map viewer or new default builds.
+
+Maps use a **2° longitude × 2° latitude grid** by default. This is specimen count
 per cell, not equal-area density, survey effort, geographic occupancy, or abundance.
 Cells are globally anchored using the floor of each coordinate divided by cell
 width, so a given position always enters the same cell. Geographic cells and coarse
-regions are not biological populations. Geographic extent is fixed across all
-species; map color scales are fixed across all years and stages of each species,
+regions are not biological populations. Geographic extent is fixed at
+**100–50°W and 5–60°N** across every species, stage and year; map color scales are
+fixed across all years and stages of each species,
 including undated records. Log-scaled colors reveal small and large counts together.
-The matrix uses its own fixed scale per stage. Gray/unfilled cells mean no recorded
-sampling, not an observed biological absence. Missing coordinates are never drawn
-at artificial map positions.
+Unfilled cells mean no plotted sampling, not an observed biological absence.
+Dark cell outlines improve visibility; hatching marks cells containing approximate
+display positions. Frame totals separate recorded, approximate and still-unmapped
+specimens. Colors count recorded plus estimated specimens in each display cell.
 
 ## Output tables and candidate selection
+
+- `approximate_locations.csv` and `approximation_summary.csv`: estimated display
+  coordinates for eligible lots, their evidence and counts by resolution level.
+- `annual_display_geographic_counts.csv` and `undated_display_geographic_counts.csv`:
+  the actual map counts, with recorded/approximate contributions separated. The
+  existing `annual_geographic_counts.csv` and `undated_geographic_counts.csv`
+  retain recorded-coordinate counts used for scientific screening.
 
 - `records_audit.csv`: all original records with identity, counts, source fields,
   taxonomy/stage/date/coordinate provenance, inclusion reasons and eligibility.
@@ -215,6 +276,9 @@ at artificial map positions.
   `excluded_records.csv`: uncertainty and exclusion audits.
 - `artifact_manifest.csv`: every rendered species/stage, frame count, status,
   counts and relative file paths.
+- `annual_frame_manifest.csv` and each species' `adult_frames.csv`/`larva_frames.csv`:
+  each year PNG, specimen counts, geographic bounds and cell size. These make the
+  fixed map extent and year-to-frame correspondence auditable.
 
 Useful next selection criteria are directly supported by these tables:
 
@@ -224,7 +288,7 @@ Useful next selection criteria are directly supported by these tables:
    assemblages. Aim for the proposal's replicated assemblage design, not simply
    the species with the greatest pooled specimen totals.
 2. **Favor temporal replication and balanced sample sizes.** Inspect the smaller
-   period count in repeated cells and the year-by-cell matrix. Multiple time points
+   period count in repeated cells and the year-by-year geographic maps. Multiple time points
    at one locality can be more useful than many specimens from one cruise.
 3. **Keep stages comparable.** Evaluate adult/non-larval and larval opportunities
    separately. Pooling them could mask ontogenetic differences in location or

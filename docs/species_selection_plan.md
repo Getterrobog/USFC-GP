@@ -22,6 +22,15 @@ The strongest feature is comparison of co-occurring species with different biolo
 
 ## Current evidence and the atlas
 
+Implementation update: the [historical evidence screen](species_selection_workflow.md)
+now reuses the atlas to evaluate bounded sites and same-year species overlap under
+72 scenarios. It identifies 27 species for investigation, including a connected
+21-species set across six adult/non-larval sites. See the
+[generated results](../Output/SpeciesSelection/selection_report.md). This completes
+the first downstream screening analysis; event/habitat validation, museum and modern
+access, traits, laboratory recovery and power remain pending. The screen does not
+declare those later gates complete.
+
 The [repository review](repository_review.md) and [audit](../Output/SelectionAudit/audit_summary.json) establish the legacy baseline. Its 96 candidate species occur in 1,027 rows representing 1,017 catalog numbers. Of 168 legacy spatial clusters, 36 have recorded diameters greater than 40 km, with a maximum of 249.43 km. Preservation method is blank in all 7,166 raw records. These species are a discovery list, not an eligible sampling frame.
 
 Use the new [sampling atlas](sampling_atlas.md) as an exploratory inventory and visualization layer. Its documented default is at least 50 dated specimens per species through 1930, with geographic grids and separate stage categories. That threshold is a catalog-inventory screen, not a per-population genomic sample-size requirement. Its broad early/late historical periods and three coarse regions do not establish the proposal's final sampling intervals or 4–6 assemblages. Preserve its flagged vessel-inferred dates and unverified maturity labels when importing tables.

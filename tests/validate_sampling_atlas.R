@@ -10,6 +10,9 @@ summary <- read_table("species_summary")
 records <- read_table("records_audit")
 annual <- read_table("annual_geographic_counts")
 undated <- read_table("undated_geographic_counts")
+display_annual <- read_table("annual_display_geographic_counts")
+display_undated <- read_table("undated_display_geographic_counts")
+frames <- read_table("annual_frame_manifest")
 config <- dget(file.path(out, "resolved_config.R"))
 eligible <- summary$species[summary$eligible]
 stopifnot(setequal(unique(manifest$species), eligible),
@@ -22,6 +25,31 @@ stopifnot(sum(manifest$specimens) == sum(included$specimen_count),
           sum(annual$specimens) == sum(included$specimen_count[included$dated_mapped]),
           sum(undated$specimens) == sum(included$specimen_count[included$mapped & is.na(included$year)]),
           all(annual$year <= config$max_year))
+estimated <- included$coordinate_approximate
+stopifnot(all(included$display_mapped == (included$mapped | estimated)),
+          !any(included$mapped & estimated),
+          all(is.finite(included$display_longitude[included$display_mapped])),
+          all(is.finite(included$display_latitude[included$display_mapped])),
+          sum(display_annual$specimens) == sum(included$specimen_count[included$display_mapped & !is.na(included$year)]),
+          sum(display_annual$recorded_specimens) == sum(annual$specimens),
+          sum(display_undated$recorded_specimens) == sum(undated$specimens),
+          sum(display_annual$approximate_specimens) + sum(display_undated$approximate_specimens) == sum(included$specimen_count[estimated]),
+          all(nzchar(included$approximation_basis[estimated])),
+          all(nzchar(included$approximation_source[estimated])),
+          sum(manifest$approximate_specimens) == sum(included$specimen_count[estimated]),
+          all(frames$west == config$bounds['west']), all(frames$east == config$bounds['east']),
+          all(frames$south == config$bounds['south']), all(frames$north == config$bounds['north']),
+          all(frames$cell_degrees == config$cell_degrees))
+for (i in seq_len(nrow(frames))) {
+  f <- frames[i, ]
+  z <- included[included$species == f$species & included$life_stage == f$life_stage, ]
+  z <- if (is.na(f$year)) z[is.na(z$year), ] else z[!is.na(z$year) & z$year == f$year, ]
+  stopifnot(f$specimens == sum(z$specimen_count),
+            f$mapped_specimens == sum(z$specimen_count[z$mapped]),
+            f$approximate_specimens == sum(z$specimen_count[z$coordinate_approximate]))
+  path <- file.path(out, f$png)
+  stopifnot(file.exists(path), identical(readBin(path, "raw", 8L), as.raw(c(137,80,78,71,13,10,26,10))))
+}
 identify <- Sys.which("identify")
 for (i in seq_len(nrow(manifest))) {
   m <- manifest[i, ]
@@ -46,6 +74,16 @@ links <- regmatches(index, gregexpr('(?:href|src)="[^"]+"', index, perl = TRUE))
 paths <- sub('^[^=]+="([^"]+)"$', "\\1", links)
 stopifnot(all(file.exists(file.path(out, paths))))
 checksums <- read_table("input_checksums")
-stopifnot(identical(unname(tools::md5sum(checksums$path)), checksums$md5))
+current_hashes <- unname(tools::md5sum(checksums$path))
+changed <- checksums$path[is.na(current_hashes) | current_hashes != checksums$md5]
+if (length(changed)) {
+  # Report-only refreshes preserve the original scientific/render provenance.
+  # Only the separate report module may differ, and its new dependencies and
+  # unchanged PDF/GIF inputs must match the refresh's own checksum manifest.
+  stopifnot(all(changed %in% "Scripts/sampling_atlas_report.R"))
+  refresh <- read_table("report_refresh_checksums")
+  stopifnot(all(changed %in% refresh$path),
+            identical(unname(tools::md5sum(refresh$path)), refresh$md5))
+}
 message(sprintf("Validated %s species, %s stage artifacts, %s GIF frames; counts and all report links reconcile.",
                 length(eligible), nrow(manifest), sum(manifest$frames)))

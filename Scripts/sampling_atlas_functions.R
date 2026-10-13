@@ -109,7 +109,8 @@ prepare_atlas_records <- function(config) {
   raw <- read_char_csv(config$input)
   required <- c("Catalog.Number...USNM", "Specimen.Count", "Kind.of.Object", "Identification",
     "Preparation.Details..Preparation.Location.Count.", "Notes", "Date.Collected", "Vessel",
-    "Centroid.Longitude", "Centroid.Latitude", "Ocean", "Sea.Gulf", "Country", "Type.Status", "Order", "Depleted.")
+    "Centroid.Longitude", "Centroid.Latitude", "Ocean", "Sea.Gulf", "Country", "Type.Status", "Order", "Depleted.",
+    "Precise.Locality", "Province.State", "District.County", "Island.Name", "Station", "Cruise")
   stopifnot(all(required %in% names(raw)))
   x <- data.frame(record_id = seq_len(nrow(raw)), catalog_number = raw$Catalog.Number...USNM,
     object_kind = raw$Kind.of.Object, specimen_count = suppressWarnings(as.numeric(raw$Specimen.Count)),
@@ -120,6 +121,9 @@ prepare_atlas_records <- function(config) {
     latitude = suppressWarnings(as.numeric(raw$Centroid.Latitude)),
     coordinate_source = "original_catalog", type_status = raw$Type.Status,
     depleted = raw$Depleted., ocean = raw$Ocean, sea = raw$Sea.Gulf, country = raw$Country,
+    locality = raw$Precise.Locality, province_state = raw$Province.State,
+    district_county = raw$District.County, island = raw$Island.Name,
+    station = raw$Station, cruise = raw$Cruise,
     stringsAsFactors = FALSE)
   x$species <- x$cleaned_name
   x$taxonomy_status <- ifelse(is.na(x$species), "unresolved", "catalog_binomial_unvalidated")
@@ -208,7 +212,7 @@ prepare_atlas_records <- function(config) {
     "Early historical", ifelse(x$year <= config$historical_end, "Late historical", "Later collections")))
   x$availability_flag <- nzchar(x$type_status) | grepl("yes|true", x$depleted, ignore.case = TRUE) |
     grepl("not found|missing specimen", x$notes, ignore.case = TRUE)
-  x
+  add_display_locations(x, config)
 }
 
 sum_groups <- function(x, groups) {
@@ -234,6 +238,9 @@ summarize_species <- function(records, config) {
       unknown_stage = sum(d$specimen_count[d$life_stage == "unknown"]),
       stage_unrecorded = sum(d$specimen_count[d$stage_evidence == "stage_unrecorded"]),
       mapped_specimens = sum(d$specimen_count[d$mapped]),
+      display_mapped_specimens = sum(d$specimen_count[d$display_mapped]),
+      approximate_specimens = sum(d$specimen_count[d$coordinate_approximate]),
+      approximate_lots = sum(d$coordinate_approximate),
       dated_mapped_specimens = sum(d$specimen_count[d$dated_mapped]),
       undated_specimens = sum(d$specimen_count[is.na(d$year)]),
       historical_specimens = sum(d$specimen_count[!is.na(d$year) & d$year <= config$historical_end]),
@@ -329,11 +336,13 @@ draw_map <- function(cells, bounds, maximum, config, title = "", small = FALSE, 
   if (nrow(cells)) {
     rect(cells$cell_lon, cells$cell_lat, cells$cell_lon + config$cell_degrees,
          cells$cell_lat + config$cell_degrees, col = palette_counts(cells$specimens, maximum),
-         border = "#ffffff80", lwd = 0.4)
-    # Small markers make occupied coastal cells legible on a regional overview.
-    points(cells$cell_lon + config$cell_degrees / 2, cells$cell_lat + config$cell_degrees / 2,
-           pch = 22, cex = if (small) 0.35 else 0.45,
-           bg = palette_counts(cells$specimens, maximum), col = "#685743", lwd = 0.35)
+         border = "#665646", lwd = if (small) 0.4 else 0.65)
+    if ("approximate_specimens" %in% names(cells)) {
+      a <- cells[cells$approximate_specimens > 0, ]
+      if (nrow(a)) rect(a$cell_lon, a$cell_lat, a$cell_lon + config$cell_degrees,
+        a$cell_lat + config$cell_degrees, density = 16, angle = 45,
+        col = "#23334299", border = NA, lwd = 0.6)
+    }
   }
   if (!is.null(coast)) lines(coast$x, coast$y, col = "#839196", lwd = 0.35)
   axis(1, cex.axis = if (small) 0.65 else 0.8); axis(2, las = 1, cex.axis = if (small) 0.65 else 0.8)
@@ -363,6 +372,7 @@ draw_frame <- function(d, cells, years, year, species, stage, maximum, config, c
   label <- if (is_unknown) "UNDATED" else as.character(year)
   total <- sum(current$specimen_count)
   mapped <- sum(current$specimen_count[current$mapped])
+  approximate <- sum(current$specimen_count[current$coordinate_approximate])
   par(mar = c(0, 1, 0, 1))
   plot.new()
   text(0.5, 0.65, species, font = 3, cex = 1.6, col = "#233342")
@@ -371,8 +381,9 @@ draw_frame <- function(d, cells, years, year, species, stage, maximum, config, c
   par(mar = c(1, 0, 1, 1))
   plot.new(); plot.window(xlim = c(0, 1), ylim = c(0, 1))
   text(0, 0.92, label, adj = 0, cex = 2.3, font = 2, col = "#233342")
-  summary <- c(sprintf("%s specimens this frame", total), sprintf("%s with coordinates", mapped),
-    sprintf("%s without coordinates", total - mapped), "",
+  summary <- c(sprintf("%s specimens this frame", total), sprintf("%s recorded coordinates", mapped),
+    sprintf("%s approximate positions", approximate), sprintf("%s still unmapped", total - mapped - approximate),
+    "Hatching = includes estimates", "",
     "RECORDED REGIONS", vapply(c("Atlantic", "Caribbean", "Gulf of Mexico"), function(r)
       sprintf("%s: %s", r, sum(current$specimen_count[current$region == r])), character(1)), "",
     sprintf("%s specimens across years", sum(d$specimen_count[!is.na(d$year)])),
@@ -413,15 +424,13 @@ render_species_stage <- function(d, species, stage, maximum, config, coast) {
   dir.create(out, recursive = TRUE, showWarnings = FALSE)
   base <- file.path(out, stage)
   years <- sort(unique(na.omit(d$year)))
-  cycle <- if (length(years) && config$animation_years == "all") seq(min(years), max(years)) else years
-  if (anyNA(d$year) || !length(cycle)) cycle <- c(cycle, NA_integer_)
-  frames <- character(length(cycle))
-  temp <- tempfile("atlas_frames_")
-  dir.create(temp)
-  on.exit(unlink(temp, recursive = TRUE), add = TRUE)
+  inventory <- geographic_frame_inventory(d, species, stage, config)
+  cycle <- inventory$year
+  frames <- file.path(config$output, inventory$png)
+  dir.create(dirname(frames[1]), recursive = TRUE, showWarnings = FALSE)
   cells_for_year <- function(y) {
-    current <- if (is.na(y)) d[d$mapped & is.na(d$year), ] else d[d$mapped & !is.na(d$year) & d$year == y, ]
-    sum_groups(current, c("cell_lon", "cell_lat"))
+    current <- if (is.na(y)) d[is.na(d$year), ] else d[!is.na(d$year) & d$year == y, ]
+    display_cell_counts(current)
   }
   # Per-year faceted maps, six panels per PDF page, including an undated panel.
   pdf(paste0(base, "_annual_maps.pdf"), width = 12, height = 10, onefile = TRUE)
@@ -436,20 +445,21 @@ render_species_stage <- function(d, species, stage, maximum, config, coast) {
     mtext(paste(species, "|", stage_label(stage)), outer = TRUE, side = 3, line = 1.2, cex = 1.2, font = 2)
     ticks <- unique(pmin(c(1, 10, 50, 100, maximum), maximum))
     legend("bottom", legend = ticks, fill = palette_counts(ticks, maximum), horiz = TRUE, bty = "n", xpd = NA, cex = 0.8, inset = c(0, -0.12))
-    mtext(sprintf("Specimens per %s-degree cell; fixed log color scale (1-%s). Missing coordinates are not plotted. Blank = no recorded sampling.", config$cell_degrees, maximum), outer = TRUE, side = 1, line = 1, cex = 0.75)
+    mtext(sprintf("Specimens per %s-degree cell; fixed log colors (1-%s). Hatching = includes approximate locations. Blank = no plotted sampling.", config$cell_degrees, maximum), outer = TRUE, side = 1, line = 1, cex = 0.75)
   }
   dev.off()
   for (i in seq_along(cycle)) {
-    if (!config$render_gifs && i > 1L) break
-    frames[i] <- file.path(temp, sprintf("frame_%04d.png", i))
     png(frames[i], width = config$width, height = config$height, res = 105, type = "cairo")
     draw_frame(d, cells_for_year(cycle[i]), years, cycle[i], species, stage, maximum, config, coast)
     dev.off()
   }
   file.copy(frames[1], paste0(base, "_preview.png"), overwrite = TRUE)
   if (config$render_gifs) encode_gif(frames, paste0(base, ".gif"), config)
+  write.csv(inventory, paste0(base, "_frames.csv"), row.names = FALSE, na = "")
   data.frame(species = species, life_stage = stage, specimens = sum(d$specimen_count),
     mapped_specimens = sum(d$specimen_count[d$mapped]), sampled_years = length(years),
+    approximate_specimens = sum(d$specimen_count[d$coordinate_approximate]),
+    display_mapped_specimens = sum(d$specimen_count[d$display_mapped]),
     frames = if (config$render_gifs) length(cycle) else 0L,
     status = if (!nrow(d)) "no_stage_records" else if (!any(d$mapped)) "no_recorded_coordinates" else "rendered",
     gif = if (config$render_gifs) file.path("species", slug(species), paste0(stage, ".gif")) else "",
@@ -508,27 +518,6 @@ html_escape <- function(x) {
   gsub('"', "&quot;", x, fixed = TRUE)
 }
 
-write_atlas_index <- function(manifest, summaries, config) {
-  lines <- c('<!doctype html><html lang="en"><meta charset="utf-8"><title>USFC sampling atlas</title>',
-    '<style>body{font:16px system-ui;margin:40px auto;max-width:1100px;padding:0 24px;color:#233342;background:#f5f7f8}h1{font-size:36px}article{background:white;padding:20px 28px;margin:20px 0;border:1px solid #d5dfe4;border-radius:8px}a{color:#175b88}img{max-width:100%;height:auto}summary{cursor:pointer;padding:12px 0}small{color:#526171}input{font:inherit;padding:10px;width:90%}</style>',
-    '<h1>USFC geographic sampling atlas</h1>',
-    sprintf('<p>%s species with at least %s dated specimens through %s in the western Atlantic, Caribbean and Gulf of Mexico. Eligibility sums specimens across stages. Undated lots appear separately and do not count toward eligibility.</p>', sum(summaries$eligible), config$min_specimens, config$max_year),
-    '<p>Adult / non-larval includes juveniles and, by default, unlabeled lots; maturity is unverified. Mixed lots stay separate. Only recorded or explicitly overridden coordinates are mapped. Undated records appear in a separate final frame. Geographic cells show specimen counts, not population abundance or density.</p>',
-    sprintf('<p>Animations: %s years; fixed geographic extent and color scale within each species. Year gaps are visible in the timeline. Empty-stage GIFs explicitly show no records.</p>', config$animation_years),
-    '<p><a href="tables/species_summary.csv">Species inventory</a> · <a href="tables/candidate_screening.csv">Candidate screening</a> · <a href="tables/shared_assemblages.csv">Shared historical assemblages</a> · <a href="tables/shared_year_assemblages.csv">Same-year assemblages</a> · <a href="tables/repeated_historical_cells.csv">Repeated historical sampling</a> · <a href="tables/records_audit.csv">Record audit</a> · <a href="run_summary.txt">Run summary</a></p>',
-    '<input id="search" aria-label="Filter species" placeholder="Filter species by name">')
-  for (species in unique(manifest$species)) {
-    s <- summaries[summaries$species == species, ]
-    lines <- c(lines, sprintf('<article data-species="%s"><h2><i>%s</i></h2><p>%s dated specimens through %s + %s undated · %s lots · %s sampled years · %s regions · %.0f%% dated and mapped</p>', tolower(species), species, s$eligibility_specimens, config$max_year, s$undated_specimens, s$lots, s$sampled_years, s$regions, 100 * s$mapped_fraction),
-      sprintf('<p><a href="species/%s/sampling_matrix.pdf">Geographic cell × year heatmap</a></p>', slug(species)))
-    for (i in which(manifest$species == species)) {
-      m <- manifest[i, ]
-      lines <- c(lines, sprintf('<details><summary>%s — %s specimens, %s mapped</summary><p><a href="%s">Annual map PDF</a> · <a href="%s">Preview PNG</a></p>', stage_label(m$life_stage), m$specimens, m$mapped_specimens, m$pdf, m$preview))
-      if (nzchar(m$gif)) lines <- c(lines, sprintf('<p><a href="%s">Download GIF</a></p><img loading="lazy" src="%s" alt="%s sampling animation">', m$gif, m$gif, html_escape(paste(species, stage_label(m$life_stage)))))
-      lines <- c(lines, '</details>')
-    }
-    lines <- c(lines, '</article>')
-  }
-  lines <- c(lines, '<script>document.getElementById("search").addEventListener("input",e=>{const q=e.target.value.toLowerCase();document.querySelectorAll("article").forEach(a=>a.hidden=!a.dataset.species.includes(q))})</script></html>')
-  writeLines(lines, file.path(config$output, "index.html"))
-}
+# Keep report/UI changes separate from the scientific transformations.
+source("Scripts/sampling_atlas_locations.R")
+source("Scripts/sampling_atlas_report.R")

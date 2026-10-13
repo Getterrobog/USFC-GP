@@ -5,12 +5,14 @@ atlas_config <- list(
   curated_names = "Output/Files/All_Ships_Updated.csv",
   manual_names = "Output/Files/HumanSearch.csv",
   overrides = "config/sampling_overrides.csv",
+  locality_anchors = "config/sampling_locality_anchors.csv",
+  approximate_locations = TRUE,   # Display only; original coordinates remain unchanged
   output = "Output/SamplingAtlas",
   min_specimens = 50L,             # DATED species total <= max_year, summed over stages
   max_year = 1930L,                # Undated lots shown separately; do NOT confer eligibility
   historical_end = 1930L,          # Descriptive sampling period, NOT a preservation test
   early_end = 1900L,
-  cell_degrees = 1,                # Counts per geographic cell, not density per unit area
+  cell_degrees = 2,                # Counts per geographic cell, not density per unit area
   min_cell_period_specimens = 10L, # Screening threshold for repeated historical sampling
   unknown_stage = "adult",         # 'adult' means non-larval / maturity unverified
   bounds = c(west = -100, east = -50, south = 5, north = 60),

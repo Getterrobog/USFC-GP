@@ -62,4 +62,64 @@ stopifnot(nrow(combined$repeated_historical_cells) == 1L,
           combined$repeated_historical_cells$specimens_early == 12,
           combined$repeated_historical_cells$specimens_late == 14,
           nrow(combined$shared_year_assemblages) == 2L)
+# Sample distribution must never change map longitude/latitude limits.
+extent_plot <- tempfile(fileext = ".png")
+png(extent_plot, width = 960, height = 760, type = "cairo")
+draw_map(data.frame(cell_lon = -77, cell_lat = 37, specimens = 1),
+         atlas_config$bounds, 50, atlas_config)
+compact_extent <- par("usr")
+draw_map(data.frame(cell_lon = c(-98, -52), cell_lat = c(8, 57), specimens = c(1, 50)),
+         atlas_config$bounds, 50, atlas_config)
+wide_extent <- par("usr")
+dev.off()
+unlink(extent_plot)
+stopifnot(isTRUE(all.equal(compact_extent, c(-100, -50, 5, 60))),
+          isTRUE(all.equal(wide_extent, compact_extent)))
+inventory <- geographic_frame_inventory(tiny, "Example species", "adult", atlas_config)
+stopifnot(identical(inventory$label, c("1900", "Undated")),
+          all(inventory$west == -100), all(inventory$east == -50),
+          all(inventory$south == 5), all(inventory$north == 60),
+          all(inventory$cell_degrees == 2))
+# Approximation uses unique original positions, never specimen-weighted or chained
+# imputations. Original coordinates and the precise-location screen stay intact.
+location_fixture <- records[rep(which(records$mapped)[1], 6), ]
+location_fixture$catalog_number <- as.character(seq_len(6))
+location_fixture$longitude <- c(-76.6, -76.4, -76.6, NA, -90, NA)
+location_fixture$latitude <- c(34.6, 34.8, 34.6, NA, 40, NA)
+location_fixture$coordinates_valid <- c(TRUE, TRUE, TRUE, FALSE, TRUE, FALSE)
+location_fixture$mapped <- c(TRUE, TRUE, TRUE, FALSE, TRUE, FALSE)
+location_fixture$included <- c(TRUE, TRUE, TRUE, TRUE, TRUE, FALSE)
+location_fixture$in_scope <- TRUE
+location_fixture$coordinate_source <- c(rep("original_catalog", 3), "missing_or_invalid", "manual_override", "missing_or_invalid")
+location_fixture$specimen_count <- c(1, 100, 1, 10, 1000, 1)
+location_fixture$locality <- "Example inlet"
+location_fixture$country <- "United States"; location_fixture$province_state <- "North Carolina"
+location_fixture$station <- ""; location_fixture$region <- "Atlantic"
+located <- add_display_locations(location_fixture, atlas_config)
+stopifnot(identical(located$longitude, location_fixture$longitude),
+          identical(located$latitude, location_fixture$latitude),
+          identical(located$mapped, location_fixture$mapped),
+          located$display_longitude[4] == -76.5, located$display_latitude[4] == 34.7,
+          located$approximation_reference_positions[4] == 2,
+          sum(located$coordinate_approximate) == 1,
+          !located$display_mapped[6])
+disabled_config <- atlas_config; disabled_config$approximate_locations <- FALSE
+stopifnot(!any(add_display_locations(location_fixture, disabled_config)$coordinate_approximate))
+display_counts <- display_cell_counts(located)
+stopifnot(sum(display_counts$approximate_specimens) == 10,
+          sum(display_counts$recorded_specimens) == 1102,
+          all(display_counts$cell_lon %% 2 == 0), all(display_counts$cell_lat %% 2 == 0))
+# Candidate filters exclude undated/out-of-scope records and retain distinct years.
+filter_fixture <- records[rep(which(records$included)[1], 6), ]
+filter_fixture$species <- "Example species"
+filter_fixture$life_stage <- c("adult", "adult", "larva", "larva", "adult", "adult")
+filter_fixture$region <- c("Atlantic", "Atlantic", "Atlantic", "Caribbean", "Atlantic", "Atlantic")
+filter_fixture$year <- c(1900L, 1900L, 1901L, 1901L, NA_integer_, 1931L)
+filter_fixture$specimen_count <- c(10, 20, 5, 7, 1000, 1000)
+filter_fixture$mapped <- c(TRUE, FALSE, TRUE, FALSE, TRUE, TRUE)
+filtered <- atlas_filter_counts(filter_fixture, "Example species", atlas_config)
+stopifnot(sum(filtered$specimens) == 42, sum(filtered$mapped_specimens) == 15,
+          filtered$years[filtered$life_stage == "adult"] == "1900",
+          filtered$mapped_years[filtered$region == "Caribbean"] == "",
+          nrow(atlas_filter_counts(filter_fixture, "Absent species", atlas_config)) == 0)
 message("All sampling atlas checks passed.")

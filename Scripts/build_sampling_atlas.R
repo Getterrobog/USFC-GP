@@ -47,6 +47,8 @@ atlas <- records[records$included & records$species_eligible, ]
 annual <- atlas[atlas$dated_mapped, ]
 annual_cells <- sum_groups(annual, c("species", "life_stage", "year", "cell_id", "cell_lon", "cell_lat"))
 unknown_cells <- sum_groups(atlas[atlas$mapped & is.na(atlas$year), ], c("species", "life_stage", "cell_id", "cell_lon", "cell_lat"))
+display_annual <- display_cell_counts(atlas[!is.na(atlas$year), ], c("species", "life_stage", "year"))
+display_undated <- display_cell_counts(atlas[is.na(atlas$year), ], c("species", "life_stage"))
 screen <- build_screening_tables(records, eligible, config)
 candidates <- summaries[summaries$eligible, ]
 candidates$repeated_historical_cells <- vapply(candidates$species, function(sp) length(unique(screen$repeated_historical_cells$cell_id[screen$repeated_historical_cells$species == sp])), integer(1))
@@ -62,6 +64,10 @@ write_table(summaries, "species_summary")
 write_table(candidates, "candidate_screening")
 write_table(annual_cells, "annual_geographic_counts")
 write_table(unknown_cells, "undated_geographic_counts")
+write_table(display_annual, "annual_display_geographic_counts")
+write_table(display_undated, "undated_display_geographic_counts")
+write_table(atlas[atlas$coordinate_approximate, ], "approximate_locations")
+write_table(sum_groups(atlas[atlas$coordinate_approximate, ], c("species", "approximation_level")), "approximation_summary")
 for (name in names(screen)) write_table(screen[[name]], name)
 write_table(sum_groups(atlas, c("species", "life_stage", "region", "period")), "regional_stage_period_counts")
 write_table(sum_groups(atlas, c("species", "life_stage", "year_status")), "date_quality_counts")
@@ -75,12 +81,15 @@ names(audit_counts) <- c("disposition", "records")
 write_table(audit_counts, "record_disposition")
 # Reconcile specimens at every aggregate; physical lot identity is checked upstream.
 stopifnot(sum(annual_cells$specimens) == sum(atlas$specimen_count[atlas$dated_mapped]),
+          sum(display_annual$specimens) == sum(atlas$specimen_count[atlas$display_mapped & !is.na(atlas$year)]),
+          sum(display_annual$recorded_specimens) == sum(annual_cells$specimens),
+          sum(display_undated$specimens) == sum(atlas$specimen_count[atlas$display_mapped & is.na(atlas$year)]),
           sum(unknown_cells$specimens) == sum(atlas$specimen_count[atlas$mapped & is.na(atlas$year)]),
           all(summaries$eligibility_specimens[summaries$eligible] >= config$min_specimens),
           all(is.na(atlas$year) | atlas$year <= config$max_year))
 writeLines(capture.output(dput(config)), file.path(config$output, "resolved_config.R"))
-inputs <- unique(c(config$input, config$taxonomy, config$curated_names, config$manual_names, config$overrides,
-                   config_file, "Scripts/build_sampling_atlas.R", "Scripts/sampling_atlas_functions.R"))
+inputs <- unique(c(config$input, config$taxonomy, config$curated_names, config$manual_names, config$overrides, config$locality_anchors,
+                   config_file, "Scripts/build_sampling_atlas.R", "Scripts/sampling_atlas_functions.R", "Scripts/sampling_atlas_report.R", "Scripts/sampling_atlas_locations.R"))
 write_table(data.frame(path = inputs, md5 = unname(tools::md5sum(inputs))), "input_checksums")
 writeLines(capture.output(sessionInfo()), file.path(config$output, "session_info.txt"))
 if (!data_only) {
@@ -102,7 +111,12 @@ if (!data_only) {
       checkpoint <- readRDS(checkpoint_path)
       paths <- unlist(checkpoint$manifest[c("pdf", "preview", "gif")], use.names = FALSE)
       paths <- file.path(config$output, paths[nzchar(paths)])
-      paths <- c(paths, file.path(config$output, "species", slug(sp), "sampling_matrix.pdf"))
+      frame_tables <- file.path(config$output, "species", slug(sp), paste0(checkpoint$manifest$life_stage, "_frames.csv"))
+      paths <- c(paths, frame_tables)
+      if (all(file.exists(frame_tables))) {
+        frame_paths <- unlist(lapply(frame_tables, function(p) read.csv(p)$png), use.names = FALSE)
+        paths <- c(paths, file.path(config$output, frame_paths))
+      }
       if (identical(checkpoint$signature, signature) && all(file.exists(paths)) &&
           all(file.info(paths)$size > 0)) {
         manifest[[length(manifest) + 1L]] <- checkpoint$manifest
@@ -113,11 +127,10 @@ if (!data_only) {
     if (rendered_now >= render_limit) next
     message(sprintf("[%s/%s] Rendering: %s", i, length(species_to_render), sp))
     d <- atlas[atlas$species == sp, ]
-    maximum <- max(1, annual_cells$specimens[annual_cells$species == sp], unknown_cells$specimens[unknown_cells$species == sp])
+    maximum <- max(1, display_annual$specimens[display_annual$species == sp], display_undated$specimens[display_undated$species == sp])
     stages <- unique(c("adult", "larva", sort(unique(d$life_stage))))
     species_manifest <- do.call(rbind, lapply(stages, function(stage)
       render_species_stage(d[d$life_stage == stage, ], sp, stage, maximum, config, coast)))
-    render_sampling_matrix(d, sp, config)
     saveRDS(list(signature = signature, manifest = species_manifest), checkpoint_path)
     manifest[[length(manifest) + 1L]] <- species_manifest
     rendered_now <- rendered_now + 1L
@@ -138,14 +151,15 @@ run_summary <- c(
   sprintf("Original export records: %s; physical lots: %s", nrow(records), sum(records$object_kind == "Specimen/Lot")),
   sprintf("Eligible species inventory: %s lots; %s dated specimens; %s undated specimens", nrow(atlas), sum(atlas$specimen_count[!is.na(atlas$year)]), sum(atlas$specimen_count[is.na(atlas$year)])),
   sprintf("Dated and mapped specimens: %s; undated and mapped specimens: %s", sum(annual_cells$specimens), sum(unknown_cells$specimens)),
+  sprintf("Approximate display positions: %s lots, %s specimens (excluded from precise-location screening)", sum(atlas$coordinate_approximate), sum(atlas$specimen_count[atlas$coordinate_approximate])),
   sprintf("Stage totals: %s", paste(names(tapply(atlas$specimen_count, atlas$life_stage, sum)), tapply(atlas$specimen_count, atlas$life_stage, sum), collapse = "; ")),
   sprintf("Repeated historical species/stage/cells with >= %s specimens in each period: %s", config$min_cell_period_specimens, nrow(screen$repeated_historical_cells)),
   "Adults are non-larval inventory, not a claim of verified maturity. Mixed lots are not split without evidence.",
   "Unlabeled maturity, unvalidated taxonomy, missing coordinates/dates and availability concerns remain auditable.",
-  "Broad regional partitions and 1-degree cells are screening units, not biological population boundaries.",
+  sprintf("Broad regional partitions and %s-degree cells are screening units, not biological population boundaries.", config$cell_degrees),
   "Types and availability-flagged lots are shown in the atlas but excluded from repeated-sampling/assemblage screening.",
   "Preservation Method is absent from the source export: year is not a DNA preservation or sequencing-feasibility test.",
-  "No centroid imputation or date borrowing; approved corrections belong in config/sampling_overrides.csv.",
+  "Approximate display coordinates use auditable locality matching; original coordinates and dates remain unchanged.",
   "Shared early/late period membership is not proof of simultaneous collection. Inspect exact years, stations and lots before selecting assemblages.",
   if (data_only) "Mode: data-only (no visualization generated)." else sprintf("Rendered %s species-stage artifacts for %s species.", nrow(manifest), length(unique(manifest$species)))
 )
