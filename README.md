@@ -5,6 +5,38 @@
 
 The U.S. Fish Commission Genomics Project (USFC-GP) is an integrative evolutionary genomics initiative examining century-scale spatial and temporal genomic shifts in Western Atlantic coastal fish species. We are using historical specimens collected by the U.S. Fish Commission vessels USS *Albatross*, USFC *Fish Hawk*, and USFC *Grampus* and housed at the U.S. National Museum.  These collections started in 1871 and continued to the present.  We will conduct a comparative analysis of the genomes of target species across temporal and spatial scales.  This repository houses analytical pipelines, bioinformatic workflows, genomic dataset metadata, and documentation supporting the project.
 
+### Start here
+
+- **Explore historical sampling:** read the [atlas guide](Output/SamplingAtlas/README.md),
+  then open `Output/SamplingAtlas/index.html` in a browser after downloading or
+  cloning the repository. The filters, annual maps and GIFs work locally.
+- **Investigate candidate species and sites:** start with
+  [species-selection results](Output/SpeciesSelection/README.md). These are
+  historical sampling opportunities; final species selection still requires
+  feasibility, laboratory and statistical evidence.
+- **Understand the scientific question:** read the
+  [proposal](background/one_page_proposal.txt) and
+  [species selection plan](docs/species_selection_plan.md).
+
+You do not need R to browse the saved results. R is needed to rebuild the atlas
+or selection screen. The two workflows use the same curated museum inventory:
+the atlas shows broad coverage, while the selection screen compares recorded
+locations, individual years and life stages more closely.
+
+| Directory | What belongs here |
+| --- | --- |
+| [Data](Data/README.md) | Museum export and supporting source material |
+| [Scripts](Scripts/README.md) | Rebuild commands, reusable R functions and legacy tools |
+| [config](config/README.md) | Analysis settings, reviewed corrections and approximate-location rules |
+| [Output](Output/README.md) | Saved atlas, selection results, audit and legacy products |
+| [docs](docs/README.md) | Detailed methods, interpretation and sampling-design protocol |
+| [tests](tests/README.md) | Data-transformation and completed-output checks |
+| [background](background/README.md) | Scientific proposal motivating the analyses |
+
+The main atlas is included for sharing. Preview builds and rendering caches stay
+local under [.gitignore](.gitignore). Keep the atlas's directory structure intact
+when sharing it; the HTML page links to its images and tables by relative paths.
+
 ### **Project Personnel**  
 
 **Principal Investigators:**  

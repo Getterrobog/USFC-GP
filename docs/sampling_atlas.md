@@ -59,9 +59,13 @@ index and artifact manifest define the current run; unrelated old files are not
 deleted. A data-only run does not refresh previously rendered graphics.
 
 The analysis has no random component. Each run records its resolved configuration,
-input/code MD5 checksums, R session information, and rendering versions. Commit
-scripts, configuration and reviewed overrides; generated media and the local R
-library are ignored. The workflow never edits existing inputs or legacy outputs.
+input/code MD5 checksums, R session information, and rendering versions. Scripts,
+configuration, reviewed overrides and the main `Output/SamplingAtlas/` build are
+eligible for version control. Preview/data-only builds, the local R library,
+render caches and superseded matrix/PDF-page previews are ignored. The shared
+atlas retains its linked annual PDFs, year PNGs, GIFs and audit tables; keep its
+directory structure intact. See the [output guide](../Output/README.md).
+The workflow never edits existing inputs or legacy outputs.
 Completed species receive rendering checkpoints. `--resume` reuses a checkpoint
 only when input/code hashes, configuration and R/maps versions match and all its
 files still exist. `--limit` bounds newly rendered species per invocation. The full

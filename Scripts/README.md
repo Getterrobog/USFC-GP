@@ -1,0 +1,81 @@
+# Scripts and workflow entry points
+
+Run the commands below from the repository root. To explore existing results,
+start with [Output](../Output/README.md); rebuilding is unnecessary for browsing.
+
+## Current R workflows
+
+| Script | Role |
+| --- | --- |
+| [install_atlas_dependencies.R](install_atlas_dependencies.R) | Explicitly install `maps` into the ignored local `.R-library`; requires network access |
+| [build_sampling_atlas.R](build_sampling_atlas.R) | Read the museum export and cached curation; write audits, counts, annual geographic maps and GIFs |
+| [summarize_sampling_candidates.R](summarize_sampling_candidates.R) | Produce the atlas's broad basin/stage candidate digest |
+| [refresh_sampling_atlas_index.R](refresh_sampling_atlas_index.R) | Refresh the local HTML viewer from saved outputs; does not redo scientific analysis |
+| [build_species_selection.R](build_species_selection.R) | Reuse atlas records for bounded-site, year and stage comparisons, sensitivity and evidence queues |
+
+One-time atlas setup also requires ImageMagick (`magick` or `convert`) installed
+through your operating system for GIF encoding. The normal atlas run is offline;
+it reuses cached taxonomy and the installed coastline data. The downstream
+species-selection screen uses base R.
+
+```bash
+# Setup, then rebuild and validate the main atlas.
+Rscript Scripts/install_atlas_dependencies.R
+Rscript tests/test_sampling_atlas.R
+Rscript Scripts/build_sampling_atlas.R
+Rscript Scripts/summarize_sampling_candidates.R
+Rscript tests/validate_sampling_atlas.R
+
+# Rebuild the separate species/site investigation screen.
+Rscript tests/test_species_selection.R
+Rscript Scripts/build_species_selection.R
+```
+
+For a smaller local build:
+
+```bash
+Rscript Scripts/build_sampling_atlas.R --species=Menidia_menidia --output=Output/AtlasPreview
+Rscript Scripts/build_sampling_atlas.R --data-only --output=Output/AtlasDataOnly
+```
+
+These output directories are ignored by Git. Read [atlas methods and options](../docs/sampling_atlas.md)
+and [selection methods](../docs/species_selection_workflow.md) before changing
+thresholds. Settings and reviewed corrections belong in [config](../config/README.md).
+
+## Reusable R modules
+
+These files are sourced by the runners rather than invoked as standalone builds:
+
+- [sampling_atlas_functions.R](sampling_atlas_functions.R): record preparation,
+  counting, screening and geographic rendering.
+- [sampling_atlas_locations.R](sampling_atlas_locations.R): auditable approximate
+  display positions, kept separate from original coordinates.
+- [sampling_atlas_report.R](sampling_atlas_report.R): annual frame inventories,
+  HTML viewer and combined candidate filters.
+- [species_selection_functions.R](species_selection_functions.R): bounded sites,
+  year/stage cells, shared-species evidence and sensitivity calculations.
+
+## Legacy audit and other tools
+
+[download_fishbase_traits.py](download_fishbase_traits.py) is a separate, explicit
+network step for pinned FishBase tables in [Data/LifeHistory](../Data/LifeHistory/README.md).
+It is not required by the atlas or historical sampling screen.
+
+[audit_selection_inputs.py](audit_selection_inputs.py) uses Python's standard
+library to inventory the older inputs without altering them:
+
+```bash
+python3 Scripts/audit_selection_inputs.py
+```
+
+Its output is documented in [SelectionAudit](../Output/SelectionAudit/README.md).
+
+The older `USNM-R-inator.R`, `PRfixinator.R`, `species_checkinator.py`,
+`FishBaseinator.R` and `USNMdiff-inator.R` support earlier cleaning, lookup and
+exploration. `Populinator.R` is an exploratory simulation. They are not required
+to rebuild the current atlas or selection screen; some depend on interactive
+objects, additional packages or live services. Consult the
+[repository review](../docs/repository_review.md) before rerunning them.
+
+`Gitpushinator.sh` performs Git publication operations and is not an analysis
+dependency. Run Git adding, committing and pushing separately when intended.

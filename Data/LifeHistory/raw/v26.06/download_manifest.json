@@ -1,0 +1,114 @@
+{
+  "ecology": {
+    "bytes": 923379,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:22 GMT",
+    "retrieved_utc": "2026-10-13T01:41:29.702144+00:00",
+    "sha256": "a0cc4b3b22e0e55c57b6d63447177ba3cd65e84d71e5c768ac7e3c87d6095cf9",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/ecology.parquet",
+    "version": "26.06"
+  },
+  "estimate": {
+    "bytes": 2384336,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:22 GMT",
+    "retrieved_utc": "2026-10-13T01:41:29.910838+00:00",
+    "sha256": "1a9d9d8eae38449d46b6127c345cfc47cad4accc00fdc793b3dae66b558fc97f",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/estimate.parquet",
+    "version": "26.06"
+  },
+  "fecundity": {
+    "bytes": 253804,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:22 GMT",
+    "retrieved_utc": "2026-10-13T01:41:30.703377+00:00",
+    "sha256": "bfbc5a38377a8e3ef2be6b2ee3b2893f24f32323cb704048e53a3899b79bbb68",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/fecundity.parquet",
+    "version": "26.06"
+  },
+  "larvae": {
+    "bytes": 360347,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T01:41:31.453200+00:00",
+    "sha256": "9cadd492825885dcaa754d83f9465a825b0618c7500613717ffa4835fee07394",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/larvae.parquet",
+    "version": "26.06"
+  },
+  "larvdyn": {
+    "bytes": 7536,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T01:41:31.141758+00:00",
+    "sha256": "00cda1ef450da8a426bae3bbc4d68c81e4c6c412c5627592c2a9d0daafaf0ba9",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/larvdyn.parquet",
+    "version": "26.06"
+  },
+  "matrix": {
+    "bytes": 2368150,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T01:42:01.616299+00:00",
+    "sha256": "b222c1eac18d2aa3291d5ea9927476f318b3464c6b2021ba6a6de4d193752b1a",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/matrix.parquet",
+    "version": "26.06"
+  },
+  "maturity": {
+    "bytes": 300002,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T01:41:29.529691+00:00",
+    "sha256": "3f82a55beba4ce174c0d427fe3048d6aa0792ebc96bbecbaaef57d91bba7a565",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/maturity.parquet",
+    "version": "26.06"
+  },
+  "popgrowth": {
+    "bytes": 687922,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T01:41:30.643788+00:00",
+    "sha256": "ed0ab04a486fea22435984e4669d45da8216348dfc7e4814dc8c4aec65e88ceb",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/popgrowth.parquet",
+    "version": "26.06"
+  },
+  "refrens": {
+    "bytes": 8725945,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T01:41:32.846329+00:00",
+    "sha256": "6ffdabe16df33bf74cc16ee97dac65a2f053c19d209da832fb8526ad06e4fb7b",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/refrens.parquet",
+    "version": "26.06"
+  },
+  "reproduc": {
+    "bytes": 381404,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T01:41:30.701182+00:00",
+    "sha256": "b631704f0f4972acdb2edb5d3105f0a6172adb4c473d73e505113f8288418247",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/reproduc.parquet",
+    "version": "26.06"
+  },
+  "spawning": {
+    "bytes": 349146,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T01:41:32.106928+00:00",
+    "sha256": "b5b9d3517cdadc0a363ae7ab8c4764bd45b8ec39882af712c2d4913a5fc50d83",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/spawning.parquet",
+    "version": "26.06"
+  },
+  "species": {
+    "bytes": 3469911,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T01:41:30.107770+00:00",
+    "sha256": "87c99bc57f368c6102ea4042e7e6c8019c7405d5a352ead840f06244609ab101",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/species.parquet",
+    "version": "26.06"
+  },
+  "stocks": {
+    "bytes": 2452139,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T01:41:31.256610+00:00",
+    "sha256": "8168fc0556265033ce19ca4bb62c3559250b4d5c63932bc74137ec67a100e6cc",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/stocks.parquet",
+    "version": "26.06"
+  },
+  "synonyms": {
+    "bytes": 6461285,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T01:41:32.977457+00:00",
+    "sha256": "1a0dd2a7118da2d24a7ac8e7d4227505dbe3c5c487f94a161298a57ce4fda060",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/synonyms.parquet",
+    "version": "26.06"
+  }
+}

@@ -1,0 +1,209 @@
+species,reason,evidence_id,detail
+Atherina harringtonensis,documented_combination,,FishBase senior synonym and original combination; project name retained
+Coelorinchus carminatus,species_aggregate_proxy,,FishBase junior synonym; carminatus also treated as subspecies by NCBI taxon 1266865; use species aggregate with regional applicability pending
+Helicolenus maderensis,authority_resolved_synonym,,Original museum identifications specify Goode & Bean; excludes Valenciennes homonym referring to Scorpaena maderensis; species aggregate applicability pending
+Hypoclydonia bella,documented_combination,,FishBase senior synonym and original combination; project name retained
+Myctophum opalinum,ambiguous_synonym_withheld,,FishBase labels synonym ambiguous and questionable; Myctophum affine is separately present in the 80-species roster; withhold transfer pending taxonomic review
+Alosa aestivalis,fecundity_basis_unspecified,Alosa aestivalis|fecundity|1178|FecundityMax,Source value preserved; review before use.
+Alosa aestivalis,fecundity_basis_unspecified,Alosa aestivalis|fecundity|1179|FecundityMax,Source value preserved; review before use.
+Alosa aestivalis,fecundity_basis_unspecified,Alosa aestivalis|fecundity|1179|FecundityMin,Source value preserved; review before use.
+Alosa aestivalis,fecundity_basis_unspecified,Alosa aestivalis|fecundity|1180|FecundityMax,Source value preserved; review before use.
+Alosa aestivalis,fecundity_basis_unspecified,Alosa aestivalis|fecundity|1180|FecundityMin,Source value preserved; review before use.
+Alosa aestivalis,length_type_missing,Alosa aestivalis|maturity|3370|LengthMatMin2,Source value preserved; review before use.
+Alosa pseudoharengus,fecundity_basis_unspecified,Alosa pseudoharengus|fecundity|224|FecundityMax,Source value preserved; review before use.
+Alosa pseudoharengus,fecundity_basis_unspecified,Alosa pseudoharengus|fecundity|225|FecundityMax,Source value preserved; review before use.
+Alosa pseudoharengus,fecundity_basis_unspecified,Alosa pseudoharengus|fecundity|226|FecundityMax,Source value preserved; review before use.
+Alosa pseudoharengus,fecundity_basis_unspecified,Alosa pseudoharengus|fecundity|226|FecundityMin,Source value preserved; review before use.
+Alosa pseudoharengus,fecundity_basis_unspecified,Alosa pseudoharengus|fecundity|227|FecundityMax,Source value preserved; review before use.
+Alosa pseudoharengus,fecundity_basis_unspecified,Alosa pseudoharengus|fecundity|227|FecundityMin,Source value preserved; review before use.
+Alosa pseudoharengus,fecundity_basis_unspecified,Alosa pseudoharengus|fecundity|228|FecundityMax,Source value preserved; review before use.
+Alosa pseudoharengus,fecundity_basis_unspecified,Alosa pseudoharengus|fecundity|228|FecundityMin,Source value preserved; review before use.
+Alosa pseudoharengus,fecundity_basis_unspecified,Alosa pseudoharengus|fecundity|229|FecundityMax,Source value preserved; review before use.
+Alosa pseudoharengus,fecundity_basis_unspecified,Alosa pseudoharengus|fecundity|229|FecundityMin,Source value preserved; review before use.
+Alosa pseudoharengus,fecundity_basis_unspecified,Alosa pseudoharengus|fecundity|230|FecundityMean,Source value preserved; review before use.
+Anchoa mitchilli,fecundity_basis_unspecified,Anchoa mitchilli|fecundity|194|FecundityMax,Source value preserved; review before use.
+Anchoa mitchilli,length_type_missing,Anchoa mitchilli|maturity|9746|LengthMatMin,Source value preserved; review before use.
+Anchoa mitchilli,length_type_missing,Anchoa mitchilli|maturity|9746|LengthMatMin2,Source value preserved; review before use.
+Anchoa mitchilli,length_type_missing,Anchoa mitchilli|maturity|9746|Lm,Source value preserved; review before use.
+Brevoortia patronus,fecundity_basis_unspecified,Brevoortia patronus|fecundity|1217|FecundityMax,Source value preserved; review before use.
+Brevoortia patronus,fecundity_basis_unspecified,Brevoortia patronus|fecundity|1217|FecundityMin,Source value preserved; review before use.
+Brevoortia patronus,fecundity_basis_unspecified,Brevoortia patronus|fecundity|1218|FecundityMax,Source value preserved; review before use.
+Brevoortia patronus,fecundity_basis_unspecified,Brevoortia patronus|fecundity|1219|FecundityMax,Source value preserved; review before use.
+Brevoortia tyrannus,fecundity_basis_unspecified,Brevoortia tyrannus|fecundity|1220|FecundityMax,Source value preserved; review before use.
+Brevoortia tyrannus,fecundity_basis_unspecified,Brevoortia tyrannus|fecundity|1220|FecundityMin,Source value preserved; review before use.
+Centropristis striata,fecundity_basis_unspecified,Centropristis striata|fecundity|4415|FecundityMax,Source value preserved; review before use.
+Centropristis striata,fecundity_basis_unspecified,Centropristis striata|fecundity|4415|FecundityMin,Source value preserved; review before use.
+Chloroscombrus chrysurus,length_type_missing,Chloroscombrus chrysurus|maturity|720|Lm,Source value preserved; review before use.
+Chloroscombrus chrysurus,length_type_missing,Chloroscombrus chrysurus|maturity|722|Lm,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2097|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2097|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2358|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2358|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2359|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2359|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|25|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|25|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|26|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2618|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2618|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2619|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2619|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2623|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2623|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2632|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2632|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2635|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2635|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|27|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|28|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|29|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2928|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|2928|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|30|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|30|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|31|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|32|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|33|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|33|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|3306|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|3307|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|3308|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|3309|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|3310|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|3310|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|3311|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|3311|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|34|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|34|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|39|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|39|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|40|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|40|FecundityMin,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|41|FecundityMax,Source value preserved; review before use.
+Clupea harengus,fecundity_basis_unspecified,Clupea harengus|fecundity|41|FecundityMin,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|3489|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|3491|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|3492|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|63|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|64|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|65|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|67|LengthMatMin,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|67|LengthMatMin2,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|67|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|69|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|70|LengthMatMin,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|70|LengthMatMin2,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|70|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|71|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|72|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|73|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|74|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|75|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|76|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|77|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|7776|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|7777|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|7780|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|78|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|79|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|8271|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|83|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|84|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|85|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|86|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|87|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|88|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|89|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|90|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|91|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|92|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|93|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|94|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|9417|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|9418|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|95|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|96|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|97|Lm,Source value preserved; review before use.
+Clupea harengus,length_type_missing,Clupea harengus|maturity|98|Lm,Source value preserved; review before use.
+Cyclopterus lumpus,fecundity_basis_unspecified,Cyclopterus lumpus|fecundity|86|FecundityMin,Source value preserved; review before use.
+Cyclopterus lumpus,fecundity_basis_unspecified,Cyclopterus lumpus|fecundity|87|FecundityMax,Source value preserved; review before use.
+Cyclopterus lumpus,fecundity_basis_unspecified,Cyclopterus lumpus|fecundity|87|FecundityMin,Source value preserved; review before use.
+Cyclothone microdon,fecundity_basis_unspecified,Cyclothone microdon|fecundity|1300|FecundityMax,Source value preserved; review before use.
+Cyclothone microdon,fecundity_basis_unspecified,Cyclothone microdon|fecundity|1300|FecundityMin,Source value preserved; review before use.
+Fundulus heteroclitus,fecundity_basis_unspecified,Fundulus heteroclitus|fecundity|4438|FecundityMax,Source value preserved; review before use.
+Fundulus heteroclitus,fecundity_basis_unspecified,Fundulus heteroclitus|fecundity|4438|FecundityMean,Source value preserved; review before use.
+Fundulus heteroclitus,fecundity_basis_unspecified,Fundulus heteroclitus|fecundity|4438|FecundityMin,Source value preserved; review before use.
+Gambusia affinis,fecundity_basis_unspecified,Gambusia affinis|fecundity|1569|FecundityMax,Source value preserved; review before use.
+Gambusia affinis,fecundity_basis_unspecified,Gambusia affinis|fecundity|1569|FecundityMin,Source value preserved; review before use.
+Gambusia affinis,fecundity_basis_unspecified,Gambusia affinis|fecundity|232|FecundityMax,Source value preserved; review before use.
+Gambusia affinis,fecundity_basis_unspecified,Gambusia affinis|fecundity|232|FecundityMin,Source value preserved; review before use.
+Gambusia affinis,fecundity_basis_unspecified,Gambusia affinis|fecundity|233|FecundityMax,Source value preserved; review before use.
+Gambusia affinis,fecundity_basis_unspecified,Gambusia affinis|fecundity|233|FecundityMin,Source value preserved; review before use.
+Gambusia affinis,fecundity_basis_unspecified,Gambusia affinis|fecundity|234|FecundityMax,Source value preserved; review before use.
+Gambusia affinis,fecundity_basis_unspecified,Gambusia affinis|fecundity|234|FecundityMin,Source value preserved; review before use.
+Gambusia affinis,fecundity_basis_unspecified,Gambusia affinis|fecundity|4182|FecundityMax,Source value preserved; review before use.
+Gambusia affinis,fecundity_basis_unspecified,Gambusia affinis|fecundity|4182|FecundityMean,Source value preserved; review before use.
+Gambusia affinis,fecundity_basis_unspecified,Gambusia affinis|fecundity|4182|FecundityMin,Source value preserved; review before use.
+Gambusia affinis,nonpositive_value,Gambusia affinis|maturity|6789|AgeMatMin,Source value preserved; review before use.
+Gambusia affinis,nonpositive_value,Gambusia affinis|maturity|6790|AgeMatMin,Source value preserved; review before use.
+Gambusia affinis,nonpositive_value,Gambusia affinis|maturity|6791|AgeMatMin,Source value preserved; review before use.
+Glyptocephalus cynoglossus,fecundity_basis_unspecified,Glyptocephalus cynoglossus|fecundity|3392|FecundityMax,Source value preserved; review before use.
+Glyptocephalus cynoglossus,fecundity_basis_unspecified,Glyptocephalus cynoglossus|fecundity|3392|FecundityMin,Source value preserved; review before use.
+Glyptocephalus cynoglossus,length_type_missing,Glyptocephalus cynoglossus|maturity|3254|LengthMatMin,Source value preserved; review before use.
+Glyptocephalus cynoglossus,length_type_missing,Glyptocephalus cynoglossus|maturity|3254|LengthMatMin2,Source value preserved; review before use.
+Glyptocephalus cynoglossus,length_type_missing,Glyptocephalus cynoglossus|maturity|3254|Lm,Source value preserved; review before use.
+Haemulon aurolineatum,fecundity_basis_unspecified,Haemulon aurolineatum|fecundity|1013|FecundityMax,Source value preserved; review before use.
+Haemulon aurolineatum,fecundity_basis_unspecified,Haemulon aurolineatum|fecundity|1013|FecundityMin,Source value preserved; review before use.
+Haemulon plumierii,fecundity_basis_unspecified,Haemulon plumierii|fecundity|1014|FecundityMax,Source value preserved; review before use.
+Haemulon plumierii,fecundity_basis_unspecified,Haemulon plumierii|fecundity|1014|FecundityMin,Source value preserved; review before use.
+Harengula humeralis,fecundity_basis_unspecified,Harengula humeralis|fecundity|1145|FecundityMax,Source value preserved; review before use.
+Harengula humeralis,fecundity_basis_unspecified,Harengula humeralis|fecundity|1145|FecundityMin,Source value preserved; review before use.
+Helicolenus maderensis,fecundity_basis_unspecified,Helicolenus maderensis|fecundity|3069|FecundityMax,Source value preserved; review before use.
+Helicolenus maderensis,fecundity_basis_unspecified,Helicolenus maderensis|fecundity|3069|FecundityMin,Source value preserved; review before use.
+Lagodon rhomboides,length_type_missing,Lagodon rhomboides|maturity|6799|LengthMatMin,Source value preserved; review before use.
+Lutjanus apodus,duration_unit_and_definition_unverified;source_min_exceeds_max,Lutjanus apodus|larvae|1479|LarvalDurationMax,Source value preserved; review before use.
+Lutjanus apodus,duration_unit_and_definition_unverified;source_min_exceeds_max,Lutjanus apodus|larvae|1479|LarvalDurationMin,Source value preserved; review before use.
+Lutjanus apodus,duration_unit_and_definition_unverified;source_min_exceeds_max,Lutjanus apodus|larvae|1479|LarvalDurationMod,Source value preserved; review before use.
+Lutjanus synagris,fecundity_basis_unspecified,Lutjanus synagris|fecundity|4456|FecundityMax,Source value preserved; review before use.
+Lutjanus synagris,fecundity_basis_unspecified,Lutjanus synagris|fecundity|4456|FecundityMin,Source value preserved; review before use.
+Lutjanus synagris,duration_unit_and_definition_unverified;source_min_exceeds_max,Lutjanus synagris|larvae|1480|LarvalDurationMax,Source value preserved; review before use.
+Lutjanus synagris,duration_unit_and_definition_unverified;source_min_exceeds_max,Lutjanus synagris|larvae|1480|LarvalDurationMin,Source value preserved; review before use.
+Lutjanus synagris,duration_unit_and_definition_unverified;source_min_exceeds_max,Lutjanus synagris|larvae|1480|LarvalDurationMod,Source value preserved; review before use.
+Menidia menidia,fecundity_basis_unspecified,Menidia menidia|fecundity|793|FecundityMax,Source value preserved; review before use.
+Menidia menidia,fecundity_basis_unspecified,Menidia menidia|fecundity|793|FecundityMin,Source value preserved; review before use.
+Myctophum affine,length_type_missing,Myctophum affine|maturity|2689|LengthMatMin,Source value preserved; review before use.
+Nezumia aequalis,length_type_missing,Nezumia aequalis|maturity|6598|LengthMatMin,Source value preserved; review before use.
+Nezumia aequalis,length_type_missing,Nezumia aequalis|maturity|6598|Lm,Source value preserved; review before use.
+Paralichthys dentatus,fecundity_basis_unspecified,Paralichthys dentatus|fecundity|3817|FecundityMean,Source value preserved; review before use.
+Phycis chesteri,fecundity_basis_unspecified,Phycis chesteri|fecundity|1305|FecundityMin,Source value preserved; review before use.
+Pomatomus saltatrix,fecundity_basis_unspecified,Pomatomus saltatrix|fecundity|3373|FecundityMax,Source value preserved; review before use.
+Pomatomus saltatrix,fecundity_basis_unspecified,Pomatomus saltatrix|fecundity|3373|FecundityMin,Source value preserved; review before use.
+Pomatomus saltatrix,fecundity_basis_unspecified,Pomatomus saltatrix|fecundity|824|FecundityMax,Source value preserved; review before use.
+Pseudopleuronectes americanus,fecundity_basis_unspecified,Pseudopleuronectes americanus|fecundity|4487|FecundityMax,Source value preserved; review before use.
+Pseudopleuronectes americanus,fecundity_basis_unspecified,Pseudopleuronectes americanus|fecundity|4487|FecundityMin,Source value preserved; review before use.
+Pseudopleuronectes americanus,fecundity_basis_unspecified,Pseudopleuronectes americanus|fecundity|4488|FecundityMax,Source value preserved; review before use.
+Pseudopleuronectes americanus,fecundity_basis_unspecified,Pseudopleuronectes americanus|fecundity|4488|FecundityMean,Source value preserved; review before use.
+Pseudopleuronectes americanus,fecundity_basis_unspecified,Pseudopleuronectes americanus|fecundity|4488|FecundityMin,Source value preserved; review before use.
+Stephanolepis hispida,fecundity_basis_unspecified,Stephanolepis hispida|fecundity|4090|FecundityMax,Source value preserved; review before use.
+Stephanolepis hispida,fecundity_basis_unspecified,Stephanolepis hispida|fecundity|4090|FecundityMean,Source value preserved; review before use.
+Stephanolepis hispida,fecundity_basis_unspecified,Stephanolepis hispida|fecundity|4090|FecundityMin,Source value preserved; review before use.
+Tautogolabrus adspersus,duration_unit_and_definition_unverified;source_min_exceeds_max,Tautogolabrus adspersus|larvae|598|LarvalDurationMax,Source value preserved; review before use.
+Tautogolabrus adspersus,duration_unit_and_definition_unverified;source_min_exceeds_max,Tautogolabrus adspersus|larvae|598|LarvalDurationMin,Source value preserved; review before use.
+Tautogolabrus adspersus,duration_unit_and_definition_unverified;source_min_exceeds_max,Tautogolabrus adspersus|larvae|598|LarvalDurationMod,Source value preserved; review before use.
+Chlorophthalmus agassizi,generation_time_unavailable,,Targeted literature review needed; do not substitute maturity age.
+Fenestraja plutonia,generation_time_unavailable,,Targeted literature review needed; do not substitute maturity age.
+Histrio histrio,generation_time_unavailable,,Targeted literature review needed; do not substitute maturity age.
+Hypoclydonia bella,generation_time_unavailable,,Targeted literature review needed; do not substitute maturity age.
+Myctophum opalinum,generation_time_unavailable,,Targeted literature review needed; do not substitute maturity age.
+Clupea harengus,reference_id_not_in_snapshot,Clupea harengus|maturity|8088|AgeMatMin,92256
+Clupea harengus,reference_id_not_in_snapshot,Clupea harengus|maturity|8088|AgeMatMin2,92256
+Clupea harengus,reference_id_not_in_snapshot,Clupea harengus|maturity|8088|tm,92256
+Lagodon rhomboides,reference_id_not_in_snapshot,Lagodon rhomboides|reproduc|1942|RepGuild1,32203
+Lagodon rhomboides,reference_id_not_in_snapshot,Lagodon rhomboides|reproduc|1942|ReproMode,32203
+Lutjanus apodus,reference_id_not_in_snapshot,Lutjanus apodus|species|1404|Length,69373
+Menidia menidia,reference_id_not_in_snapshot,Menidia menidia|reproduc|237|Fertilization,38155
+Menidia menidia,reference_id_not_in_snapshot,Menidia menidia|reproduc|237|ParentalCare,38155
+Menidia menidia,reference_id_not_in_snapshot,Menidia menidia|reproduc|237|RepGuild1,38155
+Menidia menidia,reference_id_not_in_snapshot,Menidia menidia|reproduc|237|RepGuild2,38155
+Menidia menidia,reference_id_not_in_snapshot,Menidia menidia|reproduc|237|ReproMode,38155
+Pseudopleuronectes americanus,reference_id_not_in_snapshot,Pseudopleuronectes americanus|popgrowth|1836|K,1726

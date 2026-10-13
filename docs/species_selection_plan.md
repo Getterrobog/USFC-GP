@@ -125,6 +125,13 @@ Use compatible callable-site definitions, invariant sites where needed, matched 
 
 Collect biological predictors independently of temporal genomic responses. For generation time, age at maturity, longevity, body size, habitat, migration and exploitation, retain units, population context, uncertainty, source and measured/inferred status. [FishBase](https://www.fishbase.se/search.php) can identify sources; trace consequential values to their underlying studies. Do not equate maturity age with generation time. Audit missingness across taxa/regions before imputation.
 
+Implementation update: the [life-history workbook](../Output/LifeHistory/life_history_80_species.xlsx)
+now retains all 80 project species, with sourced traits attached to 79 and model
+generation times for 75. The [extraction methods and audit](life_history_workflow.md)
+document source snapshots, taxon aliases, units, missingness and quality flags.
+Primary-study verification and local applicability remain pending; this database
+extraction does not pass the traits-and-habitat feasibility gate.
+
 Extract environmental exposure over the actual interval and habitat. [NOAA ERSST](https://www.ncei.noaa.gov/products/extended-reconstructed-sst) is a possible broad-scale temperature source, not automatic evidence for estuarine or bottom-temperature exposure. Evaluate local/depth-relevant observations and fisheries histories separately, preserving product version and uncertainty. Avoid fitting several regional drivers that covary across only 4–6 assemblages.
 
 Represent eligible species and assemblages as a bipartite graph: an edge requires an adequate historical–modern comparison. Evaluate portfolios of 12–20 species and 4–6 assemblages under the actual budget. Proposed design goals are at least three focal species per assemblage, at least half the species represented in two or more assemblages, and a connected graph. Report achieved values and explicit exceptions. Connectivity alone does not guarantee estimability: inspect predictor overlap, design-matrix confounding and dependence on individual species/regions.

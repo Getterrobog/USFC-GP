@@ -13,3 +13,7 @@
 /Output/SamplingAtlas/species/*/*_annual_maps_page_*.png
 /Output/SamplingAtlas/species/*/sampling_matrix_page_*.png
 /Output/SamplingAtlas/species/*/sampling_matrix.pdf
+
+# Local Python bytecode from analysis scripts and validation.
+__pycache__/
+*.py[cod]
