@@ -52,6 +52,9 @@ These files are sourced by the runners rather than invoked as standalone builds:
   display positions, kept separate from original coordinates.
 - [sampling_atlas_report.R](sampling_atlas_report.R): annual frame inventories,
   HTML viewer and combined candidate filters.
+- [sampling_atlas_traits.R](sampling_atlas_traits.R): exact-key attachment of
+  life-history outputs, length pooling by type, trait cards and filter controls.
+  Refresh the atlas index after updating the trait outputs; media need not change.
 - [species_selection_functions.R](species_selection_functions.R): bounded sites,
   year/stage cells, shared-species evidence and sensitivity calculations.
 

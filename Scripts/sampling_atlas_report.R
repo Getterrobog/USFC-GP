@@ -1,4 +1,5 @@
 # Geographic map frames and the local map-first browsing report.
+source("Scripts/sampling_atlas_traits.R")
 geographic_frame_inventory <- function(d, species, stage, config) {
   years <- sort(unique(na.omit(d$year)))
   cycle <- if (length(years) && config$animation_years == "all") seq(min(years), max(years)) else years
@@ -76,6 +77,8 @@ atlas_filter_counts <- function(records, species, config) {
 write_atlas_index <- function(manifest, summaries, config) {
   records <- read.csv(file.path(config$output, "tables", "records_audit.csv"), stringsAsFactors = FALSE)
   filter_counts <- atlas_filter_counts(records, unique(manifest$species), config)
+  traits <- read_atlas_traits(unique(manifest$species), config)
+  write_atlas_trait_tables(traits, config)
   lines <- c('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>USFC geographic sampling atlas</title>',
     '<style>body{font:16px system-ui;margin:40px auto;max-width:1100px;padding:0 24px;color:#233342;background:#f5f7f8}h1{font-size:36px}article{background:white;padding:20px 28px;margin:20px 0;border:1px solid #d5dfe4;border-radius:8px}a{color:#175b88}img{max-width:100%;height:auto}.map-view{display:block;width:100%;background:#fff}.map-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:12px 0}.year-label{font-size:24px;font-weight:700;margin-right:auto}.map-controls button,.map-controls select{font:inherit;padding:8px 12px;border:1px solid #aabac5;border-radius:5px;background:#f7fafb;color:#233342}.map-controls button{cursor:pointer}.map-controls button:disabled{opacity:.45;cursor:default}.year-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.year-gallery figure{margin:0}.year-gallery figcaption{font-size:14px}summary{cursor:pointer;padding:12px 0}small,.map-status{color:#526171}input{font:inherit;padding:10px;width:90%}.stage{border-top:1px solid #d5dfe4;padding-top:8px;margin-top:24px}.extent{padding:12px;background:#e7f0f5;border-radius:5px}</style>',
     '<h1>USFC geographic sampling atlas</h1>',
@@ -89,16 +92,21 @@ write_atlas_index <- function(manifest, summaries, config) {
     '<p><a href="tables/species_summary.csv">Species inventory</a> · <a href="tables/candidate_screening.csv">Candidate screening</a> · <a href="tables/shared_year_assemblages.csv">Same-year assemblages</a> · <a href="tables/repeated_historical_cells.csv">Repeated historical sampling</a> · <a href="tables/annual_frame_manifest.csv">Year PNG inventory</a> · <a href="tables/records_audit.csv">Record audit</a></p>')
   if (file.exists(file.path(config$output, "selection_digest.txt")))
     lines <- c(lines, '<p><a href="selection_digest.txt">Selection digest by basin and stage</a> · <a href="tables/regional_candidates.csv">Regional candidate comparison</a></p>')
+  if (traits$available) lines <- c(lines, sprintf('<p><strong>Life-history information:</strong> FishBase release %s, from the existing curated trait outputs. Model-derived ages are labelled; primary studies and regional applicability remain unreviewed. Positive water/habitat tags indicate reported associations, not exhaustive habitat limits. FishBase team; Source Cooperative snapshots; CC BY-NC 4.0.</p>', html_escape(paste(unique(traits$traits$fishbase_version[nzchar(traits$traits$fishbase_version)]), collapse = ", "))),
+    '<p><a href="tables/life_history_traits.csv">Species traits</a> · <a href="tables/life_history_lengths.csv">Lengths by type</a> · <a href="tables/life_history_evidence.csv">Trait evidence</a> · <a href="tables/life_history_references.csv">References</a> · <a href="tables/life_history_dictionary.csv">Trait definitions</a></p>')
+  else lines <- c(lines, '<p>Life-history traits have not been loaded for this build. The sampling inventory remains available.</p>')
   lines <- c(lines,
     '<style>[hidden]{display:none!important}.filters{padding:20px;background:#e7f0f5;border:0;border-radius:8px}.filter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}.filter-grid label{display:flex;flex-direction:column;gap:6px}.filter-grid input,.filter-grid select{box-sizing:border-box;width:100%;font:inherit;padding:9px;border:1px solid #aabac5;border-radius:4px;background:white}.filter-check{display:block;margin:18px 0}.filter-check input{width:auto}.filters button{font:inherit;padding:8px 12px;cursor:pointer}.filter-match{color:#175b88;font-weight:600}</style>',
     '<style>.map-controls label{display:flex;align-items:center;gap:8px;max-width:100%;min-width:0}.map-controls select{min-width:0;max-width:100%}</style>',
+    '<style>.trait-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(210px,100%),1fr));gap:14px;margin:12px 0}.trait-grid dt{font-size:13px;color:#526171}.trait-grid dd{margin:5px 0 0;overflow-wrap:anywhere}.life-history{background:#f5f8fa;border-radius:6px;padding:16px;margin:18px 0}.life-history h3{margin:0}.trait-source-note{font-size:14px;color:#69501f}.trait-ranges{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:16px;margin-top:20px}.trait-range{min-width:0;border:1px solid #aabac5;border-radius:5px;padding:12px}.trait-range legend{font-weight:600}.trait-range label{display:flex;flex-direction:column;gap:5px}.trait-range input,.trait-range select{box-sizing:border-box;min-width:0;width:100%;font:inherit;padding:8px;border:1px solid #aabac5;border-radius:4px;background:white}.range-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}#trait-filters{border-top:1px solid #aabac5;margin-top:16px}#trait-filter-count{color:#526171;font-size:14px}#trait-range-error{color:#9b2923}.trait-range input:disabled{opacity:.5}</style>',
     '<form id="filters"><fieldset class="filters"><legend><strong>Find candidate species</strong></legend><div class="filter-grid">',
     '<label>Species name<input id="search" type="search" placeholder="Filter species by name"></label>',
     sprintf('<label>Minimum dated specimens<input id="min-specimens" type="number" min="0" step="1" value="%s"></label>', config$min_specimens),
     '<label>Life stage<select id="life-stage"><option value="">All stages</option><option value="adult">Adult / non-larval</option><option value="larva">Larva</option><option value="mixed">Mixed</option></select></label>',
     '<label>Region<select id="region"><option value="">All regions</option><option>Atlantic</option><option>Caribbean</option><option>Gulf of Mexico</option></select></label>',
     '<label>Minimum sampled years<input id="min-years" type="number" min="1" step="1" value="1"></label></div>',
-    '<label class="filter-check"><input id="mapped-only" type="checkbox"> Count only specimens with recorded coordinates</label><button type="reset">Reset filters</button>',
+    '<label class="filter-check"><input id="mapped-only" type="checkbox"> Count only specimens with recorded coordinates</label>',
+    atlas_trait_filter_html(traits), '<button type="reset">Reset all filters</button>',
     sprintf('<p>Filters refine the %s eligible species using dated records through %s. Specimen counts and distinct years must meet the thresholds within the selected stage and region together. Undated specimens do not count toward these filters.</p>', sum(summaries$eligible), config$max_year),
     '<p>Maps show the full sampling distribution for each displayed stage, including other regions and undated frames; filtering does not change their geographic extent. Adult / non-larval maturity is unverified.</p></fieldset></form>',
     '<p id="result-count" role="status" aria-live="polite"></p><p id="no-results" hidden>No species match these filters. Lower the thresholds or reset the filters.</p>')
@@ -107,6 +115,7 @@ write_atlas_index <- function(manifest, summaries, config) {
     s <- summaries[summaries$species == species, ]
     lines <- c(lines, sprintf('<article data-species="%s"><h2><i>%s</i></h2><p>%s dated specimens through %s + %s undated · %s lots · %s sampled years · %s regions · %.0f%% dated with recorded coordinates</p><p>%s specimens in %s lots use approximate display positions.</p>', tolower(species), species, s$eligibility_specimens, config$max_year, s$undated_specimens, s$lots, s$sampled_years, s$regions, 100 * s$mapped_fraction, s$approximate_specimens, s$approximate_lots))
     lines <- c(lines, '<p class="filter-match"></p>')
+    lines <- c(lines, atlas_trait_card_html(traits$traits[match(species, traits$traits$species), ]))
     for (j in which(filter_counts$species == species)) {
       f <- filter_counts[j, ]
       lines <- c(lines, sprintf('<span class="filter-record" hidden data-stage="%s" data-region="%s" data-specimens="%s" data-mapped="%s" data-years="%s" data-mapped-years="%s"></span>',
@@ -144,18 +153,47 @@ document.querySelectorAll(".stage").forEach(stage=>{
   stage.showYear=showYear;showYear();
 });
 const form=document.getElementById("filters"), articles=Array.from(document.querySelectorAll("article"));
-const candidateData=articles.map(article=>({article,records:Array.from(article.querySelectorAll(".filter-record"),node=>node.dataset)}));
+const candidateData=articles.map(article=>({article,records:Array.from(article.querySelectorAll(".filter-record"),node=>node.dataset),traits:Object.fromEntries(Array.from(article.querySelectorAll(".trait-value"),node=>[node.dataset.trait,node.dataset])),lengths:Array.from(article.querySelectorAll(".trait-length"),node=>({type:node.dataset.type,value:Number(node.dataset.value)}))}));
+function traitCriteria(){
+  const categories=Array.from(document.querySelectorAll(".trait-category")).filter(input=>input.value).map(input=>({field:input.dataset.trait,value:input.value}));
+  const ranges=Array.from(document.querySelectorAll(".trait-range")).map(box=>{
+    const availability=box.querySelector(".trait-availability").value, min=box.querySelector(".trait-min"),max=box.querySelector(".trait-max");
+    min.disabled=max.disabled=availability==="missing";
+    return {field:box.dataset.trait,availability,min:availability==="missing"||min.value===""?null:Number(min.value),max:availability==="missing"||max.value===""?null:Number(max.value),type:box.dataset.trait==="maximum_length"?document.getElementById("length-type").value:""};
+  }).filter(r=>r.availability||r.min!==null||r.max!==null||r.type);
+  const invalid=ranges.some(r=>r.min!==null&&r.max!==null&&r.min>r.max);
+  document.getElementById("trait-range-error").hidden=!invalid;
+  document.getElementById("trait-filter-count").textContent=categories.length+ranges.length?"("+(categories.length+ranges.length)+" active)":"";
+  return {categories,ranges,invalid};
+}
+function matchesTraits(candidate,criteria){
+  if(criteria.invalid)return false;
+  if(!criteria.categories.every(c=>{
+    const values=(candidate.traits[c.field]?.values||"").split(";").filter(Boolean);
+    return c.value==="__missing__"?values.length===0:values.includes(c.value);
+  }))return false;
+  return criteria.ranges.every(r=>{
+    let values;
+    if(r.field==="maximum_length")values=candidate.lengths.filter(x=>!r.type||x.type===r.type).map(x=>x.value);
+    else {const value=candidate.traits[r.field]?.value;values=value===undefined||value===""?[]:[Number(value)];}
+    if(r.availability==="missing")return values.length===0;
+    // Ignore floating-point serialization noise at inclusive numeric boundaries.
+    return values.some(v=>{const epsilon=1e-7*Math.max(1,Math.abs(v));return (r.min===null||v>=r.min-epsilon)&&(r.max===null||v<=r.max+epsilon);});
+  });
+}
 function applyFilters(){
   const q=document.getElementById("search").value.trim().toLowerCase(), selectedStage=document.getElementById("life-stage").value, region=document.getElementById("region").value;
   const minimum=Math.max(0,Number(document.getElementById("min-specimens").value)||0), minimumYears=Math.max(1,Number(document.getElementById("min-years").value)||1), mapped=document.getElementById("mapped-only").checked;
+  const criteria=traitCriteria();
   let visible=0;
-  candidateData.forEach(({article,records})=>{
+  candidateData.forEach(candidate=>{
+    const {article,records}=candidate;
     let count=0;const years=new Set();
     records.filter(r=>(!selectedStage||r.stage===selectedStage)&&(!region||r.region===region)).forEach(r=>{
       count+=Number(mapped?r.mapped:r.specimens);
       (mapped?r.mappedYears:r.years).split(",").filter(Boolean).forEach(y=>years.add(y));
     });
-    article.hidden=!(article.dataset.species.includes(q)&&count>0&&count>=minimum&&years.size>=minimumYears);
+    article.hidden=!(article.dataset.species.includes(q)&&count>0&&count>=minimum&&years.size>=minimumYears&&matchesTraits(candidate,criteria));
     if(!article.hidden)visible++;
     article.querySelector(".filter-match").textContent=count.toLocaleString()+" dated "+(mapped?"mapped ":"")+"specimens across "+years.size+" distinct year"+(years.size===1?"":"s")+" match the selected stage and region.";
     article.querySelectorAll(".stage,.empty-stage").forEach(stage=>{

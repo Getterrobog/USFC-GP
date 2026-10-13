@@ -25,6 +25,27 @@ record audit also retains excluded source rows, so filter `included` and
 | [review_queue.csv](review_queue.csv), [excluded_records.csv](excluded_records.csv) | Included records needing review and excluded source rows |
 | [record_disposition.csv](record_disposition.csv), [date_quality_counts.csv](date_quality_counts.csv), [stage_evidence_counts.csv](stage_evidence_counts.csv), [regional_stage_period_counts.csv](regional_stage_period_counts.csv) | Count and quality summaries |
 
+## Life-history tables
+
+- [life_history_traits.csv](life_history_traits.csv): exact species-key attachment
+  of the requested traits and taxonomic/source metadata from the existing
+  `Output/LifeHistory/life_history_80_species.csv`. No new taxonomy decisions or
+  missing-value imputation are made.
+- [life_history_lengths.csv](life_history_lengths.csv): largest reported length
+  across sexes within each length type, in cm. Types are never converted or averaged.
+- [life_history_evidence.csv](life_history_evidence.csv),
+  [life_history_references.csv](life_history_references.csv), and
+  [life_history_dictionary.csv](life_history_dictionary.csv): copied evidence,
+  citations and definitions for the attached trait source.
+- [life_history_input_checksums.csv](life_history_input_checksums.csv): source and
+  report-attachment module fingerprints, separate from scientific map provenance.
+
+Model-derived ages remain explicitly identified. Missing values and withheld
+taxonomic matches stay missing, not zero. Category filters match individual
+semicolon-separated positive tags. See [the viewer guide](../README.md) for
+filter semantics and [life-history methods](../../../docs/life_history_workflow.md)
+for source limitations.
+
 ## Coordinates and counting rules
 
 `longitude`/`latitude`, `mapped` and `dated_mapped` refer to recorded coordinates,

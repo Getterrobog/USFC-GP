@@ -207,6 +207,40 @@ Selecting a stage displays its maps. Region and coordinate filters select specie
 the maps still display that stage’s full sampling distribution. Filter aggregates
 are exported in `tables/filter_counts.csv` for inspection.
 
+The viewer also attaches the existing life-history outputs by exact project
+species name. Expand **Life-history filters** for water types, habitat tags,
+water-column habitat, migration, fisheries importance, sexual system,
+fertilization, reproductive guild, generation time, lifespan, maturity age and
+maximum reported length. Numeric filters use inclusive ranges; missing values
+only disappear when the relevant filter requires data. The availability selector
+can instead show missing/withheld values. When it selects missing values, numeric
+bounds are disabled. Category filters test complete tokens, not substrings.
+
+Age traits retain their FishBase model labels. Maximum lengths pool sexes by
+taking the largest reported value separately for each source length type; TL,
+SL, FL and other source codes are never converted. Selecting a length type applies
+both ranges and missingness to that type. With “Any type,” one matching
+type-specific maximum suffices. Display rounding is three significant digits;
+numeric comparisons use unrounded values with relative tolerance `1e-7` (scaled
+by at least one unit) for source floating-point serialization.
+
+The attachment lives in `Scripts/sampling_atlas_traits.R` and uses
+`Output/LifeHistory/life_history_80_species.csv` by default. A custom configuration
+may set `life_history` to an alternative CSV with the same fields and accompanying
+evidence tables. Duplicate keys, invalid positive numeric traits, or traits
+attached to a withheld match stop report generation. Unmatched species retain
+their inventory rows with missing traits; project names are never replaced by
+FishBase aliases. Source aliases and withheld matches are noted on species cards.
+
+Trait snapshots, pooled lengths, evidence, references and input hashes are copied
+into the atlas's `tables/` for standalone sharing. The normal index refresh updates
+these without recalculating specimen counts or regenerating media. If the trait
+source is absent on a first build, sampling outputs still work and the viewer
+reports traits as not loaded. Build the downstream life-history outputs and refresh
+to attach them. Primary-source review and regional applicability are pending;
+read [life-history methods](life_history_workflow.md) before using traits to select
+the final comparative design.
+
 Each eligible species has:
 
 - **Annual map PDFs per stage:** six geographic sample-size heatmaps per page;

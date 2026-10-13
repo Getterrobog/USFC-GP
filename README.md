@@ -61,6 +61,9 @@ per-year geographic PNGs, and candidate-selection tables. The atlas page provide
 year selection and Play/Stop GIF controls with a fixed map extent for every frame.
 Filter candidates jointly by species name, specimen count, life stage, region,
 sampled years, and whether coordinates are recorded.
+Each species card also shows available life-history characteristics. Additional
+filters combine habitat, water type, migration, reproduction and fisheries
+categories with model age estimates and reported maximum lengths by type.
 Maps use 2° cells and hatch cells containing approximate display locations derived
 from locality metadata. Original coordinates and estimate provenance remain
 separate; precise-location candidate screens use recorded coordinates only.

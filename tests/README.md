@@ -5,6 +5,7 @@ Run these commands from the repository root:
 | Command | What it checks |
 | --- | --- |
 | `Rscript tests/test_sampling_atlas.R` | Date/stage parsing, eligibility, counting, fixed map extent, approximate-location provenance and filter aggregates |
+| `Rscript tests/test_atlas_traits.R` | Trait joins, missingness, withheld taxonomy, positive numeric values and length pooling without mixing types |
 | `Rscript tests/validate_sampling_atlas.R` | A completed atlas: counts, recorded/estimated contributions, PNGs, GIFs, links and provenance |
 | `Rscript tests/test_species_selection.R` | Bounded geographic sites, separate year/stage cells, shared-species evidence, sensitivity and input linkage |
 | `python3 -m unittest discover -s tests -p 'test_selection_audit.py'` | Legacy audit boundaries, including ambiguous dates and source CSV handling |
