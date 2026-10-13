@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Hyporhamphus%20unifasciatus",
+  "retrieved_utc": "2026-10-13T04:05:25.875484+00:00",
+  "sha256": "11ffda4fcfb24834b4d82e992743eaa61ee9f354972d05cb6091c509782cbeee",
+  "http_status": 200,
+  "bytes": 783,
+  "cache_path": "Data/Genomics/raw/taxonomy/0ba0463ca29c8408971745bc7f99c81affb75867c2fc37f6a28a20ec3a044bbb.gz"
+}

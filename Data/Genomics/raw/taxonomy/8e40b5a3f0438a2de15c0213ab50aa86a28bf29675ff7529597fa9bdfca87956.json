@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Clupea%20harengus",
+  "retrieved_utc": "2026-10-13T04:05:15.111478+00:00",
+  "sha256": "5ab6f048a709a4eda763509fdbc96b0d3b22bd410ea29ee7d6b33ae56da525a2",
+  "http_status": 200,
+  "bytes": 624,
+  "cache_path": "Data/Genomics/raw/taxonomy/8e40b5a3f0438a2de15c0213ab50aa86a28bf29675ff7529597fa9bdfca87956.gz"
+}

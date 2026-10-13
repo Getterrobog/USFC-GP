@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Haemulon%20aurolineatum",
+  "retrieved_utc": "2026-10-13T04:05:23.124293+00:00",
+  "sha256": "94c7e554eca533f146d23d49340b99d3ab25d04fcd744748f2eca3b15ade72b8",
+  "http_status": 200,
+  "bytes": 578,
+  "cache_path": "Data/Genomics/raw/taxonomy/3a2cb0bebeaf46c45865ffb6da19e60601ef8ef34cfd996eab535dfb1e2c8794.gz"
+}

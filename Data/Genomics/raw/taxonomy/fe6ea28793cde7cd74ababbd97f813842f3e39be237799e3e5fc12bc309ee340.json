@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Haemulon%20plumierii",
+  "retrieved_utc": "2026-10-13T04:04:55.226409+00:00",
+  "sha256": "1976b0be77213f456283d6ae98ad61c4022ad5e6e947bdc224f1c5a7e4f60caa",
+  "http_status": 200,
+  "bytes": 621,
+  "cache_path": "Data/Genomics/raw/taxonomy/fe6ea28793cde7cd74ababbd97f813842f3e39be237799e3e5fc12bc309ee340.gz"
+}

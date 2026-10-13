@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Hypoclydonia%20bella",
+  "retrieved_utc": "2026-10-13T04:05:25.678758+00:00",
+  "sha256": "c622fcbb95b65ec0abb4c6183cbbf48dd4efaac42944ab4e718a6a4a599348d7",
+  "http_status": 200,
+  "bytes": 711,
+  "cache_path": "Data/Genomics/raw/taxonomy/2ceac581e284056580bc0f585d8085d596cd573be4732ab19038ce6e47280731.gz"
+}

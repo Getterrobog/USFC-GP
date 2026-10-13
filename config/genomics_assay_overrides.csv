@@ -1,0 +1,2 @@
+species,study_accession,original_strategy,assay_class,explicit_low_coverage_label,reason,evidence_url
+Clupea harengus,PRJEB45393,OTHER,WGS,TRUE,ENA project describes whole-genome sequences from ancient herring bones and extremely low-coverage assignment; OTHER records retained as WGS with explicit evidence,https://www.ebi.ac.uk/ena/browser/view/PRJEB45393

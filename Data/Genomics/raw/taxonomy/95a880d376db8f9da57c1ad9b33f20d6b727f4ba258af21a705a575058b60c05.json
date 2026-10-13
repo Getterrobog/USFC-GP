@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Dibranchus%20atlanticus",
+  "retrieved_utc": "2026-10-13T04:05:18.607579+00:00",
+  "sha256": "dec36b732b1b3e6a21c0e77eac6385b9e9fa281cd50a3345d98bb2de4d7aca04",
+  "http_status": 200,
+  "bytes": 632,
+  "cache_path": "Data/Genomics/raw/taxonomy/95a880d376db8f9da57c1ad9b33f20d6b727f4ba258af21a705a575058b60c05.gz"
+}

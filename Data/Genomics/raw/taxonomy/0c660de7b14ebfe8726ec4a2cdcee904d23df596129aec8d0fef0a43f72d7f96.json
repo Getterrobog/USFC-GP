@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Lutjanus%20synagris",
+  "retrieved_utc": "2026-10-13T04:04:53.216282+00:00",
+  "sha256": "4efab41afbee55aae15668d409bbac9d7942f77373a925dcae4a98ce28383353",
+  "http_status": 200,
+  "bytes": 685,
+  "cache_path": "Data/Genomics/raw/taxonomy/0c660de7b14ebfe8726ec4a2cdcee904d23df596129aec8d0fef0a43f72d7f96.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Menidia%20peninsulae",
+  "retrieved_utc": "2026-10-13T04:04:52.433583+00:00",
+  "sha256": "57f7ff4a3d71882f0a8741a296b6816ae933b163767477f44bde48f5c887c656",
+  "http_status": 200,
+  "bytes": 758,
+  "cache_path": "Data/Genomics/raw/taxonomy/7e4a8c7cdbb0ce401498f175a8fd1875f7c40dad59edd773ab7a84c5077e4149.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Atherinomorus%20stipes",
+  "retrieved_utc": "2026-10-13T04:04:58.502675+00:00",
+  "sha256": "8708f1b91a5169608f9e4bc82bba056854301438c8a531d43ff3274edb08a893",
+  "http_status": 200,
+  "bytes": 761,
+  "cache_path": "Data/Genomics/raw/taxonomy/ad6bbf76ebb3ac6f1f0766817bd5ec41935ff1e0d1991d63cc14188285073855.gz"
+}

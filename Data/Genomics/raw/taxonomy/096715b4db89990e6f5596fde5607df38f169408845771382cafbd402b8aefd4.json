@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Liparis%20inquilinus",
+  "retrieved_utc": "2026-10-13T04:05:27.510385+00:00",
+  "sha256": "6a398e5a5c8f47c756d540b9f7dbc67af4b5465823804a158c3f8cdb9a20a291",
+  "http_status": 200,
+  "bytes": 643,
+  "cache_path": "Data/Genomics/raw/taxonomy/096715b4db89990e6f5596fde5607df38f169408845771382cafbd402b8aefd4.gz"
+}

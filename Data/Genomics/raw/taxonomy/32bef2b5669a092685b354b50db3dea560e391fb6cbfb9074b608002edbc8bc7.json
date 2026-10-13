@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Centrobranchus%20nigroocellatus",
+  "retrieved_utc": "2026-10-13T04:05:12.963367+00:00",
+  "sha256": "744e5df3820b2f5ef9bef50d98499b95c238258a7c6cf057fc32386cd085706f",
+  "http_status": 200,
+  "bytes": 786,
+  "cache_path": "Data/Genomics/raw/taxonomy/32bef2b5669a092685b354b50db3dea560e391fb6cbfb9074b608002edbc8bc7.gz"
+}

@@ -28,3 +28,15 @@ These checks establish computational consistency, not the truth of every museum
 identification, collection date or position. They do not establish DNA recovery,
 population identity or statistical power. See [methods](../docs/README.md) for the
 assumptions that require scientific review.
+
+## Public genomic inventory
+
+- `Rscript tests/test_genomics_inventory.R`: checks date ranges, missing dates,
+  coordinate signs/ranges/conflicts, embedded coordinate evidence, assay exclusions,
+  low-coverage labels and repeated FASTQ checksum handling.
+- `python3 tests/validate_genomics_inventory.py`: verifies a completed inventory's
+  80-species roster, accession uniqueness and joins, count reconciliation, mapping
+  exclusions, original-input fingerprints and SQLite integrity/CSV agreement.
+
+Run the build first with `Rscript Scripts/build_genomics_inventory.R`. All checks
+are offline and do not modify the historical atlas.

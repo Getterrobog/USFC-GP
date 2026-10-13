@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Ammodytes%20dubius",
+  "retrieved_utc": "2026-10-13T04:05:06.051580+00:00",
+  "sha256": "97a6dbe82273b160f891f72ae7b734792c691cbd0d7e85a22e52f417599e2382",
+  "http_status": 200,
+  "bytes": 632,
+  "cache_path": "Data/Genomics/raw/taxonomy/707bb124eca707af4f7a1109270b277e6ae4060faa72503d0d3c9a606eedf2cc.gz"
+}

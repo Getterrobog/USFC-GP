@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Fenestraja%20plutonia",
+  "retrieved_utc": "2026-10-13T04:05:20.358414+00:00",
+  "sha256": "f69ecf942dd6f842bbb20c2281c8bf8f16a204f3189b23760cdc4100039edaaa",
+  "http_status": 200,
+  "bytes": 562,
+  "cache_path": "Data/Genomics/raw/taxonomy/e139a575a5f3186e77c8c648b822cc89db6b3cc8209de407b3ca6b4fb4048a41.gz"
+}

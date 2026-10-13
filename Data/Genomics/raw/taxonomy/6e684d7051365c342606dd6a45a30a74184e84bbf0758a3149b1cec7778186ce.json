@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Eucinostomus%20argenteus",
+  "retrieved_utc": "2026-10-13T04:05:19.576572+00:00",
+  "sha256": "aef802e6eacc5381870cf34e4ea229b69cb6e9a709292bc79314484511e11ce2",
+  "http_status": 200,
+  "bytes": 738,
+  "cache_path": "Data/Genomics/raw/taxonomy/6e684d7051365c342606dd6a45a30a74184e84bbf0758a3149b1cec7778186ce.gz"
+}

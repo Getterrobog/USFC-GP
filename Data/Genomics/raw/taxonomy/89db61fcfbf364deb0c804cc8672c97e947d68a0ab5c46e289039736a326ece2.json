@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Citharichthys%20arctifrons",
+  "retrieved_utc": "2026-10-13T04:05:14.713068+00:00",
+  "sha256": "bbd298f933e1dcf0ef203f9ff5a228dc63e16206d70632b9efdba130ee21c948",
+  "http_status": 200,
+  "bytes": 671,
+  "cache_path": "Data/Genomics/raw/taxonomy/89db61fcfbf364deb0c804cc8672c97e947d68a0ab5c46e289039736a326ece2.gz"
+}

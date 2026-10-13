@@ -1,0 +1,12 @@
+[
+  {
+    "source_id": "CUNNER",
+    "url": "https://repository.library.noaa.gov/view/noaa/38240/noaa_38240_DS1.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "SANDLANCE",
+    "url": "https://academic.oup.com/icesjms/article/80/1/122/6872753",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

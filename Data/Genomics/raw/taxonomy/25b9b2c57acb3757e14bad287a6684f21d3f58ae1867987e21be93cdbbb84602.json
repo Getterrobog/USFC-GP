@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Brevoortia%20tyrannus",
+  "retrieved_utc": "2026-10-13T04:04:52.000677+00:00",
+  "sha256": "b01dc964faf55868ee0c7bef6c111f8cd9d6d07cdf7fc8cc49a208be53569f38",
+  "http_status": 200,
+  "bytes": 675,
+  "cache_path": "Data/Genomics/raw/taxonomy/25b9b2c57acb3757e14bad287a6684f21d3f58ae1867987e21be93cdbbb84602.gz"
+}

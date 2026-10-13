@@ -1,0 +1,1087 @@
+       SPAWNING, AGE DETERMINATION, LONGEVITY, AND
+    MORTALITY OF THE SILVER SEATROUT, CYNOSCION NOTHUS, IN
+                    THE GULF OF MEXICO 1,2
+                                                            3
+                                  DOUGLAS A. DEVRIES AND MARK E. CHITTENDEN, JR;4
+
+
+
+                                                           ABSTRACT
+
+                Cynoscion nothus females from the Gulf of Mexico off Texas matured at 140-170 mm SL as they
+                approached age I. Spawning occurred from early May through late October but primarily in two
+                periods, May and August-September. Greatest spawning occurred in the August-September period
+                when two distinct spawned groups (intrayear class cohorts) were produced. The multiple-spawned
+                group structure within a year class may be important to the population dynamics and stability of C.
+                nothus. This species reached 130-190 mm SL at age 1. Only one year class occurred or dominated in
+                anyone month, and only two year classes were ever present at once. The largest specimen captured
+                was 190 mm SL, and 99% were <160 mm. The maximum life span (t,J was only 1-1.5 years off Texas
+                but might be 2 years in the northcentral gulf. The total annual mortality rate was best estimated at
+                99.83% and probably is no lower than 90% if the life span is as long as 2 years. Larger C. nothus almost
+                disappeared during winter suggesting an offshore movement for overwintering.
+
+
+The silver seatrout, Cynoscion nothus, smallest of                       This paper describes age determination for
+four congeners found along the U.S. Atlantic                          silver seatrout, spawning seasonality and peri-
+coast, ranges from Chesapeake Bay to the Bay of                       odicity, growth, mortality, diel changes in avail-
+Campeche (Hildebrand and Schroeder 1928;                              ability, and total weight-standard length, girth-
+Hildebrand 1955). Cynoscion nothus is one of the                      standard length, and standard length-total
+more abundant fishes of the nearshore waters of                       length relationships.
+the northern Gulf of Mexico (Hildebrand 1954;
+Moore et al. 1970; Gutherz et al. 1975). It is not                                            METHODS
+considered an estuarine species (Ginsburg 1931;
+Hildebrand and Cable 1934), but small numbers                            Collections were made monthly from Febru-
+of C. nothus have been taken in bays throughout                       ary through December 1977 and in March 1978
+the year (e.g., Gunter 1938, 1945; Swingle 1971;                      in the Gulf off Port Aransas, Tex., aboard the
+Dahlberg 1972).                                                       Texas Parks and Wildlife Department's RV
+  Despite its abundance, no published study has                        Western Gulf, using a 13.7 m otter trawl with 5.1
+been directed at C. nothus in the gulf. Little is                     cm stretched mesh in the cod end. Stations were
+known about its life history, although Mahood                         usually occupied at 11 m depth at night and at 7,
+(1974) described spawning and monthly size                            15, and 18-24 m during the day. Additional night
+composition in Georgia waters. General notes on                       collections were made from May through Octo-
+C. nothus appear in many faunal studies, includ-                      ber 1977 at 20-22, 29-31, and 38 m.
+ing Hildebrand and Cable (1934), Gunter (1938,                           Cynoscion spp. were fixed in 10% Formalin5
+1945), Chittenden and McEachran (1976), and in                        and transferred to 40% isopropanol before proc-
+a literature review by Guest and Gunter (1958).                       essing. Cynoscion nothus were separated from
+                                                                      C. arenarius primarily by comparing the anal
+                                                                      fin base to the eye width, a procedure based on
+f l~ased on a thesis submitted by the senior author in partial        the comparatively low anal fin ray counts and
+ Ulfll1ment of the requirements for the M.S. degree, Texas
+A &M University.                                                      larger eye size that Ginsburg (1929) reported in
+  2Technical article TA 15557 from the Texas Agricultural             C. nothus. The anal fin width equals or is only
+E xperiment Station.
+  3Department of Wildlife and Fisheries Sciences, Texas               slightly greater than eye width in C. nothus, but
+A&M University, College Station, Texas; present address:
+North Carolina Division of Marine Fisheries. Box 769. More-
+head City. NC 28557.
+A'Department of Wildlife and Fisheries Sciences, Texas                   .Reference to trade names does not imply endorsement by
+  &M University, College Station, TX 77843.                            the National Marine Fisheries Service, NOAA.
+
+Manuscript accepted January 1982.                                                                                          487
+FISHERY BULLETIN: VOL. SO, NO.3, 1982.
+                                                                                                FISHERY BULLETIN: VOL. 80. NO.3
+
+ it is about 1.5-2 times the eye width in C. arenar-                 ting over, or lacked a clear zone between circuli
+ ius. Standard length (SL) was measured on all                       in conjunction with secondary radii.
+ fish captured off Port Aransas. A random num-                          Additional specimens were collected monthly
+ ber table was used to select 300 specimens each                     from October 1977 through July 1978 off Free-
+ month for intensive processing to determine age,                    port, Tex., using double-rigged 10.4 m (34 ft)
+ total weight (TW), standard length, girth (G) at                    shrimp trawls with 4.4 cm stretched cod end
+ the anterior origin of the dorsal fin, sex, gonad                   mesh. These collections were made during the
+ weight to the nearest 0.1 g, and gonad maturity                     day at 7-9,11,15-17,18,27,37, and 46 m. Total
+ stage. All specimens were processed if <300                         length (TL) was measured on all fish captured
+ were collected in any month, and all fish larger                    and converted to standard length, using regres-
+ than the following sizes were processed: 150 mm                     sion relationships presented herein. These
+ SL in April, 75 mm in September, 75 mm in                           length frequencies were used to supportfindings
+ October, 150 mm in November, and 110 mm in                          based on collections off Port Aransas.
+ December. Maturity stages were assigned to                             Spawned group identities (intrayear class
+ immature and female fish (Table 1) using a                          cohorts) within each year class were indicated by
+slight modification of Kesteven's system (Bage-                      specifying the year and probable month when
+ nal and Braum 1971). Scales were taken above                        they hatched, e.g., August76. Spawning periodic-
+the lateral line over the anal fin, where they                       ity and group identities assume that a 30 mm TL
+normally persisted. Cellulose acetate impres-
+sions were examined, using a scale projector ini-
+tially, but a dissecting microscope was employed
+for a second reading made a year later. No scales
+were taken from fish <60 mm SL. Annuli were
+identified knowing the size and collection date of
+each fish and using standard criteria (Tesch
+1971) and procedures used for C. nebulosus and
+ C. regalis (Klima and Tabb 1959; Tabb 1961;
+Massman 1963; Merriner 1973). Specific char-
+acters used to identify annuli included 1) a defi-
+nite clear zone between circuli in the anterior
+field (Fig. 1), 2) appearance of secondary radii in
+conJ'unction with the clear zone, 3) cutting over of
+circuli in the lateral field, and 4) appearance of
+these characters on all or most scales examined.
+Marks interpreted as false annuli appeared on
+only a few scales from a fish, usually lacked cut-
+
+TABLE I.-Description of gonad maturity stages assigned to
+                        C. nothus.
+       Stage                           Description
+Immature                  Gonads not visible or barely Visible,
+                            sexes indistinguishable.
+Maturing Virgin           Gonads visible but very small, sexes
+                           indistinguishable to naked eye.
+Early developing          Ovaries small, reddish, occupy 10% or
+                           less of body cavity, individual eggs
+                           not visible to naked eye.
+Late developing           Ovaries orangish yellow, extend length
+                           of body cavity and occupy 25-50% of
+                           it, opaque eggs clearly discerni ble
+                           to naked eye.
+Gravid                    Ovaries occupy 50% or more of body
+                           cavity, up to half the eggs translu-
+                           cent.                                     FIGURE I.-Scale from a 177 mm SL C. nothus captured in
+Ripe                      Ovaries fill over half the body cavity,    June showing one annulus (A). Theannulus is identified by cut-
+                            no fat along inner margins of ovaries,   ting over in the lateral field and secondary radii in conjunction
+                            over half the eggs translucent.
+Spawning/spent            Ovary flaccid, partially or completely     with a clear zone between circuli. A false annulus (FA) lacks
+                            empty. no opaque eggs.                   cutting over and was absent on several scales. The axis de-
+Resting                    Ovaries small but distinguishable in      picted by the long arrow indicates where scale measurements
+                            fish large enough to be mature.
+                                                                     were made.
+
+488
+DeVRIES and CHITTENDEN: SPAWNING TO MORTALITY OF SILVER SEATROUT
+
+
+(about 21 mm SL) at 1 mo of age for C. regalis                      the sense of the Beverton-Holt model parameter
+(Welsh and Breder 1923) can be extrapolated to                      tJ, (Gulland 1969) following Alverson and Car-
+C. nothus. Size descriptions of spawned groups                      ney's (1975) definition that only about 0.5-1% of
+(Table 2) were based upon major portions of spe-                    the catch exceeds age t[. or its corresponding
+cific frequency distributions cited; approximate                    lengths.
+modes and/or mid ranges were used to describe
+central tendency as judged best, often ignoring                                            RESULTS
+extreme sizes. Ages when spawned groups dis-
+appeared (Table 3) assume hatching at the be-                                               Spawning
+ginning of months specified in the group iden-
+tity. Maximum life span was approximated in                           Cynoscion nothus mature at 140-170 mm SL as
+
+
+                      TABLE 2.-Growth data for spawned groups of C. nothus from the Gulf of
+                      Mexico off Port Aransas and Freeport. Tex. Unadjusted growth increments
+                      between indicated collection dates were converted to growth/30 d and
+                      plotted in Figure 7. Blank spaces in columns for modes and growth incre-
+                      ments represent instances in which we consider size data (Figs. 3. 4) too
+                      unclear to warrant further analysis.
+                       Spawned group                                                      Unadjusted
+                            and                           Size          Mode (M) or         growth
+                         collection          Age          range        midrange (MR)      increment
+                            date            (mo)         (mmSL)           (mm SL)          (mm SL)
+                                                       PORT ARANSAS
+                     September77
+                       10-11 Nov. 77          2           30-60           47
+                                                          40-75                               8
+                       1 Dec. 77              3                           55
+                     August-September,.
+  .:~
+                      9 Feb. 77              5-6          40-75        49 (M)/57 (MR)
+                                           61>-71>                                        8 (M)/8(MR)
+                       14,29 Mar. 77                      40-90        57 (M)/65 (MR)
+                                             7-8                                          7 (M)/8(MR)
+                       5-6 Apr. 77                        45-100       64 (M)173 (MR)
+                                             9-10                                            30(MR)
+                      22-26 May 77                        85-120          103 (MR)
+                                            10-11                                            20(MR)
+                      29-30 June 77                      105-140          123 (MR)
+                                          101>-111>                                          27 (MR)
+                      19 July 77                         130-170          150 (MR)
+                     August-September"
+                      8 Mar. 78              6-7          45-115
+                     MaY76
+                      5-6 Apr. 77            11          130-160
+                      22-26 May 77        12'h-13        155-170
+                      7 June 77              13          155-180
+                      29-30 June 77          14          160-185
+                     May"
+                      19 July 77              21>         52-61
+                      2 Aug. 77               3             78
+                      20-28 Sept. 77          4''<'       70-115
+                      5 Oct. 77               5           80-125
+                      10-11 Nov. 77           6          100-155
+                      1 Dec. 77               7          115-150
+                     August"
+                      20-28 Sept. 77          11>         25-70           41 (M)
+                                                                                            15
+                      5 Oct. 77               2           35-85           56(M)
+                                                                                            21
+                      10-11 Nov. 77           3           55-100          77 (M)
+                                                                                            18
+                      1 Dec. 77               4           75-115          95(M)
+                                                        FREEPORT
+                     September"
+                      5 Nov. 77               2           22-55           40(Ml             10
+                      2-3 Dec. 77             3           25-75           50(M)
+                     August-September"
+                       19-20 Feb. 78       5\Hll>         48-110           791MR)
+                      21-22 Mar. 78        61>-71>        42-112       77 (MR)/42 (L)
+                                                                                         13 (MR)/13 (L)
+                       14-15 Apr. 78       7lh-8lf.!      55-125       90 (MR)/55 (L)
+                                                                                          7 (MR)/17 (L)
+                      8-9 May 78           81>-91>        72-122       97 (MR)/72 (L)
+                                                                                         25 (MR)/26 (L)
+                      14-15 June 78        91>-101>       98-145      122 (MR)/98 (L)
+                                                                                         25 (MR)/27 (Ll
+                       15-16 July 78      10\7-111>      125-168      147 (MR)/125 (L)
+                     MaY77
+                       1 Oct. 77             5            90-140
+                      5 Nov. 77              6           125-160
+                       14-15 Apr. 78        111>         140-160
+                      8-9 May 78            12           160-190
+                       14-15 June 78        131>         165-185
+                     Augustn
+                      1 Oct. 77               2           25-85             55 (MR)
+                                                                                              30
+                      5 Nov. 77               3           55-110            85(M)
+                                                                                               5
+                      2-3 Dec. 77             4           70-118+           90(M)
+
+
+                                                                                                                 489
+                                                                                                                            FISHERY BULLETIN: VOL. SO. NO.3
+
+
+                        TABLE 3.-Periods of time. sizes. and ages when spawned groups of C. nothus were
+                                      last captured off Port Aransas and Freeport, Tex.
+                          Spawned
+                          group and                                                 Size         Age
+                            location                        Period                (mm SL)       (mo)               Comments
+                        Aug.-Sept. 76
+                          Port Aransas          20, 21. 28 Sept. 77                150-190      12-13   A tew specimens of uncertain 10
+                                                                                                          in Nov. 77 may be 14-15 mo.
+                          Freeport              5 Nov. 77                             160-190   14-15   A tew specimens of uncertain 10
+                                                                                                          may belong to this month class.
+                         May 76
+                          Port Aransas          29, 30 June 77                        160-185    13     ID and sizes unclear
+                         May 77
+                          Port Aransas          1 Dec. 77                             115-150     7     A few specimens of uncertain ID
+                                                                                                          in Mar. 78 may be 10 mo.
+                           Freeport             14·15 June 78                         165-185    13     ID and sizes unclear
+                         Aug. 77
+                           Port Aransas         1 Dec. 77                              75-115     4     Group not distinct after Dec. 77
+                           Freeport             2,3 Dec. 77                            70-118     4     Group not distinct after Dec. 77
+                         Sept. 77
+                           Port Aransas         1 Dec. 77                              40-75      3     Group not distinct after Dec. 77
+                           Freeport             2,3 Dec. 77                            25-75      3     Group not distinct after Dec. 77
+                         Aug.-Sept. 77
+                           Port Aransas         8 Mar. 78                              45-115    6-7    Still dominant in last collection
+                           Freeport             15. 16 July 78                        125-168   10-11   Still dominant in last collection
+
+
+
+
+they approach age 1. Many females were classi-                                                  mm SL after early December, and the smallest
+fied as early developing at 100-135 mm SL (Fig.                                                 fish from February to May (Figs. 3, 4) belong to
+2). Most of the 15 fish classified as ripe or gravid                                            groups that were hatched before November and
+were 140-170 mm SL. Age compositions and                                                        continued to grow through the winter.
+sizes at age presented later indicate that C.                                                      Spawning occurs in two main periods each
+nothus mature to first spawn at 12 mo.                                                          year-spring and late summer-and within each
+   Silver seatrout in the northern gulf spawn                                                   year class may produce at least three intrayear
+from early May through late October. The collec-                                                class cohorts or spawned groups, two of which
+tion of fish 45-55 mm SL in late June and 50-60                                                 may be produced in the late summer period. This
+mm in mid-July indicates that spawning begins                                                   is indicated by the polymodallength frequencies
+by early May off Port Aransas (Fig. 3). Spawn-                                                  of fish collected off both Port Aransas (Fig. 3)
+ing must have continued to late October, because                                                and Freeport (Fig. 4), a pattern also evident in a
+fish 25-30 mm SL were collected from mid-                                                       reanalysis of Chittenden and McEachran's
+August through early December. It appears that                                                  (1976, fig. 10) data from mid-January 1974 (Fig.
+no spawning occurred from November through                                                      5). The polymodal frequencies do not reflect indi-
+March or April because we captured no fish <40                                                  vidual year classes nor do they reflect changes in
+                                                                                                size with depth. The length-frequency modes
+
+
+
+                                            .
+                                                                                                represent spawned groups that can be traced
+                                                                                                readily as follows: 1) The August77 and Septem-
+
+ 20r~~
+                                                                                n=446
+                                                                                                bern groups off Freeport and Port Aransas in
+                                                                                                the period September-December 1977, 2) the
+                                                                                                August-September76 and August-September77
+~1°1Stage 3       F    r.p~"n,n,                            pc non"       I
+                                                                                n=155
+                                                                                        I
+                                                                                                groups, which represent composites of the two
+::>     '                                                                                       individual spawned groups, in the periods Feb-
+13 51Sta~e 4                            i   g   gJJ     "        [1!]~ n,
+                                                                                n=46
+                                                                                        ,       ruary-July 1977 off Port Aransas, March 1978
+a:                                                                              n=8
+LL   51Sta~e 5                          t n 0       0   Dr           n    i                     off Port Aransas, and February-July 1978 off
+     51Sta~e 6                                  n       D       co   r    ,
+                                                                                                Freeport, and 3) the less distinct modes which we
+                                                            i
+                                                                                                interpret as MaY76 and MaY77 groups in the per-
+     51Sta~e 8
+         70      9'0       1io         130" - 1~0                        1'70          190      iods April-June and September-December 1977
+                       STANDARD LENGTH (MM)                                                     off Port Aransas and October 1977-May 1978 off
+                                                                                                Freeport. The identity of a distinct group 95-130
+FIGURE 2.-Sizes of immature and female C. nothuB in matur-
+                                                                                                mm 8L off Port Aransas in August 1977 is not
+ity stages two through eight. Maturity stages are 2) maturing
+virgin. 3) early developing. 4) late developing, 5) gravid. 6)                                  certain. It might have hatched in spring 1977, or
+ripe, 7) spawning/spent. and 8) resting. No stage 7 fish were                                   more probably represents survivors of the Au-
+caught.                                                                                         gust-September76 group. Similarly, the identity
+
+ 490
+ DeVRIES and CHITTENDEN: SPAWNING TO MORTALITY OF SILVER SEATROUT
+
+
+                                                                                                                          9 FEB 1977; n=62
+
+
+                                                                                                                          14 MAR; n=449
+
+
+
+
+                                                                                                                          29 MAR; 1)=172
+
+                               ,~                                                                                         5,6 APR; n=1476
+
+
+
+
+                                                                                      >--MAY 76 - - - 1
+
+
+
+
+                                              ~ =
+                                              ~                      AUG-SEP76                   to!O NOT CLEAR~          22,25.26 MAY; n=235
+                                                                                                     t-MAY 76 - f
+                                                                                 '?        cA""7~                              I
+
+
+
+
+                          .c;> i   :Cl
+
+
+
+
+                                                                                           •    AUG-SEP 76 ?...           16-18 AUG; n=14
+                                                                                      =                              C>
+
+                                                                                                                          20,21,28 SEP; n=14:!4
+
+
+
+
+                                                                       1 - - - - - - - 1 0 NOT CLEAR - - - - - - - <
+                                                           - - - - - < I MAYn ?          AUG- SEP76 ?
+
+
+
+                                                                                                                          5 OCT; n=841
+                                                0 - - - - MAY77 - - - - - - t
+                                                                             0------10 NOT CLEAR--------<,
+                                                                                                                      AUG-SEP 76 ?
+
+                                                                                                                          10,11 NOV; n=1624
+
+                                                                                                 I--   10 NOT CLEAR ...
+                                                                                                        AUG- SEP76 ?
+
+                                                                                                                          1 DEC; n=1276
+
+
+
+
+                                                                                                                          8 MAR 1978; n=262
+
+
+                             ~           ro           00         lID             1~             1~             170           190
+                                                STANDARD LENGTH (mm)
+                     50            70     90         110       130        150             170          190        210         230
+                                                   TOTAL LENGTH (mm)
+FIGURE 3.-Monthly length frequencies (moving averages of three) of C. nothWl captured off Port Aransas. Group identity (ID) often
+                                              is not clear where spawned groups meet,
+
+
+
+
+                                                                                                                                            491
+                                                                                          FISHERY BULLETIN: VOL. 80, NO.3
+
+
+
+
+          70
+                                                                                                  5 NOV; n=3744
+          50       o---S EPn      ----t
+
+
+          30                                                             o--MAY n      ----I
+
+                                                                                                 t - AUG-SEP 76 ?-t
+          10
+          60
+          40                                                                                     2,3 DEC; n=2032
+
+          20
+
+  >-
+  ()       51                                                                              19,20 FEB 1978; n=51
+   zw                                                                                                i            i
+
+
+  ::::>   30
+  0                                                                                           21,22 MAR; n=1219
+  w
+  a:
+  u.
+          10                                                                   0 - - - - MAY77?~
+
+
+
+          15
+
+
+          20                                                                                      8,9 MAY; n=618
+
+
+                                                                                                 t--MAY77?~
+
+          10
+               l
+          20 L..---r---.....,...---.,....------r-'==---,----.------:--=<..+-=---=--i-""==......,
+
+
+
+
+                        30         50        70     90    110    130                                170         190
+                                              STANDARD LENGTH (mm)
+                   I         I          i     i       I         ,        ,         ,                      ,           I
+                   30        50         70   90      110   130   150             170       190           210     230
+                                                  TOTAL LENGTH (mm)
+
+  FIGURE 4.-Monthly length frequencies (moving averages of three) of C. rwtkus captured off Freeport. Group identity (ID)
+          .                         often is not clear where spawned groups meet.
+
+
+
+of most large individuals off Port Aransas in fall              ber (August?? group in Figure 4). Similarly, a
+1977 is not certain.                                            group hatched in September formed a principal
+  Greatest or most successful spawning occurs                   mode off Port Aransas and Freeport during
+during late summer. Many fish 25-65 mm SL                       November and December (September77 group in
+were taken at 11,12, and 29 m off Port Aransas in               Figures 3, 4). In contrast to these late summer
+late September (August77 group in Figure 3).                    groups, fish hatched in late spring did not form
+This August-spawned group was collected at                      dominant modes.
+widely separated locations and formed a princi-                   Gonad maturity data suggest that C. nothus
+pal mode off Port Arnasas through early Decem-                  spawns from May through September in agree-
+ber. Fish of this size also formed a dominant                   ment with the spawning season indicated by
+mode off Freeport from October through Decem-                   length frequencies. Gravid or ripe females were
+492
+DeVRIES and CHITTENDEN: SPAWNING TO MORTALITY OF SILVER SEATROUT
+
+                                                                 30
+                                                         >-                                                                                                             18-24 m
+                                                         u                                                                                                              0-1251
+                                                         z                                                                                                              6 collections
+                                                         w 10
+                                                         ::::l
+FIGURE 5.-Length frequencies (moving averages of         ow
+three) of C. nothus captured off Freeport, Tex., 6-15    a: 10
+                                                         u.
+January 1974, by depth. Frequencies were reanalyzed
+                                                                      50               70              90          110   130   150     170     190                      210         230
+from Chittenden and McEachran (1976, fig. 10). Group                                                                 TOTAL LENGTH (mm)
+identity often is not clear where spawned groups meet.                                             70               90     110     130     150                         170          190
+                                                                                                                  STANDARD LENGTH (mm)
+
+
+
+
+captured during late May, June, and late Sep-                              through July 1978, but the comparatively few in-
+tember (Fig. 6), and other females 130 mm SL or                            dividuals of the 1976 year class appeared only in
+larger were in the late developing stage. Some                             October and November (Fig. 4).
+males had large gonads from May through Sep-                                  Cynoscion nothus reached 130-190 mm SL at
+tember, and running ripe males were captured                               age 1. Fish of the dominant August and Septem-
+off Freeport in June and off Port Aransas in Sep-                          ber spawned groups averaged 145-150 mm SL at
+tember. Females were only in the developing                                11 mo, although individuals ranged from 125 to
+and resting stages in November and December,                               170 mm SL (Table 2). Similarly, the few survi-
+and no large females were captured from Febru-                             vors of the May groups were 130-190 mm SL at
+ary through April.                                                         11-14 mo. These observed sizes at age agree with
+                                                                           the mean back-calculated length of 156 mm SL
+                                                                           presented later.
+                                  ~5~
+         20
+                          n=23                                                Growth increments varied between months.
+     >-
+     «                                                                     The August and September spawned groups
+
+              !Zii~~~--r--r--,m1O~
+     :E                                                                    grew fastest in June and September, averaging
+                                                                           about 25-30 mm SL/30 d (Fig. 7). Growth of re-
+                                                                           cently hatched young steadily decreased from
+                                                                           October to December and was smallest during
+          15~=24g51                                 n=2
+                                                                           the December-March period when increments
+     5                                   ~        1111
+     ~ 5                            10                                     averaged 5 mm SL/30 d. Growth increments
+
+                                  ~~
+                                                                           then steadily increased to about 15-20 mm SL/30
+                                                                           d from March to June. The apparent pattern of
+                                                                           greatest growth during the warm months and
+     :5 ~      I'77:l      n=4    fd 51                n=1                 slowed growth during winter might be mislead-
+     ~        ~o                         74   1 5 1 6'7'8'                 ing. We have no growth data for the late summer
+                                                                           period when the August-September groups
+                         MATURITY STAGE
+
+FIGURE 6.-Monthly maturity stages of female C. nothus. Ma-                         40 • _SOP11IAug-StPl1 mod.. (port A.on ...)
+                                                                                            iii - s."nfAug-S'''l1 10..... IIm;1O
+turity stages are 3) early developing, 4) late developing, 5)                               a-    A"IIS'PH midr."gI'
+                                                                           "iii             V -AUII-S.P761T10dO.
+gravid, 6) ripe, 7) spawning/spent, and 8) resting.                         ~
+                                                                                            .. -AUtl-S.P76IT1id,.nge•
+                                                                                            .0. _ Aulin modnIP"" Ann ... 1
+                                                                           '0               . - AUll
+                                                                                                       n ,nodOllF'..PO.ll
+                                                                           o                   _. :::: ::;::;:.~;"'l
+                                                                                            ~ ~:;;
+                                                                           ~
+          Growth and Age Determination                                     ....J
+                                                                           (/)
+               by Length Frequency                                          E 20
+                                                                           g                                           &0
+  Only one year class of C. nothus occurred or
+dominated in any 1 mo. Fish of the 1976and 1977                                                                       ."
+year classes occurred off Port Aransas during
+June, July, and August 1977 (Fig. 3). These were
+                                                                                                  •~
+                                                                                                             ".
+                                                                                                             •
+                                                                                                             ~
+                                                                                                                                                                                      .
+                                                                                                                                                                                      ~
+
+
+
+
+the only months when two year classes were                                                       Jan        Feb      Mar           Apr   May   Jun   Jul   Aug   Sep   Ocl    Nov    Dec
+clearly evident, although the comparatively few                                                  Feb        Mar       Apr      May       Jun   Jul   Aug   Sep   Oct   Nov    Oec     Jan
+
+
+large individuals of uncertain identity in Sep-                                                           PERIOD WHEN GROWTH OCCURRED
+tember-October 1977 probably were of a second                              FIGURE 7.-Monthly growth increments of C. nothus. Unad-
+year class. Only the 1976 and 1977 year classes                            justed growth increments (Table 2) were adjusted to growth/
+occurred off Freeport from October 1977                                    30 d.
+
+                                                                                                                                                                               493
+                                                                                                 FISHERY BULLETIN: VOL. SO. NO.3
+
+
+would have spawned. Growth from July through               zone, and secondary radii and/or cutting over
+September could have been high as the apparent             were not distinct. The second reading was done
+pattern suggests, or it might have slowed down             without knowing sizes or collection dates. This
+and/or ceased as these fish matured and spawned.           would minimize agreement between readings.
+                                                              May-spawned C. nothus form an annulus from
+          Age Determination Using Scales                   April (or earlier) to June when they reach 130-
+                                                           190 mm SL and 1 yr of age, but time of annulus
+   Silver seatrout can be aged using scales,               formation may vary between spawned groups
+although few fish had scales with either an annu-          and is not clear for August- or September-
+lus or false annulus. Only 38 of 1,483 fish (2.6%)         spawned fish. Marginal increments were small-
+had an annulus, and no fish had more than one.             est from April to June and generally increased
+Only 41 fish (2.8%) had a false annulus, and they          thereafter (Fig. 8), suggesting the first annulus
+included 5 fish with an annulus. These percent-            forms from April (or earlier) to June. The small-
+ages overemphasize the frequency of annuli and             est fish with an annulus was 139 mm SL and
+false annuli because the stratified sampling used          most exceeded 150 mm SL. The proportion with
+to select specimens for intensive processing also          an annulus increased with increasing size, per-
+selected all the large fish which would most               centages being 16% at 150-159 mm SL (n = 55),
+likely show these marks.                                   24% at 160-169 mm SL (n = 54),60% at 170-179
+   Repeated examination suggests that age de-              mm SL (n = 10), and 100% at 180 mm SL and
+termination of C. nothus is consistent. We had             greater (n = 6). The proportion of the fish> 150
+90% agreement in a second reading of scales from           mm SL with an annulus (Fig. 9) was significantly
+225 fish, which included 123 fish >150 mm SL               higher in May and June, when most of these
+and all 38 fish first determined to have an annu-          large fish were May-spawned, than it was in Sep-
+lus. The second reading identified an annulus in           tember and November, when most were August-
+45 specimens, including 30 of the 38 fish (79%             or September-spawned. Fish with an annulus in
+agreement) first determined to have an annulus.            the period August-November all exceeded 170
+The eight fish for which an annulus was not con-           mm SL and probably were survivors of the MaY76
+firmed were collected in May and June about                group; those without an annulus then were 150-
+when the annulus forms; their scales had small             170 mm SL and probably August- or September-
+marginal increments after an indefinite clear              spawned.
+                                                              Back-calculated lengths agree with length fre-
+                                                           quencies. Lengths at age I back-calculated using
+          510       i
+                                       Apr   n= 1          the Lee method (Lagler 1956) varied from 132 to
+                                                           176 mm SL in comparison to 130-190 mm SL
+                                                           based on length frequencies. The mean back-
+          51c1\9            0
+                            i
+                                       May   n=14
+                                                           calculated length was 156 mm SL with 95% con-
+                                                           fidence limits of 153-159 mm.
+    5100            I
+                                 0 I
+                                       Jun   n=13
+
+
+
+  ~ 51          A
+                    I
+                                       Jul   n=1                             30     0 Without an annulus
+                                                                                    EI With an annulus
+  ::::l
+
+  ~ 51  0                              Aug   n=1
+                                                                     >-
+                                                                     ()
+  LL                i
+
+    51 0                           9 0 0
+                                       Sep   n=4
+                                                                     Z
+                                                                     W
+                                                                     ::::l
+                                                                     0
+                                                                     W
+                                                                                           ..
+                                                                                           II'
+                                                                                           M
+                                                                                                   II'
+                                                                                                   <D
+                                                                                                   M
+
+
+
+
+    51 •
+                                             I
+                                                                     II:     10
+                                       Oct   n=1                     LL
+                        A
+                                                                                                                       II'
+
+
+    51 0                               Nov   n=2                                  I~a: >- :~ ! ~ ! ~
+                                                                                                 Z                                 >
+               10
+                    I       i"     i
+                                  30
+                                                                                  0..
+                                                                                  ..:(
+                                                                                         4:
+                                                                                         :i:
+                                                                                                 ::>
+                                                                                                 ..,
+                                                                                                         ...I
+                                                                                                         ::>
+                                                                                                         ..,
+                                                                                                                "
+                                                                                                                ::>
+                                                                                                                c(
+                                                                                                                      Q.
+                                                                                                                      w
+                                                                                                                      en
+                                                                                                                             ...
+                                                                                                                             U
+                                                                                                                             0
+                                                                                                                                   0
+                                                                                                                                   z
+            MARGINAL        INCREMENT (mmx42)                                            MONTH CAPTURED
+
+FIGURE S.-Monthly marginal increments for C. nothus with   FIGURE 9.-Histogram showing by month the number and per-
+                     one mark.                             centage of C. nothus >150 mm SL with and without an annulus.
+
+494
+DeVRIES and CHITTENDEN: SPAWNING TO MORTALITY OF SILVER SEATROUT
+
+
+ Maximum Size, Life Span, and Mortality
+                                                           '30
+
+   Silver seatrout off Texas are small fish whose
+maximum life span (td is about 1-1.5 yr. The
+largest of the 17,820 specimens that we captured                                                                                      '00
+
+
+were only 190 mm SL (230 mm TL). Almost 90%
+of the C. nothus captured off Port Aransas were           f
+                                                          ~70
+<110 mm SL (Fig. 10),99.1% were <160 mm SL,
+and 99.9% were <180 mm SL. Off Freeport, 85%
+were <110 mm SL, 99% were <160 mm SL, and
+99.9% were <180 mm SL (Fig. 11). All C. nothus                                                                                        20
+
+disappeared off Texas when they were slightly
+older than age I (Table 3).                                                                                                   "0
+   The total annual mortality rate of C. nothus in                                                                    210     230
+
+
+the gulf off Texas approaches 100% and has a
+                                                      FIGURE 10.-Length frequency (moving averages of three) and
+best estimate of 99.83%. Values of total annual       cumulative percentage of all C. nothus collected off Port Aran-
+mortality (1 - S) in eachofthe9 mofrom October        sas, Tex., February-December 1977.
+1977 through July 1978 off Freeport were 100%
+based on the expression S = Nt! No where S = rate
+of survival and No and Nt are the number of fish          ,"0
+
+
+in consecutive year classes 0 and t. Only one year
+class was present off Freeport in those months so
+that Nt = O. For the same reason, 1 - S was 100%          120
+
+
+off Port Aransas in each of the 4 mo from Febru-                                                                     PERCENTAGE
+                                                          '00
+ary through May 1977, during November and             >
+                                                      Z
+December 1977, and during March 1978. Mor-            ~80
+tality estimates were 98% and 99.9% for Septem-
+                                                          '0
+ber and October off Port Aransas, assuming that
+fish> 140 and> 150 mm SL were from the older
+year class. For June, July, and August, 1 - S             20
+could not be estimated from the Port Aransas
+data, because the younger year class had just                                       100        120     1.0    1110
+                                                                                     TOTM      LENGTH (m,n)
+hatched and was incompletely recruited. How-                     to   30      10          eo         110
+                                                                                   STANDARO LENGTH (mm)
+                                                                                                                        170         19o
+
+ever, if the predominant group in August had
+hatched in spring 1977, then 1 - S would ap-          FIGURE n.-Length frequency (moving averages of three) and
+                                                      cumulative percentage of all C. nothus collected off Freeport,
+proach 100% in that month also. Following the         Tex., October 1977-July 1978.
+first procedure of Robson and Chapman (1961),
+we calculated an average value of 1 - S = 99.83%
+by pooling the identifiable No and Nt values for      from December through March. The larger spe-
+each month.                                           cimens of the Augustn-spawned group also dis-
+                                                      appeared about December, which may be why
+       Distribution and Availability                  the August- and September-spawned groups
+                                                      were not distinct thereafter. Many large fish
+  Larger C. nothus seem more susceptible to           were again taken in Mayor June.
+trawling during the day. Few fish >100 mm SL
+were taken in night collections at 11, 18-24, and                      Total Weight- and Girth-
+29-31 m (Fig. 12), but many were taken in day                            Standard Length and
+collections at 7, 13-15, and 18-24 m.                                   Standard Length-Total
+  Large silver seatrout almost disappeared dur-                          Length Relationships
+ing winter. Fish>120 mm SL from the MaYn-
+and August-September76 spawned groups were              Regression and related analyses for total
+common during November off Port Aransas               weight-standard length, girth-standard length,
+(Fig. 3) and during October and November off          and standard length-total length relationships
+Freeport (Fig. 4), but very few were captured         are presented in Table 4. All regressions were
+
+                                                                                                                                    495
+                                                                                                   FISHERY BULLETIN: VOL. 80, NO.3
+
+
+
+
+                                                                      Corrected      Corrected
+                                                          Residual      lolal          lolal
+                        Equation                    n       MS          SSx            SSy              x          V
+           log,o TW = -4.7582 + 3.0077 log,o SL   2,451    0.0014           63.75         580.16       1.9056     0.9733
+           G = 6.64 + 0.63 SL                     2,451   12.87      2,429.280        996.341         86.0       60.8
+           SL = -7.48 + 1.54 G                    2,451   31.37        996.341      2,429,280         60.8       86.0
+           SL = -3.76 + 0.84 TL                     303    7.48        587,667        420,074        101.5       81.8
+           TL = 4.98 + 1.18 SL                      303   10.46        420,074        587.667         81.8      101.5
+
+
+
+
+significant at 0' = 0.01. Coefficients of determina-                 such current transport. We have observed that
+tion (100 r'l) were 97% for girth-standard length                    C. nothus exhibits two distinct peaks ofspawning
+relationships but 99% for total weight-standard                      within the August-September major spawning
+length and standard length-total length relation-                    period. It is not yet clear 1) whether multiple-
+ships. AIl relationships were based on fish whose                    spawned group production consistently occurs
+standard length range was 26-188 mm.                                 within the late summer reproduction period,
+                                                                     which would imply spawning keyed to regu-
+                  DISCUSSION                                         lar intraperiod cues, or 2) whether multiple-
+                                                                     spawned group production in the late summer
+                      Spawning                                       period reflects irregular happenstances such as
+                                                                     the increased survival and recruitment that
+   Our findings on C. nothus reproduction agree                      could occur if reproduction at times coincided
+ with the limited literature. The finding of spawn-                  with unusually favorable current transport
+ ing from May to late October is consistent with                     (Hjort 1914,1926; Nelson et al. 1977), or ifacriti-
+ reports of 1) fish about 35-40 mm TL (26-30 mm                      cal larval period (Marr 1956; May 1974) irregu-
+ SL) or smaller from June to December (Hilde-                        larly coincided with an unusually great food
+brand and Cable 1934; Hoese 1965; Christmas                          supply.
+ and Waller 1973; Mahood 1974), 2) ripe individ-
+uals in mid-May (Miller 1965) and throughout                                Growth and Age Determination
+August (Gunter 1945; Hildebrand 1954), and 3)
+late-developing specimens in August and Sep-                            Our estimates that C. nothus in the northern
+tember (Mahood 1974). Our finding of peak                            Gulf of Mexico reach 130-190 mm SL and aver-
+spawning in late summer agrees with Gunter                           age 150 mm or more when they disappear at age
+(1945) and Chittenden and McEachran (1976),                          I agree with Chittenden and McEachran (1976)
+and with the dominance of a late summer-                             and Chittenden (1977) that C. nothus reaches
+spawned group in Mahood (1974, fig. 13). The                         120-150 mm SL (150-185 mm TL) at age 1. Gun-
+small size at maturity is consistent with Miller's                   ter's (1945) estimate that fish 75-110 mm SL (93-
+(1965) report of running ripe females only 135-                      138 mm TL) taken in May were about 1yr old is
+ 140 mm TL (110-114 mm SL), although the small-                      low and may have been based on fish that actu-
+est fish that Mahood (1974) collected in late-                       ally would not have reached age I until the major
+developing or spent condition was 205 mm TL                          spawning period of August-September. None of
+(168 mm SL). Our finding of May-, August-, and                       these cited workers, though, recognized the mul-
+September-spawned groups is similar to the                           tiple-spawned group composition of this species
+spring peak and late summer or fall peak of                          and their estimates of age could be in error. Our
+reproduction reported for C. nothus (Mahood                          estimates for C. nothus agree with estimates for
+1974) and for C. arenarius(Shlossman and Chit-                       C. nebulosus of 157-165 mm SL at age I (Pearson
+tenden 1981). The latter workers suggested that                      1929; Moody 1950; Tabb 1961), although lower
+the spawning periodicity of C. arenarius was                         estimates of 116 and 130 mm SL have been re-
+timed to coincide with the two major periods of                      ported (Klima and Tabb 1959; Moffett 1961). The
+rising sea level in the northern Gulf of Mexico                      growth of C. nothus also agrees with estimates
+each year when surface currents could transport                      for C. regalis of 143-180 mm SL at age I (Merri-
+eggs and/or larvae to inshore or estuarine nurs-                     ner 1973). Seasonal growth of August-September
+eries. Spawning of C. nothus in the Gulf of Mexi-                    spawned C. nothus appears comparable to that of
+co probably is timed also to take advantage of                       C. nebulosus and C. regalis. Pearson (1929) found
+496
+ DeVRIES and CHITTENDEN: SPAWNING TO MORTALITY OF SILVER SEATROUT
+
+                30
+                                                                                                               7 m (D); n=1348
+                                                                                                                10 collections
+                10
+
+
+
+                60
+
+
+
+                40
+
+
+
+                20
+                                                                                                           11 m (N); n=1967
+                                                                                                              9 collections
+
+                                                                                                c=> I     C>
+                40
+
+          >-
+          (,)
+          Z     20
+          w                                                                                             13-15 m (0); n=1463
+          ::J
+          a                                                                                                10 collections
+          w
+          0:
+          u.
+                 51                                                             13-15 m (N); n=13                3 collections
+                40 L-----r---=-r="----r------.,-----,--~="'_r---T'--'==-=='j===t-----,
+
+
+
+                20
+                                                                                                    18-24 m (D); n=2120
+                                                                                                        10 collections
+
+
+
+                                                                                                        18-24 m (N); n=513
+                                                                                                           7 collections
+                                                                                     cr==                      =,
+
+                                                                                                        29-31 m (N); n=468
+                                                                                                           4 collections
+                10
+
+
+                51,      r-_~"'T- _ _----1~-.=..-F=:.-----.--__:T.:"-3-8-m~(
+                                                                          NT,):-;_n=~1;:>2,""""":4 r::,o::>lIe_c_ti"",on>;.s
+                                                                                                    c
+                        30     50            =  7r;     110 g'7: 130     ~ a 1"70 C-;90
+                                                   8TANDARD LENGTH (mm)
+                              ,
+                             50        7'0       g'O       11'0      130       150        170            190       210      230
+                                                       TOTAL LENGTH (mm)
+
+         FIGURE 12.-Pooled length frequencies (moving averages of three) of C. nothu.q collected by day (D) and
+                                     night (N) off Port Aransas. Tex., at each depth.
+
+
+a similar seasonal growth pattern for C. nebu-                     TL during the summer (24-45 mm SL) and about
+losus from Texas, but he did not calculate                         10 mm TL in October (Welsh and Breder 1923;
+monthly increments. Estimates of monthly                           Hildebrand and Cable 1934; Pearson 1941).
+growth for C. regalis at age 0 are about 30-55 mm                    Scales can be used to age C. nothus, but age de-
+
+                                                                                                                                  497
+                                                                                  FISHERY BULLETIN: VOL. 80, NO.3
+
+termination would probably be as accurate from                 The maximum life span of C. nothus is only 1-
+intensive length frequencies alone. The long                1.5 yr off Texas, although it might be as long as 2
+spawning season and multiple-spawned group                  yr in the northcentral gulf or .off the southeast
+compositions complicate age determination.                  United States. A value of tL = 1-1.5 yr seems
+Exact age determination may be difficult for the            reasonable for Texas waters because fish> 160-
+few fish age II or older. The few fish of these ages        180 mm SL (the average size at age I) made up
+might not be distinct in length frequencies and a           <1-0.5% of our catch, Our estimate is supported
+spawned group probably could not be assigned.               by the absence of fish with more than one annu-
+Growth and mortality estimates for C. nothus                lus and by the complete disappearance of fish
+should be based upon individual spawned groups              after age I. This agrees with Chittenden and
+to avoid misinterpretation.                                 McEachran's (1976) estimate that the life span is
+                                                            little more than 1 yr. A tL value as large as 2.0 yr
+          Maximum Size, Life Span,                          seems tenable only for Mahood's (1974) data and,
+               and Mortality                                possibly, for the northcentral gulf where some
+                                                            fish reach larger sizes than we observed.
+   The largest specimen of C. nothus that we cap-              Our observed mortality estimates agree with
+tured (190 mm SL =230 mm TL) is similar to the              theory (White and Chittenden 1977; Royce 1972:
+maximum sizes typically reported (Hildebrand                238) that the total annual mortality rate is 90-
+and Cable 1934; Gunter 1945; Hildebrand 1954;               100% if the life span is only about 1-2 yr. Our best
+Christmas and Waller 1973; Chittenden and                   estimate that 1 - S is 99% may be a slight over-
+McEachran 1976). The only published records of              estimate, particularly if large fish exhibit sig-
+fish much >190 mm SL include a specimen 315                 nificant spawning or postspawning migration to
+mm SL (380 mm TL) from the Gulf of Mexico off               the northcentral gulf. However, it seems un-
+Mississippi (Franks et al. 1972), a few specimens           likely that many fish survive beyond 2 yr and
+to 259 mm SL (312 mm TL) from industrial fish               that 1 - S is <90%. This is supported by Mahood's
+catches in the gulf (Thompson 1966), and Ma-                (1974) data which suggest a 96% mortality rate
+hood's (1974) report of two fish 255 mm SL (308             for C. nothus off the southeast coast of the United
+mm TL) from the Atlantic Ocean off Georgia.                 States, assuming that all his specimens >188
+Net avoidance and/or behavioral change to a                 mm SL were age II fish. The high mortality rate
+midwater life-style probably does not explain the           that we have found explains why few C. nothus
+absence of C. nothus > 190 mm SL off Texas, be-             had an annulus. Most fish probably die before or
+cause we collected many C. arenarius to 283 mm              while a mark forms on the scales.
+SL. Large C. nothus apparently do not occupy
+water deeper than 46 m off Texas, because twice                    Distribution and Availability
+monthly day and night collections at 55-100 m in
+the period June 1979-August 1980 have not cap-                 The disappearance of large C. notkus that we
+tured larger fish (Chittenden, unpubl. data). The           found during winter agrees with Mahood (1974,
+absence of large C. nothus off Texas might indi-            table 8), who reported only six specimens (of 947
+cate movement to rough, normally untrawled                  fish) > 130 mm SL (160 mm TL) from October
+substrate or possibly a spawning or postspawn-              through April, and with Hildebrand and Cable
+ing movement to the northcentral gulf. Large C.             (1934), who reported no C. nothus captured off
+nothus to 225-250 mm SL occur in deep water in              Beaufort Inlet, N.C., during winter although
+                                               6
+the northcentral gulf (E. Gutherz and B. Rohr ),            they were rather common in summer. The dis-
+but the comparative percentage of these large               appearance of large C. nothus during the colder
+fish needs further study. Based on our data and             months and their subsequent reappearance in
+the published literature, however, it appears               spring probably reflects an offshore overwinter-
+that C. nothus does not exist in significant num-           ing movement of large fish. This interpretation
+bers at sizes>190 mm SL. Even Mahood's (1974)               is supported by 1) reanalysis of Chittenden and
+data indicate that only 4% of his specimens were            McEachran's (1976, fig. 10) data on distribution
+>188 mm SL.                                                 of C. nothus in mid-January (Fig. 5) which indi-
+                                                            cates that fish> 140 mm SL were most abundant
+  6E. Gutherz and B. Rohr, Fishery Biologists, Southeast    in deep water, and 2) Miller's (1965) report that
+Fisheries Center Pascagoula Laboratory, National Marine     large C. nothusoccurred in deep waterfrom Feb-
+Fisheries Service, NOAA, Pascagoula, MI 39567, pers. com-
+roun. January 1981.                                         ruary through April.
+
+498
+DeVRIES and CHITTENDEN: SPAWNING TO MORTALITY OF SILVER SEATROUT
+
+                     General                          ner, R. Noble, K. Strawn, and T. Bright reviewed
+                                                      the manuscript and made many very helpful
+   The production of several spawned groups           suggestions. Financial support was provided, in
+over a broad time period in each annual spawn-        part, by the Texas' Agricultural Experiment
+ing season is extremely important to the popula-      Station and by the T.exas A&M University Sea
+tion dynamics of C. nothus. This species is short-    Grant College Program, supported by the
+lived and appears little more than an annual crop     NOAA Office of Sea Grant, U.S. Department of
+whose abundance could fluctuate greatly from          Commerce.
+year to year. However, the multiple-spawned
+group structure would buffer against population
+instability just as a multiple year class structure                 LITERATURE CITED
+buffers population size in longer lived species.
+The multiple-spawned group feature may aver-          ALVERSON, D. L., AND M. J. CARNEY.
+                                                         1975. A graphic review of the growth and decay of popu-
+age over a longer period each year the effects of          lation cohorts. J. Cons. Int. Explor. Mer 36:133-143.
+environmental variation on spawning success,          BAGENAL, T. B., AND E. BRAUM.
+may dampen fluctuations in annual spawning               1971. Eggs and early life history. In W. E. Ricker (edi-
+success associated with environmental extremes,            tor), Methods for assessment of fish production in fresh
+                                                           waters, p. 166-198. Blackwell Sci. Publ., Oxf.
+and may stabilize population sizes. Similarly,        CHI'ITENDEN, M. E., JR.
+the effects of fishing would be averaged over a           1977. Simulations of the effects of fishing on the Atlantic
+greater number of spawned groups in 1 yr, so                croaker, Micropogon undulatus. Proc. Gulf Caribb.
+that the multiple-spawned group structure                   Fish. Inst. 29:68-86.
+                                                      CHITTENDEN. M. E., JR., AND J. D. McEACHRAN.
+might minimize the possibility of recruitment             1976. Composition, ecology, and dynamics of demersal
+overfishing. In that event, stock assessments               fish communities on the northwestern Gulf of Mexico
+based on dynamic pool models and growth over-               continental shelf, with a similar synopsis for the entire
+fishing would be more valid.                                Gulf. Texas A&M Univ., Sea Grant Publ. TAMU-SG-
+   Many features of the population dynamics of              76-208, 104 p.
+                                                      CHRISTMAS, J. Y., AND R. S. WALLER.
+C. nothus-short life span, high mortality rate,           1973. Estuarine vertebrates, Mississippi. In J. Y.
+and rapid turnover of biomass-are similar to                Christmas (editor), Cooperative Gulf of Mexico estua-
+those in the Atlantic croaker, Micropogonias un-            rine inventory and study, Mississippi, p. 320-434. Gulf
+dulatus, of the Carolinean Province (White and              Coast Res. Lab., Ocean Springs, Miss.
+                                                       DAHLBERG, M. D.
+Chittenden 1977; Chittenden 1977). This sup-              1972. An ecological study of Georgia coastal fishes.
+ports the suggestion (Chittenden and McEachran              Fish. Bull., U.S. 70:323-353.
+1976; Chittenden 1977) that the abundant species       FRANKS, J. S., J. Y. CHRISTMAS, W. 1. SILER, R. COMBS, R.
+of the white and brown shrimp communities in            W ALLER, AND C. BURNS.
+the gulf have evolved towards a common pattern            1972. A study of the nektonic and benthic faunas of the
+                                                            shallow Gulf of Mexico off the state of Mississippi as re-
+of population dynamics. Because of their similar            lated to some physical, chemical and geological factors.
+population dynamics, the implications of Chit-              Gulf Res. Rep. 4:1-148.
+tenden's (1977) simulations on croaker could          GINSBURG, 1.
+serve as a first approximation of the effects of          1929. Review of the weakfishes (Cynoscion) of the Atlan-
+                                                            tic and Gulf coasts of the United States, with a descrip-
+harvesting C. nothus, so that this species also             tion of a new species. Bull. U.S. Bur. Fish. 45:71-85.
+should have a great biological capacity to resist         1931. On the difference in the habitat and the size of
+growth overfishing.                                         Cynoscion arenarius and C. nothus. Copeia 1931:
+                                                            144.
+                                                       GUEST, W. C., AND G. GUNTER.
+         ACKNOWLEDGMENTS                                   1958. The sea trout or weakfishes (genus Cynoscion) of
+                                                             the Gulf of Mexico. Gulf States Mar. Fish. Comm.
+  We are much indebted to the Texas Parks and                Tech. Summ. I, 40 p.
+                                                      GULLAND, J. A.
+Wildlife Department, and particularly the crew
+                                                          1969. Manual of methods for fish stock assessment.. Part
+of the RV Western Gulf (T. Cody, K. Rice, Capt.             1. Fish population analysis. FAO Man. Fish. Sci. 4, 154
+D. Perez, and D. Majorando), for allowing the               p.
+senior author to participate in cruises aboard the    GUNTER, G.
+RV Western Gulf and for all their cooperation             1938. Seasonal variations in abundance of certain estua-
+and assistance. P. Shlossman and Captains H.                rine and marine fishes in Louisiana, with particular
+                                                            reference to life histories. Ecol. Monogr. 8:313-346.
+Forrester, J. Forrester, and M. Forrester also            1945. Studies on marine fishes of Texas. Publ. Inst.
+assisted greatly with field collections. J. Merri-          Mar. Sci. Univ. Tex. 1:1-190.
+
+                                                                                                                 499
+                                                                                            FISHERY BULLETIN: VOL. 80. NO.3
+
+GUTHERZ, E. J., G. M. RUSSELL, A. F. SERRA, AND B. A. ROHR.             noscion nebulosus (Cuvier), in West Florida. Fla.
+    1975. Synopsis of the northern Gulf of Mexico industrial            Board Conserv., Mar. Res. Lab. Tech. Ser. 36, 35 p.
+      and foodfish industries. Mar. Fish. Rev. 37(7):1-11.         MOODY, W. D.
+HILDEBRAND, H. H.                                                     1950. A study of the natural history of the spotted trout,
+    1954. A study of the fauna of the brown shrimp (Penaeus             Cynoscion nebulosus, in the Cedar Key, Florida, area.
+      aztecus Ives) grounds in the western Gulf of Mexico.              Q. J. Fla. Acad. Sci. 12:147-171.
+      Pub\. Inst. Mar. Sci. Univ. Tex. 3:229-366.                  MOORE, D., H. A. BRUSHER, AND L. TRENT.
+    1955. A study of the fauna of the pink shrimp (Penaeus             1970. Relative abundance, seasonal distribution, and
+      duorarum Burkenroad) grounds in the Gulf of Cam-                   species composition of demersal fishes off Louisiana and
+      peche. Pub\. Inst. Mar. Sci. Univ. Tex. 4 (Part 1): 169-           Texas, 1962-1964. Contrib. Mar. Sci. Univ. Tex. 15:45-
+      232.                                                               70.
+HILDEBRAND, S. F., AND L. E. CABLE.
+                                                                   NELSON, W. R., M. C. INGHAM, AND W. E. SCHAAF.
+    1934. Reproduction and development of whitings or                  1977. Larval transport and year-class strength of Atlan-
+      kingfishes, drums, spot, croaker, and weakfishes or sea            tic menhaden, Brevoortia tyrannus. Fish. Bull., U.S.
+      trouts, family Sciaenidae, of the Atlantic coast of the            75:23-41.
+      United States. [U.S.] Bur. Fish., Bull. 48:41-117.           PEARSON, J. C.
+HILDEBRAND, S. F., AND W. C. SCHROEDER.                                1929. Natural history and conservation of redfish and
+    1927. Fishes of Chesapeake Bay. Bull. U.S. Bur. Fish.                other commercial sciaenids on the Texas coast. Bull.
+      43:1-366.                                                          U.S. Bur. Fish. 44:129-214.
+HJORT, J.                                                              1941. The young of some marine fishes taken in lower
+    1914. Fluctuations in the great fisheries of northern Eur-           Chesapeake Bay, Virginia with special reference to the
+      ope viewed in the light of biological research. Rapp.              gray sea trout, Cynoscion regalis (Bloch). U.S. Dep.
+      P.-V. Rimn. Cons. Int. Explor. Mer 20, 228 p.                      Inter., Fish Wildl. Serv., Fish. Bull. 50:79-102.
+    1926. Fluctuations in the year classes of important food       PERLMUTTER, A., W. S. MILLER, AND J. C. POOLE.
+      fishes. J. Cons. Int. Explor. Mer 1:5-38.                        1956. The weakfish (Cynoscion regalis) in New York
+HOESE, H. D.                                                             waters. N.Y. Fish Game J. 3:1-43.
+    1965. Spawning of marine fishes in the Port Aransas,
+      Texas area as determined by the distribution of young        ROBSON, D. S., AND D. G. CHAPMAN.
+      and larvae. Ph.D. Thesis, Univ. Tex., Austin, 144 p.            1961. Catch curves and mortality rates. Trans. Am.
+KLIMA, E. F., AND D. C. TABB.
+                                                                        Fish. Soc. 90:181-189.
+    1959. A contribution to the biology of spotted weakfish,       ROYCE, W. F.
+      Cynoscion nebulosus, (Cuvier) from northwest Florida,           1972. Introduction to the fishery sciences. Acad. Press,
+      with a description of the fishery. Fla. Board Conserv.,           N.Y., 351 p.
+      Mar. Res. Lab. Tech. Ser. 30, 25 p.                          SHLOSSMAN, P. A., AND M. E. CHITTENDEN, JR.
+LAGLER, K. F.                                                         1981. Reproduction, movements, and population dynam-
+    1956. Freshwater fishery biology. 2d ed. Wm. C.                      ics of the sand sea trout, Cynoscion arenarius. Fish.
+      Brown Co., Dubuque, Iowa, 421 p.                                   Bul\., U.S. 79:649-669.
+MAHOOD, R. K.                                                      SWINGLE, H. A.
+    1974. Seatrout of the genus Cynoscion in coastal waters            1971. Biology of Alabama estuarine areas-cooperative
+      of Georgia. Ga. Dep. Nat. Res., Contrib. Ser. 26, 36 p.            Gulf of Mexico estuarine inventory. Ala. Mar. Resour.
+MARR, J. C.                                                              Bull. 5, 123 p.
+    1956. The "critical period" in the early life history of ma-   TABB, D. C.
+      rine fishes. J. Cons. Int. Explor. Mer 21:160-170.              1961. A contribution to the biology of the spotted sea-
+MASSMAN, W. H.                                                           trout, Cynoscion nebulosus (Cuvier) of east-central Flor-
+   1963. Annulus formation on the scales of weakfish, Cy-                ida. Fla. Board Conserv., Mar. Res. Lab. Tech. Ser. 35,
+     noscion regalis. of Chesapeake Bay. Chesapeake Sci. 4:              24 p.
+     54-56.                                                        TESCH, F. W.
+MAY, R. C.                                                             1971. Age and growth. In W. E. Ricker (editor), Meth-
+   1974. Larval mortality in marine fishes and the critical              ods for assessment of fish production in fresh waters, p.
+     period concept. In J. H. S. Blaxter (editor), The early             98-130. Blackwell Sci. Pub\., Oxf.
+     life history of fish, p. 3-19. Springer-Verlag, N.Y.          THOMPSON, M. H.
+MERRINER, J. V.                                                        1966. Proximate composition of Gulf of Mexico indus-
+    1973. Assessment of the weakfish resource, a suggested               trial fish. U.S. Fish Wild\. Serv., Fish. Ind. Res. 3(2):
+      management plan, and aspects of life history in North              29-67.
+      Carolina. Ph.D. Thesis, North Carolina State Univ.,          WELSH, W. W., AND C. M. BREDER, JR.
+      Raleigh, 201 p.                                                 1923. Contributions to life histories of Sciaenidae of the
+MILLER, J. M.                                                           eastern United States coast. Bull. U.S. Bur. Fish. 39:
+    1965. A trawl survey of the shallow Gulf fishes near Port           141-201.
+      Aransas, Texas. Pub\. Inst. Mar. Sci. Univ. Tex. 10:         WHITE, M. L., AND M. E. CHITTENDEN, JR.
+      80-107.                                                         1977. Age determination, reproduction, and population
+MOFFETT, A. W.                                                          dynamics of the Atlantic croaker Micropogonias undu-
+    1961. Movements and growth of spotted seatrout, Cy-                 latus. Fish. Bull., U.S. 75:109-123.
+
+
+
+
+500
+

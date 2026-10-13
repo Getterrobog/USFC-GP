@@ -106,3 +106,13 @@ Rscript Scripts/build_species_selection.R
 
 Read the [first-pass results](Output/SpeciesSelection/selection_report.md) for the
 species investigation queue, candidate assemblages and outstanding evidence.
+
+## Public genomic data
+
+The [genomic inventory](Output/Genomics/index.html) summarizes public WGS,
+low-coverage/genome-skimming records and annotated assemblies for the 80 atlas
+species. [Output documentation](Output/Genomics/README.md) explains the SQLite
+and CSV tables, collection metadata and candidates for future contemporary maps.
+Rebuild with `Rscript Scripts/build_genomics_inventory.R` (offline cached metadata)
+and consult [methods](docs/genomics_inventory.md) before interpreting sample
+accessions as independent fish. Original responses are in [Data/Genomics](Data/Genomics/README.md).

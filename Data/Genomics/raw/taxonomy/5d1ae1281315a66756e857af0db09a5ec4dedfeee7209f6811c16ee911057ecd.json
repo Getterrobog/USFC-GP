@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Centropristis%20striata",
+  "retrieved_utc": "2026-10-13T04:04:54.711069+00:00",
+  "sha256": "b4e22a2fa1d8d964ce47642bb964e885f21f64658043294faceb4b94f656e19a",
+  "http_status": 200,
+  "bytes": 726,
+  "cache_path": "Data/Genomics/raw/taxonomy/5d1ae1281315a66756e857af0db09a5ec4dedfeee7209f6811c16ee911057ecd.gz"
+}

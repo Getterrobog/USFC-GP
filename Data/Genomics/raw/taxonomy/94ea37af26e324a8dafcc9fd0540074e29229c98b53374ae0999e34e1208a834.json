@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Tautogolabrus%20adspersus",
+  "retrieved_utc": "2026-10-13T04:04:57.867949+00:00",
+  "sha256": "7c1334960825238fb23fbaa0cb171386f5c8d527067660d7798ffec4b37bfcce",
+  "http_status": 200,
+  "bytes": 686,
+  "cache_path": "Data/Genomics/raw/taxonomy/94ea37af26e324a8dafcc9fd0540074e29229c98b53374ae0999e34e1208a834.gz"
+}

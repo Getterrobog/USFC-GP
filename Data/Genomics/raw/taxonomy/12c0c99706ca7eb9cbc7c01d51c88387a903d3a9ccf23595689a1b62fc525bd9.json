@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Decapterus%20punctatus",
+  "retrieved_utc": "2026-10-13T04:05:18.604254+00:00",
+  "sha256": "7a764e11c5131ca847b88fd3e2eec4560070fdff97bfabb9519a69a712b88e1c",
+  "http_status": 200,
+  "bytes": 722,
+  "cache_path": "Data/Genomics/raw/taxonomy/12c0c99706ca7eb9cbc7c01d51c88387a903d3a9ccf23595689a1b62fc525bd9.gz"
+}

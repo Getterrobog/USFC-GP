@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Anchoa%20lamprotaenia",
+  "retrieved_utc": "2026-10-13T04:05:09.997675+00:00",
+  "sha256": "91c24a7c560144ecb98ebc57bafdd991a8e8ea3f3d84d9f539d706804c9826d8",
+  "http_status": 200,
+  "bytes": 614,
+  "cache_path": "Data/Genomics/raw/taxonomy/d8cf304cbbe5c50171dd3a976dd3fc4a1c9259478b5a2ceb06b59c4753ae8d50.gz"
+}

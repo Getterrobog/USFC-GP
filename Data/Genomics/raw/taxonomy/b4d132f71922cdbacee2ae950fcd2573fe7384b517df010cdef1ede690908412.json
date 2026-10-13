@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Myctophum%20affine",
+  "retrieved_utc": "2026-10-13T04:05:30.031787+00:00",
+  "sha256": "326cfffe6743bfc10dd852942da1c744c7b5101daf00bdf864a47bd7bd90f216",
+  "http_status": 200,
+  "bytes": 686,
+  "cache_path": "Data/Genomics/raw/taxonomy/b4d132f71922cdbacee2ae950fcd2573fe7384b517df010cdef1ede690908412.gz"
+}

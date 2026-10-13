@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Poecilia%20vivipara",
+  "retrieved_utc": "2026-10-13T04:04:56.753929+00:00",
+  "sha256": "a816128db0d1b506f752e0f049e3a8b6032bbe2f6651dcf69fee2acb8bc82cd4",
+  "http_status": 200,
+  "bytes": 589,
+  "cache_path": "Data/Genomics/raw/taxonomy/6fd0ec94d56707db28a42182ea33439860c5b0414f19cb426efacd28e0a98384.gz"
+}

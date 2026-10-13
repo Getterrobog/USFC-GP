@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Gobiosoma%20ginsburgi",
+  "retrieved_utc": "2026-10-13T04:05:21.497065+00:00",
+  "sha256": "6588eaf88cd05fcd17f2f1742b8b919baea84c11e3ad83f588378ab7d9fe85c2",
+  "http_status": 200,
+  "bytes": 612,
+  "cache_path": "Data/Genomics/raw/taxonomy/176152e135da9fb30d3e600c389fe86f560f55dcf3d6a2fec354b77c8a378f18.gz"
+}

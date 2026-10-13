@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Paralichthys%20dentatus",
+  "retrieved_utc": "2026-10-13T04:05:05.374206+00:00",
+  "sha256": "c200e391541932ddffff5caf4215ab197f4faa50b4c050206831a255b823d9a2",
+  "http_status": 200,
+  "bytes": 741,
+  "cache_path": "Data/Genomics/raw/taxonomy/bd0edb15ccbfd77f9d6c8b8be1ac4b32b94852d88b21a23800793182747083ce.gz"
+}

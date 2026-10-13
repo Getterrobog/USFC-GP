@@ -6,6 +6,11 @@ subspecies pooled under those species. It adds bounded geographic comparisons,
 same-year multispecies screening, sensitivity analysis and evidence requests.
 The resulting investigation queue is not a final panel or a claim of DNA feasibility.
 
+The original baseline below is preserved. A subsequent [spatial review](species_selection_spatial_review.md)
+compares 20–240 km maximum diameters using the same frozen screened lots, with
+120 scenarios and outputs in `Output/SpeciesSelectionSpatial/`. The original
+20 km baseline and 40 km sensitivity setting are diameters, not radii.
+
 ## Run and review
 
 From the repository root, using base R only:

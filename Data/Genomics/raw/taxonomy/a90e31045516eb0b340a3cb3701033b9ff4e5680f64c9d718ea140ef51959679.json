@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Alosa%20aestivalis",
+  "retrieved_utc": "2026-10-13T04:04:47.924602+00:00",
+  "sha256": "a5749045a4e6abfa837c33e0cdf357bd24c0ee331f7d872c0f3909994cb931e1",
+  "http_status": 200,
+  "bytes": 698,
+  "cache_path": "Data/Genomics/raw/taxonomy/a90e31045516eb0b340a3cb3701033b9ff4e5680f64c9d718ea140ef51959679.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Strongylura%20marina",
+  "retrieved_utc": "2026-10-13T04:05:34.602911+00:00",
+  "sha256": "a5ccbd2b648d01e18f27a9cab90e0d0283302e94505fba894df4c5ccc56881b5",
+  "http_status": 200,
+  "bytes": 713,
+  "cache_path": "Data/Genomics/raw/taxonomy/c439f6dae1b243a8a2113a17e329b7a8484b7ee6fb0cdc21f6925e5d1c2fb54b.gz"
+}

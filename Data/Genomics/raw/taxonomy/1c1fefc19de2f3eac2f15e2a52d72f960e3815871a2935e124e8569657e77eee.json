@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Glyptocephalus%20cynoglossus",
+  "retrieved_utc": "2026-10-13T04:05:21.058419+00:00",
+  "sha256": "317cab801dd8519e5527149938d7369f2cd145c90325b0126dacd81541a8bdae",
+  "http_status": 200,
+  "bytes": 738,
+  "cache_path": "Data/Genomics/raw/taxonomy/1c1fefc19de2f3eac2f15e2a52d72f960e3815871a2935e124e8569657e77eee.gz"
+}

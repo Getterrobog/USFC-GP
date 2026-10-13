@@ -1,0 +1,156 @@
+[
+  {
+    "source_id": "ELMR1997",
+    "url": "https://library.oarcloud.noaa.gov/noaa_documents.lib/NOS/ORCA/ELMR_report/ELMR_11.pdf",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/ELMR1997.pdf",
+    "citation": "Pattillo, M.E., Czapla, T.E., Nelson, D.M., and Monaco, M.E. (1997). Distribution and abundance of fishes and invertebrates in Gulf of Mexico estuaries, Volume II: Species life history summaries. ELMR Report 11. NOAA/NOS. 377 pp.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "GRUNTS",
+    "url": "https://spo.nmfs.noaa.gov/sites/default/files/legacy-pdfs/CIRC448.pdf",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/GRUNTS.pdf",
+    "original_url": "https://repository.library.noaa.gov/view/noaa/5496/noaa_5496_DS1.pdf",
+    "citation": "Darcy, G.H. (1983). Synopsis of biological data on the grunts Haemulon aurolineatum and H. plumieri (Pisces: Haemulidae). NOAA Technical Report NMFS Circular 448; FAO Fisheries Synopsis 133.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "ROOKER2018",
+    "url": "https://www.tamug.edu/rooker/pdf/87.pdf",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/ROOKER2018.pdf",
+    "citation": "Rooker, J.R., Dance, M.A., Wells, R.J.D., Quigg, A., Hill, R.L., Appeldoorn, R.S., Ferreira, B.P., Boswell, K.M., Sanchez, P.J., Moulton, D.L., Kitchens, L.L., Rooker, G.J., and Aschenbrenner, A. (2018). Seascape connectivity and the influence of predation risk on the movement of fishes inhabiting a back-reef ecosystem. Ecosphere 9(4):e02200. doi:10.1002/ecs2.2200.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "SAB1989",
+    "url": "https://spo.nmfs.noaa.gov/sites/default/files/legacy-pdfs/tr79.pdf",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/SAB1989.pdf",
+    "citation": "Wenner, C.A., and Sedberry, G.R. (1989). Species composition, distribution, and relative abundance of fishes in the coastal habitat off the southeastern United States. NOAA Technical Report NMFS 79.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "SCAD",
+    "url": "https://spo.nmfs.noaa.gov/sites/default/files/legacy-pdfs/tr89.pdf",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/SCAD.pdf",
+    "citation": "Shaw, R.F., and Drullinger, D.L. (1990). Early-life-history profiles, seasonal abundance, and distribution of four species of carangid larvae off Louisiana, 1982 and 1983. NOAA Technical Report NMFS 89.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "CUNNER",
+    "url": "https://repository.library.noaa.gov/view/noaa/38240/noaa_38240_DS1.pdf",
+    "acquisition": "unavailable_http_403",
+    "archive_path": "Data/LifeHistorySupplement/sources/CUNNER.pdf",
+    "citation": "Unverified source lead; not used for trait assignment.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "download blocked; no trait assignments"
+  },
+  {
+    "source_id": "MENHADEN1973",
+    "url": "https://spo.nmfs.noaa.gov/sites/default/files/legacy-pdfs/SSRF672.pdf",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/MENHADEN1973.pdf",
+    "citation": "Tagatz, M.E., and Wilkens, E.P.H. (1973). Seasonal occurrence of young Gulf menhaden and other fishes in a northwestern Florida estuary. NOAA Technical Report NMFS SSRF-672.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "TONGUE1999",
+    "url": "https://spo.nmfs.noaa.gov/sites/default/files/12terwil.pdf",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/TONGUE1999.pdf",
+    "citation": "Terwilliger, M.R., and Munroe, T.A. (1999). Age, growth, longevity, and mortality of blackcheek tonguefish, Symphurus plagiusa (Cynoglossidae: Pleuronectiformes), in Chesapeake Bay, Virginia. Fishery Bulletin 97:340–361.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "DEV1982",
+    "url": "https://spo.nmfs.noaa.gov/sites/default/files/pdf-content/1982/803/devries.pdf",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/DEV1982.pdf",
+    "citation": "DeVries, D.A., and Chittenden, M.E., Jr. (1982). Spawning, age determination, longevity, and mortality of the silver seatrout, Cynoscion nothus, in the Gulf of Mexico. Fishery Bulletin 80(3):487–500.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "RADIANS",
+    "url": "https://www.vliz.be/imisdocs/publications/320614.pdf",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/RADIANS.pdf",
+    "citation": "Robertson, D.R., and Warner, R.R. (1978). Sexual patterns in the labroid fishes of the western Caribbean, II: The parrotfishes (Scaridae). Smithsonian Contributions to Zoology 255:1–26.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "CYCLOTHONE",
+    "url": "https://fishes-fnam.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=109066",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/CYCLOTHONE.html",
+    "citation": "Naturalis Biodiversity Center. Fishes of the North-eastern Atlantic and the Mediterranean (FNAM), Cyclothone microdon species account, taxon 109066. Electronic reference-guide account; page does not state a revision date.",
+    "source_version": "undated live account; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "BAYWHIFF",
+    "url": "https://www.scielo.br/j/ni/a/SVWd6CZ79M8VhTDzY5WQdpL/?lang=en",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/BAYWHIFF.html",
+    "citation": "Dias, J.F., Fiadi, C.B., Silbiger, H.L.N., and Soares, L.S.H. (2005). Reproductive and population dynamics of the Bay whiff Citharichthys spilopterus Günther, 1862 (Pleuronectiformes: Paralichthyidae) in the Mamanguá Inlet, Rio de Janeiro, Brazil. Neotropical Ichthyology 3(3):411–419. doi:10.1590/S1679-62252005000300009.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "SANDLANCE",
+    "url": "https://academic.oup.com/icesjms/article/80/1/122/6872753",
+    "acquisition": "unavailable_http_403",
+    "archive_path": "Data/LifeHistorySupplement/sources/SANDLANCE.html",
+    "citation": "Unverified source lead; not used for trait assignment.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "download blocked; no trait assignments"
+  },
+  {
+    "source_id": "NAFMFD",
+    "url": "https://www.sciencebase.gov/catalog/file/get/619d2dbcd34eb622f6951e8a?f=__disk__9d%2F35%2Faf%2F9d35af30f4aaddca7253e7d721fc42954f9359c1",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/NAFMFD_finalcopy.xlsx",
+    "citation": "Dean, E.M., Cooper, A.R., Wang, L., Daniel, W.M., David, S.R., Ernzen, C., Gido, K.B., Hale, E., Haxton, T., Kelso, W., Leonard, N., Lido, C., Margraf, J., Porter, M.L., Pennock, C., Propst, D.L., Ross, J.A., Staudinger, M.D., Whelan, G., and Infante, D.M. (2021). The North American Freshwater Migratory Fish Database (NAFMFD): Characterizing the migratory life histories of freshwater fishes of Canada, the United States and Mexico. U.S. Geological Survey data release. doi:10.5066/P9WDLLP0.",
+    "source_version": "finalcopy.xlsx, ScienceBase file uploaded 2021-12-20",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "NAFMFD_METADATA",
+    "url": "https://www.sciencebase.gov/catalog/file/get/619d2dbcd34eb622f6951e8a?f=__disk__f1%2F3d%2F8b%2Ff13d8be391c112b0787b6b1f11954314aa737620",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/NAFMFD_metadata_12-20-2021.xml",
+    "citation": "Dean, E.M., Cooper, A.R., Wang, L., Daniel, W.M., David, S.R., Ernzen, C., Gido, K.B., Hale, E., Haxton, T., Kelso, W., Leonard, N., Lido, C., Margraf, J., Porter, M.L., Pennock, C., Propst, D.L., Ross, J.A., Staudinger, M.D., Whelan, G., and Infante, D.M. (2021). The North American Freshwater Migratory Fish Database (NAFMFD): Characterizing the migratory life histories of freshwater fishes of Canada, the United States and Mexico. U.S. Geological Survey data release. doi:10.5066/P9WDLLP0. Accompanying FGDC metadata, filename dated 2021-12-20.",
+    "source_version": "metadata_12-20-2021.xml; ScienceBase upload 2022-08-17",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "CLARO2003",
+    "url": "https://proceedings.gcfi.org/wp-content/uploads/2015/01/ClaroLindeman_GCFI_MPA.pdf",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/CLARO2003.pdf",
+    "citation": "Claro, R., and Lindeman, K.C. (2003). Spawning aggregation sites of snapper and grouper species (Lutjanidae and Serranidae) on the insular shelf of Cuba. Gulf and Caribbean Research 14(2):91–106.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  },
+  {
+    "source_id": "JOYUDA",
+    "url": "https://library.oarcloud.noaa.gov/noaa_documents.lib/NOS/NCCOS/TM_NOS_NCCOS/nos_nccos_026.pdf",
+    "acquisition": "download",
+    "archive_path": "Data/LifeHistorySupplement/sources/JOYUDA.pdf",
+    "citation": "Jacobsen, T., and Browder, J.A. (1987 assessment; published 2006). The ecological basis of fishery yield of the Puerto Rico–Virgin Islands insular shelf. A.Y. Cantillo (editor, 2006). NOAA Technical Memorandum NCCOS 26.",
+    "source_version": "publication cited above; archived snapshot",
+    "inspection_status": "relevant full-text passages inspected"
+  }
+]

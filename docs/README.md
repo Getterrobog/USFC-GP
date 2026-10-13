@@ -16,3 +16,7 @@ assessment, not a live status dashboard.
 Saved outputs have their own [directory guides](../Output/README.md). Their
 configuration and checksum manifests describe the run that produced them; counts
 quoted in method documents should be interpreted in that snapshot's context.
+
+- [genomics_inventory.md](genomics_inventory.md): public genomic metadata sources,
+  reproducible acquisition, WGS/annotation classification, collection-date and
+  coordinate interpretation, sample identity, mapping screens and field dictionary.

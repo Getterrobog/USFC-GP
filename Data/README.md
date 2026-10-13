@@ -27,3 +27,10 @@ do not establish when the museum data were acquired. The
 [LifeHistory/](LifeHistory/README.md) holds separate external trait-source downloads.
 Their presence alone does not mean traits have been incorporated into the atlas
 or species-selection screen.
+
+## Genomic metadata
+
+[Genomics](Genomics/README.md) contains compressed original public ENA/NCBI metadata
+and transport tables for all 80 atlas species. No sequencing reads or genome FASTAs
+are downloaded. Scientific screening is performed in R and written separately to
+[Output/Genomics](../Output/Genomics/README.md).

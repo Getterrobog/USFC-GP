@@ -41,3 +41,11 @@ is a separate Git operation.
 
 Despite its name, `Files/` contains curated inputs required by the current atlas.
 Do not treat every file under `Output/` as disposable.
+
+## Genomic data for contemporary comparisons
+
+[Genomics](Genomics/README.md) contains a [filterable viewer](Genomics/index.html),
+SQLite database and CSV tables covering public WGS, genome skimming, annotated
+assemblies, collection dates and geographic metadata for the 80-species roster.
+Mapping candidates count BioSample accessions and still require independent-fish
+and population review before integration with historical specimen heatmaps.

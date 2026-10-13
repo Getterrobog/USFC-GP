@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Gonichthys%20cocco",
+  "retrieved_utc": "2026-10-13T04:05:22.106506+00:00",
+  "sha256": "b70d6679aab2d744fd507454552f6b54b6b86a8ba9a843c91b8728ac8ca845b6",
+  "http_status": 200,
+  "bytes": 685,
+  "cache_path": "Data/Genomics/raw/taxonomy/2fb0f8fc50b9fa080e395cd27175000e75b5b2ec0bbfc1dc7314e594db7927df.gz"
+}

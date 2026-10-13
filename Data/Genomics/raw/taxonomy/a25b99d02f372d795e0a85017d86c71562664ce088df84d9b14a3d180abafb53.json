@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Syacium%20papillosum",
+  "retrieved_utc": "2026-10-13T04:05:34.601004+00:00",
+  "sha256": "65248b40f3de0f712434a28badc8805be0373fd96f80401cfe1413bb68e7484c",
+  "http_status": 200,
+  "bytes": 732,
+  "cache_path": "Data/Genomics/raw/taxonomy/a25b99d02f372d795e0a85017d86c71562664ce088df84d9b14a3d180abafb53.gz"
+}

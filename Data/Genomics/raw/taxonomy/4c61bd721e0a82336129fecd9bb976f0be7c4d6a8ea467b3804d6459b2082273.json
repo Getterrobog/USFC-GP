@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Etropus%20crossotus",
+  "retrieved_utc": "2026-10-13T04:05:19.172585+00:00",
+  "sha256": "88cf267b036f4e2ae6ca79f6aafee68b91ef1be40eea62e3d7ac5e8b07f16bbc",
+  "http_status": 200,
+  "bytes": 576,
+  "cache_path": "Data/Genomics/raw/taxonomy/4c61bd721e0a82336129fecd9bb976f0be7c4d6a8ea467b3804d6459b2082273.gz"
+}

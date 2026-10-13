@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Jenkinsia%20stolifera",
+  "retrieved_utc": "2026-10-13T04:05:03.151415+00:00",
+  "sha256": "7ce116cf9ef703dfe7a1323587a88b852a848d956c8686058bb625aa08464828",
+  "http_status": 200,
+  "bytes": 643,
+  "cache_path": "Data/Genomics/raw/taxonomy/43711b608e186eb0da9b08b79ee3fa75117c055e1cb3b315ffb7cc7b59f4c684.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN61089762,SAMN61189517",
+  "retrieved_utc": "2026-10-13T04:06:37.708565+00:00",
+  "sha256": "fd84a44959506d83a10a025cdea9f3953ede5c6e24738ce2059eca66bc6ee972",
+  "http_status": 200,
+  "bytes": 12358,
+  "cache_path": "Data/Genomics/raw/samples/197fe1594169a7ecc6108c10a4e774181a05eaba05503f2aeed5d84cd728592c.gz"
+}

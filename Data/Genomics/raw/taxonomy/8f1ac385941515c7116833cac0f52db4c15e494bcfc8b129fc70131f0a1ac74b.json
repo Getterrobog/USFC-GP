@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Coelorinchus%20caelorhincus%20carminatus",
+  "retrieved_utc": "2026-10-13T04:05:15.567543+00:00",
+  "sha256": "bf1352fa56cf73990bfe6e6015831a11fc69d79871401478e391006ad333f5e0",
+  "http_status": 200,
+  "bytes": 736,
+  "cache_path": "Data/Genomics/raw/taxonomy/8f1ac385941515c7116833cac0f52db4c15e494bcfc8b129fc70131f0a1ac74b.gz"
+}

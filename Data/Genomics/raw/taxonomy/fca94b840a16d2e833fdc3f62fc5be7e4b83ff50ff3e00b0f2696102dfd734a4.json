@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Chloroscombrus%20chrysurus",
+  "retrieved_utc": "2026-10-13T04:05:13.866598+00:00",
+  "sha256": "990b851ff77c9d1e3b826972be0da42e3be5278aeabf09a55a84b0960fe8f2e1",
+  "http_status": 200,
+  "bytes": 716,
+  "cache_path": "Data/Genomics/raw/taxonomy/fca94b840a16d2e833fdc3f62fc5be7e4b83ff50ff3e00b0f2696102dfd734a4.gz"
+}

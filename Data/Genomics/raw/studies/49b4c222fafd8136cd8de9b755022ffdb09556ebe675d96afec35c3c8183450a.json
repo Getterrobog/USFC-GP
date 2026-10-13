@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRP056617",
+  "retrieved_utc": "2026-10-13T04:13:14.904379+00:00",
+  "sha256": "e93edbd03cbbfebf347aa8c032921e1ecccac10503d357fdad0e91903e7ddd8a",
+  "http_status": 200,
+  "bytes": 1666,
+  "cache_path": "Data/Genomics/raw/studies/49b4c222fafd8136cd8de9b755022ffdb09556ebe675d96afec35c3c8183450a.gz"
+}

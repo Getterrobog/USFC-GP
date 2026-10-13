@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Nezumia%20aequalis",
+  "retrieved_utc": "2026-10-13T04:05:30.893459+00:00",
+  "sha256": "d41ebb0c3b3de8bfeb6c7e1124d28af77f04ede5aa4ed63eebeb5f425e039e93",
+  "http_status": 200,
+  "bytes": 794,
+  "cache_path": "Data/Genomics/raw/taxonomy/39e68b3154e4aa5e5ff0dcea61e7fe419af76399f14738d427615dc6629b4871.gz"
+}

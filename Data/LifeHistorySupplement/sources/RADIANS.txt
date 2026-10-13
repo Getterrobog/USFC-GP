@@ -1,0 +1,1742 @@
+   Sexual Patterns in the Labroid
+Fishes of the Western Caribbean, II:
+    The Parrotfishes (Scaridae)
+
+
+
+
+             D. ROSS ROBERTSON
+                     and
+             ROBERT R. WARNER
+
+
+
+
+  SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY • NUMBER 255
+           SERIES PUBLICATIONS OF THE SMITHSONIAN INSTITUTION
+
+     Emphasis upon publication as a means of "diffusing knowledge" was expressed
+by the first Secretary of the Smithsonian. In his formal plan for the Institution, Joseph
+Henry outlined a program that included the following statement: "It is proposed to
+publish a series of reports, giving an account of the new discoveries in science, and
+of the changes made from year to year in all branches of knowledge." This theme
+of basic research has been adhered to through the years by thousands of titles issued
+in series publications under the Smithsonian imprint, commencing with Smithsonian
+Contributions to Knowledge in 1848 and continuing with the following active series:
+                     Smithsonian Contributions to Anthropology
+                     Smithsonian Contributions to Astrophysics
+                        Smithsonian Contributions to Botany
+                   Smithsonian Contributions to the Earth Sciences
+                     Smithsonian Contributions to Paleobiology
+                        Smithsonian Contributions to Zoo/ogy
+                        Smithsonian Studies in Air and Space
+                   Smithsonian Studies in History and Technology
+      In these series, the Institution publishes small papers and full-scale monographs
+that report the research and collections of its various museums and bureaux or of
+professional colleagues in the world cf science and scholarship. The publications are
+distributed by mailing lists to libraries, universities, and similar institutions throughout
+the world.
+      Papers or monographs submitted for series publication are received by the
+Smithsonian Institution Press, subject to its own review for format and style, only
+through departments of the various Smithsonian museums or bureaux, where the
+manuscripts are given substantive review. Press requirements for manuscript and art
+preparation are outlined on the inside back cover.
+
+                                                                   S. Dillon Ripley
+                                                                   Secretary
+                                                                   Smithsonian Institution
+SMITHSONIAN   C O N T R I B U T I O N S   TO   ZO O L O G Y • N U M BE R   255
+
+
+
+
+         Sexual Patterns in the Labroid
+      Fishes of the Western Caribbean, II:
+           The Parrotfishes (Scaridae)
+
+
+                          D. Ross Robertson
+                        and Robert R. Warner
+
+
+
+
+                  SMITHSONIAN INSTITUTION PRESS
+                         City of Washington
+                                 1978
+                                      ABSTRACT
+Robertson, D. Ross, and Robert R. Warner. Sexual Patterns in the Labroid
+Fishes of the Western Caribbean, II: The Parrotfishes (Scaridae). Smithsonian
+Contributions to Zoology, number 255, 26 pages, 12 figures, 6 tables, 1978.—
+The interactions of protogynous sex change, coloration, and mating behavior
+in ten species of Caribbean parrotfishes are outlined. The species considered are
+Cryptotomus roseus, Sparisoma rubripinne, S. chrysoplerum, S. viride, S. auro-
+frenatum, S. radians, S. atomarium, Scarus vetula, S. croicensis, and S. laeniop-
+terus. For each, we outline (1) the distribution of sexual types according to size
+and coloration, (2) the testis weight of different types of males, (3) characteristic
+habitat and relative abundance, (4) the social and mating system, and (5) breed-
+ing seasonality. Non-sex-changing (primary) males are absent in the sparisoma-
+tines but present in the scarinines and prematurational sex change is much more
+common among the sparisomatine species. There are also very large overlaps in
+size and coloration among the various sexual types of the sparisomatines. Large
+testes are present in small males of some species, and this is related to their
+interference spawning strategy. In species that do not occur at high density but
+do have haremic mating systems, small males are rare or absent. This is probably
+due to an increased ability of large males to control spawning in females.
+Haremic species are much more common in the parrotfishes than in the wrasses,
+perhaps because of basic differences in the distribution of food resources in
+time and space.
+
+
+
+
+OFFICIAL PUBLICATION DATE is handstamped in a limited number of initial copies and is re-
+corded in the Institution's annual report, Smithsonian Year. SERIES COVER DESIGN: The coral
+Montastrea cavernosa (Linnaeus).
+
+ Library of Congress Cataloging in Publication Data
+Robertson, D. R.
+Sexual patterns in the labroid fishes of the Western Caribbean, II, the parrotfishes (Scaridae).
+(Smithsonian contributions to zoology ; no. 255)
+Companion volume to Sexual patterns in the labroid fishes of the Western Caribbean, I, the
+   wrasses (Labridae) by R. R. Warner and D. R. Robertson.
+Bibliography: p.
+1. Scaridae—Behavior. 2. Sexual behavior in animals. 3. Fishes—Behavior. 4. Fishes—Carib-
+   bean Sea. I. Warner, Robert R., joint author. II. Title. III. Series: Smithsonian Institu-
+   tion. Smithsonian contributions to zoology ; no. 255.
+QL1.S54 no. 255 [QL638.S3] 591'.08s [59V.58J 77-608162
+                               Contents
+                                                                        Page
+Introduction                                                              1
+  Acknowledgments                                                          1
+Materials and Methods                                                      2
+  Species Studied                                                          2
+  Study Area                                                               2
+  Collecting                                                               2
+  Terminology and Population Parameters                                    2
+Results                                                                    2
+  Cryptotomus roseus                                                      2
+  Sparisoma rubripinne                                                     3
+  Sparisoma chrysopterum                                                  5
+  Sparisoma viride                                                        7
+  Sparisoma aurofrenatum                                                  8
+  Sparisoma radians                                                       9
+  Sparisoma atotnarium                                      •            11
+  Scarus vetula                                                           13
+  Scarus croicensis                                                      14
+  Scarus taeniopterus                                                    16
+Discussion                                                               16
+  General Life History Patterns                                          16
+  Testis Size in Relation to Spawning Strategies                         17
+  Social Systems, Mating Systems, and the Success of Different Mating
+       Strategies                                                        18
+     Perspective                                                         18
+     Haremic Species                                                     18
+     Nonharemic Species                                                  20
+     Additional Factors                                                  20
+Appendix: Tables                                                         23
+Literature Cited                                                         26
+
+
+
+
+                                    in
+                    Sexual Patterns in the Labroid
+                 Fishes of the Western Caribbean, II:
+                      The Parrotfishes (Scaridae)
+
+                                               D. Ross Robertson
+                                             and Robert R. Warner
+
+
+
+                      Introduction                              the structure of social and mating systems. From
+                                                                this information, we have attempted a synthetic
+   Reinboth (1968) established the occurrence of                treatment of the evolution of protogynous sex
+protogyny in certain scarids. Since that time, the              change in these fishes (see also Warner, 1975a;
+only work on patterns of sexuality in this group                Warner, Robertson, and Leigh, 1975).
+has been Choat's (1969) comprehensive treatment
+                                                                   ACKNOWEDGMENTS.—We would like to thank the
+of sixteen Pacific (Great Barrier Reef) species (pub-
+lished in part in Choat and Robertson, 1975).                   government of the Republic of Panama and the
+Although the basic similarity in the patterns of                Cuna Indians of the Comarca de San Bias for per-
+sex change exhibited by both wrasses and parrot-                mitting us to live and work in the San Bias Islands.
+fishes was discovered by Reinboth (1962, 1968) in               Funds and facilities generously supplied by Smith-
+Caribbean scarids, there has been no systematic                 sonian Tropical Research Institute (STRI) and the
+and comprehensive examination of sexuality in the               Australian Commonwealth Scientific and Industrial
+fishes of that area. Whereas Choat's (1969) Pacific             Research Organization (CSIRO) enabled us to do
+study dealt with scarinine species only, parrot-                this work: Robert R. Warner during his tenure as
+fishes in the Caribbean are all the more interesting            a STRI postdoctoral fellow and D. Ross Robertson
+since they have a strong representation from both               as a CSIRO postdoctoral student visiting STRI.
+scarid subfamilies, the Scarinae and the Sparisoma-             Additional funds were provided by the National
+tinae.                                                          Geographic Society and a general research grant
+   This paper comprises the second part of a study              from the University of California, Santa Barbara
+of the patterns of sexuality in Caribbean labroids              (UCSB); the Marine Science Institute at UCSB
+(see Warner and Robertson, 1978). In these two                  aided us with clerical help and computer funds.
+works, we draw together what we have been able                  The assistance of Isabel Downs and Elizabeth
+to learn of the patterns of protogyny at the popu-              Fletcher in the field and laboratory was invaluable.
+lation level, the relationship of permanent color               Isabel Downs also drew the figures and provided
+pattern changes to age, sex, and sex change, and                 technical aid and advice. We were also assisted in
+                                                                the field by S. Hoffman, D. Diener, N. Davis, G.
+D. Ross Robertson, Smithsonian Tropical Research Institute,     Irvine, J. Bryan, and S. Cruz. A. W. Ebeling
+P.O. Box 2072, Balboa, Canal Zone. Robert R. Warner, De-
+partment of Biological Sciences and Marine Science Institute,
+                                                                and R. H. Rosenblatt read the manuscripts and
+University of California, Santa Barbara, California 93106.      provided helpful comments.
+                                                                      SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+
+
+              Materials and Methods                      absence of males that are born as such (primary
+                                                         males) as opposed to males that are sex-changed
+   SPECIES STUDIED.—We obtained sufficient num-
+                                                         females (secondary males) (see Reinboth, 1962, for
+bers of the following nine species to enable us to       criteria for distinguishing these two types histo-
+examine population structures: Cryptotomus roseus,       logically; when both types of males are present,
+Sparisoma rubripinne, S. chrysopterum, S. viride,        the population is termed diandric, with only one
+S. aurofrenatum, S. radians, S. atomariurn, Scarus       type, it is monandric, see Reinboth, 1967); and
+vetula, and 5. croicensis. A smaller number of           distributions of the two types of males in the differ-
+Scarus taeniopterus were also collected, together        ent size classes and color phases; (5) the distribu-
+with a very few S. guacamaia, S. coeruleus, and          tion of recently sex-changed males (i.e., those con-
+S. coelestinus. We never saw the one remaining           taining previtellogenic oocytes in their testes) in
+Caribbean scarid listed by Randall (1968), Nichol-       the different size classes and color phases; (6) the
+sina usta.                                               absolute and relative (to body weight) weights of
+   STUDY AREA.—Collections and observations were         the testes of different classes of males; (7) the over-
+made in the San Bias islands of Panama, the same         all sex ratio, as determined from a combination
+area as referred to in Warner and Robertson              of the color phase ratio and the within-color-phase
+(1978). An additional sample of Sparisoma radians        sex ratio; (8) the characteristic habitat(s) of the
+was collected farther westward at Galeta Point, in       species; (9) relative abundance, calculated from a
+the Canal Zone.                                          series of counts of all species in a number of habi-
+   COLLECTING.—Collections and observations were         tats, including (a) shallow (<5 m depth of water)
+made throughout the period March 1974-May                stands of Sargassum, (b) large, shallow (<5 m)
+ 1975. As with the labrids (see Warner and Robert-        beds of turtle grass (Thalassia and other spermato-
+son, 1978), we attempted not to take specimens           phytes), and (c) coral reef substrates (coral, coral-
+during periods of sexual activity, in order to reduce    line rock, and sand patches dotted with coral
+bias in the population samples. Apart from some          growths), this last habitat surveyed on a series of
+trawl collections of small species (principally Spari-   depth profiles (<3 m, 3-6 m, 6-9 m, 9-12 m,
+soma radians) living in turtle grass beds, specimens      12-25 m, 15-18 m); (10) observations on the struc-
+were speared as described in Warner and Robertson        ture of social and mating systems; (11) breeding
+(1978).                                                   seasonality, as determined from observations on
+  TERMINOLOGY AND POPULATION PARAMETERS.—In               spawning and the collection of ripe females at
+this study we follow the same scheme as used for          various times of the year.
+the labrids (Warner and Robertson, 1978, Appen-
+dix 1). When there is more than one distinct adult
+color phase, initial phase individuals have that                                 Results
+pattern shown by smaller adults and terminal
+                                                            Cryptotomus roseus.—This species is fully di-
+phase fish that of the largest males. In fully sexu-
+ally dichromatic species the terminal phase pattern      chromatic (see Randall, 1968; and Chaplin and
+contains color elements that are not present in the      Scott, 1972, for pattern descriptions). While ter-
+initial phase pattern. In partially dichromatic spe-     minal phase males may rapidly and temporarily
+cies the patterns of both phases have the same ele-      lose virtually all of their characteristic colors, suffi-
+ments but some of them are more strongly devel-          cient differences remain to permit their field iden-
+oped in the terminal pattern than in the initial         tification on very close inspection. Terminal phase
+pattern.                                                 males also have distinctly larger heads than initial
+   For each species, data are presented on: (1) the      phase fish. The color phase ratio was strongly
+degree of sexual dichromatism; (2) the ratio of the      biased towards the initial phase (Table 1). There
+number of initial phase to terminal phase fish in        was a moderate degree of within-site overlap in the
+populations of dichromatic species; (3) the within-      size ranges of the two color phases. In six separate
+population overlap in the size ranges of the two         collections (totalling 15 terminal and 63 initial
+color phases, based on data obtained from collec-        phase fish), there were two overlaps, each of 1.5 cm
+tions and field observations; (4) the presence or        SL. One of those cases, however, involved two
+NUMBER 255
+
+
+                                                                              three smallest terminal phase fish had the relatively
+                   CRYPT0T0MUS ROSEUS                                         heaviest gonads of any fishes in that color phase.
+                                                                              The sex ratio (Table 1) was moderately biased
+             Terminal
+                                                                              towards females, primarily as a result of the scarcity
+               phase                                                          of initial phase males. We were unable to deter-
+               n = 20                                                         mine size at maturity because the smallest fish we
+                                                                        -10
+                                                                              collected were sexually active.
+                                        n               n „                      Cryptotomus roseus was restricted to shallow
+                        rd1 o           0       0       0    0                dense turtle grass beds and the broad interfaces of
+                        2»<JI               2   9       5    1                grass beds and coral reefs. It was one of the least
+  50-                                                                         abundant species, both overall and in the habitats
+                                n                                             to which it was restricted (Table 3).
+  40                                                                             We saw no good evidence of strong permanent
+N 30                                                    Initial phase         territoriality by members of either color phase.
+                                                            n = 108           Initial phase fish moved about in pairs and occa-
+  20-
+                                        i                                     sionally in small schools of up to a dozen individu-
+   10-
+                  n
+                        lPh i       1 1
+                                                            n<f= 12
+                                                                              als. Some of those groups also contained a termi-
+                                                                              nal phase male, and we occasionally saw several
+                          0         0       0   0           l°(f              such males moving quietly about near each other.
+                           3        4       4       1       2-(f                 Sexual activity was observed in the early after-
+                                                                              noons, when intensely colored terminal phase males
+                                                                               became aggressive to each other. They coursed ac-
+         0    10 20 30 40 50 60 70 80 90 100                                  tively about over areas of up to several hundred
+             Standard length (K)mm size classes)                              square meters, apparently defending territories.
+FIGURE 1.—Pattern of sexuality in Cryptotomns roseus: size/                   Fifteen pair spawnings involving such males were
+frequency bar graph of our sample, with indication of                         observed, each with a smaller female. There were
+sexual origin of a number of the males in each size class                      no signs of attempted interference by initial phase
+(n = total sample size in specified color phase; \° $ —                        males or any indications that group spawning
+primary males; 2° $ = secondary males; stippled bars—
+females, white bars = males; due to subsampling of more                        might occur. The terminal phase male courted
+numerous size groups and losses during processing, the num-                    either a single female or an entire small school.
+ber of males histologically analyzed for sexual origin often                   Sexual activity was observed only on the outer
+falls short of the total number of males in the sample;                        edges of reefs and banks in the habitats normally
+placement of individuals in size classes follows the pattern                   favored by the species.
+of all fishes 20-29 mm SL belonging in the 20 mm size
+class).                                                                           Breeding occurred in all months of the year
+                                                                               (Table 4). Not all females were continuously pro-
+                                                                               ducing eggs, since we found some large individuals
+small transitionally colored terminal phase indi-                              with inactive ovaries.
+viduals.                                                                          Sparisoma rubripinne.—The two color phases of
+  Since all the males we examined were secondary                               this species are figured in Randall (1968), Bohlke
+(Figure 1), C. roseus is evidently monandric. Sec-                             and Chaplin (1968), and Chaplin and Scott (1972).
+ondary males were detected in all size classes of                              It is fully sexually dichromatic (see Figure 2) and
+mature initial phase fish, including those well be-                            terminal phase fish appear to be unable to revert
+low the size of the smallest terminal phase indi-                              to the initial pattern. The color phase ratio was
+viduals. The only males with transitional gonads                               moderately biased towards females (Table 1). Direct
+that we found were two small (61 and 64 mm SL)                                 observations and a few small collections indicated
+terminal phase fish that had not yet fully taken                               that the intrapopulational overlap of the size
+on terminal coloration. The gonads of initial and                              ranges of the two phases was exceptionally high.
+terminal phase males weighed the same absolutely,                              Three overlaps occurred in seven collections (16
+but those of the initial pliase males formed a much                            terminal and 43 initial phase fish in total). The
+higher percentage of body weight (Table 2). The                                largest overlap was 11.5 cm. Also, as is shown in
+                                                                                       SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+
+
+
+
+                                                 SPARISOMA RUBRIPINNE
+                    Terminal
+                      phase                                                                                                            -10
+                      n=43
+                                                    .nn ~ n n fi „ 11
+                              P<J   0               0 0 0                     0    0       0       0       0       0   0   0   0   0
+                                                     1 2 3                   I 3       3       I       7       4       2   I   I I
+
+        20-
+
+
+    N   10-
+
+
+                 BllH
+                                    0   0   0   0   0    0   0       0   0    0    0       0                           O
+                                    1 4 6 4 2 2                  1       4   1     1       2           2               I 2°<JI
+
+
+                 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240250 260 270 280 290 300 310
+                                            Standard length (10mm size classes)
+              FIGURE 2.—Pattern of sexuality in Sparisoma rubripinne (for explanation of format, see Figure 1).
+
+
+
+Figure 2, the largest females and initial phase males                body weight, two orders of magnitude greater than
+closely approached the largest terminal phase fish                   that for terminal phase males.
+in size.                                                                Due to the strong representation of males in the
+   All males of both color phases proved to be sec-                  initial phase (Figure 2), the sex ratio is not heavily
+ondary, establishing the monandric status of this                    biased towards females (Table 1).
+species. Secondary males were also distributed                          This species, one of the less abundant scarids,
+throughout the entire size range of mature initial                   was distributed throughout the habitats sampled
+phase fish (Figure 2). Six males with transitional                   with the exception of turtle grass (Table 3). Other
+gonads were collected, four among the smallest size                  observations indicated that it was most commonly
+classes of initial phase males (145-169 mm SL) and                   associated with Sargassum beds in areas subject to
+two moderately large fish (235-260 mm SL) in the                     heavy wave action, and on turtle grass beds close
+terminal phase. The smallest transitional individu-                  to the edges of reefs.
+als had changed sex prior to maturing as females.                       Feeding schools were often encountered. They
+Our samples showed that females are mature be-                       consisted of up to 40 fishes of both color phases
+ginning at about 160 mm SL. Initial phase males                      and a variety of sizes. This and the overlapping
+ fell into two distinct classes: males smaller than                  movement of individual fish strongly suggest that
+ 200 mm SL had very much smaller testes both ab-                     this species shows no permanent territoriality.
+ solutely (Figure 3) and relative to body weight,                       Intensely colored terminal phase males set up
+ than did larger males. The gonads of the larger ini-                temporary territories and engaged in sexual activ-
+tial phase males weighed much more, both abso-                       ity on the peripheries of reefs facing deep water.
+lutely and relatively, than did those of terminal                    The 27 pair spawnings that we observed involved
+phase males (Table 2). In the largest initial phase                  such males, and occurred at one site in late after-
+males, relative testes weights equaled 6 percent of                  noon. Sexually active males were observed by us
+NUMBER 255
+
+
+                                                   SPARISOMA            RUBRIPINNE
+
+
+
+
+                    45-
+
+                                 o Initial phase
+
+                    40-         •   Terminal phase                                              °
+
+
+
+
+                    35-                                                                     o
+
+
+
+
+                    30-
+                                                                                0
+
+                          -                                                         o   o
+                                                                                o
+                    25-
+
+
+
+                     20-                                                    o
+                                                                        o
+
+                           -
+                                                           °        o
+                     15-                                  o
+
+                          _                                    ©
+
+                                                         ° o
+                     ,0-
+
+
+                                                               o
+                      5-
+
+                           -                         •     o
+
+
+                               15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+                                                         Standard length (cm)
+             FIGURE 3.—Gonad weights for various sizes of initial phase and terminal phase males of
+                                             Sparisoma rubripinne.
+
+
+
+in the mornings in other areas. We observed no                     speared two that were being persistently and vigor-
+group spawning in this species or any participation                ously harrassed by territorial males.
+by satellite initial phase males in the pair spawn-                  Sparisoma rubripinne probably breeds through-
+ings of territorial males. However, Randall and                    out the year, although our data are not quite
+Randall (1963) describe group spawning in aggre-                   complete enough to show it (Table 4). Females
+gations of hundreds of initial phase fish. Initial                 with inactive gonads were also regularly collected.
+phase males were certainly present in the same                       Sparisoma chrysopterum.—Although Sparisoma
+areas as sexually active terminal phase fish; we                   chrysopterum is fully sexually dichromatic (see
+                                                                                                                 SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+
+
+Randall, 1968, for illustrations of the two color                                               also had transitional gonads, as did seven of the
+phases), we experience some terminological diffi-                                               terminal phase males. These terminal phase males
+culty in describing the bright all-male phase as a                                              were also quite small individuals (145-194 SL). For
+terminal coloration. Females grow to the same size                                              females, the onset of maturity appears to occur
+as terminal phase males, perhaps even slightly                                                  at about 140 mm SL. Secondary males smaller than
+larger (Figure 4). However, since juveniles bear                                                the smallest mature females were collected. The
+the same coloration as initial phase adults, ter-                                               testes of males of both color phases were small,
+minal phase individuals, at one time in their lives,                                            with no significant size differences between the two
+have been in the initial phase. For this reason we                                              phases (Table 2). Our initial phase male sample,
+continue to call the bright pattern of large males                                              however, is small and thus does not rule out the
+the terminal coloration. Terminal phase males did                                               possibility that some such males have large testes.
+not appear capable of temporarily regaining the                                                 Although there were few initial males, the sex
+initial color pattern. The color phase ratio was                                                ratio was not strongly biased towards females due
+quite equable (Table 1). Direct observations and                                                to the low color phase ratio (Table 2).
+a series of small collections indicated that the de-                                               This species was most commonly encountered in
+gree of color phase size overlap within a popula-                                               turtle grass beds, typically close by reefs, to which
+tion was high. Overlaps of up to 6.3 cm SL were                                                 it retreated when threatened. It was moderately
+ found in six of eight collections, comprising 21                                               common overall (Table 3).
+ terminal and 45 initial phase fish.                                                               Feeding schools of Sparisoma chrysopterum con-
+    Sparisoma chrysopterum is evidently monandric,                                              taining up to about a hundred adults of various
+ since all the males of both color phases that we                                               sizes and both color phases were commonly seen
+ examined were secondary (Figure 4). The few ini-                                               in turtle grass areas. We saw no indications of per-
+ tial phase males were restricted to the lower end                                              manent territoriality by members of this species.
+ of the initial phase size range. Most of those males                                              In midafternoon, we regularly observed strongly
+
+
+
+                                                           SPARISOMA CHRYSOPTERUM
+                               Terminal
+                                   phase                                                                                                                     -10
+                                   n=27
+
+
+                                                   I°<J 0          0           0               0 0 0 0 0 0
+                                                                                                                           n0
+                                               2°d* 4              4           2               3 3 2 1 1 2                     3
+    20-
+                                                                                                                                           Initial phase
+
+N   10                                                                                                                                           n = U8
+
+
+                                                                                                            1 1 1§1 1 - "
+                                               0       0           0               0
+                                               I       I               2           I                                                         2°d*
+
+            '        1     1   1      1    1       1       1   1           1           1   1    1   1   1    1     1   1   1       1   1     1      i   r-
+
+                70       80 90 100 110 120 130 140 150 160 170 180 190 200210 220230240 250 260270 280290300
+                                         Standard length (10mm size classes)
+                 FIGURE 4.—Pattern of sexuality in Sparisoma chrysopterum •(for explanation of format, see
+                                                         Figure 1).
+NUMBER 255
+
+
+colored terminal phase males defending temporary                  up to 11.2 cm SL occurred in five of seven collec-
+territories scattered along the shallow rims of reefs             tions comprising 14 terminal and 73 initial phase
+in areas of good coralline rock cover. Small groups               fish.
+of females moved about through the territories of                    Reinboth (1968) found that this species is pro-
+these males. The males courted them and, on two                   togynous. Our large sample of males of both color
+occasions that we observed, pair spawned with                     phases shows that S. viride is monandric (Figure
+them. We never saw anything to suggest that males                 5). Although males comprised a high proportion
+of either color phase might interfere in pair spawn-              of the smaller initial phase fish, they were absent
+ings or participate in group spawning.                            from the larger initial phase size classes. Only two
+   The species bred during both main seasons                      of the males examined had transitional gonads;
+(Table 4), probably throughout the year. Inactive                 one was the smallest terminal phase male obtained
+as well as active females were collected at all times             (110 mm SL) and the other a moderate sized ter-
+of the year, indicating a lack of continuous egg                  minal phase male (199 mm SL). Females mature
+production by females.                                            at sizes greater than 160 mm SL. Secondary males
+   Sparisoma viride.—Full sexual dichromatism is                  smaller than the smallest mature females were also
+shown by Sparisoma viride (see Randall, 1968, for                 obtained. Six males whose terminal coloration had
+color illustrations). Our observations have shown                 not yet fully developed were collected; none of
+the terminal coloration is permanent. The color                   these six had transitional gonads. The size range
+phase ratio was moderately biased towards the                     of the transitionally colored individuals in our
+initial phase (Table 1). There was a high degree                  collection was 130-200 mm SL, on the lowest end
+of intrapopulational overlap in the size ranges of                of the terminal phase size range. Larger, similarly
+the two phases. We observed this directly and it                  colored fish, however, were seen. Terminal phase
+is shown by some of our collections: overlaps of                  males had testes that weighed much less than those
+
+
+
+                                                     SPARISOMA VIRIDE
+
+           Terminal
+
+             phase                                                                                                         10
+             n=34
+                                                                         n n <-.         n n           n
+                      pd1 o          0   o       0    0   0   0    0      0   0   0      0     0
+                      2°d*   I       1   i       2    3   3   3    4      4   2   2       2        I
+  30-
+
+
+
+   20-
+                                                                                                           Initial phase
+
+   10-                                                                                                         n * 228
+
+
+
+         ., PI 13            i n i-ilLlLlT
+                                 0 0 0 0 0 0 0 0 0
+                                                      n hi r               in..               ft
+                                 2 1 13 3 4 4 3 1
+
+           80 90 KX) 110 120 130 140 150 160 170 180 190 200 210 220230240250260270280 290300 310 320330
+                                             Standard length (10mm size dosses)
+
+                FIGURE 5.—Pattern of sexuality in Sparisoma viride (for explanation of format, see Figure 1).
+8                                                                     SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+
+
+of initial phase males, both absolutely and rela-        (Table 1). There was very little within-population
+tively (Table 2). The sex ratio was moderately           overlap in the size ranges of the two color phases, as
+biased towards females in this species (Table 1).        indicated by our field observations and collections.
+   Sparisoma viride was largely restricted to coral      Only one instance of overlap, of 2 mm SL, occurred
+reef habitats where it occurred at a variety of          in eight samples totalling 25 terminal and 56 initial
+depths (Table 3). It was one of the more abundant        phase fishes.
+scarids in its main habitat.                                Sparisoma aurofrenatum is another of the scarids
+   Typically we found this species feeding in loosely    that Reinboth (1968) found to be protogynous. Our
+knit aggregations of up to twelve fish of both color     data show that it is monandric (Figure 6). Males
+phases and a range of sizes, and occasionally in         were too rare in the initial phase to allow us to de-
+well-defined schools of up to several hundred            termine accurately whether they were restricted to
+adults. We saw no behavior that would have indi-         any particular size classes. Four secondary males
+cated permanent territoriality by members of this        with transitional gonads were found, all terminal
+species.                                                 phase individuals (119-169 mm SL). The testes of
+   We frequently observed sexually active terminal       initial phase males were much heavier, both abso-
+phase males, however, temporarily defending terri-       lutely and relatively, than those of terminal phase
+tories on the shallow parts of the outer rims of         fish (Table 2). Although the color phase ratio was
+reefs. In some instances, there appeared to be more      one of the more equable among the scarids, the
+males than available territories, and the "excess"       rarity of males in the initial phase resulted in the
+formed loose inactive groups a little away from          sex ratio being moderately biased towards females
+the territory holders. This territoriality was tem-      (Table 1). We were unable to determine exact size
+ porary and restricted to that part of the day when      at female maturity. It occurs at lengths less than
+ sexual activity occurred. The timing of sexual          90 mm SL.
+activity varied from site to site, being consistently       Sparisoma aurofrenatum was restricted to coral
+in mid to late afternoon at one regularly visited        reef areas and their immediate surroundings and
+ place, while early morning activity was observed        occurred throughout the depth range of that
+ elsewhere. The earliest spawning seen was at 0745       habitat. It was one of the more abundant species
+ and the latest at 1700. Twenty-one pair spawnings        that we studied (Table 3).
+ involving territorial terminal phase males and             There were strong indications that almost all
+ smaller females were noted. Although we saw no           terminal phase males of this species were perma-
+ indications of successful sneaking or streaking by       nently territorial. We never observed these males in
+ initial phase males, or any group spawning, I.           aggregations or schools, and whenever we saw two
+ Downs (pers. comm.) on one occasion saw several          together they were almost invariably interacting
+ pair spawnings that each involved a {presumed)           agonistically. At common borders, fights between
+ initial phase male. Sexually active terminal phase       terminal phase males were regularly seen and these
+ males often chased initial phase males.                  males appeared to be distributed evenly throughout
+    Spawning occurred in both major seasons and           their habitat. With initial phase fish, the situation
+ probably throughout the year (Table 4). All females      was less clear, but it appeared that a harem of a few
+ were not constantly producing eggs, since we col-        females of varying sizes lived within the permanent
+ lected both active and inactive females in the same      territory of a larger terminal phase male. This sys-
+ sample on numerous occasions.                            tem is similar to that described by Buckman and
+    Sparisoma aurofrenatum.—Randall            {1968),    Ogden (1973) for Scarus croicensis. We certainly
+ Bohlke and Chaplin (1968), and Chaplin and Scott         never saw schools of initial phase fish or more than
+ (1972) each provide color illustrations of the two       about six individuals together in a small area.
+ adult color phases of this species which shows full,        Spawning apparently took place within the per-
+ strong sexual dichromatism (Figure 6). We found          manent territories of the terminal phase males.
+ no indications that terminal phase males could           Sexually active terminal phase males were observed
+ temporarily lose their color elements and revert to      coursing actively about their territories on the edges
+ the initial pattern. The color phase ratio was one       of reefs from midmorning until early afternoon.
+ of the least strongly biased towards initial phase       We noted 26 pair spawnings involving such males
+NUMBER 255
+
+
+
+                                                 SPARISOMA AUROFRENATUM
+
+                         Terminal
+                         phase                                                                                             -20
+                          n = 53
+
+
+                                           l°ct 0
+                                                 _ _ n
+                                                          0   0
+                                                                  n 1c0       0   )    0 0
+                                                                                           n                    0      0
+                                                                                                                           -10
+
+
+
+                                          2°ct    1           5   3           1 7'     6   1                    2      1
+
+             50-
+             40-                                                  •
+         N   30-                                      7                                                Initial phase
+
+             20-                                                                                            ri = 24l
+                                                                                  •3
+
+
+             10-
+                                        J                 0   0 0
+                                                                                               1
+                                                                                                   i° cf
+                                                                                                            rirf=5
+
+
+
+
+                                                          3   1           1                        2
+
+                   ii—
+
+                          50 60 70 80 90 100 110 120 130 140 150 160 170 180 190200 210 220230240
+                                           Standard length (10 mm size classes)
+             FIGURE 6.—Pattern of sexuality in Sf>arisoina aurofrenatum {for explanation of format, see
+                                                     Figure 1).
+
+
+
+and smaller females, with no indications of at-                       brighter color elements, thus strongly resembling
+tempted participation in them by any other males.                     initial phase fish, the two can be distinguished on
+   This species was found to be breeding in most                      close inspection. Terminal phase males also have
+months of the year (Table 4) and probably does so                     more heavily built heads than most initial phase
+throughout both main seasons. Females with ovaries                    fish. The color phase ratio, based on two large trawl
+in various states of activity were taken in each of                   collections, and supported by field observations, was
+our collections.                                                      quite equable (Table 1). These two collections also
+  Sparisoma radians.—Randall (1968) provides                          showed a very high degree of intrapopulational
+color illustrations of the two color phases of this                   overlap in the size ranges of the color phases (Fig-
+species. Although it is fully sexually dichromatic,                   ure 8).
+we encounter the same terminological problem as                          Since, in our large sample covering both color
+experienced with Sparisoma chrysopterum: initial                      phases, all the males that we examined proved to
+phase fishes grow to the same size as terminal phase                  be secondary, Sparisoma radians is monadric. The
+males, perhaps even larger than them (see Figures                     few initial phase males encountered were all among
+7, 8; in the two samples collected at Galeta Point                    the smaller size classes of that phase (20-60 mm SL).
+and San Bias the size range of terminal phase indi-                   Only two males with transitional gonads were ob-
+viduals is completely contained in the size range of                  tained, both in the largest size class of initial phase
+the initial phase). For the same reasons as given for                 males (both 63 mm SL). Four small males without
+Sparisoma chrysopterum, however, we retain the                        fully developed terminal colors were also taken.
+color pattern classification. Although terminal                       Although the gonads of terminal phase males were
+phase males evidence temporary fading of their                        slightly heavier than those of initial phase males,
+                                                                                                            SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+10
+
+
+                                                                             SPARISOMA RADIANS
+                                                                                                                                        50
+                                                                                                                                        40
+                       Terminal
+                                                                                                                                        30 N
+                           phase
+
+
+
+                                                                         n
+                                                                                                                                        20
+                           n= 157
+
+
+                       i      i
+
+                            i°S
+                                       i
+                                           _n   i
+
+                                           o o 0 (3 0 0
+                                                        i
+                                                                                    n n„
+                                                                                    0
+                                                                                        i
+
+                                                                                            0
+                                                                                                i   i   i
+                                                                                                                 0
+                                                                                                                                        10
+
+
+
+                            2°6*             9 23 20 12 2                           i       3                     1
+
+
+
+
+             50-                                                                                                        Initial phase
+
+             40-                                                                                                            n = 238
+
+         N   30-                                                                                                            ni = 16
+                                                                rr
+
+             20-
+             10-
+
+                                  0
+                                           —i
+
+                                           0        0       0
+                                                                     J JL i i a i a
+                                                                     D
+                                                                                        i       i   i   i    i
+                                                                                                                 iTil
+
+
+                                   1                5       3        3       2«<J
+
+
+                   0       10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190
+
+                                                                 Standard length (K)mm size classes)
+             FIGURE 7.—Pattern of sexuality in Sparisoma radians (for explanation of format, see Figure 1).
+
+
+
+
+they comprised much less of the total body weight                                           even within large areas of apparently uniform
+(Table 2). They did weigh more, relative to the                                             habitat.
+fish's body weight, however, than the gonads of                                                There were strong indications that some, at least,
+terminal phase males of any other scarids we ex-                                            of the terminal phase males were permanently ter-
+amined. Because of the very low color phase ratio,                                          ritorial, since we repeatedly observed defense of
+the sex ratio was less strongly biased towards                                              small (x = 7 m2, n = 13) areas in the same sites
+females than in any of the other scarid species                                             throughout the day. In the same localities, initial
+(Table 1). Mature females were found among the                                              phase fish and less brightly colored nonterritorial
+smallest individuals collected.                                                             terminal phase fish moved about singly or in small
+   Sparisoma radians was essentially restricted to                                          schools of up to twenty individuals, and were har-
+shallow beds of dense turtle grass and Sargassum,                                           rassed by the territorial males. It also appeared that
+although it also extended into the interfaces be-                                           some of the initial phase individuals remained for
+tween these and hard reef areas. Overall, it was one                                        a long time in small groups within the territories
+of the most abundant species (Table 3). Although                                            of larger terminal phase males.
+we have no specific data, it is our impression that                                            Sexual activity was observed in midafternoons,
+this species tended to form permanent aggregations,                                         most frequently along the sloping outer edges of
+NUMBER 255                                                                                                      11
+
+                 SPARISOMA RADIANS                           would occasionally join in group spawnings, al-
+                                                             though they often tried initially to disrupt them.
+      GALETA POINT                                           For example, we watched the spawning activity of
+      Terminal
+                                                             three territorial males over three days on one
+                                                      -40
+                     nn                               -20
+                                                             spawning ground. The three males pair spawned a
+                                                             total of 29 times, and in 16 of these spawnings suf-
+      n = 103     1~1 I 11 I n    Q ^^                       fered interference by other males. These same three
+                                                             males group spawned 'three times, and six times
+                                    Initial phase            they interfered in neighbor's pair spawnings.
+40-                                                             Sparisoma atomarium.—Superficially, this species
+
+                nnn n
+                                         n = l28
+20-
+                                                             strongly resembles its congener Sparisoma radians:
+                                                             both are small, cryptically colored fish of similar
+                                                             shape that live in association with turtle grass beds.
+                                                             None of the three recent works that describe and
+      SAN BLAS                                               figure parrotfishes (Randall, 1968; Bohlke and-
+                                                             Chaplin, 1968; Chaplin and Scott, 1972) illustrate
+      Terminal
+                                                      -20    or even adequately describe the color patterns of
+       phase
+       pnase              r-i                         -10    S. atomarium. For this reason, we show the main
+                                                             characteristics by which these two sibling species
+       n- 2 5      -nil                                      can be distinguished in the field (see Figure 9).
+                                     Initial phase            Close observation is often needed before decisions
+20-                                                           can be made.
+                                          n = 39
+                                                                 Sparisoma atomarium is fully sexually dichro-
+ 10
+                                                              matic. Terminal phase males can evidence altera-
+      , n n 1 1 PI n r-i •-. ^-                               tion of the intensity of their colors, but evidently
+                                                              do not revert even temporarily to the initial color
+                                                              pattern. The color phase ratio was the second most
+         20 30 40 50 60 70 80 90 100 110 120
+                                                              strongly biased toward the initial phase when com-
+                                                              pared to that of all other species we examined
+            Standard length (lOrnm size classes)
+                                                              (Table 1). There was also very little overlap in the
+FIGURE 8.—Size range overlap between initial and terminal
+phase Sparisoma radians within two local populations; ini-    size ranges of the two color phases within any popu-
+tial phase individuals include both males and females.        lation. In eight separate population collections,
+                                                              totalling 27 terminal phase and 78 initial phase
+                                                              fishes, there were only three instances of overlap,
+grass beds, where the species was found at other               none of more than 4 mm SL.
+times. At such times, territorial terminal phase                 Sparisoma atomarium is monandric, since no
+males became brighter colored and more strongly               primary males were found in the moderate sample
+territorial. There was a general influx into the              of males examined (Figure 10). Males were also rare
+spawning ground by females, which were often fol-             in the initial phase, and apparently restricted to the
+lowed by small groups of initial phase males and               upper end of the size range of that phase. No males
+nonterritorial terminal phase males. Territorial              with transitional gonads were collected. The sample
+males pair spawned with these females. The other              size of initial phase males was too small to allow
+two classes of males group spawned with the                    determination of whether the size of the gonads of
+females. Often, males of both color phases were in             such males differed significantly from those of ter-
+one spawning aggregation. Pair spawnings of terri-             minal phase males (Table 2). The sex ratio was
+ torial males were commonly participated in by one             more strongly biased towards females than in any
+ or more other males of either or both color phases.           other species (Table 1), because both terminal
+ This occurred in 35 of 62 spawnings observed. Ter-            phase and initial phase males were scarce. Mature
+ ritorial males also commonly interfered in the pair           females occurred in the smallest size classes that we
+ spawnings of neighboring territory holders. They              collected.
+                                                                               SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+ 12
+
+                                     INITIAL COLOR PHASE                             TERMINAL COLOR PHASE
+
+                                                                               opalescent
+                                                                                 spot
+
+
+
+
+SPARISOMA
+RADIANS
+
+
+
+
+                   green area including     genital papilla pink              black fin base
+                        fin base
+
+                             body and median fins grey-green                        body and median fins grey-green;
+                                                                                      all shaded areas are black
+
+
+
+
+                                                                                  opalescent
+                                                                                    spot
+
+
+
+
+SPARISOMA
+ATOMARIUM
+
+
+
+
+                   yellow fin base           genital papilla black             dull yellow     light yellow area
+                                                                                 fin base
+
+
+                          body and median fins pink-brown, with                body pink-brown, median fins red; all
+                          three rows of pale opalescent spots                         shaded areas are black
+                                         on belly
+
+                        FIGURE 9.—Distinguishing coloration of Sparisoma radians and S. atomarium.
+
+
+
+
+     Although Sparisoma atomarium was found in                     reached its highest densities, we also saw small feed-
+  dense turtle grass beds, where it mingled with                   ing schools of up to twenty subadult and small
+  S. radians, we more often encountered it in the                  adult intial phase fish. Our collections showed that
+  interfaces between grass and coral reef substrates,              these were all females.
+  where S. radians was much less common. Overall it                   The mating system of S. atomarium resembles
+  was one of the least abundant species (Table 3).                 that of S. aurofrenatum: terminal phase males
+     The social system of this species in many respects            spawn with the females resident in their permanent
+  closely resembles that of Sparisoma aurofrenatum.                territories. Sixty-eight pair spawnings by such ter-
+  The site attachment and numerous agonistic inter-                ritorial males and "their" females were noted, all in
+  actions of the solitary terminal phase males sug-                midafternoons. We also observed one pair spawning
+  gested permanent territoriality. Small groups of                 by a known initial phase male with a female that
+  females appeared to restrict their movement to                   had been responding to an actively courting ter-
+  within the territories of these larger males. In areas           minal phase male. We never saw any behavior that
+  of dense turtle grass stands, where the species                  suggested that group spawning was likely to occur.
+NUMBER 255                                                                                                            13
+
+
+                                              SPARISOMA ATOMARIUM
+
+                                    Terminal
+
+                                     phase                                                    -20
+                                                                   -|
+                                     n = 44
+                                                                                               10
+
+                                               1°<f
+                                                      r, f l
+                                                               0 0
+                                                                         II
+                                                                         0
+                                                                              n     -
+
+
+                                              2•rf         3       18 9
+                          50-
+
+                          40-
+                      N   30-
+                                                         p p
+
+                                                                              Initial phase
+
+                          20                                                       n = 100
+                                                                                  no* = 2
+                          10-
+                                                i              0   0
+                                                               i     1            2°ct
+
+
+
+                                0    10 20 30 40 50 60 70 80 90 100 110
+                                        Standard length (10mm size classes)
+                     FIGURE 10.—Pattern of sexuality in Sparisoma atomarium (for explanation
+                                             of format, see Figure 1).
+
+
+
+   This species spawned throughout the wet season                  tional testes were collected and no secondary males
+and during much of the dry, probably throughout                    were found in the initial phase. Although we ob-
+the year (Table 4). Not all females, however, were                 tained only a small sample of initial phase males,
+continuously producing eggs.                                       their testes were much heavier than those of term-
+   Scarus vetula.—Scarus velula is fully sexually                  inal phase males (Table 2). The single terminal
+dichromatic, with no indication that terminal                      phase primary male's testis was the same size as
+phase males can temporarily lose their characteris-                those of secondary males. The sex ratio was mod-
+tic colors. Randall (1968), Bohlke and Chaplin                     erately biased towards females, mainly due to the
+(1968), and especially Chaplin and Scott (1972) pro-               rarity of initial phase males (Table 1). No mature
+vide color illustrations of the two phases. Initial                females smaller than 140 mm SL were collected.
+phase fish were about four times as common as                         This species was limited to fairly shallow coral
+terminal phase fish (Table 1). The few data we                     reef habitats (Table 3). Typically, we found it
+have show the within-site overlap in the size ranges               along the exposed edges of reefs with heavy sculp-
+of the two phases to be low (two overlaps, one of                  turing and many physical complexities. Even in
+2.4 cm SL, in five collections of six terminal and                 this habitat it was one of the least abundant scarids.
+24 initial phase fish). We occasionally saw, but                      We never saw any indication of long-term school
+could not catch, smaller terminal phase fish.                      formation by any individuals. Initial phase fish
+   This species is diandric (Figure 11). Although                  were found dispersed singly throughout the habitat
+primary males were quite rare, we found them in                    or in small, transient groups of up to half a dozen
+both color phases. No secondary males with transi-                 fish of different sizes. Terminal phase males, which
+14                                                                              SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+
+
+
+                                                   SCARUS VETULA
+                            Terminal
+                             phase                                                                               -10
+                              n = l9
+
+                                                                       n          n r-i f l    n   n      n
+                                                    l°<f       0        0                      o o o o
+                                                    2od*       I        2                      2       1 1 3
+
+         20-
+                                                                                               Initial phase
+
+     N   10-                                                                                         n = l32
+                                                                                                       nd* = 3
+                                                                            i
+                                                                                        2°*
+
+
+                100 110 120 130 140 150 160 170 180 190 200 210 220230240250 260270 280 290 300 310 320
+
+                                            Standard length (10mm size classes)
+               FIGURE 11.—Pattern of sexuality in Scarus vetula (for explanation of format, see Figure 1).
+
+
+usually occured singly, often engaged in aggressive               A major problem confronts our efforts to ex-
+interactions that strongly resembled border encoun-            amine certain population parameters in this
+ters between neighboring territory holders. Thus it            species: the existence of a complex social system
+appears that large terminal phase males hold per-              with significant variation in the composition of the
+manent territories, within which a small group                 different social classes. Ogden and Buckman (1973)
+(3-4) of smaller females lived. Winn and Bardach               first described these distinct behavioral classes.
+(1960) have made a similar suggestion. We also ob-             Warner and Downs (1977) expanded on that work
+served smaller, nonterritorial terminal phase males            by making detailed examination of the composition
+on the peripheries of territories.                             of each social class in terms of its age and sexual
+   We never observed sexual activity by S. vetula,             type. Because the social classes do differ greatly in
+although Randall and Randall (1963) report seeing              composition, it is difficult to sample the population
+a terminal phase male pair spawn. The data are too             for such things as sex ratio without knowing the
+sparse (Table 4) to make any statements about the              proportion of the population that each social class
+seasonality of its breeding.                                   represents. This we have been unable to do, and
+   Scarus croicensis.—This common and widespread               therefore our estimates of initial phase male pro-
+species has been the subject of research on behav-             portions (Table 5) and sex ratio (Table 1) must be
+ioral ecology and sexuality more than any other                considered rough approximations.
+parrotfish, in the Caribbean or elsewhere (Randall                Scarus croicensis is fully and strongly sexually
+and Randall, 1963; Ogden and Buckman, 1973;                    dichromatic, with no evidence that terminal phase
+Buckman and Ogden, 1973; Barlow, 1975; Robert-                 males are capable of temporarily losing their char-
+son et al., 1976; Warner and Downs, 1977). Al-                 acteristic color pattern. Under certain conditions,
+though we have dealt with this species in detail               however, their bright colors can effectively be
+elsewhere, a synopsis is presented here and new                masked and become very dull. Randall (1968),
+information added where relevant.                              Bohlke and Chaplin (1968), and Chaplin and Scott
+NUMBER 255                                                                                                      15
+
+(1972) all contain color illustrations of the two              tional gonads. Two other males with transitional
+phases. The color phase ratio was moderately                   gonads were also collected; both were in the proc-
+biased towards the initial phase (Table 1). At sev-            ess of changing color phase also. The testes of
+eral sites, within-site overlap in the size ranges             primary initial phase males weighed much more,
+of the two phases was very low. A few short ob-                both absolutely and relatively, than those of pri-
+servations on individually recognizable fish indi-             mary or secondary terminal phase males (Table 2;
+cate that natural changeovers from the initial to              see also Warner and Downs, 1977, fig. 4). No
+the terminal coloration can essentially be com-                mature females smaller than 40 mm SL were
+pleted in as little as 10 days.                                collected.
+  Scarus croicensis is diandric (Figure 12), with a               This species was common throughout the coral
+high proportion of primary males in both color                 reef areas that we sampled as well as the interfaces
+phases. Because of differences in the composition              of coral reefs and turtle grass beds or sand areas.
+of social classes, we do not know whether the pro-             Overall, it was the most abundant scarid encoun-
+portion of such males is significantly different in            tered (Table 3).
+each phase. Only one secondary male was found                     Three distinct social classes were recognized by
+among all the initial phase fish collected; this was           Ogden and Buckman (1973): (1) territorial groups,
+a relatively large fish (100 mm SL) with transi-               composed of a terminal phase male and several
+
+
+
+                                               SCARUS      CROICENSIS
+
+
+                              Terminal                                                              50
+                                phase                                                               -40
+                                n=l66                               - i                             -30 N
+                                                                                                    -20
+
+
+
+                                               mnn
+                                                                                                     10
+                                          ~l                              n l~l PI ^ „
+                                    \°6    1       9   4   6    13 II     2     2       0   0   0
+                                          4        2   8 24 32 19         1 4           6   2   2
+
+                      50-
+                      40-                                                     Initial phase
+
+                   N 30-
+                      20-                 -
+                                          P1
+                                                                                    n = 231
+                                                                                    no1 = 5 6
+
+
+                             ,, ra-JihlL 1
+                       10-
+
+
+                                1    5    4    16 23 6     0                   I O <J
+                                0     0   0    0   0   0                      2-6
+
+
+                               40 50 60 70 80 90 100 110 120 130 140 150 160 170
+
+                                           Standard length (10mm size classes)
+                  FIGURE 12.—Pattern of sexuality in Scarus croicensis (for explanation of format, see
+                                                      Figure 1).
+16                                                                   SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+
+
+females, all of which defend a common area (al-          was too small a sample to determine if the species
+though Ogden and Buckman noted a few males               is monandric or diandric.
+among the territorial initial phase fish they col-          Our only observations of S. taeniopterus occurred
+lected, all 119 initial phase fish that we collected     on a few occasions in 5-15 meters of water on the
+from harem groups were females); (2) foraging            outer slopes of reefs with heavy coral growth. The
+groups or feeding schools composed of hundreds           fish were observed singly, with each terminal phase
+of fishes of both color phases, and containing many      male overlapping several females in its range of
+initial phase primary males; (3) small stationary        movement. This indicates that a harem system may
+groups, with a composition similar to that of for-       exist, similar to that of S. croicensis.
+aging groups. Evidently, there is also considerable
+movement of individuals between these classes.
+                                                                             Discussion
+    Permanently territorial terminal phase males
+pair spawned in their territories, with the females         GENERAL LIFE HISTORY PATTERNS.—In Warner
+of their groups and with other females that wan-         and Robertson (1978), we have discussed how we
+dered past. We often saw group spawnings by              construct life history patterns from the structure
+small clusters of initial phase males, as well as        of our samples. In that paper is given further
+satellite males of both color phases participating       information on the assumptions involved in this
+in the pair spawnings of territorial terminal phase      procedure and the sample structures that we con-
+males. We also noted a few pair spawnings by             sidered would indicate a particular pattern.
+ initial phase males. The initial phase male aggre-         The patterns of sex and coloration among the
+gations in which group spawnings occurred were           Caribbean parrotfish are obviously complex. Are
+small and not found as commonly as were those            there any instructive generalizations that we might
+ of some other labroids (see Warner and Robertson,       draw from the results given above?
+ 1978). Considerable amounts of aggression were             Two major differences on the subfamily level are
+directed at such male aggregations by the territo-       apparent, as well as several minor ones. First, pri-
+ rial terminal phase males. Spawning occurred be-        mary males are present in the Scarinae and absent
+ tween midday and late afternoon, on the outer           in the Sparisomatinae (which includes Cryptoto-
+ edges of reefs. Whether some terminal phase males       mus and Sparisoma). There are enough similarities
+ set up temporary spawning territories only for the      between the subfamilies in terms of small male
+duration of a spawning period is not clear, al-          distribution, behavior, and gonad weight to indi-
+ though Barlow (1975) made such an observation           cate that the small secondary males of the spari-
+ elsewhere in the Caribbean.                             somatines function much as do the small primary
+    Breeding took place throughout the year (Table       males in the scarinines. The only scarinine species
+ 4), although not all females were continuously          in which primary males are known to be absent
+ producing ripe eggs over that period.                   is an Indo-Pacific species, Scarus niger. It is sex-
+                                                         ually monochromatic, while the other eight species
+    Scarus taeniopterus.—The two color phases of
+                                                         dealt with in detail by Choat and Robertson (1975)
+ this species, which strongly resemble those of Scarus
+                                                         are both dichromatic and diandric.
+ croicensis, have been well described (see Randall,
+ 1968; Bohlke and Chaplin, 1968; Chaplin and                Secondly, prematurational sex change appears
+                                                         common in the Sparisomatinae. Although individ-
+ Scott, 1972). It is fully sexually dichromatic, as
+                                                         uals that change sex before maturity spend their
+ far as we can tell, and terminal phase males do
+                                                         adult lives as males, and are thus functionally anal-
+ not appear to be capable of temporary reversion
+                                                         ogous to primary males, their gonads are definitely
+ to the initial coloration. Reinboth (1968) showed       derived from ovaries. This suggests there has been
+  that this species was protogynous. We collected        a development of secondary gonochorism in these
+ few individuals of this species, which was rare in      species, which may have lost their primary males
+ our study area. The six terminal phase males that        in the evolutionary past. Very small secondary
+ we did collect, (215-265 mm SL) were secondary,          males are found in three species of Sparisoma (S.
+ and had small testes (Table 2). The 10 initial           rubripinne, S. chrysopterum, and S. viride) and
+ phase fish (173-200 mm SL) were all females. This       probably occur in several others.
+NUMBER 255                                                                                               17
+
+   This consistent pattern of primary male scari-        a greater share of the fertilization of the eggs of
+nines versus early sex-changed sparisomatines ap-        the female(s) present in the group.
+parently does not hold outside the Caribbean.              In the Caribbean scarids, the same pattern of
+Choat and Robertson (1975) found prematura-             gonad weight differences exists as in the labrids.
+tionally sex-changed males in four of the nine          Small testes were present in the terminal phase
+Indo-Pacific scarinine species they examined in         males of all species except Sparisoma radians. All
+detail.                                                 initial phase males had large testes relative to body
+   The Caribbean scarinines have a common,              weight. This was particularly marked in Sparisoma
+straightforward life history pattern. All females       rubripinne, S. viride, S. aurofrenatum, Scarus
+appear to change sex if they live long enough;          vetula and S. croicensis.
+sex change usually occurs over a small size range,         Overall, these data agree with what we know
+and is accompanied by color change. Primary             of the spawning patterns of the individual scarid
+males change from initial to terminal coloration        species. We have observed pair spawning by the
+within this same small size range (however, see         terminal phase males of all species except Scarus
+Choat and Robertson, 1975, for other scarinine           taeniopterus. Group spawning by the initial phase
+patterns).                                              males of Sparisoma rubripinne and Scarus croicen-
+   In contrast, the sparisomatinines show a bewil-      sis is also known to occur.
+dering array of patterns, often within a single spe-       The pattern in Sparisoma radians also offers
+cies. In species that have temporarily territorial      support for the hypothesis. In this species, both
+males, there are broad size overlaps in both sex        initial and terminal phase males (territorials in-
+and color phases. Some females do not appear to         cluded) commonly participate in multimale spawn-
+change sex at all. This was common in Sparisoma         ings and both have large testes. The testes of ter-
+chrysopterum and S. radians, and may also occur         minal phase males of this species are relatively
+in S. viride and S. rubripinne. The latter species      smaller than those of conspecific initial phase
+may also have males that retain initial coloration      males, but relatively larger than those of terminal
+through to maximum size.                                phase males of the other species we examined. This
+   Sparisoma aurofrenatum and S. atomarium, the         agrees with the observation that in S. radians,
+most strictly haremic species, show a pattern of        the terminal phase males are involved in multimale
+sex change reminiscent of that of the scarinines.       spawnings far more commonly than are terminal
+All females probably change sex, there are few          phase males of other species.
+initial phase males, and the size differential be-         Sparisoma rubripinne presents a particularly
+tween initial and terminal phase fishes is usually      striking pattern in regard to differences in testis
+quite distinct. Further on, we discuss the reasons      size: the testes of initial phase males increase in
+for this consistent pattern in haremic species.         size dramatically after 200 mm SL (Figure 3). The
+  TESTIS SIZE IN RELATION TO SPAWNING STRATE-           reason for this increase remains obscure. Warner
+GIES.—In Warner and Robertson (1978) we have            and Downs (1977) have considered the interactions
+discussed the hypothesis proposed by Robertson          between the expenditures of energy on growth and
+and Choat (1974) and Choat and Robertson (1975)         gamete production in different sexual identities of
+to account for consistent, and often radical, differ-   Scarus croicensis. Primary males appear to channel
+ences in the size of the gonads of the males of the     more energy into growth than hermaphrodites of
+two color phases of certain dichromatic labroids.       the same age. This may enable them to bypass a
+The hypothesis states that since males of the two       relatively unproductive "small male" phase and
+phases have different spawning strategies (group        become larger, terminal phase males more quickly.
+spawning and other multimale forms by initial           Perhaps an analogous situation exists within the
+phase males, and single-male spawnings by termi-        small initial phase males of Sp. rubripinne: energy
+nal phase males), selection has favored the devel-      is channeled into growth until a reproductively
+opment of larger testes in initial phase males. In      profitable size is reached, and only then is energy
+a spawning involving more than one male, in-            devoted to increasing gonad size. Such rapid in-
+creased sperm production gives an individual male       creases in gonad weight did not occur in the other
+18                                                                   SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+
+
+labroid species we studied, which points out the        such large populations lead to greater opportunities
+need for a thorough study of the social and mating      for successful meddling by initial phase males.
+system of this species.                                 Accordingly, initial phase males are common in
+  One final point deserves mention: in all the          large populations and rare in small ones (Warner,
+parrotfish we studied, both sex-changed males and       Robertson, and Leigh, 1975).
+primary males had large testes while in the initial        Robertson and Choat (1974) and Choat and
+phase, and relatively small testes while in the ter-    Robertson (1975) also examined the effect of inter-
+minal phase. In other words, testicular ontogeny        specific differences in the structure of social and
+has little or no effect on testis size. This we also    mating systems on the ability of territorial males to
+found to be true in the wrasses (Warner and Robert-     reduce the level of interference by nonterritorial
+son, 1978).                                             males in their spawning. They suggested that in
+  SOCIAL SYSTEMS, MATING SYSTEMS, AND THE SUC-          species in which males hold only temporary repro-
+CESS OF DIFFERENT MATING STRATEGIES.—Perspective:       ductive territories the anonymity of the individual
+In the first of these two papers (Warner and Robert-    may facilitate an interference strategy. In species
+son, 1978), we examined the sexuality of nine lab-      with strictly haremic social systems, in which males
+rids in the light of our previous discussions of the    are permanently territorial, harem males could
+evolution of protogyny and the coexistence of dif-      indentify potential intruders and effectively elimi-
+ferent sexual genotypes (Warner, Robertson, and         nate the possibility of spawning interference. Few
+Leigh, 1975; Warner, 1975a; Robertson and Choat,        or no small males would be expected in such species.
+1974; Choat and Robertson, 1975). We wanted to             Haremic Species: Among the Carribbean scarids,
+see if there was any necessity to discard, modify, or   there do not appear to be any species that combine
+expand these ideas. Apart from two species for          sexual monochromatism, monandry, and strictly
+which sufficient information was not available          haremic social and mating systems. In species with
+(unfortunately so, since the structure of their popu-   these features (e.g., the labrid Labroides dimidiatus,
+lations promises to be quite different from those       see Robertson and Choat, 1974) the male mates
+of the other species), only one, Clepticus parrae,      only with the females of his permanent harem.
+did not fit easily into the expected general pattern.   All members of the population live in such harems,
+We discussed how C. parrae's atypical pattern of        and there is no evidence of any males employing a
+sexuality might be related to its atypical (for a       strategy of interference in the spawning activities
+labrid) ecology and spawning behavior. How do the       of territorial males. Most of the scarids we examined
+scarids fit into the predicted patterns?                (Sparisoma aurofrenatum, S. radians, S. atomarium,
+   Protogyny is likely to evolve in species in which    the three Scarus species, and possibly Cryptotomus
+sexual selection is acting (Warner, Robertson, and      roseus) apparently do form harem groups. However,
+Leigh, 1975). We have argued that dichotomous           they are dichromatic and initial phase males are
+male mating strategies are possible when strong         present that have been shown (in some species) to
+sexual selection and sex change have led to an          interfere in the spawning of terminal phase males.
+abundance of females relative to the number of
+terminal phase males. Territorial terminal phase           Choat and Robertson (1975) relate the sexual
+males pair spawn with females, and initial phase        monochromatism of species of the Labroides di-
+males employ several mating strategies that depend      midiatus type to the pattern of virtually all mating
+on interfering with the pair spawning of these ter-     being within a permanent group: there is, there-
+ritorial males. They may move unnoticed into            fore, no selection for a distinctive color pattern
+territories and steal pair spawnings or participate     that serves to attract females during spawning
+in them as streakers. When present in large num-        periods. Robertson and Hoffman (in press) amplify
+bers, they often intercept females enroute to a         this argument.
+territorial male and induce them to group spawn.           In Scarus croicensis, where the populations are
+Larger populations can have more skewed color           quite dense, haremic terminal phase males have
+phase ratios than small populations of the same         both intra- and extraharemic matings. Some males
+species (Warner, Robertson, and Leigh, 1975). The       also establish temporary spawning territories. This
+relatively greater numbers of females present in        puts a premium on attracting females and could
+NUMBER 255                                                                                                 19
+
+account for the development of sexual dichromatism       radians by a combination of small territory sizes,
+in this species.                                         abundant sea grass cover and cryptic coloration of
+   In S. croicensis, harem groups constitute large       the nonterritorial males. This allows nonharemic
+proportions of the populations we studied. On some       males to enter or hide very close to a territory, and
+reefs, there were also large numbers of nonharemic       only a short dash is necessary to join a spawning.
+individuals. They apparently could not hold terri-       The same factors also facilitate the streaking of
+ tories because the number of sites available was        neighbors' pair spawnings by territorial males. In
+limited. These individuals employed an alternative       Scarus croicensis, territories are much larger and
+strategy: swamping territory holders (see Robert-        coral does not provide the same kind of cover.
+son, et al., 1976). Individual initial phase males are       We have no direct information on the frequen-
+probably excluded from harems by terminal phase          cies of group spawning in either species, although
+males but can still gain food in the harem's territory   neither formed large nonterritorial male aggrega-
+by feeding en masse. The large groups also contain        tions of the Thalassoma bifasciatum type (see
+unattached females, which form a source of extra-        Warner, Robertson, and Leigh, 1975). We think
+haremic matings for the harem male. This situation       that the high frequency of multimale spawning
+further facilitates the intrusion of identically colored in Sparisoma radians raises the potential fertility
+initial phase males into the harem territory and         of small males, which means that more such males
+their interference in spawnings.                         can exist in the population (Warner, Robertson,
+   Of the remaining harem-forming scarids, Spari-        and Leigh, 1975). A lack of a pronounced mating
+soma radians is similar to Scarus croicensis in having hierarchy among the males and high mating success
+a large nonharemic segment in the population.            of initial phase males would also explain why the
+Group spawning regularly occurs in both as well.         non-sex-changing female morph exists. In the ab-
+Not surprisingly, there are high proportions of          sence of a significant fertility differential between
+initial phase males in this species. Despite these       females and males at all sizes, there would be no
+similarities between Sparisoma radians and Scarus        selection to eliminate non-sex-changing females in
+croicensis, several significant differences exist be-    favor of sex-changing types (see Warner, 1975a).
+tween them that reflect the interaction of habitat       Even if the reproductive success of large males was
+type, social system, and sex change: (1) the size        higher than that of equivalent sized females, this
+overlap of the two color phases is high in Sparisoma     could be offset by higher mortality rates on such
+radians and low in Scarus croicensis, and there is       males; i.e., the average lifetime fecundity of a
+a higher proportion of terminal phase fish in the        female could equal that of a larger, but shorter-
+former than in the latter; (2) females of the non-sex-   lived male or hermaphrodite. The brighter colors
+changing types (primary females) are strongly rep-       and exposed activity during spawning time of ter-
+resented in Sparisoma radians but absent in Scarus       minal phase males could make them more vulner-
+croicensis because females grow to much smaller          able to predation and thus bring about such differ-
+relative size in the latter species (Figures 7 and 12);  ential mortality rates.
+(3) haremic terminal phase males of Scarus croicensis        In other species (Sparisoma aurofrenatum, Spari-
+tend only to pair spawn, while those of Sparisoma        soma atomarium, Scarus vetula, and probably Scarus
+radians commonly participate in both single and          taeniopterus), there is little or no evidence of the
+multimale spawnings; (4)finally,while in Sparisoma occurrence of nonharemic females and no indica-
+radians there is a class of nonterritorial terminal      tions of the occurrence of group spawning. This
+phase fish that employ the same interference spawn-      latter group also contains very few initial phase
+ing strategy as initial phase males, there is no evi-    males (Figures 6, 10, and 11). Although the only
+dence of such a class in Scarus croicensis (some         spawning interference by initial phase males that
+observations suggest that nonterritorial terminal        we saw was in Sparisoma atomarium, the large testis
+phase males of Scarus croicensis may not be breed- size of initial phase males of Sparisoma aurofre-
+ing: feeding schools of such males have been ob-         natum and Scarus vetula (Table 1) indicate to us
+served to be indifferent to the spawning activity of     that they also use an interference strategy.
+nearby territorial terminal phase males). Interfer-         We reasoned above that the occurrence of extra-
+ence in spawning is greatly facilitated in Sparisoma     haremic matings enables initial phase males to
+                                                                     SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+20
+
+interfere in harem males' spawnings. For two rea-        having primary females. However, the pattern in
+sons, we think that extraharemic spawnings are           Sparisoma chrysopterum is not as easily explained.
+uncommon in Sparisoma atomarium, Sparisoma               The abundance of terminal phase males and pro-
+aurofrenatum, and Scarus vetula: (1) the non-            nounced size overlap of the two phases suggest that
+haremic segment of the population appears quite          average fertility differentials between terminal phase
+small and thus few "extra" females are probably          males and females are probably small. There is
+available; (2) the equable color phase ratios of         no indication that multimale spawning is the pre-
+Sparisoma aurofrenatum and Scarus vetula indicate        dominant mode in Sparisoma chrysopterum, even
+that terminal phase males have only small harems         though it is not haremic. It is a large species that
+and thus can exert high levels of control over their     does not spawn in small territories in dense grass
+females. A low frequency of extraharemic matings         beds like Sparisoma radians. Thus conditions highly
+would reduce the chances for initial phase males         favorable to interference in pair spawnings are
+to interfere. In species where the harems are char-      absent. Interference seems unlikely as a factor
+acteristically small, the loss of a single spawning is   diminishing the strength of a mating hierarchy of
+significant to the dominant male, and strong at-         terminal phase males. A thorough study of the mat-
+tempts to prevent them would be expected. This           ing system of this species is sorely needed.
+further lowers the probability of spawning success         Additional Factors: In Warner and Robertson
+for initial phase males. Since the proportion of         (1978) we showed that the labrids with lek-type
+initial phase males in a population depends on their     mating systems and large dense populations had the
+expected reproductive success (Warner, Robertson,        highest proportions of males in the initial phase.
+and Leigh, 1975), we would expect few such males         We reasoned that this resulted from a mating sys-
+in these three species (Table 5). This does not rule     tem based on strong sexual selection. In sex-chang-
+out the possibility that elsewhere in their geo-         ing species, this tends to bias the sex ratio heavily
+graphic ranges these species could be more abun-         towards females and promotes the development of
+dant, with greater spawning opportunities for ini-       an alternative (interference) spawning strategy (see
+tial phase males.                                        Warner, Robertson, and Leigh, 1975).
+   Nonharemic Species: Three of the remaining               The connection between high population levels
+species, Cryptotomus roseus, Sparisoma rubripinne        and lek-type mating systems is not as strongly de-
+and Sparisoma viride, fit the expected general pat-      veloped in the parrotfishes, probably because of a
+ tern reasonably well. They lack strong harem            more stable and predictable food supply (see below).
+forming tendencies and have an abundance of              Also, actual population densities are probably a less
+initial phase males. Initial phase males have been       reliable indicator of relative ability to form leks in
+seen spawning in two of the three species. The abun-     the parrotfishes than in the wrasses. Labrid species
+dance of females relative to the number of terminal      tend to be uniformly smaller in size than most
+phase males (Table 1) suggests that suitable condi-      parrotfishes, and so abundance measures may cor-
+tions for the initial phase male strategy are present.   relate well with the number of individuals that
+Quite distinct differences occur in the structure of     gather for spawning. But the large parrotfish species
+initial phase male populations of Sparisoma rubri-       (such as Sparisoma rubripinne and Sparisoma viride)
+pinne and Sparisoma viride, however. Males occur         would be able to move much larger distances than
+among all size classes of initial phase fish in Spari-   small species such as Sparisoma radians or Sparisoma
+soma rubripinne, but are restricted to the smaller       atomarium. This could explain the poor correlation
+classes in Sparisoma viride. (Sparisoma radians is       between population density and frequency of initial
+similar to Sparisoma viride in this respect.) Why        phase males among the scarids (Table 5).
+this is so we cannot say.                                   The mating system, however, remains as a fairly
+   The remaining species, Sparisoma chrysopterum,        dependable predictor of initial phase male success.
+shows a great deal of similarity to Sparisoma radians    All species that have strongly developed haremic
+in (1) having the highest proportions of terminal        mating systems have very low proportions of initial
+phase males; (2) having large intrapopulational size     phase males (Table 5). Large, mobile species that
+overlaps of the color phases; and (3) apparently         lack permanent territoriality tend to have many
+ NUMBER 255                                                                                                   21
+
+ initial phase males (e.g., Sparisoma viricle, Sparisoma   with social factors playing a major part, in many
+ rubripinne). In Scarus croicensis, population density     of the species that we have dealt with here. In a
+ may play a major role. Territoriality is observed in      strictly haremic species, such as L. dimidiatus, the
+ both males and females (Buckman and Ogden, 1973),         cue that triggers female's sex change is simple and
+ but population density is high enough that many           clear: the death of the harem male releases the
+ individuals are not site attached and feed in large       largest female from his aggressive domination (Rob-
+ schools, swamping the territory owners (Robertson         ertson, 1972). In species in which social relationships
+ et al, 1976). Females from these schools participate      are not so precisely defined, however, factors lead-
+ in spawnings with territorial males, and this facili-     ing to sex and color change are probably more
+ tates interference spawning by initial phase males        complex. It is quite possible that the large size
+ (described in greater detail above).                      overlap in sex and coloration types in some species
+    Throughout these two discussions of labroid sex-       is evidence of a lack of precise and effective mecha-
+ uality we have borne in mind the very real possi-         nism relating cues to actual sex change. If fecundity
+ bility that numerous sexual types can continue to         differentials between males and females are not
+ coexist within a single species because different         large, as may well be the case in species such as
+ types are successful in different habitats. Consider,     Sparisoma radians, the decline in reproductive out-
+ for example, the situation in the labrid Thalassoma       put due to an imprecisely timed sex change would
+ bifasciatum, which we described in detail elsewhere       be smaller than in a species with a larger fecundity
+ (Warner, Robertson, and Leigh, 1975; Warner and           differential. Size range overlaps should therefore be
+ Robertson, 1978). Terminal phase males are success-       relatively large in species of the former type. In the
+ ful in small populations and initial phase males          more strongly haremic species, the penalties are
+have greater success in large populations. Plank-          probably more severe for imprecise timing because
+tonic larval dispersal continually redistributes all       of the ability of harem males to control outside
+types to all habitats, and a polymorphism of sexual        males. It is in this type of species that sex and
+types could be maintained from a mosaic of local           color phase size range overlaps should be small.
+population effects. The composition of sexual types        Examples include Sparisoma aurofrenatum, Spari-
+in a sample population may reflect the overall com-        soma atomarium, Scarus vetula, and Scarus croi-
+position of populations within the area of larval          censis.
+dispersal, rather than a local selective equilibrium.         One final point deserves mention. We have
+Thus we should not necessarily expect significant          spoken of the social and mating system in each
+reproductive success of a particular sexual type in        species as the primary factor shaping the patterns
+a local population chosen at random.                       of sexuality. Although social systems are certainly
+   This may be the explanation for the confusing           the proximate cause of those patterns, social sys-
+patterns of such species as Sparisoma chrysopterum         tems are in turn controlled by the distribution in
+and Sparisoma rubripinne. Rather than seeking a            space and time of the basic resources of food and
+selective advantage for initial phase males in low         shelter. We believe that this is reflected in a major
+density populations, perhaps we should look else-          difference between the scarids and labrids: dichro-
+where in the Caribbean for locales that support            matic, haremic species are much more common
+larger numbers of the species in question. At such         among the parrotfishes. Scarids are herbivores and
+sites initial phase male success may compensate for        labrids carnivores. Benthic algal resources may be
+failures elsewhere.                                        more predictably available over a small area than
+   Social control of sex change has been demon-            benthic invertebrates or plankton. This would both
+strated in two species of labrids, Labroides dimidi-       encourage the defense of algal resources by a parrot-
+atus (Robertson, 1972), and Thalassoma bifascialum         fish and enable it to provide itself with an assured
+(see Warner, Robertson, and Leigh, 1975; D. R.             supply of food in an area of defendable size (see
+Robertson, unpublished data). In the latter, a color       Schoener, 1968). Permanent feeding territoriality
+phase change often accompanies sex change. We              may thus have permitted the development of
+have no reason to doubt that the timing of sex             haremic systems (Robertson and Hoffman, in press).
+and/or color change is not controlled externally,          Investigations of the relationships between basic
+22                                                                   SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+
+
+resources and social structure are badly needed,        be kept to a practical minimum and be as straight-
+and provide an opportunity for further research.        forward and self-explanatory as possible. Thought
+   As our appreciation of the complexity of the         and discussion should be given to the evolutionary
+reproductive biology of this group expands so does      sources and functions of the types of variations
+the realization that a continuum of types probably      encountered rather than mere classification of them.
+exists between the extreme states of whatever attri-       In these two papers we have briefly surveyed
+bute we care to examine (e.g., spawning patterns).      many species; the depth of our understanding of
+In addition to classifying species in terms of the      them is limited by a lack of comprehensive informa-
+sexual types present, we suggest that they should       tion. More detailed studies will undoubtedly alter
+also be categorized as to (1) whether or not they are   our perspective, but we think it is likely that the
+sexually dichromatic, and (2) whether males are         comprehensive (and often highly speculative) argu-
+present in both color phases of a dichromatic           ments that we have proposed will stand in sub-
+species. This is necessary because males in each        stance. They have been supported by the compara-
+phase are employing radically different spawning        tive tests to which we subjected them. The exceptions
+strategies. In Table 6, we show the range of sexual     have proved especially instructive in pointing out
+types found thus far in the labroid fishes. Although    the conditions under which various mating systems
+it is useful to have reasonably precise terminology     can operate, and in turn what life history patterns
+that facilitates distinguishing major trends, we feel   can result. We have become particularly aware of
+that there is little value in much greater prolifera-   the complexity of alternative solutions that are
+tion of verbiage. We suggest that the terms should      potentially available.
+                                      Appendix
+
+                                            Tables
+TABLE 1.—Color phase ratios and estimated adult sex ratios of nine species
+of Caribbean scarids (color phase data obtained by tallying the coloration
+of individuals encountered in a series of 10 minute swims in suitable habi-
+tats; overall sex ratio calculated from color phase ratio and initial phase
+sex ratio, the latter data from our collections)
+   Species                Number      Total number                 Color phase r a t i o               Sex r a t i o
+                         of counts   of Individuals
+                                     from a l l counts    Terminal phase:1n1tial phase                     *:»
+
+
+Cryptotomus
+                                10          182                           1 "7 3
+
+Sparisoma
+  rubripinne                    27         989                            1:4.0                           1:1.4
+
+Sparisoma
+  chrysopterum . . . .          40         924                            1:2.1                           1:1.7
+
+Sparisoma
+                                20         1109                           1-4 4                           1-2 4
+Sparisoma
+  aurofrenatum . . . .          31         1147                           1:3.1                           1:2.8
+
+Sparisoma
+  radians                        3          295                           1:1.3                           1:1.04
+
+Sparisoma
+  atomarium                      8          355                           1:6.9                           1:5.7
+
+Scarus
+                                12          284                           1-3 7                           1-3 3
+
+Scarus
+  croicensis                    21         7371                           1:5.9                           1:4.5
+
+
+
+
+TABLE 2.—Testes weights of 10 species of Caribbean parrotfishes, individuals
+classified according to coloration and sexual ontogeny (the mean and its
+95% confidence interval shown for both absolute testes weights and testes
+weights relative to body weight; this relative weight may be read as
+percent of body weight; all secondary males used in this tabulation showed
+posttransitional gonads)
+                                                  PHwry    rales                             Secondary males
+
+                                         Gonad weight     GU/BH i 100                Gonad w i g h t   GW/BH x 100
+                                             (g)           (percent)                     (g)            (percent)
+
+
+
+
+                         term
+
+                         init
+
+
+
+
+Sparisoma
+  atomarium                                                                                 • 0.003
+
+                                                                                            • 0.46
+
+                                                                                              0.02     0.15 • 0.03
+
+                                                                                              0.11     0.05 • 0.03
+
+
+
+                                                  23
+                                                                                                                                      SMITHSONIAN CONTRIBUTIONS TO ZOOLOGY
+24
+
+
+
+
+                                        TABLE 3.—Relative abundance of 10 species of Caribbean parrotfishes meas-
+                                        ured by habitat (numbers represent fish seen per 10 minutes by observer
+                                        swiming along a horizontal transect; these transects were run at the surface
+                                        for the first two habitats and along a series of depth profiles for the hard
+                                        reef)
+                                                                                                                           Hard reef depth profiles (n)
+                                             Species                  Sessile           Turtle
+                                                                                         grass          < 3     3-6          6-9       9-12         12-15        15-18
+
+                                         Scarus
+                                           croicensis                                               33.0        23.6        23.0       26.3          28.8         31.5
+
+                                         Sparisoaa
+                                           radians                     31.8              33.6           0.03     0.02        0.03
+
+                                         Sparisonia
+                                           viride                                                       8.8      6.3         4.6         5.2          4.4          3.9
+
+                                         SparisoM
+                                           aurofrenatua                                                 4.0      5.5         4.9         4.6          4.4          4.2
+
+                                         Sparisoaa
+                                           rubripinne                   5.0                             3.1      2.4         2.6         2.8          2.7          4.8
+
+                                         Sparisona
+                                                                                          5.5           1.2          .03     0.4                                   0.1
+
+                                         Sparisoaa
+
+
+                                         Scarus
+                                           vetula                                                       1.7      0.8         1.0         0.1          0.2
+
+                                         Cryptotoaus
+                                           roseus                                         2.3
+
+                                         Total sampling runs            5                26         32          29          16           8            4            2
+                                         Total sampling                50               260        380         410         205         95            65           85
+                                           •Inutes
+
+
+
+
+TABLE 4.—Breeding seasonally in 10 species of Caribbean                                                        TABLE 5.—Rank order of abundance within a common habi-
+parrotfishes (+ = male sexual displays observed; + + =                                                         tat, male proportion of initial color phase, and type of
+spawning and male sexual displays observed, or ripe females                                                    mating system for nine species of Caribbean parrotfishes
+collected; nd = no data available)
+                                                                                                                 Habitat/Species                   Rank order      Male proportion      Prescence of hareaic
+                              Dry season                            Wet season                                                                    of abundance       of i n i t i a l      mating system
+                                                                                                                                                                     color phase
+     Species            Jan   Feb Mar Apr May Jun              Jul    Aug Sep      Oct        Nov Dec
+
+
+ Cryptotoaus                                                                                                     Sparisoaa radians                     1                 .06                 partial
+   roseus               • + • + • + + + + + • +
+ Sparisoaa                                                                                                       Sparisoaa chrysopterua ..             2                 .05                 absent
+   rubripinne . . . .                                                 ++      nd   nd         nd   ++
+ Sparisoaa                                                                                                       Sparisoaa atoaariun                   3                 .02                 strong
+   chrysopteruw..       ++    +    + + + + + +          +4     nd      nd     nd                                 Cryptotoaus roseus . . . . . .        4                                     absent?
+                                                                                                                                                                         .10
+ Sparisoaa
+                                                               nd
+Sparisoaa                                                                                                      Hard reef substrates
+  aurofrenatua..        + • + + + + + + + + + +                nd     •4      ++
+Sparisoaa                                                                                                        Scarus croicensis                     1                 .24                 partial
+  radians               ++++       -f+       + + • + + +       ••                  +•         •+   +•
+Sparisoma                                                                                                        Sparisoaa viride                      2                 .13                 absent
+  atoaarfua             nd    nd     + + • + + + + +                                                             Sparisoaa aurofrenatua ..             3                 .02                 strong
+Scarus
+  vetula                ••    nd   *+      nd    nd     nd     nd      nd     nd   nd         nd   nd            Sparisoma rubripinne....              4                 .21                 absent
+Scarus
+  croicensis . . . .    + + + + • • + + + • + +                       ++      •+                                 Scarus vetula                         5                 .02                 strong
+NUMBER 255                                                                                                                     25
+
+
+
+
+             TABLE 6.—Summary of major features of sex and coloration found in 37
+             species of labroid fishes grouped by families (status: T.P. = terminal phase,
+             I.P. = initial phase, 1° = primary, 2° = secondary, Premat = prematiirational;
+             occurence: P = present, A = absent, C = common (more than 10% of stated
+             color phase), U = uncommon (less than 10% of stated color phase), ? = data
+                                      inadequate for firm statement)
+                                                                            Pre-
+
+
+             Species                       T.P.   IV       2V    IV    2V   2V      S         Authority
+             LABRIOAE
+              Bodianus rufus                                                             Warner and Robertson    1978
+                                             P     f       U                                                    m.
+
+              Coris lulls                    P     A       U      C     C     A     p?   Reinboth, 1975
+              Hemipterinotus novacula        f     A?      A?     A?    C     A     p?   Reinboth, 1975
+              Halichoeres biv1 t u t u s     P     C       U      C     C     A     A    Warner and Robertson    1978
+              H. dispilus                                                                Reinboth. 1975
+              H. qarnoti                     P     A       u                                                    , 1978
+                                             P     U       u      C     C     A     A    Warner and Robertson . 1978
+              H poecilopterus                P     f       p      A?    C           A?   Reinboth, 1975
+              H. poeyi                       P     U       c      U     C     A?    A?   Warner and Robertson , 1978
+              H. pictus                      P     I       u      C     C     A     A    Warner and Robertson , 1978
+                                                                                         Robertson, 1972
+                                                                                    A?   Diener, 1976
+              Pimelometopon pulchrum         P     f       u      A     C     A     A    Warner, 1975b
+              Thalassona bifasciatux         9     c       u                                                      , 1978
+                                             P     F       ?      P     P                K. Heyer, pers. COB
+              T. lucasanun                   P     F       A      C     C     A     A    Warner and H o f f n n , pers. com.
+                                             P     f       A?     P?    c     A     A    Robertson and Choat. 1974
+
+             SCARIDAE
+              CrvDtotonus roseus             P     /       C      A     c     P?    A?   [this paper]
+              Scams croicensis               P             U      C     c     A     A    [this paper]
+                                             P     (       A?     C     c     P     A    Choat and Robertson, 1975
+              S. fonusus                     P     i       ?      U     c     A?    A    Choat and Robertson, 1975
+              S. forsteri                    P     (       1      C     c     P     1    Choat and Robertson, 1975
+              S. qlobiceps                   P     {       A?     C     c     P     i    Choat and Robertson. 1975
+              S. lunula                      P     1       A      U     c     A?    A?   Choat and Robertson, 1975
+              S. niqer                       A     /       P      A     A     A     A    Choat and Robertson, 1975
+              S. sexvittatus                 P     1       A?     U     C     P     A?   Choat and Robertson, 1975
+                                             P              A?    U     c           A    Choat and Robertson 1975
+                                             P         )    P           c      P    A?   Choat and Robertson 1975
+                                             P             A      U     c      A    A    [this paper]
+              SparisoM atomarium             p         \   U      A     c      A    A?   [this paper]
+              S. aurofrenatun                P         t   U      A     c      A    A    [this paper]
+                                             P         I    U     A     c      P    P    [this paper]
+              S. radians                     P         I    U     A     c      P?   P    [this paper]
+                                             P         »   C      A     c      P    P?   [this paper]
+              S. viride                      P         K   C      A     c      P         [this paper]
+                                                Literature Cited
+
+Barlow, G. W.                                                           1968.  Protogynie bei Papageifischen (Scaridae). Zeitschrift
+  1975. On the Sociobiology of Four Puerto Rican Parrot-                       fiir Naturforschung, series b, 23:852-855.
+          fishes (Scaridae). Marine Biology, 33:281-293.                1975. Spontaneous and Hormone-induced Sex-Inversion in
+Bdhlke, J. E., and C.C.G. Chaplin                                              Wrasses (Labridae). Pubblicazioni delta Stazione
+  1968. Fishes of the Bahamas and Adjacent Tropical Wa-                        Zoologica di Napoli, 39(suppl.):550-573.
+          ters. 771 pages. Wynnewood: Livingston Press.               Robertson, D. R.
+Buckman, N. S., and J. C. Ogden                                         1972. Social Control of Sex Reversal in a Coral Reef fish.
+  1973. Territorial Behavior of the Striped Parrotfish, Scarus                 Science, 177:1007-1009.
+         croicensis Bloch (Scaridae). Ecology, 54:1377-1382.          Robertson, D. R., and J. H. Choat
+Chaplin, C.C.G., and P. Scott                                           1974. Protogynous Hermaphroditism and Social Systems
+  1972. Fishwatchers Guide to West Atlantic Coral Reefs.                       in Labrid Fishes. Proceedings of the Second Inter-
+          65 pages. Wynnewood: Livingston Press.                               national Symposium on Coral Reefs, 1:217-225.
+Choat, J. H.                                                          Robertson, D. R.. and S. G. Hoffman
+  1969. Studies on the Biology of Labroid Fishes (Labridae              In press. The Roles of Female Mate Choice and Predation
+          and Scaridae) at Heron Island, Great Barrier Reef,                   in the Mating Systems of Some Tropical Labroid
+          Part I. 294 pages. Ph.D. thesis, University of                       Fishes. Zeitschrift fiir Tierpsychologie.
+          Queensland.                                                 Robertson, D. R., H. P. A. Sweatman, E. A. Fletcher, and
+Choat, J. H., and D. R. Robertson                                         M. G. Clelland
+  1975- Protogynous Hermaphroditism in Fishes of the                    1976. Schooling as a Mechanism for Circumventing the
+          Family Scaridae. In R. Reinboth, editor, Inlersex-                   Territoriality of Competitors. Ecology, 57:1208-1220.
+          uality in the Animal Kingdom, pages 263-283.
+                                                                      Schoener, T. W.
+          Heidelberg: Springer-Verlag.
+                                                                        1968. Sizes of Feeding Territories Among Birds. Ecology,
+Diener, D. R.
+                                                                               49:123-141.
+  1976. Hermaphroditism in Fish: A Comparative Study
+                                                                      Warner, R. R.
+          of the Reproductive Biology and Endocrinology of
+                                                                        1975a. The Adaptive Significance of Sequential Hermaph-
+          the California Labridae. 158 pages. Ph.D. thesis,
+                                                                               roditism in Animals. American Naturalist, 109:61-
+          University of California, San Diego.
+                                                                               82.
+Ogden, J. C , and N. S. Buckman
+                                                                        1975b. The Reproductive Biology of the Protogynous Her-
+  1973. Movements, Foraging Groups, and Diurnal Migra-
+                                                                               maphrodite Pimelometopon pulchrum (Pisces: La-
+          tions of the Striped Parrotfish, Scarus croicensis
+          Bloch (Scaridae). Ecology, 54:589-596.                               bridae). Fishery Bulletin, 73:262-283.
+                                                                      Warner, R. R., and I. F. Downs
+Randall, J. E.
+  1968. Caribbean Reef Fishes. 318 pages. Neptune City,                 1977. Comparative Life Histories: Growth vs. Reproduc-
+          N.J.: T.F.H. Publications.                                           tion in Normal Males and Sex-changing Hermaph-
+Randall, J. E., and H. A. Randall.                                             rodites in the Striped Parrotfish, Scarus croicensis.
+  1963. The Spawning and Early Development of the At-                          Proceedings of the Third International Symposium
+          lantic Parrotfish, Sparisoma rubripinne, with Notes                  on Coral Reefs, l(B»o/ogy):275-282.
+          on Other Scarid and Labrid Fishes. Zoologica (New           Warner, R. R., and D. R. Robertson
+          York), 48:49-60.                                              1978. Sexual Patterns in the Labroid Fishes of the West-
+Reinboth, R.                                                                   ern Caribbean, I: The Wrasses (Labridae). Smith-
+  1962. Morphologische und functionelle Zweigeschlechtlich-                    sonian Contributions to Zoology, 254:1-27.
+         keit bei marinen Teleostiern (Serranidae, Sparidae,          Warner, R. R., D. R. Robertson, and E. G. Leigh, Jr.
+          Centracanthidac, Labridae). Zoologische Jahrbiicher,          1975. Sex Change and Sexual Selection. Science, 190:633-
+          Abteilung fiir allegemeine Zoologie und Physiologie                  638.
+          der Tiere. 69:405-180.                                      Winn, H. E., and J. E. Bardach
+  1967. Biandric Tcleost Species. General and Comparative               1960. Some Aspects of the Comparative Biology of Parrot-
+          Endocrinology, Abstracts, 9: no. 146.                                 fishes at Bermuda. Zoologica (New York). 45:29-34.
+
+
+
+
+                                                                 26
+           REQUIREMENTS FOR SMITHSONIAN SERIES PUBLICATION
+      Manuscripts intended for series publication receive substantive review within their
+originating Smithsonian museums or offices and are submitted to the Smithsonian Institution
+Press with approval of the appropriate museum authority on Form SI-36. Requests for
+special treatment—use of color, foldouts, casebound covers, etc.—require, on the same
+form, the added approval of designated committees or museum directors.
+      Review of manuscripts and art by the Press for requirements of series format and style,
+completeness and clarity of copy, and arrangement of all material, as outlined below, will
+govern, within the judgment of the Press, acceptance or rejection of the manuscripts and art.
+      Copy must be typewritten, double-spaced, on one side of standard white bond paper,
+with iyA" margins, submitted as ribbon copy (not carbon or xerox), in loose sheets (not
+stapled or bound), and accompanied by original art. Minimum acceptable length is 30 pages.
+      Front matter (preceding the text) should include: title page with only title and author
+and no other information, abstract page with author/title/series/etc., following the establish-
+ed format, table of contents with indents reflecting the heads and structure of the paper.
+      First page of text should carry the title and author at the top of the page and an unnum-
+bered footnote at the bottom consisting of author's name and professional mailing address.
+      Center heads of whatever level should be typed with initial caps of major words, with
+extra space above and below the head, but with no other preparation (such as all caps or
+underline). Run-in paragraph heads should use period/dashes or colons as necessary.
+      Tabulations within text (lists of data, often in parallel columns) can be typed on the text
+page where they occur, but they should not contain rules or formal, numbered table heads.
+      Formal tables (numbered, with table heads, boxheads, stubs, rules) should be sub-
+mitted as camera copy, but the author must contact the series section of the Press for edito-
+rial attention and preparation assistance before final typing of this matter.
+      Taxonomic keys in natural history papers should use the alined-couplet form in the
+zoology and paleobiology series and the multi-level indent form in the botany series. If
+cross-referencing is required between key and text, do not include page references within the
+key, but number the keyed-out taxa with their corresponding heads in the text.
+       Synonymy in the zoology and paleobiology series must use the short form (taxon,
+author, year:page), with a full reference at the end of the paper under "Literature Cited."
+For the botany series, the long form (taxon, author, abbreviated journal or book title, volume,
+ page, year, with no reference in the "Literature Cited") is optional.
+       Footnotes, when few in number, whether annotative or bibliographic, should be typed
+at the bottom of the text page on which the reference occurs. Extensive notes must appear at
+the end of the text in a notes section. If bibliographic footnotes are required, use the short
+form (author/brief title/page) with the full reference in the bibliography.
+      Text-reference system (author/year/page within the text, with the full reference in a
+"Literature Cited" at the end of the text) must be used in place of bibliographic footnotes in
+all scientific series and is strongly recommended in the history and technology series:
+"(Jones, 1910:122)" or ".. . . Jones (1910:122)."
+      Bibliography, depending upon use, is termed "References," "Selected References," or
+"Literature Cited." Spell out book, journal, and article titles, using initial caps in all major
+words. For capitalization of titles in foreign languages, follow the national practice of each
+language. Underline (for italics) book and journal titles. Use the colon-parentheses system
+for volume/number/page citations: "10(2):5-9."             For alinement and arrangement of
+elements, follow the format of the series for which the manuscript is intended.
+       Legends for illustrations must not be attached to the art nor included within the text but
+must be submitted at the end of the manuscript—with as many legends typed, double-
+spaced, to a page as convenient.
+       Illustrations must not be included within the manuscript but must be submitted sepa-
+rately as original art (not copies). All illustrations (photographs, line drawings, maps, etc.)
+can be intermixed throughout the printed text. They should be termed Figures and should
+be numbered consecutively. If several "figures" are treated as components of a single larger
+figure, they should be designated by lowercase italic letters (underlined in copy) on the illus-
+tration, in the legend, and in text references: "Figure 9b.." If illustrations are intended to be
+printed separately on coated stock following the text, they should be termed Plates and any
+components should be lettered as in figures: "Plate 9.b_." Keys to any symbols within an
+illustration should appear on the art and not in the legend.
+       A few points of style: (1) Do not use periods after such abbreviations as "mm, ft,
+yds, USNM, NNE, AM, BC." (2) Use hyphens in spelled-out fractions: "two-thirds." (3)
+ Spell out numbers "one" through "nine" in expository text, but use numerals in all other
+cases if possible. (4) Use the metric system of measurement, where possible, instead of
+the English system. (5) Use the decimal system, where possible, in place of fractions.
+(6) Use day/month/year sequence for dates: "9 April 1976." (7) For months in tabular list-
+ings or data sections, use three-letter abbreviations with no periods: "Jan, Mar, Jun," etc.
+       Arrange and paginate sequentially EVERY sheet of manuscript—including ALL front
+ matter and ALL legends, etc., at the back of the text—in the following order: (1) title page,
+ (2) abstract, (3) table of contents, (4) foreword and/or preface, (5) text, (6) appendixes,
+ (7) notes, (8) glossary, (9) bibliography, (10) index, (11) legends.
+«•
+
+     ,111/.,
+

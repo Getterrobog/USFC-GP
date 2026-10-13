@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Cynoscion%20nothus",
+  "retrieved_utc": "2026-10-13T04:05:17.377350+00:00",
+  "sha256": "0cb05dd024a8fc118301a3389294b110c9d3edb25822ca02ae8d9ab7ed893568",
+  "http_status": 200,
+  "bytes": 678,
+  "cache_path": "Data/Genomics/raw/taxonomy/0a1fc0861a5432f0b8fb9ca71a0363589ab33f2c4270ab93852edc4c9a28686e.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Harengula%20humeralis",
+  "retrieved_utc": "2026-10-13T04:05:23.242206+00:00",
+  "sha256": "005962b118dcffb95aadfb4ac0e173033bbe1226ac46da3196e271e6986f98b4",
+  "http_status": 200,
+  "bytes": 702,
+  "cache_path": "Data/Genomics/raw/taxonomy/dd806855d045a6b8c3e702f87cfe85c28de7d7ec887425e61e9dff69754517aa.gz"
+}

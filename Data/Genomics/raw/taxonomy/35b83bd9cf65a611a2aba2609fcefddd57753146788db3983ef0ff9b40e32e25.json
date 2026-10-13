@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Stellifer%20lanceolatus",
+  "retrieved_utc": "2026-10-13T04:05:05.711424+00:00",
+  "sha256": "fa339e16e4aa778bc6ba16360dc4d0b111fb8559107e7a9d4d9719006bf20f54",
+  "http_status": 200,
+  "bytes": 738,
+  "cache_path": "Data/Genomics/raw/taxonomy/35b83bd9cf65a611a2aba2609fcefddd57753146788db3983ef0ff9b40e32e25.gz"
+}

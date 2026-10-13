@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Bathygobius%20soporator",
+  "retrieved_utc": "2026-10-13T04:05:10.554534+00:00",
+  "sha256": "42b4cb5b66edde8b3d603d7a529d90fa75db77815fb78bea011fd21bc28a6536",
+  "http_status": 200,
+  "bytes": 764,
+  "cache_path": "Data/Genomics/raw/taxonomy/de51c2534d772aedca594572bb293d9ed648c25d24059cdf1a09b0db8944734c.gz"
+}

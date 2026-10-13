@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Myctophum%20opalinum",
+  "retrieved_utc": "2026-10-13T04:05:30.374877+00:00",
+  "sha256": "5984eac0c5c6d947241e29dd5671b81a1546cedf77e08d38438ac47029969afa",
+  "http_status": 200,
+  "bytes": 3,
+  "cache_path": "Data/Genomics/raw/taxonomy/2a1493bbe167b98266fd2b81a5d6e8b27334b1a106b7e1a3081872969f909509.gz"
+}

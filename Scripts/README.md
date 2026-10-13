@@ -90,3 +90,24 @@ objects, additional packages or live services. Consult the
 
 `Gitpushinator.sh` performs Git publication operations and is not an analysis
 dependency. Run Git adding, committing and pushing separately when intended.
+
+## Public genomic inventory
+
+`build_genomics_inventory.R` builds the separate [genomic database and viewer](../Output/Genomics/README.md)
+from cached ENA and NCBI metadata. `genomics_functions.R` implements scientific
+classification, date/coordinate interpretation, sample screening and reporting
+in base R. `genomics_archive_io.py` uses Python 3's standard library for HTTP,
+JSON/XML transport, compressed-response verification and SQLite export.
+
+```bash
+Rscript Scripts/build_genomics_inventory.R              # offline
+Rscript Scripts/build_genomics_inventory.R --download   # allow cache misses
+Rscript tests/test_genomics_inventory.R
+python3 tests/validate_genomics_inventory.py
+```
+
+Add `--refresh` with `--download` only when intentionally replacing the archive
+snapshot. Configuration is in `config/genomics.R`; evidence-backed assay exceptions
+are in `config/genomics_assay_overrides.csv`. [Methods](../docs/genomics_inventory.md)
+explain counts, taxonomy, data gaps and limitations. This workflow does not modify
+the historical atlas or selection outputs.

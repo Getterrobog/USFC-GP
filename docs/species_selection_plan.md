@@ -79,6 +79,14 @@ Use a common event/site system across species. A sampling cell is **species × l
 
 Compare proposed maximum within-unit diameters of 10, 20 and 40 km, respecting ecological boundaries and taxon-specific population biology. Do not use unconstrained single-linkage chains or interchange radius and diameter. If coordinate uncertainty crosses unit boundaries, propagate plausible membership or leave assignment pending. Include a sensitivity analysis using only directly documented positions.
 
+Spatial review update, 12 October 2026: those initial cuts assess local overlap
+and should not limit regional discovery. The [wider extent comparison](species_selection_spatial_review.md)
+adds 80, 160 and 240 km maximum diameters while holding records, years and stages
+fixed. It finds 43, 50 and 56 species in shared groups, respectively, under the
+initial count screen. Carry broader discovery units into habitat-aware regional
+review while retaining nested local sampling units for historical–modern matching;
+no larger distance is automatically a population boundary or a new pooling rule.
+
 Explore 5-, 10- and 20-year historical intervals before response analysis. Choose intervals compatible with generation times and model assumptions, or model individual sampling dates explicitly. Fifty fish accumulated over four decades are not fifty fish from one temporal snapshot. Match season and life stage, especially for migration and schooling cohorts; the atlas's adult/non-larval category does not establish sexual maturity.
 
 Build an assemblage-by-species matrix showing distinct lots, events, catalogued individuals, curator-confirmed available individuals and eventually independent genomes passing quality criteria. Separate eras and show uncertainty. Map event locations with uncertainty and plot date intervals. Missing cells indicate unavailable or unknown evidence, not zero natural abundance.

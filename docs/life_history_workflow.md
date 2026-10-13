@@ -166,6 +166,94 @@ proxies, and propagate justified generation-time uncertainty in temporal genomic
 analyses. No imputation, genomic-response analysis, final species ranking or
 feasibility-gate pass is performed by this extraction.
 
+## Supplementary sources and attribution requirements
+
+Source assessment, 12 October 2026. The current extraction has migration categories
+for 36 of 80 project rows; 44 are blank. These are missing database assignments,
+not evidence of non-migration. No supplementary assignments have been imported
+by this assessment, and coverage of the external datasets against our roster has
+not yet been measured.
+
+The project requires attribution **for every characterization**, not merely a
+bibliography for the combined table. Supplementary extraction must retain one
+evidence record per species, trait, source and applicable population/life stage.
+Each populated supplementary summary value must link to its evidence IDs. A
+derived category must additionally record its mapping rule and supporting evidence
+IDs. A source attached to another trait in the same row does not support that value.
+
+### Sources to prioritize
+
+| Source | Useful information | Scope and interpretation |
+| --- | --- | --- |
+| [IUCN Red List movement classification](https://nrl.iucnredlist.org/resources/movement-patterns-classification-scheme) and individual assessments | Migration and congregation categories; assessment narratives and references | Cross-taxon definitions differ from FishBase's salinity-route categories. Preserve both vocabularies. Individual assessment coverage and supporting references require checking; the classification guide itself is not species evidence. |
+| [NOAA Estuarine Living Marine Resources: Gulf species life-history summaries](https://library.oarcloud.noaa.gov/noaa_documents.lib/NOS/ORCA/ELMR_report/ELMR_11.pdf), plus regional Essential Fish Habitat reports and underlying studies | Seasonal and life-stage movements, reproduction, growth and habitat | Regional literature synthesis, requiring species-by-species extraction and original-study review. Especially useful for the coastal and estuarine portion of this roster. |
+| [North American Freshwater Migratory Fish Database](https://doi.org/10.5066/P9WDLLP0), documented by [Dean et al. (2022)](https://repository.library.noaa.gov/view/noaa/50037/noaa_50037_DS1.pdf) | Migratory status, pattern and behaviour, with supporting sources | Covers 1,250 freshwater-using species, including diadromous fishes; not a comprehensive marine database. Match the roster before estimating how many gaps it can fill. |
+| [Smithsonian Shorefishes of the Greater Caribbean](https://biogeodb.stri.si.edu/caribbean/en/pages) and [Atlantic reef-fish trait dataset, version 1](https://zenodo.org/records/13655554) | Habitat, size, diet and reproductive information for relevant marine taxa | The Atlantic dataset's seven traits include depth, size, rafting, habitat use, diet, group size and spawning, but no migration-type field. Some inputs derive from FishBase; they are not independent corroboration. Geographic residency and rafting are not interchangeable with migration or adult site fidelity. |
+| [FishLife](https://james-thorson-noaa.github.io/FishLife/) | Compiled life-history measurements and model-based predictions with uncertainty | Useful to investigate other missing traits. FishBase contributes inputs, and imputed outputs must remain explicitly modelled. Do not treat predictions as new observations or assume this supplies the missing migration categories. |
+
+Recommended first pass: IUCN assessments and regional NOAA literature for movement,
+the freshwater database where taxa overlap, and Smithsonian/Atlantic reef datasets
+for other traits. This is a source-discovery priority, not a rule that one database
+automatically overrides better population-specific evidence.
+
+### Verified source lead: Gulf menhaden
+
+*Brevoortia patronus* has no migration category in the current FishBase extraction.
+NOAA's **1997** Gulf life-history report, printed page **137** (PDF page **142**),
+describes adults and maturing juveniles moving from estuaries to offshore waters
+for overwintering or spawning, with seasonal and geographic variation. It also
+discusses limited east-west movement and localized populations. This supports
+collecting seasonal estuary/offshore movement evidence; it does not by itself
+establish a universal FishBase category, movement radius or genetically homogeneous
+sampling region. The synthesis was inspected; its cited original studies remain
+unreviewed. No category has been assigned from this lead.
+
+### Required evidence fields and checks
+
+For every supplementary characterization, retain:
+
+- Stable `evidence_id`, project species key, source taxon name/identifier, and the
+  explicit crosswalk decision. Reuse existing cleaning and species-level pooling;
+  preserve subspecies/population context and withhold unresolved transfers.
+- Trait, original value or category, units/definition, a short supporting excerpt
+  or precise paraphrase, and page/table/section/record locator. Label paraphrases;
+  do not present them as quotations.
+- Full citation, DOI or persistent source URL, source version/assessment date,
+  retrieval time, archived file identifier and SHA-256 where archiving is permitted.
+  For a live record, preserve its stable ID and an auditable retrieved representation.
+- Population/location, life stage, sex, season and study period when supplied;
+  explicitly record unspecified context rather than inferring it.
+- Evidence type (original study, database/report synthesis, model prediction),
+  upstream citation if the source relies on another publication, whether that
+  publication was actually inspected, extractor/reviewer and review dates/status.
+- Normalized value, versioned mapping/derivation rule, applicability decision and
+  conflict status. Preserve competing evidence records; document any choice used
+  in the summary rather than silently overwriting the alternative.
+
+Before promotion into an analysis-ready table, validate that every nonmissing
+supplementary value resolves to evidence records with source and locator, the
+taxon transfer is justified, and the evidence supports that particular claim.
+Summary exports and webpages must expose these citations through evidence IDs or
+source links. A bibliography alone does not satisfy this requirement. Existing
+FishBase field-specific references and explicitly labelled record-level fallbacks
+remain intact; fallback references still require verification before being treated
+as trait-specific support.
+
+Keep migration route, seasonal habitat movements, diel vertical migration, adult
+site fidelity/home range and larval dispersal as separate traits. Missing values
+remain unknown. Do not infer non-migration from an absent entry, infer movement
+distance from migration class, or use genus/family averages as observed species
+traits. Compare shared upstream references to avoid counting copied database
+entries as independent evidence. Report observed/synthesized and modelled coverage
+separately, and retain unresolved and conflicting cases in the review queue.
+
+Acquisition should archive versioned source snapshots and manifests, followed by
+an offline build using explicit crosswalks. Supplementary evidence must be stored
+separately from the original FishBase snapshot and linked into regenerated outputs;
+generated CSVs must not be hand-edited. These requirements extend the existing
+pipeline; implementing and validating the supplement is a subsequent extraction
+step, not a completed result of this source assessment.
+
 ## Reproduce and audit
 
 The tested environment is Python 3.11.5 with dependencies pinned in

@@ -1,0 +1,832 @@
+Volume 14(2)
+March 2003
+ISSN: 1528-0470
+
+
+
+
+GULF AND
+CARIBBEAN
+RESEARCH
+
+      Caribbean Marine Protected Areas:
+              PRA
+              PRACTICAL
+                   CTICAL APPR
+              PRACTICAL   APPRO
+                          APPROOA
+                                ACHES
+                                  CHES
+               T
+               TOO ACHIEVE
+                   ACHIEVE ECONOMIC
+                           ECONOMIC
+                 AND
+                 AND CONSER
+                      CONSERV
+                      CONSERVVA
+                              ATION
+                                TION
+                       GO
+                        GOALS
+                       GOALS
+                          ALS
+        Proceedings of a Symposium at the 54th annual meeting of the
+             Gulf and Caribbean Fisheries Institute Symposium,
+                      Turks and Caicos, November 2001
+
+
+
+
+                                     Published by
+         The University of Southern Mississippi • College of Marine Sciences
+                  GULF COAST RESEARCH LABORATORY
+                             Ocean Springs, Mississippi
+Gulf and Caribbean Research Vol 14(2), 91–106, 2003           Manuscript received February 28, 2002; accepted November 12, 2002
+
+
+
+
+SPAWNING AGGREGATION SITES OF SNAPPER AND GROUPER
+SPECIES (LUTJANIDAE AND SERRANIDAE) ON THE INSULAR
+SHELF OF CUBA
+                   Rodolfo Claro1 and Kenyon C. Lindeman2
+                   1
+                       Instituto de Oceanología, CITMA, 1ra #18406, Playa, La Habana, Cuba
+                   2
+                       Environmental Defense, 14630 SW 144 Terr., Miami, Florida 33186 USA
+
+         ABSTRACT Twenty-one spawning aggregation sites on the Cuban shelf were identified for eight species of
+         snappers (Lutjanus) and groupers (Epinephelus and Mycteroperca) using information from experienced fishers
+         and field studies. Three sites are on the southeastern shelf, eight on the southwest shelf bordering the Golfo de
+         Batabanó, two in the northwest, and eight in the north-central region along the margins of the Archipiélago de
+         Sabana-Camagüey. These numbers may reflect sampling effort as much as absolute aggregation numbers, with
+         most effort concentrated in the southwest and north-central regions. Additional studies, particularly field
+         assessments, are needed to determine the current status and consistency of occurrence of many of these
+         aggregations. Most sites occur near the shelf drop-off at depths of 20–50 m, over reef substrates. Some sites involve
+         sequential use by multiple species over several seasons of the year. Fishing activities have impacted many of these
+         aggregations, both during spawning events and during pre-spawning migrations. This information is being applied
+         in the design of marine reserve networks for several Cuban archipelagos. Intraspecific variations in aggregation
+         formation occur temporally among differing regions of Cuba. Such variations reinforce the need for expanded
+         research efforts on spawning aggregations.
+
+
+                         INTRODUCTION                                  of migrating pre-spawners in route to aggregation sites,
+                                                                       as in lane snapper in southwest Cuba (Claro 1981a, Claro
+     Many species of reef fishes are known to aggregate                et al. 2001a).
+in large numbers at specific times and places to repro-                     Snappers and groupers are the most important com-
+duce. In snappers (Lutjanidae) and groupers (Serranidae),              mercial and recreational fishing resources of the Cuban
+spawning aggregation sites are often located near the                  shelf. There is more information on the biology, fisheries
+outer reef edge or reef passes (Johannes1978). Some sites              and management of these species than any other commer-
+may be used by many species, either simultaneously or                  cial fishes in Cuba (Claro et al. 2001b). Some aspects of
+at differing times of the day, month or year (Domeier and              their reproductive strategy are similar to other species
+Colin 1997). The relatively predictable nature of these                (grunts, jacks) that can spawn near the shelf edge (García-
+concentrations makes them extremely vulnerable to                      Cagide et al. 2001). Knowledge of migration routes,
+overexploitation. A substantial number of snapper and                  characteristics of spawning aggregations, spawning be-
+grouper aggregations have been degraded or eliminated                  havior and dispersal patterns of larvae are key elements
+in the Caribbean, particularly, aggregations of Nassau                 for assessing the design of marine reserve networks around
+grouper (Sadovy 1994a, Sadovy and Eklund 1999).                        the large shelf systems of Cuba. Information on sites and
+     In the northern Caribbean, substantial impacts to                 timing of snapper and grouper spawning aggregations
+spawning aggregations of snapper or grouper species                    has been accumulated for centuries by Cuban fishers. For
+have been documented in Puerto Rico (Shapiro et al.                    example, Vilaró Díaz (1884) mentioned aggregation
+1993, Sadovy 1994b), the US Virgin Islands (Beets and                  sites for some commercial species. However, the avail-
+Friedlander 1999), Mexico (Aguilar-Perera and Aguilar-                 able information for Cuba has not been gathered, evalu-
+Davila 1996), Belize (Sala et al. 2001, Heyman et al.                  ated in a standard manner, or applied towards coordinated
+2001) and the lower Florida Keys (Lindeman et al. 2000).               management goals.
+In addition, fishing gear damage to habitats associated                     Obtaining and standardizing information on the
+with spawning can be significant as demonstrated in east-              distribution and timing of spawning aggregations in
+central Florida (Koenig et al. 2000). The degradation or               Cuba is essential to developing strategies for confirming
+elimination of aggregations and their habitats can have                the current status of aggregations and developing pre-
+highly negative impacts on populations over varying                    cautionary management measures. On the basis of em-
+spatial scales since these sources of fishery production               pirical data and information from fishers, the present
+are highly concentrated in both space and time. Aggre-                 paper identifies spawning aggregation sites for species
+gations can also be heavily impacted by fishery removal                of Lutjanus, Epinephelus, and Mycteroperca. Details of
+
+
+                                                                  91
+                                                 C LARO AND LINDEMAN
+
+
+spawning seasonality and potential dispersal processes             islands, keys, and islets (a total area of about 10,115 km2).
+are also discussed in the context of potential manage-             The keys fringe the shelf for more than 460 km, forming
+ment measures and the population biology of key species            over ten significant bays and lagoons. These lagoons
+in Cuba, particularly lane snapper (Lutjanus synagris),            have a maximum depth of 2–3 m with many shoals
+mutton snapper (Lutjanus analis), and Nassau grouper               emergent at low tide. North of the keys, a narrow belt of
+(Epinephelus striatus).                                            rocky bottom with sandy areas, sparse seagrass beds, and
+                                                                   numerous reef crests and fore reefs extends to the shelf
+                       METHODS                                     edge.
+
+Geographic regions                                                 Identification of Spawning Aggregation Sites
+     The Cuban shelf has an approximate area of 67,831                  Criteria for identifying spawning aggregations in-
+km2 (Núñez Jiménez 1982). The shelf has four particu-              clude both direct and indirect evidence (Domeier and
+larly wide areas bordered by extensive reef lines, with            Colin 1997). Direct evidence includes several different
+each wide area separated by long, narrow shelf stretches           types of observations within large species groups at
+(Claro et al. 2001b). Two of the wide-shelf areas occur on         discrete sites: observations of simultaneous gamete ex-
+the south coast, the Golfo de Batabanó to the west and the         trusion among multiple individuals, identification of
+area including the Golfo de Ana Maria and Golfo de                 hydrated eggs, or identification of post-ovulatory fol-
+Guacanayabo to the east, and two occur on the north                licles. Direct evidence is preferred but is also much less
+coast, the Archipiélago Los Colorados in the northwest             common than indirect evidence for many commercial
+and the Archipiélago Sabana-Camagüey in the north-                 species. Indirect evidence often includes information
+central region (Figure 1).                                         provided by veteran fishers on spawning and pre-spawn-
+     In southeastern Cuba, a narrow shelf with a very steep        ing aggregations. This information can be valuable
+dropoff occurs from the easternmost point (Punta Maisi)            (Johannes 1998), but should be obtained and evaluated
+west to Cabo Cruz. Immediately to the west, the Golfo de           with care (e.g., heavy chumming can create artificially-
+Guacanayabo, unlike most other wide-shelf areas in                 induced “aggregations”) and substantiated whenever
+Cuba, is not rimmed by keys, sand banks and reefs, but             possible via independent sources. Additional types of
+has a steep slope to the shelf edge. The adjacent Golfo de         indirect evidence can be of use, including dense migra-
+Ana Maria is fringed by the Archipiélago Jardines de la            tions of pre-ovulatory individuals en route to spawning
+Reina reef system (Figure 1), an array of keys, sand banks,        sites (Starck 1970, Claro et al. 1981a,b).
+and reef crests separating much of the gulf from the open               Published information on spawning sites was lim-
+sea. The bottom is mostly muddy in central areas with              ited or unavailable for almost all species on the Cuban
+seagrasses near the mainland and the keys. Together,               shelf. Due to this paucity of information and logistical
+these two southeastern gulfs have a total area of about            constraints on direct observations of snapper and grou-
+18,000 km2. To the west, the Golfo de Batabanó is the              per spawning, much of the evidence for spawning aggre-
+largest submerged area of the Cuban shelf, with an area            gation site locations and timing, fishing characteristics,
+of about 20,870 km2. This massive lagoon is fringed by             and aggregation status was obtained through interviews
+and includes more than 670 islands and keys that com-              with experienced fishers from different regions of Cuba,
+prise the Archipiélago Los Canarreos to the east of Isla de        often in conjunction with biological studies carried out
+la Juventud and the Cayos Los Indios and San Felipe to             from 1970 to 2000 (e.g., Olaechea and Quintana 1975,
+the west (Figure 1). Depths reach 15 m in some channels            Claro 1981a,b, Claro 1982, Claro 1983a,b, García-Cagide
+but typically average 3–6 m. Sand-mud bottoms with                 and Claro 1983, Claro et al. 1990, García-Cagide and
+extensive seagrasses dominate the lagoon habitats. A               García 1996, García-Cagide et al. 1999a,b). These fishers
+wide array of reef habitats extend from the channels               averaged over 20 years of commercial net, trap, or hand-
+between the keys to the shelf edge.                                line experience. In most cases, the information was
+     The northwest shelf, much of it bordered by the               checked with at least three fishers independently.
+Archipiélago Los Colorados, is not as wide as the other                 Only sites with unusually high catches of fishes with
+three wide-shelf areas, but in the westernmost area, sub-          running-ripe or enlarged gonads during known spawn-
+stantial shallow shelf areas are present at the Golfo de           ing peaks were identified as potential spawning aggrega-
+Guanahacabibes (Figure 1). To the east, the most substan-          tion sites. Periodically, fishers identified the site where
+tial shelf area is within the Archipiélago Sabana-                 they saw or caught aggregated pre-spawners during their
+Camagüey, a long reef system with more than 2500                   spawning migration, but the spawning site itself was not
+
+                                                              92
+                                                                                  C. Mono      C. Mégano de
+                                                                                  (2s,2g)      Nicolao (2s,3g)
+                                                                                                      15
+                                                                                        14                    B. de Sagua           (1s)
+                                                                                                           16
+                                                                                                                17 C. Lanzanillo                             Archipiélago
+                      Corona San Carlos                                                                                 C. Fragoso
+                       (4s,3g)                                                                                         18                                  Sabana-Camagüey
+                                                                                                                                  C. Caimán (4s,1g)
+          Archipiélago          13                                                                                               19
+          Los Colorados
+                                                                                                                                                       C.Paredón (2s,1g)
+                                                                            Golfo de Cazones                                                          20
+                                                    Golfo de Batabanó
+          G. Guanahacabibes
+             12                        10
+                                                                         C. Diégo 6
+      C. San Antonio 11    C. San Felipe (2s) 9                          Perez (1s) C. Guano (1s,3g)                                                                  C. Sabinal (3s)
+                                                     I. Juventud                          5 4
+       (3s,3g) C. Corrientes C. Los Indios (1s) 8                                                                                                                21
+                   (3s,3g)           P. Francés                      7                        B. Jagua
+                                         (1g)                    C. Avalos                     (1s,3g)                       Golfo de
+                                                                                                                            Ana María
+93
+
+
+
+
+                                                                  (3s)
+                                                    Archipiélago Los Canarreos                                         3
+
+                                                                                                                C. Bretón
+                                                                                                                 (2s,2g)
+
+                                                                                                                        Archipiélago
+                                                                                                                    Jardines de la Reina           Golfo de
+                                                                                                                                                   Guacanayabo
+
+                                                                                                                                                                                    1
+                                                                                                                                                            2                                 Punta
+                                                                                                                                           C. Cruz (3s)                          Bajo
+                                                                                                                                                                              Mandinga (2s)   Maisí
+
+
+
+
+     Figure 1. Spawning aggregation sites on the shelf of Cuba. Numbers in parenthesis indicate the number of species known to aggregate at each site. s: snappers; g: groupers.
+     Dotted line indicates the shelf edge.
+                                                  C LARO AND LINDEMAN
+
+
+exactly known. Many sites are very remote, but in some              bordering the shelf drop-off. More than 1000 fish, all
+cases we obtained direct documentation by site visits               larger than 60 cm FL, moved in a circle in an area of about
+during aggregation occurrence, particularly in south-               one hectare during daylight hours. No spawning signals
+west and north-central areas. All aggregation informa-              were observed during the dive. All fishes caught with
+tion from fishers was checked against detailed monthly              spear gun from both species had ripe gonads, as did all
+catch statistics that were available at the provincial level        fishes caught with hook and line by commercial fishers.
+(unpubl. data, Ministerio de Industria Pesquera, Claro et           Fishers from the area believe that spawning takes place
+al. 2001a) . This information was particularly useful for           in the early evening because fishes stop taking baited
+identifying peaks in monthly catches that reflected the             hooks at this time.
+occurrence of spawning aggregations. Data at the monthly
+level are currently only available through 1985. In addi-           Southwestern Cuba
+tion, other references with related spawning information                 Eight aggregation sites have been identified in this
+from Cuba were consulted as relevant (e.g., Vilaró Díaz,            area, many on the margin of the reef systems to the east
+1884, García-Cagide et al. 2001).                                   and west of Isla de la Juventud (Figure 1). This region has
+                                                                    traditionally been a leading producer of lane snapper,
+                        R ESULTS                                    Nassau grouper, and mixed cubera and gray snapper
+                                                                    catches from spawning aggregations (Figure 2).
+Southeastern Cuba                                                        Banco de Jagua. A steep rise, Banco de Jagua, is
+     Three spawning aggregation sites have been identi-             located at the easternmost drop-off of the southwest shelf
+fied in this region. Two are along the narrow shelf of              with an upper platform at a depth of 14–20 m. Although
+southeastern Cuba and one is within the western side of the         not as well-known as the Puntalón de Cayo Guano (de-
+Archipiélago Jardines de la Reina reef system (Figure 1).           tails in next site), fishers state that the same grouper and
+     Bajo Mandinga. South of the Sierra Maestra moun-               snapper species also spawn here at the same times (Table
+tain range, this is an oceanic promontory located about             1) and can attain larger sizes. Aggregations at both sites are
+3 km south of the Chivirico and Cayo Damas villages.                fished mainly with large baited traps. Fishers claim that
+The shallow and very narrow shelf is covered by well-               when substantial Nassau grouper aggregations still ex-
+developed coral reefs to 30 m depth. Mutton snapper in              isted, the fishes moved upward to the traps and filled them
+May–June and cubera snapper (Lutjanus cyanopterus) in               before the gear reached the bottom. Hook-and-line also
+July–August move along the coast from east and west to              was used to catch groupers at both sites.
+aggregate at the top of the promontory at 15–25 m depths                 Puntalón de Cayo Guano. This site, about five km
+where they are fished with hook and line (Table 1).                 west of Banco de Jagua, is a well-known aggregation site
+     Cabo Cruz. This site is located on the westernmost             for several commercial species. Traditionally, fishers
+shelf of the Granma Province, at the eastern entrance of            caught Nassau grouper during the full moon of December
+the Golfo de Guacanayabo. This area has a rocky-sandy               and January. Large aggregations were common every
+bottom until the drop-off at about 20–25 m depth. Impor-            year at this site until the 1970s, but fish aggregations
+tant aggregations of lane snapper with ripe gonads are              decreased, probably as an artifact of the overfishing of
+caught in June and July close to shore on the shallow               this species across the whole shelf (Claro 1991). Smaller
+shelf using set nets and trawls. Fishers say movements              aggregations of the yellowfin grouper and black grouper
+occur from the Golfo de Guacanayabo to Cabo Cruz.                   also occur at this site. These three species occur in the
+Smaller aggregations of mutton and cubera snapper are               area with ripe gonads from December to March, but the
+also caught at this site (Table 1). Some groupers are               peak spawning of each species occurs in different months
+known to spawn in this area, although no large schools              (Table 1). The spawning of all grouper species here
+have been documented.                                               occurs around the full moon, based on fisher observa-
+     Cayo Bretón. This site is near the western margin of           tions of peak densities.
+the Archipiélago Jardines de la Reina and has tradition-                 Cayo Diego Pérez. The spawning aggregations of
+ally been an important fishing area during spawning                 lane snapper near Cayo Diego Pérez, southeastern border
+aggregations for at least four species of groupers and              of the Golfo de Batabanó, are the most-studied in Cuba
+snappers during the winter and summer, respectively                 (Claro 1981a, 1982, García-Cagide and Claro 1983).
+(Table 1). We were able to dive in a large mixed aggre-             Spawning migrations of the lane snapper from the middle
+gation of cubera (about 60%) and dog snapper, L. jocu,              of the gulf to the eastern shelf drop-off at the Golfo de
+(about 40%) during July 1986 at 25–30 m over the reefs              Cazones (Figure 1), have been followed by fishers for
+
+                                                               94
+                                                                                      TABLE 1
+
+     Regions and sites on the Cuban shelf with spawning aggregations of snapper and grouper species. Numbers in parenthesis refers to site locations in Figure 1.
+     * = peak spawning month.
+
+                                                                               Spawning     Spawning                        Primary gear used          Aggregation
+     Spawning site                      Habitat               Species           season        peak      Moon       Time      on aggregations             status
+     Southeast region
+     Bajo Mandinga (1)            Slope reef, high coral   Cubera snapper      Jun–Sep      Jul–Aug    Full        Night    Hook and line             Declined
+     19º56´–76º24´                cover, 20–30 m depth     Mutton snapper      May–Aug      May*–Jun   Full to ¾   Sunset   Hook and line             Slightly declined
+     Cabo Cruz (2)                Sandy, rocky, coral      Lane snapper        Apr–Sep      Jun*–Jul   ¼ to full   Sunset   Trawls and traps          Declined
+     19º50´–77º47´                heads, 30–40 m depth     Mutton snapper      May–Aug      May*–Jun   Full to ¾   Sunset   Hook and line             Slightly declined
+                                                           Cubera snapper      Jun–Sep      Jul*–Aug   Full        Night    Hook and line             Declined
+     Cayo Bretón (3)              Slope reef, high coral   Cubera snapper      Jun–Sep      Jul*–Aug   Full        Night    Hook and line             Declined
+     21º05´–79º29´                cover, 20–30 m depth     Dog snapper         Year round   Jul–Aug    Full        Night    Hook and line             Declined
+                                                           Yellowfin grouper   Jan–Mar      Jan–Feb    Full        ?        Hook and line, traps      Slightly declined
+                                                           Black grouper       Jan–Mar      Feb–Mar    Full        ?        Hook and line, traps      Sharply declined
+     Southwest region
+     Banco de Jagua (4)           Oceanic bank, rocky      Mutton snapper      Apr–Sep      May*–Jun   Full to ¾   Sunset   Hook and line             ?
+95
+
+
+
+
+     21º35´–80º41´                bottom, moderate coral   Nassau grouper      Dec–Feb      Dec–Jan*   Full        ?        Hook and line, traps      Sharply declined
+                                  cover, 14–25 m depth     Yellowfin grouper   Jan–Mar      Jan–Feb    Full        ?        Hook and line, traps      Declined
+                                                           Black grouper       Jan–Mar      Feb–Mar    Full        Sunset   Hook and line, traps      Declined
+     Puntalón de Cayo Guano (5)   Slope reef, high coral   Mutton snapper      Apr–Sep      May*–Jun   Full to ¾   Sunset   Hook and line             Sharply declined
+     21º35´–80º50´                cover, 30–40 m depth     Nassau grouper      Dec–Feb      Dec–Jan*   Full        Sunset   Hook and line, traps      Declined
+                                                           Yellowfin grouper   Jan–Mar      Jan–Feb    Full        ?        Hook and line, traps      Declined
+                                                           Black grouper       Jan–Mar      Feb–Mar    Full        ?        Hook and line, traps      ?
+     C. Diego Pérez (6)           Slope reef, high coral   Lane snapper        Apr–Sep      Apr–May*   ¼ to full   Sunset   Trawls and set nets on    Sharply declined,
+     22º02´–81º30´                cover, 20–30 m depth                                                                      migration route           recovering
+     C. Avalos (7)                Slope reef, high coral   Mutton snapper      Apr–Sep      May–Jun    Full to ¾   Sunset   Hook and line, set nets   Slightly declined
+     21º27´–82º09´                cover, 20–30 m depth     Cubera snapper      Jun–Sep      Jul–Aug    Full        Night    Hook and line, set nets   Declined
+                                                           Gray snapper        Jun–Sep      Jul*–Aug   Full        Night    Set nets                  Declined
+     P. Francés (8)               Slope reef, high coral   Nassau grouper      Dec–Feb      Dec–Jan*   Full        Sunset   Hook and line, traps      Sharply declined
+     21º38–83º14´                 cover, 20–30 m depth
+     Los Indios (9)               Slope reef, high coral   Lane snapper        May–Sep      May–Jun*   ¼ to full   Sunset   Trawls and set nets on    Sharply declined,
+     21º48´–83º14´                cover, 20–30 m depth                                                                      migration route           recovering
+     C. San Felipe (10)           Slope reef, high coral   Mutton snapper      Apr–Aug      May*–Jun   Full to ¾   Sunset   Hook and line
+     21º54´–83º23´                cover, 20–30 m depth     Lane snapper        May–Sep      May–Jun*   ¼ to full   Sunset   Trawl and set nets        Slightly declined
+     TABLE 1. (Continued)
+                                                                                 Spawning     Spawning                         Primary gear used         Aggregation
+     Spawning site                        Habitat               Species           season        peak     Moon        Time       on aggregations            status
+     Southwest region (continued)
+     Cabo Corrientes (11)           Sandy, rocky, coral      Mutton snapper      Apr–Aug      May–Jun*   Full to ¾   Sunset   Hook and line, sp. guns   Sharply declined
+     21º44´–84º34´                  heads, 25–40 m depth     Cubera snapper      Jul–Sep      Jul*–Aug   Full        Night    Hook and line             Slightly declined
+                                                             Dog snapper         Year round   Jul–Aug    Full        Night    Hook and line             Declined
+                                                             Nassau grouper      Dec–Feb      Dec–Jan*   Full        Sunset   Hook and line, traps      Declined
+                                                             Yellowfin grouper   Jan–Mar      Jan–Feb    Full        Night    Hook and line, traps      Declined
+                                                             Black grouper       Dec–Mar      Feb–Mar    Full        Night    Hook and line, traps      Declined
+     Northwest region
+     Cabo San Antonio (12)          Slope reef, high coral   Mutton snapper      May–Aug      May–Jun*   Full to ¾   Sunset   Hook and line, sp. guns   Declined
+     21º54´–84º57´                  cover, 25–40 m depth     Cubera snapper      Jul–Sep      Jul*–Aug   Full        Night    Hook and line, sp. guns   Declined
+                                                             Dog snapper         Year round   Jul–Aug    Full        Night    Hook and line, traps      Declined
+                                                             Nassau grouper      Dec–Feb      Dec–Jan    Full        Sunset   Hook and line, traps      Sharply declined
+                                                             Yellowfin grouper   Jan–Mar      Jan–Feb    Full        ?        Hook and line, traps      Declined
+                                                             Black grouper       Jan–Mar      Feb–Mar    Full        ?                                  Declined
+     Corona de San                  Slope reef, sandy,       Mutton snapper      May–Aug      May–Jun*   Full to ¾   Sunset   Hook and line, sp.        Declined
+96
+
+
+
+
+     Carlos (13)                    rocky, coral heads,                                                                       guns, trawls
+     22º54´–83º36´                  20–30 m depth            Lane snapper        Apr–Oct      May*       ¼ to full   Sunset   Trawls, hook and line     Sharply declined
+                                                             Gray snapper        Jun–Sep      Jul*–Aug   Full        Night    Trawls, hook and line     Declined
+                                                             Cubera snapper      Jun–Sep      Jul*–Aug   Full        Night    Hook and line             Declined
+                                                             Nassau grouper      Dec–Feb      Dec–Jan    Full        Sunset   Hook and line, traps      Sharply declined
+                                                             Yellowfin grouper   Jan–Mar      Jan–Feb    Full        ?        Hook and line, traps      Declined
+                                                             Black grouper       Jan–Mar      Feb–Mar    Full        ?        Hook and line, traps      Declined
+     North-central region
+     Punta Hicacos-                 Slope reef, sandy,       Mutton snapper      May–Aug      May–Jun*   Full to ¾   Sunset   Hook and line, sp. guns   Declined
+     Cayo Mono (14)                 rocky, coral heads,      Lane snapper        Apr–Sep      May–Jun*   ¼ to full   Sunset   Trawls, set nets, traps   Declined
+     23º18´–81º03´                  25–40 m depth            Nassau grouper      Dec–Feb      Dec*–Jan   Full        ?        Hook and line, traps      Sharply declined
+                                                             Yellowfin grouper   Jan–Mar      Jan–Feb    Full        ?        Hook and line, traps      Declined
+     C. Mégano de                   Slope reef, high         Mutton snapper      May–Aug      May–Jun*   Full to ¾   Sunset   Hook and line, trawls     Slightly declined
+     Nicolao (15)                   coral cover, 20–         Lane snapper        May–Sep      May–Jun*   ¼ to full   Sunset   Trawls, set nets          Declined
+     23º16´–80º25´                  30 m depth               Nassau grouper      Dec–Feb      Dec*–Jan   Full        Sunset   Hook and line, traps      Sharply declined
+                                                             Yellowfin grouper   Jan–Mar      Jan–Feb    Full        ?        Hook and line, traps      Declined
+                                                             Black grouper       Jan–Mar      Feb–Mar    Full        ?        Hook and line, traps      Declined
+     TABLE 1. (Continued)
+                                                                        Spawning   Spawning                         Primary gear used          Aggregation
+     Spawning site                      Habitat          Species         season      peak      Moon        Time      on aggregations             status
+     North-central region (continued)
+     Boca de Sagua (16)       Slope reef, moderate     Lane snapper     May–Sep    May–Jun*    Full        Sunset   Trawls, set nets, traps   Declined
+     23º05´–80º06´            coral cover, 25–
+                              35 m depth
+     C. Lanzanillo (17)       Slope reef,              Lane snapper     May–Sep    May–Jun*    Full        Sunset   Trawls, set nets, traps   Declined
+     22º58´–79º47´            moderate coral
+                              cover, 20–30 m depth
+     C. Fragoso (18)          Slope reef, moderate     Lane snapper     May–Sep    May–Jun*    Full        Sunset   Trawls, set nets, traps   Declined
+     22º50´–79º-35´           coral cover, 20–30 m
+                              depth
+     C. Caimán                Slope reef, high coral   Mutton snapper   May–Aug    May–Jun*    Full to ¾   Sunset   Hook and line, sp. guns   Slightly declined
+     Grande (19)              cover, 20–30 m depth     Cubera snapper   Jun–Sep    Jul*–Aug    Full        Night    Hook and line, sp. guns   Declined
+     22º45´–78º-52´                                    Gray snapper     Jun–Sep    Jul*–Aug    Full        Night    Trawls, set nets          Declined
+                                                       Lane snapper     May–Sep    May–Jun*    Full        Sunset   Trawls, set nets          Sharply Declined
+                                                       Nassau grouper   Dec–Feb    Dec*–Jan    Full        Sunset   Hook and line, traps      Sharply declined
+97
+
+
+
+
+     C. Paredón (20)          Slope reef, high         Lane snapper     May–Sep    May–Jun*    ¼ to full   Sunset   Trawls, traps             Declined
+     22º30´–78º09´            coral cover, 20–30 m     Cubera snapper   Jun–Sep    July*–Aug   Full        Night    Hook and line, traps      Declined
+                              depth                    Nassau grouper   Dec–Jan    Dec*–Jan    Full        Sunset   Hook and line, traps      Sharply declined
+     C. Sabinal (21)          Slope reef, high         Lane snapper     May–Sep    May–Jun*    ¼ to full   Sunset   Trawls, set nets          Declined
+     21º46´–77º19´            coral cover, 20–30 m     Mutton snapper   May–Sep    May–Jun*    Full to ¾   Sunset   Hook and line, sp. guns   Slightly declined
+                              depth                    Cubera snapper   Jul–Sep    Jul–Aug     Full        Night    Hook and line, sp. guns   Declined
+                                                C LARO AND LINDEMAN
+
+  Percent catch
+  Percent catch
+
+
+
+
+Figure 2. Monthly variation of catches of mutton snapper, lane snapper, mixed cubera and gray snappers, and Nassau
+grouper (mean values from 1962 to 1985) from the four fishery statistical zones of the Cuban shelf.
+
+
+many decades. Several days before the fifth full moon of          of Golfo de Cazones occurred when water temperatures
+the year, usually in May, aggregations of lane snapper            at depths of 20–30 m were between 26.7–27.3ºC. The
+begin to move from the central part of the Golfo de               existence of a local upwelling and frontal system at the
+Batabanó to the east, usually close to the keys. Once near        eastern Gulf of Cazones (Siam Lahera and Ramírez 1987)
+the spawning area, at the margin of the Golfo de Cazones,         may favor the development and recruitment of fish lar-
+large schools of lane snapper move around during the              vae.
+day, close to Cayo Diego Pérez, for about eight-ten days.              Since the mid-1970s, when lane snapper stocks in
+     Direct observations on fish aggregations, gonad              the Golfo de Bataban were overfished, aggregations have
+analysis (Claro 1981a, 1982), daily tagging and recov-            seriously declined (Claro 1991, Claro et al. 2001a). In the
+ery of fishes (A. Olaechea, unpublished data), showed             last seven years, the abundance of lane snappers migrat-
+that every day at noon, the schools moved from the                ing to the site may have increased based on limited
+shallow (3–6 m depth) seagrass beds close to the keys, to         information, although aggregation sizes don’t reach the
+the drop off. Spawning occurs after sunset and fish return        levels of the 1960s and early-1970s. Some other snap-
+to the shallow waters (perhaps to avoid predators such as         pers, including mutton, gray (Lutjanus griseus) and yel-
+sharks and barracudas) where they remain until the next           lowtail (Ocyurus chrysurus) may spawn at the same shelf
+afternoon. Histological analysis of gonads showed the             drop-off near Diego Pérez. A notable number of ripe
+release of about 4–5 batches of eggs in a similar number          adults of these species are caught in the adjacent shallow
+of days (Claro 1982, García-Cagide and Claro 1983,                areas during their spawning season (Claro 1981b,
+García-Cagide et al. 2001). After release of all batches,         l983a,b), but there is no clear documentation of spawn-
+lane snapper dispersed to feeding areas in the Golfo de           ing aggregations. These fishes may spawn in small groups
+Batabanó. Siam Lahera (1986) found that the highest               in this area.
+percentage of lane snapper with ripe gonads at the border
+
+                                                             98
+                                        CUBAN SHELF SPAWNING AGGREGATIONS
+
+
+     Cayo Avalos (Cabezo Sambo). A shallow offshore                 two to three days before the full moon. Several other
+reef south of Cayo Avalos, Cabezo Sambo, is a well-                 important snapper and grouper species also aggregate at
+known spawning site for several species. At the south               this site and are fished by hook-and-line and traps (Table
+drop-off of the reef, spawning aggregations of some                 1).
+intensively fished species occur (Table 1). These aggre-                 Fishers state that the fishes migrate to this site from
+gations are fished heavily by hook and line. Prior to               the east along the narrow shelf, and from the Ensenada de
+reaching the aggregation site, pre-spawning fishes mi-              Corrientes to the west. During the migrations, some
+grating to the outer spawning site are also caught with set         species are heavily fished by sport and commercial fish-
+nets at the channels between the keys separating the                ers. The site is near the southwest corner of the mouth of
+inner Golfo de Batabanó from the outer shelf. This activ-           the Yucatan Channel and the currents are strong and
+ity is now regulated by banning the use of set nets across          complex. Anticyclonic circulation systems can form in
+channels during spawning migrations.                                the Ensenada de Corrientes. In addition, eggs and larvae
+     Punta Francés. At the southwest tip of the Isla de la          may also be transported to the east by the Cuban coun-
+Juventud (Figure 1), this is one of the oldest marine               tercurrent, or to the west into the Yucatan Straits.
+reserves in Cuba (although small with an area of about
+6,000 ha) and the reefs are in good condition. However,             Northwestern Cuba
+tourist diving activities are increasing as well as cruise               Two spawning aggregation sites were identified in
+ship visits. Close to the western tip of the peninsula              this region (Figure 1), although the enormous length of
+(about 3 km west of the reserve boundary), aggregations             the Archipiélago Los Colorados suggests additional
+of Nassau grouper are reported to occur in December and             lutjanid and serranid spawning sites are present.
+January. At least in the last ten years, the aggregations                Cabo San Antonio. The same species that aggregate
+have declined as result of overfishing outside the reserve          at Cabo Corrientes are reported to aggregate at Cabo
+according to both fishers and dive operators. Vilaró Díaz           Antonio, at the westernmost margin of Cuba. These
+(1884) mentioned the occurrence of Nassau grouper                   aggregations form at depths of 30–40 m over well-
+aggregations south of Isla de Pinos (currently Isla de la           developed coral habitats. Peak spawning months are also
+Juventud) in possible reference to the same site, but did           the same as at Cabo Corrientes (Table 1). Fishers assume
+not give precise locations.                                         that the fishes aggregating here come mainly from the
+     Cayos Los Indios and Cayo San Felipe. Spawning                 north coast. This site is located in an area of complex
+aggregations of lane snapper have been fished for many              current systems that can transport eggs to the east along
+decades close to Los Indios and San Felipe, usually one             the south coast, or to the northeast or northwest.
+month later than at Cayo Diego Pérez. Mutton snapper                     Corona de San Carlos. This site is traditionally
+aggregations are also known from San Felipe with peak               known as important for spawning aggregations of mutton
+spawning in May. Vilaró Díaz (1884) reported spawning               snapper and other species. It is located offshore, about 19
+aggregations of Nassau grouper south of La Coloma,                  km northeast of Puerto Esperanza on the shelf near
+which appears to refer to Cayo San Felipe. This area is             oceanic waters. Close to the shelf drop-off, the bottom
+known as one of the most important sites for spawning of            has spur and grove reef structures, with poorly-devel-
+spiny lobster (Panulirus argus) in Cuba. Ripe spiny                 oped coral cover. These topographic features are com-
+lobster are found all year but the spawning peak occurs             mon to some other spawning sites on the north shelf of
+in spring-summer (Cruz-Izquierdo et al. 1987, Cruz-                 Cuba (Punta Hicacos, Mégano de Nicolao, Cayo Caimán,
+Izquierdo 1999). Although spawning may occur along                  C. Paredón, and C. Sabinal).
+the whole edge of the shelf in this area, it is assumed that             Large schools of adult mutton snapper, 50–70 cm FL
+a deep-water population is the main source of reproduc-             or more, are visible over the reef at 25–35 m depths close
+tion (González Sansón et al. 1991).                                 to the shelf drop-off in May and June (Claro 1981b).
+     Cabo Corrientes. A well-known spawning site for                According to fishers, snappers are intensively caught
+mutton snapper is located at Cabo Corrientes, south of              with hook-and-line when strong currents occur. Aggre-
+the Reserva de la Biosfera Península de Guanahacabibes              gations start arriving at the site 3–4 days before the full
+at depths of 25–40 m. The spawning site is located at the           moon and decrease in quantity until the third quarter of
+tip of the narrow shelf bordering the peninsula (Figure 1),         the moon, as at Cabo Corrientes and Cabo San Antonio.
+over sandy bottom. We visited the site during mutton                Presumably, spawning occurs at sunset or early night.
+snapper spawning events in June 1973 and 2001. The                  Unlike lane snapper, that move daily to shallow waters
+aggregations were present at least 8–10 days, beginning             after the release of one batch (Claro 1982, Garcia-Cagide
+
+                                                               99
+                                                  C LARO AND LINDEMAN
+
+
+et al. 2001), mutton snappers stay at the slope reef until           Caimanes, and some reef crests. North of the shallow crest
+spawning is completed. The same behavior has been                    reefs, the bottom is usually covered with corals almost
+observed in other large species (e.g., cubera and dog                continuously until the shelf drop-off. The shelf drop-off
+snappers). Corona de San Carlos is also a well-known                 is bordered by well-developed coral reefs at 15–25 m
+spawning site for several other snapper and grouper                  depths. The adjacent southwest inner shelf area supports
+species (Table 1) and the margate (Haemulon album).                  the largest catches of mutton snapper in north-central
+Most of the aggregations have declined since the 1980s,              Cuba (Claro et al. 2000). Significant concentrations of
+particularly that of Nassau grouper.                                 juveniles of mutton, lane and yellowtail snappers are
+                                                                     common in the northern part of Bahía Buenavista, Pasa
+North-central Cuba                                                   Las Piraguas and in channels between the keys. These
+     Eight spawning aggregation sites were identified in             areas are important nursery areas for many species which
+this region. All were on the outside border of the exten-            migrate as adults to the adjacent Bahía San Juan de los
+sive Archipiélago Sabana-Camagüey reef system (Figure                Remedios. The degradation of environmental condi-
+1).                                                                  tions in the Bahía de Buenavista from various anthropo-
+     Punta Hicacos-Cayo Mono. These offshore reefs are               genic sources (Claro et al. 2000) may have affected the
+known as spawning aggregation sites for mutton snap-                 lane snapper fisheries in the area. Fishers also reported
+per, but other important species also aggregate on these             large schools of mojarras (Gerres cinereus, Eugerres
+reefs (Table 1) (see also Vilaró Díaz 1884). Fishes aggre-           spp.) spawning in the shallow shelf at depths of 2–5 m,
+gate at 25–50 m depth over a submerged peninsula of                  close to Cayo Santa María, on sandy bottom.
+sandy-rock bottom with patch reefs. This reefs are heavily                Cayo Paredón. Offshore of the reef crests, largely
+fished, mainly by sport fishers from nearby resorts on the           sand bottom extends to the shelf drop-off at 40–50 m, an
+Peninsula de Varadero.                                               area with rocky bottom and sparse coral heads. The
+     Cayo Mégano de Nicolao. Northeast of Bahía de                   spawning site is located north of Cayo Paredón where the
+Cádiz, Mégano de Nicolao is an offshore sand-rock area               shelf protrudes to the north. Aggregations of lane snap-
+bordered by well-developed coral reefs very close to the             per are often fished in shallow water seagrasses bounded
+shelf drop-off at 25–30 m depth. Several species (Table              to the north by several crest reefs and to the south by
+1) may aggregate throughout the area, but the main                   several keys (Cayo Paredón del Medio to Cayo Paredón
+groups are known from north of Cayo Mégano. Schools                  Grande) separated by narrow channels. Currents may
+of lane snapper with ripe gonads are usually fished in the           favor recruitment to the south and southwest of this site,
+shallow waters, close to Cayo Blanquizal (south of                   but nursery areas in the inner lagoons have been seri-
+Mégano de Nicolao), during their migrations to the                   ously degraded by increased salinity and pollution.
+spawning site.                                                            Cayo Sabinal. Annual spawning migrations of mut-
+     Boca de Sagua, Cayo Lanzanillo and Cayo Fragoso.                ton snapper and cubera snapper (Table 1) are fished in
+There is evidence of lane snapper group spawning from                channels (Pasa Las Calaveras and Pasa Sabinal) that
+all of these sites based on fisher observations and catches.         connect the lagoons (Bahía La Gloria and Ensenada de
+Since this species moves to shallow waters during the                Sabinal) with the outer shelf. These schools move paral-
+day, the precise location of the spawning sites is unclear.          lel to the shelf until the Laguna Tortuguilla, and later
+North of the keys bordering the lagoons, there is a largely          move north to the shelf drop-off, at 25–35 m depths. The
+sandy bottom extending to the shelf border, with some                slope reef, once well-developed, has been seriously de-
+well-developed slope reefs from 15 to 30 m depths where              graded by coral diseases and algal overgrowth (Claro et
+some of the spawning appears to occur. Schools are fished            al. 2000). Aggregations have declined in size, but are still
+in the shallow waters close to the keys north of Bahía de            fished during the spawning peak.
+Sagua, Cayos Jutías, el Pajonal, Cayo Lanzanillo and
+Bahía Nazabal. The aggregations usually fished at Cayo                                      DISCUSSION
+Lanzanillo and Cayo Fragoso may move to spawn in the
+same offshore sites.                                                      Twenty-one spawning aggregation sites were iden-
+     Cayo Caimán Grande. Located north of Bahía de                   tified around the Cuban shelf. By region, three sites are
+Buenavista and Cayos de Santa María, this site is possi-             on the southeast shelf, eight on the southwest, two on the
+bly one of the most important in north-central Cuba.                 northeast, and eight on the north-central shelf. The spa-
+There is a wide shelf of sand and rock bottom with                   tial distribution of known aggregation sites reflects both
+dispersed coral heads, several rocky keys called Los                 fishing and validation efforts, with most effort concen-
+
+                                                               100
+                                        CUBAN SHELF SPAWNING AGGREGATIONS
+
+
+trated in southwest and north-central areas that have               lation features (García-Díaz et al. 1991, Victoria and
+long-term fishing operations or were less remote. Many              Penié 1998) which can retain eggs and larvae close to the
+of the aggregation sites were first identified in the 1980s         shelf and favor recruitment to nearby shallow areas. Such
+and many remain quite remote. Assessment of current                 scenarios have been predicted for the spawning of lane
+aggregation status has been limited by a lack of boats and          snapper at the border of the Golfo de Cazones (Claro
+communication opportunities with local fishers. Addi-               1982) and mutton snapper at Corona de San Carlos (Claro
+tional studies, particularly field assessments, are needed          1981b). The correlation of spawning aggregation site
+to determine the current status and consistency of occur-           locations with habitat features and geomorphological
+rence of many of these aggregations.                                attributes at higher spatial scales requires more investi-
+                                                                    gation.
+Behaviors and Habitats
+     Various behaviors can characterize the migrations to           Timing of Spawning and Intraspecific Variations
+sites, the pre-spawning assembly of individuals on-site,                 Although many species have a protracted spawning
+the spawning act itself, spawning frequency over both               season (Table 1), all species have a well defined peak,
+daily and weekly time-scales, and subsequent adult dis-             usually over one or two months. This peak is often clearly
+persal. Generally, very little comparative information is           reflected in fisher descriptions and commercial catches
+available on any of these attributes. This lack of informa-         (unpubl. data, Ministerio de Industria Pesqueria; Figure
+tion can lead to situations where limited data are                  2), and is also coincident with biological studies of
+overextrapolated and critical biological variation is not           reproduction in Cuba (García-Cagide et al. 2001). In
+recognized within and among species.                                some instances, peak spawning months are the same in
+     Available information suggests most snapper and                differing regions. Examples include the gray and cubera
+grouper species in Cuba form transient aggregations and             snappers (reported together in Cuban fishery statistics)
+spawn in groups (following Domeier and Colin 1997).                 that have maximum catches associated with spawning in
+However, gray snapper may exhibit simple migratory                  July throughout the island. Also, the dog snapper is
+spawning as discussed in Domeier et al. (1996) and                  found with ripe gonads year round (García-Cagide et al.
+Domeier and Colin (1997). There are clearly differences             1999) but has only been observed and fished in aggrega-
+in the behavior of schools of mutton and lane snapper               tions during July-August.
+during the course of spawning aggregations, with mutton                  The timing of peak spawning in some snapper spe-
+staying at the shelf edge and lane migrating into shallow           cies, however, varies among differing regions of the
+water on a daily basis (Claro 1981b, Claro 1982, García-            Cuban shelf. Monthly catches from 1962 to 1985 indi-
+Cagide et al. 2001). Direct observations of spawning                cate that mutton snapper has a spawning peak in May on
+events have been rare in Cuba and more information on               the south-central and southeastern shelf, but peaks in
+the population size of past and current spawning aggre-             June in other regions of Cuba (Figure 3; unpubl. data,
+gations is needed. Descriptions of spawning in snappers             Ministerio de Industria Pesquera). Catch data and fisher
+exist from work in Belize with dog and cubera snapper               observations also demonstrate geographic variation in
+(Carter and Perrine 1994, Heyman et al. 2001).                      the timing of peak spawning in lane snapper. Maximum
+     Detailed information on habitat attributes that favor          yields from spawning aggregations of lane snapper in the
+spawning aggregations is lacking. Almost all sites in               northwest and south-central regions occur in May, but on
+Cuba are near the shelf edge and many are in remote areas           the southeast, north-central and southwest shelf areas,
+far from urban centers. All the known spawning sites are            peak spawning takes place in June (Figure 3) and occa-
+located near the shelf break, between 20 and 50 m depth,            sionally in July (unpubl. data, Ministerio de Industria
+mostly between 25 and 35 m over hard or sand bottoms                Pesquera). For example, in the eastern Golfo de Batabanó,
+(Table 1). Colin and Clavijo (1988), Shapiro et al. (1988),         the largest lane snapper aggregations occur in May at the
+and Colin (1996) have pointed out that key spawning                 margin of the Golfo de Cazones, but they occur in western
+areas do not necessarily contain unique structural habi-            areas of the Golfo de Batabanó in June. García-Díaz
+tat features. In Cuba, areas with aggregations also do not          (1981) reported that temperature in the Cazones-Casilda
+appear to have habitat structure that exceeds other areas           basin is higher than in other oceanic waters around Cuba;
+in quality. Positioning of spawning areas across the outer          this difference may trigger earlier gonad maturation in
+shelf may be as important as fine-scale habitat features.           fishes at this site (lane, mutton, and yellowtail snappers
+Many of the described spawning sites in Cuba are located            begin initial spawning in this area in April).
+near current systems that contain eddies or other recircu-
+
+                                                              101
+                                                 C LARO AND LINDEMAN
+
+
+
+
+Figure 3. Intraspecific variations in peak spawning months of mutton and lane snapper among differing shelf regions of
+Cuba.
+
+
+     Variations in spawning peaks in groupers of the                Interspecific Variations in Egg Release
+Cuban shelf are not as well defined as in snappers. In                   Complex differences in gametogenesis can induce
+Nassau grouper, the spawning peak traditionally oc-                 subtle variations in spawning patterns among species. In
+curred in January in all regions except the northeast (with         particular, differences in oogenesis can alter the amounts
+a spawning peak in December, Table 1). It is now difficult          and timing of egg releases among seemingly similar
+to assess such attributes of Nassau grouper spawning                congeneric species. Prior work in Cuba has identified
+since catches are much lower than in the 1960s and early            several patterns of oogenesis that characterize the major-
+1970s (Figure 4, Figure 8.14 in Claro et al. 2001). In              ity of economically valuable marine fishes of Cuba
+addition, data from earlier years are potentially con-              (García-Cagide et al. 2001). Two of these patterns, Type
+founded by catch reports that included Nassau grouper               A and Type D, apply to snapper and grouper species in
+captured in the Bahamas.                                            Cuba and appear similar (several egg batches are released
+     Mechanisms triggering variations in spawning tim-              by individual females over a 5 to 10 day period during
+ing are not well known and are potentially a function of            only one month). However, the underlying physiologi-
+age, local population size, intra- and interannual climate          cal patterns of oogenesis differ between these types. In
+and current variations, and differing shelf geomorpholo-            Type A species, oocytes mature at different rates, while
+gies (Grimes 1987, Koenig et al. 2000, Eklund et al. 2000,          in Type D species, all oocytes mature at once but ovulate
+García-Cagide et al. 2001). Unfortunately there is a lack           at different rates.
+of information on how environmental conditions may                       The significance of these differences in evaluating
+influence spawning aggregations for most species.                   spawning can be summarized, in part, as follows. Type A
+Sadovy and Eklund (1999) and García-Cagide et al.,                  species (black grouper, yellowfin grouper, tiger grouper,
+(2001) have suggested that water temperature is an im-              yellowtail snapper, and dog snapper) may be able to
+portant factor, but further information is needed before            release 7 or 8 egg batches over the course of one spawning
+mechanisms influencing aggregation details can be con-              aggregation. In contrast, Type D species (Nassau grou-
+fidently identified.                                                per, gray, mutton, and lane snapper) may only release 4
+
+                                                              102
+                                       CUBAN SHELF SPAWNING AGGREGATIONS
+
+
+
+
+Figure 4. Monthly variations of catches of mutton, lane, mixed cubera and gray snappers (mean values for five year periods
+from 1971 to 1985) and Nassau grouper (1962–1985) for the Cuban shelf.
+
+
+or 5 egg batches per spawning aggregation (García-                     Nassau grouper fisheries in the wider Caribbean
+Cagide et al. 2001). Much more research on both fine-             represent a classic example of the consequences of over-
+scale temporal variation in egg releases and total egg            fishing spawning aggregations (Sadovy 1994a, Sadovy
+production within and among species is needed to better           and Eklund 1999, Sala et al. 2001). A similar situation
+understand spawning aggregation patterns, and their               exists in Cuba. Figure 4D shows the seasonal variation of
+application to ecological theory and fishery manage-              Nassau grouper catches in Cuba from 1962 to 1985. The
+ment.                                                             top annual catches were traditionally obtained during
+                                                                  the spawning period and at various spawning sites (Table
+Overfishing of Cuban Spawning Aggregations                        1). As a result of concentrated fishing of spawning aggre-
+     Degradation or elimination of spawning aggrega-              gations, catches decreased from more than 2,000 metric
+tions is one of the most damaging of population-level             tons annually in the 1960s to less than 100 metric tons
+impacts. Not only can regional-scale population                   in the late 1990s (Claro et al. 1990, Claro et al. 2001a).
+sustainability be threatened, management efforts to re-           Although monthly data is not readily available for recent
+build populations can be degraded if local or long dis-           years, available evidence suggests that Nassau grouper
+tance sources are significantly compromised. Long-term            spawning aggregations are not recovering in substantial
+economic damage to local communities can result, as               manners (e.g., Figure 8.14 in Claro et al. 2001a).
+well as complex degradation of the reef ecosystem. Fish-               Until 1970, fishing trawlers caught more than 90%
+ers also target areas where migrating pre-spawners are            of the lane snapper aggregations on the shallow shelf
+concentrated while moving to the spawning site. Such              close to Cayo Diego Pérez before and during the fifth full
+migration bottlenecks can be heavily fished, with im-             moon of the year. Later, long set nets, several km in
+pacts that rival fishing of actual spawning groups (Claro         length, were placed across the migration routes of lane
+1981a, Claro 1991).                                               snapper so that most of the aggregations were caught
+
+
+                                                            103
+                                                 C LARO AND LINDEMAN
+
+
+before arriving at the spawning site (Claro 1982). During           given the many current threats from overfishing and
+the late 1960s and until 1976, from the second quarter to           habitat degradation. Active spawning aggregations, due
+3–4 days after the full moon of May, more than 60% of               to their discrete nature and high productivity, are clearly
+the total annual catch of lane snapper in the Golfo de              important source areas. This emphasizes the need to
+Batabanó, was obtained from these aggregations. Catches             validate aggregation information when available. Use of
+reached more than 1500 ton per spawning event from                  these areas may vary temporally under natural condi-
+1970 to 1976 (Claro 1982, 1991). These effort levels lead           tions or be fully eliminated due to fishing pressure,
+to catastrophic local overfishing of this species. Efforts          therefore, efforts to confirm the existence of nominal
+to rebuild this lane snapper population have existed for            aggregation sites and monitor their production through
+over 25 years using several measures (a closed season               time will be essential to optimal reserve design and
+during the reproductive period, size and fishing effort             management.
+limits); yet, annual catches still fall far short of prior               The use of aggregation information also incorpo-
+production levels (Claro et al. 2001a).                             rates connectivity goals more directly into the design of
+     Gray and cubera snapper have also been overex-                 interlinked networks of reserves. The long, complex
+ploited on the Cuban shelf as result of intense fishing             configuration of the Cuban shelf, with its various archi-
+effort on aggregations (Figure 4C, Claro et al. 2001a).             pelagos and associated circulation regimes may favor the
+Traditionally, more than 40% of the annual catch was                retention of larvae within some Cuban regions (Lindeman
+obtained in July-August during spawning aggregations.               et al. 2001), although some larvae from western spawning
+Both species are fished heavily during their migration to           sites are certainly transported externally (e.g., north to at
+the spawning sites in channels between the keys, and                least the Florida Keys). We are using spawning aggrega-
+cubera snapper is also fished with hook and line at the             tion sites from several Cuban archipelagos as release
+spawning site. A fishing closure in July has now been in            sites in larval transport modeling at the laboratory of R.
+place for several years, but this measure does not yet              Cowen (in prep.). Many of the spawning aggregation
+appear to be enough for the recovery of these stocks.               sites identified here are also under evaluation in a na-
+                                                                    tional initiative to establish a network of marine reserves
+Management Applications                                             around the Cuban shelf. For example, spawning sites of
+     Fishers have passed down information on spawning               lane snapper near Cayo Diego Pérez at the Golfo de
+aggregations for centuries. Only recently have scientists           Cazones shelf-edge and the adjacent shallow seagrass
+taken advantage of this information (Johannes 1978,                 meadows, are critical habitats for the reproduction, re-
+1998, Claro 1981a,b, Lindeman et al. 2000, Heyman et                cruitment and juvenile growth of many commercial fishes
+al. 2001). In addition to focusing the spatial locations of         of the Golfo de Batabanó (García-Arteaga et al. 1990,
+research, consistent interactions with experienced fish-            García-Cagide et al. 2001). The remaining spawning
+ers can increase stakeholder involvement if related or              habitats in these areas deserve the protection afforded by
+unrelated regulatory measures arise at later intervals.             no-take fishery reserves and are potential components of
+Increased communication before regulations are devel-               a marine reserve network in southern Cuba. Multi-use
+oped can dilute the mistrust some fishers feel towards              zoning alternatives that provide protection for key spawn-
+agency staff or scientists, and ultimately result in better         ing aggregations are being incorporated into manage-
+design and implementation of marine reserves, particu-              ment planning for proposed reserves within all of the
+larly when fishers are brought into the process early and           primary archipelagos of the Cuban shelf.
+participate in the development of co-management plans.
+     Spawning aggregations are particularly important                                 ACKNOWLEDGMENTS
+focal points for the siting of marine reserves because they
+are concentrated production sites and are relatively pre-                We wish to thank a large number of fishers from many
+dictable in space and time. Examinations of source-sink             of the primary fishing zones in Cuba who provided
+dynamics and marine protected area design have focused              information. Staff at the Ministerio de Industria Pesquera
+on both larval production (Roberts 1997) and habitat-               provided catch data and aided with analyses over the
+specific demographic variables (Crowder et al. 2000).               years, in particular, Julio Baisre. Two very thorough
+These approaches encompass complex physical and bi-                 reviewers aided the manuscript in essential manners.
+otic relationships that vary temporally (Lipcius et al.             Many scientists from the Instituto de Oceanología aided
+1997). There is agreement on the need to identify and               this work over many years of field investigations, these
+protect sites of concentrated production, particularly              include Alida García-Cagide, Juan P. García-Arteaga,
+
+                                                              104
+                                            CUBAN SHELF SPAWNING AGGREGATIONS
+
+
+and Georgina Bustamante. Discussions with Pedro                            Claro, R., J.A. Baisre, K.C. Lindeman, and J.P. García-Arteaga.
+Alcolado, Arsenio Areces, Jim Bohnsack, Mike Domeier,                           2001a. Cuban fisheries: historical trends and current status.
+                                                                                pp. 194-219 In: R. Claro, K.C. Lindeman, and L.R. Parenti,
+Reynaldo Estrada, Jose Gerhartz, Angel Quiros, and                              eds. Ecology of the marine fishes of Cuba. Smithsonian
+Yvonne Sadovy were very helpful. Exceptional assis-                             Institution Press, Washington, DC, USA, 253 p.
+tance was provided by Jocelyn Karazsia. This work was                      Claro, R., K.C. Lindeman, and L.R. Parenti, eds. 2001b. Ecology
+funded by the Ministerio de Ciencia, Tecnología, y                              of the marine fishes of Cuba. Smithsonian Institution Press,
+Medio Ambiente and the Academía de Ciencias de Cuba,                            Washington, DC, USA, 253 p.
+                                                                           Colin, P.L. 1996. Longevity of some coral reef fish spawning
+both through the Instituto de Oceanología. Support was                          aggregations. Copeia 1996:189–192.
+also provided by Environmental Defense and a generous                      Colin, P.L. and I.E. Clavijo. 1988. Spawning activity of fishes
+grant from the J. M. Kaplan Fund.                                               producing pelagic eggs on a shelf edge coral reef, south-
+                                                                                western Puerto Rico. Bulletin of Marine Science 43:249–
+                    LITERATURE CITED                                            279.
+                                                                           Crowder, L.B., S.J. Lyman, W.F. Figueira, and J. Priddy. 2000.
+                                                                                Source-sink population dynamics and the problem of siting
+Aquilar-Perera, A. and W. Aguilar-Davila. 1996. A spawning                      marine reserves. Bulletin of Marine Science 66:799–820.
+    aggregation of Nassau grouper, Epinephelus striatus (Pi-               Cruz-Izquierdo, R. 1999. Reclutamiento, procesos oceánicos y
+    sces, Serranidae), in the Mexican Caribbean. Environmen-                    su relación con el pronóstico de la pesquería de la langosta,
+    tal Biology of Fishes 45:351–361.                                           Panulirus argus (Latreille, 1804) en Cuba. Doctoral Thesis,
+Beets, J. and A. Friedlander. 1999. Evaluation of a conservation                University of Habana, La Habana, Cuba.
+    strategy: a spawning aggregation closure for red hind,                 Cruz-Izquierdo, R., J.A. Baisre Alvarez, E. Díaz Iglesias, R.
+    Epinephelus guttatus, in the U.S. Virgin Islands. Environ-                  Brito Pérez, C. García Díaz, W. Blanco Aviles, and C.
+    mental Biology of Fishes 55:91–98.                                          Carrodegas Rodríguez. 1987. Atlas biológico-pesquero de
+Carter, J. and D. Perrine. 1994. A spawning aggregation of dog                  la langosta en el Archipiélago Cubano. Ministerio Industria
+    snapper, Lutjanus jocu (Pisces: Lutjanidae) in Belize, Cen-                 Pesquera, La Habana, Cuba, 125 p.
+    tral America. Bulletin of Marine Science 55:228–234.                   Domeier, M.L. and P.L. Colin. 1997. Tropical reef fish spawning
+Claro, R. 1981a. Ecología y ciclo de vida de la biajaiba, Lutjanus              aggregations: Defined and reviewed. Bulletin of Marine
+    synagris (Linnaeus) en la plataforma cubana. II. Biología                   Science 60:698–726.
+    pesquera. Informe Científico-Técnico, Academia de Ciencias             Domeier, M.L., C.C. Koenig, and F.C. Coleman. 1996. Repro-
+    de Cuba 177:1–53.                                                           ductive biology of the gray snapper (Lutjanus griseus), with
+Claro, R. 1981b. Ecología y ciclo de vida del pargo criollo,                    notes on spawning for other western Atlantic snappers
+    Lutjanus analis (Cuvier), en la plataforma cubana. c 186:1–                 (Lutjanidae). p. 189–201 In: F. Arreguín-Sánchez, J. Munro,
+    83.                                                                         M.C. Balgos, and D. Pauly, eds. Biology, Fisheries and
+Claro, R. 1982. Ecología y ciclo de vida de la biajaiba, Lutjanus               Culture of Tropical Groupers and Snappers. ICLARM
+    synagris (Linnaeus), en la plataforma cubana. IV. Reporte                   Conference Proceedings 48:449 p.
+    de Investigaciones, Instituto de Oceanología, Academia de              Eklund, A.M., D.B. McClellan, and D.E. Harper. 2000. Black
+    Ciencias de Cuba 5:1–37.                                                    grouper aggregations in relation to protected areas within
+Claro, R. 1983a. Ecología y ciclo de vida del caballerote,                      the Florida Keys National Marine Sanctuary. Bulletin of
+    Lutjanus griseus (Linnaeus), en la plataforma cubana. I.                    Marine Science 66:721–728.
+    Identidad, distribución y hábitat, nutrición y reproducción.           Elizarov, E. and J.A. Gómez. 1971. Acerca de la dinámica de las
+    Reporte de Investigaciones, Instituto de Oceanología, Academia              aguas que rodean a Cuba [in Russian]. In Soviet-Cuban
+    de Ciencias de Cuba 7:1–30.                                                 Fish. Res., VNIRO-CIP, Pishevaia Promichlennost, Mos-
+Claro, R. 1983b. Ecología y ciclo de vida de la rabirrubia,                     cow, vol. 3, p. 130–141.
+    Ocyurus chrysurus (Bloch), en la plataforma cubana. I.                 García-Arteaga, J.P., R. Claro, L.M. Sierra, and E. Valdés-
+    Identidad, distribución, hábitat, reproducción y alimentación.              Muñoz. 1990. Características del reclutamiento a la
+    Reporte de Investigaciones, Instituto de Oceanología, Academia              plataforma de los juveniles de peces neríticos en la región
+    de Ciencias de Cuba 15:1–34.                                                oriental del Golfo de Batabanó. En Asociaciones de peces
+Claro, R. 1991. Changes in fish community structure by the                      en el Golfo de Batabanó (R. Claro, ed.), Editorial Academia,
+    effect of fishing activity. Tropical Ecology 32: 36–46.                     La Habana, Cuba, p. 96–122.
+Claro, R., A. García-Cagide, L.M. Sierra, and J.P. García-                 García-Cagide, A. and R. Claro.1983. Datos sobre la reproducción
+    Arteaga. 1990. Características biológico-pesqueras de la                    de algunos peces comerciales del Golfo de Batabanó.
+    cherna criolla Epinephelus striatus (Bloch) (Pisces:                        Reporte de Investigaciones, Instituto de Oceanología, Academia
+    Serranidae) en la plataforma cubana. Ciencias Biológicas                    de Ciencias de Cuba 12:1–20.
+    23:23–43.                                                              García-Cagide, A, and T. García. 1996. Reproducción de
+Claro, R., K. Cantelar-Ramos, F. Pina-Amargós, and J.P. García-                 Mycteroperca bonaci y M. venenosa en la plataforma
+    Arteaga. 2000. Biodiversidad y manejo de la ictiofauna del                  cubana. Revista de Biología Tropical 44:771–780.
+    Archipiélago Sabana-Camagüey. Instituto de Oceanología,                García-Cagide, A., R. Claro, and J. P. García-Arteaga.1999a.
+    CITMA, Cuba, 89 p.                                                          Características biológicas del bonací gato, Mycteroperca
+                                                                                tigris (Pisces: Serranidae) en la plataforma SW de Cuba. I.
+                                                                                Características generales, reproducción. Revista de
+                                                                                Investigaciones Marina 20:8–14.
+                                                                     105
+                                                       C LARO AND LINDEMAN
+
+
+García-Cagide, A., R. Claro, and J.P. García-Arteaga. 1999b.                Lipcius, R.N., W.T. Stockhausen, D.B. Eggleston, L.S. Marshall,
+    Biología del jocú, Lutjanus jocu (Pisces: Lutjanidae) en las                 and B. Hickey. 1997. Hydrodynamic decoupling of recruit-
+    zonas NE y SW de la plataforma cubana I. Distribución,                       ment, habitat quality, and adult abundance in the Caribbean
+    hábitat, reproducción y dinámica de los indicadores                          spiny lobster: source-sink dynamics? Marine and Freshwa-
+    morfofisiológicos. Revista de Investigaciones Marina 20:22–                  ter Research 48:807–815.
+    29.                                                                     Núñez Jiménez, A. 1982. Cuba: la Naturaleza y el Hombre: el
+García Cagide, A., R. Claro, and B.V. Koshelev. 2001. Repro-                     Archipiélago. Editorial Letras Cubanas, La Habana, 691 p.
+    ductive patterns of fishes of the Cuban shelf. p. 71–114 In:            Olaechea, A. and M.A. Quintana. 1975. Desarrollo gonadal de
+    R. Claro, K.C. Lindeman, and L.R. Parenti, eds. Ecology of                   la biajaiba en la plataforma suroccidental de Cuba. Centro de
+    the marine fishes of Cuba. Smithsonian Institution Press,                    Investigaciones Pesqueras, MIP, Cuba.
+    Washington, DC, USA, 253 p.                                             Roberts, C.M. 1997. Connectivity and management of Carib-
+García-Díaz, C. 1981. Temperatura de las aguas oceánicas de Cuba.                bean coral reefs. Science 278:1454–1457.
+    II. Aguas sub-superficiales. Revista Cubana de Investigaciones          Sadovy, Y. 1994a. Grouper stocks of the western central Atlan-
+    Pesqueras 6:16–35.                                                           tic: the need for management and management needs. Proc.
+García-Díaz, C., A.L. Chirino, and J.P. Rodríguez. 1991.                         Gulf and Caribbean Fisheries Institute 43:43–65.
+    Corrientes geostróficas en la ZEE al sur de Cuba. Revista de            Sadovy, Y. 1994b. Aggregation and spawning in the tiger
+    Investigaciones Marinas 12:29–38.                                            grouper, Mycteroperca tigris (Pisces: Serranidae). Copeia
+González Sansón, G., A. Herrera Moreno, E. Díaz-Iglesia, R.                      1994:511–516.
+    Brito Pérez, G. Gotera González, C. Arrinda Montes y D.                 Sadovy, Y. and A. Eklund. 1999. Synopsis of biological data on
+    Ibarzabal Bombalier. 1991. Bioecología y conducta de la                      the Nassau grouper, Epinephelus striatus (Bloch, 1792),
+    langosta (Panulirus argus, Lat.), en las zonas profundas del                 and the jewfish, E. itajara (Lichtenstein, 1822). NOAA
+    borde de la plataforma en la región suroccidental de Cuba.                   Techical Reports NMFS 146, 65 p.
+    Revista de Investigaciones Marinas 12:140–153.                          Sala, E., E. Ballesteros, and R.M. Starr. 2001. Rapid decline of
+Grimes, C.B. 1987. Reproductive biology of the Lutjanidae: a                     Nassau grouper spawning aggregations in Belize: fishery
+    review. p. 239–294. In: J.J. Polovina and S. Ralston, eds.                   management and conservation needs. Fisheries 26:23-30.
+    Tropical snappers and groupers: biology and fisheries                   Shapiro, D.Y., D.A. Hensley, and R.A. Appeldoorn. 1988.
+    management. Westview Press, Boulder, CO, USA.                                Pelagic spawning and egg transport in coral-reef fishes: a
+Heyman, W.D., R.T. Graham, B. Kjerfve, and R. E. Johannes.                       skeptical overview. Environmental Biology of Fishes 22:3–
+    2001. Whale sharks Rhincodon typus aggregate to feed on                      14.
+    fish spawn in Belize. Marine Ecology Progress Series                    Shapiro, D.Y., Y. Sadovy, and M.A. McGehee. 1993. Size,
+    215:275–282.                                                                 composition and spatial structure of the annual spawning
+Johannes, R.E. 1978. Traditonal marine conservation methods in                   aggregation of the red hind, Epinephelus guttatus (Pisces:
+    Oceana and their demise. Annual Review of Ecology and                        Serranidae). Copeia 1993:399–406.
+    Systematics 9:349–364.                                                  Siam Lahera, C. 1986. Comportamiento de la temperatura del
+Johannes, R.E. 1998. The case for data-less marine resource                      agua en las cercanías del Cayo Diego Pérez. Centro de
+    management: examples from tropical nearshore fin fisher-                     Investigaciones Pesqueras, Ministerio de Industria Pesquera,
+    ies. Trends in Ecology and Evolution 13:243–246.                             La Habana, Cuba.
+Koenig, C.C., F.C. Coleman, C.B. Grimes, G.R. Fitzhugh, K.M.                Siam Lahera, C. and N. Ramirez. 1987. Distribución de las masas
+    Scanlon, C.T. Gledhill, and M. Grace. 2000. Protection of                    de agua alrededor de Cuba. Centro de Investigaciones
+    fish spawning habitat for the conservation of warm-temper-                   Pesqueras, Ministerio de Industria Pesquera, La Habana,
+    ate reef-fish fisheries of shelfedge reefs of Florida. Bulletin              Cuba.
+    of Marine Science 66:593–616.                                           Starck, W.A. 1970. Biology of the gray snapper, Lutjanus
+Lindeman, K.C., R. Pugliese, G.T. Waugh, and J.S. Ault. 2000.                    griseus (Linnaeus), in the Florida Keys. Studies in Tropical
+    Developmental patterns within a multispecies reef fishery:                   Oceanography University of Miami 10:1–150.
+    management applications for essential fish habitats and                 Victoria del Río, I. and I. Penié. 1998. Hidrología. In: M. Vales,
+    protected areas. Bulletin of Marine Science 66:929–956.                      A. Alvarez, L. Montes, and A. Ávila, eds. Estudio Nacional
+Lindeman, K.C., T.N. Lee, W.D. Wilson, R. Claro, and J.S. Ault.                  sobre la Diversidad Biológica en la República de Cuba.
+    2001. Transport of larvae originating in southwest Cuba and                  PNUMA/CENBIO/IES/AMA/CITMA, La Habana, Cuba,
+    the Dry Tortugas: evidence for partial retention in grunts and               p. 117–125.
+    snappers. Proceedings of the Gulf and Caribbean Fisheries               Vilaró Díaz, D.J. 1884. Corrida y arribazón de algunos peces
+    Institute 52:732–747.                                                        cubanos. Manuel Gómez de la Maza, La Habana, Cuba, 15 p.
+
+
+
+
+                                                                      106
+

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA930418,PRJNA944691,PRJNA967626,PRJNA967630,PRJNA967633,PRJNA967634,PRJNA982083,PRJNA991285,PRJNA992473",
+  "retrieved_utc": "2026-10-13T04:13:14.014682+00:00",
+  "sha256": "4d00deda1d0079b44b1ee66a74516b9523bbab2b0b21c5eb39bc1b751fd6adc3",
+  "http_status": 200,
+  "bytes": 21896,
+  "cache_path": "Data/Genomics/raw/studies/900752c5ef49bd1ec0da65130348979163f69c122ba9486e334497561eb088eb.gz"
+}

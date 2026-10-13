@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Anchoa%20mitchilli",
+  "retrieved_utc": "2026-10-13T04:04:50.894175+00:00",
+  "sha256": "ae25ac7b348460d1290bd42b7d078d0591af112391e47b224c908735f17717d5",
+  "http_status": 200,
+  "bytes": 726,
+  "cache_path": "Data/Genomics/raw/taxonomy/84f301d808fc6b0bb9470bfb798ada702fe50ecf6628488b338869b3d5f03d0c.gz"
+}

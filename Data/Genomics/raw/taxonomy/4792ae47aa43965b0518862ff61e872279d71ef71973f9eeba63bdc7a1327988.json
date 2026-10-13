@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Cheilopogon%20furcatus",
+  "retrieved_utc": "2026-10-13T04:05:00.758581+00:00",
+  "sha256": "c7e7d2c5fc327ac12b52d7f243355760d593125de922172083a40a5e6d1b24b9",
+  "http_status": 200,
+  "bytes": 762,
+  "cache_path": "Data/Genomics/raw/taxonomy/4792ae47aa43965b0518862ff61e872279d71ef71973f9eeba63bdc7a1327988.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Membras%20martinica",
+  "retrieved_utc": "2026-10-13T04:04:50.201212+00:00",
+  "sha256": "690e5d34c6e5733556b17428ee2daa92817c16a6d53b8c29835339c3fe9c6030",
+  "http_status": 200,
+  "bytes": 742,
+  "cache_path": "Data/Genomics/raw/taxonomy/e81681ba8bb1922fb338e7d5ddef894a5f0361592f8f4ee6a19fb381dd4df2e9.gz"
+}

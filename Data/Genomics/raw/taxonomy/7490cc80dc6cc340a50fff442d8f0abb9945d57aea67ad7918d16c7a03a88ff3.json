@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Eucinostomus%20gula",
+  "retrieved_utc": "2026-10-13T04:05:01.428451+00:00",
+  "sha256": "729187cb6005d52fe039c67b5e04173580210adbf61d3fa0f363061f85b99e15",
+  "http_status": 200,
+  "bytes": 694,
+  "cache_path": "Data/Genomics/raw/taxonomy/7490cc80dc6cc340a50fff442d8f0abb9945d57aea67ad7918d16c7a03a88ff3.gz"
+}

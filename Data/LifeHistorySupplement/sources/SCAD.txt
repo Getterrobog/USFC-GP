@@ -1,0 +1,2597 @@
+NOAA Technical Report NMFS 89                   April 1990
+                                         ,
+                                         ,
+
+            Early-Life-History Profiles,
+            Seasonal Abundance, and
+            Distribution of Four Species
+            of Carangid Larvae off Louisiana,
+            1982 and 1983
+
+            Richard F. Shaw
+            David L. Drullinger
+
+
+
+
+           U.S. Department of Commerce
+NOAA TECHNICAL REPORT NMFS                                                                                                                                                   _
+
+     The major responsibilities of the National Marine Fisheries Service (NMFS) are to monitor and assess the abundance and geographic distribution of fishery resources, to
+understand and predict fluctuations in the quantity and distribution of these resources, and to establish levels for their optimum use. NMFS is also charged with the development
+and implementation of policies for managing national fishing grounds, development and enforcement of domestic fisheries regulations, surveillance of foreign fishing off United
+States coastal waters, and the development and enforcement of international fishery agreements and policies. NMFS also assists the fishing industry through marketing service
+and economic analysis programs, and mortgage insurance and vessel construction subsidies. It collects, analyzes, and publishes statistics on various phases of the industry.
+     The NOAA Technical Report NMFS series was established in 1983 to replace two subcategories of the Technical Reports series: "Special Scientific Report-Fisheries" and
+"Circular." The series contains the following types of reports: Scientific investigations that document long-term continuing programs of NMFS; intensive scientific reports on
+studies of restricted scope; papers on applied fishery problems; technical reports of general interest intended to aid conservation and management; reports that review in con-
+siderable detail and at a high technical level certain broad areas of research; and technical papers originating in economics studies and from management investigations. Since
+this is a formal series, all submitted papers receive peer review and those accepted receive professional editing before publication.
+     Copies of NOAA Technical Reports NMFS are available free in limited numbers to governmental agencies, both Federal and State. They are also available in exchange for
+other scientific and technical publications in the marine sciences. Individual copies may be obtained from: U.S. Department of Commerce, National Technical Information Service,
+5285 Port Royal Road, Springfield, VA 22161. Although the contents have not been copyrighted and may be reprinted entirely, reference to source is appreciated.
+
+
+48. Widow rockfish: Proceedings of a workshop, Tiburon, California, December                64. Illustrated key to penaeoid shrimps of commerce in the Americas, by Isabel Perez
+11-12,1980, by William H. Lenarz and Donald R. Gunderson (editors). January 1987,           Farfante. April 1988, 32 p.
+57 p.
+                                                                                            65. History of whaling in and near North Carolina, by Randall R. Reeves and Edward
+49. Reproduction, movements, and population dynamics of the southern kingfish,              Mitchell. March 1988, 28 p.
+Menticirrhus americanus, in the northwestern Gulf of Mexico, by Stephen M. Harding
+and Mark E. Chittenden, Jr. March 1987,21 p.                                                66. Atlas and zoogeography of common fishes in the Bering Sea and northeastern
+                                                                                            Pacific, by M. James Allen and Gary B. Smith. April 1988, 151 p.
+50. Preparation of acetate peels of valves from the ocean quahog, Arctica islandica,
+for age determinations, by John W. Ropes. March 1987,5 p.                                   67. Index numbers and productivity measurement in multispecies fisheries: An
+                                                                                            application to the Pacific coast trawl fleet, by Dale Squires. July 1988. 34 p.
+51. Status, biology, and ecology of fur seals: Proceedings of an international
+workshop, Cambridge, England, 23-27 April 1984, by John P. Croxall and Roger                68. Annotated bibliography II of the hard clam Mercenaria mercellaria, by 1.L.
+L. Gentry (editors). June 1987,212 p.                                                       McHugh and Marjorie W. Sumner. September 1988, 59 p.
+
+52. Limited access alternatives for the Pacific ground fish fishery, by Daniel D.           69. Environmental quality and aquaculture systems: Proceedings of the thirteenth
+Huppert (editor). M'ay 1987, 45 p.                                                          U.S.-Japan meeting on aquaculture, Mie, Japan, October 24-25, 1984, edited by Carl
+                                                                                            J. Sindermann. October 1988, 50 p.
+53. Ecology of east Florida sea turtles: Proceedings of the Cape Canaveral. Florida,
+sea turtle workshop. Miami, Florida, February 26-27, 1985, by Wayne N. Witzell              70. New and innovative advances in biology/engineering with potential for use in
+(convener and editor). May 1987,80 p.                                                       aquaculture: Proceedings of the fourteenth U.S.-Japan meeting on aquaculture, Woods
+                                                                                            Hole, Massachusetts, October 16-/7, 1985, edited by Albert K. Sparks. November
+54. Proximate and fatty acid composition of 40 southeastern U.S. finfish species,           1988, 69 p.
+by Janet A. Gooch, Malcolm B. Hale, Thomas Brown, Jr., James C. Bonnet, Cheryl
+G. Brand, and Lloyd W. Reiger. June 1987, 23 p.                                             71. Greenland turbot Reillhardtius hippoglossoides of the eastern Bering Sea and
+                                                                                            Aleutian Islands region, by Miles S. Alton, Richard G. Bakkala, Gary E. Walters,
+55. Proximate composition, energy, fatty acid, sodium, and cholesterol content of           and Peter T. Munro. December 1988, 31 p.
+finfish, shellfish, and their products. by Judith Krzynowek and Jenny Murphy. July
+1987, 53 p.                                                                                 72. Age determination methods for northwest Atlantic species, edited by Judy Penttila
+                                                                                            and Louise M. Dery. December 1988, 135 p.
+56. Some aspects of the ecology of the leatherback turtle Dermochelys coriacea at
+Laguna Jolova. Costa Rica, by Harold F. Hirth and Larry H. Ogren. July 1987, 14 p.          73. Marine flora and fauna of the Eastern United States. Mollusca: Cephalopoda,
+                                                                                            by Michael Vecchione, Clyde F.E. Roper, and Michael 1. Sweeney. February 1989,
+57. Food habits and dietary variability of pelagic nekton off Oregon and WaShington.        23 p.
+1979-1984, by Richard D. Brodeur, Harriet V. Lorz, and William G. Pearcy. July
+                                                                                            74. Proximate composition and fatty acid and cholesterol content of 22 species of
+1987, 32 p.
+                                                                                            northwest Atlantic finfish, by Judith Krzynowek, Jenny Murphy, Richard S. Maney,
+58. Stock assessment of the Gulf menhaden, Brevoortia patronlls, fishery, by Douglas        and Laurie 1. Panunzio. May 1989, 35 p.
+S. Vaughan. September 1987, 18 p.
+                                                                                            75. Codend selection of winter flounder Pseudopleurollectes americallllS, by David
+                                                                                            G. Simpson. March 1989, 10 p.
+59. Atlantic menhaden, Brevoortia tyronnllS, purse seine fishery, 1972-84, with a
+brief discussion of age and size composition of the landings, by Joseph W. Smith,
+                                                                                            76. Analysis of fish diversion efficiency and survivorship in the fish return system
+William R. Nicholson, Douglas S. Vaughan. Donnie L. Dudley, and Ethel A. Hall.
+                                                                                            at San Onofre Nuclear Generating Station, by Milton S. Love, Meenu Sandhu,
+September 1987, 23 p.
+                                                                                            Jeffrey Stein, Kevin T. Herbinson, Robert H. Moore, Michael Mullin, and John S.
+                                                                                            Stephens. Jr. April 1989, 16 p.
+60. Gulf menhaden, Brevoortia patronlls, purse seine fishery, 1974-85, with a brief
+discussion of age and size composition of the landings, by Joseph W. Smith. Eldon           77. Illustrated key to the genera of free-living marine nematodes of the order
+J. Levi, Douglas S. Vaughan, and Ethen A. Hall. December 1987, 8 p.                         Enoplida. by Edwin J. Keppner and Armen C. Tarjan. July 1989, 26 p.
+
+61. Manual for starch gel electrophoresis: A method for the detection of genetic varia-     78. Survey of fishes and water properties of south San Francisco Bay, California,
+tion. by Paul B. Aebersold, Gary A. Winans, David J. Teel, George B. Milner, and            1973-82, by Donald E. Pearson. August 1989,21 p.
+Fred M. Utter. December \987, 19 p.
+                                                                                            79. Species composition, distribution, and relative abundance of fishes in the coastal
+62. Fishery publication index, 1980-85; Technical memoradum index, 1972-85, by              habitat off the southeastern United States, by Charles A. Wenner and George R.
+Cynthia S. Martin. Shelley E. Arenas, Jacki A. Guffey, and Joni M. Packard.                 Sedberry. July 1989,49 p.
+December 1987. 149 p.
+                                                                                            80. Laboratory guide to early tife history stages of northeast Pacific fishes, by Ann
+63. Stock assessment of the Atlantic menhaden, Brevoortia tyrannus, fishery, by             C. Matarese, Arthur W. Kendall, Jr., Deborah M. Blood, and Beverly M. Vinter.
+Douglas S. Vaughan and Joseph W. Smith. January 1988, 18 p.                                 October 1989, 65 I p.
+                                         NOAA Technical Report NMFS 89
+
+
+                                         Early-Life-History Profiles,
+                                         Seasonal Abundance, and
+                                         Distribution of Four Species
+                                         of Carangid Larvae off Louisiana,
+                                         1982 and 1983
+
+                                         Richard F. Shaw
+                                         David L. Drullinger
+
+
+                                         April 1990
+
+
+
+
+         ,to""" OF co
+.:
+    ~4-'1;    '2 ." U.S.
+                  '
+                          ~+~
+                                               DEPARTMENT OF COMMERCE
+                                         Robert Mosbacher, Secretary
+Q~,                                ...   National Oceanic and Atmospheric Administration
+:
+~
+             ~-  ;"           ~
+                                   ;     John A. Knauss, Under Secretary for Oceans and Atmosphere
+    ~~ 8              .   ~..,q.         National Marine Fisheries Service
+             "<4Trs Of t'                William W. Fox, Jr., Assistant Administrator for Fisheries
+The National Marine Fisheries Service (NMFS) does not approve, recommend
+or endorse any proprietary product or proprietary material mentioned in this
+publication. No reference shall be made to NMFS, or to this publication furnished
+by NMFS, in any advertising or sales promotion which would indicate or imply
+that NMFS approves, recommends or endorses any proprietary product or pro-
+prietary material mentioned herein, or which has as its purpose an intent to cause
+directly or indirectly the advertised product to be used or purchased because of
+this NMFS publication.
+
+
+
+
+                                        11
+CONTENTS
+
+Acknowledgments iv
+
+Introduction 1
+
+Methods and Materials
+ Ichthyoplankton samples 2
+ Bioprofiles 3
+
+Results
+  Caranx crysos 3
+  Chloroscombrus chrysurus 9
+ Decapterus punctatus 12
+  Trachurus lathami 17
+
+Discussion   18
+
+Citations 21
+
+Appendix: Bioprofiles
+ Caranx crysos 26
+ Chloroscombrus chrysurus 29
+ Decapterus punctatus 32
+ Trachurus lathami 35
+
+
+
+
+                             1Il
+Acknowledgments                                                        _
+
+Data collection and preliminary analyses were funded by the Louisiana Board
+of Regents Research and Development Program (contracts 84-LBR/054-B34
+and 85-LBR/OI3-805), and final analysis was supported by the Marine
+Fisheries Initiative (MARFIN) Program (contract NA86-WC-H-06117). We
+would like to thank those who helped us acquire data and samples collected
+during the first 2 years of the SEAMAP Ichthyoplankton Program: Loui-
+siana Department of Wildlife and Fisheries; Thomas Potthoff, William J.
+Richards, and Kenneth Savastano of the National Marine Fisheries Service;
+Nikki Bane and members of the SEAMAP Subcommittee; and John V. Gart-
+ner, Jr., of the Florida Department of Natural Resources. We also thank
+James H. Cowan, Jr., James G. Ditty, Mark M. Leiby, David Ruple, and
+Joanne Lyczkowski-Shultz, who provided valuable expertise toward the
+identification of many poorly described species. To Scott G. Leibowitz,
+special thanks for his work on the mapping graphics package. The com-
+ments and criticisms of two anonymous reviewers are also appreciated.
+
+
+
+
+                                     iv
+                                                                          Introduction                                                _
+Early-Life-History Profiles,
+Seasonal Abundance,                                                       Exploratory fishing surveys in the Gulf of Mexico have iden-
+                                                                          tified the carangids as being abundant (JuhlI966, Bullis and
+
+and Distribution of Four                                                  Carpenter 1968, Bullis and Thompson 1970, Klima 1971)
+                                                                          and have found evidence that commercial quantities of round
+
+Species of Carangid                                                       scad Decapterus punctatus, rough scad Trachurus lathami,
+                                                                          and blue runner Caranx crysos may exist (Klima 1971). In
+
+Larvae off Louisiana,                                                     the United States these species may have commercial poten-
+                                                                          tial for export marketing and as baitfish. Also, in conjunc-
+
+1982 and 1983                                                             tion with the small and abundant Atlantic bumper Chloro-
+                                                                          scombrus chrysurus, these species constitute an important,
+                                                                          if not primary, food source for many predatory game and
+                                                                          commercial fishes and may therefore directly affect the
+RICHARD F. SHAW                                                           biomass of these predators. Other available forage fish may
+DAVID L. DRULLINGER*                                                      not be as abundant throughout their geographical range, reach
+Coastal Fisheries Institute                                               high enough schooling densities, nor have the same palatabil-
+Center for Wetland Resources                                              ity as these species (Reintjes 1979a).
+Louisiana State University                                                   Despite the potential importance of such coastal pelagics
+Baton Rouge, Louisiana 70803-7503                                         as the carangids, we do not presently know enough about
+                                                                           them to accurately assess the extent to which they can be
+                                                                          feasibly exploited (Nakamura 1980, Vaughan et al. 1986).
+                                                                          This inadequacy is especially apparent in our understanding
+ABSTRACT                                                                  of the early-life-history stages. Very little is known about
+                                                                          larval abundance, seasonality, and distribution of these
+We present data on ichthyoplankton distribution, abundance,
+                                                                          species off Louisiana, or about the oceanographic factors that
+and seasonality and supporting environmental information for
+four species of coastal pelagics from the family Carangidae: blue         may be important for their survival. Knowledge of spawn-
+runner Caranx crysos, Atlantic bumper Chloroscombrus chry-                ing location and season, for example, could have immediate
+surus, round scad Decapterus punctatus, and rough scad Tra-               applications because some of the carangid fisheries exploit
+churus lathami. Data are from 1982 and 1983 cruises off Loui-             only spawning concentrations (Elwertowski and Boely 1971).
+siana sponsored by the Southeastern Area Monitoring and                   Information on spawning aggregations could affect efficiency
+Assessment Program (SEAMAP). Bioprofiles on reproductive                  and development of the fisheries (Leak 1977).
+biology, early life history, meristics, adult distribution, and              This research was undertaken to augment information on
+fisheries characteristics are also presented for these species.           the early life history of the four previously mentioned species
+   Maximum abundances of larval blue runner, Atlantic                     of carangids. This is especially important in light of (1) the
+bumper, and round scad were found in July inside the 4O-m
+                                                                          increasing awareness that some of our fisheries may be
+isobath, although during the rest of the cruises these species were
+                                                                          approaching, or may have already reached, their maximum
+rarely found together. Larval Atlantic bumper were captured
+in June and July only; blue runner in May, June, and July; and            sustainable yields; (2) tOOay's political and economic climate
+round scad in all seasons. Atlantic bumper larvae, concentrated           with its justifiable emphasis on creating new job opportu-
+mostly off western Louisiana, were by far the most abundant               nities, utilizing untapped renewable resources, and balanc-
+carangid in 1982 and 1983. Larval blue runner were the second             ing the international trade deficit; and (3) the appreciation
+most abundant summer-spawned carangid in 1982 and 1983,                   of each Gulf state's need to develop, maximize, effectively
+but their abundance and depth distribution varied considerably            manage, and partition fishery resources while minimizing
+between years. Relative abundance of larval round scad off Loui-          conflicts between commercial and recreational users. Infor-
+siana was low, and they were captured only west of the Missis-            mation provided in this report should help solidify the data
+sippi River delta, although they are reported to dominate                 foundation necessary for sound management of the Gulfs
+carangid populations in the eastern Gulf of Mexico. Rough scad
+                                                                          "fisheries of the future."
+were primarily winter/spring and outer-shelf (40-182 m)
+spawners. They ranked third in overall abundance, but were                   Our research approach for this 2-year project was to (1)
+the most abundant target carangid on the outer shelf. Ecological          thoroughly survey the pertinent literature and compile, con-
+parameters such as surface salinity, temperature, and station             solidate, and synthesize appropriate data for incorporation
+depth are presented from capture sites for recently hatched               into bioprofiles of the early life histories of the selected
+larvae «2.5 mm notochord length, except round scad) as well               species; and (2) sort, identify, and analyze larval fish samples
+as for all sizes of fish below 14 mm standard length.                     requested from the Southeast Area Monitoring and Assess-
+                                                                          ment Program (SEAMAP), focusing on collections in Loui-
+                                                                          siana territorial and offshore waters during 1982 and 1983
+  *Present address: Surface Water Quality Division, Michigan Department   cruises.
+of·Natural Resources, P.O. Box 30028, Lansing, MI48909.
+                                                                 Table 1
+                            Summary of 1982 SEAMAP ichthyoplankton sampling in Louisiana proximal waters.
+
+ Vessel or state   Cruise           Dates         Station no.        Sample no.            Gear                        Location
+
+ Oregon II           125         02/24-03/17     36005-36580          869-963         Bongo               Mississippi delta area
+ Oregon II           126         04/20-05/24     36689-36777           91-360         Bongo/Neuston       Louisiana offshelf
+ Oregon II           127         06/02-06/27     36788-36937          497-634         Bongo/Neutson       Louisiana shelf
+ Louisiana             0         06/01-07/30        01-43             454-496         Ring                Louisiana coastline
+ Jeff and Tina      0003         06/16-07/06      B2oo-B220           415-447         Bongo/Neuston       East Texas/West Louisiana, shelf
+ Oregon II           130         10/ I7-11/23    37389-38268         2052-2127        Bongo/Neuston       East Louisiana/Mississippi, shelf
+
+
+
+
+                                                                 Table 2
+                            Summary of 1983 SEAMAP ichthyoplankton sampling in Louisiana proximal waters.
+
+ Vessel or state   Cruise            Dates         Station no.           Sample no.          Gear           Location
+
+                                                                         2133-2162
+ Oregon II           133         03/13-03/29      38604-38775            3339-3341      Bongo/Neuston       East of Mississippi River delta
+ Oregon II           134         04/25-05/23      39073-39198            1163-1471      Bongo/Neuston       Louisiana offshelf
+ Oregon II            135        06/08-07/05      39242-39390            1908-1994      Bongo/Neuston       Louisiana shelf
+ Tommy Munro          135        06/07-06/14         AI-BI82             1639-1673      Bongo/Neuston       Mississippi shelf
+ Louisiana             02        06/ 13-06/16     01001-07005            1703-1735      Ring                Louisiana coastl ine
+ Louisiana             03        06/21-06/23      01001-07005            1736-1765      Ring                Louisiana coastline
+ Suncoaster            01        07/01-07/04       B179-B183             1685-1696      Bongo/Neuston       Mississippi shelf
+ Oregon II            138        10/12-10/31      39580-39849            3352-3452      Bongo/Neuston       East of Mississippi River delta
+ Tommy Munro        RD83         10/18-10/19          1-3                1884-1889      Bongo               Mississippi shelf
+ Oregon II           140         12/14-12/21      40197-40231            1814-1838      Bongo/Neuston       Louisiana offshelf
+
+
+
+
+Methods and Materials                                            _        on north-south transects within the 5-m depth contour. Tow-
+                                                                          ing speed for all collections was 0.8m/s. A more detailed
+Ichthyoplankton samples                                                   treatment of the sampling grid and procedures is presented
+                                                                          elsewhere (Stuntz et al. 1982, Thompson and Bane 1986).
+Samples of larval and early juvenile carangids from the
+                                                                             Carangid larvae were identified to the lowest taxonomic
+SEAMAP ichthyoplankton collections were examined for the
+                                                                          level possible and verified against available ichthyoplankton
+presence of our target species: Caranx crysos, Chloroscom-
+                                                                          reference collections. Many carangids found in the SEAMAP
+brus chrysurus, Decapturus punctatus, and Trachurus latha-
+                                                                          samples were either nontarget species or unidentifiable. Lar-
+mi. Samples analyzed in 1982 were from cruises conducted
+                                                                          vae and juveniles of the Caranx hippos/latus complex were
+24 February-17 March and 20 April-30 July (Richards et al.
+                                                                          by far the most common nontarget carangids. Other carangids
+1984), and an additional cruise 17 October-23 November.
+                                                                          found were undescribed Caranx spp., Elagatis bipinnulata,
+In 1983, samples were analyzed from cruises conducted 13
+                                                                          Oligoplites saurus, Selar crumenophthalmus, Selene spp.,
+March-5 July, and during 12-31 October and 14-21 Decem-
+                                                                          Seriola spp., and Trachinotus spp.                        .
+ber (Kelley et al. 1985). For both years our targeted species
+                                                                             Target species were enumerated and measured. Standard
+were analyzed from station locations off Louisiana between
+                                                                          lengths (SL) were taken to the nearest tenth millimeter and
+long. 88°30'W and 94°30W and from the Louisiana coast
+                                                                          are presented in l-mm increments (i.e., 1.0-1.9 mm, 2.0-2.9
+to lat. 26 °OO'N, approximately 322 kIn offshore. Offshore
+                                                                          mm) in the length-frequency histograms. Standard length was
+stations were generally arranged in a systematic grid at
+                                                                          considered synonymous with notochord length in preflex-
+minimum intervals of 55 kIn (30 nautical miles) or one-half
+                                                                          ion larvae. Any fishes larger than 13.9 mm SL were con-
+degree, but coastal stations were usually irregularly spaced
+                                                                          sidered juveniles and not included in this analysis. In each
+or clumped. SEAMAP vessels were provided by the National
+                                                                          sample, all fish of a target species were measured unless there
+Marine Fisheries Service and by state agencies (Tables 1 and
+                                                                          were more than 52 individuals. For collections of over 52
+2). Sampling consisted of oblique plankton tows taken with
+                                                                          specimens, we measured the longest and shortest individuals
+60-cm bongo nets (0.333-mm mesh) within 5 m of the bot-
+                                                                          and used a random-numbers table to select 50 others from
+tom (at station depths of <205 m) or from a depth of 200
+                                                                          a dish with a grid system. We adjusted the length-frequency
+m and lO-min neuston tows with the 1X2-m net (0.947-mm
+m~sh) half submerged (Thompson and Bane 1986). In addi-                   histograms from net collections with greater than 52 larvae
+                                                                          of a given species, using a multiplier to give equal weight
+tion, 0.5-m ring nets with 0.333-mm mesh were used aboard
+                                                                          to the length data subsampled from the larger collections.
+Louisiana and Alabama vessels to take lO-min surface hauls
+                                                                     2
+                                                             Table 3
+ Number of SEAMAP stations sampled for carangids off Louisiana, 1982 and 1983. No samples taken in January, August, or September.
+                                                     NS = no samples taken.
+
+              Gear and
+ Year          depth           Feb        Mar         Apr             May         June        July        Oct         Nov         Dec
+
+ Bongo
+ 1982         <40 m              5         27                                      17           3                      II
+              40-182 m                     36                          8           14           I                      12
+              >182 m                                   23             26            8                       2           5
+              Total              5         63          23             34           39           4           2          28          NS
+ 1983         <40 m                         2                                      13           I           6
+              40-182 m                       I          4               I          11           4           2                       3
+              >182 m                         2         10             18                                    4                       6
+             Total             NS            5         14             19           24           5          12          NS           9
+ Neuston or Ring
+ 1982         <40 m                                                                37          23
+              40-182 m                                                 8           14                                   I
+              >182 m                                   23             29            8                       3           2
+              Total            NS          NS          23             37           S9          23           3           3          NS
+ 1983         <40 m                                                                54           I
+              40-182 m                                  4              I           II           4                                   3
+              >182 m                         3         10             17                                    4                       S
+              Total            NS            3         14              18          6S           S           4          NS           8
+
+
+
+
+   Spawning season and location (depth or distance from                 Abstracts (1861-1983), Oceanic Abstracts (1964-83), and
+shore), larval distribution and abundance, and larval ecology           Zoological Record (1978-80).
+(i.e., temperature and salinity at time of capture) were deter-            The total number of literature citations on these species
+mined for all target species. Yearly abundance of each lar-             is somewhat deceptive; review of the literature reveals rela-
+val species was determined at three depth zones: inner shelf            tively few early-life-history studies from the Gulf of Mex-
+(depths <40 m), outer shelf (40-182 m), and offshore (>182              ico targeting these species. The available summary informa-
+m). Station abundances and length-frequency data for each               tion often pieced together data from throughout the world's
+species were plotted by gear type and month. Monthly group-             oceans or on similar species of the same genus. For these
+ings were considered optimal because they allowed varia-                reasons, we have purposely avoided using summations of
+tions in the sampling effort (cruise tracks) and spawning               all the available information to make all-inclusive statements
+intensity or site location to be viewed over time without con-          on spawning seasonalities, egg and larval distributions,
+siderable loss of sample size or geographic coverage. Abun-             meristics, etc., in our early-life-history bioprofiles. We have
+dances of larvae caught in unmetered neuston or 0.5-m ring              instead reported specific facts from specific authors and
+nets are listed as catch-per-unit-effort (CPUE), where a unit           locales so that readers can locate information relevant to their
+of effort is defined as one complete tow ("" 10 min). Only              particular problems or decide how much weight to give to
+bongo nets were metered, allowing calculations of the volume            each finding based on its timeliness or proximity to a given
+of water filtered. Abundances of fish captured in bongo nets            geographical area. In the absence of data from the Gulf or
+are presented as the number of larvae under 10 m2 of sea                on the appropriate species, we have provided information
+surface, written in the text as no. fishllO m2 . Yearly mean            from other areas, oceans, or species, and have so indicated
+abundances were calculated over those months when cap-                  in each instance.
+ture of a species was deemed likely, referred to as the larval
+season. Both positive and zero-catch stations were included
+in mean abundance estimates. The number of total stations               Results                                                    _
+sampled each month is given in Table 3.
+                                                                        Caranx crysos
+Bioprofiles                                                             In general, young of C. crysos (1.5-13.0 mm SL), our sec-
+                                                                        ond most abundance target species, were distributed across
+We found most of the literature reviewed in the bioprofiles
+                                                                        Louisiana's continental shelf waters, except east of the
+(see Appendix) through computer-assisted literature searches
+                                                                        Mississippi River delta (Figs. 1-4). During May 1982 off-
+utilizing on-line databases such as Aquatic Science Abstracts
+                                                                        shore sampling (depths> 182 m), larvae were captured only
+(1978-83), BIOSIS (1969-83), Comprehensive Dissertation
+                                                                        along the edge of the continental shelf, suggesting that there
+
+                                                                  3
+CARANX CRYSOS
+
+
+
+
+                               100
+
+                               80
+
+                               60
+    +
+                                               MAY
+                               40              N=      3
+
+                               20
+
+                                   0
+
+
+
+
+                          >
+                          ()
+                               60
+                                               JUNE
+                          z
+                          w    40              N=      30
+                          :J
+                          0
+                          w    20
+                          a:
+                          LL
+n                         ~
+                          0        0
+
+
+
+
+                                60
+                                               JULY
+                                40             N=     137        Figure 1
+                                                            Size-frequency dis-
+                                                            tribution and abun-
+                                20                          dance (N/I0 m2 ) of
+                                                            Caranx crysos larvae
+
+ a. u r-I >0 -10
+    w
+    Z
+         ~
+         L-J
+                                   o                        for positive-catch
+                                                            months during 1982
+    C(                                 1234567891111
+    c
+    z    E] >10 - 100                           0123        SEAMAP bongo net
+                                                            collections off Loui-
+    :J
+    m
+    C(   1m >100 - 1000            STANDARD LENGTH (mm)
+                                                            siana. Stations sam-
+                                                            pled (+); N = total
+                                                            number caught.
+
+                               4
+CARANX CRYSOS
+
+
+
+
+                                                     100
+
+                                                     80
+ .1                                                  60
+                                                                             MAY
+                                                     40                      N=     2
+
+                                                     20
+
+                                                          0
+
+
+
+
+        .. .       +
+                                <;)   t   +
+                                              > 60
+                                              0
+                                              z
+                                                                             JUNE
+                                                                             N = 275
+                                              w 40
+                                              =>
+                                              0
+                                              w 20
+                                              r:r:
+                                              LL
+ I'                                           ~
+                                              0           0
+
+
+
+
+                                                                                             Figure 2
+                                                     60                      N =    4   Size-frequency dis-
+                                                                                        tribution and catch-
+                                                                             JULY       per-unit-effort (Nt
+I'                                                   40                                 tow) of Caranx crysos
+                                                                                        larvae for positive-
+                                                                                        catch months during
+                                                     20                                 1982 SEAMAP neus-
+                                                                                        ton and half-meter
+             r-I                                         0 ............- -              ring net coUections
+18
+      w L-J            >0 -10                                  1234567891111            off Louisiana. Sta-
+      ;:)
+      l:l.   [ill
+             ..... >10 - 100                                            0123            tions sampled: +
+                                                                                        neuston, * ring nets.
+      (.)
+
+             em >100 - 1000                                STANDARD LENGTH (mm)         N = total number
+                                                                                        caught; no larvae
+                                                                                        taken in ring nets.
+
+                                                     5
+  CARANX CRYSOS
+
+
+
+                                                                  100
+
+                                                                   80
+
+                                                                   60
+    III                                                                                        MAY
+                                       +   ,                                                   N=
+                                                                   40
+                                       +   ,
+                                      0    .                       20
+    2.                                                               0
+                                                            >-
+                                                            0
+                                                            Z
+                                                            W
+                                                            :J
+                                                            0
+                                                             W
+                                                             a:
+                                                             LL
+                                                             ~
+                                                             0
+
+
+
+
+                                                                    60
+                                                                                               JUNE
+     21   +   +
+                                                                    40                         N=           8
+
+                                                                    20
+              w
+    II
+              ()
+              z4(    0 >0 ·10                                         0
+                                                                          1234567891 1 1 1
+              z [ill
+              c  ... >10·100                                                       0123
+              :::)
+              III
+              4(     m >100·1000                                         STANDARD LENGTH (mm)
+
+                                                    Figure 3
+Size-frequency distribution and abundance (N/IO m2 ) of Caranx crysos larvae for positive-catch months during 1983
+            SEAMAP bongo net collections off Louisiana. Stations sampled (+); N = total number caught.
+
+
+
+
+                                                        6
+              CARANX CRYSOS
+
+
+                                                                                    100
+
+                              +   •                                            > 80
+                                                                               0
+                                  •
+                      +   v       v                                            Z
+                                                                               w 60
+                                                                               ::::»                                JUNE
+                                                                               0                                    N=           16
+                                                                               w 40
+                                                                               a:
+                                                                               u.
+                                                                               ~
+                                                                               0      20
+
+                                      >0 ·10
+                                                                                       a
+                                                                                            1234567891111
+                                      >10·100                                                        0123
+                                      >100 ·1000                                         STANDARD LENGTH (mm)
+
+
+                                                                    Figure 4
+           Size-frequency distribution and catch-per-unit-effort (N/tow) of Carom: crysos larvae for June (the only positive,atch month)
+           during 1983 SEAMAP neuston and half-meter ring net collections off Louisiana. Stations sampled: + neuston, * ring nets.
+                                            N = total number caught; no larvae taken in ring nets.
+
+
+
+
+may have been high abundance on the shelf where no sta-
+                                                                                                            Table 4
+tions were sampled. This supposition was not supported by                     Abundance (N/I0 m2 ) and depth distribution of target carangid
+the June 1982 bongo net surveys, however, which indicated                     larvae by species and year. Numbers in parentheses are positive-
+that the highest abundance was indeed at the shelf break,                     catch stations per total stations sampled. Abundances and total
+although the neuston net collections indicated the presence                          stations are for months during larval season only.
+oflarvae across the shelf. In July 1982, larvae were present                   Taxa                           <40 m        40-182 m         >182 m
+in high abundance on the inner shelf (depth <40 m), but
+because coverage of the stations at all depths was poor, the                   Coram crysos
+                                                                                 1982                     4.8 (3/58)       2.8 (7171)      1.6 (4/64)
+across-shelf distribution of larvae could not be resolved.                       1983                     0.4 (3122)       0.3 (1123)      0.2 (1/34)
+   During 1983, the association of high larval abundance with                  Chloroscombrus chrysurus
+the shelfbreak was not evident. The only larva taken in May                      1982                   150.7 (11/20)      1.7 (4/23)      0.0 (0/59)
+(21 May, 2.8 mm SL) was collected in the central Gulf. In                        1983                    81.3 (8/20)       2.2 (2/22)      0.0 (0/32)
+June, larvae were found much nearer shore than during the                     Decapterus punctatus
+same period in 1982. Many of those larvae were small (2-3                       1982                         0.6 (4/58)    0.4 (4171)      0.0 (0/64)
+mm SL), indicating inshore spawning as opposed to inshore                       1983                         0.1 (1/22)    0.1 (1/26)      0.3 (2/40)
+transport from offshore spawning sites. Abundance decreased                    Trachurus lathami
+                                                                                 1982                        0.1 (1/43)    4.7 (13/56) 0.0 (0/54)
+slightly in the offshore direction (Table 4), primarily because                  1983                        0.0 (0/2)    11.2 (5/9)   0.5 (2/56)
+the few positive stations on the inner shelf had relatively large
+numbers of larvae.
+   Most of the 478 C. crysos larvae collected were taken in
+June, when coverage of onshelf stations was good. Maximum
+                                                                               At locations where recently hatched larvae «2.5 mm SL)
+abundance in 1982, however, occurred during July when lar-
+                                                                             were captured, surface temperature was 28.8°-30.1 °C and
+vae were captured at all bongo stations sampled (Table 5).
+                                                                             salinity 25.0-36.2 ppt (Table 6). At locations where all sizes
+Larvae in the 1-3 mm SL size range were caught in May,
+                                                                             of larvae were captured, surface salinity was 24.8-37.7 ppt,
+June, and July (Figs. 1-4) indicating spawning each of those
+                                                                             with most larvae captured at salinities below 33 ppt, despite
+months. Larvae longer than 6.0 mm SL were rarely captured.
+                                                                             the predominance of collections near the shelfbreak. Surface
+The earliest spawning was indicated by a 4.5-mm SL larva
+                                                                             temperature at locations where all sizes of larvae were cap-
+captured on 5 May, which points to a late-April hatch.
+                                                                             tured was 23.3°-32.0°C.
+
+
+                                                                        7
+                                           Table 5
+Caranx crysos mean larval abundance (NII0 m 2 ) as determined from metered bongo
+tows, and mean catch-per-unit-effort (number captured/tow) as determined from neuston
+and unmetered O.5-m ring net tows, for positive-eatch stations only. Spawning season
+considered to be March-November (Ditty et al. 1988). For total SEAMAP yearly sam-
+              pling effort by month, gear type, and depth, see Table 3.
+
+Mean variable                             May                   June                  July
+
+Bongo catch
+  1982                              0.5    '(2/34)          3.0 (8139)          97.4 (4/4)
+  1983                              0.3     (1119)          1.0 (4/24)           0.0 (0/5)
+Neuston or ring catch
+  1982                              2.0     (1/37)        25.1 (II/59)            4.0 (1/23)
+  1983                              0.0     (0118)         5.3 (3/65)             0.0 (0/5)
+Surface salinity (ppt)
+  1982                            37.0 2(36-38)           31.6 (25-36)          30.2 (28-32)
+  1983                            36.7                    30.9 (25-35)
+Surface temperature (0C)
+  1982                            23.5      (23-24)       29.8 (28-32)          29.4 (29-30)
+  1983                            26.9                    27.2 (27-28)
+Station depth (m)'
+  1982                           106        (71-150)     259     (19-954)       30     (20-52)
+  1983                          2926                      21     (11-42)
+                                                       ._._--_.
+'Frequency of occurrence: number of positive-catch stations per number of stations sampled.
+2Range of values.
+'Sampling methodology for bongo nets limits tows to upper 200 m of water (see Methods
+ section).
+
+
+
+
+                                            Table 6
+Mean surface salinities, temperatures, and water depths at sites where larvae <2.5 mm
+                                  SL were captured.
+
+                                        Salinity           Temperature           Station depth
+                                         (ppt)                 (0C)                   (m)
+
+                                   x      min-max         x     min-max           x min-max
+Caranx crysos
+  1982                           31.1     25.0-36.2      29.6 28.8-30.1         269     23-954
+  1983                            *
+Chloroscombrus chrysurus
+  1982                           27.0     16.5-33.7      30.1 27.0-32.1          18      2-49
+  1983                           26.4     19.8-36.1      27.6 26.7-28.7          17      6-51
+Decapterus punctatus
+  1982                             *
+  1983                             *
+Trachurus lathami
+  1982                            **                     20.2 18.0-21.0          59     37-91
+  1983                           36.0 35.8-36.3          22.3 21.8-23.0         III    102-121
+
+ *Larvae <2.5 nun SL were either not present or were too difficult to identify to species level.
+**Salinity data not available.
+
+
+
+
+                                                   8
+             CHLOROSCOMBRUSCHRYSURUS
+
+
+                                                                                  100
+
+                                                                                  80
+
+                                 +      +   t   +   t   t   t                     60
+                    t       ..
+                                                                                                             JUNE
+                                                                                   40                        N = 1756
+
+                                                                                   20
+               I'
+                                                                                    a
+                                                                            >
+                                                                            ()
+                                                                            z
+                                                                            w
+                                                                            :;)
+                                                                            0
+                                                                            w
+                                                                            a:
+                                                                            u.
+                                                                            0~
+
+
+
+                                                                                  60
+                                                                                                             JULY
+               II
+                                                                                  40                         N=        396
+
+                                                                                  20
+                        w                                                           a
+               II       0
+                        z
+                        C(
+                                 0 >0 -10                                               1234567891111
+                        c
+                        z
+                        ::)
+                                 EJ >10 - 100
+                                 ....                                                            0123
+                        II)
+                        C(       rill >100 - 1000                                   STANDARD LENGTH (mm)
+
+                                                                Figure 5
+          Size-frequency distribution and abundance (N/l0 m 2 ) of Chloroscombrus chrysurus larvae for positive-eatch months dur-
+                  ing 1982 SEAMAP bongo net collections off Louisiana. Stations sampled (+); N = total number caught.
+
+
+
+
+Chloroscombrus chrysurus                                                taken between 27 and 60 m, and beyond that only a single
+                                                                        4.9-mm SL larva was taken at 100 m.
+   Larval Atlantic bumper, our most abundant target species,
+                                                                          Inner-shelf abundance was one to two orders of magnitude
+were captured along the entire Louisiana coastline, both east
+                                                                        above that of the other carangid larvae examined (Table 4).
+and west of the Mississippi River delta, though highest con-
+                                                                        Chloroscombrus chrysurus were also captured at 48 % of the
+centrations were west of long. 91.5°W (Figs. 5-8). The
+                                                                        inner-shelf stations sampled, the highest among the target
+largest single-station catches taken by neuston net (679 fish,
+                                                                        carangids.
+6.4-13.0 mm SL) and by bongo net (953 fish or 2118 fish/
+                                                                          Atlantic bumper are primarily summertime spawners and
+10 m2 , 1.2-3.8 mm SL) were from south of central Loui-
+                                                                        their larvae were captured during June and July only (Table
+siana in 18-20 m of water during 1982 and 1983, respec-
+                                                                        7). Spawning by Mayor perhaps earlier was indicated by
+tively. Most larvae were taken inshore of the 27-m isobath.
+                                                                        specimens as large as 13 mm SL taken as early as 17 June.
+Only 40 of the 4675 larvae and early juveniles captured were
+                                                                        No larvae were found in pre-June SEAMAP collections, but
+
+                                                                    9
+  CHLOROSCOMBRUS CHRYSURUS
+
+
+
+                                                                           100
+
+                                                                           80
+
+                                                                           60
+                                                                                                       JUNE
+                                                                            40                        N =       681
+
+                                                                            20
+     21
+
+                                                                             0
+                                                                  >
+                                                                  ()
+                                                                  Z
+                                                                  W
+                                                                  ~
+
+
+                                                                  "a:
+                                                                  w
+                                                                  u..
+                                                                  -;!!..
+                                                                  0
+
+
+
+                                                                            60
+                                                                                                      JULY
+      II
+                                                                            40                        N=        779
+
+                                                                            20
+
+     21     w   0 >0 -10
+                1
+                                                                             0 ....- - - -...•
+                                                                                 1234567891111
+            ~ IT] >10 - 100
+            u m
+                                                                                          0123
+              m >100 - 1000                                                  STANDARD LENGTH (mm)
+
+                                                       Figure 6
+Size-frequency distribution and catch-per-unit-effort (Nltow) of Chloroscombrus chrysurus larvae for positive-catch months
+during 1982 SEAMAP neuston and half-meter ring net collections off Louisiana. Stations sampled: + neuston, * ring nets.
+                                 Catch: <> neuston, f:,. ring. N = total number caught.
+
+
+
+
+                                                            10
+             CHLOROSCOMBRUSCHRYSURUS
+
+                                                                                    100
+
+                                                                               >
+                                                                               0
+                                                                                 80
+                                                                               z
+                                                                               w 60
+                                                                               :)
+                        +                                                      aw                                   JUNE
+                    +
+                                                                                    40                              N = 1003
+                                                                               a:
+                                                                               u.
+                        w i-I                                                  ~
+                                                                               0    20
+                        (.)
+                        z LJ >0 ·10
+                        c(
+                        c [ill >10·100                                                a
+              21        z     •• w ••
+
+
+                        ::J                                                                1234567891111
+                              1m
+                              •
+                        CD
+                        c(     >100 ·1000                                                           0123
+                                        >1000
+                                                                                      STANDARD LENGTH (mm)
+
+                                                                 Figure 7
+          Size-frequency distribution and abundance (NII0 m2 ) of Chloroscombrus chrysurus larvae for June (the only positive-catch
+           month) during 1983 SEAMAP bongo net collections off Louisiana. Stations sampled (+); N = total number caught.
+
+
+
+
+station coverage during those months was restricted to off-
+                                                                                                         Table 7
+shore waters where there is apparently no spawning. No lar-                Chloroscombrus chrysurus mean larval abundance (NII0 m2 ) as
+vae were captured in October SEAMAP samples (no cruises                    determined from metered bongo tows, and mean catch-per-unit-
+in August or September), but adults are known to spawn off                 effort (number captured/tow) as determined from neuston and
+Louisiana in August and September (D. Leffler, R. Shaw,                    unmetered O.5-m ring net tows, for positive-catch stations only.
+and D. Drullinger, unpubl. data). Length-frequency data in-                Spawning season considered to be April-November (Ditty et aI. 1988;
+                                                                           this work). For total SEAMAP yearly sampling effort by month,
+dicated that larvae were generally longer in July than in June                            gear type, and depth, see Table 3.
+(Figs. 5-8).
+   Recently hatched Ch. chrysurus larvae «2.5 mm SL) were                  Mean variable                           June                July
+captured where surface salinity was 16.5-36.1 ppt (Table                   Bongo catch
+6). Larger larvae were captured at salinities as low as 10.4                 1982                          176.3    '(11139)     282.4 (4/4)
+ppt. Mean salinity at spawning sites was well below 30 ppt,                  1983                           22.5     (10/24)       0.0 (0/5)
+which is typical for nearshore waters off Louisiana. Surface               Neuston or ring catch
+temperature where recently hatched larvae were captured was                  1982                           49.1     (14/59)      97.8 (8/23)
+                                                                             1983                            5.3     (7/65)        1.0 (1/5)
+26.7°-32.1 °e, and larger larvae were found generally within
+                                                                           Surface salinity (ppt)
+the same temperature range.                                                  1982                           26.7 2(10-34)         27.2 (18-32)
+                                                                             1983                           25.8 (12-36)
+                                                                           Surface temperature (0C)
+                                                                             1982                           29.7     (27-32)      30.1 (29-32)
+                                                                             1983                           27.3     (25-29)      30.0
+                                                                           Station depth (m)3
+                                                                             1982                           23       (9-100)      19     (2-52)
+                                                                             1983                           18       (6-51)       90
+
+                                                                           1Frequency of occurrence: number of positive-catch stations per number
+                                                                            of stations sampled.
+                                                                           2Range of values.
+                                                                           lSampling methodology for bongo nets limits tows to upper 200 m of
+                                                                            water (see Methods section).
+
+
+
+
+                                                                     11
+              CHLOROSCOMBRUS CHRYSURUS
+
+
+
+                                                                                  100
+                          o
+                    00                                                            -80
+
+               21     +   t   ..                                                   60
+                                                                                                                 JUNE
+                                                                                   40                            N =         37
+
+                                                                                   20
+               a.                                                           >
+                                                                            0        0
+                                                                            Z
+                                                                            W
+                                                                            ~
+                                                                            0
+                                                                            w
+                                                                            a:
+                                                                            LL
+                                                                            ~
+                                                                            0    100
+
+                                                                                   80
+
+                                                                                  60
+                                                                                                                       JULY
+                                                                                   40                                  N = 1
+
+                                                                                   20
+
+                                                                                     0
+               a. w 0 >0 -10                                                             1234567891111
+                                                                                                  0123
+                    ;:)
+                    c.    []
+                           .. >10 - 100
+                    u                                                                 STANDARD LENGTH (mm)
+                          II >100 - 1000
+                                                                 Figure 8
+          Size-frequency distribution and catch-per-unit-effort (Nltow) of Chloroscombrus chrysurus larvae for positive-eatc~ months
+          during 1983 SEAMAP neuston and half-meter ring net collections off Louisiana. Stations sampled: + neuston, * rmg nets.
+                                           Catch: <> neuston, /:;. ring. N = total number caught.
+
+
+
+
+Decapterus punctatus                                                         A total of81 larvae and early juveniles (2.6-13.9 mm SL)
+                                                                           were captured off Louisiana during 1982 and 1983. Of those,
+Larval round scad were captured most commonly off western
+                                                                           70 were taken in 1982. Only 5 of 11 larvae captured in 1983
+Louisiana, with no larvae collected east of the Mississippi
+                                                                           were taken in bongo nets, so abundance calculations are based
+River delta (Figs. 9-12). Preflexion larvae were collected
+                                                                           on very small catches. Overall, D. punctatus were the least
+between 13 and 115 m (usually <40 m) during June and July,
+                                                                           abundant of the four species examined.
+indicating inner- to rnidshelf spawning during those months.
+                                                                             Larvae were most abundant in June and July (Table 8);
+The few larvae captured in March, May, October, and
+                                                                           specifically in July of 1982, when they were captured in 3
+December were widely scattered, primarily beyond the 48-m
+                                                                           of 4 bongo tows and 2 of 2 neuston tows off west Louisiana.
+isobath. Highest abundances were on the continental shelf
+                                                                           Unfortunately, the low number of samples taken at that time
+during 1982 but beyond the shelf during 1983 (Table 4).
+                                                                           prevented a determination of how widespread the larvae
+                                                                      12
+DECAPTERUS PUNCTATUS
+
+
+
+30                                       100
+
+                                         80
+
+                                         60                   MARCH
+ 2.
+                                                              N=      1
+                                          40
+
+                                          20
+28
+                                              a
+
+
+
+
+                                   > 60                      JUNE
+                                   u
+                       +   .   +
+                                   z 40
+                                   w
+                                                             N=     14
+                                   ::>
+                                   0
+                                   w      20
+                                   a:
+                                   LL
+
+ 28
+                                   ~
+                                   0
+                                              a
+
+
+
+
+                                         60
+                                                             JULY
+                                                             N =    5
+                                         40                                    Figure 9
+                                                                          Size-frequency dis-
+                                          20                              tribution and abun-
+                                                                          dance (NII0 m1 ) of
+                                                                          Decapteruspunctatus
+      Will
+      u'L-.J    >0 ·10
+                                              a                           larvae for positive-
+ 28   Z                                           1234567891111           catch months during
+      C( EJ····                                            0123
+      c····..
+      Z  ::::: >10 - 100                                                  1982 SEAMAP bongo
+
+      ~11 >100 - 1000
+                                                                          net collections off
+                                                  STANDARD LENGTH (mm)    Louisiana. Stations
+                                                                          sampled (+); N =
+                                                                          total number caught.
+
+                                         13
+   DECAPTERUS PUNCTATUS
+
+
+
+     30
+                                                                        100
+
+                                                                          80
+
+     .1'          , , ,              , , ,                                60
+                                                                                                              JUNE
+                                                                                                              ~   = 6
+                                                                          40
+
+                                                                          20
+    .1
+
+                                                                            0
+
+                                                                   >
+                                                                   ()
+                                                                   z
+                                                                   w
+                                                                   ~
+                                                                   0
+                                                                   w
+                                                                   a:
+     30                                                            LL
+                                                                   0~
+
+
+
+                                                                          60
+     .1                                                                                                  JULY
+                                                                                                         N =          41
+                                                                          40
+
+                                                                          20
+
+            w
+            ::>a
+                LJ >0 -10                                                    0-'-----
+                                                                                 1234567891111
+            Q.L;1      >10 - 100                                                          0123
+            Ulfl >100 - 1000
+                                                                                STANDARD LENGTH (mm)
+
+                                                        Figure 10
+Size-frequency distribution and catch-per-unit-effort (Nltow) of Decapterus punctatus larvae for months with positive neuston
+catches during 1982 SEAMAP neuston and half-meter ring net collections off Louisiana. Stations sampled: + neuston, *
+                            ring nets. N = total number caught; no larvae taken in ring nets.
+
+
+
+
+                                                             14
+DECAPTERUS PUNCTATUS
+
+
+
+                                                                 100
+
+                                                                 80
+
+                                                                 60
+                                                                                  MAY
+                            <>          ,       +
+                                                                  40              N=
+                                        ,       t
+
+
+
+
+                                                                  20
+ a.
+                                                                   O-l--------
+
+
+
+
+                                                         >- 60
+                                                         ()
+                                                         z                              JUNE
+                                                         w 40                           N=     3
+                                                         ::::>
+                                                         ow
+                                                         a::: 20
+                                                         LL
+                                                         cf.           o
+
+
+
+
+      )               L-_" ~ ..
+                                                    f)
+                                                                 100
+ 30 )                            ---1
+                 '~-~~£                                           80
+
+          ~-~
+          ....    +          +              +
+                                                                  60
+                                                                                        DECEMBER
+                                                                                        N=     1       Figure 11
+                                                                  40
+                                                                                                   Size-frequency distri-
+                                                                                                   bution and abun-
+                                                                  20                               dance (N/I0 m2 ) of
+                                                                                                   Decapterus punctatus
+                                                                       O...L----                   larvae for positive-
+                      >0 ·10        0                                      1234567891111           catch months during
+                      >10·100                                                       0123           1983 SEAMAP bongo
+                                                                                                   net collections off
+                      >100· 1000                                                                   Louisiana. Stations
+                                                                           STANDARD LENGTH (mm)
+                                                                                                   sampled (+); N =
+                                                                                                   total number caught.
+
+                                                                  15
+             DECAPTERUS PUNCTATUS
+
+
+
+                                                                                    100
+
+                                                                                    80
+
+               II                                                                    60
+                                                                                                                  JUNE
+                                                                                                                  N =            4
+                                                                                     40
+
+                                                                                     20
+               I'
+
+                                                                                       0
+                                                                            >
+                                                                            ()
+                                                                            Z
+                                                                            W
+                                                                            ::J
+
+                                                                            "u.a:
+                                                                            W
+
+
+                                                                            ~
+                                                                            0
+
+
+
+
+                                                                                    60
+                                                                                                                 OCTOBER
+                                                                                                                 N =   2
+                                                                                    40
+
+                                                                                    20
+
+                          [] >0 -10                                                   0-'----
+                      W
+                      :::J~
+                                                                                       1234567891111
+                      c.~        >10 - 100                                                      0123
+                      ullm >100 - 1000                                                   STANDARD LENGTH (mm)
+
+
+                                                                  Figure 12
+          Size-frequency distribution and catch-per-unit-effort (Nltow) of Decapterus punctatus larvae for months with positive neuston
+          catches during 1983 SEAMAP neuston and half-meter ring net collections off Louisiana. Stations sampled: + neuston,
+                                     * ring nets. N = total number caught; no larvae taken in ring nets.
+
+
+
+actually were. Surface-towed 0.5-m ring nets were used                        Surface temperatures and salinities at spawning sites could
+extensively in nearshore waters during June and July, but                   not be clearly determined because of the lack ofrecently hat-
+no larval D. punctatus were taken, possibly because the ring                ched specimens «2.5 mm SL). Not only were small fish
+nets were used to depths of only 9 m. No specimens were                     lacking in our samples, but the problem may have been com-
+captured inshore of 13 m, even in bongo or neuston nets                     pounded by the difficulty in identifying early post-yolksac
+towed in waters as shallow as 5 m.                                          D. punctatus. Surface-temperature and salinity means
+  June and July were the only months when larvae less than                  (ranges) at locations where all sizes of larvae were captured
+6.0 mrn SL were captured. In addition, year-round spawn-                    were 28.5°C (l9.00-30.0°C) and 29.8 ppt (27.6-33.2 ppt),
+ing was indicated by the presence of a 8.2-mm SL larva cap-                 respectively, in 1982; and 26.2°C (23.1 °-27.40c) and 34.3
+tured on II March, a 12.6-mrn individual ca~tured on 3 May,                 ppt (33.3-36.4 ppt), respectively, in 1983.
+a 6.4-mrn larva captured on 14 December; and two indivi-
+duals, 6.8 and 7.8 mrn, captured on 12 October (Figs. 9-12).
+                                                                       16
+                                                                   Table 8
+ Decapterus punctatus ~ean larval abundance (N/I0 m2) as determined from metered bongo tows, and mean catch-per-unit-effort (number cap-
+ tured/tow) as determmed from neuston and unmetered O.S-m ring net tows, for positive-catch stations only. Spawning season considered to
+ be year-round (Ditty et al. 1988; this work). For total SEAMAP yearly sampling effort by month, gear type, and depth, see Table 3.
+                                            NS = no samples taken; NA = data not available.
+
+ Mean variable                       March                 April                    May                   June                  July
+ ------------_.
+ Bongo catch
+   1982                            0.1 '(1/63)          0.0 (0/23)              0.0 (0/34)          1.4       (4/39)        3.5 (3/4)
+   1983                            0.0 (0/5)            0.0 (0/14)              0.3 (1/19)          0.4       (2/24)        0.0 (0/5)
+ Neuston or ring catch
+   1982                               NS                0.0 (0123)              0.0 (0/37)          3.0       (2/59)       22.0 (2/23)
+   1983                            0.0 (0/3)            0.0 (0/14)              0.0 (0/18)          2.0       (2/65)        0.0 (0/5)
+ Surface salinity (ppt)
+   1982                               NA                                                           29.6 2(28-33)           29.6 (28-32)
+   1983                                                                        34.2                34.0 (33-36)
+ Surface temperature (0C)
+   1982                           19.0                                                             29.1       (27-30)      29.5 (29-30)
+   1983                                                                        23.1                27.2       (27-28)
+ Station depth (m)3
+   1982                           48.0                                                             38         (13-88)      24     (20-27)
+   1983                                                                      1181                  47         (24-115)
+
+                                     August              September              October                 November         December
+
+ Bongo catch
+   1982                                  NS                 NS                  0.0 (0/2)          0.0        (0/28)           NS
+   1983                                  NS                 NS                  0.0 (0/12)               NS                 0.7 (1/9)
+ Neuston or ring catch
+   1982                                  NS                  NS                 0.0 (0/3)          0.0        (0/3)            NS
+   1983                                  NS                  NS                 2.0 (1/4)                NS                 0.0 (0/8)
+ Surface salinity (ppt)
+   1982
+   1983                                                                        33.4                                        36.4
+ Surface temperature (OC)
+   1982
+   1983                                                                        26.3                                        25.0
+ Station depth (m)3
+   1982
+   1983                                                                       494                                        3111
+
+ 'Frequency of occurrence: number of positive-catch stations per number of stations sampled.
+ 2Range of values.
+ 3Sampling methodology for bongo nets limits tows to upper ZOO m of water (see Methods section).
+
+
+
+
+Trachurus lathami                                                          than that of the other three target carangids, but abundances
+                                                                           on the inner shelf and offshore were very low (Table 4). In
+Sampling during December, April, and May (Figs. 13-15)
+                                                                           overall abundance they ranked third.
+in waters greater than 100 m deep revealed larval rough scad
+                                                                              Relatively small larvae (1.8-7.7 mm SL) were present dur-
+scattered between 102 and 3111 m (Table 9); however, they
+                                                                           ing all months of capture, December, March, April, and May
+were generally found at the edge of the shelfbreak, possibly
+                                                                           (Figs. 13-15), indicating spawning throughout winter and
+indicating concentrations on the sparsely sampled outer shelf.
+                                                                           spring. Length-frequency data were insufficient to provide
+During March (1982 only), good onshelf station coverage
+                                                                           information about spawning peaks or periods.
+in the Mississippi River delta area revealed that larvae were
+                                                                              Recently hatched larvae «2.5 mm SL) were found at sur-
+in fact relatively common on the outer shelf, but that they
+                                                                           face temperatures of 18.0 0 - 23.0 0 C and salinities of 35.8-
+were virtually absent on the inner shelf.
+                                                                           36.3 ppt (Table 6). Many small larvae were captured near
+   A total of 102 larvae (1.8-7.7 mm SL) were captured off
+                                                                           the mouth of the Mississippi River on a cruise in March 1982
+Louisiana during 1982 and 1983. Larvae were caught at 26
+                                                                           a time when there was considerable freshwater input. Thei;
+stations, but the numbers caught at each station were always
+                                                                           proximity to that freshwater discharge would indicate that
+low. Mean abundance on the outer shelf was clearly higher
+                                                                           they are quite tolerant of low salinities. Unfortunately, no
+                                                                      17
+             TRACHURUS LATHAMI
+
+
+                                                                                  100
+
+                                                                             > 80
+                                                                            ()
+                                                                             z
+                                                                             w 60
+                                                                             :::;)
+                                                                                                               MARCH
+                                                                             0                                 N=          57
+                                                                             w 40
+                                                                             a:
+                                                                             LL
+                                                                             ~
+                                                                             0
+                                                                                  20
+                    w
+               21
+                    ()
+                    zOIl(   0 >0 ·10                                                0
+                                                                                         1234567891111
+                    Q
+                    z       EJ >10·100
+                            ....                                                                  0123
+                    ~
+                    IX)
+                    OIl(    m>100 - 1000                                                STANDARD LENGTH (mm)
+
+                                                                Figure 13
+          Size-frequency distribution and abundance (N/I0 m') of Trachurus lothami larvae for March (the only positivc-<atch month)
+                during 1982 SEAMAP bongo net collections off Louisiana. Stations sampled (+); N = total number caught.
+
+
+
+
+salinities were recorded on that particular cruise, so our                centrated beyond 40 m, but in 1983 they were frequently
+reported minimum salinities at capture sites are probably                 captured inside the 40-m isobath and as shallow as 11 m.
+high. At locations where all sizes of larvae were captured,               There appears to be yearly or geographical variability in the
+surface temperatures were 18.0 o -25.0°C, and salinities were             depth distribution of C. crysos larvae.
+32.0-36.4 ppt.                                                               In comparison with the other carangids examined, C.
+                                                                          crysos had the highest offshore abundance. On the inner
+                                                                          shelf, C. crysos abundance ranked a distant second to that
+Discussion                                                                of Ch. chrysurus, and on the outer shelf (40-182 m) it was
+                                                                          below only that of T. lathami. Based on an ongoing survey
+Three of the species examined, Caranx crysos, Chloroscom-                 around the Mississippi River delta in which C. crysos lar-
+brus chrysurus, and Decapterus punctatus, have summer-                    vae dominated summertime collections (Shaw and Drul-
+time spawning periods, though D. punctatus was captured                   linger, unpubl. data), this species may be much more abun-
+during all seasons. Maximum abundances for all three of the               dant than the SEAMAP coverage would indicate. SEAMAP
+summer-spawning species occurred during July 1982. Dur-                   summertime larval C. crysos abundance may have been
+ing that month only four stations were sampled (off western               underestimated if abundances were, in fact, highest on the
+Louisiana near midshel f), but three of those stations yielded            shelf prior to or after June and July. In further support of
+larvae of all three species, and only D. punctatus was ab-                this, spawning peaks for C. crysos in the north-central Gulf
+sent from the fourth. Larvae of the summer-spawning species               have been found to occur in April-May and in August-
+were otherwise rarely captured together (especially C. crysos             September (Montolio 1976), mostly on the shelf. This species
+and Ch. chrysurus). At those July stations, four other larval             requires further study of its geographical and yearly variabil-
+or early-juvenile carangid species were also captured: Caranx             ity in spawning depth and season to elucidate actual larval
+hippos or latus, Oligoplites saurus, Selar crumenophth2lmus,              distribution and abundance.
+and Selene setapinnis (Shaw and Drullinger, unpubl. data).                   Similarly, little is known about Ch. chrysurus larvae from
+   In a study off western Florida, C. crysos shorter than 5.5             off Louisiana. In general, this and previous studies char-
+mm SL were found only beyond the 67-m isobath, and were                   acterize Ch. chrysurus as a nearshore spawner and the most
+thought to have a completely separate depth distribution from             abundant carangid in the north-central Gulf. We found Ch.
+the nearshore-dwelling Ch. chrysurus (Leak 1981). Montolio                chrysurus larvae to be concentrated mostly off central and
+(1976), however, found C. crysos larvae primarily in depths               western Louisiana. Salinities reported from capture sites off
+of 10-20 m in Gulf waters off the UniteC: States and Mex-                 Louisiana were often lower (as low as 10.0 ppt) than those
+ico. Data presented herein are intermediate between those                 reported from Florida (Leak 1977, 1981).
+of Leak and Montolio. In 1982, larvae were usually con-
+                                                                     18
+30
+                                     100
+
+                                     80
+
+                                     60
+                                                        APRIL
+                                                        N =   13
+                                     40
+
+                                     1.0
+21'
+                                       0
+
+
+
+
+Ie
+                                     100
+                                >
+                                (J 80
+ _.~
+                                Z
+II                              W     60
+                                ~
+                          , ,   0                         MAY
+                                w                         N=
+           <>             + ,   a:: 40
+                                u.
+.                               0~    20
+
+                                          0
+
+
+
+
+                                      60
+                                                         DECEMBER
+                                      40                 N =    14
+                                                                         Figure 14
+                                                                     Size-frequency distri-
+                                      20                             bution and abun-
+                                                                     dance (N/I0 m2 ) of
+
+
+ . 01 O
+      W
+      z     >0 -10
+                                          o
+                                              1234567891111
+                                                                     Trachurus lathami
+                                                                     larvae for positive-
+                                                                     catch months during
+      ~ [ill >10 - 100                                 0123          1983 SEAMAP bongo
+                                                                     net collections off
+      ~ Ii] >100 - 1000                       STANDARD LENGTH (mm)   Louisiana. Stations
+                                                                     sampled (+); N =
+                                                                     total number caught.
+
+                                     19
+             TRACHURUS LATHAMI
+
+
+
+                                                                                    100
+
+                                                                                    80
+
+                                                                                    60
+                                                                                                                APRIL
+                                              <>                                                                N =   15
+                                                                                     40
+
+                                                                                     20
+                                              o                                       a
+                                                                             >
+                                                                             ()
+                                                                             Z
+                                                                             w
+                             93
+                                                                             :::>
+
+                                                                             "a:w
+                                                                             Ll.
+                30
+                                                                             0~
+
+
+
+
+                                                                                     60
+                21
+                                                                                                                MAY
+                                                                                     40                         N =            2
+                                                      +   +
+
+                                                      A,+
+                                                     v                               20
+
+                21
+                       W
+                              0 >0 ·10                                                a
+                                                                                           1234567891111
+                       ;:)
+                       Q.
+                       U
+                              EJ
+                              ..... >10·100
+                                                                                                    0123
+                              iii >100·1000                                               STANDARD LENGTH (mm)
+
+                                                                  Figure 15
+           Size-frequency distribution and catch-per-unit-effort (N/tow) of Trachurus lathami larvae for positive-catch months during
+                    1983 SEAMAP neuston net collections off Louisiana. Stations sampled (+); N = total number caught.
+
+
+
+
+  Decapterus punctatus are considered common east of the                     The principal winter-spawning species, T. lathami, has
+Mississippi River (Hoese and Moore 1977), but their larvae                 been found to school as adults with a winter-spawning clupeid
+were absent adjacent to the delta and off the Mississippi coast.           Etrumeus teres (Reintjes 1979a, Leak 1981). We found the
+They were the least-common target carangid off LouIsiana,                  distribution of larvae of these two species to closely overlap
+except on the inner shelf where they were more abundant                    on the outer shelf during March (Shaw and Drollinger 1990).
+than T. lathami. Depth distribution for larval D. punctatus                Larvae were in close proximity to the mouth of the Missis-
+on the Louisiana shelf and off Florida's west coast were                   sippi River at a time ofrelatively high discharge. Trachurus
+similar (Leak 1977, 1981). Their adults may migrate off-                   lathami spawning is known to be associated with "high
+shore for the winter and back onshore during spring (Leak                  amplitude events" or gradients (Leak 1977, 1981), so it was
+1977, 1981). Discovery of a 6-mm SL larva far offshore in                  not surprising to find their larvae associated with zones
+the central Gulf during December may indicate spawning in                  of turbulent mixing between the Mississippi River plume and
+that winter offshore population.                                           the high-salinity oceanic waters of the open Gulf.
+                                                                      20
+                                                                  Table 9
+ Trachurus latham; mean larval abundance (N/I0 m2 ) as determined from metered bongo tows, and mean catch-per-unit-effort (number cap-
+ tured/tow) as determined from neuston and unmetered O.5-m ring net tows, for positive-eatch stations only. Spawning season considered to
+ be November-May (Ditty et al. 1988). Note gap between December and March; for total SEAMAP yearly sampling effort by month, gear type,
+                                and depth, see Table 3. NS = no samples taken; NA = data not available.
+
+ Mean variable                             December                      March                            April                             May
+
+ Bongo catch
+   1982                                      NS                     4.7 (14/63)                     0.0    (0/23)                      0.0 (0/34)
+   1983                                9.2    '(3/9)                0.0 (0/5)                       4.9    (3/14)                      0.3 (1/19)
+ Neuston ring catch
+   1982                                      NS                        NS                           0.0    (0/23)                      0.0 (0/37)
+   1983                                0.0     (0/8)                0.0 (0/3)                       5.0    (3/14)                      1.0 (2/18)
+ Surface salinity (ppt)
+   1982                                                                  NA
+   1983                               36.0                                                         35.5 2(32-36)                      36.2 (36-36)
+ Surface temperature (0C)
+   1982                                                            20.3 (18-22)
+   1983                               23.3     (22-25)                                             21.8    (20-23)                    22.9 (22-23)
+ Station depth (m»)
+   1982                                                            63        (37-91)
+   1983                             1111       (102-3111)                                        658       (102-2926)              1427      (459-2268)
+
+ 'Frequency of occurrence: number of positive-catch stations per number of stations sampled.
+ 2Range of values.
+ 3Sampling methodology for bongo nets limits tows to upper 200 m of water (see Methods section).
+
+
+
+
+   The vast majority of T. lathami larvae were captured                       Citations                                                               _
+between 40 and 182 m, which agrees with previous findings
+off Florida (Houde et al. 1984) and Louisiana (Ditty and                      Aboussouan, A.
+Truesdale 1984). Reported adult distributions are similar                         1968 Oeufs et larves de teleosteens de I'ouest Africain. VI. Larves
+                                                                                    de ChLoroscombrus chrysurus (Linne) et de BLepharis crinitus
+(Mansueti 1960, Fischer 1978b).                                                     (Mitchill) (Carangidae). Bull. Inst. Fondam. Afr. Noire, Ser. A.,
+   Larvae of T. lathami superficially resemble those of D.                          Sci. Nat. 30(1):226-237 [in French).
+punctatus, but behaviorally they may be quite different. Most                     1975 Eggs and larvae of West African teleosts. Part 13. Contribu-
+D. punctatus captured were large; about half were near or                           tion to the identification of larvae of carangidae. Bull. Inst. Fondam.
+above the maximum cutoff size for fish included in this                             Afr. Noire, Ser. A.• Sci. Nat. 37(4):899-938 [in French).
+                                                                              Ahlstrom, E.H., and O.P. Ball
+analysis (13.9 mm), and only 10 were below 5.0 mm SL.                             1954 Description of eggs and larvae of jack mackerel (Trachurus sym-
+Conversely, only small T. lathami were captured; none were                          metricus) and distribution and abundance of larvae in 1950 and
+above 7.7 mm SL, and only 10 were above 5.0 mm SL. It                               1951. U.S. Fish Wildl. Serv., Fish. Bull. 56(97):209-245.
+appears that T. lathami larvae longer than approximately 8.0                  Aleev, Y.G.
+mm SL either dwell nearbottom, below maximum bongo                                1957 [On ten species of Trachurus in the USSR seas). Tr. Sevastop.
+                                                                                    BioI. Stn. 1m. AD Kovalenskogo Akad. Nauk Ukr. SSR 9: 167-242
+sampling depth, or are much more capable of avoiding cap-                           [in Russian).
+ture than are D. punctatus of equal size. Since adult and                     Allshouse, W.C.
+juvenile T. lathami reside near the bottom (Stuck and Perry                       1983 The distribution of immigrating larval and post-larval fishes into
+ 1982), the hypothesis that larvae avoid capture through a                          the Aransas-Corpus Christi Bay complex. M.S. thesis, Corpus
+demersal lifestyle has some credence. Juveniles of D. punc-                         Christi State Univ., Corpus Christi, TX. 118 p.
+                                                                              Aprieto, V.L.
+tatus are nearsurface pelagics (Fischer 1978a) especially dur-
+                                                                                  1973 Early development of carangid fishes of the Gulf of Mexico and
+ing the daytime (Fahay 1975), which could account for our                           the South Atlantic coast of the United States. Ph.D. diss., Univ.
+capture oflarger fish in surface and oblique gear. The reason                       Miami, Coral Gables, FL, 179 p.
+for low numbers of small D. punctatus remains a mystery,                          1974 Early development of five carangid fishes of the Gulf of Mex-
+except that a few were possibly misidentified and therefore                         ico and the South Atlantic coast of the United States. Fish. Bull.,
+                                                                                    U.S. 72:415-443.
+not included in this analysis.                                                Arnold, E.L., Jr., R.S. Wheeler, and K.N. Baxter
+                                                                                  1960 Observations on fishes and other biota of East Lagoon, Galveston
+                                                                                    Island. U.S. Fish Wildl. Serv., Spec. Sci. Rep. Fish. 344, 30 p.
+                                                                              Bapat, S.V., and R.R. Prasad
+                                                                                  1952 On some developmental stages of Caranx kaLla Cuv. and Val. J.
+                                                                                    Bombay Nat. Hist. Soc. 51(1):111-115.
+
+
+                                                                        21
+Barans, C.A., and V.G. Burrell, Jr.                                                        Sea. Rapp. P.-V. Reun. Comm. Int. Explor. Sci. Mer Mediterr.
+    1976 Preliminary findings of trawling on the continental shelf off the                Monaco 16(2):317-320 [in French].
+      southeastern United States during four seasons (1973-1975). Tech.             de Sylva, D.P., F.A. Kalber, Jr., and C.N. Shuster, Jr.
+      Rep. 13, South Carolina Mar. Res. Cent., Charleston. SC 29412,                    1962 Fishes and ecological conditions in the shore zone of the Delaware
+       16 p.                                                                              River estuary, with notes on other species collected in deeper water.
+Berry, F.H.                                                                                Univ. De!. Mar. Lab. Inf. Ser. Pub!. 5, 164 p.
+    1959 Young jack crevalles (Caranx species) off the southeastern Atlan-          Ditty, J.G.
+       tic coast of the United States. U.S. Fish. Wild!. Serv., Fish. Bul!.             1986 Ichthyoplankton in neritic waters of the northern Gulf of Mex-
+       152(59):417-535.                                                                    ico off Louisiana: Composition, relative abundance, and seasonality.
+    1968 A new species of carangid fish (Decapterus tabl) from the western                 Fish. Bul!., U.S. 84:935-946.
+       Atlantic. Contrib. Mar. Sci. 13:145-167.                                     Ditty, J.G., and F.M. Truesdale
+Berry, F.H., and L. Cohen                                                               1984 Ichthyoplankton surveys of nearshore Gulf waters off Louisiana:
+    1972 Synopsis of the species of Trachurus (Pisces: Carangidae). Q. J.                 January-February and July 1976. ASB (Assoc. Southeast Bio!.) Bull.
+       Fla. Acad. Sci. 35:177-211.                                                         31(2):55-56.
+Bortone, S.A., P.A. Hastings, and S.B. Collard                                      Ditty, J.G., G.G. Zieske, and R.F. Shaw.
+    1977 The pelagic Sargassum ichthyofauna of the eastern Gulf of Mex-                 1988 Seasonality and depth distribution of larval fishes in the north-
+       ico. Northeast Gulf Sci. 1:60-67.                                                   ern Gulf of Mexico above latitude 20 0 00'N. Fish. Bull., U.S.
+Boschung, H.T., Jr.                                                                        86:811-823.
+    1957 The fishes of Mobile Bay and the Gulf coast of Alabama. Ph.D.              Dooley, J.K.
+       diss., Univ. Alabama, University, 626 p.                                       1972 Fishes associated with the pelagic Sargassum complex with a discus-
+Briggs, J.C.                                                                               sion of the Sargassum community. Contrib. Mar. Sci. 16: 1-32.
+    1958 A list of Florida fishes and their distribution. Bull. Fla. State          Eldridge, P.J., F.H. Berry, and M.C. Miller, III
+       Mus. Bio!. Sci. 2:223-318.                                                       1977 Test results of the Boothbay neuston net related to net length,
+Bullis, H.R., Jr., and J.S. Carpenter                                                      diurnal period, and other variables. Tech. Rep. 18, South Carolina
+    1968 Latent fishery resources of the central West Atlantic region.                     Mar. Res. Cent., Charleston, SC 29412, 21 p.
+       Univ. Wash. Pub!. Fish. New Ser. 4:61-64.                                    Elwertowski, J., and T. Boely
+Bullis, H.R., Jr., and J.R. Thompson                                                    1971 Repartition saisonniere des poissons pelagiques cotiers dans les
+    1970 Bureau of commercial fisheries exploratory fishing and gear                       eaux Mauritaniennes et Senegalaises. Trav. Doc. ORSTOM Dakar-
+       research base, Pascagoula, Mississippi - July I, 1967 to June 30,                   Thiaroye 22, 15 p. [in French].
+        1969. U.S. Fish. Wild!. Serv., Circ. 351, 29 p.                             Erdman, D.S.
+Chacko, P.T.                                                                            1956 Recent fish records from Puerto Rico. Bull. Mar. Sci. Gulf
+    1950 Marine plankton from water around the Krusadai Islands. Proc.                     Caribb. 6:315-340.
+       Indian Ocean Acad. Sci. 31, Sect. B:162-174.                                 Fahay, M.P.
+Christmas, J.Y., and R. Waller                                                          1975 An annotated list of larval and juvenile fishes captured with
+    1973 Estuarine vertebrates, Mississippi. In Christmas, 1. Y. (ed.),                    surface-towed meter net in the South Atlantic Bight during four RV
+       Cooperative Gulf of Mexico estuarine inventory and study - Mis-                     Dolphin cruises between May 1967 and February 1968. NOAA
+       sissippi, p. 320-403. Gulf Coast Res. Lab., Ocean Springs, MS                       Tech. Rep. NMFS, SSRF 685, 39 p.
+       39564.                                                                           1983 Guide to the early stages of marine fishes occurring in the western
+Ciechomski, J.D. de, and G. Weiss                                                          North Atlantic Ocean, Cape Hatteras to the southern Scotian shelf. J.
+    1973 Reproduccion, desarrollo embrionario y larval del surel, Tra-                     Northwest At!. Fish. Sci. 4, 423 p.
+       churus picturatus australis (Pisces). en el area del Mar del Plata y         Farris, D.A.
+       zonas adyacentes. Physis A (B. Aires) 32:85-93 [in Spanish].                     1963 Reproductive periodicity in the sardine (Sardinops caerulea) and
+Collins, L.A., and J.H. Finucane                                                           the jack mackerel (Trachurus symmetricus) on the Pacific coast of
+    1984 Ichthoyplankton survey of the estuarine and inshore waters of                      North America. Copeia 1963(1):182-184.
+       the Florida Everglades, May 1971 to February 1972. NOAA Tech.                Finucane, J.H., L.A. Collings, L.E. Barger, and J.D. McEachran
+        Rep. NMFS 6, 75 p.                                                               1979 Ichthyoplankton/mackerel eggs and larvae. Environmental
+Compton, H.                                                                                Studies of the South Texas Outer Continental Shelf, 1977. Final
+    1965 A survey of fish populations in the inshore Gulf of Mexico off                    Rep. to Bur. Land Manage., Wash., DC, by Southeast Fish. Cent.,
+       Texas. Coastal Fish. Proj. Rep., Texas Parks Wild!. Dep., Austin,                    Nat!. Mar. Fish. Serv., NOAA, Galveston, TX 77550, 504 p.
+        TX 78744, p. 55-86.                                                         Fischer, W. (editor)
+Conand, F., and C. Franqueville                                                          1978a FAO Species Identification Sheets for Fishery Purposes.
+    1973 Identification and seasonal distribution of carangid larvae off                   Western Central Atlantic (Fishing Area 31). Vo!. I, Acanthuridae
+        the coasts of Senegal and Gambia. Bull. Inst. Fondam. Afr. Noire,                  to Carangidae (in part). FIRM, Fish. Resour. Environ. Div., FAO
+        Ser. A., Sci. Nat. 35(4):951-978.                                                   Fish. Dep., Rome.
+Copeland, B.J.                                                                           1978b FAO Species Identification Sheets for Fishery Purposes.
+     1965 Fauna of the Aransas Pass Inlet, Texas. I. Emigration as shown                    Western Central Atlantic (Fishing Area 31). Vo!. II, Carangidae (in
+        by tide trap collections. Pub!. Inst. Mar. Sci., Univ. Tex. 10:9-21.                part) to Hemiramphidae. FIRM, Fish. Resour. Environ. Div., FAO
+Dechnik, T.V., and V.l. Seniokova                                                           Fish. Dep., Rome.
+     1964 [Distribution of pelagic fish eggs and larvae in the Mediterra-           Franks, J.S.
+        nean Sea]. Tr. Sevastop. BioI. Stn. 1m. AD Kovalenskogo Akad.                    1970 An investigation of the fish population within the inland waters
+        Nauk Ukr. SSR 15:77-115 [in Russian].                                               of Horn Island. Mississippi, a barrier island in the northern Gulf of
+Delsman, H.C.                                                                               Mexico. Gulf Res. Rep. 3:3-104.
+     1926 Fish eggs and larvae from the Java Sea. 5. Caranx kurra,                  Ginsburg, I.
+        marosoma and crumenophthalmus. Treubia 8(3-4): 199-239.                          1952 Fishes of the family Carangidae of the northern Gulf of Mex-
+Demir, M.                                                                                   ico and three related species. Pub!. Inst. Mar. Sci., Univ. Tex.
+     1961 On the eggs and larvae of Trachurus trachurus (L.) and Tra-                       2:47-117.
+        churus mediterraneus (Steind) from the sea of Marmara and the Black         Goodwin, J.M., and J.H. Finucane
+                                                                                         1985 Reproductive biology of blue runner (Caranx crysos) from the
+                                                                                            eastern Gulf of Mexico. Northeast Gulf Sci. 7: 139-146.
+                                                                               22
+Gunter, G.                                                                         Laroche, W.A., W.F. Smith-Vaniz, and S.L. Richardson
+    1945 Studies on marine fishes of Texas. Publ. Inst. Mar. Sci., Univ.               1984 Carangidae: Development. In Moser, H.G., et al. (eds.),
+      Tex. 1:1-190.                                                                      Ontogeny and systematics of fishes, p. 510-522. Spec. Publ. I, Am.
+Haigh, E.H.                                                                              Soc. Ichthyol. Herpetol., Allen Press, Lawrence, KS.
+    1972 Development of Trachurus trachurus (Carangidae), the South                Laska, A.L.
+      African maasbanker. Ann. S. Afr. Mus. 59(8):139-150.                             1973 Fishes of the Chandeleur Islands, Louisiana. Ph.D. diss.,
+Hildebrand, H.H.                                                                         Tulane Univ., New Orleans, LA, 260 p.
+    1954 A study of the fauna of the brown shrimp (Penaeus aztecus Ives)           Leak, J.C.
+      grounds in the western Gulf of Mexico. Publ. Inst. Mar. Sci., Univ.              1977 Distribution and abundance of Carangidae (Pisces, Perciformes)
+      Tex. 3:225-366.                                                                    larvae in the eastern Gulf of Mexico, 1971-1974. M.S. thesis, Univ.
+Hildebrand, S.F., and L.E. Cable                                                         Miami, Miami, FL, 83 p.
+    1930 Development and life history of fourteen teleostean fishes at                 1981 Distribution and abundance of carangid fish larvae in the eastern
+      Beaufort, North Carolina. Bull. Bur. Fish., Wash. 46 (Doc. 1093)                   Gulf of Mexico 1971-1974. BioI. Oceanogr. I: 1-28.
+       1930(1931):383-488.                                                         Lyons, J.M.
+Hildebrand, S.F., and W.C. Schroeder                                                   1978 Distribution and abundance of the larvae of Decapterus punc-
+    1928 Fishes of Chesapeake Bay. Bull. Bur. Fish., Wash. 43 (Doc.                      tatus (Pisces, Carangidae) and Bothus spp. (Pisces, Bothidae) in the
+       1024) 1927(1928), 388 p.                                                          Florida and Yucatan Straits. Ph.D. diss., Florida State Univ.,
+Hoese, H.D.                                                                              Tallahassee, 85 p.
+    1965 Spawning of marine fishes in the Port Aransas, Texas area as              Macer, C.T.
+      determined by the distribution of young and larvae. Ph.D. thesis.                1974 The reproductive biology of the horse mackerel Trachurus
+      Univ. Texas, Austin, 144 p.                                                        trachurus (L.) in the North Sea and English Channel. J. Fish BioI.
+Hoese, H.D., and R.H. Moore                                                              6:415-438.
+    1977 Fishes of the Gulf of Mexico: Texas, Louisiana, and adjacent              MacGregor, J.S.
+      waters. Texas A&M Univ. Press, College Station, 327 p.                           1976 Ovarian development and fecundity of five species of Califor-
+Houde, E.D.                                                                              nia Current fishes. Calif. Coop. Oceanic Fish. Invest. Rep. 18:
+    1975 Abundance and potential for fisheries development of some                        181-188.
+      sardine-like fishes in the eastern Gulf of Mexico. Proc. Gulf Caribb.        Maksimov, Yu. M.
+      Fish. Inst. 28:73-82.                                                            1977 Peculiarities in the manifestation of certain defensive reactions
+Houde, E.D., J.C. Leak, C.E. Dowd, S.A. Berkeley, and W.J. Richards                      of pelagic fishes from the Gulf of Mexico in the area fished by an
+    1979 Ichthyoplankton abundance and diversity in the eastern Gulf of                  electrified bottom trawl. J. Ichthyol. 17:305-312.
+      Mexico. Univ. Miami Rep. BLM Cont. AA550-CT7-28, Miami,                      Mansueti, R.J.
+      FL 33149, 546 p.                                                                 1960 The occurrence of the rough scad, Trachurus lathami, in Chesa-
+Houde, E.D., C. Grall, and S.A. Berkeley                                                 peake Bay, Maryland. Chesapeake Sci. I: 117-118.
+    1984 Population parameter estimates for three shoaling pelagic fishes          McFarland, W.N.
+      in the eastern Gulf of Mexico. ICES CM 1983/H:43 (SAW/84/                        1963 Seasonal changes in the number and the biomass of fishes from
+       MCH/4):1-7.                                                                       the surf at Mustang Island, Texas. Pub!. Inst. Mar. Sci., Univ. Tex.
+Johnson, G.D.                                                                            9:91-105.
+    1978 Development of fishes of the Mid-Atlantic Bight: an atlas of egg,         McKenney, T.W., E.C. Alexander, and G.L. Voss
+      larval and juvenile stages, Vol. IV. Carangidae through Ephip-                   1958 Early development and larval distribution of the carangid fish,
+      pidae. U.S. Fish Wildl. Serv., BioI. Servo Prog. FWS/OBS-78!l2,                    Caranx crysos (Mitchill). Bull. Mar. Sci. Gulf Caribb. 8: 167-200.
+      314 p.                                                                       Merriman, D.
+Jordan, D.S., and B.W. Evermann                                                        1943 The distribution, morphology, and relationships of the carangid
+    1896 The fishes of North and Middle America, Vol. 1. Bull. U.S.                      fish, Trachurus lathami Nichols. Copeia 1943(4):205-211.
+      Natl. Mus. 47, 954 p.                                                        Miller, G.L., and S.C. Jorgenson
+Joseph, E.B., and R.W. Yerger                                                          1973 Meristic characters of some marine fishes of the Western Atlantic
+    1956 The fishes of Alligator Harbor, Florida, with notes on their                    Ocean. Fish. Bull., U.S. 71:301-312.
+      natural history. Oceanogr. Inst., Fla. State Univ. Stud. 22: 111-156.        Miller, J.M., and B.Y. Sumida
+Juhl, R.                                                                               1974 Development of eggs and larvae of Caranx mate
+    1966 Experimental fish trawling survey along the Florida west coast.                 (Carangidae). Fish. Bull., U.S. 72:497-514.
+      Commer. Fish. Rev. 28(6):1-5.                                                Milstein, C.B., and D.L. Thomas
+Kelley, S., T. Potthoff, W.J. Richards, and L. Ejsymont                                1976 Fishes new or uncommon to the New Jersey coast. Chesapeake
+    1985 SEA MAP I 983-Ichthyoplankton. NOAA Tech. Memo.                                 Sci. 17:198-204.
+      NMFS-SEFC-167, Southeast Fish Cent., Natl. Mar. Fish. Serv.,                 Montolio, M.A.
+      NOAA, Miami, FL 33149.                                                           1976 Taxonomic and morphometric study of larval stages of two
+Kilby, J.D.                                                                              species of Carangidae, Decapterus punctatus (Agassiz, 1829) and
+    1955 The fishes of two Gulf coastal marsh areas of Florida. Tulane                   Caranx crysos (Mitchill, 1815), and its distribution in the Gulf of
+      Stud. Zool. 2:175-247.                                                             Mexico . .In Stewart, H.B., (ed.), Progress in marine research in
+Kiliachenkova, V.A.                                                                      the Caribbean and adjacent regions, p. 219. CICAR-II Symposium
+    1970      Development and distribution of eggs and larvae of Trachurus               (Abstracts of papers), Caracas, Venezuela, July 12-16, 1976. Inter-
+      trachurus L. Rapp. P.-V. Reun. Cons. Perm. Int. Explor. Mer                        governmental Oceanogr. Comm.
+      159:194-198.                                                                 Nakamura, E.L.
+Klima, E.F.                                                                            1980 Carangids of the northern Gulf of Mexico. In Flandorfer, M.,
+    1971 Distribution of some coastal pelagic fishes in the western Atlan-               and L. Skupien (eds.), Proceedings of a workshop for potential fishery
+      tic. Commer. Fish. Rev. 33(6):21-34.                                               resources of the northern Gulf of Mexico, p. 18-27. Publ. MASGP-
+Laroche, W.A., D.L. Ruple, and S.L. Richardson                                           80-012, Miss.-AJa. Sea Grant Consortium, Ocean Springs, MS 39564,
+    In prep. Development of three carangid fishes with notes on young                    92 p.
+      of other species from the Gulf of Mexico. W.A. Laroche, Box 216,
+      Enosburg Falls, VT 05450.
+
+                                                                              23
+Naughton, S.P., C.H. Saloman, and R.N. Vaught                                         Santander, H., and O.S. de Castillo
+    1986 Species profile of round scad Decapterus punctatus (Cuvier                       1971 Desarollo y distribucion de huevos y larvas de "jurel" Trachurus
+      1829). NOAA Tech. Memo. NMFS-SEFC-181, Southeast Fish.                                s. murphyi (Nichols) en la Costa Peruana. Informe Inst. Mar. Peru
+      Cent., Nat!. Mar. Fish. Serv., NOAA, Panama City, FL 32407-7499,                      36, 23 p. [in Spanish].
+      39 p.                                                                           Schekter, R.C.
+Nichols, J.T.                                                                             1972 Food habits of some larval and juvenile fishes from the Florida
+    1939 Young Caranx in the western North Atlantic. Bull. Bingham                          Current, near Miami, Florida. U.S. EPA tech. rep. (unpub!.), Univ.
+      Oceanogr. Coli. 7(2): 1-9.                                                             Miami, Miami, FL 33149,85 p.
+    1940 Notes on carangid fishes. V. Young Trachurus in the Gulf of                  Schnakenbeck, W.
+      Mexico. Am. Mus. Novit. (1067):1-4.                                                 1931 Carangidae. Rep. Dana Oceanogr. Exped. 1908-1910, Medi-
+    1944 On the young of Caranx vinctus Jordan and Gilbert. Copeia                           terr. 2(A.14).
+      1944(2): 124.                                                                   Shaw, R.F., and D.L. Drullinger
+Norden, C.R.                                                                              1990 Early-life-history profiles, seasonal abundance, and distribution
+    1966 The seasonal distribution of fishes in Vermilion Bay, Louisiana.                    of four species of clupeid larvae from the northern Gulf of Mex-
+      Wis. Acad. Sci. Arts Letters 55: 119-137.                                              ico. NOAA Tech. Rep. NMFS 88, 60 p.
+Overstreet, R.                                                                        Shojima, Y
+    1983 Aspects of the biology of the red drum, Sciaenops ocellatus,                     1962 On the postlarvae and juveniles of carangid fishes collected
+      in Mississippi. Gulf Res. Rep., Suppl. 1:45-68.                                        together with jelly-fishes. Bull. Seikai Reg. Fish. Res. Lab. 27:
+Padoa, E.                                                                                    49-58.
+    1956 Divisione: Carangiformes. In Lo Bianco, S. (ed.), Fauna e                    Shultz, J.L., and S.L. Richardson
+      Flora del Golfo de Napoli, Uova, larve e stadi giovanili di Teleostei,              1985 Seasonal occurrence of fish larvae in two Mississippi Bays.
+      p. 548-572. Stazione Zoologica de Napoli, Monogr. 38, Sec. 3,                          Unpubl. manuscr., Gulf Coast Res. Lab., Ocean Springs, MS 39564.
+      pt. 2 [in Italian].                                                             Snell, E.
+Perret, W.S., W.R. Latapie, J.F. Pollard, W.R. Mock, G.B. Adkins,                         1977 Florida landings, annual summary 1975. Curro Fish. Stat. 6919,
+  W.J. Gaidry, and C.J. White                                                                12 p.
+    1971 Fishes and invertebrates collected in trawl and seine samples                Springer, V.G., and K.D. Woodburn
+      in Louisiana estuaries. Section 1. In Perrett, W.S. (ed.), Cooperative              1960 An ecological study of the fishes of the Tampa Bay area. Fla.
+      Gulf of Mexico estuarine inventory and study, Louisiana. Phase IV,                     Board Conserv. Mar. Lab., Prof. Pap. Ser. I, 104 p.
+      Biology, p. 39-105. La. Wildl. Fish. Comm., Baton Rouge, LA                     Stuck, K.S., and H.M. Perry
+      70895.                                                                              1982 lchthyoplankton community structure in Mississippi coastal
+Reid, G.K.                                                                                   waters. In Fishery monitoring and assessment completion report,
+    1954 An ecological survey of the Gulf of Mexico fishes in the vicin-                     I Jan. 1977-31 Dec. 1981, Proj. No. 2-296-R, p. VI-I-1 to VI-
+      ity of Cedar Key, Florida. Bull. Mar. Sci. Gulf Caribb. 4: 1-94.                       I-53. Gulf Coast Res. Lab., Ocean Springs, MS 39564.
+Reintjes, J. W .                                                                      Stuntz, W.E., C.E. Bryan, K. Savistano, R.S. Waller, and P.A.
+    1979a Coastal herrings and associated species: A profile of species                 Thompson
+      or groups of species, their biology, ecology, current exploitation with             1982 SEAMAP environmental and biological atlas of the Gulf of Mex-
+      economic and social information. Prepared for Gulf of Mexico                           ico, 1982. NOAA, NMFS, State/Federal Proj. SF-5-1, Miss. Lab.,
+      Fishery Management Council by Southeast Fish. Cent., Natl. Mar.                        Southeast Fish. Cent., Nat!. Mar. Fish. Serv., NOAA, Pascagoula,
+      Fish. Serv., NOAA, Beaufort, NC 28516, 170 p.                                          MS 39567.
+    1979b Addendum on chub mackerel, Scomber japonicus, coastal her-                  Subrahmanyam, C.B.
+      rings and associated species: A profile of species or groups of species,            1964 Eggs and early development of a carangid from Madras. J.
+      their biology, ecology, current exploitation with economic and social                  Mar. Bio!. Assoc. India 6(1):142-146.
+      information. Prepared for the Gulf of Mexico Fishery Management                 Swingle, H.A.
+      Council by Southeast Fish. Cent., Natl. Mar. Fish. Serv., NOAA,                     1971 Biology of Alabama estuarine areas-cooperative Gulf of Mex-
+      Beaufort, NC 28516, 12 p.                                                              ico estuarine inventory. Ala. Mar. Resour. Bull. 5:1-123.
+    1980 Marine herring and sardine resources of the northern Gulf of                 Tarbox, K.E.
+      Mexico. In Flandorfer, M., and L. Skupien (eds.), Proceedings of                    1974 Seasonal occurrence, distribution, and relative abundance of
+      a workshop for potential fishery resources of the northern Gulf of                     juvenile fishes at Marsh Island, Louisiana. . M.S. thesis, Louisiana
+      Mexico, p. 4-17. Publ. MASGP-80-012, Miss.-Ala. Sea Grant Con-                         State Univ., Baton Rouge, 122 p.
+      sortium, Ocean Springs, MS 39564, 92 p.                                         Thompson, P.A., and N. Bane (editors)
+Richards, W.J., T. Potthoff, S. Kelley, M.F. McGowan, L. Ejsymont,                        1986 SEAMAP environmental and biological atlas of the Gulf of Mex-
+  J.H. Power, and R.M. Olvera L.                                                             ico,1983. Rep. 13, Gulf States Mar. Fish. Comm., Ocean Springs,
+    1984 SEAMAP 1982-lchthyoplankton. NOAA Tech. Memo.                                       MS 39564, 179 p.
+      NMFS-SEFC-I44. Southeast Fish. Cent., Natl. Mar. Fish. Serv.,                   Tsokur, A.G.
+      NOAA, Miami, FL 33149.                                                              1977 Larvae of carangid fishes (Carangidae, Pisces) of the Arabian
+Roessler, M.A.                                                                               Sea. In lchthyoplankton of tropical waters of the world ocean, p.
+    1970 Checklist of fishes in Buttonwood Canal, Everglades National                         149-227. Acad. Sci. USSR, Proc. P. P. Shirshov Inst. Oceano!. 109.
+      Park, Florida, and observations on the seasonal occurrence and life             Uchida, K., S.lmai, S. Mito, S. Fujita, M. Veno, Y. Shojima, T. Senta,
+      histories of selected species. Bull. Mar. Sci. 20:860-893.                        M. Tahuku, and V. Dotu
+Russell, F.S.                                                                             1958 Studies on the eggs, larvae, and juveniles of Japanese fishes.
+    1976 The eggs and planktonic stages of British marine fishes.                            Ser. 1. 2d Lab. Fish. Bio!.. Fish. Dep., Fac. Agric., Kyushu Univ.,
+       Academic Press, NY, 524 p.                                                            89 p. [in Jpn., Eng!. trans!. by Foreign Language Serv. Branch, Nat!.
+Sabins, D.S.                                                                                 Mar. Fish. Serv., NOAA, Wash., DC. 20235].
+    1973 Diel studies of larval and juvenile fishes of the Caminada Pass              Vaughan, D.S., J.V. Merriner, D.W. Ahrenholz, and R.B. Chapoton
+      area, Louisiana. M.S. thesis, Louisiana State Univ., Baton Rouge,                   1986 Stock assessment of menhaden and coastal herrings. NOAA
+       163 p.                                                                                Tech. Memo. NMFS-SEFC-178. Southeast Fish. Cent., Nat!. Mar.
+                                                                                              Fish. Serv., NOAA, Beaufort, NC 28516, 38 p.
+
+
+
+                                                                                 24
+Vijayaraghavan, P.
+    1958 Studies of fish eggs and larvae of Madras Coast. G. S. Press,
+      Univ. Madras, 79 p.
+Walker, H.J.
+    1978 Ichthyoplankton survey of nearshore Gulf waters between
+      Barataria Bay and Timbalier Bay, Louisiana, during July, August,
+      and December 1973. M.S. thesis, Louisiana State Univ., Baton
+      Rouge, 59 p.
+Williams, L. W.
+    1983 Larval fish assemblages of lower Mobile Bay. M.S. thesis,
+      Univ. Southern Alabama, Mobile, 55 p.
+Zhudova, A.M.
+    1969 Materials and study of the eggs and larvae of some species of
+      fish from the Gulf of Guinea and the adjacent waters of the open
+      ocean. Tr. Vses. Nauchno-Issled. Inst. Morsk. Rybn. Khoz.
+      Okeanogr. (VINRO) 22:135-163 [in Russian].
+
+
+
+
+                                                                         25
+Caranx crysos (Mitchill)                                                                                        blue runner
+
+Other scientific names recently used: C. fusus (Reintjes               Other
+1979a).
+                                                                       Gulf and Caribbean Important food item in West Indies
+                                                                       and Gulf, eaten in Puerto Rico and Trinidad (McKenney
+                                                                       et al. 1958).
+Adult Distribution
+                                                                       Gulf According to 1975 FAO statistics, catch in the Gulf
+Geographic                                                             (Area 31) of 6579 t-only 635 t landed in the U.S.-marketed
+                                                                       fresh or salted (Fischer 1978a).
+Western North Atlantic Found from Halifax Harbor,
+Nova Scotia, throughout the Gulf of Mexico, Caribbean, Ber-            Small fisheries for Caranx spp. worldwide; fish imported
+muda, and West Indies to Cananeia and Sao Paulo, Brazil                from the United States sold as food in Puerto Rico and the
+(Fischer 1978a). Has 28 species of Carangidae (Aprieto                 Virgin Islands (Leak 1977).
+1974); other Caranx spp. in the Gulf of Mexico are C. bar-
+tholomaei, C. hippos, C. latus, C. lugubris, C. ruber (Hoese
+                                                                       Problems
+and Moore 1977; Laroche et aI., in prep.); C. sexfasciatus
+(circumtropical) and C. vinctus, whose juveniles resemble              Recognized as a respectable game fish (Berry 1959) and bait-
+C. crysos (Nichols 1939, 1944); C. dentex (Berry 1959); and            fish (McKenny et al. 1958, Reintjes 1979a).
+C. guara (Erdman 1956, Puerto Rico).
+
+
+Vertical (depth) or distance from shore
+                                                                       Reproduction
+A pelagic schooling fish (Reintjes 1979a) almost always taken          Sexual maturity
+in upper 100 m (McKenney et al. 1958), apparently present
+                                                                       Northwest Florida Age-at-maturity size ~267 mm fork
+over the continental shelf as juveniles and adults, but un-
+                                                                       length (FL), based on 185 fish taken May-August (Good-
+common, if at all, in Gulf estuaries (Leak 1977).
+                                                                       win and Finucane 1985).
+                                                                       South Pass, Louisiana Four females (247-267 mm SL)
+Stock Abundance                                                        with enlarged ovaries (but not running ripe) and one male
+                                                                       (225 mm SL) with enlarged testes taken in July (Berry 1959).
+Presently unknown for the Gulf-clearly an area of needed
+                                                                       Pensacola Beach, Florida Gonads of six specimens (three
+research.
+                                                                       males and three females) taken in July were enlarged but not
+                                                                       as well developed as those of the South Pass, Louisiana,
+                                                                       specimens (Berry 1959).
+Fisheries
+
+Gulf of Mexico                                                         Sex ratio
+Northern Gulf Traditionally used for bait, but recently sold           Northwest and south Florida Male-to-female ratio signif-
+as fresh and frozen food fish; potential for export marketing          icantly different from 1:1 (1.0M:1.66F and 1M:1.91F,
+(Reintjes 1979a).                                                      respectively) whereas 1M: 1.15F off the Mississippi River
+                                                                       delta (Goodwin and Finucane 1985).
+Florida Over 278,379 kg sold ($26,880) as food fish from
+both coasts of Florida in 1956; highly prized live bait for
+amberjack Seriola spp., and sailfish Istiophorus platypterus           Fecundity
+(McKenney et al. 1958). Catch fluctuated between 270 and
+                                                                       Off south and northwest Florida and Mississippi River
+99 metric tons (t) in the last decade; taken primarily by beach
+                                                                       delta Based on 25 fish, fecundity ranged from 41 ,000 (243
+seine in northwestern Florida April-September and sold as
+                                                                       mm FL, 288 g) to 1,546,000 ova (385 mm FL, 1076 g)
+bait for snapper (family Lutjanidae) or to Puerto Rico and
+                                                                       (Goodwin and Finucane 1985).
+the Virgin Islands as food (Leak 1977).
+Louisiana/Mississippi Off the barrier islands, large in-
+                                                                       Spawning season
+cidental catches often taken by commercial red drum
+(Sciaenops oceliatus) purse-seiners, who often set on the              Spawning takes place at night for Caranx sp. from Madras,
+surface-schooling C. crysos, which stack over red drum                 India (Subrahmanyam 1964).
+schools (Overstreet 1983).
+
+
+                                                                  26
+Off south aud northwest Florida and Mississippi River                General characters for Carangidae eggs (Fahay 1983:240):
+delta June-August spawning season, based on data col-                "Pelagic, shell smooth, yolk homogeneous or segmented,
+lected using a gonadosomatic index (GSI), but a second and           I oil globule anterior in late eggs and hatchling (eggs de-
+significant GSI peak observed off northwest Florida in Oc-           scribed in only a few species)."
+tober 1980 and 1981 with small females (200-250 mm FL)
+suggests the possibility of two spawning peaks in the Gulf,
+                                                                     Egg diameter
+which might explain the presence of larvae year-round
+(Goodwin and Finucane 1985).                                         No information for C. crysos.
+Gulf Larvae found throughout but greatest densities in the           Caranx mate egg diameter (live) 0.72±0.02 mm (Miller and
+central region; most abundant April-May and August-                  Sumida 1974).
+September in 10-20 m depths (Montolio 1976).
+Eastern Gulf Twelve larvae identified as C. crysos, 72 as            Perivitelline space
+Caranx spp.; virtually all taken beyond the 50-m contour
+                                                                     No information for C. crysos.
+during spring-summer (Houde et al. 1979).
+                                                                     Caranx mate perivitelline space 0.026±0.004 mm (Miller
+Florida and Caribbean Spawning possibly year-round, but
+                                                                     and Sumida 1974).
+primarily January-August with a peak in summer (April-
+August), when 75% of the postlarvae were collected; lar-
+vae and juveniles taken over deep water in upper 100 m in            Oil globule
+temperatures of20o-30.8°C and salinities of33.2-36.2 ppt
+                                                                     No information for C. crysos.
+(McKenney et al. 1958).
+                                                                     Caranx mate has one oil globule 0.19-0.20 mm (Miller and
+West Florida Caranx spp. larvae beyond the 50-m isobath
+                                                                     Sumida 1974).
+and> 140 km offshore; C. crysos move offshore to spawn;
+larvae taken in August-no larvae <5.5 mm taken at stations
+shallower than 67 m (Leak 1977, 1981).                               Incubation time
+Puerto Rico Based on ripe or near-ripe gonads, spawns                No information for C. crysos.
+in May (Erdman 1956).
+                                                                     Caranx mate incubation time of26 h at 24.5°C (Miller and
+Southeastern U.S. coast Spawns offshore near or beyond               Sumida 1974).
+183-m contour early April-early September (based on a
+12.4-mm SL individual taken in May and a 13.2-mm SL
+specimen taken in October); concentrations of larvae and             Larvae
+juveniles found in the Gulf Stream May-November (peak
+June to mid-August), larvae taken in temperatures of                 Hatching length
+20.4 °-29.4 °C and salinities of 35 .2-36.0 ppt (Berry 1959).
+                                                                     No information for C. crysos.
+U.S. South Atlantic Bight Total of 59 larvae taken year-
+                                                                     Caranx mate larvae hatch at a mean length of 1.46 mm SL
+round, but most taken January-August with a peak in sum-
+                                                                     (range 1.32-1.70 mm SL; N=47), preserved mean length
+mer (Fahay 1975).
+                                                                     of 0.98 mm SL (0.87-1.03 mm SL; N= 10) (Miller and
+North and South Atlantic Larval specimens taken from                 Sumida 1974).
+Nova Scotia to Brazil in all months except September and
+November; most taken January-August, particularly after
+April (Leak 1977).
+                                                                     Early-life-history information
+                                                                     Gulf During four research cruises in 1973-74, the greatest
+                                                                     concentrations of fry taken in depths of 10-20 m; no signifi-
+Eggs                                                                 cant ratio between day and night catch (Montolio 1976).
+                                                                     Florida and Caribbean No evidence of any diurnal migra-
+General description
+                                                                     tion in larvae collected (McKenney et al. 1958).
+No information for C. crysos.
+                                                                     Charleston, South Carolina Significantly more larvae
+Hawaii Caranx mate eggs are pelagic, clear, and spherical,           caught (total number 191; 7-37 mm TL) with a Boothbay
+with a yolk diameter ofO.66±0.02 mm (Miller and Sumida               neuston net during the day than at night in July (Eldridge
+1974).                                                               et al. 1977).
+
+
+
+
+                                                                27
+Southeastern U.S. coast Larvae and juveniles have an                 Mississippi Juveniles (21-30.0 mm SL) taken off barrier
+affinity for the Gulf Stream and offshore waters; some move          islands in August surface tows (Stuck and Perry 1982).
+inshore after attaining lengths of 80-100 mm (Berry 1959).
+                                                                     Central Gulf Juveniles and larvae most abundant during
+Laroche et al. (in prep.) cite Chacko (1950) and Padoa (1956)        April-May and August-September (Montolio 1976).
+as providing early-life-history information from the Indian
+                                                                     Louisiana One juvenile (45 mm) taken in June in waters
+Ocean and Gulf of Napoli, respectively.
+                                                                     29.3°C and 21.8 ppt (Perret et aI. 1971).
+                                                                     Gulf Stream off southeastern U.S. coast Juveniles col-
+Meristics
+                                                                     lected April-May to October (Berry 1959, Dooley 1972) and
+Dorsal VIII + 1,22-25, well formed at 5.4 mm SL (Berry               year-round, with a peak in summer (Fahay 1975).
+1959, southeast U.S. coast); VIII+I, 23 (Boschung 1957,
+Mobile Bay, Alabama).
+Anal II + I (full complement by 5.4 mm SL), 19-21
+(developed by 7.5-8.5 mm SL, Berry 1959); 11+1, 20
+(Boschung 1957).
+Pectorals I, 19-23 (by 8.5 mm SL, Berry 1959).
+Myomeres 25 (Fahay 1983, northwestern Atlantic).
+
+
+Larval description
+Gulf Illustrations of wild-caught larvae (Monto1io 1976).
+Caranx sp. (Laroche et aI., in prep.).
+Florida and, Caribbean Illustrations and comparative in-
+formation fpr wild-caught larvae (McKenney et aI. 1958).
+West Florida Comparative descriptions and early-life-
+history information for wild-caught larvae (Leak 1977).
+Southeastern U.S. coast Illustrations and comparative
+information for wild-caught larvae; also illustrations of C.
+bartholomaei and C. hippos/latus larvae (Berry 1959).
+U.S. Mid-Atlantic Bight Atlas of larval stages compiled
+from the works of other authors listed above (Johnson 1978).
+West Africa Illustrations and comparative information for
+wild-caught larvae; also illustrations of C. rhonchus and C.
+senegallus larvae (Aboussouan 1975). C. rhonchus (Conand
+and Franqueville 1973).
+Java Sea Caranx sp., C. armatus, C. crumenophthalmus,
+C. kurra, C. macrosoma (Delsman 1926).
+India   C. kalla (Bapat and Prasad 1952).
+
+
+Juvenile
+Undergoes metamorphosis at "-'8.5 mm SL; virtually all adult
+characteristics present at 59.3 mm (Johnson 1978).
+Juveniles associated with floating objects such as Sargassum
+(Dooley 1972, Bortone et aI. 1977, Fischer 1978a).
+West Florida One juvenile taken in May, and 19 taken in
+June-july over depths of 70-225 m (Leak 1977).
+Dauphin Island, Alabama One juvenile (146 mm) taken
+in June (Swingle 1971).
+                                                                28
+Chloroscombrus chrysurus (Linnaeus)                                                                       Atlantic bumper
+
+Adult Distribution                                                    eastern Gulf as bycatch of a baitfish and shrimp-trawl fishery
+                                                                      (Leak 1977,1981).
+Geographic
+Western Atlantic and Gulf Found from Cape Cod, Massa-                 Other
+chusetts, to Uruguay and throughout the Gulf of Mexico
+                                                                      Venezuela No specific fishery but abundant locally and
+(Briggs 1958); off Bermuda and possibly throughout the West
+                                                                      marketed fresh, salted, and frozen (Fischer 1978a).
+Indies (Fischer 1978a); uncommon north of South Carolina
+(Hildebrand and Schroeder 1928).                                      West Africa Landings of 1000-1200 t/yr (Conand and
+                                                                      Franqueville 1973; Leak 1977, 1981).
+Vertical (depth) or distance from shore
+                                                                      Problems
+Eastern Gulf Adults and juveniles present nearshore along
+beaches and within estuaries spring-fall, but absent in winter        Very bony (Leak 1977).
+(Leak 1977).
+Adults school around pilings and range offshore to the
+                                                                      Reproduction
+l800-m isobath, but are generally taken within l8-m con-
+tour (Klima 1971, Johnson 1978).
+                                                                      Sexual maturity
+                                                                      Texas Males mature by 137 mm and females by 155 mm
+Stock Abundance                                                       (Gunter 1945).
+                                                                      Both males and females mature by 135 mm (Reintjes 1979a)
+Gulf of Mexico
+Gulf Common in shallow Gulf and high-salinity bays
+                                                                      Sex ratio
+(Hoese and Moore 1977). Commonly taken by both sein-
+ing and trawling in open waters (Ginsburg 1952).                      No species-specific data found.
+West Florida Abundant nearshore and accessible to coastal
+fisheries (Leak 1981).                                                Fecundity
+Mississippi Sound Sixteenth-most abundant species taken               No species-specific data found.
+(Christmas and Waller 1973).
+Louisiana Most abundant carangid collected (Perret et al.             Spawning season
+1971).
+                                                                      Eastern Gulf All 774 larvae taken in spring and summer
+Off Caminada Pass, Louisiana Fifth-most abundant taxa                 within the 50-m depth contour with 95 % of occurrences in
+of larvae collected, representing 94 % of all carangid larvae         depths <35 m (Houde et al. 1979).
+taken and 5 % of the total number of larvae collected (Ditty
+                                                                      West Florida Spawns May-November (peak in August-
+1986).
+                                                                      September); taken in surface temperatures of 24°-31°C
+Texas Fourth-most abundant species taken in nearshore                 (peak 29°-3rC) and salinities of 27-37 ppt (peak 36-37
+trawling during 1965 (Compton 1965).                                  ppt) within the 50-m isobath (primarily within the 30-m con-
+                                                                      tour and within 80 kID of shore); larvae <3.5 mm look like
+                                                                      Caranx crysos, but spawning areas separate enough to allow
+Other
+                                                                      "cautious identification" (c. crysos spawns at depths >50
+No data found.                                                        m and >140 kID offshore) (Leak 1977, 1981).
+                                                                      Everglades, southwest Florida In coastal waters, 3751
+                                                                      specimens taken (depths 0.8-12 m) in temperatures of
+Fisheries
+                                                                      20.8°-30.0°C and salinities of31.9-38.4 ppt during quarter-
+                                                                      ly sampling; most abundant in May (1.5-9.5 mm SL larvae
+Gulf of Mexico
+                                                                      collected) and August (1.2-5.3 mm SL); taken year-round
+Little potential as a food fish, but possible potential for a         in coastal waters, one specimen (14 mm SL) taken in estu-
+reduction or pet-food fishery because of nearshore abun-              arine waters in August (Collins and Finucane 1984).
+dance; presently no directed fishery, probably would develop
+only as a bycatch-in 1979, 700 t were landed in the north-
+                                                                 29
+Lower Mobile Bay, Alabama Total of261 larvae (x length             General characters for Carangidae eggs (Fahay 1983:240):
+2.5 mm) taken July-October, peak in August; fifth-most             "Pelagic, shell smooth, yolk homogeneous or segmented,
+abundant larval species (2.8% of total catch) (Williams            1 oil globule anterior in late eggs and hatchling (eggs de-
+1983).                                                             scribed in only a few species)."
+Back and Biloxi Bays, Mississippi Total of 22 larvae taken
+in July and August (Shultz and Richardson 1985).                   Egg diameter
+Mississippi Sound Specimens 5-21 mm TL taken in plank-             No species-specific data found.
+ton tows June-July and specimens 35 mm TL or less June-
+October; spawning seems to peak in summer (Christmas and
+                                                                   Perivitelline space
+Waller 1973).
+                                                                   No species-specific data found.
+Mississippi Off the barrier islands, larvae (2.0-7.0 mm SL)
+taken June-October, with peak in August; 92 % taken in
+waters 23°-31°C (Stuck and Perry 1982).                            Oil globule
+Barataria and Timbalier Bays, Louisiana Spawns in                  No species-specific data found.
+depths <20 m, <15 krn offshore in July and August; 1061
+larvae (2.0-18.6 mm) taken (Walker 1978).
+                                                                   Incubation time
+Caminada Bay, Louisiana Total of 147 specimens (l0-51
+                                                                   No species-specific data found.
+mm SL) collected June-August with a peak in July (Sabins
+1973).
+OtT Caminada Pass, Louisiana During an ichthyoplankton             Larvae
+survey November 1981-0ctober 1982, larvae taken June-
+October with a peak abundance in July; 94 % of larvae taken        Hatching length
+when surface water temperatures averaged 30°C, most (60%)
+                                                                   No species-specific data found.
+near mid-depth, 31 % near surface, and 9% near bottom
+(Ditty 1986).
+                                                                   Early-life-history information
+Central Gulf Larvae collected between the Mississippi and
+Atchafalaya river deltas and the 10-100 m isobaths during          Caminada Pass, Louisiana Caught mostly during daytime
+July 1976; 95 % taken inside 25-m contour (Ditty and               ebb tides (Sabins 1973).
+Truesdale 1984).
+Aransas-Corpus Christi Bay Complex, Texas Total of                 Meristics
+129 larvae taken June-November, peak June-July (Allshouse
+                                                                   Dorsal VIII + I, 26-28 (modally 27) (Johnson 1978, Mid-
+1983).
+                                                                   Atlantic Bight); VIII + I, 25-28 for juveniles (Laroche
+Aransas Pass, Texas Larvae (6-28 mm) collected June-               et aI., in prep., Gulf); VIII +1, 27-28 (Boschung 1957,
+September (Hoese 1965).                                            Mobile Bay, Alabama); VII-VIII + 1,24-28 (Fahay 1983,
+                                                                   northwest Atlantic).
+Texas Ripe males and females taken June and August
+(Gunter 1945).                                                     Anal 11+1, 25-27 (Johnson 1978); 26-28, usually 27
+                                                                   (Boschung 1957); II + I, 25-28 (Laroche et a!., in prep.).
+Southeastern U.S.      Probably spawns spring-summer
+(Fischer 1978a).                                                   Pectorals 18-20, predominantly 19 (Johnson 1978); 19-20
+                                                                   (Boschung 1957); 20-21 formed by 9.5 mm SL (Laroche
+U.S. South Atlantic Bight Eight larvae taken May-
+                                                                   et a!., in prep.).
+October (Fahay 1975).
+                                                                   Vertebrae 10+ 14 (Miller and Jorgenson 1973, Western
+Southern Brazil Larvae taken over continental shelf
+                                                                   Atlantic; Laroche et a!., in prep.).
+August-November in waters 18°-22°C (Leak 1977).
+
+                                                                   Larval description
+Eggs                                                               West Florida Comparative descriptions and early-life-
+                                                                   history information for wild-caught larvae (Leak 1977).
+General description
+                                                                   Northern Gulf Illustrations and comparative information
+No species-specific data found.
+                                                                   for wild-caught larvae (Laroche et a!. 1984, In prep.).
+
+
+                                                              30
+West Africa lllustrations and comparative information for            Texas Total of 144 fish including some adults (66-205 mm)
+wild-caught larvae (Aboussouan 1975). C. cosmopolita                 taken June-October; in August fish 68-178 mm (25.4°-
+(Aboussouan 1968).                                                   30.0°C, 16.5-37.2 ppt) (Gunter 1945).
+                                                                     Galveston Island, Texas Fish (50-110 mm) taken July-
+                                                                     October (Arnold et al. 1960).
+Juvenile
+                                                                     Mustang Island, Texas Juveniles taken March-August
+Young fish may occur far offshore (Fischer 1978a); frequent-         (McFarland 1963).
+ly associated with jellyfish (Reid 1954, Franks 1970, Fischer
+                                                                     Aransas Pass, Texas Juveniles collected in a tidal trap
+1978a).
+                                                                     October-February (Copeland 1965).
+Buttonwood Canal, Everglades, Florida Total of 24
+specimens taken September-November in water temperatures
+of 23.3°-34.0°C and salinities of 15.5-41.1 ppt (Roessler
+1970).
+Alligator Harbor, Florida Young taken in early September
+(Joseph and Yerger 1956).
+West Florida Juveniles taken along beaches and within
+estuaries spring-fall, but absent during winter (Leak 1977).
+Six specimens (42-46 mm) taken from marshes in October
+(25°C, 30.2 ppt) (Kilby 1955).
+Cedar Key, Florida Total of 17 juveniles (30-47 mm)
+taken in October (23°-24°C, 21.8-22.0 ppt) (Reid 1954).
+Tampa Bay, Florida Two specimens (23.2 and 39 mm)
+taken in July (Springer and Woodburn 1960).
+Alabama Total of 113 specimens taken in estuaries July
+(one 2l-mm fish) to December (one 39-mm fish), but almost
+all taken August-September; minimum sizes taken in August
+and September, 35 mm and 20 mm, respectively (Swingle
+1971).
+Mobile Bay, Alabama Large numbers of small fish «38
+mm) taken in October (Boschung 1957).
+Mississippi Sound Specimens 19-114 mm TL collected;
+fish <35 mm taken June-October (peak in August) in waters
+15°-35°C with salinities mostly over 25 ppt (Christmas and
+Waller 1973).
+Mississippi Off the barrier islands, juveniles (8.0-74.0 mm
+SL) taken in plankton tows June-October, with a peak in
+September (Stuck and Perry 1982).
+Chandeleur Islands, Louisiana Seven specimens (25-32
+mm SL) collected in July and four (16-24 mm SL) taken
+in September (Laska 1973).
+Louisiana Most abundant carangid; 699 collected (29-114
+mm) in April and June-November with peak abundances
+June-September (Perret et al. 1971).
+Vermilion Bay, Louisiana In July, 33 specimens collected
+(15°-35°C, 6-36 ppt) (Norden 1966).
+Marsh Island, Louisiana Total of 139 juveniles collected
+late June-early October, with peak abundances in June and
+July; water temperatures at capture 26.2°-32°C (Tarbox
+1974).
+
+                                                                31
+Decapterus punctatus (Agassiz)                                                                                  round scad
+
+Adult Distribution                                                  Stock Abundance
+Geographic                                                          Gulf of Mexico
+Found throughout the Gulf of Mexico, Caribbean, West                Gulf Subject of experimental electrified bottom-trawling
+Indies, and Bermuda (Fischer 1978a).                                by Russians (Maksimov 1977).
+Western North Atlantic Present from Nova Scotia to Rio              Eastern Gulf Has potential to provide large catches (Houde
+de Janeiro, Brazil (Jordan and Evermann 1896, Berry 1968);          et al. 1984); most abundant carangid larvae-adult stock
+28 species of Carangidae (Aprieto 1974); three species of           estimated at 100,000-200,000 t and annual potential yield
+Decapterus distinguished by scale and scute counts: D.              at 70,000-80,000 t (LeakI977).
+macarellus, D. punctatus, and D. tabl (Berry 1968).
+                                                                    Western Florida Between Cape St. George and San BIas,
+                                                                    18-20 schools (7-9 t each) sighted at the surface during one
+Vertical (depth) or distance from shore                             survey (Juhl 1966).
+Gulf Occurs uncommonly, if ever, in estuaries (Christmas
+and Waller 1973, Leak 1977). Evidently common over the              Other
+continental shelf of the eastern Gulf, but less abundant
+                                                                    Venezuela Abundant (Fischer 1978a).
+westward (Montolio 1976, Reintjes 1979a); taken in the
+eastern Gulf to 366 m, peak abundance 57-92 m; greatest
+numbers in spring in depths ~ 18 m, in summer in depths
+18-37 m, in fall uniformly distributed over the shelf and in
+                                                                    Fisheries
+waters 37-93 m deep (Klima 1971); gulfwide, concentrated
+                                                                    Gulf of Mexico
+in 10-20 m depths, but also occurs past 50-m depths (Mon-
+tolio 1976). Widespread and not uncommon on the outer               Along with Opisthonema oglinum and Sardinella aurita
+shelf and inshore east of the Mississippi (Hoese and Moore          (family Clupeidae), potential aggregate catches of 1 million-2
+1977).                                                              million t for use as bait and cat food (Houde 1975; Reintjes
+                                                                    1979a, 1980).
+A schooling species, primarily in midwater or nearbottom
+in shallow water to about 90 m, but is also a nearsurface           Eastern Gulf Potential for exploitation of D. punctatus to
+pelagic, especially as a juvenile (Fischer I978a) .                 significantly increase world catch of round scads; 0.5 million
+                                                                    t of Decapterus species landed in 1978 (179 t landed in the
+Eastern Gulf May migrate onshore (depths <18 m) in
+                                                                    northeastern Gulf by beach seining and nearshore purse sein-
+spring, and offshore and/or southward during winter; found
+                                                                    ing spring-early fall, when fish were nearshore); potential
+80-160 kID from shore in depths 30-100 m most of the year
+                                                                    uses include human consumption, bait, reduction, and cat
+(Leak 1977, 1981).
+                                                                    food (Leak 1977, 1981).
+Southeastern U.S. continental shelf Adults taken in bot-
+                                                                    Western Florida Commercially exploited; 316 t
+tom trawls between 10 and 110 m; summer though winter,
+                                                                    ($104,512) landed in 1975 (Snell 1977).
+greatest catches in depths of 18-55 m; in spring, greatest
+catches 10-18 m; contributed greatest biomass of the pelagic        Florida Small beach-seine fishery April-November for bait
+species (Barans and Burrell 1976).                                  (Klima 1971); bait fishery takes fish 100-170 mm between
+                                                                    0+ and 2 years old (Reintjes 1979a).
+Juveniles up to 80 mm SL caught as far offshore as 473 kID;
+larger fish caught nearer shore at mid-depth or the surface
+(Berry 1968).                                                       Other
+Found schooling with chub mackerel, Scomber japonicus               Presently large fisheries on Decapterus species in the East
+(Reintjes 1979b).                                                   China Sea, Sea of Japan, Philippine Archipelago, and off
+                                                                    west Africa (Leak 1981).
+
+
+                                                                    Problems
+                                                                    Beach-seine and nearshore purse-seine fisheries exploit only
+                                                                    a fraction of the stock; full utilization of the resource would
+                                                                    require greater fishing effort offshore, where the stock is
+                                                                    abundant year-round (Leak 1977, 1981).
+
+
+                                                               32
+Reproduction                                                        depths of 30-100 m, 80-160 km offshore); small larvae taken
+                                                                    from a total depth range of 2-225 m, 55 % of larval catch
+Sexual maturity                                                     taken in depths of 30-100 m, 37 % in depths <30 m, and
+                                                                    9% in depths >100 m; some evidence of bimodal spawning
+West Florida Young-of-the-year, mature D. punctatus
+                                                                    off both west Florida and south Texas (Leak 1977, 1981).
+females as small as 107 mm SL may spawn around Septem-
+ber; these fish may be as young as 4-7 months if they grow          Florida and Yucatan Straits Larvae taken year-round at
+as fast as D. pinnulatus and Selar crumenophthalmus off             surface temperatures of21 °-31 °C, lowest larval abundances
+Hawaii, or Trachurus trachurus in the North Sea (Leak 1977,         in late fall-winter (Lyons 1978).
+1981).
+                                                                    Mississippi Off barrier islands, larvae (3.0-15.0 mm SL)
+Northwest Florida All males mature at 145-149 mm; all               taken in bottom tows June-August with a peak in July (Stuck
+females mature at 130-134 mm (Naughton et al. 1986).                and Perry 1982).
+Eastern Gulf Fish of <135 mm FL «1 yr old) rarely                   Off Caminada Pass, Louisiana An ichthyoplankton survey
+observed to have mature ovaries, but age 0+ fish may con-           November 1981-0ctober 1982 took larvae in May (Ditty
+tribute substantially to spawning (Houde et al. 1984).              1986).
+                                                                    Texas Based on larval abundance, spawns April-September
+Sex ratio                                                           in depths of 42-182 m, 45-95 km offshore (Finucane et al.
+                                                                    1979).
+IM:IF (Reintjes 1979a).
+                                                                    South Texas, west Florida, and eastern Atlantic Spawns
+1.12M: IF in 1981, 1. 11M: IF in 1982 survey (Houde et al.
+                                                                    in water temperatures >20°C (Aboussouan 1975).
+1984).
+                                                                    Beaufort, North Carolina Spawns May-November (peak
+                                                                    in July-September) inshore and offshore (Hildebrand and
+Fecundity
+                                                                    Cable 1930).
+Asynchronous oocyte development (Reintjes 1979a).
+                                                                    U.S. South Atlantic Bight 826 specimens taken year-
+Northwest Florida Apparently a serial spawner-batch                 round, peak larval abundance in spring (Fahay 1975).
+fecundity of 20 fish (146-188 mm) was 21,000-146,000 ova
+                                                                    West Africa Begins spawning in water temperatures
+(Naughton et al. 1986).
+                                                                    >20°C (Conand and Franqueville 1973).
+
+Spawning season
+                                                                    Eggs
+Dense plankton concentrations possibly stimulate spawning
+and enhance larval survival; plankton volumes weakly but
+                                                                    General description
+significantly correlated with abundance of larvae; spawning
+possibly associated with upwellings or frontal zones (Leak          No specific information on D. punctatus.
+1977).
+                                                                    General characteristics for Carangidae eggs (Fahay 1983:
+Gulf Larvae taken throughout the Gulf, but appear most              240): "Pelagic, shell smooth, yolk homogeneous or seg-
+abundant on west Florida shelf (Aprieto 1974, Montolio              mented, 1 oil globule anterior in late eggs and hatcWing (eggs
+1976); larvae found mostly in 10-20 m depths, but also past         described in only a few species)."
+50 m; two major spawning periods, April-May and Octo-
+ber-November (Montolio 1976).
+                                                                    Egg diameter
+Eastern Gulf Most frequently occurring carangid larvae
+                                                                    No species-specific information found.
+and among the 20 most frequently observed species; 4431
+larvae collected year-round (throughout the eastern Gulf,
+spring-fall; winter larval distribution restricted to south         Perivitelline space
+Florida), most larvae (68 % of occurrences) taken at depths
+                                                                    No species-specific information found.
+<50 m (Houde et al. 1984).
+West Florida Most abundant carangid larvae in eastern
+                                                                    Oil globule
+Gulf; spawns year-round in surface temperatures of 20°-
+30°C (significantly greater catches in waters 23 °-30°C) and        No species-specific information found.
+salinities of 27-37 ppt (peak catches in waters 36-37 ppt)
+over entire west Florida shelf, but larvae most abundant in
+                                                                    Incubation time
+spring and summer (primarily spawning in depths of 2-100
+m), decreasing steadily in fall and winter (spawning in             No species-specific information found.
+                                                               33
+Larvae                                                                  Juvenile
+Hatching length                                                         Gulf Transforms to juvenile stage at "-' 10 mm (Aprieto
+                                                                        1973). Transforms to juvenile stage at 10.9-19.0 mm SL
+No species-specific information found.
+                                                                        (Laroche et al., in prep.).
+                                                                        Florida 282 specimens (35-78 mm) taken from the Sar-
+Early-life-history information
+                                                                        gassum complex of the Florida Current, all but four juveniles
+Larvae may be associated with dense plankton concentra-                 (53-60 mm) collected November-June (Dooley 1972).
+tions, upwellings, or frontal zones (Leak 1977, Lyons 1978).
+                                                                        Mississippi Off barrier islands, juveniles (16-22.0 mm SL)
+Gulf No apparent day/night catch differences (Montolio                  taken in plankton tows between July and September (Stuck
+1976, Leak 1981).                                                       and Perry 1982).
+Charleston, South Carolina During mid-July, 118 juve-                   U.S. South Atlantic Bight Juveniles apparently rise to the
+niles (24-27 mm TL) taken using a Boothbay neuston net;                 surface during predawn period, occupy the surface during
+statistically more fish captured during the day (Eldridge et al.        the day, and descend at night (Fahay 1975).
+1977).
+
+
+Meristics
+Dorsal VIII + I, 29-37 (dorsal fins continuous to "-'30-50
+mm SL [Berry 1968, western Atlantic)); VIII + I, 27-34
+(completion of fin rays by 10 mm [Fahay 1983, northwest
+Atlantic)); VIII + 1,30-33 attained by 11 mm SL (Laroche
+et al., in prep., Gulf).
+Anal II + 1,24-31 (anal fins continuous to "-'30-40 mm SL,
+Berry 1968); II +I, 24-30 attained by 9-11 mm, (Fahay
+1983); II + 1,26-28 attained by 11 mm SL (Laroche et al.,
+in prep.).
+Pectorals 18-20 (Berry 1968);        19-21 attained by 11 mm
+SL (Laroche et al., in prep.).
+Myomeres/Vertebrae 25 myomeres, 10+ 15 vertebrae
+(Berry 1968, Fahay 1983).
+
+
+Larval description
+Gulf Illustrations and comparative information for wi1d-
+caught larvae (Aprieto 1974). Illustrations of wild-caught
+larvae (Montolio 1976, Laroche et al. 1984).
+North Carolina Illustrations of wild-caught larvae (Hilde-
+brand and Cable 1930).
+U.S. Mid-Atlantic Bight Atlas of larval stages compiled
+from works of other authors listed above (Johnson 1978).
+West Africa Illustrations and comparative information for
+wild-caught larvae (Aboussouan 1975).
+Mediterranean Schnakenbeck (1931).
+Black Sea D. russelli (~Caran.x kurra) (Delsman 1926).
+Arabian Sea D. kilione (Tsokur 1977).
+Madras Coast, India D. russelli (Vijayaraghavan 1958).
+D. maruadsi (Shojima 1962).
+
+
+
+                                                                   34
+Trachurus lathami Nichols                                                                                           rough scad
+
+Adult Distribution                                                    Other
+                                                                      West Indies Apparently rare (Fischer 1978b).
+Geographic
+Western North Atlantic Found from Nova Scotia to north-
+ern Argentina, including the Gulf of Mexico (Berry and                Fisheries
+Cohen 1972, Reintjes 1979a); apparently rare in the West
+Indies (Fischer 1978b).                                               Gulf of Mexico
+Western Atlantic Usually recognized as the only species               Eastern Gulf Commercial catches small, but possibility of
+of Trachurus in the western Atlantic (Nichols 1940, Ginsburg          a significant catch from the Gulf as a whole if western stocks
+1952, Berry and Cohen 1972), although T. picturatus                   are larger, especially if the rough scad bycatch from an
+binghami has been reported from the Caribbean south to                Etrumeus teres fishery is developed, since massive combined
+Panama (Nichols 1940); genus has a total of 13 species (Berry         schools have been reported (Leak 1981).
+and Cohen 1972).
+                                                                      Other
+Vertical (depth) or distance from shore
+                                                                      Major fisheries for Trachurus species in the northeast Atlan-
+A pelagic species usually not taken in shore-seining but ap-          tic, off Chile and Peru, in the East China Sea, and off west
+parently found near bottom (Ginsburg 1952) in depths of               and southwest Africa, which landed 2.7 million t in 1978,
+50-90 m (Mansueti 1960; Fischer 1978b).                               a major contribution to the world fish catch; Atlantic fisheries
+                                                                      are primarily for reduction (meal and oil) while Pacific
+Gulf Present from Florida to Texas; adults form large
+                                                                      fisheries are primarily for food (Leak 1977, 1981).
+schools over the outer continental shelf in depths> 183 m
+January-March; found schooling with chub mackerel                     Small developing fisheries off Venezuela and California, on
+(Reintjes 1979a,b). Fairly common in the northern Gulf,               the Mediterranean and Black Seas, and off New Zealand that
+east of the Mississippi River, generally found slightly far-          use midwater trawls, purse seines, lampara, and lift nets
+ther offshore than other coastal pelagics (Klima 1971,                (Leak 1977, 1981).
+Christmas and Waller 1973, Haese and Moore 1977); occurs
+uncommonly if at all in Gulf estuaries; larvae and probably
+                                                                      Problems
+adults as well are much more common off south Texas than
+over the west Florida shelf, based on larval collections (Leak        Most efficient means of exploitation involves midwater trawl-
+1977, Finucane et al. 1979).                                          ing targeted at spawning concentrations, as is presently
+                                                                      employed in west Africa (Leak 1977).
+Tampa Bay, Florida More abundant offshore and over
+rocky reefs (Springer and Woodburn 1960).
+                                                                      Reproduction
+Stock Abundance                                                       Sexual maturity
+Gulf of Mexico                                                        Age at maturity probably <2 years; off Argentina, size at
+                                                                      this age 130-150 mm TL (Reintjes 1979a).
+Eastern Gulf Stock estimated at 20,000-50,000 t and an-
+nual potential yield at 12,000-14,000 t for a seasonal mid-
+water trawl fishery near the edge of the continental shelf            Sex ratio
+winter-early spring; Trachurus is characterized by large
+                                                                      Argentina     1M: IF (Reintjes 1979a).
+abundances in high-amplitude cycles such as upwellings,
+countercurrents, and rips (Leak 1977).
+                                                                      Fecundity
+Cameron, Louisiana Massive school of Etrumeus teres
+(family Clupeidae) and rough scad, 56 krn long (18 krn of             No specific information on T. lathami (Reintjes 1979a).
+which was without interruption) sighted during a January
+                                                                      California T. symmetricus, mean number of eggs/g from
+1969 Oregon II cruise (Reintjes 1979a).
+                                                                      30 fish was 109 (based on 15 fish, 217-258 mm FL, 66
+Texas Second-most abundant carangid after Selene setapin-             eggs/g, and 15 fish, 438-554 mm FL, 152 eggs/g)
+nis in trawls on the brown shrimp grounds; one of the most            (MacGregor 1976).
+abundant fish on the Labos Island ground in 1954 (Hildebrand
+1954).
+                                                                 35
+North Sea and English Channel T. trachurus, fecundity                 Africa T. trachurus, egg spherical, with a thin transparent
+range of 168,000-860,000 oocytes for fish 250-380 mm TL               membrane and a segmented yolk (Kiliachenkova 1970, Haigh
+(Macer 1974).                                                         1972).
+
+
+Spawning season                                                       Egg diameter
+West Florida Spawns primarily offshore November-May                   No specific information on T. lathami.
+(peak January-February in 50-200 m depths) beyond the
+                                                                      California T. symmetricus, egg diameter of 0.90-1.08 mm
+30-m isobath (total depth range 20-219 m); proportion of
+                                                                      (Ahlstrom and Ball 1954).
+larvae collected from depths of 30-50 m smaller than that
+from depths >50 m (140 km offshore); larvae collected from            Africa T. trachurus, egg diameter of 0.9-1.1 mm (Kilia-
+waters with surface temperatures of 18°-26°C and salinities           chenkova 1970) or 0.7-1.09 mm (Haigh 1972).
+of 35-36 ppt. Spawning associated with upwellings, counter-
+currents, rips, high zooplankton production, and tempera-
+                                                                      Perivitelline space
+tures of 10°-25°C (Leak 1977, 1981).
+                                                                      No specific information on T. lathami.
+Eastern Gulf Total of 185 larvae taken fall-spring (ap-
+parently does not spawn in summer), generally over depths             California T. symmetricus, perivitelline space 0.09 mm
+>50 m (70% of occurrences in 50-200 m), widely distributed            (Ahlstrom and Ball 1954).
+(Houde et a1. 1984).
+Lower Mobile Bay, Alabama Larvae taken in June and                    Oil globule
+August (Williams 1983).
+                                                                      No specific information on T. lathami.
+Off Caminada Pass, Louisiana An ichthyoplankton survey
+                                                                      Africa Diameter of T. trachurus oil globule 0.19-0.28 mm,
+November 1981-0ctober 1982 took larvae in February (Ditty
+                                                                      yellowish-brownish pigment around anterior part (Haigh
+1986).
+                                                                      1972); single oil droplet 0.15-0.20 mm wide (Kiliachenkova
+Louisiana Larvae collected January-February 1976 be-                  1970).
+tween the Mississippi and Atchafalaya deltas in 10-100 m;
+99% of the rough scad larvae taken outside of the 30-m con-
+                                                                      Incubation time
+tour (Ditty and Truesdale 1984).
+                                                                      No specific information on T. lathami.
+South Texas Larvae collected January-May, surface tem-
+peratures 13°-21°C; larvae most abundant at depths >45 m
+and >50 km offshore (Finucane et a1. 1979).
+                                                                      Larvae
+Gulf and Caribbean Probably spawns offshore from April
+to June; epipelagic when very young (Fischer 1978b).                  Hatching length
+Charleston, South Carolina Young collected with a                     No specific information on T. lathami.
+Boothbay neuston net during mid-July (Eldridge et al. 1977).
+                                                                      Northwest Africa T. trachurus hatches at 1.8-1.9 mm with
+Indian River, Delaware Three larvae (3-5 mm) taken in                 no functional mouth and unpigmented eyes (Kiliachenkova
+June (de Sylva et a1. 1962).                                          1970).
+California T. symmetricus (jack mackerel) appears to
+prefer spawning around midnight (Farris 1963).                        Early-life-history information
+                                                                      No major early life history studies found.
+Eggs
+                                                                      Meristics
+General description
+                                                                      Dorsal VIII+I, 28-33 (Boschung 1957, Mobile Bay, Ala-
+No specific information on T. lathami.                                bama); (x 30.3 rays [Nichols 1940, Gulf]); vm + I, 30-33
+                                                                      attained by 10 mm SL (Laroche et al., in prep., Gulf);
+General characteristics for Carangidae eggs (Fahay 1983:
+240): "Pelagic, shell smooth, yolk homogeneous or seg-
+                                                                                  x
+                                                                      28-34 rays, 30.8 (Berry and Cohen 1972, western Atlan-
+                                                                      tic and Gulf).
+mented, 1 oil globule anterior in late eggs and hatcWing (eggs
+described in only a few species)."                                    Anal 11+1,26-30 (Boschung 1957); 11+1,27-30 attained
+                                                                      by 10 mm SL (Laroche et aI., in prep.); 24-30 rays,
+California T. symmetricus, yolk diameter of 0.68-0. 88 mm
+(Ahlstrom and Ball 1954).
+                                                                      x 27.6 (Berry and Cohen 1972).
+
+                                                                 36
+Pectorals 21-22 (Boschung 1957).                                    Texas In July, 29 specimens (99-120 nun) collected in
+                                                                    waters of 28.3°C and 35.8 ppt (Gunter 1945). Juveniles
+Vertebrae 10+ 14 (Boschung 1957, Berry and Cohen
+                                                                    collected by trawling in depths >37 m (Hildebrand 1954).
+1972); 24 (Fahay 1983, northwest Atlantic; Laroche et aI.,
+in prep.).                                                          Chesapeake Bay One specimen (102 nun SL) collected in
+                                                                    July at a depth of 18 m and salinity of 14 ppt in a shrimp
+Scutes 67-75,    x 70.1 (Nichols 1940).                             trawl (Mansueti 1960).
+                                                                    New Jersey Juveniles taken in temperatures of 14°-18.5°C
+Larval descriptions                                                 and salinities of 29-30.5 ppt (Milstein and Thomas 1976).
+Larval development of T. lathami most closely resembles
+                                                                    Newburyport, Massachusetts One specimen (103 nun)
+that of T. mediterraneus and is sometimes confused with that
+                                                                    taken on rod and reel; juveniles reach /'\)75-80 nun, l-year-
+of Decapterus punctatus; T. lathami larvae <4.0 mm more
+                                                                    olds reach 80-140 nun (one annulus) (Merriman 1943).
+densely pigmented, especially along ventral and dorsal sur-
+faces, than D. punctatus of the same length, but larger lar-
+vae of both species may be similarly pigmented (Leak 1977);
+also see (Laroche et al.. in prep.).
+Gulf Illustrations and comparative information for wild-
+caught larvae (Laroche et al. 1984).
+U.S. Mid-Atlantic Bight Excellent atlas of larval stages
+(Johnson 1978).
+California T. symmetricus (Ahlstrom and Ball 1954).
+British waters T. trachurus (Russell 1976).
+West Africa     T. picturatus, T. trecae (Aboussouan 1975).
+South Africa T. trachurus (Haigh 1972).
+Northwest Africa T. trachurus (Kiliachenkova 1970).
+USSR seas T. mediterraneus (Aleev 1957).
+Mediterranean Sea T. mediterraneus (Dechnik and Senio-
+kova 1964).
+Sea of MarmaralBlack Sea T. mediterraneus, T. trachurus
+(Demir 1961).
+Peru T. symmetricus murphyi (Santander and de Castillo
+1971).
+Gulf of Guinea     T. trachurus (Zhudova 1969).
+Japan   T. japonicus (Uchida et al. 1958).
+Argentina     T. picturatus australis (Ciechomski and Weiss
+1973).
+Arabian Sea T. mediterraneus (Tsokur 1977).
+
+
+Juvenile
+Florida Current, Miami Description of juveniles (Schek-
+ter 1972).
+Tampa Bay, Florida Juveniles collected (Springer and
+Woodburn 1960).
+Mississippi Off barrier islands, juveniles (32 nun SL) taken
+in bottom tows during July and October (Stuck and Perry
+1982).
+
+                                                               37
+

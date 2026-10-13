@@ -40,3 +40,12 @@ estimates must not silently enter precise-location screening.
 
 See the [atlas methods](../docs/sampling_atlas.md) and
 [selection methods](../docs/species_selection_workflow.md) for complete rules.
+
+## Genomic inventory
+
+`genomics.R` controls the public-genomic inventory's roster, input/output paths,
+nominal low-depth screening threshold and contemporary mapping bounds/years.
+`genomics_assay_overrides.csv` documents accession-specific exceptions to archive
+library-strategy labels with evidence URLs and reasons. Original taxonomic project
+synonym decisions remain in `life_history_taxon_crosswalk.csv`; genomic-specific
+resolution is recorded in `Output/Genomics/taxon_crosswalk.csv`.
