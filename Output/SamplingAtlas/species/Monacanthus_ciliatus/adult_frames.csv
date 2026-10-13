@@ -1,0 +1,8 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Monacanthus ciliatus","adult",1884,"1884",22,15,7,-100,-50,5,60,2,"species/Monacanthus_ciliatus/adult_frames/year_1884.png"
+"Monacanthus ciliatus","adult",1885,"1885",67,67,0,-100,-50,5,60,2,"species/Monacanthus_ciliatus/adult_frames/year_1885.png"
+"Monacanthus ciliatus","adult",1886,"1886",7,3,4,-100,-50,5,60,2,"species/Monacanthus_ciliatus/adult_frames/year_1886.png"
+"Monacanthus ciliatus","adult",1901,"1901",49,49,0,-100,-50,5,60,2,"species/Monacanthus_ciliatus/adult_frames/year_1901.png"
+"Monacanthus ciliatus","adult",1902,"1902",75,70,5,-100,-50,5,60,2,"species/Monacanthus_ciliatus/adult_frames/year_1902.png"
+"Monacanthus ciliatus","adult",1912,"1912",1,0,1,-100,-50,5,60,2,"species/Monacanthus_ciliatus/adult_frames/year_1912.png"
+"Monacanthus ciliatus","adult",,"Undated",2,0,2,-100,-50,5,60,2,"species/Monacanthus_ciliatus/adult_frames/undated.png"

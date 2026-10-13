@@ -1,0 +1,5 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Cyclopterus lumpus","adult",1882,"1882",1,1,0,-100,-50,5,60,2,"species/Cyclopterus_lumpus/adult_frames/year_1882.png"
+"Cyclopterus lumpus","adult",1888,"1888",1,0,1,-100,-50,5,60,2,"species/Cyclopterus_lumpus/adult_frames/year_1888.png"
+"Cyclopterus lumpus","adult",1912,"1912",62,0,62,-100,-50,5,60,2,"species/Cyclopterus_lumpus/adult_frames/year_1912.png"
+"Cyclopterus lumpus","adult",,"Undated",1,1,0,-100,-50,5,60,2,"species/Cyclopterus_lumpus/adult_frames/undated.png"

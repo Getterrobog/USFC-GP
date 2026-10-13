@@ -1,0 +1,15 @@
+Eligible species: 80 (>= 50 assigned-year specimens through 1930, across stages)
+Original export records: 7166; physical lots: 6845
+Eligible species inventory: 1740 lots; 13780 dated specimens; 1041 undated specimens
+Dated and mapped specimens: 10171; undated and mapped specimens: 647
+Approximate display positions: 426 lots, 4003 specimens (excluded from precise-location screening)
+Stage totals: adult 13731; larva 1033; mixed 57
+Repeated historical species/stage/cells with >= 10 specimens in each period: 8
+Adults are non-larval inventory, not a claim of verified maturity. Mixed lots are not split without evidence.
+Unlabeled maturity, unvalidated taxonomy, missing coordinates/dates and availability concerns remain auditable.
+Broad regional partitions and 2-degree cells are screening units, not biological population boundaries.
+Types and availability-flagged lots are shown in the atlas but excluded from repeated-sampling/assemblage screening.
+Preservation Method is absent from the source export: year is not a DNA preservation or sequencing-feasibility test.
+Approximate display coordinates use auditable locality matching; original coordinates and dates remain unchanged.
+Shared early/late period membership is not proof of simultaneous collection. Inspect exact years, stations and lots before selecting assemblages.
+Rendered 161 species-stage artifacts for 80 species.

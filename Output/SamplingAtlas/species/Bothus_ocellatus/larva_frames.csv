@@ -1,0 +1,7 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Bothus ocellatus","larva",1885,"1885",1,0,1,-100,-50,5,60,2,"species/Bothus_ocellatus/larva_frames/year_1885.png"
+"Bothus ocellatus","larva",1913,"1913",3,3,0,-100,-50,5,60,2,"species/Bothus_ocellatus/larva_frames/year_1913.png"
+"Bothus ocellatus","larva",1914,"1914",111,111,0,-100,-50,5,60,2,"species/Bothus_ocellatus/larva_frames/year_1914.png"
+"Bothus ocellatus","larva",1915,"1915",8,0,8,-100,-50,5,60,2,"species/Bothus_ocellatus/larva_frames/year_1915.png"
+"Bothus ocellatus","larva",1917,"1917",1,1,0,-100,-50,5,60,2,"species/Bothus_ocellatus/larva_frames/year_1917.png"
+"Bothus ocellatus","larva",1919,"1919",75,75,0,-100,-50,5,60,2,"species/Bothus_ocellatus/larva_frames/year_1919.png"

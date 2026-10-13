@@ -1,0 +1,5 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Chlorophthalmus agassizi","adult",1884,"1884",17,17,0,-100,-50,5,60,2,"species/Chlorophthalmus_agassizi/adult_frames/year_1884.png"
+"Chlorophthalmus agassizi","adult",1885,"1885",53,53,0,-100,-50,5,60,2,"species/Chlorophthalmus_agassizi/adult_frames/year_1885.png"
+"Chlorophthalmus agassizi","adult",1886,"1886",8,8,0,-100,-50,5,60,2,"species/Chlorophthalmus_agassizi/adult_frames/year_1886.png"
+"Chlorophthalmus agassizi","adult",1919,"1919",1,1,0,-100,-50,5,60,2,"species/Chlorophthalmus_agassizi/adult_frames/year_1919.png"

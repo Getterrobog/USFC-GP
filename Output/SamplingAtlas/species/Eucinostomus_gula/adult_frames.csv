@@ -1,0 +1,4 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Eucinostomus gula","adult",1884,"1884",7,0,7,-100,-50,5,60,2,"species/Eucinostomus_gula/adult_frames/year_1884.png"
+"Eucinostomus gula","adult",1885,"1885",32,32,0,-100,-50,5,60,2,"species/Eucinostomus_gula/adult_frames/year_1885.png"
+"Eucinostomus gula","adult",1887,"1887",18,0,18,-100,-50,5,60,2,"species/Eucinostomus_gula/adult_frames/year_1887.png"

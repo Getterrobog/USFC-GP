@@ -1,0 +1,5 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Decapterus punctatus","adult",1885,"1885",109,109,0,-100,-50,5,60,2,"species/Decapterus_punctatus/adult_frames/year_1885.png"
+"Decapterus punctatus","adult",1914,"1914",20,16,4,-100,-50,5,60,2,"species/Decapterus_punctatus/adult_frames/year_1914.png"
+"Decapterus punctatus","adult",1915,"1915",20,6,14,-100,-50,5,60,2,"species/Decapterus_punctatus/adult_frames/year_1915.png"
+"Decapterus punctatus","adult",,"Undated",6,0,6,-100,-50,5,60,2,"species/Decapterus_punctatus/adult_frames/undated.png"

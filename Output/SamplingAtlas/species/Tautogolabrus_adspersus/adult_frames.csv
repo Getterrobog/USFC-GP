@@ -1,0 +1,4 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Tautogolabrus adspersus","adult",1892,"1892",75,57,18,-100,-50,5,60,2,"species/Tautogolabrus_adspersus/adult_frames/year_1892.png"
+"Tautogolabrus adspersus","adult",1899,"1899",13,13,0,-100,-50,5,60,2,"species/Tautogolabrus_adspersus/adult_frames/year_1899.png"
+"Tautogolabrus adspersus","adult",1915,"1915",15,15,0,-100,-50,5,60,2,"species/Tautogolabrus_adspersus/adult_frames/year_1915.png"

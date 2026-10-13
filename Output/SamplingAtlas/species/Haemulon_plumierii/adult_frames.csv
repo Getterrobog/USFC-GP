@@ -1,0 +1,7 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Haemulon plumierii","adult",1884,"1884",21,20,1,-100,-50,5,60,2,"species/Haemulon_plumierii/adult_frames/year_1884.png"
+"Haemulon plumierii","adult",1885,"1885",13,3,10,-100,-50,5,60,2,"species/Haemulon_plumierii/adult_frames/year_1885.png"
+"Haemulon plumierii","adult",1899,"1899",2,2,0,-100,-50,5,60,2,"species/Haemulon_plumierii/adult_frames/year_1899.png"
+"Haemulon plumierii","adult",1901,"1901",16,16,0,-100,-50,5,60,2,"species/Haemulon_plumierii/adult_frames/year_1901.png"
+"Haemulon plumierii","adult",1903,"1903",5,2,3,-100,-50,5,60,2,"species/Haemulon_plumierii/adult_frames/year_1903.png"
+"Haemulon plumierii","adult",,"Undated",7,3,4,-100,-50,5,60,2,"species/Haemulon_plumierii/adult_frames/undated.png"

@@ -1,0 +1,3 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Atherina harringtonensis","adult",1885,"1885",78,0,78,-100,-50,5,60,2,"species/Atherina_harringtonensis/adult_frames/year_1885.png"
+"Atherina harringtonensis","adult",,"Undated",36,0,36,-100,-50,5,60,2,"species/Atherina_harringtonensis/adult_frames/undated.png"

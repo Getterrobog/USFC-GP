@@ -1,0 +1,4 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Cheilopogon furcatus","adult",1886,"1886",2,2,0,-100,-50,5,60,2,"species/Cheilopogon_furcatus/adult_frames/year_1886.png"
+"Cheilopogon furcatus","adult",1914,"1914",4,4,0,-100,-50,5,60,2,"species/Cheilopogon_furcatus/adult_frames/year_1914.png"
+"Cheilopogon furcatus","adult",1915,"1915",4,4,0,-100,-50,5,60,2,"species/Cheilopogon_furcatus/adult_frames/year_1915.png"

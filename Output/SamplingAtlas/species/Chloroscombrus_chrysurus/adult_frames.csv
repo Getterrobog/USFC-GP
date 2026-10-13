@@ -1,0 +1,5 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Chloroscombrus chrysurus","adult",1884,"1884",20,10,10,-100,-50,5,60,2,"species/Chloroscombrus_chrysurus/adult_frames/year_1884.png"
+"Chloroscombrus chrysurus","adult",1885,"1885",32,32,0,-100,-50,5,60,2,"species/Chloroscombrus_chrysurus/adult_frames/year_1885.png"
+"Chloroscombrus chrysurus","adult",1915,"1915",2,0,2,-100,-50,5,60,2,"species/Chloroscombrus_chrysurus/adult_frames/year_1915.png"
+"Chloroscombrus chrysurus","adult",1919,"1919",46,46,0,-100,-50,5,60,2,"species/Chloroscombrus_chrysurus/adult_frames/year_1919.png"

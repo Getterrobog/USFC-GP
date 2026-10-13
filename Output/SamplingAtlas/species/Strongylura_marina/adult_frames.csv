@@ -1,0 +1,4 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Strongylura marina","adult",1892,"1892",32,5,27,-100,-50,5,60,2,"species/Strongylura_marina/adult_frames/year_1892.png"
+"Strongylura marina","adult",1899,"1899",19,19,0,-100,-50,5,60,2,"species/Strongylura_marina/adult_frames/year_1899.png"
+"Strongylura marina","adult",,"Undated",1,1,0,-100,-50,5,60,2,"species/Strongylura_marina/adult_frames/undated.png"

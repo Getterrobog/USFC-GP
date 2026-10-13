@@ -1,0 +1,4 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Hyporhamphus unifasciatus","larva",1914,"1914",46,46,0,-100,-50,5,60,2,"species/Hyporhamphus_unifasciatus/larva_frames/year_1914.png"
+"Hyporhamphus unifasciatus","larva",1916,"1916",3,3,0,-100,-50,5,60,2,"species/Hyporhamphus_unifasciatus/larva_frames/year_1916.png"
+"Hyporhamphus unifasciatus","larva",1920,"1920",2,0,2,-100,-50,5,60,2,"species/Hyporhamphus_unifasciatus/larva_frames/year_1920.png"

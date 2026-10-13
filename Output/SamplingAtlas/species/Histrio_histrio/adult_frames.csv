@@ -1,0 +1,7 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Histrio histrio","adult",1884,"1884",34,34,0,-100,-50,5,60,2,"species/Histrio_histrio/adult_frames/year_1884.png"
+"Histrio histrio","adult",1885,"1885",8,8,0,-100,-50,5,60,2,"species/Histrio_histrio/adult_frames/year_1885.png"
+"Histrio histrio","adult",1886,"1886",11,11,0,-100,-50,5,60,2,"species/Histrio_histrio/adult_frames/year_1886.png"
+"Histrio histrio","adult",1902,"1902",1,1,0,-100,-50,5,60,2,"species/Histrio_histrio/adult_frames/year_1902.png"
+"Histrio histrio","adult",1914,"1914",16,16,0,-100,-50,5,60,2,"species/Histrio_histrio/adult_frames/year_1914.png"
+"Histrio histrio","adult",1917,"1917",6,0,6,-100,-50,5,60,2,"species/Histrio_histrio/adult_frames/year_1917.png"

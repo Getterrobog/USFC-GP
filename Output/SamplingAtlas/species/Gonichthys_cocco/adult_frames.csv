@@ -1,0 +1,4 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Gonichthys cocco","adult",1885,"1885",121,120,1,-100,-50,5,60,2,"species/Gonichthys_cocco/adult_frames/year_1885.png"
+"Gonichthys cocco","adult",1886,"1886",230,230,0,-100,-50,5,60,2,"species/Gonichthys_cocco/adult_frames/year_1886.png"
+"Gonichthys cocco","adult",,"Undated",3,3,0,-100,-50,5,60,2,"species/Gonichthys_cocco/adult_frames/undated.png"

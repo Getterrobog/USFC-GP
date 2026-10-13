@@ -1,0 +1,4 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Clupea harengus","adult",1893,"1893",1,0,1,-100,-50,5,60,2,"species/Clupea_harengus/adult_frames/year_1893.png"
+"Clupea harengus","adult",1894,"1894",50,0,50,-100,-50,5,60,2,"species/Clupea_harengus/adult_frames/year_1894.png"
+"Clupea harengus","adult",,"Undated",50,0,50,-100,-50,5,60,2,"species/Clupea_harengus/adult_frames/undated.png"
