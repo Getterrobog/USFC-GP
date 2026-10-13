@@ -7,7 +7,20 @@
 # • S(d) is the total number of specimens included within those valid populations
 # at distance d
 # • S_total ^2 (S subscript total squared) is the total number of specimens across the entire dataset
+# That's a trash equation because the relationships between P S and d are not considered.
+# The denominator is nonsensical to the problem.  Lets start over
+# At d = 2500 km,  P = 591 max (P = 1 min), S = 20734, where the P_min is S = 1.  At d = 0 km,  P = 5027, S = 20734, where the P_min is S = 1.
+# If I add a condition P_min is where S >= 20, then at d = 0, P < 5027, S < 20734
+# As d increases S should increase, P may increase.  There should be a maximum point on a curve that behaves like -x^2
+# I could try have a script run pop_kmz-inator setting a value for the radius distance
+# and outputting the number of total populations across species and the number of specimens
 
+sort(table(Fish$Valid.Name), decreasing = T)
+length(unique(Fish$Valid.Name)) #591
+sum(Fish$Specimen.Count, na.rm = T) #20734
+nrow(Fish) #5027
+
+# Start of garbage in
 library(dplyr)
 library(geosphere)
 library(cluster)
@@ -15,8 +28,6 @@ library(cluster)
 # Filter rows with valid coordinates and specimen counts
 fish_max <- Fish %>%
   filter(!is.na(Centroid.Latitude) & !is.na(Centroid.Longitude) & !is.na(Specimen.Count))
-
-s_total <- sum(fish_max$Specimen.Count)
 
 # Pre-calculate distance matrices and hierarchical clustering trees for each species
 species_list <- split(fish_max, fish_max$Valid.Name)
@@ -34,10 +45,10 @@ species_data <- lapply(species_list, function(df_sp) {
   }
 })
 
-# Define search sequence for distance thresholds d (e.g., 5 km to 500 km in 5 km steps)
-distances <- seq(5000, 2500000, by = 5000)
+# Define search sequence (e.g., 1 km up to 300 km in 1 km steps, or your target range)
+distances <- seq(1000, 300000, by = 1000)
 
-results <- data.frame(Distance = numeric(), Pops = numeric(), Specs = numeric(), Efficiency = numeric())
+results <- data.frame(Distance = numeric(), Pops = numeric(), Specs = numeric())
 
 for (d in distances) {
   total_pops <- 0
@@ -65,21 +76,34 @@ for (d in distances) {
     }
   }
   
-  # Calculate efficiency score E(d)
-  efficiency <- (total_pops * total_specs) / (s_total ^ 2)
-  results <- rbind(results, data.frame(Distance = d, Pops = total_pops, Specs = total_specs, Efficiency = efficiency))
+  results <- rbind(results, data.frame(Distance = d, Pops = total_pops, Specs = total_specs))
 }
 
-# Identify the optimal row maximizing efficiency
-optimal_row <- results[which.max(results$Efficiency), ]
+# Apply min-max normalization across the evaluated range to equally weight Pops and Specs
+p_min <- min(results$Pops)
+p_max <- max(results$Pops)
+s_min <- min(results$Specs)
+s_max <- max(results$Specs)
+
+results <- results %>%
+  mutate(
+    Norm_Pops = (Pops - p_min) / (p_max - p_min),
+    Norm_Specs = (Specs - s_min) / (s_max - s_min),
+    Balanced_Score = Norm_Pops * Norm_Specs
+  )
+
+# Identify the optimal row maximizing the balanced score
+optimal_row <- results[which.max(results$Balanced_Score), ]
 best_distance <- optimal_row$Distance
 
-cat("Optimal Distance:", best_distance, "meters\n")
+cat("Optimal Balanced Distance:", best_distance / 1000, "km\n")
 
-# Plot and save efficiency curve
-pdf(file = "Efficiency_Curve.pdf", width = 8, height = 6)
-plot(results$Distance / 1000, results$Efficiency, type = "l", col = "darkblue", lwd = 2,
-     main = paste("Efficiency Optimization Curve (Optimal:", best_distance / 1000, "km)"),
-     xlab = "Distance Threshold (km)", ylab = "Efficiency Score E(d)")
+# Plot and save curve
+pdf(file = "Balanced_Range.pdf", width = 8, height = 6)
+plot(results$Distance / 1000, results$Balanced_Score, type = "l", col = "darkblue", lwd = 2,
+     main = paste("Balanced Optimization Curve (Optimal:", best_distance / 1000, "km)"),
+     xlab = "Distance Threshold (km)", ylab = "Balanced Score")
 abline(v = best_distance / 1000, col = "red", lty = 2)
 dev.off()
+
+#End of garbage out
