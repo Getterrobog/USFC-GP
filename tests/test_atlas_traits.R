@@ -9,6 +9,19 @@ stopifnot(identical(bundle$traits$species, species), nrow(bundle$traits) == 80L,
   sum(!is.na(bundle$traits$generation_time_model_years)) == 75L,
   identical(trait_tokens("Estuaries; Oceanic; Estuaries"), c("Estuaries", "Oceanic")))
 lengths <- bundle$lengths
+stopifnot(bundle$integrated,bundle$source=="Output/SpeciesTraits/species_summary.csv",
+  sum(!is.na(bundle$traits$trophic_level_preferred))==67L,
+  sum(nzchar(bundle$traits$body_shape))==79L,
+  !anyDuplicated(paste(bundle$evidence$species,bundle$evidence$field,bundle$evidence$evidence_id)),
+  all(c("positive_water_types","positive_habitat_tags","lifespan_model_years","migration_best_available") %in% bundle$evidence$field),
+  identical(trait_category_values("yes; source life-stage context retained","schooling_reported"),"reported"),
+  length(trait_category_values("","schooling_reported"))==0L)
+menidia <- bundle$traits[bundle$traits$species=="Menidia menidia",]
+stopifnot(menidia$depth_shallow_m==0,menidia$trophic_level_preferred==3.19,menidia$trophic_level_method=="diet",
+  all(c("maturity_age_model_years","lifespan_model_years") %in% bundle$evidence$field[bundle$evidence$species=="Menidia menidia"]))
+card <- paste(atlas_trait_card_html(menidia,bundle),collapse="\n")
+stopifnot(grepl("diet estimate",card,fixed=TRUE),grepl("latest status unverified",card,fixed=TRUE),
+  grepl("Menidia menidia|ecology|131|DietTroph",card,fixed=TRUE))
 stopifnot(lengths$cm[lengths$species == "Gambusia affinis" & lengths$type == "TL"] == 7,
   lengths$cm[lengths$species == "Fenestraja plutonia" & lengths$type == "TL"] > 25,
   setequal(lengths$type[lengths$species == "Cyclopterus lumpus"], c("TL", "SL")),

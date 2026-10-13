@@ -5,7 +5,7 @@ const genomicRecords=genomeData.records.map(row=>Object.fromEntries(genomeData.c
 const sourceRegistry=new Map(genomeData.sources.map(s=>[s.source_id,s]));
 const bySpecies=new Map();
 for(const r of genomicRecords){if(!bySpecies.has(r.species))bySpecies.set(r.species,[]);bySpecies.get(r.species).push(r);}
-const states=Array.from(document.querySelectorAll('article'),article=>({article,records:bySpecies.get(article.dataset.species)||[],year:'all',timer:null,selectedCell:null}));
+const states=Array.from(document.querySelectorAll('article'),article=>({article,records:bySpecies.get(article.dataset.species)||[],traits:traitCandidate(article),year:'all',timer:null,selectedCell:null}));
 const $=id=>document.getElementById(id);
 const number=n=>n.toLocaleString();
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -126,12 +126,13 @@ function configureState(state){
   state.article.querySelector('.record-summary').textContent=`${number(state.selected.length)} WGS accessions meet the record filters: ${number(state.plotted.length)} in this extent, ${number(state.selected.filter(r=>hasCoordinates(r)&&!inBounds(r,extent())).length)} outside it, ${number(state.selected.filter(r=>!hasCoordinates(r)).length)} without usable coordinates. ${number(state.selected.filter(r=>r.year===null).length)} lack a collection year.`;
 }
 function applyMapFilters(){
+  const criteria=traitCriteria();
   const q=$('search').value.trim().toLowerCase(),order=$('taxonomy-order').value,family=$('taxonomy-family').value;
   const invalid=$('year-min').value!==''&&$('year-max').value!==''&&Number($('year-min').value)>Number($('year-max').value);$('filter-error').hidden=!invalid;
   let visible=0,total=0;
   for(const state of states){
     configureState(state);const a=state.article;
-    a.hidden=invalid||!a.dataset.search.includes(q)||(order&&(order==='__missing__'?!!a.dataset.order:a.dataset.order!==order))||(family&&(family==='__missing__'?!!a.dataset.family:a.dataset.family!==family))||!matchesGenomics(a)||($('plotted-only').checked&&!state.plotted.length);
+    a.hidden=invalid||!a.dataset.search.includes(q)||(order&&(order==='__missing__'?!!a.dataset.order:a.dataset.order!==order))||(family&&(family==='__missing__'?!!a.dataset.family:a.dataset.family!==family))||!matchesGenomics(a)||!matchesTraits(state.traits,criteria)||($('plotted-only').checked&&!state.plotted.length);
     if(!a.hidden){visible++;total+=state.plotted.length;drawMap(state);}
   }
   $('result-count').textContent=`${visible} of ${states.length} species shown · ${number(total)} plotted WGS BioSample accessions across all selected years`;

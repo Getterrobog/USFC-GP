@@ -37,6 +37,33 @@ Rscript tests/test_sampling_overview.R
 Run this after rebuilding the main atlas if its data or configuration change.
 A report-only refresh updates both pages once the companion maps exist.
 
+## Species-trait cards and filters
+
+Both historical pages and the [genomic maps](../Genomics/maps.html) now use the
+curated [SpeciesTraits summary](../SpeciesTraits/README.md). Key traits appear
+above each species' maps: model generation time, reported wild maximum age,
+maximum length with type, water-column habitat, water types, best-available
+migration, trophic estimate/method, broad feeding class, reproduction and larval
+development. Expand the card for reported maturation ages, depth limits, body
+shape, reef diet guilds, additional reproductive traits and dated conservation
+categories. A second expansion lists citations and supporting evidence IDs.
+
+**Species trait filters** combines categorical selections with numeric minimum/
+maximum ranges and explicit available/missing controls. It works together with
+historical sampling and genomic availability criteria. Numeric ranges apply to
+the named summary field; reported maturity minima/maxima are separate from model
+ages. Lengths retain TL/SL/FL conventions. No missing trait is treated as absence,
+non-migration or zero. IUCN categories are source snapshots, not verified latest
+assessments. Trait filters select species without changing their map counts.
+
+`tables/life_history_traits.csv` holds the displayed values; the existing
+`life_history_*` filenames are retained for compatibility. The
+`species_traits_*` tables contain source provenance, original summary evidence
+links and a display-specific evidence crosswalk (including inherited baseline
+fields). `life_history_input_checksums.csv` fingerprints the curated inputs and
+shared filter code. Rebuild all three pages with
+`Rscript Scripts/build_genomics_maps.R` after updating the trait data.
+
 ## Genomic summaries and contemporary-data filters
 
 Both atlas pages show current assembly records, annotated assemblies, annotated

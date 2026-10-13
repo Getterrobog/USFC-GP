@@ -15,6 +15,14 @@ and availability filters without combining genomic accessions with museum counts
 
 ## Geographic viewer
 
+The same **Species trait filters** and trait cards used in both historical atlas
+pages are available here. They read `Output/SpeciesTraits/species_summary.csv`,
+preserve model/reported distinctions and source-specific feeding classifications,
+and expose per-species citations/evidence. Combine categorical traits and numeric
+ranges with genomic availability, stage and year filters. Traits select species;
+they do not alter the underlying accession counts or classify individual samples.
+See [trait data and limitations](../SpeciesTraits/README.md).
+
 - Species/common-name, order, family, life-stage, collection-year and genomic
   availability controls refine the view. Unknown genomic stages remain unknown.
 - Every map uses 2° cells and the fixed 100–50°W, 5–60°N extent. **Worldwide** changes

@@ -129,3 +129,12 @@ provides local SVG maps, year playback, sample inspection and export;
 species summaries to both historical pages, and `genomics_filters.js` shares the
 availability filters across viewers. Refreshing these reports changes HTML and
 report metadata only; museum map counts and rendered historical media are retained.
+
+`sampling_atlas_traits.R` now prefers `Output/SpeciesTraits/species_summary.csv`
+for display, with the original life-history summary as a fallback. The original
+taxonomy/common-name source is retained separately. `trait_filters.js` and
+`trait_styles.css` share categorical/range filtering and presentation across
+historical annual, historical overview and genomic map pages. The attachment
+keeps unknown/withheld values, zero depths, model labels, length conventions,
+trophic methods and evidence links. `build_genomics_maps.R` refreshes all three
+pages after curated trait outputs change.

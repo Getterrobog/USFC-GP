@@ -106,9 +106,11 @@ write_atlas_index <- function(manifest, summaries, config, overview = NULL) {
     '<p><a href="tables/species_summary.csv">Species inventory</a> · <a href="tables/candidate_screening.csv">Candidate screening</a> · <a href="tables/shared_year_assemblages.csv">Same-year assemblages</a> · <a href="tables/repeated_historical_cells.csv">Repeated historical sampling</a> · <a href="tables/annual_frame_manifest.csv">Year PNG inventory</a> · <a href="tables/records_audit.csv">Record audit</a></p>')
   if (file.exists(file.path(config$output, "selection_digest.txt")))
     lines <- c(lines, '<p><a href="selection_digest.txt">Selection digest by basin and stage</a> · <a href="tables/regional_candidates.csv">Regional candidate comparison</a></p>')
-  if (traits$available) lines <- c(lines, sprintf('<p><strong>Life-history information:</strong> FishBase release %s, from the existing curated trait outputs. Model-derived ages are labelled; primary studies and regional applicability remain unreviewed. Positive water/habitat tags indicate reported associations, not exhaustive habitat limits. FishBase team; Source Cooperative snapshots; CC BY-NC 4.0.</p>', html_escape(paste(unique(traits$traits$fishbase_version[nzchar(traits$traits$fishbase_version)]), collapse = ", "))),
+  if (traits$available) lines <- c(lines, sprintf('<p><strong>Species traits:</strong> curated life-history, trophic and functional summaries, including FishBase release %s, supplementary literature and source-specific reef classifications where available. Model-derived ages are labeled separately from reported ages. Independent scientific review remains pending. Source citations and evidence are expandable within each species card. FishBase-derived content: FishBase team; CC BY-NC 4.0; other sources retain their own terms.</p>', html_escape(paste(unique(traits$traits$fishbase_version[nzchar(traits$traits$fishbase_version)]), collapse = ", "))),
     '<p><a href="tables/life_history_traits.csv">Species traits</a> · <a href="tables/life_history_lengths.csv">Lengths by type</a> · <a href="tables/life_history_evidence.csv">Trait evidence</a> · <a href="tables/life_history_references.csv">References</a> · <a href="tables/life_history_dictionary.csv">Trait definitions</a></p>')
   else lines <- c(lines, '<p>Life-history traits have not been loaded for this build. The sampling inventory remains available.</p>')
+  if(traits$integrated) lines <- c(lines,'<p><a href="../SpeciesTraits/species_summary.csv">Integrated species traits</a> · <a href="tables/species_traits_trait_provenance.csv">Trait provenance</a> · <a href="tables/species_traits_summary_evidence.csv">Summary-to-evidence links</a></p>')
+  lines <- c(lines,'<style>',readLines("Scripts/trait_styles.css",warn=FALSE),'</style>')
   if (!is.null(images)) lines <- c(lines,
     sprintf('<p><strong>Species illustrations:</strong> %s locally saved images with credits and noncommercial reuse terms; other entries link to their sources with review notes. Illustrations are representative of the species, not the sampled museum lots. <a href="tables/species_images.csv">Image sources and credits</a></p>', sum(images$display_status == "embedded")),
     '<style>.species-image{box-sizing:border-box;max-width:560px;margin:18px 0;padding:16px;border:1px solid #d5dfe4;border-radius:6px;background:#fff}.species-photo{display:block;max-width:100%;max-height:240px;width:auto;height:auto;margin:0 auto 12px}.species-image figcaption,.image-credit{font-size:13px;line-height:1.5;color:#526171;overflow-wrap:anywhere}.image-stage{color:#526171}.image-source-only{background:#f5f8fa}.image-source-only p{margin:0 0 6px}</style>')
@@ -142,7 +144,7 @@ write_atlas_index <- function(manifest, summaries, config, overview = NULL) {
     if (!is.null(images)) lines <- c(lines, atlas_image_card_html(images[match(species, images$species), ]))
     lines <- c(lines, '<p class="filter-match"></p>')
     lines <- c(lines,atlas_genomics_card_html(genomics$summary[match(species,genomics$summary$species),]))
-    lines <- c(lines, atlas_trait_card_html(traits$traits[match(species, traits$traits$species), ]))
+    lines <- c(lines, atlas_trait_card_html(traits$traits[match(species, traits$traits$species), ],traits))
     for (j in which(filter_counts$species == species)) {
       f <- filter_counts[j, ]
       lines <- c(lines, sprintf('<span class="filter-record" hidden data-stage="%s" data-region="%s" data-specimens="%s" data-mapped="%s" data-years="%s" data-mapped-years="%s"></span>',
@@ -172,7 +174,7 @@ write_atlas_index <- function(manifest, summaries, config, overview = NULL) {
     }
     lines <- c(lines, '</article>')
   }
-  lines <- c(lines, '<script>',readLines("Scripts/genomics_filters.js",warn=FALSE),'</script>','<script>
+  lines <- c(lines, '<script>',readLines("Scripts/genomics_filters.js",warn=FALSE),readLines("Scripts/trait_filters.js",warn=FALSE),'</script>','<script>
 document.querySelectorAll(".species-photo").forEach(img=>{
   const failed=()=>{img.hidden=true;img.closest("figure").querySelector(".image-error").hidden=false;};
   img.addEventListener("error",failed);if(img.complete&&!img.naturalWidth)failed();
@@ -193,33 +195,6 @@ document.querySelectorAll(".stage").forEach(stage=>{
 });
 const form=document.getElementById("filters"), articles=Array.from(document.querySelectorAll("article"));
 const candidateData=articles.map(article=>({article,records:Array.from(article.querySelectorAll(".filter-record"),node=>node.dataset),traits:Object.fromEntries(Array.from(article.querySelectorAll(".trait-value"),node=>[node.dataset.trait,node.dataset])),lengths:Array.from(article.querySelectorAll(".trait-length"),node=>({type:node.dataset.type,value:Number(node.dataset.value)}))}));
-function traitCriteria(){
-  const categories=Array.from(document.querySelectorAll(".trait-category")).filter(input=>input.value).map(input=>({field:input.dataset.trait,value:input.value}));
-  const ranges=Array.from(document.querySelectorAll(".trait-range")).map(box=>{
-    const availability=box.querySelector(".trait-availability").value, min=box.querySelector(".trait-min"),max=box.querySelector(".trait-max");
-    min.disabled=max.disabled=availability==="missing";
-    return {field:box.dataset.trait,availability,min:availability==="missing"||min.value===""?null:Number(min.value),max:availability==="missing"||max.value===""?null:Number(max.value),type:box.dataset.trait==="maximum_length"?document.getElementById("length-type").value:""};
-  }).filter(r=>r.availability||r.min!==null||r.max!==null||r.type);
-  const invalid=ranges.some(r=>r.min!==null&&r.max!==null&&r.min>r.max);
-  document.getElementById("trait-range-error").hidden=!invalid;
-  document.getElementById("trait-filter-count").textContent=categories.length+ranges.length?"("+(categories.length+ranges.length)+" active)":"";
-  return {categories,ranges,invalid};
-}
-function matchesTraits(candidate,criteria){
-  if(criteria.invalid)return false;
-  if(!criteria.categories.every(c=>{
-    const values=(candidate.traits[c.field]?.values||"").split(";").filter(Boolean);
-    return c.value==="__missing__"?values.length===0:values.includes(c.value);
-  }))return false;
-  return criteria.ranges.every(r=>{
-    let values;
-    if(r.field==="maximum_length")values=candidate.lengths.filter(x=>!r.type||x.type===r.type).map(x=>x.value);
-    else {const value=candidate.traits[r.field]?.value;values=value===undefined||value===""?[]:[Number(value)];}
-    if(r.availability==="missing")return values.length===0;
-    // Ignore floating-point serialization noise at inclusive numeric boundaries.
-    return values.some(v=>{const epsilon=1e-7*Math.max(1,Math.abs(v));return (r.min===null||v>=r.min-epsilon)&&(r.max===null||v<=r.max+epsilon);});
-  });
-}
 function applyFilters(){
   const q=document.getElementById("search").value.trim().toLowerCase(), selectedStage=document.getElementById("life-stage").value, region=document.getElementById("region").value;
   const minimum=Math.max(0,Number(document.getElementById("min-specimens").value)||0), minimumYears=Math.max(1,Number(document.getElementById("min-years").value)||1), mapped=document.getElementById("mapped-only").checked;

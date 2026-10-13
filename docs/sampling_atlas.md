@@ -217,16 +217,23 @@ remain unreported. No fuzzy matching or live lookup is used. The report exports
 `tables/species_taxonomy.csv` and `tables/taxonomy_input_checksums.csv`. Order and
 family require exact matches and combine with all sampling and trait criteria.
 
-The viewer also attaches the existing life-history outputs by exact project
-species name. Expand **Life-history filters** for water types, habitat tags,
+All three geographic viewers attach the curated species-trait outputs by exact
+project species name. Expand **Species trait filters** for water types, habitat tags,
 water-column habitat, migration, fisheries importance, sexual system,
 fertilization, reproductive guild, generation time, lifespan, maturity age and
-maximum reported length. Numeric filters use inclusive ranges; missing values
+maximum reported length, plus trophic estimates, broad feeding classes, reef diet
+guilds, body shape, reported wild maximum age, reported maturity-age bounds, depth,
+positive behavior records and source-reported IUCN categories. Numeric filters use inclusive ranges; missing values
 only disappear when the relevant filter requires data. The availability selector
 can instead show missing/withheld values. When it selects missing values, numeric
 bounds are disabled. Category filters test complete tokens, not substrings.
 
-Age traits retain their FishBase model labels. Maximum lengths pool sexes by
+Model ages retain their labels and are separate from reported ages. Depth zero is
+valid, not missing. Best-available migration retains its source basis and scope;
+unknown is never treated as non-migratory. Trophic level prefers diet, otherwise
+food items, keeping the corresponding method and SE. Broad feeding classes, reef
+guilds and contextual diet descriptions remain distinct. Conservation categories
+retain assessment dates and latest-status-unverified labels. Maximum lengths pool sexes by
 taking the largest reported value separately for each source length type; TL,
 SL, FL and other source codes are never converted. Selecting a length type applies
 both ranges and missingness to that type. With “Any type,” one matching
@@ -235,15 +242,21 @@ numeric comparisons use unrounded values with relative tolerance `1e-7` (scaled
 by at least one unit) for source floating-point serialization.
 
 The attachment lives in `Scripts/sampling_atlas_traits.R` and uses
-`Output/LifeHistory/life_history_80_species.csv` by default. A custom configuration
-may set `life_history` to an alternative CSV with the same fields and accompanying
-evidence tables. Duplicate keys, invalid positive numeric traits, or traits
+`Output/SpeciesTraits/species_summary.csv` when available, falling back to
+`Output/LifeHistory/life_history_80_species.csv`. A custom configuration can set
+`species_traits` to another display summary; the original `life_history` setting
+continues to support custom legacy inputs and taxonomy/common-name attachment.
+`Scripts/trait_filters.js` supplies shared filtering for both historical pages and
+the genomic maps. Duplicate keys, invalid numeric traits, or traits
 attached to a withheld match stop report generation. Unmatched species retain
 their inventory rows with missing traits; project names are never replaced by
 FishBase aliases. Source aliases and withheld matches are noted on species cards.
 
-Trait snapshots, pooled lengths, evidence, references and input hashes are copied
-into the atlas's `tables/` for standalone sharing. The normal index refresh updates
+Key traits appear above each map; additional traits and field-level source
+citations/evidence IDs expand within each species card. Trait snapshots, pooled
+lengths, evidence, references and input hashes are copied into the atlas's `tables/`.
+Preserve the sibling `SpeciesTraits` directory for integrated-summary/documentation
+links. The normal index refresh updates
 these without recalculating specimen counts or regenerating media. If the trait
 source is absent on a first build, sampling outputs still work and the viewer
 reports traits as not loaded. Build the downstream life-history outputs and refresh

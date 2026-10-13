@@ -53,3 +53,11 @@ After `Rscript Scripts/build_genomics_maps.R`:
   genomic filters on both historical pages, map/frame counts, timeline bar heights,
   unchanged extents between years, sample provenance, playback, SVG downloads,
   undated records, empty results and mobile layout. Uses local files only.
+
+- `Rscript tests/test_atlas_traits.R` additionally checks the integrated trait
+  source, method/SE display, zero depth, positive behavior flags, unresolved
+  taxonomy and inherited/new evidence links.
+- `node tests/test_trait_pages.cjs` with Playwright on `NODE_PATH` compares trait
+  filtering on all three geographic pages directly against the curated CSV:
+  categorical choices, numeric bounds, missingness, zero depth, combined genomic
+  criteria, reset, citations and mobile layout.
