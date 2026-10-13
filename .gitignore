@@ -1,8 +1,15 @@
 .R-library/
 .Rhistory
 .RData
-Output/SamplingAtlas/
-Output/AtlasPreview/
-Output/AtlasDataOnly/
-Output/AtlasNoGIF/
 
+# Keep the complete, shareable atlas in Output/SamplingAtlas/.
+# Preview and intermediate builds stay local.
+/Output/AtlasPreview/
+/Output/AtlasDataOnly/
+/Output/AtlasNoGIF/
+
+# Local render caches and obsolete PDF-to-PNG previews are not used by the atlas.
+/Output/SamplingAtlas/species/*/*.rds
+/Output/SamplingAtlas/species/*/*_annual_maps_page_*.png
+/Output/SamplingAtlas/species/*/sampling_matrix_page_*.png
+/Output/SamplingAtlas/species/*/sampling_matrix.pdf
