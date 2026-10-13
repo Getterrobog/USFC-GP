@@ -7,6 +7,7 @@ Run these commands from the repository root:
 | `Rscript tests/test_sampling_atlas.R` | Date/stage parsing, eligibility, counting, fixed map extent, selected-year timeline heights, approximate-location provenance and filter aggregates |
 | `Rscript tests/test_atlas_images.R` | Image joins, byte hashes, attribution, permitted embeds, source links, taxonomy notes and missing-cache behavior |
 | `Rscript tests/test_sampling_overview.R` | Combined species maps: counts, distinct years, undated/approximate records, label spacing, links and provenance; requires the overview build |
+| `Rscript tests/test_sampling_explorer.R` | All 80 species × four map stages against the record audit; cell/year counts, pooled overview agreement, zero/unmapped stages, fixed bounds/scales and source checksums; requires the explorer build |
 | `Rscript tests/test_atlas_taxonomy.R` | Catalog row linkage, common-name source agreement, approved aliases and missing/withheld names |
 | `Rscript tests/test_atlas_traits.R` | Trait joins, missingness, withheld taxonomy, positive numeric values and length pooling without mixing types |
 | `Rscript tests/validate_sampling_atlas.R` | A completed atlas: counts, recorded/estimated contributions, PNGs, GIFs, links and provenance |
@@ -17,6 +18,12 @@ The atlas transformation checks read the repository's source export and curated
 name tables. Completed-output validation also requires a fully rendered atlas;
 it is not expected to pass on an incomplete batch or data-only build. ImageMagick's
 `identify`, when available, checks GIF frame counts and dimensions.
+
+After `Rscript Scripts/build_sampling_explorer.R`, run
+`node tests/test_sampling_explorer.cjs` with Playwright available on `NODE_PATH`.
+This local-file browser check renders all 320 species/stage choices and validates
+cell counts, bounds, label fit, search/keyboard selection, combined filters,
+empty results, SVG download, species/stage deep links and mobile layout.
 
 To validate a different completed output directory:
 

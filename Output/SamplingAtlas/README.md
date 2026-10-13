@@ -37,6 +37,41 @@ Rscript tests/test_sampling_overview.R
 Run this after rebuilding the main atlas if its data or configuration change.
 A report-only refresh updates both pages once the companion maps exist.
 
+## Single-map explorer
+
+For a compact alternative, open [explorer.html](explorer.html). It displays **one
+geographic heatmap at a time**, selected with a searchable scientific/common-name
+dropdown. Expand **Filter selectable species** to restrict that dropdown using
+taxonomy, specimen/year thresholds, traits or genomic availability. If the current
+species no longer qualifies, the first matching species is selected; no matches
+produces an explicit empty state.
+
+**Map life stage** switches the actual plotted records between all stages,
+adult/non-larval, larvae and mixed lots. Filter thresholds count dated specimens
+through 1930 across all stages within the chosen region; they select species,
+while the map retains all included regions and years, including undated lots.
+Adult/non-larval includes juveniles and unlabeled lots, with maturity unverified.
+All selections retain the same extent and 2° grid. Colors use one scale per
+species across stages. Year/count labels, approximate-location hatching, fish
+images, traits, genomic summaries and source links remain available. An empty
+stage displays an empty map with an explanatory message.
+
+The explorer works offline with JavaScript enabled. Its dropdown supports typing,
+arrow keys, Enter and Escape. **Download selected map (SVG)** exports the current
+map; the URL fragment records the species/stage selection. This separate page
+does not replace or modify the original overview. Rebuild it after updating the
+atlas audit, trait, image or genomic inputs:
+
+```bash
+Rscript Scripts/build_sampling_explorer.R
+Rscript tests/test_sampling_explorer.R
+```
+
+The builder writes only `explorer.html`, `explorer_session_info.txt` and
+`tables/explorer_*.csv`. Scientific aggregation runs in R; the browser renders
+one SVG from the embedded summaries, without adding PNGs or GIFs. The existing
+report refresh commands do not rebuild this independently generated page.
+
 ## Species-trait cards and filters
 
 Both historical pages and the [genomic maps](../Genomics/maps.html) now use the
@@ -183,6 +218,7 @@ See [estimated lots and their evidence](tables/approximate_locations.csv) and
 | --- | --- |
 | [index.html](index.html) | Interactive year-by-year viewer |
 | [overview.html](overview.html) | One map per species, with all years and stages pooled |
+| [explorer.html](explorer.html) | One visible map, searchable filtered species dropdown and map life-stage control |
 | [images/](images/README.md) | Cached species illustrations, credits and download manifest |
 | [species/](species/README.md) | One directory per species, with stage GIFs, annual PNGs and PDF downloads |
 | [tables/](tables/README.md) | Record audit, counts, screening summaries, location evidence and manifests |

@@ -12,6 +12,7 @@ start with [Output](../Output/README.md); rebuilding is unnecessary for browsing
 | [summarize_sampling_candidates.R](summarize_sampling_candidates.R) | Produce the atlas's broad basin/stage candidate digest |
 | [cache_sampling_atlas_images.R](cache_sampling_atlas_images.R) | Verify cached species illustrations; `--download` explicitly retrieves catalog-approved images, then refresh the pages |
 | [build_sampling_overview.R](build_sampling_overview.R) | Create the all-year companion page and annotated SVG maps from a saved atlas |
+| [build_sampling_explorer.R](build_sampling_explorer.R) | Build the separate one-map `explorer.html`, species/stage summaries and provenance; preserves existing pages/media |
 | [refresh_sampling_atlas_index.R](refresh_sampling_atlas_index.R) | Refresh the local HTML viewer from saved outputs; does not redo scientific analysis |
 | [build_species_selection.R](build_species_selection.R) | Reuse atlas records for bounded-site, year and stage comparisons, sensitivity and evidence queues |
 
@@ -60,6 +61,13 @@ These files are sourced by the runners rather than invoked as standalone builds:
   file verification, credited image cards and source-link fallbacks.
 - [sampling_atlas_overview.R](sampling_atlas_overview.R): all-stage/all-year
   cell summaries, collision-free year callouts and standalone SVG rendering.
+- [sampling_explorer.R](sampling_explorer.R): R aggregation of all/adult/larval/
+  mixed sampling for the one-map explorer, reusing shared metadata and filters.
+  [sampling_explorer.js](sampling_explorer.js) controls the searchable species
+  dropdown and filters; [sampling_explorer_map.js](sampling_explorer_map.js)
+  renders a single SVG and [sampling_explorer.css](sampling_explorer.css) styles
+  the page. Run `Rscript Scripts/build_sampling_explorer.R` separately after
+  changing atlas data or metadata; existing refresh commands do not rebuild it.
 - [sampling_atlas_traits.R](sampling_atlas_traits.R): exact-key attachment of
   life-history outputs, length pooling by type, trait cards and filter controls.
   Refresh the atlas index after updating the trait outputs; media need not change.

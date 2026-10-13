@@ -50,6 +50,24 @@ record audit also retains excluded source rows, so filter `included` and
   configuration and rendering-code fingerprints. The companion uses existing
   display positions without changing or re-estimating them.
 
+## Single-map explorer
+
+The separate [single-map explorer](../explorer.html) has three additional exports:
+
+- [explorer_cells.csv](explorer_cells.csv): the same cell/year fields as
+  `overview_cells.csv`, with `map_stage` (`all`, `adult`, `larva`, `mixed`) and the
+  map fill color. Cell labels are local to each species/stage map. Do not sum
+  the pooled `all` rows with individual-stage rows.
+- [explorer_summary.csv](explorer_summary.csv): one row for every species/stage,
+  including zero-sample stages; lots, specimens, recorded/approximate/unmapped
+  and undated totals, cell count, fixed extent and per-species color maximum.
+- [explorer_input_checksums.csv](explorer_input_checksums.csv): fingerprints of
+  the audit, configuration, source metadata/images and generating code. Includes
+  the original overview/index pages, which the explorer builder leaves unchanged.
+
+Rebuild with `Rscript Scripts/build_sampling_explorer.R`. The explorer reuses
+existing display coordinates and retains the original location evidence.
+
 ## Taxonomy and common names
 
 [species_taxonomy.csv](species_taxonomy.csv) contains one row per displayed species:

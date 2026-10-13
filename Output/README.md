@@ -4,6 +4,9 @@ Start with the [sampling atlas](SamplingAtlas/README.md) to see where and when f
 were collected, or the [species-selection screen](SpeciesSelection/README.md) to
 investigate species and sites for the proposed genomic study.
 
+For one historical map at a time, open the [sampling explorer](SamplingAtlas/explorer.html):
+searchable species selection, filters and an independent map life-stage control.
+
 | Directory | Purpose | First file to open |
 | --- | --- | --- |
 | [SamplingAtlas](SamplingAtlas/README.md) | Geographic inventory, annual maps, GIFs and record-level evidence | `SamplingAtlas/index.html` in a browser |
