@@ -39,3 +39,6 @@ invisible(readline(prompt = "pop_kmz-inator complete. Press [enter] to proceed."
 # Create Histograms to view a time span
 source("./Scripts/Histograminator.R")
 invisible(readline(prompt = "Histograminator complete. Press [enter] to proceed."))
+
+# Create Summary tables for assessment
+source("./Scripts/Species_tablinator.R")

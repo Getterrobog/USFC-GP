@@ -1,3 +1,6 @@
+library(dplyr)
+Library(geosphere)
+
 # I. Create Species_table.pdf
 # A. Temporal Filtering for Species Table using mapply over Date.Collected and Vessel
 filter_table_by_year <- TRUE
@@ -31,7 +34,7 @@ sp_max_distance <- tapply(seq_len(nrow(Populations_table_input)), Populations_ta
   sub_df <- Populations_table_input[idx, c("Centroid.Longitude", "Centroid.Latitude")]
   coords <- unique(sub_df[complete.cases(sub_df), , drop = FALSE])
   if (nrow(coords) < 2) return(0)
-  dist_matrix <- geosphere::distm(as.matrix(coords[, c("Centroid.Longitude", "Centroid.Latitude")]), fun = geosphere::distHaversine)
+  dist_matrix <- distm(as.matrix(coords[, c("Centroid.Longitude", "Centroid.Latitude")]), fun = distHaversine)
   return(round(max(dist_matrix, na.rm = TRUE) / 1000, 2))
 })
 

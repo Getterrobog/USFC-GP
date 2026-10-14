@@ -19,6 +19,8 @@ sort(table(Fish$Valid.Name), decreasing = T)
 length(unique(Fish$Valid.Name)) #591
 sum(Fish$Specimen.Count, na.rm = T) #20734
 nrow(Fish) #5027
+length(unique(Populations$Populations.by.species)) #167 at 40 km
+sum(Populations$Specimen.Count, na.rm = T) #12649
 
 # Start of garbage in
 library(dplyr)

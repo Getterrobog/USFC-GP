@@ -4,10 +4,10 @@
 # • species_checkinator.py must:
 # - be given permissions ("chmod u+x species_checkinator.py")
 # - be placed in the active R working directory OR in a directory listed in your shell initialization script
-#  - example: export PATH="$PATH:$HOME/[dir_containing_script]"
-# • use data from the file as a dictionary to fill in centroids and missing dates if possible un the assumptions
+# - example: export PATH="$PATH:$HOME/[dir_containing_script]"
+# • use data from the file as a dictionary to fill in centroids and missing dates if possible under the assumptions
 # - that samples collected by the same ship on the same date occurred close to each other
-# - that samples collected by the same ship on the same close to each other share the same date
+# - that samples collected by the same ship close to each other share the same date
 # • Add common names from FishBase
 # It will handle a *.csv file downloaded from https://collections.nmnh.si.edu/search/fishes/t.
 # Author: Iván R. López Martínez
