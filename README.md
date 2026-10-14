@@ -1,9 +1,9 @@
 ![USFC_GP Logo](https://github.com/Getterrobog/USFC-GP/raw/main/USFC-GP.jpeg)  
 # **USFC-GP**  
-## The United State Fish Commission Genomics Project
+## The United States Fish Commission Genomics Project
 ### Comparative genomic analysis of historical 1880s USFC collections stored at USNM, and modern Western Atlantic coastal fishes to evaluate century-scale evolutionary shifts.
 
-The U.S. Fish Commission Genomics Project (USFC-GP) is an integrative evolutionary genomics initiative examining century-scale spatial and temporal genomic shifts in Western Atlantic coastal fish species. We are using historical specimens collected by the U.S. Fish Commission vessels USS *Albatross*, USFC *Fish Hawk*, and USFC *Grampus* and housed at the U.S. National Museum.  These collections started in 1871 and continued to the present.  We will conduct a comparative analysis of the genomes of target species across temporal and spatial scales.  This repository houses analytical pipelines, bioinformatic workflows, genomic dataset metadata, and documentation supporting the project.
+The U.S. Fish Commission Genomics Project (USFC-GP) is an integrative evolutionary genomics initiative examining century-scale spatial and temporal genomic shifts in Western Atlantic coastal fish species. We are using historical specimens collected by the U.S. Fish Commission vessels USS *Albatross*, USFC *Fish Hawk*, and USFC *Grampus* and housed at the U.S. National Museum.  These collections began in 1871 and continue to the present.  We will conduct a comparative analysis of the genomes of target species across temporal and spatial scales.  This repository houses analytical pipelines, bioinformatic workflows, genomic dataset metadata, and documentation supporting the project.
 
 ### Start here
 
@@ -40,9 +40,9 @@ when sharing it; the HTML page links to its images and tables by relative paths.
 ### **Project Personnel**  
 
 **Principal Investigators:**  
-Michelles Gaither, PhD, University of Central Florida  
-Chris Bird, PhD, Texas A&M Corpus Christi  
-Malin Pinsky, PhD, University of California Santa Cruz  
+Michelle Gaither, PhD, University of Central Florida  
+Chris Bird, PhD, Texas A&M-Corpus Christi  
+Malin Pinsky, PhD, University of California, Santa Cruz  
 
 **Project Architect and Doctoral Student:**  
 Iván R. López, MS, University of Central Florida  
@@ -54,15 +54,15 @@ Dianne Pitassy, MS, Museum Specialist, Division of Fishes, Smithsonian Instituti
 ### Historical sampling atlas
 
 The reproducible R workflow in `Scripts/build_sampling_atlas.R` inventories species
-with at least **50 dated specimens through 1930** across the western Atlantic,
-Caribbean, and Gulf of Mexico. It separates larvae, adult/non-larval lots, and
+with at least **50 dated specimens through 1930** across the Western Atlantic, the
+Caribbean Sea, and the Gulf of Mexico. It separates larvae, adult/non-larval lots, and
 unsplit mixed-stage lots, and produces annual geographic heatmaps, animated GIFs,
 per-year geographic PNGs, and candidate-selection tables. The atlas page provides
 year selection and Play/Stop GIF controls with a fixed map extent for every frame.
 Filter candidates jointly by species name, specimen count, life stage, region,
 sampled years, and whether coordinates are recorded.
 Each species card also shows available life-history characteristics. Additional
-filters combine habitat, water type, migration, reproduction and fisheries
+filters combine habitat, water type, migration, reproduction, and fisheries
 categories with model age estimates and reported maximum lengths by type.
 Maps use 2° cells and hatch cells containing approximate display locations derived
 from locality metadata. Original coordinates and estimate provenance remain
