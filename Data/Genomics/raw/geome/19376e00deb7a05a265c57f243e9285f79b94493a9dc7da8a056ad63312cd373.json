@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Monacanthus+ciliatus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:08.095481+00:00",
+  "sha256": "539f8285905b7c9f86f2ea57bfe7b593288493d2b6ea93ebd5bbec0b74dea690",
+  "http_status": 200,
+  "bytes": 2785,
+  "cache_path": "Data/Genomics/raw/geome/19376e00deb7a05a265c57f243e9285f79b94493a9dc7da8a056ad63312cd373.gz"
+}

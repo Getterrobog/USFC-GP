@@ -1,0 +1,458 @@
+"species","life_stage","region","cell_id","cell_lon","cell_lat","period","specimens","lots"
+"Alosa aestivalis","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",3,3
+"Alosa aestivalis","adult","Atlantic","-72.000,42.000",-72,42,"Early historical",2,1
+"Alosa aestivalis","adult","Atlantic","-76.000,36.000",-76,36,"Late historical",9,1
+"Alosa aestivalis","adult","Atlantic","-78.000,36.000",-78,36,"Late historical",370,16
+"Alosa aestivalis","adult","Atlantic","-78.000,38.000",-78,38,"Early historical",13,1
+"Alosa aestivalis","adult","Atlantic","-78.000,38.000",-78,38,"Late historical",627,26
+"Alosa pseudoharengus","adult","Atlantic","-70.000,42.000",-70,42,"Late historical",100,1
+"Alosa pseudoharengus","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",7,5
+"Alosa pseudoharengus","adult","Atlantic","-72.000,42.000",-72,42,"Late historical",125,2
+"Alosa pseudoharengus","adult","Atlantic","-74.000,38.000",-74,38,"Early historical",1,1
+"Alosa pseudoharengus","adult","Atlantic","-78.000,36.000",-78,36,"Late historical",49,8
+"Alosa pseudoharengus","adult","Atlantic","-78.000,38.000",-78,38,"Late historical",314,18
+"Ammodytes dubius","adult","Atlantic","-70.000,42.000",-70,42,"Late historical",2,1
+"Ammodytes dubius","adult","Atlantic","-72.000,42.000",-72,42,"Early historical",90,2
+"Anchoa cayorum","adult","Atlantic","-66.000,32.000",-66,32,"Late historical",3,1
+"Anchoa cayorum","adult","Atlantic","-78.000,36.000",-78,36,"Early historical",99,5
+"Anchoa cayorum","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",51,1
+"Anchoa lamprotaenia","adult","Caribbean","-66.000,18.000",-66,18,"Early historical",1,1
+"Anchoa lamprotaenia","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",1,1
+"Anchoa mitchilli","adult","Atlantic","-78.000,36.000",-78,36,"Early historical",36,2
+"Anchoa mitchilli","adult","Atlantic","-78.000,36.000",-78,36,"Late historical",44,6
+"Anchoa mitchilli","adult","Atlantic","-78.000,38.000",-78,38,"Early historical",14,3
+"Anchoa mitchilli","adult","Atlantic","-80.000,32.000",-80,32,"Late historical",50,1
+"Anchoa mitchilli","adult","Atlantic","-82.000,32.000",-82,32,"Early historical",1,1
+"Anchoa mitchilli","adult","Gulf of Mexico","-86.000,28.000",-86,28,"Late historical",11,1
+"Anchoa mitchilli","adult","Gulf of Mexico","-94.000,28.000",-94,28,"Late historical",22,1
+"Anchoa mitchilli","larva","Atlantic","-78.000,36.000",-78,36,"Late historical",1,1
+"Anchoa mitchilli","larva","Atlantic","-80.000,32.000",-80,32,"Late historical",250,3
+"Atherinomorus stipes","adult","Caribbean","-66.000,18.000",-66,18,"Early historical",100,4
+"Atherinomorus stipes","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",131,2
+"Atherinomorus stipes","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",105,1
+"Atherinomorus stipes","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",7,1
+"Atherinomorus stipes","larva","Gulf of Mexico","-84.000,24.000",-84,24,"Late historical",1,1
+"Bathygobius soporator","adult","Caribbean","-66.000,18.000",-66,18,"Early historical",2,1
+"Bathygobius soporator","adult","Caribbean","-68.000,16.000",-68,16,"Early historical",3,1
+"Bathygobius soporator","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",23,10
+"Bothus ocellatus","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",2,1
+"Bothus ocellatus","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",1,1
+"Bothus ocellatus","adult","Caribbean","-88.000,20.000",-88,20,"Late historical",2,1
+"Bothus ocellatus","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",5,2
+"Bothus ocellatus","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",9,4
+"Bothus ocellatus","adult","Gulf of Mexico","-84.000,24.000",-84,24,"Early historical",6,1
+"Bothus ocellatus","adult","Gulf of Mexico","-86.000,28.000",-86,28,"Early historical",7,4
+"Bothus ocellatus","adult","Gulf of Mexico","-88.000,22.000",-88,22,"Early historical",3,1
+"Bothus ocellatus","adult","Gulf of Mexico","-96.000,28.000",-96,28,"Late historical",1,1
+"Bothus ocellatus","larva","Atlantic","-66.000,30.000",-66,30,"Late historical",7,3
+"Bothus ocellatus","larva","Atlantic","-66.000,32.000",-66,32,"Late historical",1,1
+"Bothus ocellatus","larva","Atlantic","-68.000,28.000",-68,28,"Late historical",2,1
+"Bothus ocellatus","larva","Atlantic","-70.000,28.000",-70,28,"Late historical",1,1
+"Bothus ocellatus","larva","Atlantic","-70.000,32.000",-70,32,"Late historical",21,2
+"Bothus ocellatus","larva","Atlantic","-72.000,32.000",-72,32,"Late historical",6,1
+"Bothus ocellatus","larva","Atlantic","-74.000,28.000",-74,28,"Late historical",4,1
+"Bothus ocellatus","larva","Atlantic","-74.000,34.000",-74,34,"Late historical",17,3
+"Bothus ocellatus","larva","Atlantic","-74.000,38.000",-74,38,"Late historical",3,1
+"Bothus ocellatus","larva","Atlantic","-76.000,28.000",-76,28,"Late historical",5,1
+"Bothus ocellatus","larva","Atlantic","-76.000,34.000",-76,34,"Late historical",50,1
+"Bothus ocellatus","larva","Atlantic","-78.000,24.000",-78,24,"Late historical",1,1
+"Bothus ocellatus","larva","Atlantic","-78.000,28.000",-78,28,"Late historical",9,3
+"Bothus ocellatus","larva","Atlantic","-78.000,34.000",-78,34,"Late historical",6,1
+"Bothus ocellatus","larva","Atlantic","-80.000,24.000",-80,24,"Late historical",12,4
+"Bothus ocellatus","larva","Atlantic","-80.000,26.000",-80,26,"Late historical",13,5
+"Bothus ocellatus","larva","Atlantic","-82.000,22.000",-82,22,"Late historical",14,1
+"Bothus ocellatus","larva","Atlantic","-84.000,22.000",-84,22,"Late historical",3,2
+"Bothus ocellatus","larva","Caribbean","-86.000,22.000",-86,22,"Late historical",2,2
+"Bothus ocellatus","larva","Gulf of Mexico","-82.000,22.000",-82,22,"Late historical",2,1
+"Bothus ocellatus","larva","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",7,2
+"Bothus ocellatus","larva","Gulf of Mexico","-84.000,24.000",-84,24,"Late historical",3,2
+"Bothus ocellatus","larva","Gulf of Mexico","-86.000,26.000",-86,26,"Late historical",1,1
+"Brevoortia patronus","adult","Gulf of Mexico","-94.000,28.000",-94,28,"Late historical",7,1
+"Brevoortia tyrannus","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",25,1
+"Brevoortia tyrannus","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",19,1
+"Brevoortia tyrannus","adult","Atlantic","-78.000,36.000",-78,36,"Early historical",50,1
+"Brevoortia tyrannus","adult","Atlantic","-78.000,36.000",-78,36,"Late historical",50,1
+"Brevoortia tyrannus","adult","Atlantic","-78.000,38.000",-78,38,"Early historical",4,3
+"Brevoortia tyrannus","adult","Atlantic","-78.000,38.000",-78,38,"Late historical",57,5
+"Brevoortia tyrannus","adult","Atlantic","-80.000,32.000",-80,32,"Early historical",5,1
+"Caranx latus","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",7,2
+"Caranx latus","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",10,1
+"Caranx latus","larva","Atlantic","-78.000,34.000",-78,34,"Late historical",25,1
+"Centrobranchus nigroocellatus","adult","Atlantic","-72.000,32.000",-72,32,"Late historical",12,1
+"Centrobranchus nigroocellatus","adult","Atlantic","-74.000,34.000",-74,34,"Late historical",2,1
+"Centrobranchus nigroocellatus","adult","Atlantic","-78.000,24.000",-78,24,"Late historical",44,1
+"Centropristis striata","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",174,10
+"Centropristis striata","adult","Atlantic","-74.000,40.000",-74,40,"Early historical",6,2
+"Centropristis striata","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",5,4
+"Centropristis striata","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",1,1
+"Centropristis striata","adult","Atlantic","-76.000,36.000",-76,36,"Late historical",2,2
+"Centropristis striata","adult","Atlantic","-78.000,34.000",-78,34,"Late historical",1,1
+"Centropristis striata","adult","Atlantic","-78.000,36.000",-78,36,"Early historical",2,1
+"Cheilopogon furcatus","adult","Atlantic","-68.000,30.000",-68,30,"Late historical",1,1
+"Cheilopogon furcatus","adult","Atlantic","-76.000,28.000",-76,28,"Late historical",2,1
+"Cheilopogon furcatus","adult","Atlantic","-78.000,34.000",-78,34,"Late historical",5,2
+"Cheilopogon furcatus","adult","Atlantic","-82.000,28.000",-82,28,"Early historical",2,1
+"Cheilopogon furcatus","larva","Atlantic","-76.000,34.000",-76,34,"Late historical",1,1
+"Cheilopogon furcatus","larva","Atlantic","-78.000,34.000",-78,34,"Late historical",49,16
+"Chlorophthalmus agassizi","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",9,6
+"Chlorophthalmus agassizi","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",2,1
+"Chlorophthalmus agassizi","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",2,1
+"Chlorophthalmus agassizi","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",28,5
+"Chlorophthalmus agassizi","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",26,3
+"Chlorophthalmus agassizi","adult","Atlantic","-80.000,30.000",-80,30,"Early historical",1,1
+"Chlorophthalmus agassizi","adult","Atlantic","-80.000,32.000",-80,32,"Late historical",1,1
+"Chlorophthalmus agassizi","adult","Atlantic","-82.000,28.000",-82,28,"Early historical",7,1
+"Chlorophthalmus agassizi","adult","Gulf of Mexico","-88.000,28.000",-88,28,"Early historical",3,1
+"Chloroscombrus chrysurus","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",13,3
+"Chloroscombrus chrysurus","adult","Atlantic","-78.000,34.000",-78,34,"Early historical",25,1
+"Chloroscombrus chrysurus","adult","Caribbean","-64.000,10.000",-64,10,"Early historical",4,1
+"Chloroscombrus chrysurus","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",46,1
+"Chloroscombrus chrysurus","larva","Atlantic","-76.000,34.000",-76,34,"Early historical",19,1
+"Chloroscombrus chrysurus","larva","Atlantic","-80.000,32.000",-80,32,"Late historical",2,1
+"Chromis enchrysurus","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",18,2
+"Chromis enchrysurus","adult","Gulf of Mexico","-86.000,28.000",-86,28,"Early historical",3,3
+"Chromis enchrysurus","adult","Gulf of Mexico","-88.000,22.000",-88,22,"Early historical",37,3
+"Citharichthys arctifrons","adult","Atlantic","-70.000,36.000",-70,36,"Early historical",3,1
+"Citharichthys arctifrons","adult","Atlantic","-70.000,38.000",-70,38,"Early historical",3,1
+"Citharichthys arctifrons","adult","Atlantic","-70.000,40.000",-70,40,"Early historical",22,4
+"Citharichthys arctifrons","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",34,4
+"Citharichthys arctifrons","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",58,7
+"Citharichthys arctifrons","adult","Atlantic","-74.000,38.000",-74,38,"Early historical",5,3
+"Citharichthys arctifrons","adult","Atlantic","-74.000,38.000",-74,38,"Late historical",4,1
+"Citharichthys arctifrons","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",7,2
+"Citharichthys arctifrons","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",25,4
+"Citharichthys arctifrons","adult","Atlantic","-80.000,32.000",-80,32,"Late historical",5,1
+"Citharichthys arctifrons","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",10,3
+"Citharichthys arctifrons","adult","Gulf of Mexico","-86.000,28.000",-86,28,"Early historical",1,1
+"Citharichthys arctifrons","larva","Atlantic","-74.000,38.000",-74,38,"Late historical",40,1
+"Citharichthys arctifrons","larva","Atlantic","-76.000,36.000",-76,36,"Late historical",20,1
+"Citharichthys spilopterus","adult","Caribbean","-66.000,18.000",-66,18,"Early historical",11,1
+"Citharichthys spilopterus","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",3,1
+"Citharichthys spilopterus","larva","Gulf of Mexico","-84.000,24.000",-84,24,"Late historical",8,1
+"Coelorinchus carminatus","adult","Atlantic","-70.000,38.000",-70,38,"Early historical",10,3
+"Coelorinchus carminatus","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",21,10
+"Coelorinchus carminatus","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",2,1
+"Coelorinchus carminatus","adult","Atlantic","-74.000,38.000",-74,38,"Early historical",3,2
+"Coelorinchus carminatus","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",1,1
+"Coelorinchus carminatus","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",10,2
+"Coelorinchus carminatus","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",13,1
+"Coelorinchus carminatus","adult","Caribbean","-70.000,10.000",-70,10,"Early historical",1,1
+"Coelorinchus carminatus","adult","Gulf of Mexico","-86.000,28.000",-86,28,"Early historical",2,1
+"Coelorinchus carminatus","adult","Gulf of Mexico","-88.000,28.000",-88,28,"Early historical",4,1
+"Cyclopterus lumpus","adult","Atlantic","-70.000,40.000",-70,40,"Early historical",1,1
+"Cyclopterus lumpus","larva","Atlantic","-72.000,42.000",-72,42,"Late historical",1,1
+"Cyclothone microdon","adult","Atlantic","-68.000,40.000",-68,40,"Early historical",17,3
+"Cyclothone microdon","adult","Atlantic","-70.000,36.000",-70,36,"Early historical",18,1
+"Cyclothone microdon","adult","Atlantic","-70.000,38.000",-70,38,"Early historical",15,3
+"Cyclothone microdon","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",44,10
+"Cyclothone microdon","adult","Atlantic","-74.000,36.000",-74,36,"Early historical",12,3
+"Cyclothone microdon","adult","Atlantic","-74.000,38.000",-74,38,"Early historical",10,2
+"Cyclothone microdon","adult","Atlantic","-78.000,24.000",-78,24,"Early historical",3,1
+"Cyclothone microdon","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",7,1
+"Cyclothone microdon","adult","Atlantic","-80.000,26.000",-80,26,"Early historical",6,1
+"Cyclothone microdon","adult","Atlantic","-82.000,28.000",-82,28,"Early historical",1,1
+"Cyclothone microdon","adult","Caribbean","-64.000,16.000",-64,16,"Early historical",2,1
+"Cyclothone microdon","adult","Gulf of Mexico","-88.000,28.000",-88,28,"Early historical",4,2
+"Cyclothone microdon","larva","Caribbean","-88.000,20.000",-88,20,"Late historical",47,1
+"Cynoscion nothus","adult","Caribbean","-62.000,10.000",-62,10,"Early historical",18,1
+"Cynoscion nothus","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",30,1
+"Cynoscion nothus","adult","Gulf of Mexico","-82.000,30.000",-82,30,"Late historical",7,2
+"Decapterus punctatus","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",25,3
+"Decapterus punctatus","adult","Atlantic","-76.000,34.000",-76,34,"Late historical",16,2
+"Decapterus punctatus","adult","Atlantic","-78.000,34.000",-78,34,"Early historical",84,1
+"Decapterus punctatus","adult","Atlantic","-78.000,34.000",-78,34,"Late historical",6,1
+"Dibranchus atlanticus","adult","Atlantic","-70.000,38.000",-70,38,"Early historical",5,3
+"Dibranchus atlanticus","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",41,18
+"Dibranchus atlanticus","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",3,1
+"Dibranchus atlanticus","adult","Atlantic","-74.000,38.000",-74,38,"Early historical",1,1
+"Dibranchus atlanticus","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",3,2
+"Dibranchus atlanticus","adult","Atlantic","-80.000,24.000",-80,24,"Early historical",1,1
+"Dibranchus atlanticus","adult","Atlantic","-80.000,28.000",-80,28,"Early historical",8,1
+"Dibranchus atlanticus","adult","Caribbean","-70.000,10.000",-70,10,"Early historical",2,1
+"Dibranchus atlanticus","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",19,3
+"Dibranchus atlanticus","adult","Gulf of Mexico","-88.000,28.000",-88,28,"Early historical",8,4
+"Dibranchus atlanticus","adult","Gulf of Mexico","-90.000,28.000",-90,28,"Early historical",5,1
+"Etropus crossotus","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",5,3
+"Etropus crossotus","adult","Atlantic","-76.000,36.000",-76,36,"Late historical",4,2
+"Etropus crossotus","adult","Atlantic","-78.000,36.000",-78,36,"Late historical",2,2
+"Etropus crossotus","adult","Atlantic","-78.000,38.000",-78,38,"Late historical",1,1
+"Etropus crossotus","adult","Atlantic","-80.000,32.000",-80,32,"Early historical",1,1
+"Etropus crossotus","adult","Atlantic","-82.000,32.000",-82,32,"Early historical",2,2
+"Etropus crossotus","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",2,1
+"Etropus crossotus","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",4,2
+"Etropus crossotus","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",3,1
+"Etropus crossotus","adult","Gulf of Mexico","-84.000,30.000",-84,30,"Early historical",1,1
+"Etropus crossotus","adult","Gulf of Mexico","-90.000,30.000",-90,30,"Late historical",4,1
+"Etropus crossotus","adult","Gulf of Mexico","-96.000,28.000",-96,28,"Late historical",11,2
+"Eucinostomus argenteus","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",6,3
+"Eucinostomus gula","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",31,1
+"Eucinostomus gula","adult","Gulf of Mexico","-90.000,28.000",-90,28,"Early historical",1,1
+"Exocoetus volitans","adult","Atlantic","-76.000,24.000",-76,24,"Early historical",2,1
+"Exocoetus volitans","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",1,1
+"Exocoetus volitans","adult","Atlantic","-78.000,32.000",-78,32,"Late historical",2,1
+"Exocoetus volitans","adult","Atlantic","-78.000,34.000",-78,34,"Late historical",65,12
+"Exocoetus volitans","adult","Atlantic","-80.000,28.000",-80,28,"Early historical",6,2
+"Exocoetus volitans","adult","Atlantic","-80.000,32.000",-80,32,"Early historical",55,1
+"Exocoetus volitans","adult","Caribbean","-66.000,16.000",-66,16,"Early historical",1,1
+"Exocoetus volitans","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",1,1
+"Exocoetus volitans","adult","Caribbean","-82.000,10.000",-82,10,"Early historical",1,1
+"Exocoetus volitans","larva","Atlantic","-78.000,24.000",-78,24,"Late historical",1,1
+"Exocoetus volitans","larva","Atlantic","-78.000,34.000",-78,34,"Late historical",11,1
+"Exocoetus volitans","mixed","Atlantic","-76.000,34.000",-76,34,"Early historical",2,1
+"Exocoetus volitans","mixed","Atlantic","-78.000,34.000",-78,34,"Late historical",49,2
+"Fenestraja plutonia","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",142,6
+"Fenestraja plutonia","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",12,2
+"Fenestraja plutonia","adult","Atlantic","-80.000,28.000",-80,28,"Early historical",2,1
+"Fenestraja plutonia","adult","Atlantic","-80.000,30.000",-80,30,"Early historical",6,3
+"Fenestraja plutonia","adult","Atlantic","-82.000,28.000",-82,28,"Early historical",39,1
+"Fenestraja plutonia","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",1,1
+"Fundulus heteroclitus","adult","Atlantic","-72.000,42.000",-72,42,"Early historical",8,1
+"Fundulus heteroclitus","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",7,1
+"Fundulus heteroclitus","adult","Atlantic","-78.000,34.000",-78,34,"Late historical",2,1
+"Fundulus heteroclitus","adult","Atlantic","-78.000,36.000",-78,36,"Early historical",1,1
+"Fundulus heteroclitus","adult","Atlantic","-80.000,32.000",-80,32,"Early historical",3,2
+"Fundulus heteroclitus","adult","Atlantic","-82.000,32.000",-82,32,"Early historical",22,2
+"Fundulus heteroclitus","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",1,1
+"Fundulus heteroclitus","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",66,3
+"Fundulus similis","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",162,9
+"Fundulus similis","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",60,3
+"Gambusia affinis","adult","Atlantic","-78.000,34.000",-78,34,"Late historical",256,2
+"Gambusia affinis","adult","Gulf of Mexico","-86.000,28.000",-86,28,"Late historical",25,1
+"Glyptocephalus cynoglossus","adult","Atlantic","-58.000,44.000",-58,44,"Early historical",1,1
+"Glyptocephalus cynoglossus","adult","Atlantic","-60.000,44.000",-60,44,"Early historical",1,1
+"Glyptocephalus cynoglossus","adult","Atlantic","-62.000,44.000",-62,44,"Early historical",2,1
+"Glyptocephalus cynoglossus","adult","Atlantic","-66.000,40.000",-66,40,"Early historical",2,2
+"Glyptocephalus cynoglossus","adult","Atlantic","-68.000,40.000",-68,40,"Early historical",1,1
+"Glyptocephalus cynoglossus","adult","Atlantic","-68.000,42.000",-68,42,"Early historical",1,1
+"Glyptocephalus cynoglossus","adult","Atlantic","-70.000,38.000",-70,38,"Early historical",20,4
+"Glyptocephalus cynoglossus","adult","Atlantic","-70.000,40.000",-70,40,"Early historical",1,1
+"Glyptocephalus cynoglossus","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",65,36
+"Glyptocephalus cynoglossus","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",10,9
+"Glyptocephalus cynoglossus","adult","Atlantic","-74.000,36.000",-74,36,"Early historical",2,1
+"Glyptocephalus cynoglossus","adult","Atlantic","-74.000,38.000",-74,38,"Early historical",13,6
+"Glyptocephalus cynoglossus","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",2,2
+"Glyptocephalus cynoglossus","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",16,8
+"Gobiosoma ginsburgi","adult","Atlantic","-76.000,38.000",-76,38,"Late historical",1,1
+"Gobiosoma ginsburgi","adult","Atlantic","-78.000,36.000",-78,36,"Late historical",25,4
+"Gobiosoma ginsburgi","adult","Atlantic","-78.000,38.000",-78,38,"Late historical",2,2
+"Gonichthys cocco","adult","Atlantic","-66.000,42.000",-66,42,"Early historical",1,1
+"Gonichthys cocco","adult","Atlantic","-68.000,40.000",-68,40,"Early historical",6,2
+"Gonichthys cocco","adult","Atlantic","-70.000,36.000",-70,36,"Early historical",6,2
+"Gonichthys cocco","adult","Atlantic","-70.000,38.000",-70,38,"Early historical",2,1
+"Gonichthys cocco","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",123,10
+"Gonichthys cocco","adult","Atlantic","-74.000,36.000",-74,36,"Early historical",13,1
+"Gonichthys cocco","adult","Atlantic","-74.000,38.000",-74,38,"Early historical",2,1
+"Gonichthys cocco","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",195,2
+"Gonichthys cocco","adult","Gulf of Mexico","-88.000,28.000",-88,28,"Early historical",2,1
+"Haemulon aurolineatum","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",30,1
+"Haemulon aurolineatum","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",1,1
+"Haemulon aurolineatum","adult","Atlantic","-78.000,34.000",-78,34,"Late historical",2,2
+"Haemulon aurolineatum","adult","Caribbean","-66.000,18.000",-66,18,"Early historical",1,1
+"Haemulon aurolineatum","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",1,1
+"Haemulon aurolineatum","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",4,1
+"Haemulon aurolineatum","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",3,2
+"Haemulon aurolineatum","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",24,4
+"Haemulon aurolineatum","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Late historical",11,2
+"Haemulon aurolineatum","adult","Gulf of Mexico","-84.000,28.000",-84,28,"Late historical",4,1
+"Haemulon plumierii","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",2,1
+"Haemulon plumierii","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",23,5
+"Haemulon plumierii","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",2,1
+"Haemulon plumierii","adult","Gulf of Mexico","-84.000,28.000",-84,28,"Late historical",16,2
+"Harengula humeralis","adult","Atlantic","-66.000,32.000",-66,32,"Late historical",9,1
+"Histrio histrio","adult","Atlantic","-76.000,28.000",-76,28,"Late historical",8,1
+"Histrio histrio","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",1,1
+"Histrio histrio","adult","Atlantic","-78.000,24.000",-78,24,"Early historical",1,1
+"Histrio histrio","adult","Atlantic","-78.000,24.000",-78,24,"Late historical",4,1
+"Histrio histrio","adult","Atlantic","-78.000,26.000",-78,26,"Early historical",7,2
+"Histrio histrio","adult","Atlantic","-78.000,28.000",-78,28,"Early historical",3,1
+"Histrio histrio","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",2,2
+"Histrio histrio","adult","Atlantic","-80.000,26.000",-80,26,"Late historical",4,1
+"Histrio histrio","adult","Caribbean","-74.000,18.000",-74,18,"Early historical",1,1
+"Histrio histrio","adult","Caribbean","-76.000,18.000",-76,18,"Early historical",33,1
+"Histrio histrio","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",1,1
+"Histrio histrio","adult","Gulf of Mexico","-86.000,28.000",-86,28,"Early historical",1,1
+"Histrio histrio","adult","Gulf of Mexico","-88.000,28.000",-88,28,"Early historical",4,3
+"Histrio histrio","larva","Atlantic","-72.000,32.000",-72,32,"Late historical",1,1
+"Histrio histrio","larva","Atlantic","-74.000,32.000",-74,32,"Late historical",1,1
+"Histrio histrio","larva","Atlantic","-74.000,34.000",-74,34,"Late historical",1,1
+"Histrio histrio","larva","Atlantic","-76.000,34.000",-76,34,"Late historical",1,1
+"Histrio histrio","larva","Atlantic","-78.000,24.000",-78,24,"Late historical",2,2
+"Histrio histrio","larva","Atlantic","-78.000,28.000",-78,28,"Late historical",19,2
+"Histrio histrio","larva","Atlantic","-78.000,34.000",-78,34,"Late historical",1,1
+"Histrio histrio","larva","Atlantic","-80.000,24.000",-80,24,"Late historical",1,1
+"Histrio histrio","larva","Atlantic","-80.000,26.000",-80,26,"Late historical",2,1
+"Hygophum hygomii","adult","Atlantic","-66.000,40.000",-66,40,"Early historical",1,1
+"Hygophum hygomii","adult","Atlantic","-70.000,38.000",-70,38,"Early historical",1,1
+"Hygophum hygomii","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",19,4
+"Hygophum hygomii","adult","Atlantic","-74.000,36.000",-74,36,"Early historical",1,1
+"Hygophum hygomii","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",6,1
+"Hygophum hygomii","adult","Atlantic","-80.000,28.000",-80,28,"Early historical",1,1
+"Hyporhamphus unifasciatus","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",7,3
+"Hyporhamphus unifasciatus","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",3,1
+"Hyporhamphus unifasciatus","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Late historical",2,2
+"Hyporhamphus unifasciatus","larva","Atlantic","-76.000,34.000",-76,34,"Late historical",18,3
+"Hyporhamphus unifasciatus","larva","Atlantic","-78.000,34.000",-78,34,"Late historical",28,3
+"Hyporhamphus unifasciatus","larva","Atlantic","-78.000,36.000",-78,36,"Late historical",3,2
+"Jenkinsia lamprotaenia","adult","Caribbean","-66.000,18.000",-66,18,"Early historical",37,4
+"Jenkinsia stolifera","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",25,1
+"Laemonema barbatulum","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",1,1
+"Laemonema barbatulum","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",4,3
+"Laemonema barbatulum","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",106,6
+"Laemonema barbatulum","adult","Atlantic","-80.000,24.000",-80,24,"Early historical",2,1
+"Laemonema barbatulum","adult","Atlantic","-80.000,28.000",-80,28,"Early historical",4,1
+"Laemonema barbatulum","adult","Atlantic","-80.000,30.000",-80,30,"Early historical",16,4
+"Laemonema barbatulum","adult","Atlantic","-82.000,28.000",-82,28,"Early historical",2,2
+"Lagodon rhomboides","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",1,1
+"Lagodon rhomboides","adult","Atlantic","-78.000,34.000",-78,34,"Early historical",1,1
+"Lagodon rhomboides","adult","Gulf of Mexico","-76.000,28.000",-76,28,"Late historical",1,1
+"Lagodon rhomboides","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",11,4
+"Lagodon rhomboides","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",1,1
+"Lagodon rhomboides","adult","Gulf of Mexico","-84.000,24.000",-84,24,"Early historical",2,1
+"Lagodon rhomboides","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",19,5
+"Lagodon rhomboides","adult","Gulf of Mexico","-86.000,28.000",-86,28,"Late historical",80,1
+"Lagodon rhomboides","adult","Gulf of Mexico","-88.000,28.000",-88,28,"Early historical",1,1
+"Lagodon rhomboides","adult","Gulf of Mexico","-88.000,30.000",-88,30,"Early historical",2,1
+"Lagodon rhomboides","adult","Gulf of Mexico","-90.000,30.000",-90,30,"Late historical",2,1
+"Liparis inquilinus","adult","Atlantic","-76.000,36.000",-76,36,"Late historical",25,2
+"Liparis inquilinus","larva","Atlantic","-70.000,40.000",-70,40,"Early historical",30,1
+"Lutjanus apodus","adult","Caribbean","-66.000,18.000",-66,18,"Early historical",13,5
+"Lutjanus apodus","adult","Caribbean","-68.000,16.000",-68,16,"Early historical",2,2
+"Lutjanus apodus","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",12,5
+"Lutjanus synagris","adult","Caribbean","-68.000,16.000",-68,16,"Early historical",1,1
+"Lutjanus synagris","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",5,2
+"Lutjanus synagris","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",30,3
+"Lutjanus synagris","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",7,5
+"Lycenchelys verrillii","adult","Atlantic","-70.000,38.000",-70,38,"Early historical",10,4
+"Lycenchelys verrillii","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",25,12
+"Lycenchelys verrillii","adult","Atlantic","-74.000,38.000",-74,38,"Early historical",3,2
+"Lycenchelys verrillii","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",35,3
+"Lycenchelys verrillii","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",4,2
+"Lycenchelys verrillii","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",4,1
+"Lycodes terraenovae","adult","Atlantic","-68.000,40.000",-68,40,"Early historical",2,1
+"Lycodes terraenovae","adult","Atlantic","-70.000,38.000",-70,38,"Early historical",3,2
+"Lycodes terraenovae","adult","Atlantic","-70.000,40.000",-70,40,"Early historical",1,1
+"Lycodes terraenovae","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",11,7
+"Lycodes terraenovae","adult","Atlantic","-74.000,36.000",-74,36,"Early historical",20,4
+"Lycodes terraenovae","adult","Atlantic","-74.000,38.000",-74,38,"Early historical",4,2
+"Lycodes terraenovae","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",11,4
+"Lycodes terraenovae","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",13,5
+"Lycodes terraenovae","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",2,1
+"Membras martinica","adult","Atlantic","-76.000,36.000",-76,36,"Late historical",14,1
+"Membras martinica","adult","Atlantic","-78.000,36.000",-78,36,"Early historical",67,6
+"Membras martinica","adult","Atlantic","-80.000,32.000",-80,32,"Late historical",48,1
+"Menidia menidia","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",42,11
+"Menidia menidia","adult","Atlantic","-72.000,42.000",-72,42,"Early historical",32,2
+"Menidia menidia","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",17,3
+"Menidia menidia","adult","Atlantic","-76.000,36.000",-76,36,"Late historical",1,1
+"Menidia menidia","adult","Atlantic","-78.000,36.000",-78,36,"Early historical",25,6
+"Menidia menidia","adult","Atlantic","-78.000,38.000",-78,38,"Late historical",41,9
+"Menidia menidia","adult","Atlantic","-80.000,32.000",-80,32,"Early historical",27,2
+"Menidia menidia","adult","Atlantic","-80.000,32.000",-80,32,"Late historical",25,1
+"Menidia menidia","adult","Atlantic","-82.000,32.000",-82,32,"Early historical",23,4
+"Menidia menidia","larva","Atlantic","-78.000,38.000",-78,38,"Late historical",12,2
+"Menidia peninsulae","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",64,5
+"Monacanthus ciliatus","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",1,1
+"Monacanthus ciliatus","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",2,1
+"Monacanthus ciliatus","adult","Atlantic","-74.000,36.000",-74,36,"Early historical",2,1
+"Monacanthus ciliatus","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",15,1
+"Monacanthus ciliatus","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",2,1
+"Monacanthus ciliatus","adult","Atlantic","-78.000,34.000",-78,34,"Late historical",3,1
+"Monacanthus ciliatus","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Early historical",31,5
+"Monacanthus ciliatus","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",38,14
+"Monacanthus ciliatus","adult","Gulf of Mexico","-84.000,22.000",-84,22,"Late historical",11,1
+"Monacanthus ciliatus","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",1,1
+"Monacanthus ciliatus","adult","Gulf of Mexico","-84.000,28.000",-84,28,"Late historical",66,25
+"Monacanthus ciliatus","adult","Gulf of Mexico","-86.000,28.000",-86,28,"Early historical",5,2
+"Monacanthus ciliatus","adult","Gulf of Mexico","-86.000,28.000",-86,28,"Late historical",1,1
+"Monacanthus ciliatus","adult","Gulf of Mexico","-88.000,22.000",-88,22,"Early historical",24,2
+"Monacanthus ciliatus","adult","Gulf of Mexico","-88.000,28.000",-88,28,"Early historical",2,1
+"Mullus auratus","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Late historical",21,2
+"Myctophum affine","adult","Atlantic","-66.000,40.000",-66,40,"Early historical",1,1
+"Myctophum affine","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",31,3
+"Myctophum affine","adult","Atlantic","-74.000,34.000",-74,34,"Late historical",1,1
+"Myctophum affine","adult","Atlantic","-74.000,36.000",-74,36,"Early historical",60,1
+"Myctophum affine","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",1,1
+"Myctophum affine","adult","Atlantic","-80.000,26.000",-80,26,"Early historical",4,1
+"Myctophum affine","larva","Atlantic","-68.000,36.000",-68,36,"Early historical",3,1
+"Nezumia aequalis","adult","Atlantic","-58.000,44.000",-58,44,"Early historical",1,1
+"Nezumia aequalis","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",2,1
+"Nezumia aequalis","adult","Atlantic","-74.000,36.000",-74,36,"Early historical",1,1
+"Nezumia aequalis","adult","Atlantic","-74.000,38.000",-74,38,"Early historical",1,1
+"Nezumia aequalis","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",1,1
+"Nezumia aequalis","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",15,5
+"Nezumia aequalis","adult","Atlantic","-80.000,28.000",-80,28,"Early historical",13,3
+"Nezumia aequalis","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",11,2
+"Nezumia aequalis","adult","Gulf of Mexico","-88.000,28.000",-88,28,"Early historical",9,5
+"Nezumia bairdii","adult","Atlantic","-52.000,42.000",-52,42,"Early historical",3,1
+"Nezumia bairdii","adult","Atlantic","-58.000,44.000",-58,44,"Early historical",4,2
+"Nezumia bairdii","adult","Atlantic","-66.000,40.000",-66,40,"Early historical",10,3
+"Nezumia bairdii","adult","Atlantic","-66.000,42.000",-66,42,"Early historical",1,1
+"Nezumia bairdii","adult","Atlantic","-68.000,38.000",-68,38,"Early historical",1,1
+"Nezumia bairdii","adult","Atlantic","-68.000,40.000",-68,40,"Early historical",5,3
+"Nezumia bairdii","adult","Atlantic","-70.000,38.000",-70,38,"Early historical",8,5
+"Nezumia bairdii","adult","Atlantic","-70.000,40.000",-70,40,"Early historical",2,1
+"Nezumia bairdii","adult","Atlantic","-70.000,42.000",-70,42,"Early historical",1,1
+"Nezumia bairdii","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",72,29
+"Nezumia bairdii","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",1,1
+"Nezumia bairdii","adult","Atlantic","-74.000,36.000",-74,36,"Early historical",1,1
+"Nezumia bairdii","adult","Atlantic","-74.000,38.000",-74,38,"Early historical",13,7
+"Nezumia bairdii","adult","Atlantic","-76.000,34.000",-76,34,"Early historical",6,3
+"Nezumia bairdii","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",5,3
+"Nezumia bairdii","adult","Atlantic","-78.000,32.000",-78,32,"Early historical",1,1
+"Nezumia bairdii","adult","Atlantic","-80.000,28.000",-80,28,"Early historical",1,1
+"Nezumia bairdii","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",1,1
+"Paralichthys dentatus","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",1,1
+"Paralichthys dentatus","adult","Atlantic","-78.000,36.000",-78,36,"Early historical",10,6
+"Paralichthys dentatus","adult","Atlantic","-78.000,36.000",-78,36,"Late historical",26,5
+"Paralichthys dentatus","adult","Atlantic","-78.000,38.000",-78,38,"Late historical",1,1
+"Paralichthys dentatus","adult","Atlantic","-80.000,32.000",-80,32,"Early historical",1,1
+"Paralichthys dentatus","adult","Atlantic","-82.000,32.000",-82,32,"Early historical",2,1
+"Paralichthys dentatus","adult","Gulf of Mexico","-82.000,30.000",-82,30,"Late historical",1,1
+"Phycis chesteri","adult","Atlantic","-70.000,40.000",-70,40,"Early historical",17,1
+"Poecilia vivipara","adult","Caribbean","-66.000,18.000",-66,18,"Early historical",254,5
+"Pomatomus saltatrix","larva","Atlantic","-76.000,36.000",-76,36,"Late historical",156,1
+"Pseudopleuronectes americanus","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",21,10
+"Pseudopleuronectes americanus","adult","Atlantic","-72.000,42.000",-72,42,"Early historical",3,2
+"Pseudopleuronectes americanus","adult","Atlantic","-78.000,36.000",-78,36,"Early historical",1,1
+"Pseudopleuronectes americanus","adult","Atlantic","-78.000,38.000",-78,38,"Late historical",41,6
+"Sparisoma radians","adult","Caribbean","-66.000,18.000",-66,18,"Early historical",34,4
+"Sparisoma radians","adult","Caribbean","-68.000,16.000",-68,16,"Early historical",2,1
+"Sparisoma radians","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",23,6
+"Stellifer lanceolatus","adult","Atlantic","-80.000,32.000",-80,32,"Late historical",750,1
+"Stephanolepis hispida","adult","Atlantic","-72.000,38.000",-72,38,"Early historical",9,2
+"Stephanolepis hispida","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",20,4
+"Stephanolepis hispida","adult","Atlantic","-76.000,34.000",-76,34,"Late historical",1,1
+"Stephanolepis hispida","adult","Atlantic","-78.000,34.000",-78,34,"Late historical",5,3
+"Stephanolepis hispida","adult","Atlantic","-80.000,32.000",-80,32,"Late historical",3,1
+"Stephanolepis hispida","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",1,1
+"Stephanolepis hispida","adult","Gulf of Mexico","-84.000,28.000",-84,28,"Late historical",3,1
+"Stephanolepis hispida","larva","Atlantic","-78.000,34.000",-78,34,"Late historical",2,2
+"Strongylura marina","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",19,5
+"Strongylura marina","adult","Atlantic","-76.000,36.000",-76,36,"Early historical",1,1
+"Strongylura marina","adult","Atlantic","-78.000,36.000",-78,36,"Early historical",4,1
+"Syacium papillosum","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",17,2
+"Syacium papillosum","adult","Gulf of Mexico","-84.000,28.000",-84,28,"Late historical",1,1
+"Syacium papillosum","adult","Gulf of Mexico","-88.000,30.000",-88,30,"Late historical",1,1
+"Syacium papillosum","adult","Gulf of Mexico","-96.000,28.000",-96,28,"Late historical",27,1
+"Symphurus plagiusa","adult","Atlantic","-78.000,36.000",-78,36,"Late historical",6,3
+"Symphurus plagiusa","adult","Atlantic","-80.000,32.000",-80,32,"Early historical",18,6
+"Symphurus plagiusa","adult","Atlantic","-80.000,32.000",-80,32,"Late historical",2,1
+"Symphurus plagiusa","adult","Atlantic","-82.000,32.000",-82,32,"Early historical",3,3
+"Symphurus plagiusa","adult","Caribbean","-68.000,18.000",-68,18,"Early historical",4,1
+"Symphurus plagiusa","adult","Gulf of Mexico","-82.000,24.000",-82,24,"Late historical",17,10
+"Symphurus plagiusa","adult","Gulf of Mexico","-82.000,30.000",-82,30,"Late historical",1,1
+"Symphurus plagiusa","adult","Gulf of Mexico","-84.000,26.000",-84,26,"Early historical",3,2
+"Symphurus plagiusa","adult","Gulf of Mexico","-84.000,28.000",-84,28,"Late historical",1,1
+"Symphurus plagiusa","adult","Gulf of Mexico","-86.000,28.000",-86,28,"Late historical",2,1
+"Symphurus plagiusa","adult","Gulf of Mexico","-90.000,30.000",-90,30,"Late historical",1,1
+"Symphurus plagiusa","larva","Gulf of Mexico","-84.000,24.000",-84,24,"Late historical",2,1
+"Syngnathus fuscus","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",10,7
+"Syngnathus fuscus","adult","Atlantic","-72.000,42.000",-72,42,"Late historical",54,1
+"Syngnathus fuscus","adult","Atlantic","-76.000,36.000",-76,36,"Late historical",2,2
+"Syngnathus fuscus","adult","Atlantic","-78.000,36.000",-78,36,"Early historical",90,6
+"Syngnathus fuscus","adult","Atlantic","-78.000,36.000",-78,36,"Late historical",3,3
+"Syngnathus fuscus","adult","Atlantic","-78.000,38.000",-78,38,"Late historical",4,4
+"Syngnathus fuscus","adult","Atlantic","-80.000,32.000",-80,32,"Early historical",1,1
+"Tautogolabrus adspersus","adult","Atlantic","-72.000,40.000",-72,40,"Early historical",69,18
+"Tautogolabrus adspersus","adult","Atlantic","-72.000,42.000",-72,42,"Early historical",1,1
+"Tautogolabrus adspersus","adult","Atlantic","-72.000,42.000",-72,42,"Late historical",15,1

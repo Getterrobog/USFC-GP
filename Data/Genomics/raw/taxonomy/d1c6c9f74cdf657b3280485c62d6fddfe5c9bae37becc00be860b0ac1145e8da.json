@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Symphurus%20plagiusa",
+  "retrieved_utc": "2026-10-13T04:05:35.495964+00:00",
+  "sha256": "9c61a1acab86135f0c713986c9c1443ed0bd65b654e29e6ba89778692bf6b23f",
+  "http_status": 200,
+  "bytes": 825,
+  "cache_path": "Data/Genomics/raw/taxonomy/d1c6c9f74cdf657b3280485c62d6fddfe5c9bae37becc00be860b0ac1145e8da.gz"
+}

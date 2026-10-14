@@ -1,0 +1,220 @@
+
+
+    <!-- Display Cookie Consent Banner -->
+    <link rel="stylesheet" type="text/css" href="/css/cookie-consent.css">
+
+    <div id="cookie-consent-container" style="display:none;">
+        <div id="cookie-consent-banner">
+            <div class="cookie-consent-banner-item">
+                <p>
+                   This website uses cookies to enhance your browsing experience and ensure the functionality of our site. For more detailed information about the types of cookies we use and how we protect your privacy, please visit our <a href='../cookieMoreinfo.php' target='_blank'>Privacy Information</a> page.
+                </p>
+            </div>
+            <div class="cookie-consent-banner-item">
+                <button id="accept-all">Accept All</button>
+                <button id="accept-necessary">Accept Necessary Cookies Only</button>
+                <button id="cookie-settings">Cookie Settings</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay"></div>
+
+    <!-- Cookie Settings Dialog -->
+    <div id="cookie-settings-dialog">
+        <span id="close-dialog">&times;</span>
+        <h3>Cookie Settings</h3>
+        <p>This website uses different types of cookies to enhance your experience. Please select your preferences below:</p>
+
+        <label>
+           <div class="cookie-categ">
+                <span>Strictly Necessary</span>
+                <label class="switch">
+
+                    <input type="checkbox" id="necessary-toggle" checked disabled>
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <p>
+                These cookies are essential for the website to function properly. They include session cookies, which help maintain your session while you navigate the site, as well as cookies that remember your language preferences and other essential functionalities. Without these cookies, certain features of the website cannot be provided.
+            </p>
+        </label>
+
+        <label>
+            <div class="cookie-categ">
+                <span>Performance</span>
+                <label class="switch">
+                    <input type="checkbox" id="performance-toggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <p>
+                These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. For example, we use Google Analytics to generate web statistics, which helps us improve our website's performance and user experience. These cookies may track information such as the pages visited, time spent on the site, and any errors encountered.
+            </p>
+        </label>
+
+        <button id="save-close">Save and Close</button>
+    </div>
+    <script src='/libs/jquery/scripts/cookie.js'></script>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Picture Summary</title>
+	<link rel="stylesheet" href="/fishbase.css" type="text/css">
+	<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="/css/screen.css" type="text/css" media="print">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<script>
+		if (window.history.replaceState) window.history.replaceState(null, null, window.location.href);
+	</script>
+	<style type="text/css">
+		.upload_lnk {
+			background-color: Aqua;
+			font-weight: bold;
+			font-family: Arial;
+		}
+		.collpic {
+			padding: 5px;
+		}
+		.col {
+			background-color: #00FFFF;
+			color: black;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<div class="navsheader" id="top">
+				<div class="onethird lalign">
+					<a href="/search.php" alt="Go back to Search page">
+						<img src="/images/png/fb-nav.png" height="35"/>
+					</a>
+				</div>
+				<div class="onethird calign"></div>
+				<div class="onethird ralign"><font face=arial size=2 color=blue>
+					<i>NEW! Upload your
+						<a style='background-color : Aqua; font-weight : bold;	font-family : Arial;'
+					href='https://www.fishbase.us/tools/UploadPhoto/start.php?speccode=1140'>photos</a> and
+						<a style='background-color : Aqua; font-weight : bold;	font-family : Arial;  '
+					href='https://www.fishbase.us/tools/UploadVideo/start_info.php?speccode=1140'>videos</a> for this fish
+					</i>
+				</font> | <a href='ThumbnailsSummary.php?id=1140'>Back to Thumbnails</a></div>
+			</div>
+<!-- <div class="navsheader">
+	<div class="onefifth lalign">
+	</div>
+	<div class="twofifth calign"></div>
+	<div class="twofifth ralign">
+					<FONT face=arial size=2 color=blue><i> NEW! Upload your
+			<a class="upload_lnk" href='http://www.fishbase.us/tools/UploadPhoto/start.php?speccode=1140'>photos</a> and
+			<a class="upload_lnk" href='http://www.fishbase.us/tools/UploadVideo/start_info.php?speccode=1140'>videos</a> for this fish</i></FONT>
+			&nbsp;&nbsp;|&nbsp;&nbsp;
+							<a href='ThumbnailsSummary.php?id=1140'>Back to Thumbnails</a>
+						</div>
+</div> -->
+
+<form method="get" action="PicturesSummary.php" name="fn">
+<input type="hidden" name="id" value='1140'>
+<input type="hidden" name="what" value='species'>
+<input type="hidden" name="personnel" value=''>
+<br>
+<div><!--page navigation-->
+	1 of 11 <a href="?resultPage=2&ID=1140&what=species">Next</a>&nbsp;&nbsp;<a href='?&ID=1140&what=species&showAll=yes'>All</a></div>
+<br>
+<br>
+<div><!--image section-->
+	<a href='http://hbs.bishopmuseum.org/staff/randall.html'><img src='../images/species/Haplu_u1.jpg' alt='Haemulon plumierii' border=0></a></div>
+<br>
+<div><!--image caption section-->
+	<a href='/summary/SpeciesSummary.php?ID=1140'><i>Haemulon plumierii</i></a> (Haplu_u1.jpg)<br> by <a href='/collaborators/CollaboratorSummary.php?ID=50'>Randall, J.E.</a><p><a href='http://hbs.bishopmuseum.org/staff/randall.html'>Collaborator's web page</a></p><br><br> View this&nbsp;<a href='../photos/depth.html?PicName=Haplu_u1.jpg'>fish at depth</a><br>&nbsp;</div>
+
+<br>
+<div><!--table-->
+	<table border cellspacing='0' cellpadding='2' align='center' width='500'>
+		<tr class="odd">
+			<td width='75' class="col lalign">Size (cm):</td>
+			<td width='425'  class="lalign">
+						</td>
+		</tr>
+					<tr>
+			<td class="col lalign">Locality:</td>
+			<td class="lalign">
+			&nbsp;			</td>
+		</tr>
+		<tr class="odd">
+			<td class="col lalign">Sex/Stage:</td>
+			<td class="lalign">
+				&nbsp;			</td>
+		</tr>
+		<tr >
+			<td class="col lalign">Date:</td>
+			<td class="lalign">
+				&nbsp;			</td>
+		</tr>
+		<tr class="odd">
+			<td class="col lalign">Reference:</td>
+			<td class="lalign">
+			
+					<a href='/references/FBRefSummary.php?ID=28620' target = '_blank'>
+					Randall, J.E., 1997 <br> Randall's underwater photos.
+					</a>&nbsp;			</td>
+		</tr>
+		<tr>
+			<td class="col lalign">Source:</td>
+			<td class="lalign">
+							</td>
+		</tr>
+		<tr class="odd">
+			<td class="col lalign">Remark:</td>
+			<td class="lalign">
+				&nbsp;			</td>
+		</tr>
+	</table>
+</div>
+
+<br><br><br>
+<div align="center">
+	
+	<table class='p_remark1 noborderx'>
+	<tr>
+		<td>
+			<a href='http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1' target='_blank' rel='license noopener noreferrer' style='display:inline-block; text-decoration: none;'>
+			<img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1'>
+			<img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1'>
+			<img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1'>
+			</a>
+		</td>
+		<td>
+			<span xmlns:cc='http://creativecommons.org/ns#'>
+			This work is licensed under <a href='http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1' target='_blank' rel='license noopener noreferrer' style='display:inline-block;'>CC BY-NC 4.0</a>.
+			<br>
+			Image can be freely copied and altered but may be used only for non-commercial purposes. 
+			Original author and source must be properly acknowledged
+		</td>
+	</tr>
+	</table>
+	</div>
+<br>
+
+</form>
+
+<div class="sfooter">
+						<div class="onethird lalign"><a href="/search.php">Back to Search</a></div>
+						<div class="onethird calign">
+	<form name='mailx' method='post' action='https://fishbase.ca/mail/MailForm.php'>
+		<input type='hidden' name='code' value='3'>
+		<input type='hidden' name='pagefrom' value='http://www.fishbase.se/photos/PicturesSummary.php?resultPage=1&ID=1140&what=species - Stockholm, Sweden'>
+		<a href='javascript:document.mailx.submit()'>Comments & Corrections</a>
+	</form>
+	</div>
+						<div class="onethird ralign"><a href="#">Back to Top</a></div>
+					</div>
+</body>
+</html>

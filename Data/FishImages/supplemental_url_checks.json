@@ -1,0 +1,20 @@
+{
+  "Myctophum opalinum": {
+    "bytes": 34841,
+    "checked_utc": "2026-10-13T03:18:15.562679+00:00",
+    "content_type": "image/jpeg",
+    "http_status": 200,
+    "image_status": "verified_image_response",
+    "image_url": "https://www.gutenberg.org/cache/epub/51702/images/i_133a.jpg",
+    "sha256": "e0aeec86e040ae3f32f9a86532a8158153798f3edcd6c6c555e126ed0f31accc"
+  },
+  "Prionotus martis": {
+    "bytes": 52439,
+    "checked_utc": "2026-10-13T03:18:15.252191+00:00",
+    "content_type": "image/jpeg",
+    "http_status": 200,
+    "image_status": "verified_image_response",
+    "image_url": "https://biogeodb.stri.si.edu/caribbean/resources/img/images/species/3444_5461.jpg",
+    "sha256": "d566ced816bf69f4fa46c2ec9a918a67d6202d0e760b1b3eeac18b9fb82ee1d6"
+  }
+}

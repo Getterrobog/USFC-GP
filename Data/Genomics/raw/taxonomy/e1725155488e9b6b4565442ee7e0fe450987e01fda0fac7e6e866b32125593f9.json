@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Lagodon%20rhomboides",
+  "retrieved_utc": "2026-10-13T04:04:55.682876+00:00",
+  "sha256": "28c0279f9c2ce3bab44d9a39b13b094a702eca75c698bb02327654380d360e74",
+  "http_status": 200,
+  "bytes": 596,
+  "cache_path": "Data/Genomics/raw/taxonomy/e1725155488e9b6b4565442ee7e0fe450987e01fda0fac7e6e866b32125593f9.gz"
+}

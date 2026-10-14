@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Chromis%20enchrysurus",
+  "retrieved_utc": "2026-10-13T04:05:14.299223+00:00",
+  "sha256": "24088ee351af7bf1181f4d08f47debd3e4bd1aedbb53c49b951ff297dee17c8b",
+  "http_status": 200,
+  "bytes": 699,
+  "cache_path": "Data/Genomics/raw/taxonomy/37abd9650cef9d7a6c4ff3b4155fb8f824ec9761568732301078889aefbf8882.gz"
+}

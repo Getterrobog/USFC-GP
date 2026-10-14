@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Chloroscombrus+chrysurus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:21.637911+00:00",
+  "sha256": "c27bb9c26f602ecccf23cac2b5f4713f70e9055c835b59c674986733aa763fcc",
+  "http_status": 200,
+  "bytes": 3337,
+  "cache_path": "Data/Genomics/raw/geome/82a139dd18331dbd7d3e882fc91413341387cf26227634724f240a1b6716f526.gz"
+}

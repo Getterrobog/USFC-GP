@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Chromis+enchrysura%22+OR+scientificName%3D%22Chromis+enchrysurus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:33.978787+00:00",
+  "sha256": "5009000f3b7f5609ff71bbde2238a411242ec7c41b63fae96a6c95428b99986a",
+  "http_status": 200,
+  "bytes": 2550,
+  "cache_path": "Data/Genomics/raw/geome/e5c905625e0b48068a47ad69550ddc62d362109e6ae2a8e25ffddaa0e78efc7c.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Symphurus+plagiusa%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:49.318377+00:00",
+  "sha256": "86cbf0962e4caa029c3acb87bc54a7915db8aa95de42e498bc1e1c35dd32e89f",
+  "http_status": 200,
+  "bytes": 3501,
+  "cache_path": "Data/Genomics/raw/geome/4a525910e72f1132889c570c9701cd195ebf7f10af111c7d0b173c26c363ec61.gz"
+}

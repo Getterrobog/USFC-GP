@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Hygophum%20hygomii",
+  "retrieved_utc": "2026-10-13T04:05:25.202468+00:00",
+  "sha256": "357fa2dd6379ad07eac10954dde4947749da64aef2f018ce20ba60cf85bb8129",
+  "http_status": 200,
+  "bytes": 624,
+  "cache_path": "Data/Genomics/raw/taxonomy/8ea9713cd1693c0746c99d5de637a2637cc6bd1996167ad91ec7a9a99b9f7c39.gz"
+}

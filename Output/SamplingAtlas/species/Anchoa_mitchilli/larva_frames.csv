@@ -1,0 +1,3 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Anchoa mitchilli","larva",1915,"1915",250,250,0,-100,-50,5,60,2,"species/Anchoa_mitchilli/larva_frames/year_1915.png"
+"Anchoa mitchilli","larva",1920,"1920",1,1,0,-100,-50,5,60,2,"species/Anchoa_mitchilli/larva_frames/year_1920.png"

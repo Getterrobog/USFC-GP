@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Jenkinsia%20lamprotaenia",
+  "retrieved_utc": "2026-10-13T04:05:26.331914+00:00",
+  "sha256": "8d86a2642e60c8a2f7ae7a3133edab8523933ab35fe1b01df1676661a9e7c565",
+  "http_status": 200,
+  "bytes": 738,
+  "cache_path": "Data/Genomics/raw/taxonomy/34e95e77bf789d1a342223c65dd7289b513a14aa7550f44adbf1b0d9b0be6b09.gz"
+}

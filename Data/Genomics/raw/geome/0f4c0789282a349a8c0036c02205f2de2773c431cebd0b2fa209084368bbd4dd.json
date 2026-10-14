@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Helicolenus+dactylopterus%22+OR+scientificName%3D%22Helicolenus+maderensis%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:36.841346+00:00",
+  "sha256": "768fb4bde7f34141d3df6708f781e956260090edf43bc6769afe92287a781999",
+  "http_status": 200,
+  "bytes": 3660,
+  "cache_path": "Data/Genomics/raw/geome/0f4c0789282a349a8c0036c02205f2de2773c431cebd0b2fa209084368bbd4dd.gz"
+}

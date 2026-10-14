@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Hygophum+hygomii%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:37.221076+00:00",
+  "sha256": "d40aa7c63e2adb7c28ba2a2ff0190a15ec0d3e49450d9a9ed82fb0e73dc05d23",
+  "http_status": 200,
+  "bytes": 1911,
+  "cache_path": "Data/Genomics/raw/geome/0b553e58229126f69e2b073b85bf31e7dd4ae3dd37c7dbc2a399109a8fa725c9.gz"
+}

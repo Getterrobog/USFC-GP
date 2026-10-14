@@ -1,0 +1,7 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Atherinomorus stipes","adult",1884,"1884",46,0,46,-100,-50,5,60,2,"species/Atherinomorus_stipes/adult_frames/year_1884.png"
+"Atherinomorus stipes","adult",1885,"1885",240,105,135,-100,-50,5,60,2,"species/Atherinomorus_stipes/adult_frames/year_1885.png"
+"Atherinomorus stipes","adult",1886,"1886",273,0,273,-100,-50,5,60,2,"species/Atherinomorus_stipes/adult_frames/year_1886.png"
+"Atherinomorus stipes","adult",1899,"1899",231,231,0,-100,-50,5,60,2,"species/Atherinomorus_stipes/adult_frames/year_1899.png"
+"Atherinomorus stipes","adult",1919,"1919",7,7,0,-100,-50,5,60,2,"species/Atherinomorus_stipes/adult_frames/year_1919.png"
+"Atherinomorus stipes","adult",,"Undated",1,0,1,-100,-50,5,60,2,"species/Atherinomorus_stipes/adult_frames/undated.png"

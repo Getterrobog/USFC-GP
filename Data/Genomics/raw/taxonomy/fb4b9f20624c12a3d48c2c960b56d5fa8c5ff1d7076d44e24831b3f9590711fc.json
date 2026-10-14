@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Lycodes%20terraenovae",
+  "retrieved_utc": "2026-10-13T04:05:28.742203+00:00",
+  "sha256": "405e60cba0dfba97f93c97fb6a8b60e2d1a3870114a63d1a8ec9cd6dc479245d",
+  "http_status": 200,
+  "bytes": 761,
+  "cache_path": "Data/Genomics/raw/taxonomy/fb4b9f20624c12a3d48c2c960b56d5fa8c5ff1d7076d44e24831b3f9590711fc.gz"
+}

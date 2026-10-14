@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "extraction_date": "2026-10-12",
+  "extraction_timezone": "America/Chicago",
+  "baseline_path": "Output/LifeHistory/life_history_80_species.csv",
+  "baseline_sha256": "03e79c3466b49acb29e96a9ea1ebf2584ccdb9a7e3beb47266a4cbe06510ec55",
+  "expected_species": 80,
+  "expected_migration_gaps": 44,
+  "rules": {
+    "direct_v1": "Transcribe a source classification or faithful paraphrase at its reported region/life stage; no transfer to other contexts.",
+    "estuary_sea_v1": "Explicit seasonal or life-stage movement between estuary and offshore marine waters maps to project category oceano-estuarine. This is a project interpretation, not a source-assigned FishBase category; no freshwater route is implied.",
+    "marine_seasonal_v1": "Explicit seasonal/spawning migration within marine waters maps to project category oceanodromous, restricted to the reported region/life stage. Diel foraging alone, distribution records, larval drift or speculative movements do not qualify.",
+    "hold_v1": "Retain source evidence without promoting it to a summary classification when tentative, context/vocabulary unresolved, or taxon transfer unverified."
+  }
+}

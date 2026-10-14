@@ -1,0 +1,20 @@
+{
+  "build_stderr": "Validated 48 original scenarios; wrote 120 exploratory scenarios to Output/SpeciesSelectionSpatial\n",
+  "build_stdout": "  maximum_diameter_km all_stage_species all_stage_candidate_sites\n1                  20                27                         8\n2                  40                32                         9\n3                  80                43                        13\n4                 160                50                        11\n5                 240                56                        12\n  all_stage_shared_year_stage_groups adult_nonlarval_species\n1                                 12                      24\n2                                 15                      29\n3                                 19                      41\n4                                 20                      47\n5                                 21                      53\n  adult_nonlarval_candidate_sites adult_nonlarval_shared_year_groups\n1                               7                                 11\n2                               8                                 14\n3                              12                                 18\n4                              11                                 19\n5                              12                                 20\n  species_at_multiple_sites adult_nonlarval_species_at_multiple_sites\n1                         8                                         8\n2                         9                                         9\n3                        12                                        11\n4                        14                                        13\n5                        14                                        13\n  largest_adult_group_species\n1                           5\n2                           6\n3                           6\n4                           7\n5                           8\n   diameter_km species assemblage_sites\n81          20       3                1\n82          40       3                1\n83          80      10                3\n84         160      15                3\n85         240      16                3\n",
+  "identical_repeat_build": true,
+  "original_scenarios_reproduced": 48,
+  "sha256": {
+    "candidate_site_evidence.csv": "8ed81d4ce0737c06035a906f3dd2d111f44801d5c52bb36d1d53bffeb33be519",
+    "extent_summary.csv": "cec31b60208c148e04f6017a0cd3daa87fbd27bf80acc850db05603b7fe052a9",
+    "sensitivity_scenarios.csv": "a2ee5bc8c11b97a4349f64016ea8e6c47e4fe10f35e9ba8440c1c36fd510b295",
+    "sensitivity_species_membership.csv": "816086c784ce6128cae84eb13216cc8701034d6e96667ef95a136ec2d2472e19",
+    "shared_species_site_year_cells.csv": "fbd22abc565de2bc0c9fb8c2af23c6ac7aa3210233eb178a8ead33c521228776",
+    "spatial_extent_report.md": "6d0577477996369a908aa0b6f7a1a8d0ec712aff916c7e6d15726b08f63b2780",
+    "species_membership.csv": "81c8e19602270986e2af4e3cc861b61aca22c58baf377db689dae29ab4ab73a0"
+  },
+  "tests_returncode": 0,
+  "tests_stderr": "Species selection boundary and conservation checks passed.\n",
+  "tests_stdout": "",
+  "total_scenarios": 120,
+  "validation_date": "2026-10-12"
+}

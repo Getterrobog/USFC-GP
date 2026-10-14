@@ -1,0 +1,298 @@
+# Public genomic inventory: sources, methods and interpretation
+
+This workflow inventories the existing 80-species roster for nuclear whole-genome
+sequencing (WGS), including low-coverage sequencing and genome skimming, and genome
+assemblies with annotation evidence. It produces a separate evidence database for
+future contemporary sampling maps. It does not merge records into the museum atlas
+or infer a completed temporal study design.
+
+## Discovery scope and provenance
+
+1. Resolve each project name using ENA's exact any-name taxonomy service. Archive
+   names and taxon IDs are stored alongside the original species key.
+2. Query ENA `read_run` with `tax_tree(taxid) AND (library_source="GENOMIC" OR
+   library_strategy="WGS")`, all fields specified, `limit=0`. Descendant taxa are
+   included. This retrieves ENA-hosted metadata for INSDC accessions, including
+   SRA and DDBJ deposits, without counting database mirrors separately.
+3. Retrieve paginated NCBI Datasets genome assembly reports for the same taxon.
+4. Retrieve full sample XML, assembly-linked BioSample attributes, and project
+   descriptions. Record the source of every attribute and preserve conflicting
+   values rather than replacing them silently.
+5. Save compressed original responses, complete request URLs, retrieval times,
+   SHA256s, input fingerprints and the R session. Missing/failed queries are not
+   interpreted as zero results. Species-query failures stop the build.
+6. Search GEOME for exact project/approved archive names and recover sample-level
+   evidence from selected linked publications and repositories. Store each
+   location/date assertion separately, with its matching and reconciliation decision.
+
+These are public-archive discovery results, not proof that all data ever generated
+have been found. Private/embargoed studies, archive indexing lag, misidentified or
+misclassified deposits, non-INSDC institutional repositories, and annotation files
+available only in paper supplements, Dryad/Zenodo or lab websites are not exhaustively
+searched. No read alignment, base-quality assessment or assembly-file download is
+performed. The snapshot date is in `queries.csv`; it is not a collection date.
+
+Primary documentation:
+
+- [ENA advanced search and complete-result retrieval](https://ena-docs.readthedocs.io/en/latest/retrieval/programmatic-access/advanced-search.html)
+- [ENA taxonomic search](https://ena-docs.readthedocs.io/en/latest/retrieval/programmatic-access/taxon-based-search.html)
+- [NCBI genome report schema](https://www.ncbi.nlm.nih.gov/datasets/docs/v2/reference-docs/data-reports/genome-assembly/)
+- [NCBI BioSample attribute definitions](https://www.ncbi.nlm.nih.gov/biosample/docs/attributes/)
+
+## Taxonomic decisions
+
+Original project names are never replaced. Approved project synonyms are documented
+in `config/life_history_taxon_crosswalk.csv`; the genomic lookup keeps independent
+NCBI/ENA taxon IDs. Automatic assignment requires one exact any-name result.
+
+- `Coelorinchus carminatus`: search the documented NCBI subspecies
+  `Coelorinchus caelorhincus carminatus` (1266865), not all parent-species populations.
+- `Helicolenus maderensis`: use the project's Goode & Bean authority-resolved
+  `H. dactylopterus` mapping. The different Valenciennes homonym is excluded.
+- `Myctophum opalinum`: withhold transfer to `M. affine`, which is a separate project
+  species. Counts under this unresolved name are unknown, not evidence of absence.
+- Other changed combinations returned by the exact taxonomy service remain linked
+  to their original project species and the cached source response.
+
+Regional/subspecies identity still requires population-level review, even when the
+archive taxonomic assignment is unambiguous.
+
+## Assemblies and annotation
+
+`assemblies.csv` retains each versioned GCA/GCF record, status, assembly level,
+sequence length, contig/scaffold N50, sequencing technology and linked BioSample.
+Paired GenBank/RefSeq accessions are linked with `assembly_pair_key`; neither paired
+representations nor separate haplotypes imply additional fish.
+
+Annotation evidence comes from NCBI `annotation_info`: provider, release, pipeline,
+method, and gene/protein-coding counts when reported. Annotation presence and
+NCBI reference/representative designation are separate facts. Missing annotation
+information is **not reported**, not a verified absence of external gene models.
+Assembly release dates and annotation dates are not specimen collection years.
+Suppressed records remain in the audit. `annotation_recorded` preserves their annotation evidence, but `annotation_available` and summary annotation counts require current status; suppressed annotations are not reported as available references.
+
+## Assay classification and nominal coverage
+
+The run table retains every genomic result. WGS inclusion is based on its library
+strategy, with experiment/library evidence overriding mislabeled RAD, GBS,
+restriction-digest, targeted-capture and Hi-C records. Bisulfite/methylation assays,
+organelle-target records, whole-genome amplification and ambiguous `OTHER` records
+remain distinct. A study can contain both WGS and other assays; a broad study title
+does not make all its runs WGS. `config/genomics_assay_overrides.csv` contains
+explicitly reviewed exceptions with accession, rationale and evidence URL.
+
+Two separate low-coverage indicators are provided:
+
+- `explicit_low_coverage_label`: low-coverage/low-pass/genome-skim wording in
+  experiment/library metadata, or an evidence-backed curated exception.
+- `nominal_low_depth_candidate`: summed short-read WGS bases for a BioSample divided
+  by the selected assembly length, at or below the configurable 10× screening
+  cutoff. This is **nominal unaligned yield**, not observed genomic coverage.
+
+Reference selection for that denominator favors a current reference-designated
+assembly, then an annotated assembly, chromosome level and scaffold N50. The chosen
+accession is retained. Without an appropriate assembly or usable base counts,
+nominal depth is missing. Long-read yields remain in WGS totals but are not combined
+with short reads for this estimate. Identical complete FASTQ checksum sets are
+flagged and contribute yield once; other technical overlap may still be undetected.
+Depth for pools is per archived pooled sample, not per fish. QC, contamination,
+duplicates, read overlap, ploidy and mappability can change realized coverage.
+
+## Sample identity, collection dates and geographic evidence
+
+The sample key is `(species, sample_accession)`. All linked runs and assemblies
+attach to that key. Multiple runs do not become multiple specimens. Repeated
+voucher/isolate identifiers within the same study set are flagged as possible
+individual duplicates. Explicit `_Run1`, `_Run2`, etc. isolate suffixes also supply
+a `replicate_identity_hint` across split projects; these are flags, not automatic
+biological merges. Unidentified duplicates across submissions can remain.
+
+Only allowlisted collection fields supply years (`collection_date`, collection/
+sampling year, `yearCollected`, etc.). A single unambiguous year is assigned; a
+range spanning years or conflicting dates remains unassigned, with its endpoints
+and source strings retained. Approximate/before/after dates are review cases.
+Submission, publication, sequencing and annotation dates never fill missing
+collection years. Unparsed ancient dates are retained as raw evidence.
+
+Coordinates come from sample `lat_lon`, numeric latitude/longitude aliases
+(including Darwin Core `decimalLatitude`/`decimalLongitude` and custom `Sample lat`/
+`Sample long`), or explicit hemisphere-marked coordinates embedded in the collection
+locality text. Valid ranges and coordinate agreement are checked; `(0,0)` and
+conflicts greater than 0.02° are rejected. Numerically identical coordinate aliases
+at floating-point precision are consolidated. No city/country centroids, institutional
+addresses, sequencing locations, or study-wide locations are silently assigned.
+Missing or ambiguous positions remain in the review queue. Reported coordinates
+can still be approximate or inaccurate; no independent georeferencing validation
+is claimed. Explicit coordinates parsed from locality text retain that source label.
+
+Life stage is recorded as larva, adult, juvenile, embryo/egg, mixed or unknown from explicit
+stage metadata. Missing stages are not assumed mature in this database. Pool,
+captive/cross, hybrid and cell-line flags use biological sample attributes; a pooled
+sequencing library is not by itself evidence of multiple fish.
+
+## Mapping and selection
+
+### Publication and GEOME enrichment
+
+The current publication review targets large metadata gaps; it is not an exhaustive
+review of every paper for the 80 species. [The review queue](../Output/Genomics/publication_location_review.csv)
+records successful recovery and unfinished leads. Rebuilds reuse cached source
+files, so the evidence can be inspected even if a web page later changes.
+
+| Species / source | Sample-level join and interpretation |
+| --- | --- |
+| Menidia menidia, [BCO-DMO dataset 854878](https://www.bco-dmo.org/dataset/854878), [Wilder et al.](https://doi.org/10.1002/evl3.189) | Exact BioSample accession, verified study. The CSV has 247 rows despite the title saying 248; site coordinates and collection years attach only to those accessions. Eleven library-problem samples identified by the repository are excluded from map candidates. |
+| Fundulus heteroclitus, [Drown et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10370451/) | Four explicitly listed BioProjects; isolate minus an explicit `_RunN` suffix must equal Table S3 `unique_id`. Table population links to three site coordinates in the Methods. Table timepoint supplies collection year and must agree with archive evidence. Repeated deposits retain duplicate flags; the table's multiplexing `pool` column is not a pool of fish. |
+| Atherinomorus stipes, [Sequencing Bait](https://pmc.ncbi.nlm.nih.gov/articles/PMC9348626/) | PRJNA814490 run sample alias must equal a Table S4 sample ID. Only explicitly named Crandon Park and Broad Key populations are matched. Main-text and Table S3 coordinates are retained independently. Crandon Park longitudes disagree by about 0.104°, so coordinates for those samples are withheld. M61/M87/M26 site codes and collection years remain unresolved. |
+
+The silverside table's original Minas Basin country label is inconsistent with the
+named locality; preserve the source label for review rather than silently editing
+it. Shared population coordinates do not have individual GPS precision, even when
+many decimal places are printed. `coordinate_scope` records this limitation;
+numerical uncertainty remains missing unless supplied by a source. The 0.02°
+coordinate-agreement tolerance is a reconciliation rule, not an uncertainty estimate.
+
+The [cunner study](https://doi.org/10.1111/mec.17063) identifies supplementary sample
+metadata, but its publisher's supplement download returned HTTP 403. No sample
+locations were inferred from the paper-wide study area. A northern sand lance
+publication is also recorded as a follow-up lead. These statuses are not claims
+that the missing information is unavailable elsewhere.
+
+[GEOME's API](https://api.geome-db.org/apidocs/) is queried with `Sample` plus related
+`Event` and `Tissue` records, with pagination. Related records are joined within
+project + expedition + event/sample IDs, never using local IDs alone. All 80
+search outcomes are exported; a failed search stops the completed build.
+The current snapshot contains 388 sample records for 60 species, with no explicit
+BioSample accession links. Many are barcode records. They remain discovery leads,
+not WGS evidence or coordinates assigned solely by species name. Voucher and
+publication crosswalks require further review.
+
+### Provenance contract
+
+`location_provenance.csv` records each attached coordinate pair, locality and
+collection year for each `(species, sample_accession)`, including archive evidence.
+Its fields include:
+
+- `field`, `value`, `value2`, `raw_value`: interpreted and original evidence;
+  for coordinates, `value` is latitude and `value2` is longitude.
+- `source_id`, `supporting_source_id`, `source_url`, `publication_doi`: the main
+  source and any second source needed for the sample-to-site crosswalk.
+- `source_record_id`, `source_locator`, `match_method`: source sample ID,
+  spreadsheet member/worksheet/row or article section, and explicit join rule.
+- `source_file`, `source_sha256`, `retrieved_utc`: exact local evidence and its
+  snapshot. Archive assertions identify both normalized source tables and their
+  hashes in matching order; `sample_attributes` and `queries` trace them back to
+  individual raw responses. Publication originals have single-file SHA256s.
+- `coordinate_scope`, `coordinate_uncertainty_m`: individual versus shared-site
+  evidence and reported uncertainty, never invented precision.
+- `decision`, `note`: accepted missing information, corroboration, conflict,
+  added locality text, or a publication-based quality exclusion.
+
+`location_sources.csv` resolves publication source IDs to original download URLs,
+cached files and hashes; `source_id=archive` is resolved through `queries.csv` and
+the normalized tables listed in the assertion. `location_queries.csv` indexes
+publication and GEOME raw requests. Input fingerprints also cover the curated
+DMS site table, source registry and R matching code.
+
+In `samples.csv`, the `archive_*` fields preserve the pre-enrichment values and
+statuses. Unprefixed fields contain reconciled values. `location_evidence_ids`
+and `date_evidence_ids` reference ledger rows, including withheld conflicts.
+Evidence IDs are snapshot-local, not permanent accessions. Compare snapshots by
+species, accession, field, source and source record/locator instead.
+
+Archive coordinates are retained when corroborated; otherwise the first
+agreeing publication assertion supplies the position. All supporting assertions
+remain visible. Existing ambiguous archive dates/coordinate conflicts are not
+silently resolved by a new single publication value. Publication years, permits
+and sequencing filenames never stand in for collection dates. Original attribute
+values remain available even when no reconciled value can be assigned.
+
+### Candidate screening
+
+`atlas_candidates.csv` requires WGS, a single post-1930 collection year, reported
+coordinates inside the atlas window (longitude −100 to −50, latitude 5 to 60),
+and no detected pool/captive/cell-line/hybrid/duplicate-individual flags, unresolved
+location conflicts or publication library-quality exclusions. This is
+an automatic screen, not verification that each accession is one independent fish.
+`specimen_count` stays blank until reviewed; cell counts explicitly count BioSamples.
+Cells have the same 2° size and origin as the existing atlas. The bounding box can
+include freshwater, inland, or introduced populations: basin/habitat and wild-origin
+review is required before ecological comparisons.
+
+To prioritize species, consider independent wild WGS individuals at matching
+historical sites, comparable years and life stages, usable short-read depth, an
+appropriate annotated reference and geographic gaps that can be filled. A large
+number of laboratory runs or an annotated genome from one fish cannot substitute
+for geographically matched contemporary replication. Use `studies.csv` to recover
+missing dates/localities from accession-linked publication supplements first;
+then record any reviewed corrections in an evidence-backed curation table before
+integrating with the atlas. Do not propagate a paper-wide year/location to every
+sample unless its sample mapping supports it.
+
+## Main field dictionary
+
+### Geographic viewer and historical-atlas attachment
+
+`Rscript Scripts/build_genomics_maps.R` creates `Output/Genomics/maps.html`, then
+refreshes the historical `index.html` and `overview.html`. It uses completed
+inventory CSVs and the existing atlas taxonomy/image tables. It requires no
+network access; the `maps` R package supplies coastlines embedded in the HTML.
+Scientific selection and cell exports are scripted in R. Browser JavaScript
+selects records for interactive frames, keeping coordinates, evidence IDs and
+biological flags from the inventory. Tests reconcile browser frame counts and
+timeline bars with source records.
+
+Historical cards and filters distinguish worldwide WGS accessions, explicitly
+labeled low-coverage WGS, dated post-1930 WGS, regional mapping candidates,
+current assemblies, annotated assemblies and annotated references. Post-1930
+counts require an assigned collection year but do not require coordinates or
+pass the biological screens; candidate counts do. Neither count establishes
+independent wild individuals. Unknown taxonomy remains unknown in cards/filters.
+These species-level filters are independent of historical stage/region thresholds;
+historical specimen totals and media remain unchanged.
+
+The genomic map default uses `map_candidate`. Its optional all-WGS review cohort
+includes flagged records and undated coordinates, explicitly counted as accessions.
+Undated records have a separate frame and never receive a guessed year. All-year
+and annual views use a consistent per-species color scale for the active filter
+selection. Two-degree cells share the atlas origin; world and regional extents are
+explicit global choices, never inferred from the plotted records. Records outside
+the extent or without coordinates are reported rather than silently disappearing.
+GEOME records without verified accession links are not part of either cohort.
+
+The `map_*` exports and fingerprints are separate from the core SQLite inventory;
+rebuild the maps after updating inventory data. This separation prevents old map
+exports from entering a newly refreshed database. Cell-detail links resolve the
+same snapshot's `location_evidence_ids` and `date_evidence_ids` through the saved
+provenance ledger. See [viewer controls](../Output/Genomics/README.md).
+
+### Inventory fields
+
+| Fields | Meaning |
+| --- | --- |
+| `species`, `archive_name`, `tax_id` | Project key, archive label, taxonomy ID |
+| `query_status`, `*_availability` | Completed search versus unresolved taxonomy; found versus not returned |
+| `assembly_records`, `assembly_pairs` | Assembly records and paired GCA/GCF group counts, not fish |
+| `annotation_available`, `reference_designated` | Annotation evidence and separate reference designation |
+| `wgs_runs`, `wgs_samples` | Eligible run accessions and distinct BioSample accessions |
+| `study_key` | Primary project accession, otherwise secondary study accession |
+| `collection_date_raw`, `year_start`, `year_end`, `year`, `date_status` | Original date evidence, interval, assignable year and parsing status |
+| `locality_raw`, `coordinates_raw`, `latitude`, `longitude`, `coordinate_status` | Collection-location evidence and conservative coordinate interpretation |
+| `archive_*` | Original normalized archive location/date values and statuses before enrichment |
+| `location_evidence_ids`, `date_evidence_ids`, `location_source_ids` | Links to assertions and their sources; assertion IDs belong to this output snapshot |
+| `coordinate_scope`, `coordinate_approximate`, `location_conflict` | Reported spatial scope, approximate individual position, unresolved source disagreement |
+| `publication_individual_event_id`, `publication_sample_match`, `publication_quality_exclusion` | Explicit publication crosswalk and quality flag; no automatic merge of repeated deposits |
+| `life_stage`, `life_stage_raw` | Parsed and submitted life stage |
+| `material_status`, `*_flag` | Pool/captive/cell-line/hybrid evidence requiring special treatment |
+| `possible_duplicate_individual` | Repeated voucher/isolate lead; no automatic specimen merge |
+| `wgs_bases`, `short_read_wgs_bases`, `nominal_depth`, `depth_reference_accession` | Yield totals, nominal depth and explicit denominator provenance |
+| `explicit_low_coverage_label`, `nominal_low_depth_candidate` | Submitter/curated wording versus an analytical screening estimate |
+| `within_atlas_bounds`, `post_1930`, `map_candidate`, `review_reason` | Individual screening decisions and remaining review needs |
+| `sample_count`, `count_unit`, `specimen_count`, `integration_status` | Explicit BioSample counting; no inferred independent-fish count |
+| `source_url`, `retrieved_utc`, `sha256` | Record/request provenance and exact snapshot verification |
+
+CSV blank values represent missing data. In SQLite, blanks become SQL NULL;
+boolean values are stored as the explicit text `TRUE`/`FALSE`. Accessions remain
+text. Common measures/counts have numeric affinity; raw attribute values remain
+text so archive content is preserved. Python/SQLite exports are transport only;
+the scientific decisions and summary report are built in R.

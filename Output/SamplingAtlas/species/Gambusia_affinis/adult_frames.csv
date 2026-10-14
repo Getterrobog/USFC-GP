@@ -1,0 +1,3 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Gambusia affinis","adult",1916,"1916",256,256,0,-100,-50,5,60,2,"species/Gambusia_affinis/adult_frames/year_1916.png"
+"Gambusia affinis","adult",1917,"1917",25,25,0,-100,-50,5,60,2,"species/Gambusia_affinis/adult_frames/year_1917.png"

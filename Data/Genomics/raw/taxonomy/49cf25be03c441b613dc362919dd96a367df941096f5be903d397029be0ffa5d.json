@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Citharichthys%20spilopterus",
+  "retrieved_utc": "2026-10-13T04:05:01.031278+00:00",
+  "sha256": "5dd683a55a73658fb7c49fd9b961f0d3b875fe9944086f4e57cfb3b4f63a7507",
+  "http_status": 200,
+  "bytes": 688,
+  "cache_path": "Data/Genomics/raw/taxonomy/49cf25be03c441b613dc362919dd96a367df941096f5be903d397029be0ffa5d.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Ammodytes+dubius%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:16.915381+00:00",
+  "sha256": "a8ed461676cd5f50cd3cc6fdc8b9d0a9c98a7d8b9c79c77bb26b3b36787133ce",
+  "http_status": 200,
+  "bytes": 3406,
+  "cache_path": "Data/Genomics/raw/geome/9c6260fe17e63004b037bda226183d832ae7fd8a00afb0aaef4ef28ec8752d0c.gz"
+}

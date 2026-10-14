@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Syacium+papillosum%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:48.339280+00:00",
+  "sha256": "369fdea3b009385054a8f5aa40772ce385a07080781a41f2c5f40ed600a699bc",
+  "http_status": 200,
+  "bytes": 2269,
+  "cache_path": "Data/Genomics/raw/geome/488697015d01a8a3a1069f143f617032b91eba0e04be1c8a4d2b98ec31743ace.gz"
+}

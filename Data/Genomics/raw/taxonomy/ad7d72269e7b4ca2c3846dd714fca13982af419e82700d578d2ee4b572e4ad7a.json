@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Bothus%20ocellatus",
+  "retrieved_utc": "2026-10-13T04:05:11.736744+00:00",
+  "sha256": "cf01486d4e3ff67595e6c0780049960da5aa9b46397dd453656cd402ffaba3ec",
+  "http_status": 200,
+  "bytes": 740,
+  "cache_path": "Data/Genomics/raw/taxonomy/ad7d72269e7b4ca2c3846dd714fca13982af419e82700d578d2ee4b572e4ad7a.gz"
+}

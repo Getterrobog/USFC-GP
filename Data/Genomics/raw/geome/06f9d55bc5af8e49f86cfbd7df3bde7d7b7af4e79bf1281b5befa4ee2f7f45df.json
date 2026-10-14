@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Laemonema+barbatulum%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:40.236564+00:00",
+  "sha256": "d8c687564b43b6677dc0fdb4a6147812d74cf2d47d6a21fa0243afbc2664c387",
+  "http_status": 200,
+  "bytes": 2522,
+  "cache_path": "Data/Genomics/raw/geome/06f9d55bc5af8e49f86cfbd7df3bde7d7b7af4e79bf1281b5befa4ee2f7f45df.gz"
+}

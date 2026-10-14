@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Anchoa+mitchilli%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:06.466590+00:00",
+  "sha256": "9ad582d8ef9dda3682f4ce24c409a5c8b18707cffa9e77a12e95e21b4d30f29e",
+  "http_status": 200,
+  "bytes": 3938,
+  "cache_path": "Data/Genomics/raw/geome/5d608df1a86e0ddb01171ec65fcf7ff00421b4b6e59486265d30e143e3b5dcda.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Brevoortia%20patronus",
+  "retrieved_utc": "2026-10-13T04:05:12.281478+00:00",
+  "sha256": "1f17a0f4608da33f7fc2a3f1fb685717ba01c5de658defcca834683aa3aedf8d",
+  "http_status": 200,
+  "bytes": 593,
+  "cache_path": "Data/Genomics/raw/taxonomy/6b71e5f3db7de3b7110c9c46a60150903017c8d7eb604b65c8ec8919df92f388.gz"
+}

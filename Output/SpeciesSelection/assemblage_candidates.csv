@@ -1,0 +1,128 @@
+"site_id","life_stage","year","species_count","specimens","single_lot_species","species","meets_multispecies_screen","representative_locality","regions","diameter_km"
+"D20_S0061","adult",1885,5,207,4,"Atherinomorus stipes; Eucinostomus gula; Jenkinsia stolifera; Lutjanus synagris; Monacanthus ciliatus",TRUE,"Key West, Florida","Gulf of Mexico",18.1240131239641
+"D20_S0050","adult",1885,5,125,2,"Anchoa cayorum; Fundulus heteroclitus; Fundulus similis; Lagodon rhomboides; Menidia peninsulae",TRUE,"Florida: Tampa Bay; Gulf of Mexico","Gulf of Mexico",19.5266434861216
+"D20_S0133","adult",1921,5,107,2,"Alosa aestivalis; Alosa pseudoharengus; Anchoa mitchilli; Brevoortia tyrannus; Paralichthys dentatus",TRUE,"Chesapeake Bay, Thimble Light east northeast 3/4 east, Bell Buoy #15 southeast 1/8 east","Atlantic",14.6258929493622
+"D20_S0133","adult",1892,4,193,1,"Anchoa cayorum; Anchoa mitchilli; Membras martinica; Menidia menidia",TRUE,"Chesapeake Bay, Thimble Light east northeast 3/4 east, Bell Buoy #15 southeast 1/8 east","Atlantic",14.6258929493622
+"D20_S0093","adult",1915,3,848,3,"Anchoa mitchilli; Membras martinica; Stellifer lanceolatus",TRUE,"Winyah Bay, South Carolina","Atlantic",6.56564661576044
+"D20_S0282","adult",1899,3,299,1,"Citharichthys spilopterus; Poecilia vivipara; Sparisoma radians",TRUE,"Hucares, Puerto Rico","Caribbean",18.7001232204085
+"D20_S0222","adult",1892,3,246,1,"Brevoortia tyrannus; Centropristis striata; Tautogolabrus adspersus",TRUE,"Vineyard Sound","Atlantic",15.3166527021574
+"D20_S0061","adult",1884,3,197,0,"Fundulus similis; Haemulon plumierii; Lutjanus synagris",TRUE,"Key West, Florida","Gulf of Mexico",18.1240131239641
+"D20_S0050","adult",1898,3,128,1,"Fundulus heteroclitus; Fundulus similis; Menidia peninsulae",TRUE,"Florida: Tampa Bay; Gulf of Mexico","Gulf of Mexico",19.5266434861216
+"D20_S0133","adult",1916,3,91,2,"Alosa aestivalis; Alosa pseudoharengus; Anchoa mitchilli",TRUE,"Chesapeake Bay, Thimble Light east northeast 3/4 east, Bell Buoy #15 southeast 1/8 east","Atlantic",14.6258929493622
+"D20_S0132","adult",1916,3,87,0,"Alosa aestivalis; Alosa pseudoharengus; Menidia menidia",TRUE,"2.75 miles east 0.5 mile south from Point No Point Lighthouse, (Chesapeake Bay)","Atlantic",16.814763854309
+"D20_S0120","larva",1914,3,74,2,"Caranx latus; Cheilopogon furcatus; Exocoetus volitans",TRUE,"Gulf Stream, off Cape Lookout, North Carolina","Atlantic",17.947416963702
+"D20_S0123","adult",1916,2,377,0,"Alosa aestivalis; Alosa pseudoharengus",FALSE,"Chesapeake Bay, range Buoy B-20 to C-20","Atlantic",15.1320698509102
+"D20_S0170","larva",1913,2,176,2,"Citharichthys arctifrons; Pomatomus saltatrix",FALSE,"Atlantic Ocean, off Virginia","Atlantic",0.730432327669911
+"D20_S0168","adult",1886,2,172,1,"Gonichthys cocco; Lycodes terraenovae",FALSE,"Nantucket to Cape Charles","Atlantic",0
+"D20_S0273","adult",1899,2,138,2,"Atherinomorus stipes; Sparisoma radians",FALSE,"Puerto Rico, Ponce","Caribbean",4.68666374816938
+"D20_S0285","adult",1899,2,136,0,"Atherinomorus stipes; Jenkinsia lamprotaenia",FALSE,"Puerto Rico, Culebra Island","Caribbean",0
+"D20_S0107","adult",1885,2,118,1,"Coelorinchus carminatus; Laemonema barbatulum",FALSE,"General position: Cape Hatteras to Charleston, South Carolina","Atlantic",2.19537885432841
+"D20_S0142","adult",1885,2,109,2,"Chloroscombrus chrysurus; Decapterus punctatus",FALSE,"Beaufort, North Carolina","Atlantic",11.3442374807955
+"D20_S0127","adult",1916,2,101,2,"Alosa aestivalis; Alosa pseudoharengus",FALSE,"Cove Point Light","Atlantic",0
+"D20_S0130","adult",1914,2,100,0,"Alosa aestivalis; Alosa pseudoharengus",FALSE,"0.6 miles southwest by west 1/2 west from Spar Buoy 16d - Barren Island, Cove Point Light northwest 1/8 north, Tar Bay Front Light noerteast by east 1/2 east Chesapeake Bay","Atlantic",12.8072683285385
+"D20_S0064","adult",1919,2,76,2,"Chloroscombrus chrysurus; Cynoscion nothus",FALSE,"Florida Off Key West","Gulf of Mexico",14.6679026560505
+"D20_S0183","adult",1886,2,73,2,"Gonichthys cocco; Myctophum affine",FALSE,"General position: Nantucket to Cape Charles","Atlantic",0
+"D20_S0237","adult",1915,2,69,2,"Syngnathus fuscus; Tautogolabrus adspersus",FALSE,"North Truro, Cape Cod, Massachusetts","Atlantic",12.531893308826
+"D20_S0012","adult",1885,2,61,0,"Chromis enchrysurus; Monacanthus ciliatus",FALSE,"General position: Havana, Cuba, to Yucatan","Gulf of Mexico",19.7587776696688
+"D20_S0136","adult",1914,2,57,1,"Alosa aestivalis; Alosa pseudoharengus",FALSE,"Chesapeake Bay, 0.9 miles south southwest from Hooper Island Light","Atlantic",18.7424980833765
+"D20_S0148","adult",1885,2,54,1,"Decapterus punctatus; Haemulon aurolineatum",FALSE,"General position: Cape Hatteras to Charleston, South Carolina","Atlantic",19.1278894145194
+"D20_S0124","adult",1914,2,53,0,"Alosa aestivalis; Alosa pseudoharengus",FALSE,"Sharp's Island Light southeast 1/2 south","Atlantic",11.9033685641767
+"D20_S0130","adult",1916,2,52,0,"Alosa aestivalis; Pseudopleuronectes americanus",FALSE,"0.6 miles southwest by west 1/2 west from Spar Buoy 16d - Barren Island, Cove Point Light northwest 1/8 north, Tar Bay Front Light noerteast by east 1/2 east Chesapeake Bay","Atlantic",12.8072683285385
+"D20_S0239","adult",1886,2,43,2,"Gonichthys cocco; Myctophum affine",FALSE,"General position: Nantucket to Cape Charles","Atlantic",0
+"D20_S0144","adult",1882,2,40,1,"Anchoa mitchilli; Syngnathus fuscus",FALSE,"Kings Creek, Cape Charles City, Virginia","Atlantic",10.2693161085199
+"D20_S0001","adult",1917,2,38,1,"Etropus crossotus; Syacium papillosum",FALSE,"Off Galveston, Texas","Gulf of Mexico",0
+"D20_S0144","adult",1892,2,37,1,"Brevoortia tyrannus; Menidia menidia",FALSE,"Kings Creek, Cape Charles City, Virginia","Atlantic",10.2693161085199
+"D20_S0142","larva",1914,2,33,1,"Cheilopogon furcatus; Hyporhamphus unifasciatus",FALSE,"Beaufort, North Carolina","Atlantic",11.3442374807955
+"D20_S0061","adult",1902,2,32,1,"Monacanthus ciliatus; Syacium papillosum",FALSE,"Key West, Florida","Gulf of Mexico",18.1240131239641
+"D20_S0136","adult",1916,2,26,1,"Menidia menidia; Pseudopleuronectes americanus",FALSE,"Chesapeake Bay, 0.9 miles south southwest from Hooper Island Light","Atlantic",18.7424980833765
+"D20_S0235","adult",1885,2,24,1,"Glyptocephalus cynoglossus; Hygophum hygomii",FALSE,"General position: Cape Sable to Cape May","Atlantic",13.0259455520743
+"D20_S0265","adult",1899,2,21,1,"Caranx latus; Sparisoma radians",FALSE,"Boqueron, Puerto Rico","Caribbean",19.766430162194
+"D20_S0103","adult",1916,1,256,0,"Gambusia affinis",FALSE,"North Carolina, Wilmington","Atlantic",2.59254031122623
+"D20_S0140","adult",1914,1,251,0,"Alosa aestivalis",FALSE,"Chesapeake Bay, Smith Point, north by west, Great Wicomico River west by south 1/2 south, near Smith Point","Atlantic",7.27462847177632
+"D20_S0093","larva",1915,1,250,0,"Anchoa mitchilli",FALSE,"Winyah Bay, South Carolina","Atlantic",6.56564661576044
+"D20_S0146","adult",1885,1,142,0,"Fenestraja plutonia",FALSE,"Charleston, SC or Cape Charles, VA","Atlantic",13.5488273923267
+"D20_S0240","adult",1915,1,125,0,"Alosa pseudoharengus",FALSE,"Converse Island, Freeport River, Maine","Atlantic",18.8415300830738
+"D20_S0200","adult",1885,1,101,0,"Gonichthys cocco",FALSE,"Atlantic","Atlantic",18.1573434241651
+"D20_S0248","adult",1915,1,100,1,"Alosa pseudoharengus",FALSE,"Maine, Campbell's Creek, West Harbor, Boothbay","Atlantic",0
+"D20_S0123","adult",1914,1,91,0,"Alosa aestivalis",FALSE,"Chesapeake Bay, range Buoy B-20 to C-20","Atlantic",15.1320698509102
+"D20_S0237","adult",1896,1,90,0,"Ammodytes dubius",FALSE,"North Truro, Cape Cod, Massachusetts","Atlantic",12.531893308826
+"D20_S0025","adult",1913,1,80,1,"Lagodon rhomboides",FALSE,"Canabelle, Saint George Sound, Florida","Gulf of Mexico",0
+"D20_S0134","adult",1892,1,59,1,"Syngnathus fuscus",FALSE,"Rappahannock River, near mouth Windmill Creek, Virginia","Atlantic",0.452682323739265
+"D20_S0120","adult",1914,1,56,0,"Exocoetus volitans",FALSE,"Gulf Stream, off Cape Lookout, North Carolina","Atlantic",17.947416963702
+"D20_S0088","adult",1885,1,55,1,"Exocoetus volitans",FALSE,"","Atlantic",0
+"D20_S0126","adult",1892,1,50,1,"Brevoortia tyrannus",FALSE,"Head of creek, East River, Mobjack Bay, Virginia","Atlantic",18.042093795066
+"D20_S0152","larva",1919,1,50,1,"Bothus ocellatus",FALSE,"General position: Cape Hatteras to Charleston, South Carolina","Atlantic",18.2796727010187
+"D20_S0120","mixed",1914,1,49,0,"Exocoetus volitans",FALSE,"Gulf Stream, off Cape Lookout, North Carolina","Atlantic",17.947416963702
+"D20_S0017","larva",1919,1,47,1,"Cyclothone microdon",FALSE,"Yucatan Channel","Caribbean",0
+"D20_S0111","adult",1914,1,44,1,"Centrobranchus nigroocellatus",FALSE,"Northeast Providence Channel (surface)","Atlantic",0
+"D20_S0193","larva",1913,1,40,1,"Citharichthys arctifrons",FALSE,"Atlantic","Atlantic",0
+"D20_S0079","adult",1886,1,39,1,"Fenestraja plutonia",FALSE,"General position: Bahamas, to Cape Fear, North Carolina","Atlantic",0
+"D20_S0159","adult",1884,1,35,0,"Lycenchelys verrillii",FALSE,"General position: Cape Hatteras to Nantucket","Atlantic",10.3062371314375
+"D20_S0173","adult",1886,1,35,1,"Gonichthys cocco",FALSE,"[Off North Carolina and Virginia]; Nantucket to Cape Charles","Atlantic",0
+"D20_S0157","adult",1884,1,33,1,"Histrio histrio",FALSE,"Caribbean","Caribbean",0
+"D20_S0250","larva",1884,1,30,1,"Liparis inquilinus",FALSE,"General position: Cape Hatteras to Nantucket","Atlantic",17.1388804537439
+"D20_S0130","adult",1921,1,28,1,"Brevoortia tyrannus",FALSE,"0.6 miles southwest by west 1/2 west from Spar Buoy 16d - Barren Island, Cove Point Light northwest 1/8 north, Tar Bay Front Light noerteast by east 1/2 east Chesapeake Bay","Atlantic",12.8072683285385
+"D20_S0140","adult",1916,1,27,0,"Alosa aestivalis",FALSE,"Chesapeake Bay, Smith Point, north by west, Great Wicomico River west by south 1/2 south, near Smith Point","Atlantic",7.27462847177632
+"D20_S0021","adult",1917,1,25,1,"Gambusia affinis",FALSE,"Florida, Port St. Joe (ditches)","Gulf of Mexico",7.04635225197467
+"D20_S0093","adult",1891,1,25,1,"Menidia menidia",FALSE,"Winyah Bay, South Carolina","Atlantic",6.56564661576044
+"D20_S0102","adult",1915,1,25,1,"Menidia menidia",FALSE,"Winyah Bay, South Carolina [sic]","Atlantic",0
+"D20_S0104","adult",1885,1,23,0,"Chlorophthalmus agassizi",FALSE,"General position: Charleston to Savannah","Atlantic",0
+"D20_S0240","adult",1892,1,23,1,"Menidia menidia",FALSE,"Converse Island, Freeport River, Maine","Atlantic",18.8415300830738
+"D20_S0002","adult",1917,1,22,1,"Anchoa mitchilli",FALSE,"Gulf of Mexico, Louisiana, off Calcasica Pass","Gulf of Mexico",0
+"D20_S0039","adult",1885,1,22,0,"Haemulon aurolineatum",FALSE,"Gulf of Mexico","Gulf of Mexico",0
+"D20_S0139","adult",1914,1,22,1,"Alosa aestivalis",FALSE,"Off Taylor Island above Cove Point, Cove Point Light south 1/2 west, Sharps Island Light north 7/8 east","Atlantic",0
+"D20_S0222","adult",1885,1,22,0,"Menidia menidia",FALSE,"Vineyard Sound","Atlantic",15.3166527021574
+"D20_S0233","adult",1884,1,22,0,"Citharichthys arctifrons",FALSE,"General position: Cape Hatteras to Nantucket","Atlantic",9.83236178535374
+"D20_S0053","adult",1917,1,21,0,"Mullus auratus",FALSE,"Off Boca Grande, Florida, (near outer buoy)","Gulf of Mexico",11.5861056699703
+"D20_S0126","adult",1916,1,21,1,"Gobiosoma ginsburgi",FALSE,"Head of creek, East River, Mobjack Bay, Virginia","Atlantic",18.042093795066
+"D20_S0075","adult",1891,1,20,1,"Fundulus heteroclitus",FALSE,"Parrot Creek, South Carolina","Atlantic",16.6340253878726
+"D20_S0230","adult",1899,1,20,0,"Stephanolepis hispida",FALSE,"Katama Bay, Massachusetts","Atlantic",4.99016507702275
+"D20_S0235","adult",1899,1,20,1,"Citharichthys arctifrons",FALSE,"General position: Cape Sable to Cape May","Atlantic",13.0259455520743
+"D20_S0258","larva",1914,1,20,1,"Bothus ocellatus",FALSE,"185 miles west of Bermuda","Atlantic",0
+"D20_S0152","larva",1885,1,19,1,"Chloroscombrus chrysurus",FALSE,"General position: Cape Hatteras to Charleston, South Carolina","Atlantic",18.2796727010187
+"D20_S0277","adult",1899,1,19,0,"Bathygobius soporator",FALSE,"Palo Seco, San Juan, Puerto Rico","Caribbean",7.01592958077088
+"D20_S0147","larva",1914,1,18,0,"Hyporhamphus unifasciatus",FALSE,"Gulf Stream","Atlantic",13.7146935234993
+"D20_S0167","adult",1885,1,18,0,"Citharichthys arctifrons",FALSE,"General position: Savannah to Cape Charles","Atlantic",9.22268452940303
+"D20_S0174","adult",1887,1,18,0,"Lycodes terraenovae",FALSE,"General position: Cape Charles to Long Island","Atlantic",6.38930594426869
+"D20_S0247","adult",1883,1,18,1,"Cyclothone microdon",FALSE,"General position: Cape Hatteras to Nantucket","Atlantic",0
+"D20_S0293","adult",1884,1,18,1,"Cynoscion nothus",FALSE,"Caribbean Sea","Caribbean",0
+"D20_S0043","adult",1885,1,17,1,"Chromis enchrysurus",FALSE,"Gulf of Mexico","Gulf of Mexico",0
+"D20_S0167","adult",1884,1,17,1,"Chlorophthalmus agassizi",FALSE,"General position: Savannah to Cape Charles","Atlantic",9.22268452940303
+"D20_S0222","adult",1899,1,17,0,"Strongylura marina",FALSE,"Vineyard Sound","Atlantic",15.3166527021574
+"D20_S0241","adult",1880,1,17,1,"Phycis chesteri",FALSE,"General position: Cape Hatteras to Nantucket","Atlantic",7.00262929764055
+"D20_S0147","adult",1914,1,16,0,"Decapterus punctatus",FALSE,"Gulf Stream","Atlantic",13.7146935234993
+"D20_S0033","adult",1901,1,15,1,"Haemulon plumierii",FALSE,"Florida, Pepperfish Key","Gulf of Mexico",0
+"D20_S0155","adult",1884,1,15,1,"Monacanthus ciliatus",FALSE,"General position: Cape Hatteras to Nantucket","Atlantic",9.46221061128441
+"D20_S0184","larva",1914,1,15,1,"Bothus ocellatus",FALSE,"120 miles east southeast from Cape Hatteras","Atlantic",0
+"D20_S0217","adult",1880,1,15,0,"Nezumia bairdii",FALSE,"Off Martha's Vineyard","Atlantic",19.3222105604312
+"D20_S0223","adult",1883,1,15,1,"Citharichthys arctifrons",FALSE,"General position: Nantucket to Cape Sable, Nova Scotia","Atlantic",17.1368540042343
+"D20_S0242","adult",1884,1,15,0,"Citharichthys arctifrons",FALSE,"General position: Cape Hatteras to Nantucket","Atlantic",10.2453869561576
+"D20_S0062","larva",1914,1,14,1,"Bothus ocellatus",FALSE,"Cuba","Atlantic",0
+"D20_S0131","larva",1914,1,14,1,"Histrio histrio",FALSE,"","Atlantic",0
+"D20_S0145","adult",1916,1,14,1,"Membras martinica",FALSE,"Cape Charles Light northeast 1/4 east, Fisherman's Island Light north 1/4 east","Atlantic",13.9872468859504
+"D20_S0232","adult",1884,1,14,1,"Citharichthys arctifrons",FALSE,"General position: Cape May to Nantucket","Atlantic",8.27917048295006
+"D20_S0073","adult",1891,1,13,1,"Menidia menidia",FALSE,"Tybee Roads, Georgia","Atlantic",0
+"D20_S0123","adult",1882,1,13,1,"Alosa aestivalis",FALSE,"Chesapeake Bay, range Buoy B-20 to C-20","Atlantic",15.1320698509102
+"D20_S0130","adult",1882,1,13,0,"Anchoa mitchilli",FALSE,"0.6 miles southwest by west 1/2 west from Spar Buoy 16d - Barren Island, Cove Point Light northwest 1/8 north, Tar Bay Front Light noerteast by east 1/2 east Chesapeake Bay","Atlantic",12.8072683285385
+"D20_S0144","adult",1921,1,13,1,"Alosa aestivalis",FALSE,"Kings Creek, Cape Charles City, Virginia","Atlantic",10.2693161085199
+"D20_S0158","adult",1913,1,13,1,"Liparis inquilinus",FALSE,"","Atlantic",0
+"D20_S0263","adult",1885,1,13,0,"Cyclothone microdon",FALSE,"General position: Cape Sable to Cape May","Atlantic",5.42532686636658
+"D20_S0032","adult",1901,1,12,0,"Monacanthus ciliatus",FALSE,"Pepperfish Key, Florida","Gulf of Mexico",11.4232557822485
+"D20_S0042","adult",1902,1,12,0,"Monacanthus ciliatus",FALSE,"St Martin's, Florida","Gulf of Mexico",14.6353691395963
+"D20_S0124","adult",1916,1,12,1,"Brevoortia tyrannus",FALSE,"Sharp's Island Light southeast 1/2 south","Atlantic",11.9033685641767
+"D20_S0170","adult",1913,1,12,1,"Liparis inquilinus",FALSE,"Atlantic Ocean, off Virginia","Atlantic",0.730432327669911
+"D20_S0211","adult",1914,1,12,1,"Centrobranchus nigroocellatus",FALSE,"Bermuda Island, off Bermuda","Atlantic",0
+"D20_S0023","adult",1917,1,11,1,"Anchoa mitchilli",FALSE,"Gulf of Mexico, Florida, south of Apalachicola Bay","Gulf of Mexico",0
+"D20_S0038","adult",1901,1,11,1,"Monacanthus ciliatus",FALSE,"Florida, west coast, North Key","Gulf of Mexico",0
+"D20_S0085","adult",1886,1,11,0,"Laemonema barbatulum",FALSE,"General position: Bahamas, to Cape Fear, North Carolina","Atlantic",0
+"D20_S0141","adult",1914,1,11,1,"Alosa aestivalis",FALSE,"San Marcos Wreck north 3/8 west, Maps Creek Point Exs.","Atlantic",14.888946374582
+"D20_S0166","adult",1883,1,11,0,"Lycodes terraenovae",FALSE,"General position: Cape Hatteras to Nantucket","Atlantic",9.12884373266062
+"D20_S0206","adult",1884,1,11,0,"Nezumia bairdii",FALSE,"General position: Cape Hatteras to Nantucket","Atlantic",10.0347134173527
+"D20_S0216","adult",1886,1,11,1,"Cyclothone microdon",FALSE,"General position: Nantucket to Cape Charles","Atlantic",0
+"D20_S0224","adult",1884,1,11,1,"Cyclothone microdon",FALSE,"General position: Cape Hatteras to Nantucket","Atlantic",0
+"D20_S0114","adult",1886,1,10,1,"Fenestraja plutonia",FALSE,"General position: Bahamas, to Cape Fear, North Carolina","Atlantic",0
+"D20_S0123","adult",1921,1,10,1,"Alosa pseudoharengus",FALSE,"Chesapeake Bay, range Buoy B-20 to C-20","Atlantic",15.1320698509102
+"D20_S0130","larva",1916,1,10,1,"Menidia menidia",FALSE,"0.6 miles southwest by west 1/2 west from Spar Buoy 16d - Barren Island, Cove Point Light northwest 1/8 north, Tar Bay Front Light noerteast by east 1/2 east Chesapeake Bay","Atlantic",12.8072683285385
+"D20_S0207","adult",1885,1,10,0,"Citharichthys arctifrons",FALSE,"General position: Cape Sable to Cape May","Atlantic",9.3729581965278
+"D20_S0210","adult",1881,1,10,0,"Lycenchelys verrillii",FALSE,"Atlantic Ocean: Off Martha's Vineyard","Atlantic",9.29590870752331
+"D20_S0218","adult",1886,1,10,0,"Cyclothone microdon",FALSE,"[Off New York: Off Long Island]; Long Island to Nantucket","Atlantic",18.2434576107624

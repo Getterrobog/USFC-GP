@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Tautogolabrus+adspersus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:11.012677+00:00",
+  "sha256": "b196391a3b831570a0be3e2b19c29282111b38ea0408cdacf6c253d5b47cd703",
+  "http_status": 200,
+  "bytes": 3040,
+  "cache_path": "Data/Genomics/raw/geome/cc97550ae69924808e6675cf4e34793b208660cedea66914f76bde1bce8686e3.gz"
+}

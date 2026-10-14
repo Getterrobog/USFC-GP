@@ -1,0 +1,91 @@
+USFC HISTORICAL SAMPLING SELECTION DIGEST
+
+Species eligibility: >= 50 dated specimens through 1930, across stages and the study area.
+Below: dated, mapped physical specimens only; type/depleted/not-found flags excluded.
+Adult means non-larval; maturity is unverified. Counts are availability screens, not approved DNA samples.
+Regional totals are not automatically sufficient sample sizes at a single locality or time.
+
+ATLANTIC | ADULT / NON-LARVAL
+  Alosa aestivalis: 1024 specimens, 48 lots, 7 years (1882-1921), 5 cells; largest lot 10%
+  Stellifer lanceolatus: 750 specimens, 1 lots, 1 years (1915-1915), 1 cells; largest lot 100%
+  Alosa pseudoharengus: 596 specimens, 35 lots, 6 years (1887-1921), 6 cells; largest lot 17%
+  Gonichthys cocco: 348 specimens, 20 lots, 2 years (1885-1886), 8 cells; largest lot 46%
+  Gambusia affinis: 256 specimens, 2 lots, 1 years (1916-1916), 1 cells; largest lot 96%
+  Menidia menidia: 233 specimens, 39 lots, 10 years (1885-1916), 7 cells; largest lot 11%
+  Brevoortia tyrannus: 210 specimens, 13 lots, 6 years (1882-1921), 5 cells; largest lot 24%
+  Fenestraja plutonia: 201 specimens, 13 lots, 2 years (1885-1886), 5 cells; largest lot 25%
+  Centropristis striata: 191 specimens, 21 lots, 9 years (1883-1916), 6 cells; largest lot 34%
+  Citharichthys arctifrons: 166 specimens, 28 lots, 8 years (1880-1919), 9 cells; largest lot 12%
+
+ATLANTIC | LARVAE
+  Anchoa mitchilli: 251 specimens, 4 lots, 2 years (1915-1920), 2 cells; largest lot 40%
+  Bothus ocellatus: 175 specimens, 33 lots, 3 years (1913-1919), 18 cells; largest lot 29%
+  Pomatomus saltatrix: 156 specimens, 1 lots, 1 years (1913-1913), 1 cells; largest lot 100%
+  Citharichthys arctifrons: 60 specimens, 2 lots, 1 years (1913-1913), 2 cells; largest lot 67%
+  Cheilopogon furcatus: 50 specimens, 17 lots, 1 years (1914-1914), 2 cells; largest lot 30%
+  Hyporhamphus unifasciatus: 49 specimens, 8 lots, 2 years (1914-1916), 3 cells; largest lot 45%
+  Liparis inquilinus: 30 specimens, 1 lots, 1 years (1884-1884), 1 cells; largest lot 100%
+  Histrio histrio: 29 specimens, 11 lots, 2 years (1914-1919), 9 cells; largest lot 48%
+  Caranx latus: 25 specimens, 1 lots, 1 years (1914-1914), 1 cells; largest lot 100%
+  Chloroscombrus chrysurus: 21 specimens, 2 lots, 2 years (1885-1915), 2 cells; largest lot 90%
+
+CARIBBEAN | ADULT / NON-LARVAL
+  Poecilia vivipara: 254 specimens, 5 lots, 1 years (1899-1899), 1 cells; largest lot 87%
+  Atherinomorus stipes: 231 specimens, 6 lots, 1 years (1899-1899), 2 cells; largest lot 55%
+  Sparisoma radians: 59 specimens, 11 lots, 1 years (1899-1899), 3 cells; largest lot 19%
+  Jenkinsia lamprotaenia: 37 specimens, 4 lots, 1 years (1899-1899), 1 cells; largest lot 68%
+  Histrio histrio: 34 specimens, 2 lots, 1 years (1884-1884), 2 cells; largest lot 97%
+  Bathygobius soporator: 28 specimens, 12 lots, 1 years (1899-1899), 3 cells; largest lot 29%
+  Lutjanus apodus: 27 specimens, 12 lots, 1 years (1899-1899), 3 cells; largest lot 22%
+  Cynoscion nothus: 18 specimens, 1 lots, 1 years (1884-1884), 1 cells; largest lot 100%
+  Citharichthys spilopterus: 14 specimens, 2 lots, 1 years (1899-1899), 2 cells; largest lot 79%
+  Caranx latus: 10 specimens, 1 lots, 1 years (1899-1899), 1 cells; largest lot 100%
+
+CARIBBEAN | LARVAE
+  Cyclothone microdon: 47 specimens, 1 lots, 1 years (1919-1919), 1 cells; largest lot 100%
+  Bothus ocellatus: 2 specimens, 2 lots, 1 years (1919-1919), 1 cells; largest lot 50%
+
+GULF OF MEXICO | ADULT / NON-LARVAL
+  Fundulus similis: 222 specimens, 12 lots, 3 years (1884-1898), 2 cells; largest lot 18%
+  Monacanthus ciliatus: 179 specimens, 52 lots, 3 years (1885-1902), 7 cells; largest lot 15%
+  Lagodon rhomboides: 119 specimens, 16 lots, 7 years (1884-1917), 8 cells; largest lot 67%
+  Atherinomorus stipes: 112 specimens, 2 lots, 2 years (1885-1919), 1 cells; largest lot 94%
+  Fundulus heteroclitus: 67 specimens, 4 lots, 3 years (1884-1898), 2 cells; largest lot 43%
+  Menidia peninsulae: 64 specimens, 5 lots, 3 years (1885-1898), 1 cells; largest lot 53%
+  Chromis enchrysurus: 58 specimens, 8 lots, 1 years (1885-1885), 3 cells; largest lot 41%
+  Anchoa cayorum: 51 specimens, 1 lots, 1 years (1885-1885), 1 cells; largest lot 100%
+  Chloroscombrus chrysurus: 46 specimens, 1 lots, 1 years (1919-1919), 1 cells; largest lot 100%
+  Haemulon aurolineatum: 46 specimens, 10 lots, 7 years (1885-1917), 3 cells; largest lot 33%
+
+GULF OF MEXICO | LARVAE
+  Bothus ocellatus: 13 specimens, 6 lots, 2 years (1917-1919), 4 cells; largest lot 46%
+  Citharichthys spilopterus: 8 specimens, 1 lots, 1 years (1917-1917), 1 cells; largest lot 100%
+  Symphurus plagiusa: 2 specimens, 1 lots, 1 years (1917-1917), 1 cells; largest lot 100%
+  Atherinomorus stipes: 1 specimens, 1 lots, 1 years (1919-1919), 1 cells; largest lot 100%
+
+SHARED SPECIES IN THE SAME CELL AND YEAR
+Each species has at least the configured cell-period threshold in that year.
+  Atlantic | adult | 1892 | southwest cell corner 78 W, 36 N | 6 species, 318 specimens
+     Anchoa cayorum; Anchoa mitchilli; Brevoortia tyrannus; Membras martinica; Menidia menidia; Syngnathus fuscus
+  Atlantic | adult | 1885 | southwest cell corner 72 W, 38 N | 6 species, 168 specimens
+     Citharichthys arctifrons; Dibranchus atlanticus; Glyptocephalus cynoglossus; Gonichthys cocco; Hygophum hygomii; Nezumia bairdii
+  Atlantic | adult | 1899 | southwest cell corner 72 W, 40 N | 6 species, 85 specimens
+     Centropristis striata; Menidia menidia; Pseudopleuronectes americanus; Stephanolepis hispida; Strongylura marina; Tautogolabrus adspersus
+  Caribbean | adult | 1899 | southwest cell corner 66 W, 18 N | 6 species, 449 specimens
+     Atherinomorus stipes; Citharichthys spilopterus; Jenkinsia lamprotaenia; Lutjanus apodus; Poecilia vivipara; Sparisoma radians
+  Caribbean | adult | 1899 | southwest cell corner 68 W, 18 N | 5 species, 199 specimens
+     Atherinomorus stipes; Bathygobius soporator; Caranx latus; Lutjanus apodus; Sparisoma radians
+  Gulf of Mexico | adult | 1885 | southwest cell corner 84 W, 26 N | 7 species, 165 specimens
+     Anchoa cayorum; Chromis enchrysurus; Fundulus heteroclitus; Fundulus similis; Haemulon aurolineatum; Lagodon rhomboides; Menidia peninsulae
+  Gulf of Mexico | adult | 1885 | southwest cell corner 82 W, 24 N | 5 species, 207 specimens
+     Atherinomorus stipes; Eucinostomus gula; Jenkinsia stolifera; Lutjanus synagris; Monacanthus ciliatus
+  Gulf of Mexico | adult | 1902 | southwest cell corner 82 W, 24 N | 5 species, 101 specimens
+     Dibranchus atlanticus; Monacanthus ciliatus; Nezumia aequalis; Syacium papillosum; Symphurus plagiusa
+
+NEXT SELECTION STEPS
+1. Start with shared-year cells in each basin; verify station, exact date, habitat and coordinate precision.
+2. Favor repeated localities and balanced time points over pooled species totals; inspect repeated_historical_cells.csv.
+3. Check dependence on one lot/year and keep larval/non-larval comparisons separate.
+4. Confirm taxonomy, museum availability, fixation history and pilot DNA recovery before final selection.
+5. Add generation length, dispersal, habitat, exploitation and modern resampling feasibility as curated traits.
+6. Repeat screening at alternative grid sizes and time windows before fixing 4-6 regional assemblages.

@@ -1,0 +1,28 @@
+{
+  "species": 80,
+  "fishbase_version": "26.06",
+  "redlist_categories_reported": 72,
+  "redlist_category_counts": {
+    "LC": 67,
+    "VU": 4,
+    "NT": 1
+  },
+  "redlist_fishbase_ne_unverified": 7,
+  "redlist_taxon_unresolved": 1,
+  "redlist_current_latest_verified": 0,
+  "iucn_public_narrative_species": 1,
+  "trophic_level_species": 67,
+  "trophic_diet_estimates": 44,
+  "trophic_food_estimates": 65,
+  "fishbase_feeding_group_species": 68,
+  "reef_matched_species": 18,
+  "reef_diet_guild_species": 16,
+  "any_trophic_group_species": 69,
+  "body_shape_species": 79,
+  "curated_new_evidence_records": 13,
+  "total_evidence_records": 3165,
+  "gap_audit_rows": 2320,
+  "field_gap_audit_rows": 7680,
+  "independent_review": "pending",
+  "limitation": "Red List values are attributed snapshots, not a live/current global-status audit. No API token was available."
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Anchoa+cayorum%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:05.149136+00:00",
+  "sha256": "5e56fa7ed6af8300a7a749e4d05c0c0432f4da7f8e1803ba845592033de2d9c4",
+  "http_status": 200,
+  "bytes": 2143,
+  "cache_path": "Data/Genomics/raw/geome/49157fa5d3047945b6cd798685ffe4b1f22a95fc8c31b6fe6df94ede127937ea.gz"
+}

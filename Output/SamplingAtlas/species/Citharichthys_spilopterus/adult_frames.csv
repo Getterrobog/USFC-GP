@@ -1,0 +1,4 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Citharichthys spilopterus","adult",1884,"1884",2,0,2,-100,-50,5,60,2,"species/Citharichthys_spilopterus/adult_frames/year_1884.png"
+"Citharichthys spilopterus","adult",1899,"1899",14,14,0,-100,-50,5,60,2,"species/Citharichthys_spilopterus/adult_frames/year_1899.png"
+"Citharichthys spilopterus","adult",1917,"1917",16,0,16,-100,-50,5,60,2,"species/Citharichthys_spilopterus/adult_frames/year_1917.png"

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Monacanthus%20ciliatus",
+  "retrieved_utc": "2026-10-13T04:04:53.793547+00:00",
+  "sha256": "41b8f6dd597254b6576480c32d8afd4bcd13deecc6031eb4a7346db9dd8f44cb",
+  "http_status": 200,
+  "bytes": 714,
+  "cache_path": "Data/Genomics/raw/taxonomy/499e97e8f793952cebd9f6c9b0cec8396e12e4f2865163b82a03a9fb1a05bf92.gz"
+}

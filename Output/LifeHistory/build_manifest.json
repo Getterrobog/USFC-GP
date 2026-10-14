@@ -1,0 +1,171 @@
+{
+  "command": "python3 Scripts/build_life_history.py",
+  "counts": {
+    "attached_taxa": 79,
+    "evidence_rows": 2670,
+    "references": 709,
+    "review_rows": 208,
+    "species": 80
+  },
+  "fishbase_version": "26.06",
+  "git_head": "8d831e218da452732a318056ceff463985eac2c9",
+  "git_worktree_dirty": true,
+  "inputs": {
+    "Data/All_collections.csv": "531bfa7fdf49d204eb57530f63cf3af36f23f3fbd6ec68e012296a0ef81427cb",
+    "Data/LifeHistory/raw/v26.06/download_manifest.json": "6a944b2ee0649f33819fade4a7f8433633da0a8112b4c2861d2bf0e7ffb4f20c",
+    "Output/SpeciesSelection/species_investigation_queue.csv": "06398a7d91fad7ebdae04f4b90825dc27b23ab069c9e8da24f0f746bb9781cde",
+    "Scripts/build_life_history.py": "968cff4475fb3d46e75b22c4c61817da056dbbb711a4928f4429d0639edb0346",
+    "Scripts/download_fishbase_traits.py": "c94bbe779a366fc51624aa1ee20b0c49450adafd20d658a1e6d5048d703844a3",
+    "config/life_history_taxon_crosswalk.csv": "cf9ada393757c7341450fd06351bf4d1e5e7056b86bbc6018c4ab2ba0226321f",
+    "docs/life_history_workflow.md": "f6f37cddb9b4756e685c83c5ee436755a9147d6cffc6db0cd2b35991be26dcd9",
+    "requirements-life-history.txt": "7b6b0ff7f646fd7a25e4aea8d50675fd4be27d9fc9fa09f38d0adf6353bd61d8",
+    "tests/test_life_history.py": "02b6f3e1944626f6f4ed6aa708b86e0ab51812298b433622a24805eedd7dc199"
+  },
+  "outputs": {
+    "Output/LifeHistory/README.md": "df6c95992dcf25a014e37fcbe81d4b6b23604be505fe292f6b195dc45440e898",
+    "Output/LifeHistory/life_history_80_species.csv": "03e79c3466b49acb29e96a9ea1ebf2584ccdb9a7e3beb47266a4cbe06510ec55",
+    "Output/LifeHistory/life_history_80_species.xlsx": "8c87ac431e794b5bbd584115a68ec9b28a1b365fb386d177cf0f276bbf052a0e",
+    "Output/LifeHistory/references.csv": "878e0e8853f22fdb87495d60e03497d6dd208b374d58f19d8b34a601f61666c2",
+    "Output/LifeHistory/review_queue.csv": "e4f6a5f1d3ac92fbcd4a1e66d2c382a0ef2b17d8e670a0612c1dfb7bd90fe3d4",
+    "Output/LifeHistory/source_records/ecology.csv": "a1a43fb0a16eca112ad3d8cb1809b65ae50337c28f419e456bd02f957ae823a6",
+    "Output/LifeHistory/source_records/estimate.csv": "8762faf10b4c012dc3c13c306d8140c1e2eb3112684dab4fe24513c2c6af3dc0",
+    "Output/LifeHistory/source_records/fecundity.csv": "190691978d61e74ecc7854073e3f50eda175c1f96b2992bc9fc956d27e42feef",
+    "Output/LifeHistory/source_records/larvae.csv": "db63f767235c66f9b4c29c54478d014e49ec08a289115378d21e50f4912e6551",
+    "Output/LifeHistory/source_records/larvdyn.csv": "d570b1964a2fe167415f7e29571ba7c6b28525b4246f9adeb4b704bd9ff766f3",
+    "Output/LifeHistory/source_records/matrix.csv": "b3613f1ad845cba3db90b9ccb78fe8c17316a6d15bdc6c5a93d0396085f97676",
+    "Output/LifeHistory/source_records/maturity.csv": "9c5c478edddc8d8d99add012d9b06243c0358c0b443a8095a2443234620188d3",
+    "Output/LifeHistory/source_records/popgrowth.csv": "dfebf9825b1a65548c283115cbe6190a5db4fc6c8960cf02c8254abf92ea7308",
+    "Output/LifeHistory/source_records/reproduc.csv": "32e35dbaa8aecbfbd6e2fb35718195db63881822df7b0978e0ead9c87e9c7652",
+    "Output/LifeHistory/source_records/spawning.csv": "bf0e83f77ff06d5e837ba78a33d4530352fda47bdcbc89a0491c07be4dc28e2a",
+    "Output/LifeHistory/source_records/species.csv": "3b7a0e1341b69114d22e3671980e2ec46faaf4121f6cbf43259956e07e7a0fbd",
+    "Output/LifeHistory/source_records/stocks.csv": "3398867824cd96b23044e1e9711002d608742435ed2bc0514bf250eedcf6b3b3",
+    "Output/LifeHistory/source_records/synonyms.csv": "baca3bca701cae5e5db41fbdbf96095f38c681428db819e6200a1c6440bf22d1",
+    "Output/LifeHistory/table_dictionary.csv": "46979cef3b9fae68635c40ade1e3d931a54d50f1c56549ae60f3801589f76e8e",
+    "Output/LifeHistory/taxon_crosswalk.csv": "d4b8461ff9dfdc55dfc549378ea09c3fb778a298dd9526c7efeef0bf033f6baa",
+    "Output/LifeHistory/trait_coverage.csv": "d9188d879435f114467d15bea69e4543dcdfd52642f8a9f685be4c196133331b",
+    "Output/LifeHistory/trait_dictionary.csv": "621c9fc6110dd0bf73dd6972001d8ca4f2c0c85bcfc802ca31dd7c942131ebda",
+    "Output/LifeHistory/trait_evidence.csv": "a2273bfa3a2055c2cb4e6b202e6ece06f9057685c8d6c357e426127aad7e41ff"
+  },
+  "raw_snapshots": {
+    "ecology": {
+      "bytes": 923379,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:22 GMT",
+      "retrieved_utc": "2026-10-13T01:41:29.702144+00:00",
+      "sha256": "a0cc4b3b22e0e55c57b6d63447177ba3cd65e84d71e5c768ac7e3c87d6095cf9",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/ecology.parquet",
+      "version": "26.06"
+    },
+    "estimate": {
+      "bytes": 2384336,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:22 GMT",
+      "retrieved_utc": "2026-10-13T01:41:29.910838+00:00",
+      "sha256": "1a9d9d8eae38449d46b6127c345cfc47cad4accc00fdc793b3dae66b558fc97f",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/estimate.parquet",
+      "version": "26.06"
+    },
+    "fecundity": {
+      "bytes": 253804,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:22 GMT",
+      "retrieved_utc": "2026-10-13T01:41:30.703377+00:00",
+      "sha256": "bfbc5a38377a8e3ef2be6b2ee3b2893f24f32323cb704048e53a3899b79bbb68",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/fecundity.parquet",
+      "version": "26.06"
+    },
+    "larvae": {
+      "bytes": 360347,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+      "retrieved_utc": "2026-10-13T01:41:31.453200+00:00",
+      "sha256": "9cadd492825885dcaa754d83f9465a825b0618c7500613717ffa4835fee07394",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/larvae.parquet",
+      "version": "26.06"
+    },
+    "larvdyn": {
+      "bytes": 7536,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+      "retrieved_utc": "2026-10-13T01:41:31.141758+00:00",
+      "sha256": "00cda1ef450da8a426bae3bbc4d68c81e4c6c412c5627592c2a9d0daafaf0ba9",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/larvdyn.parquet",
+      "version": "26.06"
+    },
+    "matrix": {
+      "bytes": 2368150,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+      "retrieved_utc": "2026-10-13T01:42:01.616299+00:00",
+      "sha256": "b222c1eac18d2aa3291d5ea9927476f318b3464c6b2021ba6a6de4d193752b1a",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/matrix.parquet",
+      "version": "26.06"
+    },
+    "maturity": {
+      "bytes": 300002,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+      "retrieved_utc": "2026-10-13T01:41:29.529691+00:00",
+      "sha256": "3f82a55beba4ce174c0d427fe3048d6aa0792ebc96bbecbaaef57d91bba7a565",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/maturity.parquet",
+      "version": "26.06"
+    },
+    "popgrowth": {
+      "bytes": 687922,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+      "retrieved_utc": "2026-10-13T01:41:30.643788+00:00",
+      "sha256": "ed0ab04a486fea22435984e4669d45da8216348dfc7e4814dc8c4aec65e88ceb",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/popgrowth.parquet",
+      "version": "26.06"
+    },
+    "refrens": {
+      "bytes": 8725945,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+      "retrieved_utc": "2026-10-13T01:41:32.846329+00:00",
+      "sha256": "6ffdabe16df33bf74cc16ee97dac65a2f053c19d209da832fb8526ad06e4fb7b",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/refrens.parquet",
+      "version": "26.06"
+    },
+    "reproduc": {
+      "bytes": 381404,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+      "retrieved_utc": "2026-10-13T01:41:30.701182+00:00",
+      "sha256": "b631704f0f4972acdb2edb5d3105f0a6172adb4c473d73e505113f8288418247",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/reproduc.parquet",
+      "version": "26.06"
+    },
+    "spawning": {
+      "bytes": 349146,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+      "retrieved_utc": "2026-10-13T01:41:32.106928+00:00",
+      "sha256": "b5b9d3517cdadc0a363ae7ab8c4764bd45b8ec39882af712c2d4913a5fc50d83",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/spawning.parquet",
+      "version": "26.06"
+    },
+    "species": {
+      "bytes": 3469911,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+      "retrieved_utc": "2026-10-13T01:41:30.107770+00:00",
+      "sha256": "87c99bc57f368c6102ea4042e7e6c8019c7405d5a352ead840f06244609ab101",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/species.parquet",
+      "version": "26.06"
+    },
+    "stocks": {
+      "bytes": 2452139,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+      "retrieved_utc": "2026-10-13T01:41:31.256610+00:00",
+      "sha256": "8168fc0556265033ce19ca4bb62c3559250b4d5c63932bc74137ec67a100e6cc",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/stocks.parquet",
+      "version": "26.06"
+    },
+    "synonyms": {
+      "bytes": 6461285,
+      "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+      "retrieved_utc": "2026-10-13T01:41:32.977457+00:00",
+      "sha256": "1a0dd2a7118da2d24a7ac8e7d4227505dbe3c5c487f94a161298a57ce4fda060",
+      "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/synonyms.parquet",
+      "version": "26.06"
+    }
+  },
+  "reproducibility": "CSV content deterministic in pinned environment; XLSX zip timestamps and build metadata may differ.",
+  "software": {
+    "numpy": "1.26.2",
+    "openpyxl": "3.0.10",
+    "pandas": "2.1.1",
+    "pyarrow": "11.0.0",
+    "python": "3.11.5"
+  }
+}

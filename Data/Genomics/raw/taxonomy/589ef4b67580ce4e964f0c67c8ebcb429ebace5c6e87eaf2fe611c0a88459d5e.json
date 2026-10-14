@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Stephanolepis%20hispida",
+  "retrieved_utc": "2026-10-13T04:05:33.736967+00:00",
+  "sha256": "b11e82215ef91f6159a0172bca7e92fd052373d67c7b56085596eb3f0dfb0280",
+  "http_status": 200,
+  "bytes": 856,
+  "cache_path": "Data/Genomics/raw/taxonomy/589ef4b67580ce4e964f0c67c8ebcb429ebace5c6e87eaf2fe611c0a88459d5e.gz"
+}

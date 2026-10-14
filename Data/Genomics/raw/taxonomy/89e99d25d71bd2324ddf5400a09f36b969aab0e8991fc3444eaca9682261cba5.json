@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Sparisoma%20radians",
+  "retrieved_utc": "2026-10-13T04:04:57.261266+00:00",
+  "sha256": "b74b6daf1a3a81623e56f6f0c1d699b1f2c49c5a89a02c21fae78a6c89363886",
+  "http_status": 200,
+  "bytes": 754,
+  "cache_path": "Data/Genomics/raw/taxonomy/89e99d25d71bd2324ddf5400a09f36b969aab0e8991fc3444eaca9682261cba5.gz"
+}

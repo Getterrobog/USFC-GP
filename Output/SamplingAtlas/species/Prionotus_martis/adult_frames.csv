@@ -1,0 +1,3 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Prionotus martis","adult",1901,"1901",49,49,0,-100,-50,5,60,2,"species/Prionotus_martis/adult_frames/year_1901.png"
+"Prionotus martis","adult",1913,"1913",2,0,2,-100,-50,5,60,2,"species/Prionotus_martis/adult_frames/year_1913.png"

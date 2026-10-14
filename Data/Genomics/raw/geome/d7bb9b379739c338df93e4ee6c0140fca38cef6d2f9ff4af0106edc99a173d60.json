@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Caranx+latus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:12.652696+00:00",
+  "sha256": "560964766156497bdaa6abb55594879fbc87f6987e729ab21eaba7f385c303bd",
+  "http_status": 200,
+  "bytes": 3206,
+  "cache_path": "Data/Genomics/raw/geome/d7bb9b379739c338df93e4ee6c0140fca38cef6d2f9ff4af0106edc99a173d60.gz"
+}

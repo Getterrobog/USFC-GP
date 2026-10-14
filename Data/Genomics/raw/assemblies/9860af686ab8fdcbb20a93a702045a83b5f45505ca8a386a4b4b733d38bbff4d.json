@@ -1,0 +1,8 @@
+{
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/303715/dataset_report?page_size=1000",
+  "retrieved_utc": "2026-10-13T04:04:55.046430+00:00",
+  "sha256": "de5d06b6d01aa4a2187b0f04af4e942ecae053cc608ab40fe70757112398b007",
+  "http_status": 200,
+  "bytes": 5905,
+  "cache_path": "Data/Genomics/raw/assemblies/9860af686ab8fdcbb20a93a702045a83b5f45505ca8a386a4b4b733d38bbff4d.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Laemonema%20barbatulum",
+  "retrieved_utc": "2026-10-13T04:05:26.997641+00:00",
+  "sha256": "d66a1c823fe5ab84dabde41cd834bb598061b67f8cc4c6f6e5254ca128944477",
+  "http_status": 200,
+  "bytes": 651,
+  "cache_path": "Data/Genomics/raw/taxonomy/a158b2ced8addf02de9e06927e4bb146462d586d3547b2996a7c42bf0519c036.gz"
+}

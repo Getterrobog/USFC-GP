@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Alosa+aestivalis%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:03.666380+00:00",
+  "sha256": "3cafaef895ad7dcecd6ee20c7fdbdd74d52e9b1837b009424d3fd9a99bbcfa88",
+  "http_status": 200,
+  "bytes": 3314,
+  "cache_path": "Data/Genomics/raw/geome/433da8c927a362ec05be006ac782fe15fae2139268c20df7c97ae2cb24919b5a.gz"
+}

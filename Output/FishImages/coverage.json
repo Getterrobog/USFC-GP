@@ -1,0 +1,20 @@
+{
+  "candidate_records": 523,
+  "eligible_for_noncommercial_embedding": 54,
+  "permission_required": 24,
+  "reuse_status_counts": {
+    "attribution_noncommercial": 54,
+    "not_applicable": 2,
+    "permission_required": 24
+  },
+  "species": 80,
+  "species_with_image_or_supplemental_url": 80,
+  "species_with_image_url": 78,
+  "status_counts": {
+    "no_species_image_in_snapshot": 1,
+    "taxonomy_unresolved": 1,
+    "verified_image_response": 78
+  },
+  "supplemental_urls_verified": 2,
+  "verified_image_urls": 78
+}

@@ -1,0 +1,1003 @@
+                                                                              NOAA TR NMFS SSRF-672
+
+
+
+
+A UNITED STATES
+DEPARTMENT OF
+COMMERCE
+PUBLICATION            NOAA Technical Report
+
+                       U.S. DEPARTMENT OF COMMERCE
+                       National Oceanic and Atmospheric Administration
+                       National Marine Fisheries Service
+
+
+
+
+                       Seasonal Occurrence of Young Gulf
+                       Menhaden and Other Fishes in a
+                       Northwestern Florida Estuary
+
+
+                       MARLIN   E.   TAGATZ and   E.   PETER   H.   WILKENS
+
+
+
+
+    SEATTLE,      WA
+     August 1973
+                                                                NOAA TECHNICAL REPORTS
+
+            National Marine Fisheries Service, Special Scientific Report-Fisheries Series
+
+         The major responsibilities of the National Marine Fisheries Service (NMFS) are to monitor and assess the
+      abundance and geographic distribution of fishery resoui-ces, to understand and predict fluctuations in the quantity
+      and distribution of these resources, and to establish levels for optimum use of the resources. NMFS is also
+      charged with the development and implementation of policies for managing national fishing grounds, develop-
+      ment and enforcement of domestic fisheries regulations, surveillance of foreign fishing off United States coastal
+      waters, and the development and enforcement of international fishery agreements and policies. NMFS also as-
+      sists the fishing industry through marketing service and economic analysis programs, and mortgage insurance
+      and vessel construction subsidies. It collects, analyzes, and publishes statistics on various phases of the industry.
+                                                     —
+         The Special Scientific Report Fisheries series was established in 1949. The series carries reports on scien-
+      tific investigations that document long-term continuing programs of NMFS, or          intensive scientific reports on
+      studies of restricted scope. The reports may deal with applied fishery problems. The series is also used as a
+      medium for the publication of bibliographies of a specialized scientific nature.
+        NOAA     Technical Reports               NMFS
+                                         SSRF are available free in limited numbers to governmental agencies, both
+      Federal and State. They are also available in exchange for other scientific and technical publications in the
+      marine sciences. Individual copies may be obtained (unless otherwise noted) from NO.\A Publications Section,
+      Rockville, Md. 20852. Recent SSRF's are:
+
+
+
+
+619    Macrozooplankton and small nekton in the                                         628   Fur Seal Investigations, 1969.       By NMFS, Ma-
+       coastal waters off Vancouver Island (Canada)                                           rine Mammal Biological Laboratory.        August
+       and Washington, spring and fall of 1963. By                                            1971, 82 pp., 20 figs., 44 tables, 23 appendix A
+       Donald S. Day, January 1971, iii + 94 pp., 19                                          tables, 10 appendix B tables.
+       figs.,     13 tables.
+                                                                                        629   Analysis of the operations of seven Hawaiian
+620   The Trade Wind Zone Oceanography Pilot Study.                                           skipjack tuna fishing vessels, June-August 1967.
+      Part IX    The sea-level wind field and wind stress
+                    :
+                                                                                              By Richard N. Uchida and Ray F. Sumida.
+      values, July 1963 to June 1965.      By Gunter R.                                       March 1971, v -)- 25 pp., 14 figs., 21 tables. For
+                                                                                              sale by the Superintendent of Documents, U.S.
+      Seckel. June 1970, iii -r 66 pp., 5 figs.
+                                                                                              Government Printing Office, Washington, D.C.
+621   Predation by sculpins on                   fall   chinook salmon,                       20402 - 35 cents.
+       Oncorhynchus tsliawytsclia, fry of hatchery or-                                 630    Blue crab meat.        I. Preservation by freezing.
+       igin. By Benjamin G. Patten. February 1971,                                            July 1971, iii -|- 13 pp., 5 figs., 2 tables. IL Effect
+      iii   -|-   14 pp., 6 figs., 9 tables.                                                  of chemical treatments on acceptability.            By
+                                                                                              Jurgen H. Strasser, Jean S. Lennon, and Fred-
+622    Number and lengths, by season, of fishes caught                                        erick J. King. July 1971, iii -f 12 pp., 1 fig., 9
+       with an otter trawl near Woods Hole, Massa-                                            tables.
+       chusetts, September 1961 to December 1962.
+       By F. E. Lu.x and F. E. Nichy. February 1971,                                   631    Occurrence of thiaminase in some common aquat-
+       iii -f 15 pp., 3 figs., 19 tables.                                                     icanimals of the United States and Canada. By
+                                                                                              R. A. Greig and R. H. Gnaedinger. July 1971,
+623    Apparent abundance, distribution, and migra-                                           iii    -f-   7 pp., 2 tables.
+       tions of albacore, ThioniKS altiliinga, on the North
+       Pacific longline grounds. By Brian J. Rothschild                                632    .•\nannotated bibliography of attempts to rear
+       and Marian Y. Y. Yong. Septeml)er 1970, v                       +                      the larvae of marine fishes in the laboratory. By
+       37 pp., 19       figs.,   5   tables.                                                  Robert C. May. August 1971, iii -f 24 pp., 1 ap-
+                                                                                              pendix I table, 1 appendix II table. For sale by
+624    Influence of mechanical processing on the quality                                      the Superintendent of Documents, U.S. Govern-
+       and yield of bav scallop meats. Bv N. B. Webb                                          ment Printing Office, Washington, D.C. 20402 -
+       and F. B. Thomas. April 1971,      -|- 11 pp., 9  ii'i                                 35 cents.
+       figs.,     3 tables.
+                                                                                       633    Blueing of processed crab meat. II. Identification
+625    Distribution of salmon and related oceanographic                                       of some factors involved in the blue discoloration
+       features in the North Pacific Ocean, spring 1968.                                      of canned crab meat CalUnectes sapidus.         Bv
+       By Robert R. French. Richard G. Bakkala, !\Ia-                                         Melvin E. Waters. May 1971, iii       +
+                                                                                                                                    7 pp., 1 fig'.,
+       sanao Osako, and Jun Ito. March 1971, iii -j-                                          3 tables.
+       22 pp., 19 figs., 3 tables.                                                     634    Age composition, weight, length, and sex of her-
+                                                                                              ring, Clupea paUasii, used for reduction in Alas-
+626    Commercial fi.shery and biology of the fresh-                                          ka, 1929-66.     By Gerald M. Reid. July 1971,
+       water shrimp, Macrohrachium, in the Lower St.                                          iii -\- 25 pp., 4 figs., 18 tables.
+       Paul River, Liberia, 1952-53.  Bv George C.
+       Miller.   Febi-uary           1971,     iii   + 13 pp., 8 figs.,                635    A bibliography of the blackfin tuna, Thiinnus
+       7 tables.                                                                              atlanticns (Lesson). By Grant L. Beardsley and
+                                                                                              David C. Simmons. August 1971, 10 pp. For
+627    Calico scallops of the Southeastern United States,                                     sale by the Superintendent of Documents, U.S.
+       1959-69.     Bv Robert Cummins, Jr. June 1971,                                         Government Printing Office, Washington, D.C.
+       iii -1- 22 pp., 23 figs., 3 tables.                                                    20402 - 25 cents.
+
+                                                                 Continued on inside back cover.
+        _^OMMOSP^
+                                         U.S.     DEPARTMENT OF COMMERCE
+                                         Frederick      B.   Dent,    Secretary
+
+
+                                         NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION
+                                         Robert M. White, Administrator
+
+                                         NATIONAL MARINE FISHERIES SERVICE
+         'llfMT OV ^'
+                                         Robert W.      Schoning,    Director
+
+
+
+
+NOAA Technical Report NMFS SSRF-672
+
+Seasonal Occurrence of Young Gulf
+Menhaden and Other Fishes in a
+Northwestern Florida Estuary
+
+
+MARLIN          E.   TAGATZ and     E.   PETER     H.    WILKENS
+
+
+
+
+SEATTLE,        WA
+August     1973
+
+
+For sale by the Superintendent of Dociimpnts, U.S. Government Printing Office
+W.isliintMon.   DC, :()4l)2
+The National Marine Fisheries Service (NMFS) does not approve, rec-
+ommend or endorse any proprietary product or proprietary material
+mentioned in this publication. No reference shall be made to NMFS, or
+to this publication furnished by NMFS, in any advertising or sales pro-
+motion which would indicate or imply that NMFS approves, recommends
+or endorses any proprietary product or proprietary material mentioned
+herein, or which has as its purpose an intent to cause directly or indirectly
+the advertised product to be used or purchased because of this        NMFS
+publication.
+                           CONTENTS
+Introduction                            1
+
+
+Methods and areas sampled               2
+
+
+Seasonal occurrence of Gulf menhaden    4
+
+
+Significant associates                  5
+
+
+Seasonal occurrence of other fishes     5
+
+
+Summary                                 12
+
+
+Acknowledgments                         13
+
+
+Literature cited                        13
+
+
+
+
+                                  111
+                 Seasonal Occurrence of Young Gulf Menhaden and
+                   Other Fishes in a Northwestern Florida Estuary
+
+                             MARLIN E. TAGATZ» and E. PETER H. WILKENS^
+
+                                                        ABSTRACT
+                     Gulf menhaden, Brevoortin patronus, and other species of fishes were collected by plankton
+                 net, seine, and surface trawl from Pensacola Bay, Kast Bay, and Fast    Bay Eiiver from Decem-
+                 ber 1969 to October 1971. Relative abundance, distribution, and relative growth of menhaden
+                 are given from the time they enter the estuary as larvae   in   liecember to the time they emi-
+                 grate to the Gulf of Mexico as juveniles in September.
+                     Eighty-four species of fishes, representing 46 families, were captured. The       number and
+                 length range of each species by month are presented for the areas from which     it   was caught.
+                 Also included are the salinity and temperature ranges at capture. Four species were not pre-
+                 viously recorded from Pensacola estuaries.
+
+
+
+                   INTRODUCTION                                    cola, Fla., estuary by young Gulf  menhaden and
+                                                                   by other species of fishes. Estuarine areas serve
+      Of the three   .species of   menhaden spawning               as nurseries for an extended period in the life
+in the Gulf of Mexico,      only the young of the Gulf             cycle of menhaden and may be essential for the
+menhaden, Brcvoortia patronus, occur in north-                     larvae to metamorphose (June and Chamberlin,
+west Florida. The distribution of young Gulf                       1959) and to undergo gonadogenesis (Combs,
+menhaden is from southern Florida to the Mexi-                     1969). The seasonal distribution of young Gulf
+can border; of yellowfin menhaden, B. smithi,                     menhaden in an estuarine habitat of northwest
+from Sapelo Island, Ga., to Tampa Bay, Fla.; and                  Florida was studied for additional knowledge of
+of finescale menhaden, B. gunteri, from Mata-                     the life history of this very important commer-
+gorda, Tex., to the Gulf of Campeche in the west-                 cial species. The extent of that portion of the life
+ern Gulf of Mexico (Reintjes and Pacheco, 1966).                  history of Gulf menhaden that occurs in inside
+The distribution of eggs, larvae, and adults of                   waters has been investigated in two other areas;
+Gulf menhaden in waters off the Florida coast                     monthly length frequency distributions were ob-
+indicates that     spawning takes place near shore                tained by Suttkus (1956) for Lake Pontchartrain,
+(within    the    10-fm contour) from November                    La. and by Springer and Woodburn (1960) for the
+through March (Turner, 1969). After an estimated                  Tampa Bay area.
+3 to 5 weeks from hatching, the larvae enter                         We collected other fishes to determine the
+estuaries where further development occurs                         clupeids and other species associated with men-
+(Reintjes, 1969).                                                  haden in the estuary, to compile a list of some of
+  This report concerns the utilization of a Pensa-                 the fishes occurring in an area characterized by a
+                                                                   paucity of specimen records (upper East Bay and
+  '
+    Atlantic Estuarine Fisheries Center. National Marine
+Fisheries Service, NOAA; present address, Environmental
+                                                                   East Bay River), and to provide seasonal occur-
+Protection Agency, Gulf Breeze Laboratory, Gulf Breeze,            rence data on Pensacola fishes as a possible aid to
+FL 32561.                                                          any studies on their life histories or on the effects
+  ^Atlantic Estuarine Fisheries Center. National Marine
+                                                                   of decreased water quality on their local distribu-
+Fisheries Service, NOAA; present address. Southeast Fish-
+eries Center, National Marine Fisheries Service, NOAA,             tion. Early listings of fishes from the Pensacola
+Miami, FL 33149.                                                   area were given by Jordan and Gilbert (1882),
+\   "^
+           Table 1. — Monthly occurrence of young Gulf menhaden in collections by channel net from
+                      Pensacola Bay and from East Bay and East Bay River, 1969-70 and 1970-71.
+
+
+
+                  1969-70                                                        1970-71
+
+
+Location
+Table 2. — Monthly occurrence of young Gulf menhaden in collections by surface trawl from
+                       East Bay and East Bay River, 1970 and 1971.
+
+
+          1970                                                            1971
+Table 3. — Monthly size distributions of Gulf menhaden in
+East Bay and East Bay River, April-September, 1971.
+
+
+
+Size      Apr.    May     June     July    Aug.    Sept.
+           Table 4. — Total number of fishes caught at the Pensacola Bay bridge and the East Bay-East Bay River area.
+
+
+
+
+                Species                   Number
+
+
+Dasyalis sabina. Atlantic stingray
+Lepisosteus osseus, longnose gar
+Elops saui-us. ladyfish
+Megalops ailanlica. tarpon
+Myrophis punciatiis, speckled worm eel
+Alosa chrysnchtoris. skipjack herring
+Brevoorlia palronus. Gulf menhaden
+Dorosoma pelenense. threadfin shad
+Harengula pensacotae. scaled sardine
+Opislhonema ogtinum. Atlantic thread
+   herring
+Anchoa hepsetui. striped anchovy
+Anchoa mitchilli. bay anchovy
+Anchovietla perfasciata. flat anchovy
+Esox americanus americcinus.
+  redfin pickerel
+Synodus foelens. inshore lizardfish
+Notropis cummingsae, dusky shiner
+Nolropis pelersoni. coastal shiner
+Notunis leplacanlhus.
+  speckled madtom
+Arius felis. sea catfish
+Bagre marinus, gafftopsail catfish
+Aphredoderus sayanus, pirate perch
+Porichthys porosissimus. Atlantic
+  midshipman
+Gobiesox slrumosus. skilletfish
+Urophycis floridanu.s. southern hake
+Hyporhamphiis unifascicilus. halfbeak
+Strongylura marina. Atlantic needlefish
+Cyprinodon variegatiis, sheepshead
+  minnow
+Fundutus grandis. Gulf killifish
+Fundulus similis. longnose killifish
+Gambusia a/finis, mosquitofish
+Labideslhes sicculus. brook silverside
+Membras marlinica. rough silverside
+Menidia beryllina. tidewater silverside
+Hippocampus ereclus, lined seahorse
+Hippocampus zosterae. dwarf seahorse
+Syngnalhus floridae. dusky pipefish
+Syngnathus louisianae. chain pipefish
+Syngnalhus scovelU. Gulf pipefish
+Mycteroperca microlepis. gag
+Lepomis macrochirus. bluegill
+Microptenis salmoides.
+  largemouth bass
+Etheostoma edwini. brown darter
+Percina mgrofasciata. blackbanded
+  darter
+Caranx hippos, crevalle jack
+Chloroscombrus chry.mrus. Atlantic
+  bumper
+record for spotfin mojarra, Eucinofitomus argen-                                                 Family Ophichthidae
+teus, known to us was reported by Bailey et al.
+                                                                             Miirophis piDH-tatus Liitken. Speckled          worm eel.
+(1954) from the Escambia River. A leptocephalus
+of tarpon,           Megalops          atlantica,    from East Bay         BRIDGE: Salinity 8.8/29.5-24.0/29.5, temperature 5.3/11.4-
+                                                                           17.0/22.7. Number and length: Jan. (111. 57-85); Feb. (.35,
+represents the second and most northern record
+                                                                           69-86); Mar. (13. 64-83);     Nov. (4, 56-66); Dec. (52, 53-78).
+of a larval tarpon in the Gulf of Mexico (Tagatz,                          BAY: Salinity 2.6/2.6-23..3/23.8, temperature 7.5/7.5-23.7/
+1973).                                                                     23.4. Number and length: Jan. (4, 57-70); Feb. (142, 66-89);
+
+      The following is a taxonomic list of all fishes                      Mar. (3. 54-83); Apr. (2, .59-190): May (2, 181-188); Sept. (1,
+                                                                           224); Dec.   II,   67).
+collected, 84              species representing 46 families.
+Forty-four species were obtained from the Pensa-
+cola Bay bridge and 75 from the East Bay-East                                                         Family Clupeidae
+Bay River area with 35 of these common to both                                Alosa chrysnchloris (Rafinesque). Skipjack herring.
+areas. The number and length of each species                               BAY: Salinity 16.7/23.1, temperature 13.6/13.0. Number and
+by month are listed for the areas from which it                            length: Feb. (1, 146).
+was captured: Bridge (Pensacola Bay bridge).
+                                                                              Breronrtia patronns Goode. Gulf menhaden.
+Bay (upper 4 miles or 6.4 km of East Bay) and
+River (lower 5 miles or 8.0 km East Bay River).                            BRIDGE: Salinity 2.8/29.6-26.4/29.5, temperature 5.2/11.4-
+                                                                           24.8/19.7. Number and length: Jan. (29, 14-29); Feb. (.3..593,
+Also given are the salinity and temperature
+                                                                           14-32): Mar. (876, 12-31); Apr. (129, 17-27); Dec. (413, 10-30).
+ranges at the time of collection. The low value of
+                                                                           BAY: Salinity 0/(J-23.3/23.8, temperature 7.5/7.4-31.7/31.7.
+each range is based on the lowest combination                              Number and length: Jan. (129, 13-35); Feb. (1,621. 20-,39);
+of surface and bottom readings (presented in the                           Mar. (1,958, 20-48); Apr. (5,713. 23-169); May (6.916, 26-1.57);
+order, surface/bottom) taken at any one time; the                          June (42,977, 36-181); July (49,738, 42-2.30); Aug. (699, 58-
+                                                                           262); Sept. (49. 55-158); Oct. (18, 90-250); Dec. (174, 24-32).
+high value, on the highest combination. Salinity
+                                                                           RIVER: Salinity 0/0-4.7/22.5, temperature 15.3/15.3-28.9/
+is in parts per thousand, water temperature in
+                                                                           .30.2. Number and length: Feb. (1, 291; Mar. (24, 26-36); Apr.
+degrees C, and total length in millimeters.                                (181, 28-54); May (2,282, 30-75); Aug. (1,571. 43-88); Sept.
+                                                                           191, 58-1151: Oct. (2. 90-120).
+
+
+                                                                             Dornsoma pptrnense (Gunther). Threadfin shad.
+
+                               Family Dasyatidae                           BAY:    Salinity     0/0-17.6/25.0,   temperature      13.6/13.0-31.7/
+                                                                           31.7. Number and length: Feb. (1, 135); Mar. (1, 195): Apr.
+      D(if:iiatis .i<ihin(i   (Losueur). Atlantic stingray.
+                                                                           (31, 100-160); May (4. 129-1:57); July (4, 125-144); Aug. (6,
+
+BAY: Salinity 7.;S/T.3-9.(i/20.;J. temperature 21.9/21.9-26.8/             77-173).
+
+25.3. Number and length: Apr. (1. 5.591; May ((i, 4.'37-ti85).             RIVER: Salinity 0/13.9-4.7/22.5, temperature 19.3/22.8-26.0/
+                                                                           31.9. Number and length: Sept. I4. 70-112); Oct. II. 1221.
+
+                           Family Lepisosteidae                              Harenguia penxacoUie Goode and Bean. Scaled sardine.
+      Lepinosteus osseus (Linnaeus). Longno.se gar.                        BRIDGE: Salinity 21.6/:50.2. temperature 27.0/28.5. Number
+BAY: Salinity 0/0-19.9/24.0, temperature 16.()/16.6-31.2/                  and length: Sept. (1. 53).
+30.9. Number and length: Feb. 13, 762-9141; May 13, 520-6601;              BAY:    Salinity     10.0/19.()-23.:!/23.5.   temperature   .30.2/30.3-
+June (5, 508-1,016); July (8, 609-914); Aug. (2, 762-914): Sept.           31.7/31.7. Number and length: Aug. (5, .59-88); Sept.           (3,   69-
+(3,    762-914).                                                           76).
+RIVER:         Salinity       1.3/1.7-4.7/22.5,   temperature 23.2/23.6-
+26.0/31.9. Number and length: May (38, 20-251; Aug. 11, 870);                Opisthonema oglinum (Lesueur). Atlantic thread herring.
+Sept. (10, 508-787).                                                       BRIDGE: Salinity 21.6/;«).2, temperature 27.0/28.5. Number
+                                                                           and length: Sept. (1, 9).
+                               Family Elopidae
+  Elnps ftnurus Linnaeu.s. Ladyfish.
+                                                                                                     Familj Engraulidae
+BAY: Salinity 1.5/1.5-6.7/11.3, temperature 16.6/16.6-27.3/
+                                                                             Anchoa hepsetus (Linnaeus). Striped anchovy.
+27.3. Number and length: Apr. (5, 29-41); May (1, 38).
+RIVER: Salinity 0/0, temperature 15.3/15.3. Number and                     BRIDGE: Salinity 7.2/;W.0-24.2/:M.4, temperature 12.1/18.7-
+length: Mar.         (1,   39).                                            31.2/29.2. Number and length: Mar. 15. 11-13); Apr. (941,
+                                                                           5-24); May (642, 5-29); .June (88, 8-;!3); July (651, 8-35): Aug.
+  Mc(ial(})>x (illitn/icii        Valenciennes. Tarpon.
+                                                                           (131, 7-:35i; Sept. (2, 21-:35(;   Nov. (9. 28-:33).
+BAY: Salinity 7.3/11.5, temperature 20.1/21.6. Number and                  BAY: Salinity :3.2/7.5-23..3/23.5, temperature 16.5/13.8-31.7/
+length: Oct. (1, 29).                                                      31.7. Number and length: Jan. (1, 106); Apr. (10, 16-121);
+May (550, 8-52); June (273, 29-120): July (28, 42-741: Aug. (74,                                                         Family Ariidae
+63-131): Sept. (29, 71-119): Oct. (lH(i, .32-133i.
+                                                                                              Anus fe lis (Linnaeusl. Sea cattish.
+  Anchoa mitchilli (Valenciennes!. Bay anchovy.
+                                                                                            BAY: Salinity 0.3/9.8-4.8/10.3, temperature 19.2/18.8-31.2/
+BRIDGE: Salinity 8.8/28.7-24.9/.30.9, temperature 12.1/15.4-                                31.1. Number and length: Apr. (3, 325-413); July (3, 278-357,
+29.3/29.8. Number and lensth: Mar. (1. 13): May (23,334,                                    all mouths contained eggs and newly hatched young—
+4-20);   June (4, 8-181; July (U,                ti-10):   Aug.   (2,    17-18); Sept.
+                                                                                            16-27   mm).
+(153, 6-18);     Dec. (1, 27).
+BAY: Salinity 0/0-23.3/23.5, temperature 8..3/8.2-31.7/31.7.                                  Bagre marinus iMitchill). Gafftopsail catfish.
+Number and length: Jan. (2,541, 21-73); Feb. (2,074, 25-77);
+                                                                                            BAY:       Salinity     0.8/4.6-17.6/25.0,    temperature   21.1/20.0-
+Mar. (5,554, 29-87): Apr. (1,450, 29-80); May (4,043, 7-76);
+                                                                                            29.8/29.9.    Number and length: Apr. (1, 540): June (1, 490,
+June (1,090,         10-82); July (956,           18-81);   Aug.        (6,850,   19-89);
+                                                                                            mouth contained eggs and newly hatched young — 24-26
+Sept. (2,368, 8-74); Oct. (8,206, 9-85); Nov. (1,726, 20-67);
+                                                                                            mm); Aug. (4, 110128).
+Dec. (6,382, 20-73).
+RIVER: Salinity 0/0-4.7/22.5, temperature 13.8/13.8-28.9/
+    Number and length: Mar. (15, 47-65): Apr. (12, 34-53);
+30.2.
+                                                                                                                  Family Aphredoderidae
+May (1, 9); July (10, 48-53); Aug. (3.56, 27-67); Sept. (216,                                 Aphredoderus sayanus (Gilliams). Pirate perch.
+45-68); Oct. (71, 50-80).
+                                                                                            RIVER:       Salinity     2.3/3.9-1.8/16.2,   temperature   23.2/23.6-
+  Anchoviella pcrfaschita (Poeyl. Flat anchovy.                                             22.9/25.9. Number and length:          May (12, 14-29).
+BRIDGE: Salinity 20.8/30.0-23.8/29.5, temperature 9.6/13.4-
+18.2/17.5. Number and length: Feb. (1, 41); Dec. (4, 27-38).
+                                                                                                                    Family Batrachoididae
+BAY: Salinity 8.5/21.4-14.1/20.0, temperature 12.7/14.0-
+27.4/25.4 Number and length: Feb. (1, 41): Mar. (1, 41):                                      Pnrichthys porosissimus (Valenciennes). Atlantic midship-
+Oct.    (1,   48).                                                                          man.
+
+                                                                                            BAY: Salinity 0.8/4.6, temperature 26.5/25.2. Number and
+                                   Family Esocidae
+                                                                                            length: June (1, 30).
+  Esox amen'caiius americdiiua Gmelin. Redfin                                 pickerel.
+
+RIVER: Salinity ()/(). temperature 21.2/22.6. Number and                                                            Family Gobiesocidae
+length: Apr.          (1,    257).
+                                                                                              Gobiesox strumosus Cope. Skilletfish.
+
+                             Family Synodontidae                                            BRIDGE:        Salinity    10.4/28.3-25.8/30.6,   temperature 12.6/
+                                                                                            15.7-24.7/19.7.       Number and length: Apr. (2, 12-13); Nov. (1,
+      Synodus fuetens iLinnaeus). Inshore lizardfish.                                       14);   Dec. (1, 15).
+                                                                                            BAY:       Salinity    6.7/11.3-21.1/21.3,    temperature   17.9/17.7-
+BRIDGE:          Salinity          8.8/28.7-19..5/32.0,      temperature            24.8/
+                                                                                            26.7/26.7. Number and length: Apr. II, .58): May (1. 10); Dec,
+19.7-27.4/28.9.            Number and length: Apr. (2, 29-32); May (7,                      (1, 14).
+33-41); July         (1,    35):   Aug.   (3,   31.34).
+BAY: Salinity 7.0/7.0-21.1/21.3, temperature 23.7/23.7-29.8/                                                        Family Gadidae
+29.9. Number and length: May (2. 39-40); June (3, .37-63);
+Aug. (1, 116).                                                                                 Urophycis ftoridanus (Bean and Dresel). .S(juthern hake.
+
+                                                                                            BRIDGE: Salinity 26.4/30.5, temperature 13.2/16.5. Number
+                               Family Cyprinidae                                            and length: Dec. (1, 33).
+  Notropis cumminfisae Myers. Dusky shiner.
+
+RIVER: Salinity 0/0, temperature 25.0/28.0-23.1/30.0. Num-                                                           Family Exocoetidae
+ber and length: Sept. (11, 21-44); Oct. (10, 21-46).
+                                                                                              Hyporhumphns unifasciatus (Ranzani). Halfbeak.
+  Notroph petersoni Fowler. Coastal shiner.
+                                                                                            BRIDGE:        Salinity    17.0/30.2-22.3/32.9,   temperature 28.0/
+BAY: Salinity 0/0-2.3/9.7, temperature 14.1/14.3. Number                                    24.7-29.2/28.7.       Number and length: June (1. 63); Aug. (2,
+and length: Feb. (5, 64-70); Mar.                     (13, 63-77);       June (1, 70).      35-39).
+
+RIVER: Salinity 0/0-1.8/16.2, temperature 15.3/15.3-26.7/                                   BAY: Salinity 15.4/23.3, temperature 17.9/17.7. Number and
+26.1. Number and length: Mar. (8, 57-72); May (1, 54); June                                 length: Dec. (1, 284).
+(4,   50-64);   Aug. (4, 42-75); Oct. (66, 36-82); Nov.                     (7,   45.58).
+                                                                                                              Family Belonidae
+                               Family Ictaluridae
+                                                                                              Strongylura marina. (Walbaum). Atlantic needlefish.
+      N(>tu7-us leplacanthus Jordan.               Speckled madtom.
+                                                                                            BRIDGE:        Salinity     8.9/28.7-14.7/33.7,   temperature   27.5/
+RIVER: Salinity 0/0, temperature 23.1/,30.0. Number and                                     22.4-28.1/26.8. Number and length: May (1, 27); July (1, 46).
+length: Oct. (2, 41-45).                                                                    BAY:       Salinity    0..3/0.3-23.3/23.8,    temperature   13.5/13.5-
+31.1/;U.O.       Number and length: Feb. i:^, 4()H495); Mar. (7,                                Number and length: Jan. (,56, 44-106); Feb. (16, 49-104); Mar.
+345-448); Apr. (2, 380-400); May (8, 64-1211; June IG, 58-450):                                 (19. 10-99); Apr. (159, 11-115); May (465, 16-109); June (655,
+July (6, 92-238); Aug. (3, 89-166); Sept. (3. 308-457); Oct. (2,                                                          Aug. (852. 32-105); Sept. (245, 19-
+                                                                                                17-118); July (539, 28-78);
+540-563); Nov. (3, 387-438); Dec.                    (1,   368).                                110); Oct. (930, 17-97);Nov. (103, 21-84); Dec. (26, 77-94).
+RIVER: Salinity 1.0/13.4, temperature 23.7/28.7. Number                                         RIVER: Salinity 0.5/18.8, temperature 24.5/27.9. Number
+and length: Oct. (7, 508-533).                                                                  and length: May (2, 96-98).
+
+                         Family Cyprinodontidae                                                                             Family Syngnathidae
+  Cyprinodon variegatus Lacepede. Sheepshead minnow.                                              Hippocampus erect us Perry. Lined seahorse.
+
+BAY:          Salinity      7.7/7.7-17.6/25.0,             temperature       20.0/17.4-         BRIDGE:           Salinity     13.3/30.9-24.2/30.4,      temperature 16.1/
+29.8/29.9.       Number and length: Apr. (4, 39-57); May 12, 53-                                22.7-31.2/29.2.        Number and length: July d, 31); Aug. (2,
+67);    Aug. (11, 39-65); Oct. (2, 45-56).                                                      36-40); Sept. (1, 40); Oct. (1, 41); Nov.           (1, 31).
+
+                                                                                                RIVER:           Salinity    0/16.3,      temperature 20.5/21.5. Number
+  Fiiiiclulus grandis              Baird and Girard. Gulf killifi.sh.
+                                                                                                and length: Oct. (1, 26).
+BAY:          Salinity      0.3/0.3-17.6/25.0,             temperature       15.7/15.7-
+                                                                                                  Hippocampus zosterae Jordan and                     Gilbert.   Dwarf    sea-
+31.0/31.0. Number and length: Jan. (15, 78-130); Feb. (4,
+                                                                                                horse.
+72-100); Apr, (8, 65-115); May (11, 42-97); June (16, 61-142);
+July    (3,    36-57); Aug. (8, 50-157); Sept. (3,                   27-72); Oct. (11,          BRIDGE: Salinity 17.2/30.2, temperature 29.5/28.7. Number
+73-97);       Nov. (4, 18-88); Dec. (7, 36-125).                                                and length: Aug. (1.               19).
+
+
+  Fundiilus similis (Baird and Girard). Longnose                                   killifish.         Syngnathus floridae (Jordon and Gilbert). Dusky pipefish.
+
+BAY:       Salinity         0/0-17.6/25.0,        temperature          16.2/16.2-31.0/          BRIDGE:            Salinity     8.8/28.7-24.6/30.9.      temperature     23.4/
+31.0. Numljer and length: Jan. (2, 66-68); Mar. (9, 51-95); Apr.                                21.5-29.0/29.2. Number and length: Apr. (1, 47); May (1. 32);
+(78, 29-132);        May (43, 25-126); June (29, 22-110); July (20,                             Sept.      (2,   29-59).
+35-85);       Aug.   (259, 20-122); Sept. (92. 18-114); Oct. (41, 21-
+                                                                                                      Syngnathus louisianav Giinther. Chain pipefish.
+93).
+
+                                                                                                BRIDGE:            Salinity    8.9/28.7-24.2/.30.4,      temperature     23.-3/
+
+                                 Family Poeciliidae                                             21.5-29.3/29.8. Number and length: Apr. (4, 53-69);                 May (5,
+                                                                                                51-70);     June (7, 28-75); July (26. 24-83); Aug. (1, 76); Sept.
+  (Idinbiinia        (iffiiiis     (Baird and Girard). Mosquitofi.-^h.
+                                                                                                (1. 68).
+
+RIVER: Salinity 0/0, temperature 20.3/20.3. Number and                                          BAY:        Salinity        7.0/7.0-17.6/25.0,    temperature     16.5/14.5-
+
+length: Apr. (51, 23-38).                                                                       29.8/29.9. Numberandlength: Jan. (1,60); June (1, 84); Aug.
+                                                                                                (1,   152); Sept. (1, 74); Oct. (1, 1.50); Nov. (1, 84); Dee. (1, 59).
+
+                              FamUy Atherinidae                                                       Syngnathus scovelli (Evermann and Kendall). Gulf pipe-
+                                                                                                fish!
+  Labidesthes sicculus (Cope). Brook silverside.
+                                                                                                BRIDGE:            Salinity     7.7/30.4-25.8/30.5,      temperature     12.6/
+BAY:       Salinity         0/0,    temperature 27.8/27.8.              Number and
+length: Aug.                33-47).
+                                                                                                15.4-24.6/19.7.        Number and length: Mar. (1, 22); Apr. (2,
+                      (3,
+                                                                                                26-43); Dec. (1, 32).
+RIVER: Salinity 0/0-0.5/18.8, temperature 11.8/11.8-27.4/
+                                                                                                BAY:        Salinity        4.1/4.1-23.3/23.8,    temperature     12.7/13.5-
+28.5. Number and length: Jan. (4, 44-72); Feb. (9, 37-79);
+                                                                                                24.1/24.1. Number and length: Veh. (4, 25-60); Mar.                    (1, 75);
+Mar. (5, 57-77); Apr.                (8,   55-65);   May (13, 56-79); June (15,
+                                                                                    37-54);
+                                                                                                Apr. (5, 25-113); May (1, 107): Nov. (1, 106).
+60-80); July (34, 19-68);                  Aug.   (18,     26-58);   Sept.   (7,
+
+Oct. (62, 34-81); Nov. (11, 40-72); Dec. (28, 40-81).
+                                                                                                                              Family Serranidae
+  Membras             martinica            (Valenciennes).         Rough     silver.side.
+                                                                                                      Mycteroperca microlepis (Goode and Bean). Gag.
+BRIDGE:           Salinity          8.8/28.7-20.4/29.8,            temperature         25.9/
+25.8-29.0/26.7.          Number and length: May (27, 8-25); June                                BAY:        Salinity       16.8/20.6,     temperature 28.1/29.5. Number
+(5,    10-24); July (10, 9-17); Sept. (1, 7).                                                   and size: Oct. (1,           178).
+
+BAY:          Salinity      0/0-23.3/23.8,        temperature          13.5/13.5-31.7/
+31.7.Number and length: Jan. (33, 55-110); Feb. (2, 93-95);                                                                 Family Centrarchidae
+Mar. (92, 66-116); Apr. (168, 51-122); May (896, 16-109);
+                                                                                                      Lcpomis macrochirus Rafinesque. Bluegill.
+June (49, 20-107); July (112, 15-107); Aug. (25, 33-79); Sept.
+(11, 30-69); Oct. (11, 34-76); Nov. (4, 61-86); Dec. (8. 72-95).                                RIVER: Salinity 0/0, temperature 23.1/30.0. Number and
+                                                                                                length: Oct.         (1,   124).
+
+      Menidiii hcrijUina (Cope). Tidewater silverside.                                                Micropterus          sulmoidcs       (Lacepede).   Largemouth       bass.
+
+BRIDGE: Salinity 9.8/29.9, temperature 26.3/26.2; Number                                         BAY: Salinity 0.3/0.3-9.7/9.7, temperature 31.0/31.0-31.1/
+and size: Apr.           (44, 5-21).                                                                 Number and length: June (1, 58); July (1, 83).
+                                                                                                 31.0.
+BAY: Salinity 0/0-17.6/25.0, temperature 6.8/6.7-31.0/31.0.
+                              Family Percidae                                                      Eucinostomiis lefroyi iGoode). Mottled mojarra.
+
+  Etht'ontonid cdwini (Hubbs and Cannon).                         Brown darter.              BAY: Salinity 0/0-8.7/19.2, temperature 16.1/16.1-29.:3/
+                                                                                             29.3. Number and length: Aug. (326, 13-52); Sept. (31, 12-.55);
+RIVER: Salinity 0/0, temperature 23.1/30.0. Number and                                       Oct.    (5,   30-43);     Nov.    (36,   11-44).
+length: Oct.       (2,    32-36).
+                                                                                             RIVER: Salinity 0/16.3, temperature 2()..5/21.5. Number and
+  Percina nigrofasciata (Agassiz). Blackbanded darter.                                       length: Oct. (21, 14-20).
+
+                                                                                             Eiicinostiiiiiiin sp.
+RIVER: Salinity 0/0, temperature 23.1/.30.0. Number and
+length: Oct. (2, 37-451.
+                                                                                             BRIDGE:          Salinity        18.7/:32.0-22.2/28.8.   temperature 23.4/
+                                                                                             21.5-29.0/26.7. Number and length: Apr. (1, 16); July (2, 13).
+                            Family Carangidae
+  Caninx hippox (Linnaeus). Crevalle .jack.                                                                            Family Pomadasyidae
+
+BRIDGE: Salinity 24.2/30.4, temperature 29.3/29.8. Number                                          Orthopristis chrysoptera (Linnaeus). Pigfish.
+
+and length: Sept. (1, 40).                                                                   BRIDGE:           Salinity       9.8/29.8-19.9/29.8,     temperature     25.9/
+BAY: Salinity 0/0-18.1/18.1, temperature 27.8/27.8-31.7/                                     25.8-26.4/26.0.          Number and length: Apr. (17, 5-15); May (5,
+31.7. Number and length: Aug. (9, 58-141): Oct. (1, 75).
+                                                                                             4-12).
+RIVER: Salinity 4.7/22.5, temperature 26.0/31.9. Number                                      BAY: Salinity 2.5/2.5-8.2/11.3, temperature 20.2/20.2-26.6/
+and length: Sept. (1, 59).                                                                   26.6. Number and length: Apr. (10, 12-18); May (5, 17-26).
+
+  ChUiroscombrus chrysurus (Linnaeus). Atlantic bumper.
+                                                                                                                           Family Sparidae
+BRIDGE:         Salinity                       temperature 21.2/
+                              13.3/30.9-24.9/30.9,
+23.5-29..5/29.4.        Number and length: July (1. 16): Aug. (36,                                 Lagodini iliiiDiboidrs (Linnaeus). Pinfish.
+6-40); Sept. (18, 5-45); Oct. (4, 13-35).
+                                                                                             BRIDGE: Salinity 7.8/30.7-26.4/30.4, temperature 5.2/11.4-
+BAY:      Salinity                temperature 22.4/23.1-
+                          5.2/15.0-23.3/23.5,
+                                                                                             29.3/29.8. Number and length: Jan. (6, 13-18); Feb. (516,
+30.8/30.8. Number and length: Aug. (12, 60-88); Sept. (26,
+                                                                                             14-21); Mar. (244, 15-19); Apr. (44, 9-17); May (2, 8-10); Aug.
+22-76); Oct.      (4,    40-57).
+                                                                                             (9,   12-13): Sept. (1, 10); Oct. (1, 13);         Dec. (130, 11-17).
+RIVER: Salinity 0.4/14.4, temperature 23.5/25.0. Number
+                                                                                             BAY: Salinity 0/0-23.3/23.8, temperature 8.3/8.2-31.2/31.0.
+and length: Oct. (1, 52).
+                                                                                             Number and length: Jan. (7, 14-18); Feb. (354, 14-28); Mar.
+Decapterus piinctatus (Agassiz). Round scad.                                                 (24, 15-24): Apr. (35, 17-124); May (17, 17-67); June (20, 58-
+
+BRIDGE:         Salinity      15.1/30.6-14.7/.33.7,        temperature 28.1/                 91); July (14, 66-95);           Aug. (25, 67-130); Sept. (5, 91-156); Oct.
+24.8-28.1/26.8.          Number and length: June (1,                       July              (10, 85-125);      Dec. (6, 13-20).
+                                                                    15):          (2,
+
+24-26).
+                                                                                                                         Family Sciaenidae
+   OKgoplites sau)-us (Bloch and Schneider). Leatherjacket.
+                                                                                               Bairdiella chrysura (Lacepede). Silver perch.
+BRIDGE:         Salinity      19.3/29.8-22.7/33.2,          temperature 25.9/
+25.8-29.5/29.4.         Number and length: May (3, 4-141; July (1,                           BAY:       Salinity       0/0-20.5/23.0,      temperature    13.6/13.0-30.4/
+18);   Aug. (1, 22).                                                                         31.7. Number and length: Feb. (114, 94-190); Mar. (22, 105-
+BAY:         Salinity     4.8/5.1-21.1/21.3,        temperature         23.7/23.7-           200); Apr. (21, 90-185); May (5, 109-194); July (13, 148-199);
+31.7/31.7.      Number and length: May (7, 9-19); June (1, 13);                              Aug.     (109, 136-197); Sept. (5,            148-212); Oct. (10,   107-203);
+July   (4,    31-58);    Aug.      (3,    36-45); Sept.   (2,   36-45); Oct. (23,            Dec. (5, 103-115).
+23-68).                                                                                      RIVER: Salinity 4.2/10.1, temperature 28.9/30.2. Number
+                                                                                             and length: Aug. (7, 147-210).
+   Vomer setapinnis (Mitchill). Atlantic moontish.
+                                                                                                   Cynoxclon arenarlus Ginsburg. Sand seatrout.
+BAY:      Salinity       16.8/20.6-17.6/25.0,        temperature 28.1/29.5-
+29.8/29.9. Number and length: Aug. (7, 80-105); Oct. (1, 112).                               BRIDGE: Salinity 5.0/31.5, temperature 28.0/26.8. Number
+                                                                                             and length: June (1, 60).
+                            Family Lutjanidae                                                BAY; Salinity 2.6/2.6-20.5/23.0, temperature 21.7/23.0-31.7/
+                                                                                             31.7. Number and length: Apr. (1, 165); May (23, 30-71);
+  Lufjdiius griseus (Linnaeus).                 Gray snapper.                                June (3, 74-84); July (32, 50-103); Aug. (75, 70-185); Sept. (4,
+                                                                                             91-305); Oct.       (4,   62-174).
+BRIDGE: Salinity 19.5/30.6, temperature 29.2/29.4. Number
+                                                                                             RIVER: Salinity 0/0-4.2/10.1, temperature 22.8/25.7-28.9/
+and length: Aug.            (1,    16).
+                                                                                             30.2. Number and length: May (4, 40-55); Aug. (8, 75-108).
+
+
+                             FamUy Gerreidae                                                       Cynoscion nebulosus (Cuvier). Spotted seatrout.
+
+  Eucinostomus argenteiis Baird and Girard. Spotfin mo-                                      BAY:          Salinity     9.7/9.7-19.9/24.0,      temperature      28.7/28.5-
+.iarra.                                                                                      31.0/31.0. Number and length: July (1, 103); Sept. (4, 28-330);
+                                                                                             Oct. (37, 47-107).
+BAY: Salinity 9.0/9.0, temperature 21.2/21.2. Number and
+length: Sept.       (1, 82).
+
+
+                                                                                        10
+      Leiiistomits xanthurus Lacepede. Spot.                                                                            Family Sphyraenidae
+BRIDGE: Salinity 8.8/29.5-26.4/29.5, temperature                          5.2/11.4-           Sphyraena borealh DeKay. Northern sennet.
+18.2/17.5. Number and length: Jan. (69, 9-22); Feb.                            (83,
+
+15-30);       Mar. (10, 13-17); Dec. (954, 7-21).                                           BRIDGE:         Salinity       10.4/28.3-22.5/28.8,    temperature   23..3/
+
+BAY: Salinity 0/0-17.6/25.0, temperature 9.5/9..3-30.4/31.7.                                21.5-26.0/25.8.         Number and length: Apr. (16, 31-40); May
+Number and length: Jan. (192, 16-123); Feb. (65, 16-146);                                   (1, 40).
+
+Mar. (94, 18-122); Apr. (238, 22-210); May (92, 44-1141; June                                                           Family Uranoscopidae
+(18, 50-86); July (2.3, 65-234);           Aug. (44, 77-156); Sept. (1, 94);
+Oct. (22, 85-133); Nov. (2, 83-98); Dec.               (7,    20-123).                         Astroscopus y-graecum                 (Cuvier).    Southern   stargazer.
+RIVER: Salinity 0/0-4.2/10.1, temperature 12.7/12.7-28.9/                                   BRIDGE: Salinity 23.8/29.5, temperature 13.8/16.7. Number
+30.2. Number and length: Feb. (1, 21); Mar. (6, 19-22); Aug.
+                                                                                            and length: Dec. (1, 15).
+(1,    HI).
+                                                                                            BAY: Salinity 11.2/11.3, temperature 12.7/12.1. Number and
+  Menticirrhus focaliger Ginsburg. Minkfish.                                                Ien.gth:     Feb.     (1,   22),
+
+
+BRIDGE: Salinity 9.8/.30.9, temperature 26.1/21.7. Number                                                                 Family Blenniidae
+and length: Apr.            (1,   29).
+                                                                                               Hypxoblennius sp.
+  Micropncjon undulatus (Linnaeus). Atlantic croaker.
+                                                                                            BRIDGE: Salinity 8.8/28.7-24.4/29.7, temperature 23.4/21.5-
+BRIDGE: Salinity 15.5/27.9-21.4/30.0, temperature 5.2/11.4-                                 29.6/27.4. Number and length: Apr. (2, 6); May (32, 4-13);
+
+26.0/25.8. Number and length: Jan. (4, 7-15); May (1, 17);                                  June (7, 5-8).
+Nov. (1, 10); Dec. (75, 7-20).                                                              BAY: Salinity 21.1/21.3, temperature 26.7/26.7. Number and
+BAY: Salinity 0/0-23.1/25.3, temperature 8.3/8.2-31.2/31.7.                                 length: May (3. 9).
+Number and length: Jan. (10, 12-45); Feb. (3, 14-203); Mar.
+(46, 13-177); Apr. (57, 26-238); May (48, 29-213); June (8,
+                                                                                                                           Family Gobiidae
+51-235); July (51. 55-234);              Aug. (271, 80-203); Sept. (1,        125);            Gobi(jiicllus hulcosoma (Jordan and Gilbert). Darter goby.
+Oct. (13, 98-192): Nov. (7, 29-149); Dec.               (9,    12-25).
+RIVER: Salinity 0/0-4.2/10.1, temperature 10.3/10.3-28.9/                                   BAY: Salinity 0/0-16.2/16.2, temperature 9.5/9.3-29.3/29.3.
+30.2. Number and length: Jan. (1, 15); Feb. (4, 22-35); Apr.                                Number and length: Jan. (2, 16-35); Feb. (1, 19); Mar. (7,
+(2,    30-36);   Aug.     (6,   95-98).                                                           Apr. (2, 38-43); Aug. (18, 14-33); Sept. (21, 12-31);
+                                                                                            24-39);
+                                                                                            Oct.   14-26); Dec. (2, 21-23).
+                                                                                                   (4,
+      Sciaenops ocellata (Linnaeus). Red drum.                                              RIVER: Salinity 0/16.3, temperature 20.5/21.5. Number and
+                                                                                            length; Oct. (1, 10).
+BAY:          Salinity    4.1/4.1-16.8/20.6,       temperature           20.2/20.2-
+28.1/29.5.       Number and length: Apr. (1, 95); May (1, 140);                                Gobionellus hustatus Girard. Sharptail goby.
+Oct.    (5,   54-65).
+                                                                                            BAY: Salinity 5.9/7.3-6.1/17.4, temperature 16.2/16.1-19..3/
+                                                                                            18.9. Number and length: Mar. (3, 59-78); Dec. (1, 44).
+                            Family Ephippidae
+                                                                                               Gobiosoma bosci (Lacepede). Naked goby.
+  Chaetodipterus faber (Broussonet). Atlantic spadefish.
+                                                                                            BAY: Salinity 0/0-8.0/19.4, temperature 9.5/9.3-31.0/31.0.
+BRIDGE: Salinity 15.1/30.6, temperature 28.1/24.8. Number                                   Number and length: Jan. (3, 35-39); Mar. (1, 25); July (7,
+and length: June (1,              13).                                                      25-47);      Aug. (5, 11-15).
+BAY:      Salinity                temperature 28.1/29.5-
+                         16.8/20.6-17.6/25.0,                                               RIVER:         Salinity       0/16.3,   temperature 20.5/21.5. Number
+29.8/29.9. Number and length: Aug. (1, 126); Oct. (1, 52).                                  and length: Oct. (1, 22).
+
+                                                                                              Unknown Gobiidae.
+                            Family Mugilidae                                                BAY:         Salinity       1.7/7.8-11.9/11.9,    temperature    22.7/23.6-
+                                                                                            29.3/29.3. Number and length: Apr. (35, 6-7); Aug. (2, 9-10).
+  Mugil ce)ihalufi Linnaeus. Striped mullet.
+
+BRIDGE:          Salinity       10.9/30.2-15.8/27.9,     temperature 11.3/                                               Family Trichiuridae
+14.1-12.4/14.8. Number and length: Jan. (1, 29); Dec.                       (1. 26).
+                                                                                               Trichiurus Icpturus Linnaeus. Atlantic cutlassfish.
+BAY: Salinity 0.3/0.3-17.6/25.0, temperature 8.3/8.2-31.0/
+31.0. Number and length: Jan. (8, 27-31); Mar. (2, 30-31);                                  BAY:         Salinity       6.7/15.5-20.5/23.0,   temperature 25.1/23.5-
+Apr. (68, 27-62); May (21, 34-70); June (68, 39-93); July (1,                               29.1/28.8.      Number and length: Apr. (3, 223-276); Sept. (1,
+91):    Aug. (31, 60-99); Sept. (2, 110-111); Oct. (3, 176.309).                            479); Oct.      (1,   795).
+
+  Mugil curema Valenciennes. White mullet.
+                                                                                                                          Family Scombridae
+BRIDGE:          Salinity       13.9/29.9-22.0/25.5,     temperature 24.6/
+                                                                                              Scomberomorus niaculatus (Mitchill). Spanish mackerel.
+21.2-23.6/24.1.          Number and length: May (2, 4-23).
+BAY:      Salinity 2.7/2.7-9.0/9.0,           temperature 17.9/17.9-21.2/                   BAY: Salinity 4.8/5.1-9.7/9.7, temperature 31.0/31.0-31.2/
+21.2,    Number and length: Mar. (2, 175-181): Sept. (1, 153).                              31.1. Number and length: July (4, 65-152).
+
+
+                                                                                       11
+                        Family Stromateidae                                                   Trinectes maculatus (Bloch and Schneider). Hogchoker.
+
+      Peprilus alepidotus {Linnaeus). Harvestfish.                                      BAY:       Salinity    0/0-16.8/20.6,      temperature     16.2/16.1-30.4/
+
+BRIDGE: Salinity 22.8/29.6, temperature 29.6/27.4. Number                               31.7.Number and length: Jan. (2, 30-69); Mar. (2, 67-90);
+and length: .June (2, 11-12).                                                           Apr. (2, 46-52); May (1, 35); June (2, 43-51); July (3, 23-62);
+BAY:       Salinity     6..5/13.1-20.5/23.0,       temperature 21.0/22.3-               Aug. (8, 10-71); Oct. (3, 89-96).
+30.4/31.7. Number and length: July (1. 64); Aug. (13, 67-127);                          RIVER:          Salinity     0/15.3-0.5/16.1,   temperature         25.0/28.0-
+
+Sept. (44, 17-62); Oct.                34-135).                                         23.1/30.0. Number and length: Sept. 11, 111; Oct. (1, 60).
+                                 (2,
+
+
+      Peprilus triacanthus (Peck). Butterfish.
+                                                                                                               Family Cynoglossidae
+BRIDGE:        Salinity        15.5/30.7-26.3/29.5,      temperature        5.3/              Symphurus plagiusa (Linnaeus). Blackcheek tonguefish.
+11.4-2t).()/25.8.Number and length: Jan. i2, 2(j-27); Feb. (1,
+13); Mar. (2, 18-30); May (1, 19); Dec. (13, 13-42).                                    BAY:       Salinity    0/0-10.8/20.6,      temperature 21.7/23.0-29.3/
+BAY: Salinity 2.6/2.6-10.8/20.6, temperature 21.7/23.0-                                 29.3.    Number and length:             Apr. (1, 45); Aug. (12, 17-601;
+
+27.0/28.0. Number and length; Apr. (8, 68-85); July (1, 44);                            Oct.     (1,   59).
+Oct. (1, 150).
+                                                                                                                     Family Balistidae
+                           Family Triglidae
+                                                                                              Aluterus schoepfi (Walbauml. Orange              filefish.
+
+      Prionofus trihulufs Cuvier. Bighead searobin.
+                                                                                        BRIDGE: Salinity 24.4/29.7, temperature 26.1/26.3. Number
+BRIDGE: Salinity 13.3/30.9, temperature 27.6/28.9. Number                               and length: June (1, 57).
+and length: Aug. (1, 6),
+                                                                                              Monacanthus          hispidus    (Linnaeus).    Planehead       filefish.
+BAY: Salinity 1.2/1.5-16.1/23.3, temperature 16.2/16.2-30.9/
+30.9. Number and length: Mar. (1, 47); June l3, 24);                Aug. (1,            BRIDGE:           Salinity    15.2/30.6-24.4/29.7,    temperature        12.1/
+41); Oct. 14, 21-86);      Nov. |2, 26-28).                                             18.7-29.5/29.4.       Number and length: May (3, 17-24); June (7,
+                                                                                        13-21); .July (1, 16); Aug. (3, 28-30); Oct. (1, 19); Nov. (2, 21).
+                                                                                        BAY: Salinity 21.1/21.3, temperature 26.7/26.7. Number and
+                               Family Bothidae                                          length: May (1, 17).
+
+      Citharichthys spilopterus Giinther. Bay whiff.
+                                                                                                               Family Tetraodontidae
+BRIDGE (specimens probably this species;                       identified    as
+either Citharichthys sp. or Etropus sp.): Salinity 15.8/27.9-                                 Sphoeroides nephelus (Goode and Beanl. Southern puffer.
+26.4/29.8.,    temperature             5.2/11.4-14.2/16.0.     Number and               BRIDGE:           Salinity    8.8/28.7-23.7/29.6,     temperature        10.9/
+length: Jan. (1, 13); May (1, 13); Nov. (1, 11); Dec. (2, 10-11).
+                                                                                        14.1-29.6/27.4.       Number and length: Jan. (1,           12);    Apr.   (2,
+BAY: Salinity 8.0/8.0-16.7/23.1, temperature 13.6/13.0-29.3/                            11-15);    May (6, 7-121; June (2, 12-13); July (1, 10).
+29.3. Number and length: Jan. (4, 12-20); Feb. (1, 27); Aug.
+                                                                                        BAY:       Salinity    0/0-9.6/20.3,       temperature     20.8/20.3-31.0/
+(1,   101).                                                                             31.0.   Number and length: Apr. (1, 92); May (2, 22-31); June
+                                                                                        (2,   43-50); July    ll,   31);   Aug. (2, 49-53).
+  Paralwhlhys lethostigma Jordan and Gilbert, Southern
+flounder.
+                                                                                                                    Family Diodontidae
+BAY: Salinity 2.5/2.7-8.5/21.4, temperature 15.2/16.5-23.7/
+23.7. Number and length: Mar. (1, 32); Apr. (2, 57-59).                                       Chilomycterus antillariim Jordan and Rutter.                 Web burr-
+                                                                                        fish.
+  Unknown Bothidae.
+                                                                                        BAY: Salinity 21.1/21.3, temperature 26.7/26.7. Number and
+BRIDGE:       Salinity         18.2/30.1-26.3/29.8,      temperature    5,3/            length: May (2, 17).
+11.4-13.2/16.3. Number and length: Jan. (7, 9-13); Dee. (1, 10).
+BAY: Salinity 9.0/9.0, temperature 21.2/21.2. Number and                                      Chilomycterus         schoepfi    (Walbaum).     Striped      burrfish.
+
+length: Sept.     (1,   14).
+                                                                                        BAY: Salinity 17.6/25.0, temperature 29.8/29.9. Number and
+                                                                                        length: Aug. (1,215).
+
+                           Family Soleidae
+  Achirus lineatus (Linnaeus). Lined Sole.
+                                                                                                                       SUMMARY
+BRIDGE (specimen probably this species; identified as a                                       Gulf menhaden, Brevoo}-tia patromis, and other
+Soleidae): Salinity 22.8/29.6, temperature 29.6/27.4. Number
+                                                                                        species of fishes              were collected from Pensacola
+and length: June (1, 3),
+BAY: Salinity                                                                           Bay, East Bay, and East Bay River from Decem-
+                    0/0,       temperature        27.8/27.8.   Number and
+length: Aug. (1, 51).                                                                   ber 1969 to October 1971. Larval menhaden, 10
+RIVER: Salinity 0/16.3, temperature 20.5/21.5. Number and                               to 32      mm
+                                                                                                  TL, entered from the Gulf of Mexico
+length: Oct.     (2, 9-14).                                                             from December to April. Monthly sizes indicated
+
+                                                                                   12
+two spawning peaks occurred during the spawn-                      BOLLMAN. C. H.
+                                                                       1886. Notes on a collection of fishes from the Escambia
+ing season from late October to late March. Lar-
+                                                                          River, with description of a new species of Ziigonectes
+vae entered at smaller sizes than reported for
+                                                                          iZiigonectes    escambiacl.   Proc.   U.S. Natl.   Mus.   9:
+estuaries on the Louisiana and southern Florida                           462-465.
+coasts. Early growth was in the upper Bay, and                     COMBS, R. M.
+as the young increased in size they moved Gulf-                        1969. Embryogenesis, histology and organology of the
+
+ward. Young, 31 to 50 mm TL, in April appeared                            ovary of Brevoortia patronus. Gulf. Res. Rep. 2:333-
+                                                                          434.
+to attain a size of 91 to 120 mm by August. Small
+                                                                   COOLEY, N. R.
+catches after August indicated that most juve-                        In press. An inventory of the estuarine fauna in the vi-
+niles had moved out of the estuary. Gulf men-                             cinity of Pensacola, Florida. Fla.
+                                                                                                        Dept. Nat. Resour.,
+haden and bay anchovy, Anchoa mifchilli, made                          Mar. Res. Lab., Prof. Pap. Ser. No. 14.
+up about 92% of all fish caught. The latter may                    EVERMANN, B. W., and W. C. KENDALL.
+                                                                        1900. Check-list of the fishes of Florida. U.S.   Comm.
+be the most important competitor of menhaden
+                                                                          Fish and Fish., pt. 25, Rep.    Comm. 1899:35-103.
+for food and space in East Bay.                                    GILBERT, C. H.
+   Eighty-four species of fishes, representing 46                       1891. Report of explorations     made in Alabama during
+families, were captured. The number and length                            1889, with notes on the fishes of the Tennessee, Ala-
+
+of each species by month are presented for the                            bama and Escambia Rivers. Bull. U.S. Fish Comm.
+                                                                          9:143-159.
+areas from which it was caught. Also included
+                                                                   GUNTER, G., and J. Y. CHRISTMAS.
+are the salinity and temperature ranges at cap-
+                                                                      1960. A review of literature on menhaden with special
+ture. Species not previously recorded from Pensa-                         reference to the Gulf of Mexico menhaden, Brevoortia
+cola estuaries are flat anchovy, Anchoviella per-                         patronus Goode. U.S. Fish Wildl. Serv., Spec. Sci.
+fasciata; rough silversides,      Membraa murtinica;                      Rep. Fish. 363. 31 p.
+
+chain pipefish, Syngnathus louisianae; and      web                HETTLER, W. F., .JR.
+                                                                       1970. Rearing larvae of yellowfin menhaden, Brevoortia
+burrfish, ChUomycterus avtillarum.
+                                                                          smithi. Copeia 1970:775-776.
+                                                                   JORDAN. D. S., and C. H. GILBERT.
+                                                                       1882. Notes on fishes observed about Pensacola, Florida
+                                                                         and Galveston, Texas, with description of new species.
+              ACKNOWLEDGMENTS                                            Proc. U.S. Natl. Mus. 5:241 307.
+                                                                   JUNE, F. C, and J. L. CHAMBERLIN.
+  We thank Thomas W. McKenney and William                              1959. The role of the estuary in the life history and biol-
+                                                                         ogy of Atlantic menhaden. Proc. Gulf Caribb. Fish.
+J. Richards, Southeast Fisheries Center, National
+                                                                         Inst, nth Annu. Sess., p. 41-45.
+Marine Fisheries Service, NOAA, Miami, and                         LEWIS. R. M., W. F. HETTLER. JR.. E. P. H. WILKENS,
+Ralph W. Yerger, Florida State University, Talla-                  and G.   N.     JOHNSON.
+hassee, for identifying various specimens. We are                      1970.     A channel net for catching larval fishes. Chesa-
+also grateful to Nelson R. Cooley, Environmental                          peake Sci. 11:196-197.
+Protection Agency, Gulf Breeze Laboratory, for                     REID. G. K., JR.
+                                                                       1955.  A summer study of the biology and ecology of
+indicating new records for the Pensacola area.
+                                                                          East Bay, Texas. Introduction, description of area,
+                                                                          methods, some aspects of the fish community, the in-
+                                                                          vertebrate fauna. Part I. Tex. J. Sci. 7:316-343.
+                                                                   REINTJES, J. W.
+                                                                        1969.    The Gulf menhaden and our changing estuaries.
+               LITERATURE CITED                                           Proc. Gulf Caribb. Fish. Inst. 22nd Annu. Sess.,          p.
+                                                                          87-89.
+BAILEY. R. M., (editor).                                           REINTJES, J. W., and A. L. PACHECO.
+    1970. A list of common and scientific names of fishes               1966.    The relation of menhaden to estuaries. In R. F.
+      from the United States and Canada. Am. Fish. Soc.                   Smith, A. H. Swartz, and W. H. Massmann (editors),
+       Spec. Publ. 6. 149   p.                                            A symposium on the estuarine fisheries, p. 50-58.
+BAILEY. R. M., H. E. WINN, and C. L. SMITH.                             Am. Fish. Soc, Spec. Publ. 3.
+    1954. Fishes from the   Escambia River, Alabama and            SMITH-VANIZ, W. F.
+       Florida, with eeologic and taxonomic notes. Proc.                1968.Freshwater fishes of Alabama. Paragon Press.
+       Acad. Nat. Sci. Phila. 106:109-164.                                Montgomery, Ala., 211 p.
+BALDAUF, R.J.                                                      SPRINGER, V. G., and K. D. WOODBURN.
+    19.'54.Survey and study of surface and sub-surface con-           1960. An ecological study of the fishes of the Tampa
+       ditions in and around Beaumont, Texas. Tex. A. &                   Bay area. Fla. State Board Con.serv.. Mar. Lab., Prof.
+       M. Res. Found. [Mimeogr. rep.].                                    Pap. Ser. 1, 104 p.
+
+                                                              13
+SUTTKUS, R. D.                                                            Zool. 8:177-182.
+   1956. Early   life   history of the Gulf menhaden, Brevo-        TAGATZ, M. E.
+     ortia patronus, in Louisiana. Trans. 21st   North Am.             197;?. A larval tarpon, Megalaps atlanticus. from Pensa-
+
+     Wildl. Nat. Resour. Conf.:390-407    + 6 pis.                        cola, Fhirida.   Copeia 140-141.
+SUTTKUS. R. D.. and B. I. SUNDARARAJ.                               TURNER, W. R.
+   1961. Fecundity and reproduction in the largescale men-              1969. Life history of menhadens in the eastern Gulf of
+     haden.   Brcvoortia     patronus Goode.   Tulane Stud.               Mexico. Trans.     Am. Fish. Soc. 98:216-224.
+
+
+
+                                                                          liGPO   1973 797-044/4
+
+
+
+
+                                                               14
+                                                                        MBL WHOI Library   -   Serials
+
+
+
+
+                                                                    5     WHSE 01915
+636     Oil pollutio7i on Wake Island from the tanker                                      646       Dissolved nitrogen concentrations in the Colum-
+        R. C. Stoner.     By Rginald M. Gooding. May                                                 bia and Snake Riv-ers in 1970 and their eff'ect on
+        1971, iii   +12 pp., 8 figs., 2 tables. For sale by                                          chinook salmon and steelhead trout. By Wesley
+        the Superintendent of Documents, U.S. Govern-                                                J.       August 1971, iii -f 7 pp., 2 figs., 6
+                                                                                                             Ebel.
+        ment Printing Office, Washington, D.C. 20402 -                                               tables.For sale by the Superintendent of Doc-
+        Price 25 cents.                                                                              uments U.S. Government Printing Office, Wash-
+                                                                                                     ington, D.C. 20402 - Price 20 cents.
+6:^)7   Occurrence of larval, juvenile, and mature crabs
+        in the vicinity of Beaufort Inlet, North Carolina.                                 647       Revised annotated list of parasites from sea mam-
+        By Donnie L." Dudley and Mayo H. Judy. August                                                mals caught off tlie west coast of North America.
+        1971, iii + 10 pp., 1 fig., 5 tables.  For sale by                                           By L. Margolis and M. D. Dailey. March 1972,
+        the Superintendent of Documents, U.S. Govern-                                                iii -1- 23 pp. For sale by the Superintendent of
+        ment Printing Office, Washington, D.C. 20402 -                                               Documents, U.S. Government Printing Office,
+        Price 25 cents.                                                                              Washington, D.C. 20402 - Price 35 cents.
+638     Length-weight relations of haddock from com-                                       648       Weight     loss of pond-raised channel catfish
+        mercial landings in New England, 19.31-55. By                                                {Icialiirus pinictatiia) during holding in pro-
+        Bradford E. Brown and Richard C. Hennemuth.                                                  cessing plant vats. By Donald C. Greenland and
+        August 1971, V -I- 13 pp., 16 fig.,    tables, 10                                            Robert L. Gill. December 1971, iii -|- 7 pp., 3 figs.,
+        appendix A tables. For sale by the Superintend-                                              2 tallies. For sale by the Superintendent of Doc-
+        ent of Documents, U.S. Government Printing                                                   uments, U.S. Government Printing Office, Wash-
+        Office, Wa.shington, D.C. 20402 - Price 25 cents.                                            ington, D.C. 20402 - Price 25 cents.
+
+639     A hydrographic survey of the Galveston Bay                                         649       ])istrii)ution of forage of skipjack tuna (Euthyn-
+        system, Texas 1963-66. By E. J. Pullen, W. L.                                                7i)isj)plaiiii>i) in the eastern tropical Pacific. By
+        Trent, and G. B. Adams.        October 1971, v          +                                    Maurice Blackburn and Michael Laurs. January
+        13 pp., 15 figs., 12 tables. For sale by the Super-                                          1972. iii -f 16 pp., 7 figs., 3 tables. For sale by
+        intendent of Documents, U.S. (Government Print-                                              the Superintendent of Documents, U.S. Govern-
+        ing Office, Washington, D.C. 20402 - Price 30                                                ment Printing Offiice, Washington, D.C. 20402 -
+        cents.                                                                                       Price 30 cents.          Stock No. 0.320-0036.
+640     Annotated bibliography on the fishing industry
+                                                                                           650       Efi"ects of some antioxidants and EDTA on the
+        and l)io]ogy of the blue crab, Calti^icrtes sapidii.';.
+                                                                                                     development of rancidity in Spanish mackerel
+        By Marlin E. Tagatz and Ann Bowman Hall.                                                     (ScoinherinnoriiK macxlnhtu) during frozen stor-
+        August 1971, 94 pp. For sale by the Superinten-
+        dent of Documents, U.S. Government Printing
+                                                                                                     age.   By Robert N. Farragut. Februar.y 1972,
+        Office,   Wa.shington, D.C. 20402    -   Price $1.00.
+                                                                                                     iv -|- 12 pp., 6 figs., 12 tables. For sale by the
+                                                                                                     Superintendent of Documents, U.S. Government
+G41     Use of threadfin shad, Doroaoma          pctctirxsc, as                                      Printing Office, Washington, D.C. 20402 - Price
+        live baitduring experimental pole-and-Iine fish-                                             25 cents. Stock No. 0320-0032.
+        ing for skipjack tuna, KntSHwoiius pelnmis, in
+        Hawaii. By Robert T. B. Iversen. August 1971,                                      651       The effect of premortem stress, holding temper-
+        iii + 10 pp., 3 figs., 7 tables. For sale by the                                             atures, and freezing on the biochemistry and
+        Superintendent of Documents, U.S. Government                                                 qualitv of .skipjack tuna. By Ladell Crawford.
+        Printing Office, Washington, D.C. 20402 - Price                                              Apriri972, iii -f 23 pp., 3 figs., 4 tables. For
+        25 cents.                                                                                    sale by the Superintendent of Docviments, U.S.
+                                                                                                     Government Printing               Office,   Washington, D.C.
+642     -Atlantic menhaden Brevoorfia ti/raitnits resource                                           20402      -    Price 35 cents.
+                        —
+        and fishery analysis of decline. By Kenneth
+        A. Henry." August 1971, v -f 32 pp.,' 40 figs., 5                                  653       The use of electricity in conjunction with a 12.5-
+        appendix figs.. 3 tables, 2 appendix tables. For                                             meter (Headrope) Gulf-of-Mexico shrimp trawl
+        sale by the Superintendent of Documents, U.S.                                                in Lake Michigan.    By James E. Ellis. March
+        Government Printing Office, Washington, D.C.                                                 1972, iv -I- 10 pp., 11 figs., 4 tables. For sale
+        20402 - Price 45 cents.                                                                      by the Superintendent of Documents, U.S. Gov-
+                                                                                                     ernment Printing Office, Washington, D.C.
+643     Surface winds of the southeastern tropical At-                                               2'0402     -    Price 25 cents.
+        lantic Ocean.   By John M. Steigner and Merton
+        C. Ingham.    October 1971, iii -f 20 pp., 17 figs.                                654       All electric detector system for recovering inter-
+        For sale by the Superintendent of Documents,                                                 nally tagged menhaden, genus Brevoortia. By R.
+        U.S. Government Printing Office,            Washington,
+        D.C. 20402 - Price 35 cents.
+                                                                                                     O. Parker, Jr. February 1972, iii             +
+                                                                                                                                          7 pp., 3 figs.,
+                                                                                                     1 appendix table. For sale by the Superintendent
+644     Inhibition of flesh browning and skin color fading                                           of Documents, U.S. Government Printing Office,
+        in frozen fillets of yelloweye snapper (Lutzanus                                             Washington, D.C. 20402 - Price 25 cents.
+                  By Harold C. Thompson, Jr., and
+        virniiiia).
+        Mary H. Thompson. February 1972, iii + 6 pp.,                                      655       Immobilization of fingerling salmon and trout by
+        3 tables.For sale by the Superintendent of Doc-                                              decompression. By Doyle F. Sutherland. March
+        uments, U.S. Government Printing Office, Wash-                                               1972. iii       +
+                                                                                                                 7 pp., 3 figs., 2 tables. For sale by
+        ington, D.C. 20402    -   Price 25 cents.                                                    the Superintendent of Documents, U.S. Govern-
+                                                                                                     ment Printing Office, Washington, D.C, 20402 -
+645     Traveling screen for removal of debris from                                                  Price 25 cents.
+        rivers. By Daniel W. Bates, Ernest W. Murphey,
+        and Martin G. Beam. October 1971, iii + 6 pp.,                                     656       The calico scallop, Argopccten gibhus. By Don-
+        6 figs., 1 table. For sale by the Superintendent                                             ald M. Allen and T. J. Ccstello. May 1972, iii -f-
+        of Documents, U.S. Government Printing Office,                                               19 pp., 9 figs., 1 table. For sale by "the Superin-
+        Washington, D.C. 20402 - Price 25 cents. Stock                                               tendent of Documents, U.S. Government Printing
+        No. 0320-0016.                                                                               Office, Washington, D.C, 20402 - Price 35 cents.
+              UNITED STATES
+      DEPARTMENT OF COMMERCE
+NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION                                      POSTAGE AND FEES PAID
+        NATIONAL MARINE FISHERIES SERVICE
+          SCIENTIFIC PUBLICATIONS STAFF
+                   ROOM 450
+                1107 N E. 45TH ST.
+                                                  FOURTH CLASS                    US. DEPARTMENT OF COMMERCE
+                                                                                           COM-210
+
+
+               SEATTLE,   WA 98105
+               OFFICIAL BUSINESS                  Marine Blolop;lcal laboratory
+                                                  Library - Poriodicals
+                                                  Woodu Hole, Ma 025'+3
+

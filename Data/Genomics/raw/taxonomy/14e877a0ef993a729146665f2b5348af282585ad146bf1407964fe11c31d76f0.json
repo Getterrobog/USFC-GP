@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Alosa%20pseudoharengus",
+  "retrieved_utc": "2026-10-13T04:04:47.839259+00:00",
+  "sha256": "341c1c5168c383e055a5ca2c110c8b13fc00306f3bc9335fa188cb4c4f350b6d",
+  "http_status": 200,
+  "bytes": 695,
+  "cache_path": "Data/Genomics/raw/taxonomy/14e877a0ef993a729146665f2b5348af282585ad146bf1407964fe11c31d76f0.gz"
+}

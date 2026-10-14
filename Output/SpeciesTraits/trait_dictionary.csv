@@ -1,0 +1,45 @@
+field,domain,source_trait,unit,interpretation
+generation_time_model_years,life_history,generation_time_model,years,Growth-derived model; correlated with K; not observed generation length
+maximum_age_wild_years,life_history,maximum_age_wild,years,"Reported maximum age, source population context applies"
+maturity_age_reported_years_min,life_history,maturity_age_reported,years,"Minimum across retained source records, not a confidence bound or global minimum"
+maturity_age_reported_years_max,life_history,maturity_age_reported,years,Maximum across retained source records; populations and sexes remain in evidence
+growth_k_reported_per_year_min,life_history,growth_k_reported,1/year,Minimum across source growth estimates; not a confidence bound
+growth_k_reported_per_year_max,life_history,growth_k_reported,1/year,Maximum across source growth estimates; not a confidence bound
+maximum_length_male_unsexed_cm,size,maximum_length_male_unsexed,cm,Retain accompanying TL/SL/FL length type; no automatic conversion
+depth_shallow_m,habitat,depth_shallow,m,"Reported distribution boundary, not physiological tolerance"
+depth_deep_m,habitat,depth_deep,m,"Reported distribution boundary, not physiological tolerance"
+water_column_habitat,habitat,water_column_habitat,category,Vertical habitat position
+sexual_system,reproduction,ReproMode,category,Sexual system; retain database/source definitions
+fertilization,reproduction,Fertilization,category,Fertilization mode
+parental_care,reproduction,ParentalCare,category,Reported parental care category
+spawning_pattern,reproduction,Spawning,category,Reported spawning pattern
+larval_development_place,dispersal,PlaceofDevelopment,category,"Developmental habitat, not a duration or dispersal distance"
+generation_time,generation_time,generation_time_model; generation_length_assessment,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+longevity,longevity,maximum_age_wild; maximum_age_captive; maximum_age_growth_record; maximum_observed_age; maximum_age_contextual,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+maturity_age,maturity_age,maturity_age_reported; maturity_age_growth_record; maturity_age_contextual; maturity_age_model,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+maturity_size,maturity_size,maturity_length_reported; maturity_length_source_min; maturity_length_source_second; maturity_length_contextual,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+growth,growth,growth_k_reported; growth_k_keyfacts,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+fecundity,fecundity,FecundityMin; FecundityMax; FecundityMean,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+larval_duration,larval_duration,LarvalDurationMin; LarvalDurationMax; LarvalDurationMod; larval_duration_reported,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+migration,migration,migration,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+diel_movement,diel_movement,diel_habitat_movement; diel_vertical_migration,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+body_size,body_size,maximum_length_male_unsexed; maximum_length_female; reef_body_size_max,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+body_shape,body_shape,body_shape,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+depth,depth,depth_shallow; depth_deep; reef_depth_max,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+water_column,water_column,water_column_habitat,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+sexual_system,sexual_system,ReproMode,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+parental_care,parental_care,ParentalCare,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+reproductive_guild,reproductive_guild,RepGuild1; RepGuild2,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+spawning,spawning,Spawning; reef_spawning_mode; spawning_aggregation; spawning_aggregation_reported; batch_spawning_reported,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+egg_traits,egg_traits,egg_buoyancy,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+larval_habitat,larval_habitat,PlaceofDevelopment,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+trophic_level,trophic_level,DietTroph; FoodTroph,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+trophic_group,trophic_group,fishbase_feeding_group; reef_diet_guild; diet_guild_contextual,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+feeding_mechanism,feeding_mechanism,feeding_mechanism; FeedingType; feeding_type,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+sociality,sociality,schooling_reported; reef_group_size,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+activity,activity,activity_reported,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+mating_system,mating_system,mating_system,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+habitat_breadth,habitat_breadth,reef_multihabitat,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+rafting,rafting,reef_rafting,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+territoriality,territoriality,adult_territoriality,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.
+estuarine_use,estuarine_use,estuarine_use,see evidence records,Gap-audit domain; source-specific measurements are not automatically interchangeable.

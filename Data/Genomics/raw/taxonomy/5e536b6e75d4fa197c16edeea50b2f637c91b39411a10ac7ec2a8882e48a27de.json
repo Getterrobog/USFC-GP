@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Chlorophthalmus%20agassizi",
+  "retrieved_utc": "2026-10-13T04:05:13.460926+00:00",
+  "sha256": "3b5d78b2d833db038da7a28220e595a977f3bcba0de128c6a60c99ee788aa149",
+  "http_status": 200,
+  "bytes": 685,
+  "cache_path": "Data/Genomics/raw/taxonomy/5e536b6e75d4fa197c16edeea50b2f637c91b39411a10ac7ec2a8882e48a27de.gz"
+}

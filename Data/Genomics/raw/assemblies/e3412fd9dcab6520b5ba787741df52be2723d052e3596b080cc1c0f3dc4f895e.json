@@ -1,0 +1,8 @@
+{
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/8265/dataset_report?page_size=1000",
+  "retrieved_utc": "2026-10-13T04:05:34.833595+00:00",
+  "sha256": "2dd2e5fed0063c1773d8112b293ba97e5f60354d8e377d78bce3341cb9149cc5",
+  "http_status": 200,
+  "bytes": 12197,
+  "cache_path": "Data/Genomics/raw/assemblies/e3412fd9dcab6520b5ba787741df52be2723d052e3596b080cc1c0f3dc4f895e.gz"
+}

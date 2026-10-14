@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Exocoetus+volitans%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:14.124754+00:00",
+  "sha256": "f2cf97ed7ff1557bd0e2ff16b6a6c7c499b5af57ef4b0f2371862468f90a464c",
+  "http_status": 200,
+  "bytes": 2907,
+  "cache_path": "Data/Genomics/raw/geome/15ce3c65db8723b811660679cf445768c3ede9d9afc6ba932b830d7b42dc8d8b.gz"
+}

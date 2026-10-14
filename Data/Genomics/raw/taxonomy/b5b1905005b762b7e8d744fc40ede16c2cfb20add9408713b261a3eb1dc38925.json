@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Anchoa%20cayorum",
+  "retrieved_utc": "2026-10-13T04:04:50.031549+00:00",
+  "sha256": "67fd193c556405c9bafdaedb8d4e923afb00735c2e1a4afce4278dfe40b9a354",
+  "http_status": 200,
+  "bytes": 689,
+  "cache_path": "Data/Genomics/raw/taxonomy/b5b1905005b762b7e8d744fc40ede16c2cfb20add9408713b261a3eb1dc38925.gz"
+}

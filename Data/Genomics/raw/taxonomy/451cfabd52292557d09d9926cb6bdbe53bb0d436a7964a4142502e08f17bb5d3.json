@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Pomatomus%20saltatrix",
+  "retrieved_utc": "2026-10-13T04:05:31.837942+00:00",
+  "sha256": "3c93216a362bf17b486316deba2810c8de1a75a6cf0ba16f02bd5ae5587899a4",
+  "http_status": 200,
+  "bytes": 616,
+  "cache_path": "Data/Genomics/raw/taxonomy/451cfabd52292557d09d9926cb6bdbe53bb0d436a7964a4142502e08f17bb5d3.gz"
+}

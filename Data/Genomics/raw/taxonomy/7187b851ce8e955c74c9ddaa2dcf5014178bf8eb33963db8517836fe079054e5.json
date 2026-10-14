@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Lycenchelys%20verrillii",
+  "retrieved_utc": "2026-10-13T04:05:28.260703+00:00",
+  "sha256": "3c15b0f56267f2861d7abf5d245042401137d245cf11719c531096b8bf69bc7b",
+  "http_status": 200,
+  "bytes": 741,
+  "cache_path": "Data/Genomics/raw/taxonomy/7187b851ce8e955c74c9ddaa2dcf5014178bf8eb33963db8517836fe079054e5.gz"
+}

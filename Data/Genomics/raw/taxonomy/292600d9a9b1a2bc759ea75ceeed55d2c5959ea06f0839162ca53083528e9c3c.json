@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Nezumia%20bairdii",
+  "retrieved_utc": "2026-10-13T04:05:30.986218+00:00",
+  "sha256": "90fb09f093a69347f2c5db54e79835a9240eed4ab92bbed7fbb423a2bbcff3c7",
+  "http_status": 200,
+  "bytes": 788,
+  "cache_path": "Data/Genomics/raw/taxonomy/292600d9a9b1a2bc759ea75ceeed55d2c5959ea06f0839162ca53083528e9c3c.gz"
+}

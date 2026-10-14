@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Caranx%20latus",
+  "retrieved_utc": "2026-10-13T04:04:59.151393+00:00",
+  "sha256": "130c8bef0da87d2b82501ef517cb714d89e8e0163aa7c4bd34e6327dc6504dda",
+  "http_status": 200,
+  "bytes": 603,
+  "cache_path": "Data/Genomics/raw/taxonomy/14cea872e77f20f79c826d1130ad771062918aa5bef26df6ab93bd43f1113ae7.gz"
+}

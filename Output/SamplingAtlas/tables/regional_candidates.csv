@@ -1,0 +1,134 @@
+"species","life_stage","region","dated_mapped_specimens","lots","sampled_years","first_year","last_year","cells","cells_meeting_threshold","strongest_year","strongest_year_specimens","largest_lot_fraction","unvalidated_taxonomy_specimens","stage_unrecorded_specimens"
+"Alosa aestivalis","adult","Atlantic",1024,48,7,1882,1921,5,2,1914,507,0.09765625,0,1024
+"Stellifer lanceolatus","adult","Atlantic",750,1,1,1915,1915,1,1,1915,750,1,0,750
+"Alosa pseudoharengus","adult","Atlantic",596,35,6,1887,1921,6,4,1915,225,0.167785234899329,0,596
+"Gonichthys cocco","adult","Atlantic",348,20,2,1885,1886,8,3,1886,230,0.459770114942529,0,348
+"Gambusia affinis","adult","Atlantic",256,2,1,1916,1916,1,1,1916,256,0.9609375,0,256
+"Menidia menidia","adult","Atlantic",233,39,10,1885,1916,7,7,1892,70,0.107296137339056,0,233
+"Brevoortia tyrannus","adult","Atlantic",210,13,6,1882,1921,5,4,1892,94,0.238095238095238,0,210
+"Fenestraja plutonia","adult","Atlantic",201,13,2,1885,1886,5,3,1885,142,0.248756218905473,0,201
+"Centropristis striata","adult","Atlantic",191,21,9,1883,1916,6,1,1892,164,0.340314136125654,0,191
+"Citharichthys arctifrons","adult","Atlantic",166,28,8,1880,1919,9,4,1884,74,0.120481927710843,0,161
+"Syngnathus fuscus","adult","Atlantic",164,24,8,1882,1920,6,3,1892,70,0.359756097560976,0,164
+"Anchoa mitchilli","adult","Atlantic",145,13,7,1882,1921,4,3,1915,52,0.344827586206897,0,145
+"Glyptocephalus cynoglossus","adult","Atlantic",137,74,8,1880,1887,14,5,1885,33,0.0656934306569343,0,137
+"Laemonema barbatulum","adult","Atlantic",135,18,4,1883,1886,7,2,1885,109,0.377777777777778,0,135
+"Nezumia bairdii","adult","Atlantic",135,64,8,1880,1887,17,3,1884,26,0.0666666666666667,0,135
+"Cyclothone microdon","adult","Atlantic",133,26,6,1881,1887,10,6,1886,47,0.135338345864662,0,133
+"Decapterus punctatus","adult","Atlantic",131,7,3,1885,1915,2,2,1885,109,0.641221374045801,0,131
+"Exocoetus volitans","adult","Atlantic",131,18,4,1885,1914,5,2,1914,65,0.419847328244275,0,69
+"Membras martinica","adult","Atlantic",129,8,3,1892,1916,3,3,1892,67,0.372093023255814,0,129
+"Anchoa cayorum","adult","Atlantic",102,6,2,1892,1914,2,1,1892,99,0.401960784313726,0,102
+"Myctophum affine","adult","Atlantic",98,8,3,1885,1914,6,2,1886,94,0.612244897959184,0,98
+"Ammodytes dubius","adult","Atlantic",92,3,2,1896,1915,2,1,1896,90,0.923913043478261,0,92
+"Tautogolabrus adspersus","adult","Atlantic",85,20,3,1892,1915,2,2,1892,57,0.352941176470588,0,85
+"Lycenchelys verrillii","adult","Atlantic",81,24,6,1880,1886,6,3,1884,40,0.222222222222222,0,81
+"Chlorophthalmus agassizi","adult","Atlantic",76,19,4,1884,1919,8,2,1885,50,0.276315789473684,0,76
+"Lycodes terraenovae","adult","Atlantic",67,27,5,1883,1887,9,4,1887,19,0.164179104477612,0,67
+"Pseudopleuronectes americanus","adult","Atlantic",66,19,4,1892,1916,4,2,1916,40,0.181818181818182,0,66
+"Dibranchus atlanticus","adult","Atlantic",62,27,6,1881,1886,7,1,1883,14,0.129032258064516,0,62
+"Coelorinchus carminatus","adult","Atlantic",60,20,6,1880,1885,7,4,1885,17,0.216666666666667,0,60
+"Centrobranchus nigroocellatus","adult","Atlantic",58,3,1,1914,1914,3,2,1914,58,0.758620689655172,0,58
+"Fundulus heteroclitus","adult","Atlantic",43,8,3,1891,1917,6,1,1891,25,0.465116279069767,0,43
+"Paralichthys dentatus","adult","Atlantic",41,15,8,1891,1921,5,1,1921,14,0.24390243902439,0,41
+"Chloroscombrus chrysurus","adult","Atlantic",38,4,2,1884,1885,2,2,1885,32,0.657894736842105,0,38
+"Stephanolepis hispida","adult","Atlantic",38,11,7,1881,1926,5,1,1899,20,0.342105263157895,0,38
+"Nezumia aequalis","adult","Atlantic",34,13,5,1881,1886,7,2,1886,23,0.205882352941176,0,34
+"Haemulon aurolineatum","adult","Atlantic",33,4,2,1885,1914,3,1,1885,31,0.909090909090909,0,33
+"Histrio histrio","adult","Atlantic",30,10,3,1885,1914,7,0,1914,16,0.266666666666667,0,29
+"Hygophum hygomii","adult","Atlantic",29,9,5,1881,1886,6,1,1886,16,0.344827586206897,0,29
+"Symphurus plagiusa","adult","Atlantic",29,13,3,1891,1916,3,1,1891,21,0.275862068965517,0,29
+"Gobiosoma ginsburgi","adult","Atlantic",28,7,4,1914,1920,3,1,1916,25,0.75,0,28
+"Liparis inquilinus","adult","Atlantic",25,2,1,1913,1913,1,1,1913,25,0.52,0,25
+"Monacanthus ciliatus","adult","Atlantic",25,6,4,1884,1902,6,1,1884,15,0.6,0,25
+"Strongylura marina","adult","Atlantic",24,7,2,1892,1899,3,1,1899,19,0.625,0,24
+"Phycis chesteri","adult","Atlantic",17,1,1,1880,1880,1,1,1880,17,1,0,17
+"Etropus crossotus","adult","Atlantic",15,11,4,1884,1920,6,0,1916,6,0.2,0,15
+"Cheilopogon furcatus","adult","Atlantic",10,5,3,1886,1915,4,0,1914,4,0.4,0,10
+"Harengula humeralis","adult","Atlantic",9,1,1,1914,1914,1,0,1914,9,1,0,9
+"Caranx latus","adult","Atlantic",7,2,1,1886,1886,1,0,1886,7,0.857142857142857,0,7
+"Bothus ocellatus","adult","Atlantic",2,1,1,1885,1885,1,0,1885,2,1,0,2
+"Lagodon rhomboides","adult","Atlantic",2,2,2,1883,1885,2,0,1883,1,0.5,0,2
+"Cyclopterus lumpus","adult","Atlantic",1,1,1,1882,1882,1,0,1882,1,1,0,1
+"Anchoa mitchilli","larva","Atlantic",251,4,2,1915,1920,2,1,1915,250,0.398406374501992,0,0
+"Bothus ocellatus","larva","Atlantic",175,33,3,1913,1919,18,6,1914,111,0.285714285714286,0,0
+"Pomatomus saltatrix","larva","Atlantic",156,1,1,1913,1913,1,1,1913,156,1,0,0
+"Citharichthys arctifrons","larva","Atlantic",60,2,1,1913,1913,2,2,1913,60,0.666666666666667,0,0
+"Cheilopogon furcatus","larva","Atlantic",50,17,1,1914,1914,2,1,1914,50,0.3,50,0
+"Hyporhamphus unifasciatus","larva","Atlantic",49,8,2,1914,1916,3,2,1914,46,0.448979591836735,0,0
+"Liparis inquilinus","larva","Atlantic",30,1,1,1884,1884,1,1,1884,30,1,0,0
+"Histrio histrio","larva","Atlantic",29,11,2,1914,1919,9,1,1914,28,0.482758620689655,0,0
+"Caranx latus","larva","Atlantic",25,1,1,1914,1914,1,1,1914,25,1,0,0
+"Chloroscombrus chrysurus","larva","Atlantic",21,2,2,1885,1915,2,1,1885,19,0.904761904761905,0,0
+"Exocoetus volitans","larva","Atlantic",12,2,1,1914,1914,2,1,1914,12,0.916666666666667,0,0
+"Menidia menidia","larva","Atlantic",12,2,1,1916,1916,1,1,1916,12,0.833333333333333,0,0
+"Myctophum affine","larva","Atlantic",3,1,1,1885,1885,1,0,1885,3,1,0,0
+"Stephanolepis hispida","larva","Atlantic",2,2,2,1913,1914,1,0,1913,1,0.5,0,0
+"Cyclopterus lumpus","larva","Atlantic",1,1,1,1916,1916,1,0,1916,1,1,0,0
+"Exocoetus volitans","mixed","Atlantic",51,3,2,1885,1914,2,1,1914,49,0.568627450980392,0,0
+"Poecilia vivipara","adult","Caribbean",254,5,1,1899,1899,1,1,1899,254,0.866141732283465,0,254
+"Atherinomorus stipes","adult","Caribbean",231,6,1,1899,1899,2,2,1899,231,0.554112554112554,0,231
+"Sparisoma radians","adult","Caribbean",59,11,1,1899,1899,3,2,1899,59,0.186440677966102,0,59
+"Jenkinsia lamprotaenia","adult","Caribbean",37,4,1,1899,1899,1,1,1899,37,0.675675675675676,0,37
+"Histrio histrio","adult","Caribbean",34,2,1,1884,1884,2,1,1884,34,0.970588235294118,0,34
+"Bathygobius soporator","adult","Caribbean",28,12,1,1899,1899,3,1,1899,28,0.285714285714286,0,28
+"Lutjanus apodus","adult","Caribbean",27,12,1,1899,1899,3,2,1899,27,0.222222222222222,0,27
+"Cynoscion nothus","adult","Caribbean",18,1,1,1884,1884,1,1,1884,18,1,0,18
+"Citharichthys spilopterus","adult","Caribbean",14,2,1,1899,1899,2,1,1899,14,0.785714285714286,0,14
+"Caranx latus","adult","Caribbean",10,1,1,1899,1899,1,1,1899,10,1,0,10
+"Eucinostomus argenteus","adult","Caribbean",6,3,1,1899,1899,1,0,1899,6,0.333333333333333,0,6
+"Lutjanus synagris","adult","Caribbean",6,3,1,1899,1899,2,0,1899,6,0.666666666666667,0,6
+"Chloroscombrus chrysurus","adult","Caribbean",4,1,1,1884,1884,1,0,1884,4,1,0,4
+"Symphurus plagiusa","adult","Caribbean",4,1,1,1899,1899,1,0,1899,4,1,0,4
+"Bothus ocellatus","adult","Caribbean",3,2,2,1899,1919,2,0,1919,2,0.666666666666667,0,3
+"Exocoetus volitans","adult","Caribbean",3,3,2,1884,1899,3,0,1884,2,0.333333333333333,0,3
+"Cyclothone microdon","adult","Caribbean",2,1,1,1887,1887,1,0,1887,2,1,0,2
+"Dibranchus atlanticus","adult","Caribbean",2,1,1,1884,1884,1,0,1884,2,1,0,2
+"Etropus crossotus","adult","Caribbean",2,1,1,1899,1899,1,0,1899,2,1,0,2
+"Haemulon aurolineatum","adult","Caribbean",2,2,1,1899,1899,2,0,1899,2,0.5,0,2
+"Haemulon plumierii","adult","Caribbean",2,1,1,1899,1899,1,0,1899,2,1,0,2
+"Anchoa lamprotaenia","adult","Caribbean",1,1,1,1899,1899,1,0,1899,1,1,0,1
+"Coelorinchus carminatus","adult","Caribbean",1,1,1,1884,1884,1,0,1884,1,1,0,1
+"Cyclothone microdon","larva","Caribbean",47,1,1,1919,1919,1,1,1919,47,1,0,0
+"Bothus ocellatus","larva","Caribbean",2,2,1,1919,1919,1,0,1919,2,0.5,0,0
+"Fundulus similis","adult","Gulf of Mexico",222,12,3,1884,1898,2,2,1884,162,0.18018018018018,0,222
+"Monacanthus ciliatus","adult","Gulf of Mexico",179,52,3,1885,1902,7,4,1902,67,0.150837988826816,0,179
+"Lagodon rhomboides","adult","Gulf of Mexico",119,16,7,1884,1917,8,3,1913,80,0.672268907563025,0,119
+"Atherinomorus stipes","adult","Gulf of Mexico",112,2,2,1885,1919,1,1,1885,105,0.9375,0,112
+"Fundulus heteroclitus","adult","Gulf of Mexico",67,4,3,1884,1898,2,1,1898,54,0.432835820895522,0,67
+"Menidia peninsulae","adult","Gulf of Mexico",64,5,3,1885,1898,1,1,1898,35,0.53125,0,64
+"Chromis enchrysurus","adult","Gulf of Mexico",58,8,1,1885,1885,3,2,1885,58,0.413793103448276,0,58
+"Anchoa cayorum","adult","Gulf of Mexico",51,1,1,1885,1885,1,1,1885,51,1,0,51
+"Chloroscombrus chrysurus","adult","Gulf of Mexico",46,1,1,1919,1919,1,1,1919,46,1,0,46
+"Haemulon aurolineatum","adult","Gulf of Mexico",46,10,7,1885,1917,3,1,1885,26,0.326086956521739,0,46
+"Syacium papillosum","adult","Gulf of Mexico",46,5,2,1902,1917,4,2,1917,28,0.58695652173913,0,46
+"Haemulon plumierii","adult","Gulf of Mexico",41,8,4,1884,1903,2,2,1884,20,0.414634146341463,0,41
+"Cynoscion nothus","adult","Gulf of Mexico",37,3,1,1919,1919,2,1,1919,37,0.810810810810811,0,37
+"Lutjanus synagris","adult","Gulf of Mexico",37,8,4,1884,1903,1,1,1884,15,0.405405405405405,0,37
+"Anchoa mitchilli","adult","Gulf of Mexico",33,2,1,1917,1917,2,2,1917,33,0.666666666666667,0,33
+"Dibranchus atlanticus","adult","Gulf of Mexico",32,8,2,1885,1902,3,1,1902,19,0.28125,0,32
+"Eucinostomus gula","adult","Gulf of Mexico",32,2,1,1885,1885,2,1,1885,32,0.96875,0,32
+"Bothus ocellatus","adult","Gulf of Mexico",31,13,3,1885,1917,5,1,1885,21,0.193548387096774,0,31
+"Gambusia affinis","adult","Gulf of Mexico",25,1,1,1917,1917,1,1,1917,25,1,0,25
+"Jenkinsia stolifera","adult","Gulf of Mexico",25,1,1,1885,1885,1,1,1885,25,1,0,25
+"Symphurus plagiusa","adult","Gulf of Mexico",25,16,4,1898,1917,6,1,1902,17,0.16,0,25
+"Etropus crossotus","adult","Gulf of Mexico",23,7,4,1884,1917,5,1,1917,15,0.434782608695652,0,23
+"Mullus auratus","adult","Gulf of Mexico",21,2,1,1917,1917,1,1,1917,21,0.952380952380952,0,21
+"Nezumia aequalis","adult","Gulf of Mexico",20,7,2,1885,1902,2,1,1902,11,0.45,0,20
+"Hyporhamphus unifasciatus","adult","Gulf of Mexico",12,6,4,1884,1915,2,0,1884,4,0.25,0,12
+"Citharichthys arctifrons","adult","Gulf of Mexico",11,4,3,1885,1903,2,1,1902,9,0.545454545454545,0,11
+"Brevoortia patronus","adult","Gulf of Mexico",7,1,1,1917,1917,1,0,1917,7,1,0,7
+"Coelorinchus carminatus","adult","Gulf of Mexico",6,2,1,1885,1885,2,0,1885,6,0.666666666666667,0,6
+"Histrio histrio","adult","Gulf of Mexico",6,5,2,1885,1902,3,0,1885,5,0.333333333333333,0,6
+"Cyclothone microdon","adult","Gulf of Mexico",4,2,1,1885,1885,1,0,1885,4,0.75,0,4
+"Stephanolepis hispida","adult","Gulf of Mexico",4,2,2,1901,1902,2,0,1901,3,0.75,0,4
+"Chlorophthalmus agassizi","adult","Gulf of Mexico",3,1,1,1885,1885,1,0,1885,3,1,0,3
+"Gonichthys cocco","adult","Gulf of Mexico",2,1,1,1885,1885,1,0,1885,2,1,0,2
+"Anchoa lamprotaenia","adult","Gulf of Mexico",1,1,1,1886,1886,1,0,1886,1,1,0,1
+"Fenestraja plutonia","adult","Gulf of Mexico",1,1,1,1902,1902,1,0,1902,1,1,0,1
+"Nezumia bairdii","adult","Gulf of Mexico",1,1,1,1885,1885,1,0,1885,1,1,0,1
+"Paralichthys dentatus","adult","Gulf of Mexico",1,1,1,1917,1917,1,0,1917,1,1,0,1
+"Bothus ocellatus","larva","Gulf of Mexico",13,6,2,1917,1919,4,0,1919,12,0.461538461538462,0,0
+"Citharichthys spilopterus","larva","Gulf of Mexico",8,1,1,1917,1917,1,0,1917,8,1,0,0
+"Symphurus plagiusa","larva","Gulf of Mexico",2,1,1,1917,1917,1,0,1917,2,1,0,0
+"Atherinomorus stipes","larva","Gulf of Mexico",1,1,1,1919,1919,1,0,1919,1,1,0,0

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Harengula+humeralis%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:35.474477+00:00",
+  "sha256": "3269c4c2127d7cbe7ba54a4b9a55cd5fa06b8429c2d10ce27ddc8e76c197ca23",
+  "http_status": 200,
+  "bytes": 2740,
+  "cache_path": "Data/Genomics/raw/geome/26bb0c9bcd105ef75e5ea02e0877b2d2bed22cb16517be032dee228f2be87b6c.gz"
+}

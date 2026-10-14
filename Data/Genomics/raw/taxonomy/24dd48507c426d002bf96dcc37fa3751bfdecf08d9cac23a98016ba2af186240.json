@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Lutjanus%20apodus",
+  "retrieved_utc": "2026-10-13T04:05:27.836534+00:00",
+  "sha256": "a67ce74737eaa21a6787b8378213888b33e0a31d680a454e7f13eedf59e253d5",
+  "http_status": 200,
+  "bytes": 722,
+  "cache_path": "Data/Genomics/raw/taxonomy/24dd48507c426d002bf96dcc37fa3751bfdecf08d9cac23a98016ba2af186240.gz"
+}

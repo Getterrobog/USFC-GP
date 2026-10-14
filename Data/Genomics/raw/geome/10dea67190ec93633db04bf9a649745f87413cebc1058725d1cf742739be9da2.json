@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Pomatomus+saltator%22+OR+scientificName%3D%22Pomatomus+saltatrix%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:46.546676+00:00",
+  "sha256": "3c3abfc5aaa73516de65c7b3b0dcb20e4a320484856f874afc90b32c5a7bba49",
+  "http_status": 200,
+  "bytes": 5044,
+  "cache_path": "Data/Genomics/raw/geome/10dea67190ec93633db04bf9a649745f87413cebc1058725d1cf742739be9da2.gz"
+}

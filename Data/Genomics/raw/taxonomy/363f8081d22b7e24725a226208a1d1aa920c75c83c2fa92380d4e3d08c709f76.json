@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Pseudopleuronectes%20americanus",
+  "retrieved_utc": "2026-10-13T04:05:33.556985+00:00",
+  "sha256": "5c81b8637253c2058d0daced71dde0db0034402ef79603a478e9b5fcd360d9c4",
+  "http_status": 200,
+  "bytes": 796,
+  "cache_path": "Data/Genomics/raw/taxonomy/363f8081d22b7e24725a226208a1d1aa920c75c83c2fa92380d4e3d08c709f76.gz"
+}

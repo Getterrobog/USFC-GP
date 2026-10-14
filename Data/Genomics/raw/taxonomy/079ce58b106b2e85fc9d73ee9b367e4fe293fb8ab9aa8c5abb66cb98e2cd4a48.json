@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Atherina%20harringtonensis",
+  "retrieved_utc": "2026-10-13T04:05:10.668726+00:00",
+  "sha256": "c4369813264b76017e428a36800681da72b794df5dc39b103609666440f0b1c8",
+  "http_status": 200,
+  "bytes": 763,
+  "cache_path": "Data/Genomics/raw/taxonomy/079ce58b106b2e85fc9d73ee9b367e4fe293fb8ab9aa8c5abb66cb98e2cd4a48.gz"
+}

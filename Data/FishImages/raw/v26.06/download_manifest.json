@@ -1,0 +1,10 @@
+{
+  "picturesmain": {
+    "bytes": 2795743,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T03:11:32.041240+00:00",
+    "sha256": "900fe816b0c353ce8196ed967a0b86259a80b15b2876627660e643a043b232da",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/picturesmain.parquet",
+    "version": "26.06"
+  }
+}

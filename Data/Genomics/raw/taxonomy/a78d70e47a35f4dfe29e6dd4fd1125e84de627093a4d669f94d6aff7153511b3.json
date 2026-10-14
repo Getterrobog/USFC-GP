@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Fundulus%20heteroclitus",
+  "retrieved_utc": "2026-10-13T04:04:52.735936+00:00",
+  "sha256": "54ac29b371d1b5b0023f458c6f94406025d9a1848d1b632a8d7e8028bf10802e",
+  "http_status": 200,
+  "bytes": 717,
+  "cache_path": "Data/Genomics/raw/taxonomy/a78d70e47a35f4dfe29e6dd4fd1125e84de627093a4d669f94d6aff7153511b3.gz"
+}

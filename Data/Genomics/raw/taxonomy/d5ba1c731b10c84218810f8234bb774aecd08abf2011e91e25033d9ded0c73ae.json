@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Phycis%20chesteri",
+  "retrieved_utc": "2026-10-13T04:05:31.409200+00:00",
+  "sha256": "0960093f0e107711e335cfea53704f1c6843ac90664ee4049a6a70006661ca2f",
+  "http_status": 200,
+  "bytes": 596,
+  "cache_path": "Data/Genomics/raw/taxonomy/d5ba1c731b10c84218810f8234bb774aecd08abf2011e91e25033d9ded0c73ae.gz"
+}

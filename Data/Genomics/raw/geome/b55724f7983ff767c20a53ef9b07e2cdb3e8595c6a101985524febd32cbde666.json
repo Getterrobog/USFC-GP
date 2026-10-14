@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Gobiosoma+ginsburgi%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:33.258850+00:00",
+  "sha256": "3b7af6860d6c79d356cbd5b28b6602d804677bfaacc58a6478ea6659ca050d24",
+  "http_status": 200,
+  "bytes": 2963,
+  "cache_path": "Data/Genomics/raw/geome/b55724f7983ff767c20a53ef9b07e2cdb3e8595c6a101985524febd32cbde666.gz"
+}

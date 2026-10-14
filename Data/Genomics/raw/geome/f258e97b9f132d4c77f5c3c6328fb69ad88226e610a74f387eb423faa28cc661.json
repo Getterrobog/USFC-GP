@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Stellifer+lanceolatus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:15.752959+00:00",
+  "sha256": "005426c3770444d0a62b07a6c5a005e123224ec3a9b1dacc5c86b5c85a42d37a",
+  "http_status": 200,
+  "bytes": 3394,
+  "cache_path": "Data/Genomics/raw/geome/f258e97b9f132d4c77f5c3c6328fb69ad88226e610a74f387eb423faa28cc661.gz"
+}

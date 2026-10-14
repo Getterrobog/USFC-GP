@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Anchoa%20colonensis",
+  "retrieved_utc": "2026-10-13T04:05:07.746221+00:00",
+  "sha256": "10b0f47d7efd08db1bea5ddf08ac7e4775a4e5da65178109034527e35becc0e6",
+  "http_status": 200,
+  "bytes": 755,
+  "cache_path": "Data/Genomics/raw/taxonomy/c3d3fd0fa3fc7c737ec8b66c2829b4df67480f10875ea2bcacd6f1da7b0d8e6d.gz"
+}

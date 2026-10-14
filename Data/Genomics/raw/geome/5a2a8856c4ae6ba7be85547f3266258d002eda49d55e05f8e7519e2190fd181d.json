@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Membras+martinica%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:05.110104+00:00",
+  "sha256": "b5f0041cb59520d11a30f7bd4d94651b7cef19da1c7d44a9d29787176584d0b7",
+  "http_status": 200,
+  "bytes": 3163,
+  "cache_path": "Data/Genomics/raw/geome/5a2a8856c4ae6ba7be85547f3266258d002eda49d55e05f8e7519e2190fd181d.gz"
+}

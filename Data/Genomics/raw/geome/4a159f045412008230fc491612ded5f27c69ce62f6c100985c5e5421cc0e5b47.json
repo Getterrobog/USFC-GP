@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Lutjanus+synagris%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:08.068582+00:00",
+  "sha256": "7343294e12fda54a7f02a3246ab5f2ecc8c7baf84f91cae5a1fe65de36702997",
+  "http_status": 200,
+  "bytes": 2885,
+  "cache_path": "Data/Genomics/raw/geome/4a159f045412008230fc491612ded5f27c69ce62f6c100985c5e5421cc0e5b47.gz"
+}

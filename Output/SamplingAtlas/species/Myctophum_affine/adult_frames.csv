@@ -1,0 +1,4 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Myctophum affine","adult",1885,"1885",3,3,0,-100,-50,5,60,2,"species/Myctophum_affine/adult_frames/year_1885.png"
+"Myctophum affine","adult",1886,"1886",94,94,0,-100,-50,5,60,2,"species/Myctophum_affine/adult_frames/year_1886.png"
+"Myctophum affine","adult",1914,"1914",1,1,0,-100,-50,5,60,2,"species/Myctophum_affine/adult_frames/year_1914.png"

@@ -1,0 +1,56 @@
+field,unit,definition
+species,metadata,Frozen project species key; existing subspecies pooling retained.
+investigation_tier,metadata,Prior historical evidence screen; not a trait-based ranking.
+fishbase_name,metadata,Source name used to attach data; blank when transfer withheld.
+fishbase_spec_code,metadata,Attached FishBase identifier; blank when transfer withheld.
+taxon_match_status,metadata,See taxon_crosswalk.csv for explicit source mapping and reasoning.
+generation_time_model_years,years,matrix.Generation_time; model_or_derived_keyfacts. Source bounds have unverified interval level; not assumed 95% CI.
+generation_time_model_lower,years,matrix.Gen_time_1st; model_or_derived_keyfacts. Source bounds have unverified interval level; not assumed 95% CI.
+generation_time_model_upper,years,matrix.Gen_time_2nd; model_or_derived_keyfacts. Source bounds have unverified interval level; not assumed 95% CI.
+lifespan_model_years,years,matrix.Life_span; model_or_derived_keyfacts. Source bounds have unverified interval level; not assumed 95% CI.
+maturity_age_model_years,years,matrix.tm; model_or_derived_keyfacts. Source bounds have unverified interval level; not assumed 95% CI.
+maximum_age_wild_years,years,species.LongevityWild; reported_database_value. Source bounds have unverified interval level; not assumed 95% CI.
+maximum_age_captive_years,years,species.LongevityCaptive; reported_database_value. Source bounds have unverified interval level; not assumed 95% CI.
+maximum_length_male_unsexed_cm,cm,species.Length; reported_database_value. Source bounds have unverified interval level; not assumed 95% CI.
+maximum_length_male_unsexed_type,category,Length convention supplied by FishBase: TL/SL/FL retained without conversion.
+maximum_length_female_cm,cm,species.LengthFemale; reported_database_value. Source bounds have unverified interval level; not assumed 95% CI.
+maximum_length_female_type,category,Length convention supplied by FishBase: TL/SL/FL retained without conversion.
+depth_shallow_m,m,species.DepthRangeShallow; reported_database_value. Source bounds have unverified interval level; not assumed 95% CI.
+depth_deep_m,m,species.DepthRangeDeep; reported_database_value. Source bounds have unverified interval level; not assumed 95% CI.
+water_column_habitat,category,species.DemersPelag; reported_database_value. Source bounds have unverified interval level; not assumed 95% CI.
+migration,category,species.AnaCat; reported_database_value. Source bounds have unverified interval level; not assumed 95% CI.
+fisheries_importance,category,species.Importance; reported_database_value. Source bounds have unverified interval level; not assumed 95% CI.
+maturity_age_reported_years_min,years,"min across unflagged maturity_age_reported source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+maturity_age_reported_years_max,years,"max across unflagged maturity_age_reported source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+maturity_age_reported_years_n_records,record_count,"n_records across unflagged maturity_age_reported source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+maturity_age_growth_record_years_min,years,"min across unflagged maturity_age_growth_record source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+maturity_age_growth_record_years_max,years,"max across unflagged maturity_age_growth_record source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+maturity_age_growth_record_years_n_records,record_count,"n_records across unflagged maturity_age_growth_record source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+growth_k_reported_per_year_min,1/year,"min across unflagged growth_k_reported source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+growth_k_reported_per_year_max,1/year,"max across unflagged growth_k_reported source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+growth_k_reported_per_year_n_records,record_count,"n_records across unflagged growth_k_reported source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+maximum_age_growth_record_years_min,years,"min across unflagged maximum_age_growth_record source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+maximum_age_growth_record_years_max,years,"max across unflagged maximum_age_growth_record source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+maximum_age_growth_record_years_n_records,record_count,"n_records across unflagged maximum_age_growth_record source rows; discovery envelope across populations and sexes, not a CI or pooled estimate. Counts are database records, not independent studies."
+sexual_system,category,Distinct ReproMode categories across all matched records; combinations are not a single population profile.
+fertilization,category,Distinct Fertilization categories across all matched records; combinations are not a single population profile.
+reproductive_guild_1,category,Distinct RepGuild1 categories across all matched records; combinations are not a single population profile.
+reproductive_guild_2,category,Distinct RepGuild2 categories across all matched records; combinations are not a single population profile.
+parental_care,category,Distinct ParentalCare categories across all matched records; combinations are not a single population profile.
+spawning_pattern,category,Distinct Spawning categories across all matched records; combinations are not a single population profile.
+feeding_type,category,Distinct feeding_type categories across all matched records; combinations are not a single population profile.
+larval_development_place,category,Distinct PlaceofDevelopment categories across all matched records; combinations are not a single population profile.
+positive_habitat_tags,metadata,Only positive source flags; blanks/unchecked flags do not establish absence.
+positive_water_types,metadata,Only positive Fresh/Brack/Saltwater source flags.
+maturity_length_n_records,metadata,Count of maturity.Lm source rows including flagged rows; not independent studies.
+maturity_length_records,metadata,"Reported maturity lengths in cm per source record, retaining TL/SL/FL or unspecified type; sex and locality in Evidence. Do not average different length conventions."
+fecundity_n_records,metadata,Count of rows with absolute fecundity values; not independent studies.
+fecundity_records,metadata,Per-record absolute counts of eggs/offspring per female; time/batch basis preserved and unspecified basis flagged. Never sum records.
+larval_duration_n_records,metadata,"Count of source rows with duration values, including flagged rows; raw values in evidence."
+larval_duration_status,metadata,Needs review when duration records exist; neither dispersal distance nor validated pelagic larval duration.
+generation_time_status,metadata,Explicit estimate-versus-missing/taxonomy-withheld status; no observed generation times extracted.
+primary_source_review,metadata,Database extraction only; cited original studies not independently verified.
+regional_applicability,metadata,Source values have not been matched to proposal sites or historical eras.
+evidence_rows,metadata,"Number of nonempty extracted source-field values, including flags."
+flagged_evidence_rows,metadata,Number of evidence rows requiring QC review.
+fishbase_version,metadata,Pinned provider release label; not guaranteed database cutoff date.

@@ -1,0 +1,834 @@
+    Seascape connectivity and the inﬂuence of predation risk on the
+         movement of ﬁshes inhabiting a back-reef ecosystem
+JAY R. ROOKER,1,2, MICHAEL A. DANCE,1,2 R. J. DAVID WELLS,1,2 ANTONIETTA QUIGG,1,3 RONALD L. HILL,4
+   RICHARD S. APPELDOORN,5 BEATRICE PADOVANI FERREIRA,6 KEVIN M. BOSWELL,7 PHILLIP J. SANCHEZ,1,5
+  DAVID L. MOULTON,1,2 LARISSA L. KITCHENS,1,2 GARRETT J. ROOKER,1 AND ALEXANDRE ASCHENBRENNER6
+1
+Department of Marine Biology, Texas A&M University (Galveston Campus), 1001 Texas Clipper Road, Galveston, Texas 77554 USA
+           2
+             Department of Wildlife and Fisheries Sciences, Texas A&M University, College Station, Texas 77843 USA
+                    3
+                      Department of Oceanography, Texas A&M University, College Station, Texas 77843 USA
+                4
+                 NOAA/NMFS/Southeast Fisheries Science Center, 4700 Avenue U, Galveston, Texas 77551 USA
+                    5
+                      Department of Marine Sciences, University of Puerto Rico, Mayaguez 00681 Puerto Rico
+               6
+                 Departamento de Oceanograﬁa, Universidade Federal de Pernambuco, Avenida da Arquitetura, s/n,
+                                         Cidade Universitaria, 50740-550 Recife, Brazil
+7
+ Department of Biological Sciences, Marine Sciences Program, Florida International University, North Miami, Florida 33181 USA
+
+
+    Citation: Rooker, J. R., M. A. Dance, R. J. D. Wells, A. Quigg, R. L. Hill, R. S. Appeldoorn, B. Padovani Ferreira, K. M.
+    Boswell, P. J. Sanchez, D. L. Moulton, L. L. Kitchens, G. J. Rooker, and A. Aschenbrenner. 2018. Seascape connectivity
+    and the inﬂuence of predation risk on the movement of ﬁshes inhabiting a back-reef ecosystem. Ecosphere 9(4):e02200.
+    10.1002/ecs2.2200
+
+
+    Abstract. The mangrove–seagrass–patch reef (MSP) ecosystem serves as the principal back-reef nursery
+    for many reef ﬁshes in the Caribbean, but the functional roles of habitats that form this seascape remain
+    unclear. We assessed ecosystem and trophic connectivity of two common reef ﬁshes (schoolmaster, Lut-
+    janus apodus; white grunt, Haemulon plumierii) and one predator (great barracuda, Sphyraena barracuda) in a
+    Caribbean MSP ecosystem using acoustic telemetry and natural dietary tracers. Triangulated positions
+    from an acoustic positioning system indicated that L. apodus and H. plumierii relied on multiple habitats
+    within this MSP ecosystem, occupying areas with more cover (lower risk) during the day and areas with
+    less cover (higher risk) at night. During the day, both species exhibited limited movement away from struc-
+    tured habitats (e.g., mangroves, patch reef) and avoided the primary activity space of S. barracuda in the
+    central channel over sand bottom or seagrass. At night, L. apodus moved into the channel and adjacent sea-
+    grass beds on the margin of this high-risk area when S. barracuda occurrence was reduced, suggesting that
+    this species adjusts its foraging activities to minimize encounter rates with predators. Haemulon plumierii
+    also displayed distinct day–night shifts with directed movements at twilight across higher risk habitat to
+    nighttime locations in seagrass. Conspicuous changes in the rate of movement were also detected at differ-
+    ent times of the day, and observed mismatches between movement rates of S. barracuda and our two poten-
+    tial prey species appeared to be a behavioral response to reduce their vulnerability. Dietary tracer analysis
+    supported the premise that observed shifts to nocturnal habitats were associated with foraging, with signif-
+    icant contributions of organic matter derived from nighttime locations. Findings from this study clearly
+    demonstrate that the conﬁguration of habitats and spatiotemporal variability in predation risk are key
+    determinants of movement and foraging activities for these species, indicating that an improved under-
+    standing of seascape connectivity is critical to the management of reef-dependent species.
+
+
+    Key words: acoustic telemetry; coral reef; foraging; habitat connectivity; migration; nursery habitat; stable isotopes.
+
+    Received 21 December 2017; revised 14 March 2018; accepted 21 March 2018. Corresponding Editor: Sean P. Powers.
+    Copyright: © 2018 The Authors. This is an open access article under the terms of the Creative Commons Attribution
+    License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
+     E-mail: rookerj@tamug.edu
+
+
+
+
+                  ❖ www.esajournals.org                         1                  April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                             ROOKER ET AL.
+
+
+INTRODUCTION                                              diverse assemblages of juvenile ﬁshes within
+                                                          MSP ecosystems are common, with individuals
+   Marine ﬁshes commonly reside in complex                frequently crossing multiple habitats or ecotones
+seascapes, and their population dynamics are              on a daily basis (Nagelkerken and van der Velde
+inherently linked to connectivity via movements           2004, Adams et al. 2006, Nagelkerken et al.
+at the habitat-, ecosystem-, and/or ocean-basin           2008). Spatial shifts by juvenile reef ﬁshes are
+scale (Mumby and Hastings 2008, Rooker and                commonly assumed to be predator-mediated
+Secor 2005, Rooker et al. 2008, Nagelkerken et al.        responses, with individuals moving between safe
+2015). Foraging success and survival of marine            shelter areas of higher habitat complexity and
+ﬁshes are affected by their differential use of           more precarious open areas with lower complex-
+habitats (Clark et al. 2009, Hammerschlag et al.          ity. Moreover, the nature and timing of spatial
+2010), and spatiotemporal shifts are often                shifts appear to be inﬂuenced by predators, with
+assumed to be behavioral adjustments that opti-           prey altering their movements to minimize
+mize foraging success and minimize predation              encounter rates with predators, following the
+risk (Werner et al. 1983, Lima and Dill 1990).            “predation risk allocation hypothesis” of Lima
+Given that many marine ﬁshes require or utilize           and Bednekoff (1999). While directed habitat
+multiple habitats or ecosystems during ontogeny,          shifts within the MSP ecosystem are common
+the decline or loss of any component of a seas-           and known to vary ontogenetically, the most con-
+cape can profoundly impact year-class strength            spicuous and predictable redistribution of ﬁshes
+(Dahlgren and Eggleston 2000). In response, an            occurs between the day and night during twi-
+improved understanding of the causes of spa-              light migrations (Helfman 1986, Rooker and
+tiotemporal shifts, including those linked to             Dennis 1991). Although general characterizations
+predator activity, is critically needed to deter-         of diel distributions and habitat connectivity of
+mine the value and functional role of different           juvenile ﬁshes within MSP ecosystems have been
+components of a seascape.                                 previously published (Nagelkerken et al. 2000,
+   Predation is a fundamental mechanism regu-             Appeldoorn et al. 2009), the inﬂuence of preda-
+lating the survival and dynamics of prey popula-          tion—direct or perceived—on the habitat use
+tions (Werner and Anholt 1993). Predators can             and movement of juvenile reef ﬁshes remains
+inﬂuence the distribution and abundance of prey           poorly understood.
+directly (consumptive) and indirectly through                The purpose of the current study was to assess
+behavioral adjustments to predation risk (Trus-           the population connectivity of two reef ﬁshes
+sell et al. 2006, Matassa et al. 2016), and the           that commonly use the MSP ecosystem as nurs-
+threat of predation typically varies in time and          ery habitat: schoolmaster [snapper] (Lutjanus apo-
+space across heterogeneous marine ecosystems              dus) and white grunt (Haemulon plumierii). We
+(Wirsing et al. 2008). Vulnerability of prey within       characterized the movement and habitat use of
+a seascape or landscape (i.e., terrestrial ecosys-        juvenile L. apodus and H. plumierii using an
+tems) is determined by both the spatial conﬁgu-           emerging technology (acoustic positioning sys-
+ration of the habitat patches and boundaries and          tem) and then related ﬁne-scale movement data
+the spatiotemporal distribution of both predators         of both species to predation risk by concurrently
+and conspeciﬁcs (Tambling et al. 2012). As a              tracking a common predator in this MSP ecosys-
+result, ranging (migration) and foraging behav-           tem, great barracuda (Sphyraena barracuda). The
+iors of prey are presumably structured to some            selected MSP ecosystem also included an open
+degree by the perceived risk associated with dif-         (deep channel with sand bottom) or higher risk
+ferent components of a seascape (Rooker and               habitat, which allowed us to further assess the
+Dennis 1991, Hammerschlag et al. 2010).                   inﬂuence of predation risk on both species. In
+   The mangrove–seagrass–patch reef (MSP)                 addition, we incorporated dietary tracer data
+ecosystem serves as the principal back-reef nurs-         (stable isotopes) to investigate the link between
+ery for a variety of reef-dependent species, and          spatiotemporal shifts within the MSP ecosystem
+these shallow water seascapes are increasingly            and trophic connectivity for all three species.
+threatened by coastal development (Mumby                  Similar to observations of preferential selection
+et al. 2004, Nagelkerken et al. 2015). Spatially          by prey to safer regions of terrestrial landscapes
+
+
+              ❖ www.esajournals.org                   2               April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                                     ROOKER ET AL.
+
+
+(Valeix et al. 2009), we hypothesized that habitat             The study site included two small mangrove
+use as well as the timing and magnitude of                     keys within the Cayos de Ca~      na Gorda and
+trans-boundary movements by L. apodus and                      included all habitats typically found within the
+H. plumierii was inﬂuenced by the presence of                  MSP ecosystem in the Caribbean: red mangrove
+predators and/or the perceived predation risk                  (Rhizophora mangle), seagrass, and patch reefs.
+associated with particular habitats or areas.                  The mangrove keys within the study site were
+Given that both species are known to display                   separated by a deeper channel (Fig. 1) with a
+conspicuous day–night movements across seas-                   sand bottom and mixed stands of seagrass,
+capes, we anticipated that these directed and pre-             mainly turtle grass (Thalassia testudinum) with
+dictable habitat shifts were related to foraging.              lesser amounts of manatee grass (Syringodium ﬁl-
+                                                               iforme) and shoal grass (Halodule wrightii) present
+METHODS                                                        from the channel edge to the mangrove prop
+                                                               roots on each side of the channel. Large stands of
+Study area                                                     T. testudinum were also present on the leeward
+  The study was performed in a back-reef seas-                 side of each mangrove key in the northwestern
+cape in the Guanica Biosphere Reserve located                  region of the seascape. The southeastern region
+off the southwestern coast of Puerto Rico (Fig. 1).            of the seascape contained several small patch
+
+
+
+
+  Fig. 1. Map of study site in the Guanica Biosphere Reserve located off the southwestern coast of Puerto Rico. Large
+inset map shows the spatial conﬁguration of habitats within the mangrove–seagrass–patch reef ecosystem and the
+location of receivers (solid circles) in the acoustic positioning system. Bathymetry is also denoted with contour lines.
+
+
+                ❖ www.esajournals.org                      3                April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                                ROOKER ET AL.
+
+
+reefs, comprised primarily of Porites astreoides,           (4-0 Ethicon vicryl) were used to close the wound.
+Porites porites, Siderastrea radians, and Siderastrea       Post-operative ﬁsh were placed in a holding tank
+siderea.                                                    with aeration for 15–30 min and then released at
+   High-resolution bathymetric and benthic habi-            capture sites. All transmitters were programmed
+tat maps were created using both ortho-rectiﬁed             with a random delay of 80–160 s and tagging
+aerial imagery and in situ observation. Ortho-              occurred from 21 May to 26 May 2014. Total num-
+rectiﬁed aerial images (resolution 0.3 m; US Army           ber of tagged animals released into the array was
+Corps of Engineers 2006) were used to determine             restricted (n = 25) to minimize acoustic collisions
+initial boundaries between habitats within the              based on recommended maximum capacity of the
+study area. The composition and boundary of                 acoustic positioning system given our transmitter
+each habitat patch were then classiﬁed in situ              programming (short delays = increased colli-
+using a handheld GPS unit to both ground truth              sions), receiver spacing, high site ﬁdelity of study
+and reﬁne the discrimination of benthic habitats.           species, and limited seascape size.
+Habitats were then digitized in a geographic                   An acoustic positioning system comprised of
+information system (ArcGIS 10.2.2, ESRI, Red-               12 Vemco VR2W omnidirectional receivers was
+lands, California, USA) for visualization and               deployed within the selected seascape, encom-
+analysis purposes. Bathymetric maps were con-               passing a detection area of approximately
+structed from in situ depth observations recorded           30,000 m2. Acoustic receivers within the array
+at 138 locations within the seascape. The majority          were closely spaced (~50 m) with overlapping
+of these locations were gridded at approximately            detection ranges, which allowed us to triangulate
+5-m intervals throughout the study area; however,           ﬁsh positions (Dance and Rooker 2015). To mini-
+locations were also strategically placed in areas of        mize the effects of internal transmitter placement
+high bathymetric relief (i.e., channel edges) to            on detection range (Dance et al. 2016), receiver
+ensure accurate representation of these features.           spacing was determined from a priori range test-
+Depth was then interpolated using ordinary krig-            ing using an internally tagged H. plumierii placed
+ing to create a continuous raster surface. Current          at several locations within the study area. Twelve
+measurements taken with a ﬂowmeter (Model                   synchronizing transmitters or sync tags (Vemco
+2030R, General Oceanics, Miami, Florida, USA) at            V13-1H, 69 kHz) with a nominal delay of 600 s
+15 locations within the seascape were used to clas-         (range: 500–700 s) were co-located with receivers
+sify areas of high or low current velocity within           within the acoustic positioning system to syn-
+the study site.                                             chronize the internal clocks of the VR2W recei-
+                                                            vers and act as reference tags. Acoustic receivers
+Acoustic telemetry                                          were either attached to 2” diameter PVC poles
+   Juvenile Lutjanus apodus (197.2  22.7 mm total          inserted in the sediment or in poles cemented
+length [TL]  1 standard deviation [SD]) and                into cinder blocks (e.g., receivers in the channel).
+Haemulon plumierii (190.4  13.6 mm TL) were                The array was in place until 30 June 2014, and
+captured via underwater hook and line or                    the minimum duration of the tracking trial for
+trapped with a 30-m L 9 1 m H seine net at the              any tagged ﬁsh was 35 d (maximum = 41 d).
+study site (Appendix S1: Table S1). Both species
+were captured in the mangroves or on patch reefs            Dietary tracers
+within 20 m from the mangrove edge. Our model                  The potential carbon contribution of four pri-
+predator, Sphyraena barracuda (390.8  31.8 mm              mary producers (phytoplankton, seagrass, man-
+TL), was captured with a seine net from the study           groves, and benthic microalgae [BMA]) was
+site. Vemco V8-4H transmitters (Vemco, Bedford,             investigated for L. apodus, H. plumierii, and
+Nova Scotia, Canada) were surgically implanted              S. barracuda. Surface water samples for particu-
+into all three species: L. apodus (n = 10),                 late organic matter (POM), a proxy for phyto-
+H. plumierii (n = 10), and S. barracuda (n = 5).            plankton, were collected in 4-L containers and
+Each transmitter was inserted in the abdominal              vacuum-ﬁltered (<130 kPa) immediately upon
+cavity through a small incision between anal and            returning to the laboratory onto precombusted
+pelvic ﬁns. Similar to Moulton et al. (2017), one or        0.7-lm GF/F ﬁlters, and then frozen ( 20°C).
+two interrupted stitches with absorbable sutures            Sediment collections of BMA were taken using a
+
+
+               ❖ www.esajournals.org                    4                April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                             ROOKER ET AL.
+
+
+grab sampler, and the vertical migration tech-            periods. Given that the timing of sunrise and
+nique (Wells et al. 2008) was used to separate            sunset changed over the course of the trial, a
+BMA from the substrate. Benthic microalgae                midpoint for sunrise and sunset between
+were ﬁltered and frozen for stable isotope analy-         observed times on 26 May and 26 June was used.
+sis. Mangrove leaves and seagrass blades were             Periods 50 min before sunrise (05:52 h) and
+carefully collected by hand at the study site and         50 min after sunset (19:01 h) approximated the
+stored in ziplock bags in a cooler until returning        beginning and end of twilight (civil and nautical)
+to the laboratory. This plant material was then           and were used here to denote the pre-sunrise
+scraped with a spatula to remove all encrusting           and post-sunset twilight periods.
+organisms and epiphytic algae and stored frozen              Triangulated positions were ﬁrst classiﬁed to
+( 20°C). Lutjanus apodus, H. plumierii, and S. bar-       habitat (mangrove, seagrass, patch reef, sand) to
+racuda used for diet analysis were collected with         estimate the proportion of detections for tagged
+pole spears after the completion of the tagging           L. apodus, H. plumierii, and S. barracuda for each
+trial.                                                    habitat type within the seascape during three
+   Samples from all primary producers and ﬁshes           time periods (day, night, and twilight) in ArcGIS
+were thawed and then dried at 60°C for 24–48 h.           10.22. Multivariate analysis of variance (MAN-
+Dried ﬁlters for POM were packed into tin cap-            OVA) was used to determine whether daily
+sules. Muscle tissue from ﬁshes and plant tissue          occurrence within a speciﬁc habitat (percent of
+(blades, leaves) were dried and then powdered             detection by habitat by day) varied among the
+using a mortar and pestle, and approximately              three time periods (day, night, and twilight). Uni-
+1.0 mg was packaged in tin capsules. All samples          variate contrasts (ANOVAs) based on daily per-
+were analyzed for stable isotopes of carbon               cent occurrence by time period within each
+(d13C) and nitrogen (d15N) at the Stable Isotope          habitat were also performed, but given that all
+Facility at the University of California at Davis,        models were signiﬁcant, only MANOVA results
+CA, USA. Isotopic ratios are reported relative to         are presented. The primary activity space of
+Vienna PeeDee belemnite for carbon and atmo-              S. barracuda (i.e., predator) was deﬁned as the
+spheric N2 for nitrogen. Lipids were not                  75% isopleth of a kernel density estimate (kde)
+extracted from ﬁsh tissue; however, C:N ratios            from all triangulated positions using Geospatial
+were low (<4) across the size spectrum of ﬁshes,          Modeling Environment (GME, Beyer 2012). Ini-
+indicating a low lipid content and little inﬂuence        tially, a mean 75% kde for S. barracuda was gen-
+of lipids on ﬁsh tissue d13C values (Post et al.          erated to deﬁne high use areas during each time
+2007). Isotopic values are expressed using the            period; however, the number of triangulated
+standard d notation, as parts per thousand (&).           positions for this species was very low at night
+                                                          and habitat use did not vary among the three
+Data analysis                                             time periods. Thus, an overall activity space
+   Time-indexed, triangulated positions from the          (75% kde) was used to denote the high use area
+acoustic positioning system were ﬁltered by hori-         of the model predator kde in our study area. In
+zontal position error (HPE) following Dance and           turn, the spatial conﬁguration of the predator
+Rooker (2015). Based on analysis of 12 in situ sta-       kernel density plot was then used to assess
+tic transmitters within the array, we observed            whether habitat use and movements of L. apodus
+that triangulated positions with HPE <12 gener-           and H. plumierii were linked to predator activity.
+ally correspond to positioning errors of <2 m. In         Although direct predation by S. barracuda on our
+response, further analysis of position data was           two potential prey species was not observed, pre-
+limited to HPEs below this threshold. Also, posi-         dation on grunts and snappers by this predator
+tions obtained within the ﬁrst 30 min of the ﬁsh          is known to occur (Randall 1967, Foss 2016). It
+being released into the seascape were omitted to          should also be noted that our model predator co-
+minimize the effect of release location on result-        occurred with larger conspeciﬁcs in the seascape
+ing patterns of habitat use. The inﬂuence of time         and also used similar habitats (sand bottom in
+of day on location in the seascape was investi-           the center of channel with higher current veloc-
+gated by partitioning triangulated positions              ity) to other piscivores found in the Caribbean,
+among day, night, and crepuscular (twilight)              including jacks, groupers, and sharks (Bohlke
+
+
+                ❖ www.esajournals.org                 5               April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                               ROOKER ET AL.
+
+
+and Chaplin 1993). This indicates that the activ-           and S. barracuda was estimated with Bayesian
+ity space derived for tagged S. barracuda                   mixing models using stable isotope analysis in
+(<430 mm TL) likely applies to both larger con-             the software R (SIAR) version 4.0 (Parnell et al.
+speciﬁcs and other predators that frequent shal-            2010). The purpose of using SIAR was to quan-
+low water ecosystems in the Caribbean.                      tify contributions of primary producer categories
+   Locations of L. apodus and H. plumierii within           to consumers in order to specify consumer–re-
+the seascape were further analyzed using Eucli-             source relationships that may not be possible to
+dean distance-based analysis (EDA; Conner et al.            calculate otherwise (Phillips et al. 2014). Because
+2003) to investigate the possible inﬂuence of pre-          seagrass and BMA maintained similar d13C and
+dation threat on position and movement within               d15N values, we excluded BMA from SIAR with
+the seascape. This approach is commonly used to             the understanding that a fraction of the seagrass
+evaluate habitat selectivity and important move-            contribution may be due to BMA production.
+ment corridors in marine ecosystems (Furey                  Bayesian mixing models combining seagrass/
+et al. 2013, Dance and Rooker 2015). Here, EDA              BMA into a single source were similar to our
+ratios were used to describe habitat use of L. apo-         three-source model that did not include BMA,
+dus and H. plumierii relative to the high use areas         justifying the approach adopted. For each three-
+of a potential predator (i.e., 75% kde of S. bar-           source mixing model, a carbon trophic enrich-
+racuda). Euclidean distance-based analysis ratios           ment factor of 1.0& (SD  0.3&) was used
+were calculated by ﬁrst estimating distances of             (DeNiro and Epstein 1978, Fry and Sherr 1984).
+all triangulated positions to the nearest border of         d15N enrichment values range from 2.5& to
+the predator activity space (i.e., 75% kde), with           3.5& (SD  0.6&) in aquatic systems (Vander
+all positions inside the predator kde assigned a            Zanden and Rasmussen 2001, Vanderklift and
+distance of 0. Distances of 1000 random positions           Ponsard 2003), and therefore, a nitrogen enrich-
+to the nearest border of the predator activity              ment value of 3.0& was used per trophic posi-
+space were also determined. For each individual,            tion (Fry and Sherr 1984, Wells et al. 2017).
+the mean distance of all ﬁsh positions relative to          Model inputs for SIAR included no concentration
+the predator activity space was divided by the              dependence, 500,000 iterations, and 50,000 dis-
+mean distance of all random points to the preda-            cards.
+tor activity space, and EDA ratios were estimated
+for day, night, and twilight. Analysis of variance          RESULTS
+(ANOVA) was used to determine whether L. apo-
+dus or H. plumierii displayed non-random use of             Habitat use within the seascape
+the seascape, with values >1 indicating that ﬁsh               All Lutjanus apodus, Haemulon plumierii, and
+positions were farther from the predator zone               Sphyraena barracuda tagged with V8 transmitters
+than predicted by chance, which is indicative of            were detected on multiple days within the MSP
+predator avoidance.                                         seascape. Over a half million ﬁsh detections
+   Rate of movement (m/min) was calculated for              were recorded during the trial, yielding a total
+all three species to determine whether reactive             of 29,018 triangulated positions with HPE <12:
+movement and/or escape response (e.g., maxi-                L. apodus (15,348), H. plumierii (11,438), and
+mum swimming) varied as a function of time                  S. barracuda (2232). Although triangulated posi-
+period (day, night, and twilight) using ANOVA.              tions were available for all tagged ﬁsh, certain
+Our movement metric was calculated as the lin-              individuals within each species accounted for a
+ear distance between two triangulated positions             large fraction of the estimated positions, with
+divided by the time elapsed between the succes-             multiple individuals having a minimum of 1000
+sive detections. Rate of movement estimates                 triangulated positions: L. apodus (#04, 05, 08),
+were limited to successive detections occurring             H. plumierii (#04, 06, 09; Appendix S1:
+within a 10-min period to reduce the possibility            Table S1). Positions for each species partitioned
+of underestimating distance traveled due to                 among day, night, and twilight indicated con-
+missing locations.                                          spicuous diel shifts in habitat use by both
+   For dietary tracers, the contribution of primary         L. apodus and H. plumierii (MANOVAs, P <
+producers (i.e., sources) to L. apodus, H. plumierii,       0.001; Fig. 2).
+
+
+               ❖ www.esajournals.org                    6               April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                                ROOKER ET AL.
+
+
+
+
+ A                                                      D
+
+
+
+
+ B                                                      E
+
+
+
+
+ C                                                      F
+
+
+
+
+  Fig. 2. Summary of all triangulated position estimates (based on acoustic positioning system) for tagged school-
+master (Lutjanus apodus; A–C) and white grunt (Haemulon plumierii; D–F) during day, dawn/dusk, and night
+within the mangrove–seagrass–patch reef ecosystem. Mean 75% kernel distributions of great barracuda (Sphyraena
+barracuda) also shown as indicated by areas outlined with dashed line. Time periods shown with different back-
+ground ﬁlls on right margin of plot: day (white; A, D), dawn/dusk (light gray; B, E), night (dark gray; C, F).
+
+
+  Triangulated positions for L. apodus were                 habitats, daytime occurrence in these habitats
+nearly all within the mangrove prop roots during            was very limited (seagrass 2.5%, patch reef 5.4%,
+the day, and the mean proportion of daytime                 sand 0.4%). Daytime occurrence of juvenile
+positions in this habitat was 91.7% (Figs. 2, 3).           H. plumierii was highest in the patch reef (51.4%)
+Although L. apodus was detected in other                    habitat, but a large fraction of our daytime
+
+
+               ❖ www.esajournals.org                    7               April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                              ROOKER ET AL.
+
+
+detections for this species also occurred in the          mangrove (41.9%) habitats, showing that move-
+mangrove prop roots (30.3%), with more limited            ment into the sand habitat within the channel
+use of seagrass (14.5%) and sand (3.8%) habitat.          occurred after civil or nautical twilight (i.e., later
+In contrast to L. apodus and H. plumierii, nearly         at night; Fig. 3).
+all S. barracuda daytime positions were located
+within the sand (channel) or seagrass habitats            Predator–prey associations within the seascape
+(62.8% and 36.0%, respectively), which is in                 Mean EDA ratios (1 standard error [SE]) of
+accord with our hypothesis that the sand habitat          L. apodus and H. plumierii indicated non-random
+within the channel and seagrass beds on the mar-          use of the area used primarily by the tagged
+gin of the channel represent a predator hotspot           S. barracuda. Lutjanus apodus were signiﬁcantly
+within this MSP ecosystem.                                closer to the predator 75% kde at night (EDA
+   At night, occurrence of L. apodus and                  0.29  0.12) and to a lesser degree during
+H. plumierii shifted and nocturnal areas used by          dawn/dusk (EDA 0.40  0.11) when individuals
+both species were markedly different from day-            moved away from the mangrove prop roots into
+time locations. Triangulated positions for L. apo-        adjacent seagrass and sand habitat within or near
+dus were predominantly in the sand (channel)              the channel (Fig. 2, ANOVA, P < 0.05). During
+habitat (59.9%); however, individuals were also           the day, the mean EDA ratio for L. apodus (EDA
+present in seagrass (27.4%) and mangrove                  0.84  0.29) was at least twofold higher than
+(12.6%) habitats (Fig. 2). In contrast, nearly all        other periods (ANOVA, P < 0.01), indicating that
+positions for H. plumierii at night were in sea-          individuals signiﬁcantly increased their distance
+grass (97.4%), suggestive of highly consistent            from areas heavily used by S. barracuda (Fig. 4).
+movements into this habitat from daytime refuge           Similar to L. apodus, H. plumierii were farthest
+or foraging areas. Similar to the daytime pattern,        from the predator 75% kde during the day (EDA
+over 90% of the positions of S. barracuda at night        1.84  0.09; Fig. 4). The mean EDA ratio was
+were in the sand habitat, but triangulated posi-          also high during the nighttime period (EDA
+tions at night were very limited and insufﬁcient          1.49  0.35) and again indicative of predator
+to characterize diel shifts in habitat use.               avoidance by H. plumierii as individuals moved
+   Conspicuous day–night shifts in habitat use by         to the interior of seagrass beds on the leeward
+both L. apodus and H. plumierii indicated direc-          side of the seascape (Fig. 2). The lowest mean
+ted movement away from daytime resting or for-            EDA ratio for H. plumierii was present during
+aging areas. Triangulated positions during                crepuscular periods (EDA 1.21  0.04), which is
+twilight (dawn/dusk denoted as 50 min before              not unexpected because twilight migrations often
+sunrise or 50 min after sunset) showed that such          crossed the channel or areas commonly fre-
+movements occurred during this time period,               quented by S. barracuda. Although diel shifts in
+particularly for H. plumierii, with individuals           association with the predator activity space were
+often present in transitional areas between day-          observed for both species, results were not signif-
+time and nighttime locations (Fig. 2). As a result,       icant (ANOVA, P > 0.05), which is possibly due
+positions during dawn/dusk also represented               to the fact that triangulated positions were only
+twilight migration pathways or corridors used             available for a fraction of tagged L. apodus
+by individuals. Positions of H. plumierii during          (n = 5) and H. plumierii (n = 3) during all three
+twilight showed increased occurrence in the sand          time periods.
+habitat (17.9%), signifying a common migration
+pathway (crossing to channel) taken by this spe-          Rate of movement within the seascape
+cies. Even though individuals traversed the sand            Conspicuous changes in the rate of movement
+(channel) habitat during twilight migrations to           were detected at different times of the day for
+seagrass beds, the chosen pathway or movement             both L. apodus and H. plumierii. Mismatches in
+corridor across the channel minimized overlap             movement rates between our model predator
+with S. barracuda activity space, which may rep-          and both L. apodus and H. plumierii were
+resent a behavioral response to reduce predation          observed, possibly leading to lower detection or
+risk. For L. apodus, the majority of positions dur-       encounter rates (Fig. 5). A conspicuous diel
+ing dawn/dusk were in seagrass (36.9%) and                change in the rate of movement was observed for
+
+
+              ❖ www.esajournals.org                   8                April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                                  ROOKER ET AL.
+
+
+
+
+  Fig. 3. Mean percentage of detections (based on all points each day) for schoolmaster (Lutjanus apodus; A–C)
+and white grunt (Haemulon plumierii; D–F) by habitat type within the mangrove–seagrass–patch reef ecosystem.
+Occurrence at each time period and day denoted with step plots that connect a horizontal line from each point to
+the x value of the following point and then a vertical line to that point. Estimates of percent occurrence shown for
+each habitat type (mangrove, seagrass, patch reef, and sand channel), and time periods denoted with different
+background ﬁlls on plots: day (white), dawn/dusk (light gray), night (dark gray).
+
+
+L. apodus with signiﬁcantly lower movement                   well as during crepuscular periods (dawn:
+during the day (1.92 m/min  0.04) relative to               4.82 m/min  0.41, dusk: 4.89 m/min  0.85),
+night or twilight where mean rates of movement               indicating an apparent mismatch in activity and/
+were nearly double the rate observed during the              or timing of movement (i.e., habitat shifts) by
+day (ANOVA, P < 0.01). Mean rate of movement                 predator and prey within this MSP ecosystem
+(m/min  1 SE) for H. plumierii was relatively               (Fig. 5).
+similar between the day (1.48 m/min  0.04)
+and night (1.92  0.02), but increased signiﬁ-               Dietary signatures and links to habitat selection
+cantly at both dawn (4.69 m/min  0.07) and                     Mixing models based on producer and con-
+dusk (5.77 m/min  0.08) when individuals                    sumer d13C and d15N values indicated that the
+transitioned from daytime to nighttime areas                 primary source(s) of organic matter supporting
+(ANOVA, P < 0.01). Although the daytime per-                 L. apodus and H. plumierii was different (Fig. 6).
+iod was characterized as having the lowest rate              For L. apodus, the mean contribution estimate of
+of movement for both L. apodus and H. plumierii,             POM was 80.0% (17.3 SD), implying that phy-
+the mean rate of movement by S. barracuda                    toplankton-based production was essential to
+peaked during the day (4.70 m/min  0.20) as                 lower trophic levels (i.e., prey) supporting this
+
+
+                ❖ www.esajournals.org                    9                April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                                     ROOKER ET AL.
+
+
+                                                                 seagrass/BMA as an important source of carbon
+                                                                 (40.7%  6.2 SD), but phytoplankton-based pro-
+                                                                 duction remained important (POM = 54.2%
+                                                                  10.3 SD). Again, mangrove-derived carbon
+                                                                 was limited (5.1%  4.3 SD). Mean contribution
+                                                                 estimates for S. barracuda (POM 52.1%  20.7
+                                                                 SD, seagrass 33.8%  12.5 SD, mangrove
+                                                                 14.1%  9.0 SD) were more similar to values
+                                                                 observed for H. plumierii, conﬁrming that sea-
+                                                                 grass- or BMA-associated production is impor-
+                                                                 tant to both species.
+
+                                                                 DISCUSSION
+   Fig. 4. Mean Euclidean distance-based analysis
+(EDA) ratios for schoolmaster (Lutjanus apodus) and                 Habitat use by both Lutjanus apodus and
+white grunt (Haemulon plumierii) in relation to 75% ker-         Haemulon plumierii indicated reliance on complex
+nel density of great barracuda (Sphyraena barracuda).            back-reef ecosystems comprised of mangroves,
+Ratios given by time period (day, dawn/dusk, night) rel-         seagrass, and coral patch reefs, which is well
+ative to each high-risk area. Larger ratios indicate that        reported in the literature (Nagelkerken et al.
+ﬁsh positions were farther from the boundary of the              2015). Both species were common constituents of
+predator activity space. Error bars denote 1 standard           mangrove prop roots during the day, and several
+error.                                                           studies have documented the importance of
+                                                                 mangroves to the replenishment of snapper and
+species (Fig. 6). More limited contributions were                grunt populations (Nagelkerken et al. 2002,
+predicted from mangrove (10.6%  9.4 SD) and                     Mumby et al. 2004, Serafy et al. 2015). The man-
+seagrass/BMA (9.4%  9.9 SD) production. In                      grove nursery paradigm suggests that for certain
+contrast, mean contribution estimates for                        species this habitat, often in conjunction with
+H. plumierii highlighted the importance of                       seagrass beds, disproportionately contributes to
+                                                                 the production of associated species (Kimirei
+                                                                 et al. 2013). Juvenile L. apodus and H. plumierii
+                                                                 showed strong dependence on both mangroves
+                                                                 and seagrass within the MSP ecosystem, and the
+                                                                 value and functional role of each habitat on the
+                                                                 foraging success or survival potential of each
+                                                                 species appears to be distinctly different.
+                                                                    Several studies have observed shifts in habitat
+                                                                 use (i.e., connectivity) within MSP ecosystems for
+                                                                 grunts and snappers (Dorenbosch et al. 2007,
+                                                                 Hitt et al. 2011a, Nagelkerken et al. 2015), and
+                                                                 salient changes in habitat use by these taxa are
+                                                                 presumably linked to predation risk (Hammer-
+                                                                 schlag et al. 2010). Direct or indirect behavioral
+                                                                 adjustments due to predation risk are known to
+  Fig. 5. Mean rate of movement (m/min) by school-               strongly inﬂuence the distribution and abun-
+master (Lutjanus apodus; red), white grunt (Haemulon             dance of both aquatic (Hixon and Carr 1997,
+plumierii; blue), and great barracuda (Sphyraena bar-            Almany and Webster 2006, Stier et al. 2014) and
+racuda; gray) in relation to time period (dawn, day,             terrestrial (DeCesare et al. 2014, Chudzi   nska
+dusk, night). Lines represent locally weighted scatter-          et al. 2015) fauna. Moreover, predation risk is
+plot smoothing (LOWESS) applied to mean speed                    known to shape migration patterns of prey, with
+value for each time period. Error bars denote 1 stan-           individuals often altering their movement, habi-
+dard error.                                                      tat use, and foraging activity to avoid encounters
+
+
+                ❖ www.esajournals.org                       10                April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                                      ROOKER ET AL.
+
+
+                                                                  mangrove prop roots to nighttime areas in the
+                                                                  channel over sand bottom or adjacent seagrass
+                                                                  beds near the edge of this feature. A striking,
+                                                                  albeit different type of day–night shift was
+                                                                  observed for H. plumierii with individuals mov-
+                                                                  ing from mangroves or patch reefs to seagrass
+                                                                  beds on the leeward sides of both mangrove keys
+                                                                  at night.
+                                                                     Nocturnal shifts in distribution are often attrib-
+                                                                  uted to tradeoffs between foraging success and
+                                                                  predation risk (Creel and Christianson 2008). In
+                                                                  response, habitat selection by both L. apodus and
+                                                                  H. plumierii at night is likely a function of both
+                                                                  food resources and the spatial distribution of
+                                                                  predators in the seascape. For L. apodus, most of
+                                                                  the positions at night were in the sand (channel)
+                                                                  and seagrass habitats on the margin of the chan-
+                                                                  nel, which were the areas commonly frequented
+                                                                  by Sphyraena barracuda during the day. Move-
+                                                                  ment by L. apodus into the sand (channel) habitat
+                                                                  explains why observed EDA ratios were lowest
+                                                                  for this species during the night, implying that
+                                                                  individuals moved closer to the predator and, in
+                                                                  turn, increased their predation risk. However,
+                                                                  the activity space of S. barracuda was based pri-
+                                                                  marily on daytime positions and detections at
+                                                                  night were limited. This appears to indicate
+                                                                  movement by this predator away from the chan-
+                                                                  nel or seascape at night and potentially outside
+                                                                  the detection range of the receivers. Nocturnal
+                                                                  movements by S. barracuda away from the sand
+                                                                  (channel) appear to lead to lower risk in this
+                                                                  habitat, possibly resulting in more unrestricted
+   Fig. 6. Source (producer) contribution estimates for           foraging opportunities for L. apodus. Although
+(A) schoolmaster (Lutjanus apodus), (B) white grunt               salient day–night shifts in habitat use were also
+(Haemulon plumierii), and (C) great barracuda (Sphyraena          present for H. plumierii, nocturnal locations for
+barracuda). Mean d13C and d15N values (1 standard                this species were predominately in seagrass beds
+deviation) used in SIAR for producers and consumers               located on the leeward side of both mangrove
+denoted below: mangrove (d13C: 28.3  1.1, d15N:                  keys and often several hundred meters from day-
+1.4  0.6), particulate organic matter (POM) ( 16.5              time locations. Interestingly, H. plumierii com-
+0.6, 5.0  0.4), seagrass ( 7.1  0.9, 0.9  0.7), benthic        monly crossed the high-risk sand (channel)
+microalgae (BMA) ( 8.9  0.8, 3.4  0.4), L. apodus               habitat during twilight periods on the way to
+( 15.9  3.3, 9.2  0.4), H. plumierii ( 12.1  0.5, 9.0         nighttime locations, and directed movement of
+0.4), S. barracuda ( 13.7  0.8, 9.6  0.2). d15N for each        grunts into seagrass beds are assumed to be
+producer and each consumer was between 5 and 10                   linked to foraging (Rooker and Dennis 1991,
+samples, and BMA was not included as a source in SIAR             Burke 1995, Nagelkerken et al. 2008).
+results shown.                                                       Twilight migrations between daytime to night-
+                                                                  time areas are common for constituents of tropi-
+with predators (Catano et al. 2017). In the pre-                  cal reefs and MSP ecosystems (Hobson 1975,
+sent study, we observed conspicuous shifts for                    Helfman 1986, Hitt et al. 2011a, b), despite the
+L. apodus from daytime locations within the                       fact that predator activity often peaks during
+
+
+                ❖ www.esajournals.org                        11                April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                               ROOKER ET AL.
+
+
+twilight periods (Catano et al. 2017). Coral reef           before light levels increase (dawn), and these
+ﬁshes appear to anticipate and respond to diel              short time periods appear to represent anti-
+shifts in predation risk (Rizzari et al. 2014, Cat-         predation windows where predation risk may be
+ano et al. 2016), and taxa investigated here (i.e.,         lower than other times of the day.
+grunts) are known to migrate over limited time                 Movements to nocturnal areas during twilight
+intervals before or after civil twilight to ostensi-        were less pronounced for L. apodus, with a large
+bly reduce encounters with predators (Rooker                proportion of the triangulated positions 30 min
+and Dennis 1991, Danilowicz and Sale 1999). In              or more after sunset still in the mangrove prop
+the present study, an acoustic positioning system           roots. Similarly, Hitt et al. (2011b) observed that
+was used to further evaluate diel migrations with           L. apodus transitioned more slowly from struc-
+the goal of clarifying relationships between pre-           tured daytime habitats to sand and seagrass at
+dation risk and three components of these migra-            night, with individuals often departing diurnal
+tions: time/duration, migration pathway, and                resting areas after twilight or up to 1-h post-
+speed of movement. Haemulon plumierii dis-                  sunset (astronomical twilight). In the present
+played directed and consistent twilight move-               study, observed positions at twilight for L. apodus
+ments with individuals commonly crossing the                outside the mangroves were predominantly in
+high-risk channel in the same location on succes-           the higher risk channel over sand bottom. Unlike
+sive nights.                                                the directed channel crossings by H. plumierii at
+   Interestingly, movement by juvenile H.                   twilight, the reliance on anti-predation windows
+plumierii across the channel was rapid, and the             appears less important for L. apodus given the
+highest rate of movement (mean: 13.1 m/min) by              more gradual and protracted movements dis-
+this species occurred during limited time inter-            played by this species at dawn and dusk. Never-
+vals before (dawn) or following (dusk) the begin-           theless, the rate of movement by this species also
+ning of civil twilight. Previous research has               peaked during twilight, and increased step
+shown that reactive movement and escape                     length (i.e., speed) during dawn and dusk has
+response (e.g., mean or maximum swimming                    also been observed for this species in the U.S.
+speed/acceleration) of teleost and amphibian prey           Virgin Islands (Hitt et al. 2011b). Increased rates
+are faster in response to a perceived predation             of movement during twilight may be related to
+risk (Ramasamy et al. 2015, Weterings et al.                predation risk by S. barracuda or other predators
+2016). The higher swimming speed of H. plumierii            moving into the channel during transition peri-
+displayed during the twilight period is likely a            ods. Observed shifts in the spatial distribution of
+learned response from past experiences with                 L. apodus at twilight and into the night appear to
+predators or an innate behavior associated with             be a resource selection response to take advan-
+movement into an unprotected area (i.e., less               tage of higher ﬂow rates (~30 cm/s) in the chan-
+cover) that lowers the probability of encountering          nel compared to more protected areas in
+or being captured by S. barracuda or other preda-           mangroves and seagrass habitats (~0–2 cm/s) in
+tors (e.g., carangids) that were observed in the            this MSP ecosystem. Increased ﬂow often leads
+channel. Moreover, the timing of crepuscular                to greater encounter rates with midwater prey,
+migrations by H. plumierii occurred within a very           enhancing the foraging efﬁciency of consumers
+restricted period and nearly all (>90%) of the              (MacKenzie and Kiorboe 1995, Lewis and Pedley
+observed channel crossings transpired during the            2001), which may offset the risk of occupying
+ﬁrst 12 min following civil twilight at sunset or           the higher risk channel over relatively open
+the 12 min before the start of civil twilight at            sand bottom habitats with limited or no cover
+dawn. “Anti-predation windows” can occur                    (DeCesare et al. 2014).
+during brief intervals at dawn and dusk at inter-              Trophic relationships of L. apodus and H.
+mediate levels of light intensity, and movements            plumierii were examined concurrently with the
+during these periods have been shown to reduce              acoustic telemetry trial and support the hypothe-
+the risk of predation (Clark and Levy 1988). Thus,          sis that shifts to nocturnal habitats within the
+the brief twilight intervals used by H. plumierii to        MSP ecosystem were associated with foraging.
+cross the channel coincide with periods immedi-             Muscle tissue d13C and d15N values for L. apodus
+ately after light levels drop (dusk) or immediately         and H. plumierii indicated that signatures of
+
+
+              ❖ www.esajournals.org                    12               April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                                      ROOKER ET AL.
+
+
+both species were linked to producer signatures               survival of juvenile ﬁshes inhabiting these back-
+associated with habitats occupied at night. This              reef ecosystems may be shaped signiﬁcantly by
+ﬁnding is consistent with observations that both              seascape conﬁguration and the spatial distribu-
+species rely heavily on nocturnal habitats for prey           tion of predators. Since an improved understand-
+(Nagelkerken et al. 2000, Nagelkerken and van                 ing of seascape connectivity is essential to
+der Velde 2004). Lutjanus apodus most closely                 conservation prioritization (Weeks 2017),
+matched POM (phytoplankton) values observed                   approaches similar to the one used here are nec-
+in the sand (channel), while seagrass/BMA was                 essary to fully assess the causes and scope of
+identiﬁed as an important source of organic mat-              these linkages.
+ter to H. plumierii. Because both species are
+known to feed opportunistically during the day                ACKNOWLEDGMENTS
+(Rooker 1995, Verweij et al. 2006), it is not surpris-
+ing that predicted source estimates from SIAR                    This work was supported by the McDaniel Charita-
+also included producers associated with habitats              ble Foundation.
+frequented during the day. d13C and d15N values
+and estimated source contributions for S. barracu-            LITERATURE CITED
+da were similar to H. plumierii, which appears to
+show increased habitat overlap between these                  Adams, A., C. P. Dahlgren, G. T. Kellison, M. S. Ken-
+two species. This may result in higher predation                 dall, C. A. Layman, J. A. Ley, I. Nagelkerken, and J.
+risk for H. plumierii or possibly indicate the con-              E. Serafy. 2006. Nursery function of tropical back-
+sumption of other seagrass-dependent species by                  reef systems. Marine Ecology Progress Series
+S. barracuda.                                                    318:287–301.
+                                                              Almany, G. R., and M. S. Webster. 2006. The predation
+   In conclusion, habitat characteristics such as
+                                                                 gauntlet: early post-settlement mortality in reef
+cover and complexity are often key determinants                  ﬁshes. Coral Reefs 25:19–22.
+of predation risk and survival (Rogers et al.                 Appeldoorn, R. S., A. Aguilar-Perera, B. L. K. Bouw-
+2014), and both model prey species (L. apodus,                   meester, G. D. Dennis, R. L. Hill, W. Merten, C. W.
+H. plumierii) occupied areas with generally more                 Recksiek, and S. J. Williams. 2009. Movement of
+cover (lower risk) during the day and areas of                   ﬁshes (grunts: Haemulidae) across the coral reef
+less cover (higher risk) at night. This suggests                 seascape: a review of scales, patterns and pro-
+that the mangrove prop roots and/or patch reefs                  cesses. Caribbean Journal of Science 45:304–316.
+represent daytime resting sites for L. apodus and             Beyer, H. L. 2012. Geospatial Modelling Environment
+H. plumierii, while the more open channel over                   (Version 0.7.3.0). http://www.spatialecology.com/
+sand substrate or seagrass served as nighttime                   gme
+                                                              Bohlke, J. E., and C. C. G. Chaplin. 1993. Fishes of the
+foraging areas for the two species, respectively.
+                                                                 Bahamas and adjacent tropical waters, Second edi-
+The spatial conﬁguration of habitats within this                 tion. University of Texas Press, Austin, Texas, USA.
+seascape inﬂuenced the distribution of both                   Burke, N. C. 1995. Nocturnal foraging habitats of
+predator and prey species investigated with                      French and bluestriped grunts, Haemulon ﬂavolinea-
+L. apodus and H. plumierii generally avoiding                    tum and H. sciurus, at Tobacco Caye, Belize. Envir-
+high-risk areas (i.e., channel) during the day                   onmental Biology of Fishes 42:365–374.
+when S. barracuda were common in this habitat.                Catano, L. B., M. B. Barton, K. M. Boswell, and D. E.
+Mismatches between movement rates of our                         Burkepile. 2017. Predator identity and time of day
+model predator (S. barracuda) relative to both                   interact to shape the risk–reward trade-off for her-
+L. apodus and H. plumierii may be an adaptive                    bivorous coral reef ﬁshes. Oecologia 183:763–773.
+response to reduce detection or encounter rates,              Catano, L. B., M. C. Rojas, R. J. Malossi, J. R. Peters, M.
+                                                                 R. Heithaus, J. W. Fourqurean, and D. E. Burkepile.
+although different feeding behaviors (e.g., sit-
+                                                                 2016. Reefscapes of fear: Predation risk and reef
+and-wait vs. active foraging) of selected predator               heterogeneity interact to shape herbivore foraging
+and prey species may also contribute to observed                 behaviour. Journal of Animal Ecology 85:146–156.
+disparities in movement rates. Our ﬁndings                    Chudzinska, M. E., F. M. van Beest, J. Madsen, and
+clearly demonstrate interconnections between                     J. Nabe-Nielsen. 2015. Using habitat selection theo-
+predator and prey activities and suggest that                    ries to predict the spatiotemporal distribution of
+migration pathways, foraging success, and                        migratory birds during stopover—a case study of
+
+
+               ❖ www.esajournals.org                     13                 April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                                          ROOKER ET AL.
+
+
+    pink-footed geese Anser brachyrhynchus. Oikos                  Furey, N. B., M. A. Dance, and J. R. Rooker. 2013. Fine-
+    124:851–860.                                                      scale movements and habitat use of young-of-the-
+Clark, C. W., and D. A. Levy. 1988. Diel vertical migra-              year southern ﬂounder (Paralichthys lethostigma) in
+    tion by juvenile sockeye salmon and the antipreda-                an estuarine seascape. Journal of Fish Biology
+    tion window. American Naturalist 131:271–290.                     82:1469–1483.
+Clark, R. D., S. Pittman, C. Caldow, J. Christensen, B.            Hammerschlag, N., M. R. Heithaus, and J. E. Serafy.
+    Roque, and R. S. Appeldoorn. 2009. Nocturnal ﬁsh                  2010. Inﬂuence of predation risk and food supply
+    movement and trophic ﬂow across habitat bound-                    on nocturnal ﬁsh foraging distributions along a
+    aries in a coral reef ecosystem (SW Puerto Rico).                 mangrove–seagrass ecotone. Marine Ecology Pro-
+    Caribbean Journal of Science 45:282–303.                          gress Series 414:223–235.
+Conner, M. L., M. D. Smith, and L. W. Burger. 2003. A              Helfman, G. S. 1986. Fish behavior by day, night and
+    comparison of distance-based and classiﬁcation-                   twilight. Pages 479–512 in T. J. Pitcher, editor. The
+    based analyses of habitat use. Ecology 84:526–531.                behavior of teleost ﬁshes. Chapman and Hall, Lon-
+Creel, S., and D. Christianson. 2008. Relationships                   don, UK.
+    between direct predation and risk effects. Trends in           Hitt, S., S. J. Pittman, and R. S. Nemeth. 2011a. Diel
+    Ecology and Evolution 23:194–201.                                 movements of ﬁshes linked to benthic seascape
+Dahlgren, C. P., and D. B. Eggleston. 2000. Ecological                structure in a Caribbean coral reef ecosystem. Mar-
+    processes underlying ontogenetic habitat shifts in a              ine Ecology Progress Series 427:275–292.
+    coral reef ﬁsh. Ecology 81:2227–2240.                          Hitt, S., S. J. Pittman, and K. A. Brown. 2011b. Tracking
+Dance, M. A., D. L. Moulton, N. B. Furey, and J. R.                   and mapping sun-synchronous migrations and diel
+    Rooker. 2016. Does transmitter placement or spe-                  space use of Haemulon sciurus and Lutjanus apodus
+    cies affect detection efﬁciency of tagged animals in              in the U.S. Virgin Islands. Environmental Biology
+    biotelemetry research? Fisheries Research 183:80–                 of Fishes 92:525–538.
+    85.                                                            Hixon, M. A., and M. H. Carr. 1997. Synergistic preda-
+Dance, M. A., and J. R. Rooker. 2015. Habitat- and bay-               tion, density dependence, and population regula-
+    scale connectivity of sympatric ﬁshes in an estuar-               tion in marine ﬁsh. Science 277:946–949.
+    ine nursery. Estuarine Coastal and Shelf Science               Hobson, E. S. 1975. Feeding patterns among tropical
+    167:447–457.                                                      reef ﬁshes. American Scientist 63:381–392.
+Danilowicz, B. S., and P. F. Sale. 1999. Relative inten-           Kimirei, I. A., I. Nagelkerken, Y. D. Mgaya, and C. M.
+    sity of predation on the French grunt, Haemulon                   Huijbers. 2013. The mangrove nursery paradigm
+    ﬂavolineatum, during diurnal, dusk, and nocturnal                 revisited: Otolith stable isotopes support nursery-
+    periods on a coral reef. Marine Biology 133:337–                  to-reef movements by Indo-Paciﬁc ﬁshes. PLoS
+    343.                                                              ONE 8:e66320.
+DeCesare, N. J., M. Hebblewhite, M. Bradley, D. Her-               Lewis, D. M., and T. J. Pedley. 2001. The inﬂuence of
+    vieux, L. Neufeld, and M. Musiani. 2014. Linking                  turbulence on plankton predation strategies. Jour-
+    habitat selection and predation risk to spatial varia-            nal of Theoretical Biology 210:347–365.
+    tion in survival. Journal of Animal Ecology 83:343–            Lima, S. L., and P. A. Bednekoff. 1999. Temporal varia-
+    352.                                                              tion in danger drives antipredator behavior: the
+DeNiro, M. J., and S. Epstein. 1978. Inﬂuence of diet on              predation risk allocation hypothesis. American
+    the distribution of carbon isotopes in animals.                   Naturalist 153:649–659.
+    Geochimica et Cosmochimica Acta 42:495–506.                    Lima, S. L., and L. M. Dill. 1990. Behavioral decisions
+Dorenbosch, M., W. C. E. P. Verberk, I. Nagelkerken,                  made under the risk of predation: a review and
+    and G. van der Velde. 2007. Inﬂuence of habitat                   prospectus. Canadian Journal of Zoology 68:619–
+    conﬁguration on connectivity between seagrass                     640.
+    beds, mangroves and coral reefs. Marine Ecology                MacKenzie, B. R., and T. Kiorboe. 1995. Encounter
+    Progress Series 334:103–116.                                      rates and swimming behavior of pause-travel and
+Foss, K. L. 2016. Feeding ecology of red snapper and                  cruise larval ﬁsh predators in calm and turbulent
+    greater amberjack at standing platforms in the                    laboratory environments. Limnology Oceanogra-
+    northern Gulf of Mexico: disentangling the effects                phy 40:1278–1289.
+    of artiﬁcial light. Thesis. Louisiana State University,        Matassa, C. M., S. C. Donelan, B. Luttbeg, and G. C. Trus-
+    Baton Rouge, Louisiana, USA.                                      sell. 2016. Resource levels and prey state inﬂuence
+Fry, B., and E. B. Sherr. 1984. d13C measurements as                  antipredator behavior and the strength of noncon-
+    indicators of carbon ﬂow in marine and freshwater                 sumptive predator effects. Oikos 125:1478–1488.
+    ecosystems. Contribution in Marine Science 27:                 Moulton, D. L., M. A. Dance, J. A. Williams, M. Z.
+    13–47.                                                            Sluis, G. W. Stunz, and J. R. Rooker. 2017. Habitat
+
+
+
+                ❖ www.esajournals.org                         14                 April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                                            ROOKER ET AL.
+
+
+   partitioning and movement of red drum and spot-                 Rizzari, J. R., A. J. Frisch, A. S. Hoey, and M. I. McCor-
+   ted seatrout. Estuaries and Coasts 40:905–916.                      mick. 2014. Not worth the risk: Apex predators
+Mumby, P. J., and A. Hastings. 2008. The impact of                     suppress herbivory on coral reefs. Oikos 123:829–
+   ecosystem connectivity on coral reef resilience.                    836.
+   Journal of Applied Ecology 45:854–862.                          Rogers, A., J. L. Blanchard, and P. J. Mumby. 2014. Vul-
+Mumby, P. J., et al. 2004. Mangroves enhance the bio-                  nerability of coral reef ﬁsheries to loss of structural
+   mass of coral reef ﬁsh communities in the Carib-                    complexity. Current Biology 24:1000–1005.
+   bean. Nature 427:533–536.                                       Rooker, J. R. 1995. Feeding ecology of the schoolmaster
+Nagelkerken, I., J. Bothwell, R. S. Nemeth, J. M. Pitt,                snapper, Lutjanus apodus (Walbaum), from south-
+   and G. van der Velde. 2008. Interlinkage between                    western Puerto Rico. Bulletin of Marine Science
+   Caribbean coral reefs and seagrass beds through                     56:886–899.
+   feeding migrations by grunts (Haemulidae)                       Rooker, J. R., and G. D. Dennis. 1991. Diel, lunar and
+   depends on habitat accessibility. Marine Ecology                    seasonal changes in a mangrove ﬁsh assemblage
+   Progress Series 368:155–164.                                        off southwestern Puerto Rico. Bulletin of Marine
+Nagelkerken, I., M. Dorenbosch, W. C. E. P. Verberk, E.                Science 49:684–698.
+   Cocheret de la Moriniere, and G. van der Velde.                Rooker, J. R., and D. H. Secor, editors. 2005. Connectiv-
+   2000. Day–night shifts of ﬁshes between shallow-                    ity in the life cycles of ﬁshes and invertebrates that
+   water biotopes of a Caribbean bay, with emphasis                    use estuaries. Estuarine Coastal and Shelf Science
+   on the nocturnal feeding of Haemulidae and Lut-                     64:1–148.
+   janidae. Marine Ecology Progress Series 194:55–64.              Rooker, J. R., D. H. Secor, G. De Metrio, R. Schloesser,
+Nagelkerken, I., C. M. Roberts, G. van der Velde, M.                   B. A. Block, and J. D. Neilson. 2008. Natal homing
+   Dorenbosch, M. C. van Riel, E. Cocheret de la Mor-                  and connectivity in Atlantic blueﬁn tuna popula-
+   iniere, and P. H. Nienhuis. 2002. How important                    tions. Science 322:742–744.
+   are mangroves and seagrass beds for coral-reef                  Serafy, J. E., G. S. Shideler, R. J. Arau jo, and I. Nagelk-
+   ﬁsh? The nursery hypothesis tested on an island                     erken. 2015. Mangroves enhance reef ﬁsh abun-
+   scale. Marine Ecology Progress Series 244:299–305.                  dance at the Caribbean regional scale. PLoS ONE
+Nagelkerken, I., M. Sheaves, R. Baker, and R. M. Con-                  10:e0142022.
+   nolly. 2015. The seascape nursery: a novel spatial              Stier, A. C., K. M. Hanson, S. J. Holbrook, R. J. Schmitt,
+   approach to identify and manage nurseries for                       and A. J. Brooks. 2014. Predation and landscape
+   coastal marine fauna. Fish and Fisheries 2015:362–                  characteristics independently affect reef ﬁsh com-
+   371.                                                                munity organization. Ecology 95:1294–1307.
+Nagelkerken, I., and G. van der Velde. 2004. Are Carib-            Tambling, C. J., D. J. Druce, M. W. Hayward, J. G. Cast-
+   bean mangroves important feeding grounds for                        ley, J. Adendorff, and G. I. Kerley. 2012. Spatial and
+   juvenile reef ﬁsh from adjacent seagrass beds? Mar-                 temporal changes in group dynamics and range
+   ine Ecology Progress Series 274:143–151.                            use enable anti-predator response in African buf-
+Parnell, A., R. Inger, S. Bearhop, and A. L. Jackson. 2010.            falo. Ecology 93:1297–1304.
+   Source partitioning using stable isotopes: coping               Trussell, G. C., P. J. Ewanchuk, and C. M. Matassa.
+   with too much variation. PLoS ONE 5:e9672.                          2006. Habitat effects on the relative importance of
+Phillips, D. L., R. Inger, S. Bearhop, A. L. Jackson, J. W.            trait- and density-mediated indirect interactions.
+   Moore, A. C. Parnell, B. X. Semmens, and E. J.                      Ecology Letters 9:1245–1252.
+   Ward. 2014. Best practices for use of stable isotope            Valeix, M., A. J. Loveridge, S. Chamaille-Jammes, Z. David-
+   mixing models in food-web studies. Canadian                         son, F. Murindagomo, H. Fritz, and D. W. Macdonald.
+   Journal of Zoology 92:823–835.                                      2009. Behavioral adjustments of African herbivores
+Post, D. M., C. A. Layman, D. A. Arrington, G. Taki-                   to predation risk by lions: Spatiotemporal varia-
+   moto, J. Quattrochi, and C. G. Montana. 2007. Get-                  tions inﬂuence habitat use. Ecology 90:23–30.
+   ting to the fat of the matter: models, methods and              Vander Zanden, M. J., and J. B. Rasmussen. 2001. Vari-
+   assumptions for dealing with lipids in stable iso-                  ation in d15N and d13C trophic fractionation: impli-
+   tope analyses. Oecologia 152:179–189.                               cations for aquatic food web studies. Limnology
+Ramasamy, R. A., B. J. M. Allan, and M. I. McCormick.                  Oceanography 46:2061–2066.
+   2015. Plasticity of escape responses: Prior predator            Vanderklift, M. A., and S. Ponsard. 2003. Sources of
+   experience enhances escape performance in a coral                   variation in consumer-diet d15N enrichment: a
+   reef ﬁsh. PLoS ONE 10:e0132790.                                     meta-analysis. Oecologia 136:169–182.
+Randall, J. E. 1967. Food habits of reef ﬁshes of the              Verweij, M. C., I. Nagelkerken, S. L. J. Wartenbergh, I.
+   West Indies. Studies in Tropical Oceanography,                      R. Pen, and G. van der Velde. 2006. Caribbean
+   Miami 5:665–847.                                                    mangroves and seagrass beds as daytime feeding
+
+
+
+                ❖ www.esajournals.org                         15                  April 2018 ❖ Volume 9(4) ❖ Article e02200
+                                                                                                         ROOKER ET AL.
+
+
+   habitats for juvenile French grunts, Haemulon ﬂavo-              mortality rates mediated by foraging activity.
+   lineatum. Marine Biology 149:1291–1299.                          American Naturalist 142:242–272.
+Weeks, R. 2017. Incorporating seascape connectivity              Werner, E. E., J. F. Gilliam, D. J. Hall, and G. G. Mittel-
+   in conservation prioritisation. PLoS ONE 12:                     bach. 1983. An experimental test of the effects of
+   e0182396.                                                        predation on habitat use in ﬁsh. Ecology 64:1540–
+Wells, R. J. D., J. H. Cowan Jr., and B. Fry. 2008. Feed-           1548.
+   ing ecology of red snapper Lutjanus campechanus in            Weterings, M. J. A., M. Zaccaroni, N. van der Koore, L.
+   the northern Gulf of Mexico. Marine Ecology Pro-                 M. Zijlstra, H. J. Kuipers, F. van Langevelde, and S.
+   gress Series 361:213–225.                                        E. van Wieren. 2016. Strong reactive movement
+Wells, R. J. D., J. R. Rooker, A. Quigg, and B. Wissel.             response of the medium-sized European hare to
+   2017. Inﬂuence of mesoscale oceanographic fea-                   elevated predation risk in short vegetation. Animal
+   tures on pelagic food webs in the Gulf of Mexico.                Behaviour 115:107–114.
+   Marine Biology 164:92. https://doi.org/10.1007/               Wirsing, A. J., M. R. Heithaus, A. Frid, and L. M. Dill.
+   s00227-017-3122-0                                                2008. Seascapes of fear: evaluating sublethal preda-
+Werner, E. E., and B. R. Anholt. 1993. Ecological conse-            tor effects experienced and generated by marine
+   quences of the trade-off between growth and                      mammals. Marine Mammal Science 24:1–15.
+
+
+
+
+                                          SUPPORTING INFORMATION
+  Additional Supporting Information may be found online at: http://onlinelibrary.wiley.com/doi/10.1002/ecs2.
+2200/full
+
+
+
+
+                ❖ www.esajournals.org                       16                 April 2018 ❖ Volume 9(4) ❖ Article e02200
+

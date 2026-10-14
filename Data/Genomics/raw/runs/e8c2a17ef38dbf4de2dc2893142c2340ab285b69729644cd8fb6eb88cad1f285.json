@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=tax_tree%28236586%29+AND+%28library_source%3D%22GENOMIC%22+OR+library_strategy%3D%22WGS%22%29&fields=run_accession%2Csample_accession%2Csecondary_sample_accession%2Csample_alias%2Cstudy_accession%2Csecondary_study_accession%2Cexperiment_accession%2Cscientific_name%2Ctax_id%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Clibrary_name%2Cbase_count%2Cread_count%2Cinstrument_platform%2Cinstrument_model%2Ccollection_date%2Ccountry%2Clocation%2Clat%2Clon%2Csample_title%2Csample_description%2Cstudy_title%2Cexperiment_title%2Clibrary_construction_protocol%2Cisolate%2Cbio_material%2Cspecimen_voucher%2Csex%2Cdev_stage%2Ctissue_type%2Cisolation_source%2Cfirst_public%2Clast_updated%2Cfastq_ftp%2Cfastq_md5%2Csra_ftp&format=tsv&limit=0",
+  "retrieved_utc": "2026-10-13T04:05:23.826630+00:00",
+  "sha256": "3e4e7c3005b7b3ccc976225221c5d1572675825b6c10bda220fe5a38bd556343",
+  "http_status": 200,
+  "bytes": 6098,
+  "cache_path": "Data/Genomics/raw/runs/e8c2a17ef38dbf4de2dc2893142c2340ab285b69729644cd8fb6eb88cad1f285.gz"
+}

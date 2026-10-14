@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Menidia%20menidia",
+  "retrieved_utc": "2026-10-13T04:04:48.026961+00:00",
+  "sha256": "5367f7f534203436412067df71495ad8798d1f381a33bba44901a4e0ccd1b313",
+  "http_status": 200,
+  "bytes": 768,
+  "cache_path": "Data/Genomics/raw/taxonomy/30b27e7e72bfc2160b64e4d8dfc13880d5ab11b1f776b0764598a22e01dd5da0.gz"
+}

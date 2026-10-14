@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Syngnathus%20fuscus",
+  "retrieved_utc": "2026-10-13T04:05:35.967095+00:00",
+  "sha256": "bacfa52848324ce70d62b41abb5983127aec9b37366a9189e3b1655e0bc6077c",
+  "http_status": 200,
+  "bytes": 645,
+  "cache_path": "Data/Genomics/raw/taxonomy/6a9b44373cc789aa1a805a1ef90d4c0a73e6342f9e16557cb36c4a6a3e0e4c2d.gz"
+}

@@ -1,0 +1,16 @@
+path,sha256,rows,columns,encoding,catalog_key,unique_nonempty_catalog_keys,repeated_catalog_keys,excess_catalog_rows
+Data/All_Ships_Updated.csv,3f4bd48f30f1e485fd2a01427779b9b457642e60746fb56b147423f3a64efe86,5387,51,cp1252_provisional_requires_confirmation,Catalog.Number...USNM,5194,87,193
+Data/All_collections.csv,531bfa7fdf49d204eb57530f63cf3af36f23f3fbd6ec68e012296a0ef81427cb,7166,49,utf-8-sig,Catalog Number - USNM,6972,88,194
+Data/MissingNamesKey.csv,59f900a63ac7690984b6893853b7d848f5e4d6ac64dd4a90bc3535b237e35395,24,51,utf-8-sig,Catalog.Number...USNM,24,0,0
+Data/Potential.csv,1e64328d9ab978ce9a8d69ae27876704cf0ec05e52645eaeeca64a3489c9efa6,1414,7,utf-8-sig,Catalog.Number...USNM,1378,17,36
+Data/Potential12Sep.csv,1185c4330204bd8899f89c4a27aba4a5411d29d85852e1862760341bb3485fcb,1115,7,utf-8-sig,Catalog.Number...USNM,1110,3,5
+Output/Files/All_Ships_Updated.csv,ba0b78181f4e8815b048294aac903870c6a50f7bbedc76f02ec880e4403fd13e,5260,52,utf-8-sig,Catalog.Number...USNM,5067,87,193
+Output/Files/CandidateSpeciesList.csv,2a35767c9da8f014576e2400c9a773572f39f7c2fc8cd2161dc08c086ff1fdf3,96,1,utf-8-sig,,,,
+Output/Files/Dating_errors.csv,2cc0d03b2dbf5f277d6fa2c38ed4342fc4f93dbd0e47cf34a4cc92c88b14ca1a,270,54,utf-8-sig,Catalog.Number...USNM,270,0,0
+Output/Files/HumanSearch.csv,27b9a06fca7252a869de86dc1a888268eed6c0047a1dbdccb2f81e0b194e3ce3,24,52,utf-8-sig,Catalog.Number...USNM,24,0,0
+Output/Files/Lots_missing_centroid.csv,0f8624d3d4a6e5a06c62791102515ab184bc02d84ed2749d045bad7be1a20c16,0,52,utf-8-sig,Catalog.Number...USNM,0,0,0
+Output/Files/Potential.csv,79a1867280c3b9a8eeb4d4a49384d9261ecd637549192617cd4f6be63d9b8d6d,1027,8,utf-8-sig,Catalog.Number...USNM,1017,5,10
+Output/Files/Removed_lots.csv,7fe46d4246c94493005b2a0f7e45d91449ea6b71f5d26f6ef026052d1bf88b47,1906,52,utf-8-sig,Catalog.Number...USNM,1905,1,1
+Output/Files/Species_summary_table.csv,feb9f01b8844d6e5bbfd0c62892e33b82ce36a4aa08754a02c47d35e4d9d1350,94,5,utf-8-sig,,,,
+Output/Files/Species_table.csv,c83f2877c7dad5d8a82ce3864b50f5680928f86d5323322014161d9b2d314104,963,6,utf-8-sig,Lot #,963,0,0
+Output/Files/species_validation_results.csv,03764ff20a06ac2d734c484e06d5759f0d682f5cdd2aa840d9263a97674794fd,853,2,utf-8-sig,,,,

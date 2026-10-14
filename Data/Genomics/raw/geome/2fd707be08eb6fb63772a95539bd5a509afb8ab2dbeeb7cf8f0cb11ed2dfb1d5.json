@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Myctophum+affine%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:43.240402+00:00",
+  "sha256": "9a8b28a8776068e39ac4dd388f35b456e27f86b82dcb43774322818e2cbe16c2",
+  "http_status": 200,
+  "bytes": 48,
+  "cache_path": "Data/Genomics/raw/geome/2fd707be08eb6fb63772a95539bd5a509afb8ab2dbeeb7cf8f0cb11ed2dfb1d5.gz"
+}

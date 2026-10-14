@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Prionotus%20martis",
+  "retrieved_utc": "2026-10-13T04:05:32.753332+00:00",
+  "sha256": "0f6f4042d31c5a52dd3d92b054fc9d33be1cd3202c64d27aad52a43aa5e8b5d3",
+  "http_status": 200,
+  "bytes": 554,
+  "cache_path": "Data/Genomics/raw/taxonomy/08793ba49554b53b5a5400b4fbd3ca906f562ec618388a8f2dc62a8abe30d409.gz"
+}

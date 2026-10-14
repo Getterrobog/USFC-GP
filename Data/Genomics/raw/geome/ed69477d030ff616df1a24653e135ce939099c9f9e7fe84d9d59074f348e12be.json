@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Paralichthys+dentatus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:15.608795+00:00",
+  "sha256": "ebd31ad691efe318720cbace3f07105a210966cd91fd78aaa272be6d2ce3d319",
+  "http_status": 200,
+  "bytes": 4123,
+  "cache_path": "Data/Genomics/raw/geome/ed69477d030ff616df1a24653e135ce939099c9f9e7fe84d9d59074f348e12be.gz"
+}

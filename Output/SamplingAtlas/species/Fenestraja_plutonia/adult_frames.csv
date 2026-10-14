@@ -1,0 +1,4 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Fenestraja plutonia","adult",1885,"1885",142,142,0,-100,-50,5,60,2,"species/Fenestraja_plutonia/adult_frames/year_1885.png"
+"Fenestraja plutonia","adult",1886,"1886",59,59,0,-100,-50,5,60,2,"species/Fenestraja_plutonia/adult_frames/year_1886.png"
+"Fenestraja plutonia","adult",1902,"1902",1,1,0,-100,-50,5,60,2,"species/Fenestraja_plutonia/adult_frames/year_1902.png"

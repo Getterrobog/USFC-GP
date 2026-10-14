@@ -1,0 +1,5 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Laemonema barbatulum","adult",1883,"1883",2,2,0,-100,-50,5,60,2,"species/Laemonema_barbatulum/adult_frames/year_1883.png"
+"Laemonema barbatulum","adult",1884,"1884",2,2,0,-100,-50,5,60,2,"species/Laemonema_barbatulum/adult_frames/year_1884.png"
+"Laemonema barbatulum","adult",1885,"1885",109,109,0,-100,-50,5,60,2,"species/Laemonema_barbatulum/adult_frames/year_1885.png"
+"Laemonema barbatulum","adult",1886,"1886",22,22,0,-100,-50,5,60,2,"species/Laemonema_barbatulum/adult_frames/year_1886.png"

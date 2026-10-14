@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Helicolenus%20dactylopterus",
+  "retrieved_utc": "2026-10-13T04:05:23.591934+00:00",
+  "sha256": "63c0a00d8459b117a430bdd59f4f55940aa294fa6e1687f27b8221ae559a66c5",
+  "http_status": 200,
+  "bytes": 620,
+  "cache_path": "Data/Genomics/raw/taxonomy/9ea7749aea095cfadc3fd8643b3d357c42be10b064aefe61bb26f1595d946c6d.gz"
+}

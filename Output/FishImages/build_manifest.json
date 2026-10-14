@@ -1,0 +1,62 @@
+{
+  "command": "python3 Scripts/build_fish_image_catalog.py",
+  "coverage": {
+    "candidate_records": 523,
+    "eligible_for_noncommercial_embedding": 54,
+    "permission_required": 24,
+    "reuse_status_counts": {
+      "attribution_noncommercial": 54,
+      "not_applicable": 2,
+      "permission_required": 24
+    },
+    "species": 80,
+    "species_with_image_or_supplemental_url": 80,
+    "species_with_image_url": 78,
+    "status_counts": {
+      "no_species_image_in_snapshot": 1,
+      "taxonomy_unresolved": 1,
+      "verified_image_response": 78
+    },
+    "supplemental_urls_verified": 2,
+    "verified_image_urls": 78
+  },
+  "fishbase_version": "26.06",
+  "inputs": {
+    "Data/FishImages/raw/v26.06/download_manifest.json": "16e4f37f1699e8737afeb55d56e65f5884935df524c2ef8dadde2f67048b4dce",
+    "Data/FishImages/raw/v26.06/picturesmain.parquet": "900fe816b0c353ce8196ed967a0b86259a80b15b2876627660e643a043b232da",
+    "Data/FishImages/source_pages/supplement_jordan.html": "a2694062816f40fc7a1aea820d8273d3116c9b256a8dabd65595dabb471433f9",
+    "Data/FishImages/source_pages/supplement_stri_credit.html": "16c32f07d4c6dcffd10d6323bb6b50a0a7620eb0047c72ebeb824a03554f03b5",
+    "Data/FishImages/supplemental_url_checks.json": "b00825db1d061eb311f2a2aaf422c7b88ad8aa10cbbf52bea85dbc89a1f25502",
+    "Data/FishImages/url_checks.json": "a68eaa4eda3462a4540040da91b07b059d5fc5a9b57309c79de3f0782bd137a3",
+    "Output/LifeHistory/taxon_crosswalk.csv": "d4b8461ff9dfdc55dfc549378ea09c3fb778a298dd9526c7efeef0bf033f6baa",
+    "Output/SpeciesSelection/species_investigation_queue.csv": "06398a7d91fad7ebdae04f4b90825dc27b23ab069c9e8da24f0f746bb9781cde",
+    "Scripts/build_fish_image_catalog.py": "91903405a28f9c3eb157fa621cc376355302c60cba90c93a366e597b986cf465",
+    "config/fish_image_supplements.csv": "fa62cb7932ba8c42823760c76d55f55dca07fd6e2885cfa9b5069d4a619ed15c",
+    "docs/fish_image_catalog.md": "fac74917d0a1a390495634c693ecb29666f17aa5d0fc9f13d66a2791c379027f",
+    "requirements-life-history.txt": "7b6b0ff7f646fd7a25e4aea8d50675fd4be27d9fc9fa09f38d0adf6353bd61d8",
+    "tests/test_fish_image_catalog.py": "a0a88b96d7955de9c835f2ac1dde760ada2412e9e5b5c1dc93afaeeaaa81d9fc"
+  },
+  "outputs": {
+    "Output/FishImages/README.md": "cd978a46be7c0d6e81efa64383aa9dc89c555179577a7734f1c684139dec08db",
+    "Output/FishImages/coverage.json": "fecc61aa44624ce59a81ba31384e310492447f046e2c306dc7341f5c9c52d552",
+    "Output/FishImages/fish_images_80_species.csv": "4a730dd217b2b544460b3b9ca84ca84b2023187c42c2cbb3ded590ccbc7d3866",
+    "Output/FishImages/fish_images_80_species.json": "0be967dfd014ba4457e6f91c845e4c444b58e741c85e822ef4302fa210384eb4",
+    "Output/FishImages/fish_images_80_species.xlsx": "26271fdf498d38c52bf4b8b6e5fd3f086b3f22187127fffaf5b2679595293347",
+    "Output/FishImages/image_candidates.csv": "7f99ee6169af772c71737ac45e62e4fb19e697486be96df7e87e0145c85573f4"
+  },
+  "reproducibility": "CSV/JSON tables deterministic from frozen inputs; workbook ZIP timestamps may differ.",
+  "snapshot": {
+    "bytes": 2795743,
+    "last_modified_http": "Fri, 04 Sep 2026 22:55:23 GMT",
+    "retrieved_utc": "2026-10-13T03:11:32.041240+00:00",
+    "sha256": "900fe816b0c353ce8196ed967a0b86259a80b15b2876627660e643a043b232da",
+    "url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/cboettig/fishbase/fb/v26.06/parquet/picturesmain.parquet",
+    "version": "26.06"
+  },
+  "software": {
+    "openpyxl": "3.0.10",
+    "pandas": "2.1.1",
+    "pyarrow": "11.0.0",
+    "python": "3.11.5"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Syngnathus+fuscus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:49.554715+00:00",
+  "sha256": "8567279846447cdc808bd3b2fc9ff2f65166ae39553b7acf1f23cfc30dac9f06",
+  "http_status": 200,
+  "bytes": 3487,
+  "cache_path": "Data/Genomics/raw/geome/ea110dc70b0fdd3f93d5f693ddfeffc4e2b64d6e25064709904315e13b60a834.gz"
+}

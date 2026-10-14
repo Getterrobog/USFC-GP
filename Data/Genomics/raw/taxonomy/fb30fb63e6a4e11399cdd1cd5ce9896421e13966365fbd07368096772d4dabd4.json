@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Cyclopterus%20lumpus",
+  "retrieved_utc": "2026-10-13T04:05:15.961162+00:00",
+  "sha256": "2990c69d5dfed730132ac1aff90ce69c0b0260c8e2e8aaa979ea72113ec398ae",
+  "http_status": 200,
+  "bytes": 631,
+  "cache_path": "Data/Genomics/raw/taxonomy/fb30fb63e6a4e11399cdd1cd5ce9896421e13966365fbd07368096772d4dabd4.gz"
+}

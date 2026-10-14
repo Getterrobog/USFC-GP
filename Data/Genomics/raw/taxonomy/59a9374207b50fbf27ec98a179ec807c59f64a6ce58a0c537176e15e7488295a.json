@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Exocoetus%20volitans",
+  "retrieved_utc": "2026-10-13T04:05:03.144925+00:00",
+  "sha256": "8b22bd3f73a55b78200839caa756d0b5ba95d34eab60ef08c2a5fa7d9b7f9051",
+  "http_status": 200,
+  "bytes": 700,
+  "cache_path": "Data/Genomics/raw/taxonomy/59a9374207b50fbf27ec98a179ec807c59f64a6ce58a0c537176e15e7488295a.gz"
+}

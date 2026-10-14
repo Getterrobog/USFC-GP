@@ -1,0 +1,6 @@
+source_id,site_id,locality,latitude_dms,longitude_dms,latitude,longitude,coordinate_scope,source_locator,note
+fundulus_evad123,NR,"USA: New Jersey; north reference near Oyster Creek",39 52 28 N,74 08 19 W,,,reported_population_site,Materials and Methods / Sample collection,Coordinates in the 2023 WGS paper; do not substitute the more distant reference sites in the 2019 GBS paper
+fundulus_evad123,SR,"USA: New Jersey; south reference near Oyster Creek",39 47 04 N,74 11 07 W,,,reported_population_site,Materials and Methods / Sample collection,Coordinates in the 2023 WGS paper
+fundulus_evad123,TE,"USA: New Jersey; Oyster Creek thermal effluent",39 48 33 N,74 10 51 W,,,reported_population_site,Materials and Methods / Sample collection,Coordinates in the 2023 WGS paper
+atherino_evac111,Crandon-Park,USA: Florida; Crandon Park,25 43 23.34 N,80 9 16.6176 W,,,reported_population_site,Materials and Methods / Sample collection,Main text longitude disagrees with Table S3 by approximately 0.104 degrees; withhold coordinates pending review
+atherino_evac111,Broad-Key,USA: Florida; Broad Key,25 21 04.7 N,80 15 32.4 W,,,reported_population_site,Materials and Methods / Sample collection,Main text and Table S3 agree within rounding

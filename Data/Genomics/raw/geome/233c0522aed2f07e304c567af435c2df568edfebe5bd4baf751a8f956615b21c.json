@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Bathygobius+soporator%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:18.563039+00:00",
+  "sha256": "45f9ac6b8976f6e175e6e362b2fb7d2e04e0951048ddc94bea862c33679488d7",
+  "http_status": 200,
+  "bytes": 2229,
+  "cache_path": "Data/Genomics/raw/geome/233c0522aed2f07e304c567af435c2df568edfebe5bd4baf751a8f956615b21c.gz"
+}

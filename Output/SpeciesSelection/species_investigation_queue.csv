@@ -1,0 +1,81 @@
+"species","investigation_tier","candidate_sites","shared_species_site_year_cells","qualified_site_year_cells","repeated_site_stage_pairs","multiple_lot_explicit_year_shared_cells","maximum_single_year_cell_specimens","screened_lots","screened_specimens","screened_regions","modern_match","preservation_history","museum_access","dna_recovery","power","traits_and_habitat","sensitivity_scenarios_with_shared_cell","sensitivity_scenarios_total"
+"Alosa aestivalis","cross_site_investigation",2,3,16,4,2,251,48,1024,"Atlantic","pending","pending","pending","pending","pending","pending",24,72
+"Fundulus similis","cross_site_investigation",2,3,3,1,2,162,12,222,"Gulf of Mexico","pending","pending","pending","pending","pending","pending",48,72
+"Menidia menidia","cross_site_investigation",2,2,10,0,2,25,41,245,"Atlantic","pending","pending","pending","pending","pending","pending",40,72
+"Alosa pseudoharengus","cross_site_investigation",2,3,11,2,1,153,35,596,"Atlantic","pending","pending","pending","pending","pending","pending",24,72
+"Anchoa cayorum","cross_site_investigation",2,2,2,0,1,96,7,153,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",44,72
+"Membras martinica","cross_site_investigation",2,2,3,0,1,66,8,129,"Atlantic","pending","pending","pending","pending","pending","pending",56,72
+"Anchoa mitchilli","cross_site_investigation",2,4,9,1,0,250,19,429,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",42,72
+"Brevoortia tyrannus","cross_site_investigation",2,2,6,0,0,50,13,210,"Atlantic","pending","pending","pending","pending","pending","pending",24,72
+"Menidia peninsulae","local_assemblage_investigation",1,2,2,1,2,35,5,64,"Gulf of Mexico","pending","pending","pending","pending","pending","pending",48,72
+"Fundulus heteroclitus","local_assemblage_investigation",1,2,3,1,1,54,12,110,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",36,72
+"Lutjanus synagris","local_assemblage_investigation",1,2,2,1,1,15,11,43,"Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",24,72
+"Monacanthus ciliatus","local_assemblage_investigation",1,1,7,1,1,31,58,204,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",36,72
+"Centropristis striata","local_assemblage_investigation",1,1,1,0,1,164,21,191,"Atlantic","pending","pending","pending","pending","pending","pending",28,72
+"Haemulon plumierii","local_assemblage_investigation",1,1,2,0,1,20,9,43,"Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",24,72
+"Lagodon rhomboides","local_assemblage_investigation",1,1,2,0,1,80,18,121,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",24,72
+"Poecilia vivipara","local_assemblage_investigation",1,1,1,0,1,254,5,254,"Caribbean","pending","pending","pending","pending","pending","pending",12,72
+"Sparisoma radians","local_assemblage_investigation",1,1,3,0,1,34,11,59,"Caribbean","pending","pending","pending","pending","pending","pending",12,72
+"Tautogolabrus adspersus","local_assemblage_investigation",1,1,2,0,1,57,20,85,"Atlantic","pending","pending","pending","pending","pending","pending",28,72
+"Atherinomorus stipes","local_assemblage_investigation",1,1,3,0,0,128,9,344,"Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",32,72
+"Caranx latus","local_assemblage_investigation",1,1,2,0,0,25,4,42,"Atlantic; Caribbean","pending","pending","pending","pending","pending","pending",12,72
+"Cheilopogon furcatus","local_assemblage_investigation",1,1,2,0,0,38,22,60,"Atlantic","pending","pending","pending","pending","pending","pending",12,72
+"Citharichthys spilopterus","local_assemblage_investigation",1,1,1,0,0,11,3,22,"Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",12,72
+"Eucinostomus gula","local_assemblage_investigation",1,1,1,0,0,31,2,32,"Gulf of Mexico","pending","pending","pending","pending","pending","pending",32,72
+"Exocoetus volitans","local_assemblage_investigation",1,1,4,0,0,56,26,197,"Atlantic; Caribbean","pending","pending","pending","pending","pending","pending",12,72
+"Jenkinsia stolifera","local_assemblage_investigation",1,1,1,0,0,25,1,25,"Gulf of Mexico","pending","pending","pending","pending","pending","pending",24,72
+"Paralichthys dentatus","local_assemblage_investigation",1,1,1,0,0,10,16,42,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",12,72
+"Stellifer lanceolatus","local_assemblage_investigation",1,1,1,0,0,750,1,750,"Atlantic","pending","pending","pending","pending","pending","pending",36,72
+"Ammodytes dubius","no_multispecies_overlap_at_baseline",0,0,1,0,0,90,3,92,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Anchoa colonensis","no_qualifying_cell_at_baseline",0,0,0,0,0,0,0,0,"","pending","pending","pending","pending","pending","pending",0,72
+"Anchoa lamprotaenia","no_qualifying_cell_at_baseline",0,0,0,0,0,0,2,2,"Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Atherina harringtonensis","no_qualifying_cell_at_baseline",0,0,0,0,0,0,0,0,"","pending","pending","pending","pending","pending","pending",0,72
+"Bathygobius soporator","no_multispecies_overlap_at_baseline",0,0,1,0,0,19,12,28,"Caribbean","pending","pending","pending","pending","pending","pending",0,72
+"Bothus ocellatus","no_multispecies_overlap_at_baseline",0,0,4,0,0,50,57,226,"Atlantic; Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Brevoortia patronus","no_qualifying_cell_at_baseline",0,0,0,0,0,0,1,7,"Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Centrobranchus nigroocellatus","no_multispecies_overlap_at_baseline",0,0,2,0,0,44,3,58,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Chlorophthalmus agassizi","no_multispecies_overlap_at_baseline",0,0,2,0,0,23,20,79,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Chloroscombrus chrysurus","no_multispecies_overlap_at_baseline",0,0,3,0,0,46,8,109,"Atlantic; Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Chromis enchrysurus","no_multispecies_overlap_at_baseline",0,0,2,0,0,37,8,58,"Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Citharichthys arctifrons","no_multispecies_overlap_at_baseline",0,0,9,0,0,40,34,237,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Clupea harengus","no_qualifying_cell_at_baseline",0,0,0,0,0,0,0,0,"","pending","pending","pending","pending","pending","pending",0,72
+"Coelorinchus carminatus","no_multispecies_overlap_at_baseline",0,0,1,0,0,13,23,67,"Atlantic; Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Cyclopterus lumpus","no_qualifying_cell_at_baseline",0,0,0,0,0,0,2,2,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Cyclothone microdon","no_multispecies_overlap_at_baseline",0,0,6,0,0,47,30,186,"Atlantic; Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Cynoscion nothus","no_multispecies_overlap_at_baseline",0,0,2,0,0,30,4,55,"Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Decapterus punctatus","no_multispecies_overlap_at_baseline",0,0,3,0,0,84,7,131,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Dibranchus atlanticus","no_qualifying_cell_at_baseline",0,0,0,0,0,0,36,96,"Atlantic; Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Etropus crossotus","no_multispecies_overlap_at_baseline",0,0,1,0,0,11,19,40,"Atlantic; Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Eucinostomus argenteus","no_qualifying_cell_at_baseline",0,0,0,0,0,0,3,6,"Caribbean","pending","pending","pending","pending","pending","pending",0,72
+"Fenestraja plutonia","no_multispecies_overlap_at_baseline",0,0,3,0,0,142,14,202,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Gambusia affinis","no_multispecies_overlap_at_baseline",0,0,2,0,0,256,3,281,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Glyptocephalus cynoglossus","no_multispecies_overlap_at_baseline",0,0,1,0,0,14,74,137,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Gobiosoma ginsburgi","no_multispecies_overlap_at_baseline",0,0,1,0,0,21,7,28,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Gonichthys cocco","no_multispecies_overlap_at_baseline",0,0,5,0,0,160,21,350,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Haemulon aurolineatum","no_multispecies_overlap_at_baseline",0,0,2,0,0,30,16,81,"Atlantic; Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Harengula humeralis","no_qualifying_cell_at_baseline",0,0,0,0,0,0,1,9,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Helicolenus maderensis","no_qualifying_cell_at_baseline",0,0,0,0,0,0,0,0,"","pending","pending","pending","pending","pending","pending",0,72
+"Histrio histrio","no_multispecies_overlap_at_baseline",0,0,2,0,0,33,28,99,"Atlantic; Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Hygophum hygomii","no_multispecies_overlap_at_baseline",0,0,1,0,0,10,9,29,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Hypoclydonia bella","no_qualifying_cell_at_baseline",0,0,0,0,0,0,0,0,"","pending","pending","pending","pending","pending","pending",0,72
+"Hyporhamphus unifasciatus","no_multispecies_overlap_at_baseline",0,0,2,0,0,22,14,61,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Jenkinsia lamprotaenia","no_multispecies_overlap_at_baseline",0,0,1,0,0,36,4,37,"Caribbean","pending","pending","pending","pending","pending","pending",0,72
+"Laemonema barbatulum","no_multispecies_overlap_at_baseline",0,0,2,0,0,105,18,135,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Liparis inquilinus","no_multispecies_overlap_at_baseline",0,0,3,0,0,30,3,55,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Lutjanus apodus","no_qualifying_cell_at_baseline",0,0,0,0,0,0,12,27,"Caribbean","pending","pending","pending","pending","pending","pending",0,72
+"Lycenchelys verrillii","no_multispecies_overlap_at_baseline",0,0,2,0,0,35,24,81,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Lycodes terraenovae","no_multispecies_overlap_at_baseline",0,0,3,0,0,18,27,67,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Mullus auratus","no_multispecies_overlap_at_baseline",0,0,1,0,0,21,2,21,"Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Myctophum affine","no_multispecies_overlap_at_baseline",0,0,2,0,0,60,9,101,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Myctophum opalinum","no_qualifying_cell_at_baseline",0,0,0,0,0,0,0,0,"","pending","pending","pending","pending","pending","pending",0,72
+"Nezumia aequalis","no_qualifying_cell_at_baseline",0,0,0,0,0,0,20,54,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Nezumia bairdii","no_multispecies_overlap_at_baseline",0,0,2,0,0,15,65,136,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",0,72
+"Phycis chesteri","no_multispecies_overlap_at_baseline",0,0,1,0,0,17,1,17,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Pomatomus saltatrix","no_multispecies_overlap_at_baseline",0,0,1,0,0,156,1,156,"Atlantic","pending","pending","pending","pending","pending","pending",0,72
+"Prionotus martis","no_qualifying_cell_at_baseline",0,0,0,0,0,0,0,0,"","pending","pending","pending","pending","pending","pending",0,72
+"Pseudopleuronectes americanus","no_multispecies_overlap_at_baseline",0,0,2,0,0,21,19,66,"Atlantic","pending","pending","pending","pending","pending","pending",10,72
+"Stephanolepis hispida","no_multispecies_overlap_at_baseline",0,0,1,0,0,20,15,44,"Atlantic; Gulf of Mexico","pending","pending","pending","pending","pending","pending",8,72
+"Strongylura marina","no_multispecies_overlap_at_baseline",0,0,1,0,0,17,7,24,"Atlantic","pending","pending","pending","pending","pending","pending",8,72
+"Syacium papillosum","no_multispecies_overlap_at_baseline",0,0,2,0,0,27,5,46,"Gulf of Mexico","pending","pending","pending","pending","pending","pending",8,72
+"Symphurus plagiusa","no_qualifying_cell_at_baseline",0,0,0,0,0,0,31,60,"Atlantic; Caribbean; Gulf of Mexico","pending","pending","pending","pending","pending","pending",8,72
+"Syngnathus fuscus","no_multispecies_overlap_at_baseline",0,0,3,0,0,59,24,164,"Atlantic","pending","pending","pending","pending","pending","pending",0,72

@@ -1,0 +1,5 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Bathygobius soporator","adult",1884,"1884",8,0,8,-100,-50,5,60,2,"species/Bathygobius_soporator/adult_frames/year_1884.png"
+"Bathygobius soporator","adult",1885,"1885",5,0,5,-100,-50,5,60,2,"species/Bathygobius_soporator/adult_frames/year_1885.png"
+"Bathygobius soporator","adult",1886,"1886",12,0,12,-100,-50,5,60,2,"species/Bathygobius_soporator/adult_frames/year_1886.png"
+"Bathygobius soporator","adult",1899,"1899",28,28,0,-100,-50,5,60,2,"species/Bathygobius_soporator/adult_frames/year_1899.png"

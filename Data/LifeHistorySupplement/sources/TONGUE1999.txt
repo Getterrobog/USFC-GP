@@ -1,0 +1,1201 @@
+340
+
+
+
+Abstract.–Age structure, longevity,
+and mortality were determined for a
+                                                  Age, growth, longevity, and mortality of
+population of blackcheek tonguefish,
+Symphurus plagiusa, in Chesapeake
+                                                  blackcheek tonguefish, Symphurus plagiusa
+Bay. Blackcheek tonguefish (36–202                (Cynoglossidae: Pleuronectiformes),
+mm TL) were randomly collected by
+means of otter trawl in lower Chesa-              in Chesapeake Bay, Virginia*
+peake Bay and major Virginia tributar-
+ies (James, York, and Rappahannock
+rivers) from April 1994 through August            Mark R. Terwilliger
+1995. Ages were determined by inter-              School of Marine Science, Virginia Institute of Marine Science
+preting growth increments on thin                 College of William and Mary
+transverse sections of sagittal otoliths.         Gloucester Point, Virginia 23062
+Marginal increment analysis showed                Present address: 104 Nash Hall
+that a single annulus was formed in                                Department of Fisheries and Wildlife
+June of each year. Blackcheek tongue-                              Oregon State University
+fish caught during this study reached                              Corvallis, Oregon 97331
+a maximum age of 5+ years. Growth                 E-mail address: terwillm@ucs.orst.edu
+was rapid during the first year, then
+slowed rapidly at a time coincident with
+maturation. We used the following von             Thomas A. Munroe
+Bertalanffy growth equations: for                 National Marine Fisheries Service National Systematics Laboratory, MRC-153
+males—Lt = 196.5(1 – e–0.285(t + 0.92)); and      National Museum of Natural History
+for females—Lt = 190.6(1 – e–0. 320(t + 0.78)).   Washington, D.C. 20560
+Von Bertalanffy parameters were not
+significantly different between sexes.
+Extrapolated instantaneous mortality
+rates for a possible seventh year class
+were 0.73 (Hoenig’s equation) and 0.77
+(Royce’s equation). High estimates of             The blackcheek tonguefish, Sym-                     This species is among the top three
+instantaneous total mortality may re-             phurus plagiusa (Linnaeus, 1766),                   most abundant pleuronectiforms
+flect either loss due to emigration of            ranges from Connecticut southward                   occurring throughout lower Chesa-
+adults from Chesapeake Bay onto the
+continental shelf or high natural mor-
+                                                  through the Florida Keys, northern                  peake Bay and its tributaries
+tality occurring in this northernmost             Gulf of Mexico, Cuba, and the Ba-                   (Bonzek et al., 1993; Geer et al.,
+population. Compared with sympatric               hamas (Ginsburg, 1951; Topp and                     1997). Only the hogchoker, Trinectes
+pleuronectiforms, blackcheek tongue-              Hoff, 1972; Munroe, 1998). Chesa-                   maculatus, is commonly taken in
+fish have a relatively high mortality             peake Bay is the northernmost lo-                   greater abundance in bottom trawls
+rate, small asymptotic length, and high
+growth parameter K. Species, such as
+                                                  cation of a major population of this                made within the Bay. Occurrence of
+blackcheek tonguefish, that feature this          species (Munroe, 1998). South of                    all life history stages in Chesapeake
+combination of growth parameters are              Chesapeake Bay, blackcheek tongue-                  Bay (Olney and Grant, 1976; Ter-
+hypothesized to be better adapted at              fishes are an abundant component of                 williger, 1996) suggests that black-
+exploiting seasonally dynamic and                 the fish fauna occurring in estuaries               cheek tonguefish is a resident spe-
+highly unpredictable environments,
+such as those estuarine habitats within
+                                                  and inshore coastal waters. Within                  cies in this system.
+Chesapeake Bay.                                   this region, they occur in sufficient                  Despite its abundance in differ-
+                                                  numbers to form a minor component                   ent estuarine and nearshore marine
+                                                  of the bycatch of demersal fisheries                habitats in the northwest Atlantic,
+                                                  and also constitute a minor inclu-                  life history parameters of S. pla-
+                                                  sion in landings reported for several               giusa are largely unknown. Some
+                                                  industrial fisheries. In the shrimp                 previous works have described dis-
+                                                  trawl fishery, they are a potential                 tribution, relative abundances and
+                                                  nuisance because individuals fre-                   length frequencies for blackcheek
+                                                  quently become embedded in the                      tonguefish in South Carolina estu-
+                                                  webbing of trawls to such an extent                 aries (Shealy et al., 1974); some
+                                                  that they interfere with the gear’s                 have summarized size-related ma-
+                                                  effectiveness (Topp and Hoff, 1972).                turity patterns for individuals from
+                                                     The blackcheek tonguefish is the                 throughout the entire range of the
+                                                  only member of the pleuronectiform                  species (Munroe, 1998); some have
+                                                  family Cynoglossidae occurring in
+                                                                                                      * Contribution 2203 of the Virginia Institute
+Manuscript accepted 15 June 1998.                 Chesapeake Bay (Ginsburg, 1951;                       of Marine Science, College of William and
+Fish. Bull. 97:340–361 (1999).                    Murdy et al., 1997; Munroe, 1998).                    Mary, Gloucester Point, VA 23062.
+Terwilliger and Munroe: Age, growth, longevity, and mortality of Symphurus plagiusa                                      341
+
+
+
+investigated factors influencing recruitment (Miller                 tal constancy precludes the formation of interpret-
+et al., 1991); and some have described daily growth                  able annular growth marks on these structures
+rates of juveniles in Georgia estuaries (Reichert and                (Qasim, 1973). Other species of symphurine
+van der Veer, 1991). The minimal amount of pub-                      tonguefishes that occur in temperate waters gener-
+lished information on this species (summarized in                    ally are small-size, deep-water forms that are diffi-
+Munroe, 1998) may be due in part to the relatively                   cult to catch in abundance (Munroe, 1998).
+small size of the fish. It reaches a maximum size of                   This study was undertaken to determine age struc-
+approximately 210 mm total length (TL) (Wenner and                   ture, growth rate, longevity, and mortality for a popu-
+Sedberry, 1989), but fish smaller than 165 mm TL                     lation of S. plagiusa residing in Chesapeake Bay,
+are those most commonly taken in Chesapeake Bay                      Virginia. Knowledge about life history parameters
+by otter trawl (Terwilliger, 1996; Geer et al., 1997).               for this species provides a window of understanding
+Small size and benthic microinvertebrate feeding                     into the biology of the Cynoglossidae, as well as in-
+habits (Stickney, 1976; Reichert and van der Veer,                   sights into age, growth, and longevity of other small-
+1991; Toepfer and Fleeger, 1995) render this species                 size, estuarine-dependent flatfishes.
+inaccessible to most recreational and commercial
+fishing gears used in Chesapeake Bay.
+   Few age and growth studies using bony structures                  Materials and methods
+or otoliths exist for species of the Cynoglossidae. This
+relatively large gap in knowledge for approximately                  Blackcheek tonguefishes were collected by 9.14-m
+150 species of tonguefishes was recently noted in a                  semiballoon otter trawl with a 38.10-mm stretch
+compilation of flatfish life history parameters (Miller              mesh body, 6.35-mm mesh codend liner, and attached
+et al., 1991). Although several studies have described               tickler chain (Bonzek et al., 1993). Fish were collected
+growth for species of Cynoglossus from the eastern                   from April 1994 through August 1995 during the Vir-
+Atlantic (Chauvet, 1972), western Pacific (Lin, 1982;                ginia Institute of Marine Science (VIMS) Juvenile
+Meng and Ren, 1988; Zhu and Ma, 1992), and In-                       Finfish and Blue Crab Stock Assessment Program’s
+dian Ocean (Seshappa, 1976, 1978, 1981; Ramana-                      trawl survey. The survey employs a monthly, ran-
+than et al., 1980; Seshappa and Chakrapani, 1984),                   dom-stratified design of the lower Chesapeake Bay
+no growth studies using bony structures or otoliths                  and fixed-station mid-channel transects in each of
+have been performed on species of Symphurus. Pre-                    three major Virginia tributaries: the York, James,
+vious work describing the age structure of blackcheek                and Rappahannock rivers (Fig. 1). Details of sam-
+tonguefish in Chesapeake Bay using length frequen-                   pling design were provided in Geer et al. (1993).
+cies of fish taken by otter trawl (Bonzek et al., 1993)                 Samples of blackcheek tonguefishes selected from
+is limited because this type of analysis requires sub-               trawl catches were brought to the laboratory, measured
+jective interpretation of modal frequencies in the                   for total length (TL) to the nearest millimeter and for
+data, which, given the difficulty of distinguishing                  total weight (TW) taken to the nearest hundredth of a
+modal groups at older ages, renders the interpreta-                  gram. When samples were small, all fish were used in
+tion unreliable (Chauvet, 1972; White and Chitten-                   age analyses; however, fish were randomly selected for
+den, 1977; Jearld, 1983; Barbieri, 1993). Such limi-                 age analyses from relatively large samples. Regressions
+tations in interpretation of age from length-frequency               were fitted to the length–weight data, and regressions
+distributions are particularly evident in data from                  on log-transformed data for male and female blackcheek
+Koski’s (1978) study on hogchokers from the Hudson                   tonguefish were compared by using analysis of covari-
+River estuary, where the first of bimodal peaks in a                 ance (ANCOVA). The formula to convert SL to TL for
+frequency distribution of hogchoker lengths corre-                   blackcheek tonguefish provided by Jorgenson and
+sponded to age-1 fish, whereas the second peak rep-                  Miller (1968:11) was used when comparing length data
+resented combinations of length distributions for                    (reported as SL) from other studies.
+fishes age 2–6 yr. Chauvet’s (1972) data for C.                         All fish were sexed macroscopically, and then gonads
+canariensis off West Africa also show a similar pattern              were removed and preserved for later histological analy-
+of overlapping sizes among fishes of different ages.                 sis to determine maturity stages (Terwilliger, 1996).
+   Symphurus plagiusa is a good candidate for an age                 Males were classified as either immature or mature
+and growth study. It is unique among the Cynoglos-                   according to the absence or presence of spermatozoa in
+sidae in that it is the only species of this family that             the testes; females were considered mature if they
+inhabits estuarine environments in the seasonally                    showed any evidence of developing oocytes or previous
+dynamic region of north temperate latitudes. Most                    spawning, e.g. thickening of the ovarian membrane.
+other cynoglossid species occur in the tropics and are                  Both sagittal otoliths were removed, cleaned, and
+difficult to age from hard parts because environmen-                 stored dry for later processing. Otolith maximum
+342                                                                                                    Fishery Bulletin 97(2), 1999
+
+
+
+
+                                                            Figure 1
+      Lower Chesapeake Bay system, including James, York, and Rappahannock rivers. Points indicate stations where blackcheek
+      tonguefish, Symphurus plagiusa, were collected, April 1994–August 1995.
+
+
+diameter (distance from anterior tip of rostrum to                  month for three months. Counts were made without
+postrostrum) was measured to the nearest 0.00001                    information regarding fish length or catch date. In
+mm by using a compound microscope coupled with a                    185 (32.7%) cases, the first and second readings did
+video camera interfaced with a microcomputer                        not agree and a third reading was made. The major-
+equipped with Biosonics’ Optical Pattern Recognition                ity of disagreements in age estimates occurred dur-
+System (OPRS) software (Biosonics, Inc., 1987). Be-                 ing the beginning of the study; subsequent re-age-
+cause no asymmetry in otolith shape was apparent,                   ing resolved most discrepancies in age estimates. In
+sagittal otoliths (left or right) were arbitrarily se-              most cases, the second reading of an otolith section
+lected from each fish for age analysis, embedded in                 differed from the first reading by only one year. If a
+epoxy resin (Spurr, 1969), and sectioned transversely               third reading agreed with either of the first two, then
+(1 mm thick) through the core with a Buehler Isomet                 that age was assigned to the otolith. In 28 (5%) cases,
+low-speed saw with duel diamond blades. Sections                    the third reading was different than the first and
+were mounted on glass slides with Crystal Bond ad-                  second readings. These 28 otoliths were considered
+hesive, sanded with 1000-grit sandpaper to remove                   unreadable and excluded from further analysis.
+saw marks and to gain proximity to the core, pol-                      Otolith annuli were validated by the marginal in-
+ished with alumina powder, and examined with a                      crement method (Bagenal and Tesch, 1978; Jearld,
+binocular dissecting microscope (30×) with transmit-                1983). Distances from the core to each annulus and
+ted light and bright field. Annuli on otoliths from all             the proximal edge were computed by drawing a ver-
+566 blackcheek tonguefish were counted once a                       tical line from the core to the proximal edge of the
+Terwilliger and Munroe: Age, growth, longevity, and mortality of Symphurus plagiusa                                                  343
+
+
+
+otolith with the OPRS. The average margin
+width, i.e. the translucent region between the
+last annulus and the proximal edge of the
+otolith, was plotted by month.
+   Regression analyses of otolith maximum di-
+ameter on total length and of weight on total
+length were calculated by the method of least
+squares. Back-calculated lengths-at-age were
+computed by using the Lee method (Lagler,
+1956). To evaluate growth, back-calculated
+lengths-at-ages were fitted to the von Berta-
+lanffy model (Ricker, 1975) by using nonlin-
+ear regression (Marquardt method) calculated
+with Fishparm computer software (Saila et al.,
+1988). Likelihood-ratio tests were used to com-
+pare parameter estimates of the von Berta-
+lanffy equation for males and females (Ki-
+mura, 1980; Cerrato, 1990).
+   A scale sample from a region in the poste-
+rior third of the body, dorsal to the midline,
+was taken from all fish. Six scales from each
+fish were cleaned with hydrogen peroxide and
+mounted on plastic strips by using a Carver
+hydraulic laboratory press. A random sample
+of scale strips from 50 fish were then viewed
+with a microfiche reader in order to discern
+annuli for comparison with otolith sections. In
+contrast to otoliths, scales proved to be unre-
+liable for ageing this species. Annuli were
+poorly defined and difficult to distinguish, and
+in many cases, the scales were unreadable.
+Fish ages obtained from scales agreed with
+ages obtained from otoliths in only 12% of the
+cases. This is not surprising, because scale
+annuli from other fish species with known ages
+have been shown to be inconsistent indicators
+of age, even in relatively young fish (Prather,
+                                                                                              Figure 2
+1967; Heidinger and Clodfelter, 1987).
+                                                                Length-frequency distribution for blackcheek tonguefish,
+   Instantaneous total annual mortality rates,                  Symphurus plagiusa: (A) length frequency for blackcheek
+Z, were estimated from maximum age esti-                        tonguefish from lower Chesapeake Bay and major lower tributar-
+mates with a pooled regression equation as                      ies for fishes aged in this study; (B) length frequency for blackcheek
+suggested by Hoenig (1983) and by calculat-                     tonguefish caught by Virginia Institute of Marine Science’s juve-
+                                                                nile fish recruitment trawl survey in lower Chesapeake Bay and
+ing a theoretical total mortality for the entire
+                                                                major lower tributaries, 1993–1996; (C) length frequency for
+lifespan following the reasoning of Royce                       blackcheek tonguefish caught at the mouth of Chesapeake Bay
+(1972) as described in Chittenden and                           and inner shelf off Virginia and North Carolina, 1987–89.
+McEachran (1976). Values of Z were converted
+to total annual mortality rates, A, using the
+relationship A = 1 – e–Z (Ricker, 1975).
+                                                                     life history stages from postsettling juveniles to ma-
+                                                                     ture adults. The sex ratio for blackcheek tonguefish
+Results                                                              collected in this study was 223 males:343 females,
+                                                                     or 1:1.54. A G-test of the sex ratio for 566 blackcheek
+A total of 566 fish, encompassing a size range from                  tonguefish indicated statistically significant devia-
+36 to 202 mm TL (Fig. 2A), were used in this ageing                  tions (G=25.64; df=1; P<0.001) from a 1:1 sex ratio
+study. This size range included individuals from all                 (Table 1). A G-test of sex ratios for blackcheek
+344                                                                                                       Fishery Bulletin 97(2), 1999
+
+
+
+
+                                                                Table 1
+  G-test of sex ratio for blackcheek tonguefish, Symphurus plagiusa, caught in lower Chesapeake Bay and three Virginia tributar-
+  ies, April 1994–August 1995 (A) total catch; (B) by 25 mm size increment. Yates’ correction for continuity implemented in (B) due
+  to small sample sizes. n = number of fish; df = degrees of freedom; ns = nonsignificant.
+
+  A
+
+                             Males                    Females             n             df                 G                 P
+
+  Frequency                    223                        343             566           1                25.64             10.83*
+  Expected                     283                        283
+
+  * P<0.001.
+
+  B
+
+  Length                    Males                 Females          n             df                  G                 P
+
+  26–50                      7.5                    4.5           12              1              0.7580146            ns
+  Expected                   6.0                    6.0
+  51–75                     18.5                   36.5           55              1              6.0008514              5.024**
+  Expected                  27.5                   27.5
+  76–100                    46.5                   53.5          100              1              0.4904009            ns
+  Expected                  50.0                   50.0
+  101–125                   26.5                   44.5           71              1              4.6135656              3.841*
+  Expected                  35.5                   35.5
+  126–150                   68.5                  106.5          175              1              8.3175269              7.879***
+  Expected                  87.5                   87.5
+  151–175                   51.5                   91.5          143              1              11.339487            10.828****
+  Expected                  71.5                   71.5
+  176–200                    7.5                    8.5           16              1              0.0625408            ns
+  Expected                   8.0                    8.0
+  201–225                    0.5                    1.5            2              1              0.5232481            ns
+  Expected                   1.0                    1.0
+
+  * P<0.05; **P<0.025; ***P<0.005; ****P<0.001.
+
+
+
+
+tonguefish broken down into 25-mm length incre-                        which 50% of the population reached maturity was 101
+ments showed that females dominated many inter-                        mm TL for females and 91 mm TL for males (Fig. 4).
+mediate size classes (Table 1).                                          Sagittal otoliths of blackcheek tonguefish are
+  The length–weight relationships for 200 males (48–                   small, round, dense structures that cannot be read
+190 mm TL) and 310 females (46–202 mm TL) (Fig.                        whole. Transverse sections of otoliths (Fig. 5), how-
+3) were                                                                ever, revealed fairly distinct opaque bands that could
+                                                                       be counted. Transverse sections through otoliths in-
+               Males:   W = 10–5.30 (TL3.126);                         dicated that otolith structure consists of an opaque
+               Females: W = 10–5.37 (TL3.163).                         core usually surrounded by a wide opaque area whose
+                                                                       outer edge demarcates the first annulus. Size and
+No statistically significant differences were found                    appearance of this first annulus vary among fish,
+between sexes in the total length-total weight rela-                   ranging from a broad band continuous with the core
+tionships (ANCOVA; F=3.86; df=506; P>0.25). The                        to a narrow opaque band not continuous with the
+length-weight relationship for sexes combined was                      core. Subsequent annuli are represented by thin
+                                                                       opaque bands encircling the core and by broader
+                    W = 10–5.34 (TL3.148).                             translucent zones found between annuli. At the mar-
+                                                                       gin of the otolith, an annulus was difficult to observe.
+ Size at sexual maturity observed in female and                        However, when sufficient spring and early summer
+male blackcheek tonguefish ranged between 80–130                       growth had occurred and contributed translucent
+mm TL and 70–110 mm TL, respectively. Length at                        material to the margin of the otolith after annulus
+Terwilliger and Munroe: Age, growth, longevity, and mortality of Symphurus plagiusa                                      345
+
+
+
+
+                                                             Figure 3
+                      Total length–weight relationship for both sexes of blackcheek tonguefish, Symphurus
+                      plagiusa, from lower Chesapeake Bay and major lower tributaries.
+
+
+
+
+formation, the densely compacted opaque zone                         quencies agreed fairly well with first-year growth
+delimiting the annulus was easily identifiable. The                  estimates derived from interpretation of annulus for-
+combination of one broad translucent zone and one                    mation on the otoliths.
+narrow opaque zone (Fig. 5) represents one year’s                      Monthly mean marginal increments on the otoliths
+growth.                                                              were plotted for fish from all age groups (Fig. 8). The
+  Otolith maximum diameter (OMD) was linearly                        seasonal progression of marginal increments was
+related to total length (Fig. 6) and described by the                similar on otoliths from all age groups; therefore, data
+following relationship:                                              were pooled to demonstrate general trends in annual
+                                                                     growth. Marginal increments were smallest during
+          TL = 64.59(OMD) – 17.02.                  [r2=0.93]        June of both 1994 and 1995. Monthly mean marginal
+                                                                     increments showed only one trough during a year,
+This linear relationship indicated that otolith growth               indicating that a single annulus is formed yearly in
+was proportional to fish growth.                                     June. In 1994, margin width on the otoliths increased
+  Size at first annulus formation for blackcheek                     rapidly during July and August, reflecting an active
+tonguefish ranged from 88 to 138 mm TL (mean                         period of growth. After August 1994, margin width
+length ca. 118 mm TL). Seasonal progression of modal                 leveled off and remained fairly constant from Sep-
+length frequencies (Fig. 7) for young-of-the-year fish               tember 1994 through May 1995. Large variation (in-
+(YOY) corroborated first-year growth-rate estimates                  dicated by high standard error) for samples taken
+determined from annular marks on the otoliths.                       during May of both 1994 and 1995 may indicate that
+Pooled data for 1993–96 from VIMS1 trawl survey                      the season of annulus formation may be somewhat
+reports indicated that YOY blackcheek tonguefish                     more protracted (May–June) and perhaps dependent
+recruited to the gear during September, usually at                   upon environmental factors. Alternatively, it may
+sizes of ca. 35–45 mm TL. By the following June,                     simply reflect an artifact of the small sample sizes
+these fish had reached sizes ranging from ca. 53 to                  examined from this period.
+138 mm TL. Thus, empirical data from length fre-                       Mean lengths at age were backcalculated for 92
+                                                                     males and 145 females (Table 2). Remaining fish were
+1 VIMS (Virginia Institute of Marine Science), Department of         young-of-the-year and therefore were excluded from
+ Fisheries, Gloucester Point, VA 23062.   Unpubl. data.              this analysis. Observed (empirical) lengths were con-
+346                                                                                             Fishery Bulletin 97(2), 1999
+
+
+
+sistently higher than the back-calculated lengths-at-     39–41% of that recorded for the first year. Growth
+age for individual age groups, which indicated that       increments continued to decrease every year there-
+seasonal growth had occurred since formation of a         after for both sexes until age 5, when the estimated
+new annulus. Differences between back-calculated          growth increment increased slightly for both sexes.
+lengths-at-age and observed lengths are in the range      This increase at age 5 may be an artifact due to the
+of observed seasonal growth. Males and females have       relatively small number of samples for both sexes in
+similar lengths-at-age until age 4 (Table 2). Beyond      this age group.
+age 4, mean lengths for females were slightly greater        Length frequency for blackcheek tonguefish caught
+than those for males. The largest male collected in       by VIMS2 trawl survey (1993–96) shows a bimodal
+this study was 190 mm (age 5+); the largest female        distribution (Fig. 2B), but this distribution does not
+collected was 202 mm (age 5+).                            adequately reflect age composition of the individu-
+   Greatest incremental growth in TL for both sexes       als, especially for fishes larger than 110 mm TL.
+occurred during the first year and then declined rap-     Despite the bimodal distribution in length frequen-
+idly thereafter (Table 2). Mean back-calculated           cies, six age groups are represented in this distribu-
+lengths for females and males at the end of their first   tion, and much overlap in total length exists between
+year were 78.84 mm and 75.68 mm, respectively.            age groups, especially those consisting of medium-
+Growth for both sexes in the second year was only         and large-size fish. These data indicate that length
+                                                                 frequency analyses are unreliable age estima-
+                                                                 tors for older individuals of this species.
+                                                                    Von Bertalanffy parameters were computed
+                                                                 (Table 3) by using lengths backcalculated to
+                                                                 the most recent annuli to reduce bias in as-
+                                                                 ymptotic length and growth coefficient K due
+                                                                 to the presence of Lee’s phenomenon in the
+                                                                 back-calculated lengths-at-age (Vaughan and
+                                                                 Burton, 1994). The growth coefficient K for
+                                                                 female blackcheek tonguefishes (0.320) was
+                                                                 greater than that (0.285) calculated for males.
+                                                                 Males and females achieved 50% of L∞ by the
+                                                                 end of their first year and 75% between ages 2
+                                                                 and 3 (Fig. 9). Results of likelihood-ratio tests
+                                                                 (Table 4) showed no significant differences in the
+                                                                 overall von Bertalanffy growth models for males
+                                                                 and females (χ2=6.56, df=3, P=0.09). Estimates
+                                                                 of L∞ (χ2=0.10, df=1, P=0.75), K (χ2=0.03, df=1,
+                                                                 P=0.87), and t0 (χ2=0.19, df=1, P=0.67) were not
+                                                                 significantly different between sexes.
+                                                                    Values for asymptotic lengths for both sexes
+                                                                 agreed well with observed lengths. The larg-
+                                                                 est male collected in this study was 190 mm
+                                                                 and the calculated L∞ for males was 196.5 mm.
+                                                                 The largest female collected in this study was
+                                                                 202 mm and the calculated asymptotic length
+                                                                 for females was 190.6 mm. These results are
+                                                                 acceptable because asymptotic length is a re-
+                                                                 gression estimate, and thus an average that
+                                                                 represents an average maximum length if fish
+                                                                 live and grow according to the von Bertalanffy
+                                                                 equation. Nevertheless, the overall estimated
+                                                                 asymptotic length value (192.4) represents a
+                          Figure 4                               reasonable approximation of the average maxi-
+  Length at maturity for blackcheek tonguefish, Symphurus        mum length estimate for the species.
+  plagiusa, in lower Chesapeake Bay and major lower tributaries:
+  (A) females; (B) males. Arrow represents length at 50% maturity.   2 VIMS, Department of Fisheries, Gloucester Point, VA
+
+                                                                      23062.   Unpubl. data.
+Terwilliger and Munroe: Age, growth, longevity, and mortality of Symphurus plagiusa                                         347
+
+
+
+
+                                                             Figure 5
+                    Transverse section from a sagittal otolith of a blackcheek tonguefish, Symphurus plagiusa,
+                    collected in lower Chesapeake Bay and major lower tributaries. Age 5+. Arrows indicate an-
+                    nuli. Pr = proximal; Ro = rostral.
+
+
+
+
+                                                              Table 2
+   Mean observed and back-calculated lengths for female and male blackcheek tonguefish, Symphurus plagiusa, from lower Chesa-
+   peake Bay: ages 1–5.
+
+                                                                                      Mean back-calculated lengths
+                                                                                       at successive annuli (mm)
+                          Sample      Size range     Mean observed
+   Age                     size          (mm)         length (mm)            I          II        III            IV     V
+
+   Females
+     1                      15          93–138           121.07           83.943
+     2                      31         127–155           136.81           81.156      115.272
+     3                      64         126–170           153.33           76.038      113.238   135.832
+     4                      25         135–175           161.62           70.073      101.826   126.549    145.385
+     5                      10         162–202           181.20           82.966      108.644   129.812    150.714    167.936
+   Mean length                                                            78.835      109.745   130.731    148.049    167.936
+   Growth increment                                                       78.835       30.910    20.986     17.318     19.887
+
+   Males
+    1                       12          88–125            115.83          81.778
+    2                       22         103–146            136.59          82.844      113.864
+    3                       31         130–171            154.19          76.573      110.408   133.553
+    4                       23         146–179            166.52          73.339      107.662   129.228    148.911
+    5                        4         162–190            177.75          63.838       95.125   118.058    141.277    163.721
+   Mean length                                                            75.675      106.765   126.946    145.094    163.721
+   Growth increment                                                       75.675       31.090    20.182     18.147     18.628
+348                                                                                                  Fishery Bulletin 97(2), 1999
+
+
+
+
+                                                           Figure 6
+          Linear regression of total length (mm) on otolith maximum diameter (mm) for blackcheek tonguefish, Symphurus
+          plagiusa, from lower Chesapeake Bay and major lower tributaries.
+
+
+
+
+  Instantaneous total mortality (Z) estimates ob-                 tuarine environments in the seasonally dynamic
+tained for a maximum age of 5 years were 0.87                     Chesapeake Bay region of the western North Atlan-
+(A=58%) with Hoenig’s (1983) method, and 0.92                     tic. In fact, the tonguefishes inhabiting Chesapeake
+(A=60%) with Royce’s (1972) method. A plot of age                 Bay are the northernmost major population of this
+composition of the catch (Fig. 10) indicates rapidly              species (Munroe, 1998). Here, the species has ranked
+declining numbers of fishes aged 4 and 5.                         as high as sixth in overall abundance, and in some
+                                                                  years is the second most abundant pleuronectiform
+                                                                  among fishes taken during trawling in lower Chesa-
+Discussion                                                        peake Bay and its tributaries (Geer et al., 1993).
+                                                                  North of the Chesapeake Bay region, adult black-
+Most of what we know regarding growth in cyno-                    cheek tonguefish are relatively rare (Munroe, 1998),
+glossid flatfishes stems from information gathered                even in such proximate estuaries as Delaware Bay.
+from studies conducted on species of Cynoglossus.                 Just how long the Chesapeake Bay has supported a
+These are tonguefishes usually much larger in size                significant population of this species is unknown
+than species of Symphurus (Menon, 1977), and spe-                 because earlier compilations on fishes of the region
+cies which also occur predominantly in the shallow                (Hildebrand and Schroeder, 1928) regarded this spe-
+tropical seas of the Indo-West Pacific. Therefore, the            cies as occurring only rarely within the Bay. It is con-
+present study detailing information on age, growth,               ceivable that because of its relatively small size and
+and longevity for blackcheek tonguefish is significant            benthic habits, the abundance of this species may
+in being the first of its kind reporting such life his-           have been grossly underestimated during previous
+tory parameters for a member of Symphurus. Fur-                   fish surveys conducted in this region. However, given
+thermore, of the approximately 150 species of                     the general rarity of this species in areas immedi-
+Cynoglossidae, S. plagiusa is unique in that it is the            ately to the north, and the observed incidences of
+only member of the family inhabiting temperate es-                winter mortalities within Chesapeake Bay (see be-
+Terwilliger and Munroe: Age, growth, longevity, and mortality of Symphurus plagiusa                                                          349
+
+
+
+
+                                                              Table 3
+   Von Bertalanffy parameters and equations calculated for male and female blackcheek tonguefish, Symphurus plagiusa, collected
+   in Chesapeake Bay, Virginia. Values in parentheses are standard errors.
+
+   Parameter                      Males                                 Females                                       Combined
+
+   K                             (0.285                                 (0.320                                         (0.308
+                                 (0.075)                                (0.061)                                        (0.047)
+   L∞                            (196.5                                 (190.6                                         (192.4
+                                 (20.04)                                (13.03)                                        (10.88)
+   t0                           –0.920                                 –0.784                                         –0.832
+                                 (0.289)                                (0.216)                                        (0.172)
+   Equation          Lt = 196.5 (1 – e–0.285(t + 0.920))    Lt = 190.6 (1 – e–0.320(t + 0.784))            Lt = 192.4 (1 – e–0.308 (t + 0.832))
+
+
+
+
+                                                                                                  Figure 7 (continued)
+                           Figure 7
+   Seasonal progression of modal length frequencies for
+   blackcheek tonguefish, Symphurus plagiusa, from lower
+   Chesapeake Bay and major lower tributaries, 1993–96.               other major populations for this species are known
+                                                                      to occur only in areas further to the south. If indeed
+                                                                      this is the case, then life history parameters esti-
+low), it also seems equally possible that the popula-                 mated for blackcheek tonguefishes from Chesapeake
+tion of blackcheek tonguefishes residing in Chesa-                    Bay are those characterizing a peripheral popula-
+peake Bay could be of more recent origin because all                  tion of the species. Comparisons of these estimates
+350                                                                                                          Fishery Bulletin 97(2), 1999
+
+
+
+of life history parameters, then, with values derived        approach the largest sizes known for this species (ca.
+from other, more centrally located, populations of this      210 mm TL; Wenner and Sedberry, 1989). However,
+species, as well as with those from populations in-          most blackcheek tonguefishes occurring within this
+habiting subtropical environments in northern                system were smaller, with total lengths usually rang-
+Mexico and Cuba (Munroe, 1998), would prove in-              ing between 35 and 150 mm. The size range for
+teresting from the perspective of discovering the            blackcheek tonguefishes occurring in Chesapeake
+range of variability in life history features that has       Bay is not unlike those reported for other estuarine
+evolved within this species of flatfish.                     populations located throughout the species’ range.
+   Sizes of blackcheek tonguefishes collected within         For example, Shealy et al. (1974) reported that, dur-
+Chesapeake Bay during the present study represent            ing a year-long survey of fish assemblages in South
+almost the complete size range known for the spe-            Carolina estuaries, blackcheek tonguefishes ranged
+cies (Munroe, 1998). The largest female (202 mm TL)          in size from 53 to 156 mm TL. However, modal
+and largest male (190 mm TL) taken within the Bay            lengths for this species were never greater than 140
+                                                                            mm TL, and fish were usually much
+                                                                            smaller (monthly mean size 97–124
+                                                                            mm TL). In fact, of the blackcheek
+                                                                            tonguefishes taken during that study,
+                                                                            only 8 of 362 (2.2%) were 150 mm TL
+                                                                            or larger.
+                                                                               Although many studies (summa-
+                                                                            rized in Munroe, 1998) have reported
+                                                                            catching large blackcheek tonguefish
+                                                                            from neritic habitats on the inner con-
+                                                                            tinental shelf throughout the species’
+                                                                            range, size ranges for these fishes were
+                                                                            not unlike those observed for black-
+                                                                            cheek tonguefishes collected within
+                                                                            Chesapeake Bay. For example, black-
+                                                                            cheek tonguefishes (n=439) collected at
+                                                                            the mouth of Chesapeake Bay and on
+                                                                            the inner continental shelf off south-
+                                                                            ern Virginia and northern North Caro-
+                                                                            lina (VIMS3) during a series of cruises
+                                                                            conducted during 1987–89 ranged
+                              Figure 8                                      from 68 to 203 mm TL (mean size=
+  Plot of monthly mean marginal increments for blackcheek tonguefish,       154.5 mm TL; Fig. 2C); and most fishes
+  Symphurus plagiusa, ages 1–5, collected in lower Chesapeake Bay and ma-
+  jor lower tributaries. Vertical bars represent ±1 standard error. Numbers
+  above bars represent monthly sample sizes.                                            3 VIMS, Department of Fisheries, Gloucester
+
+                                                                                         Point, VA 23062.     Unpubl. data.
+
+
+
+
+                                                              Table 4
+  Likelihood ratio tests comparing von Bertalanffy parameter estimates for male (1) and female (2) blackcheek tonguefish, Symphurus
+  plagiusa, from Chesapeake Bay, Virginia. df = degrees of freedom.
+
+  Hypothesis          Linear constraints             Residual SS                 χ2r                    df                      P
+
+  HΩ                      none                        99,760.5
+  Hω1                     L∞1 = L∞2                   99,780.9                 0.1043                   1                     0.7467
+  Hω2                     K 1 = K2                    99,765.8                 0.0271                   1                     0.8692
+  Hω3                     t01 = t02                   99,796.9                 0.1861                   1                     0.6661
+  Hω4                     L∞1 = L∞2                   10,051.6                 6.558                    3                     0.0874
+                          K 1 = K2
+                          t01 = t02
+Terwilliger and Munroe: Age, growth, longevity, and mortality of Symphurus plagiusa                                       351
+
+
+
+measured 140–180 mm TL. Lengths
+of fishes collected within the Bay sys-
+tem completely overlap those taken
+from the nearby shelf. Munroe (1998)
+noted that most blackcheek tongue-
+fishes in collections from throughout
+the species’ geographic range were
+usually much smaller than the larg-
+est sizes known for the species be-
+cause only 4% of 568 fish he exam-
+ined exceeded 164 mm TL. Wenner and
+Sedberry (1989) sampled 8780 black-
+cheek tonguefishes from coastal habi-
+tats (<10 m depth) between Cape Fear,
+North Carolina, and the St. Johns
+River, Florida, and reported that
+length composition of trawl-caught S.
+plagiusa was consistent from season
+to season, with mean sizes ranging
+between 140–150 mm TL. The larg-
+est specimens taken during that
+study were 210 mm TL, and few fish
+<100 mm TL were caught, possibly
+because fish smaller than this inhab-
+ited a different habitat as juveniles or
+because they did not recruit to the fish-
+ing gear until 100 mm TL. On the con-
+tinental shelf off Tampa Bay, Florida,
+lengths (124–174 mm TL) for black-
+cheek tonguefishes were also similar
+to those reported for fish from Chesa-
+peake Bay (Moe and Martin, 1965).
+   Although age estimates are not                                                   Figure 9
+available for other populations of               Plot of back-calculated and predicted lengths from the von Bertalanffy growth
+                                                 model for blackcheek tonguefish, Symphurus plagiusa, from lower Chesapeake
+blackcheek tonguefish, a general                 Bay and major lower tributaries: (A) males; (B) females.
+comparison of growth between black-
+cheek tonguefishes occurring in
+Chesapeake Bay with those from
+other areas is provided by examination of length–                    Annuli form on the otoliths of blackcheek tongue-
+weight parameters derived for different populations.              fishes from late spring through early summer (mostly
+Dawson (1965) generated a length-weight relation-                 June), coincident with the summer warming period
+ship for 3504 blackcheek tonguefish (43–148 mm TL)                and also at the initiation of the spawning season
+occurring in Gulf of Mexico waters. With this rela-               (Terwilliger, 1996). For C. abbreviatus, a tonguefish
+tionship, weights were generated from 510 randomly                occurring in temperate seas off eastern China (Zhu
+selected lengths between 43 and 148 mm TL and                     and Ma, 1992), annuli form on otoliths during March–
+these were then compared with a similar number of                 May, a period also corresponding to seasonal timing
+weights generated for fishes of the same size range               of gonad maturation and warming of water tempera-
+by using the length-weight relationship derived for               tures. Koski (1978) reported that annuli form on
+blackcheek tonguefishes from Chesapeake Bay. No                   scales of hogchokers in the Hudson River from April
+significant differences (t=0.53; df=1010; P=0.60) were            to mid-June, which is a period of increasing water
+evident in this comparison between weights of fishes              temperature, and for mature fish this also corre-
+of these two regions, indicating that growth in weight,           sponds to the time just prior to and overlapping the
+at least, is similar for fishes of this size range occur-         early spawning season.
+ring in these widely separated areas within the spe-                 Flatfishes typically exhibit sexual dimorphism in
+cies’ range.                                                      size at age (Roff, 1982; and others, see below)—
+352                                                                                          Fishery Bulletin 97(2), 1999
+
+
+
+females usually growing larger than males. In the             pal cause of Lee’s phenomenon in unexploited fish
+Chesapeake Bay population, male and female                    populations, such as that of blackcheek tonguefish
+blackcheek tonguefishes attain similar maximum                inhabiting Chesapeake Bay, is that faster growing
+sizes (mean value for oldest females=181.2 mm TL;             fish tend to mature and die earlier than do smaller
+mean value for oldest males=177.8 mm TL). In sum-             members of the same year class (Gerking, 1957;
+marizing size information for blackcheek tongue-              Ricker, 1975). When a larger proportion of older fish
+fishes collected throughout the geographic range of           die, the result is a smaller estimated size for fish at
+the species, Munroe (1998) also reported no signifi-          younger ages than the true average size at the age
+cant size differences between males (to 174 mm TL)            in question. Since blackcheek tonguefishes are not
+and females (to 172 mm TL). For 23 other species of           harvested commercially or recreationally within the
+western Atlantic tonguefishes, females reached                Bay, the presence of Lee’s phenomenon in the back-
+larger sizes than males in 11 of these species, in six        calculation estimates may be due to higher mortal-
+others a larger size was reported for males, whereas          ity of larger individuals within an age class, or pos-
+in seven other species similar maximum sizes were             sibly this finding may reflect the fact that larger fish
+attained by both sexes (Munroe, 1998). However,               move out of the Bay system and onto the nearby shelf
+since no age estimates have been made for these other         region. The ages of blackcheek tonguefishes occur-
+species of Symphurus, comparative data on dimor-              ring on the continental shelf throughout the species’
+phism in lengths at age for these symphurine                  range are unknown. No offshore samples of black-
+tonguefishes are unavailable. For other cynoglossids          cheek tonguefishes were collected during this study,
+with accompanying age data, considerable variation            and it is unknown if any of these fish are older than
+exists in the degree of sexual dimorphism evident in          those occurring in Chesapeake Bay.
+sizes attained by the sexes. In the Malabar sole                 Although female blackcheek tonguefishes captured
+(Cynoglossus semifasciatus) off India, females grow           in Chesapeake Bay grew at a slightly faster rate than
+larger than males, although reported differences in           did males, observed differences in back-calculated
+maximum sizes between sexes were relatively small             lengths between male and female blackcheek
+(Seshappa and Bhimacher, 1954). Similarly, although           tonguefishes beyond age 4 were not statistically sig-
+female C. abbreviatus (to 348 mm TL) from Jiaozhua            nificantly different. However, our sample sizes for
+Bay, China, were larger than males (to 321 mm TL),            older fish were small and interpretation of data for
+average total lengths at age between the sexes were           this oldest age class is limited. In other cynoglossids,
+not significantly different (Zhu and Ma, 1992). Fe-           such as Malabar sole, faster growth has also been
+males of C. bilineatus and C. arel were also reported         observed in females compared with that for males
+to be larger than males sampled from the same popu-           (Seshappa and Bhimachar, 1954). Rajaguru (1992)
+lations (Hoda and Khalil, 1995), whereas sizes for            found that female C. arel grew faster than males,
+adult female (83–173 mm TL) and male (84–168 mm               but no significant differences in growth patterns were
+TL) C. macrostomus were found to be similar (Victor,          found between female and male C. lida. After their
+1981). Female C. canariensis also grow larger than            first year, female hogchokers in the Hudson River
+males (Chauvet, 1972). For C. semilaevis inhabiting           also grew faster than males (Koski, 1978). In some
+the Bohai Sea, China (Meng and Ren, 1988), quite a            species of the Soleidae, such as the Agulhas sole
+different situation exists. In this species, females at-      (Austroglossus pectoralis) occurring off South Africa
+tain lengths (to 638 mm TL) slightly more than twice          (Zoutendyk, 1974) and Solea solea in Spanish wa-
+those reached by males (to 312 mm TL). In other es-           ters (Ramos, 1982), females also have a faster growth
+tuarine flatfish, such as the hogchoker, which occurs         rate than do males within the same populations. A
+throughout much of the geographic range of the                faster growth rate for females compared with that of
+blackcheek tonguefish, females grow to larger sizes           males has also been reported in a variety of other
+than do males from the same population (Koski, 1978).         flatfish species (Chen et al., 1992; Santos, 1994).
+For most species of the Pleuronectidae, females also             Estimates of the growth parameter K (Table 5) for
+typically grow larger and have both a later age and           blackcheek tonguefish are relatively high, indicat-
+larger size at maturity than do males (Cooper4).              ing that these fish reach their asymptotic length rela-
+   Back-calculated lengths-at-age for blackcheek              tively rapidly (Francis, 1996). Few estimates of K-
+tonguefishes were consistently less than observed             values are available for other tonguefishes, but for
+lengths-at-age for all age groups combined, which             those species studied, growth rates are relatively
+may be attributed to Lee’s phenomenon. The princi-            high. Where data are available, all, except two spe-
+4 Cooper, J. A.
+                                                              cies, have higher growth coefficients reported for fe-
+               1998. National Marine Fisheries Service, Na-
+ tional Systematics Laboratory, Washington, DC 20560. Per-    males. In C. arel, K-values were 0.315 for females
+ sonal commun.                                                and 0.238 for males, and in C. lida K-values of 0.233
+Terwilliger and Munroe: Age, growth, longevity, and mortality of Symphurus plagiusa                                  353
+
+
+
+for females and 0.223 for males
+were reported (Rajaguru, 1992).                                              Table 5
+For C. abbreviatus (Zhu and Ma,         Comparision of von Bertalanffy parameters of selected Pleuronectiformes occuring
+1992), K-values were 0.395 for fe-      in temperate estuaries of the western North Atlantic.
+males and 0.344 for males. In two
+                                        Species                                      Parameters             Source
+of the largest species in the fam-
+ily, C. semilaevis and C. canar-        Paralichthys dentatus (U-)                K: 0.215            Desfosse, 1995
+iensis, the estimated K-values                                                    L∞: 859 mm
+were higher for males compared                                                    t0: –0.690
+with those for females. In C.           Paralichthys lethostigma  ( U )           K: 0.235            Miller et al., 1991
+semilaevis, K-value for females                                                   L ∞ : 760 mm
+                                                                                  t0: 0.570
+was 0.264, and that of males was
+0.352 (Meng and Ren, 1988). For         Scophthalmus aquosus (U)                  K: 0.272            Miller et al., 1991
+                                                                                  L∞: 383 mm
+female C. senegalensis the K-                                                     t0: 0.418
+value was 0.32 compared with
+                                        Pseudopleuronectes americanus (U)         K: 0.217            Miller et al., 1991
+0.36 for males (Chauvet, 1972).                                                   L∞: 375.8 mm
+   In Chesapeake Bay, blackcheek                                                  t0: 0.730
+tonguefishes achieve most of            Symphurus plagiusa (U-)                   K: 0.308            Terwilliger, 1996
+their growth in length during                                                     L∞: 192.4 mm
+their first year. Males and fe-                                                   t0: –0.832
+males attained up to 50% of             Trinectes maculatus (U)                   K: 0.195            Miller et al., 1991
+their total growth in length by                                                   L∞: 209.5 mm
+                                                                                  t0: –0.353
+the end of their first year, and
+up to 72% of their total growth
+by the end of their second year.
+Such rapid first-year growth does not appear to be            female fish, respectively, achieved 50% and 55% of
+unusual among members of the Cynoglossidae. For               their total growth in length during the first year,
+example, male C. arel grew between 180–194 mm                 compared with second-year growth equalling only
+TL, and females from 201–210 mm TL, during their              14–15% of the total growth in length (Chauvet, 1972).
+first year (Rajaguru, 1992), which represented up to          In another large-size species, C. semilaevis, first-year
+58% and 51% of their total growth in length (333              growth is also rapid, with males reaching 141 mm
+and 393 mm, respectively). Similar to the pattern             TL at end of year one and females growing to 194
+observed in blackcheek tonguefish, second-year                mm TL, values that represent 45% and 30% of the
+growth in this species was estimated to be only 18%           total growth in length achieved by this species (Meng
+and 21% of the total growth, respectively, for males          and Ren, 1988). However, in contrast to other
+and females. In C. lida, males (151–154 mm TL) and            cynoglossid species examined thus far, growth in this
+females (153–156 mm TL) also reached fairly large             species during the second year differs markedly be-
+sizes during their first year of life, with first-year        tween the sexes. For females, the average growth
+growth for males and females ranging between 69               increment during the second year was greater than
+and 71% of the total growth in length (216 and 218            that of the first year (to 307 mm TL, 36% of total
+mm, respectively), compared with second-year                  growth in length), whereas during this same time
+growth values of only 13–14% of the total length              interval males averaged only about one-half of the
+(Rajaguru, 1992). Cynoglossus macrolepidotus also             growth increment attained during year one (to 204
+has a high growth rate during its first year, reach-          mm TL, representing 20% of total growth). In the
+ing a length of about 160 mm TL, and like the pre-            hogchoker, growth in length is also rapid; males and
+ceding species, during the second and subsequent              females achieve 56% and 44% of their total growth
+years there occurs a marked reduction (only 10–30             in length during the first year (Koski, 1978). By the
+mm increase/yr) in growth rate (Kutty, 1967). Like-           end of their second year, hogchokers have reached
+wise, in C. abbreviatus (Zhu and Ma, 1992), first-            on average 74% (males) and 63% (females) of their
+year growth is maximal for both sexes (males to 162           total growth in length.
+mm TL, females to 178 mm TL; representing 50%                    The substantial reduction in growth rate beyond
+and 51% of total growth, respectively), whereas sec-          age 1 noted for blackcheek tonguefishes occurs at a
+ond-year growth in this species averages only about           time coincident with maturation (Terwilliger, 1996).
+16% or less of the total growth. This growth pattern          Roff (1982) noted that, for fish in general, it is fre-
+was also apparent for C. canariensis where male and           quently observed that rate of growth decreases with
+354                                                                                                     Fishery Bulletin 97(2), 1999
+
+
+
+the onset of maturity. This slowing in somatic growth                 tonguefishes within Chesapeake Bay are older than
+may reflect an allocation of energy to gonadal devel-                 three years. The age structure observed in this popu-
+opment, or may be a response to other physiological                   lation may, however, reflect the relatively short life
+processes associated with maturation. Other                           span of this species (5+ years), or it could also reflect
+cynoglossid species that have been aged also mature                   high mortality levels experienced by blackcheek
+sexually at a relatively early age even in some of the                tonguefishes in the Bay environment; undoubtedly
+larger-size species. Seshappa and Bhimachar (1954)                    it would also be influenced by the emigration of larger
+reported that young Malabar soles (C. semifasciatus)                  individuals from the Bay system.
+grew to adult size within a year or less and that af-                    Relatively short life spans may be typical of spe-
+ter maturation, growth slowed distinctly. After an                    cies of Symphurus and of the Cynoglossidae, in gen-
+initially high growth rate during their first year,                   eral. In fact, some dwarf species of tropical
+there also occurred a marked reduction in the growth                  Symphurus reach maximum sizes of only 35–45 mm
+rate of C. macrolepidotus during their second year,                   SL (Munroe, 1990, 1998) and probably live no more
+at a time coincident with initiation of the spawning                  than a year. Age estimates based on growth marks
+season (Kutty, 1967). Likewise, in other cynoglossids                 interpreted from scales of tonguefishes occurring in
+(C. arel and C. lida) occurring off India, growth dur-                coastal waters off India indicate that Malabar sole
+ing the first year is also rapid and this fast growth                 reach an age of only about 2+ years (Seshappa and
+period is then followed by a considerable reduction                   Bhimachar, 1954). Based on studies of tonguefishes
+in the growth rate during the next year when the                      from the west coast of India, a life span of 3–4 years
+fishes matured sexually (Rajaguru, 1992). In C. arel,                 was reported by Seshappa (1978, 1981) for C. lida
+for example, which reaches total lengths to 333 mm                    (size to 220 mm TL; most 140–189 mm TL) and C.
+SL, males and females mature at sizes of about 217                    puncticeps (to 209 mm TL; most 90–179 mm TL),
+mm TL and 225 mm TL, respectively, sizes reached                      whereas a life span of 6+ years (to 339 mm TL; most
+by this species at the beginning of their second year                 160–299 mm TL) was reported for C. bilineatus from
+of life. In C. lida, size at 50% maturity is 167 mm TL                the same region. More recently, Rajaguru (1992) re-
+for males, and 179 mm TL for females. These repre-                    ported that C. arel and C. lida along the southeast
+sent sizes that are reached by the fish during the                    coast of India have life spans just over 3 years. For
+beginning of their second year of life. For C. dubius                 C. dubius off India (to 414 mm TL), age estimates
+(Seshappa, 1976) minimum size at maturity was re-                     were 6+ years for most individuals, although some
+ported to be about 287 mm TL for females, a size                      individuals reached 10 years (Seshappa, 1976). Cyno-
+that corresponded to fish approximately 2–3 years                     glossus arel off Taiwan (Lin, 1982) live to be at least
+old. In C. canariensis, a species reaching total lengths              4 years. Kutty (1967) reported a maximum age of
+of 486 mm (males) and 519 mm (females), maturity                      6–7 years for C. macrolepidotus (to 330 mm TL). For
+occurs at about 1.5 years when fish are about 300                     C. canariensis (to 519 mm TL) off tropical West Af-
+mm TL (Chauvet, 1972).                                                rica, both sexes live to at least 8 years (Chauvet,
+   Hoenig’s and Royce’s mortality estimates, based                    1972). For the temperate species, C. abbreviatus,
+on the maximum known age of a species, indicate a                     from Jiaozhua Bay, China (Zhu and Ma, 1992), which
+relatively high instantaneous total mortality in the                  is commercially exploited, females reach 8 years and
+blackcheek tonguefish population inhabiting Chesa-                    males live to 7 years, and total mortality for this
+peake Bay (Table 6). Relatively few of the blackcheek                 population was estimated to be very high (0.607). For
+
+
+
+                                                               Table 6
+  Mortality estimates (Z) for various northwestern Atlantic Pleuronectiformes based on Hoenig’s and Royce’s equations. Values in
+  parentheses reflect extrapolated mortality rates for a possible seventh age class of blackcheek tonguefish, Symphurus plagiusa,
+  found in lower Chesapeake Bay and the inner continental shelf.
+
+  Species                                Maximum age          Hoenig’s equation   Royce’s equation         Data source
+
+  Winter flounder (P. americanus)        14 years                    0.32              0.33          Lux, 1973
+  Summer flounder (P. dentatus)           9 years                    0.49              0.51          Desfosse, 1995
+  Windowpane (S. aquosus)                 7 years                    0.62              0.66          Moore, 1947
+  Southern flounder (P. lethostigma)      6 years                    0.73              0.77          Music and Pafford, 1984
+  Hogchoker (T. maculatus)                6 years                    0.73              0.77          Mansuetti and Pauly, 1956
+  Blackcheek tonguefish (S. plagiusa)     5 years (6 years)       0.87 (0.73)       0.92 (0.77)      Terwilliger, 1996
+Terwilliger and Munroe: Age, growth, longevity, and mortality of Symphurus plagiusa                                      355
+
+
+
+C. semilaevis from Chinese waters, a strong sexual                   during May–August. An autumn emigration of
+dichotomy in longevity was apparent in the popula-                   blackcheek tonguefishes from Chesapeake Bay to the
+tion studied; females reached 14 years (most 2–8                     nearby shelf region just outside of the Bay may be
+years), whereas males in this population attained a                  reflected in the significantly larger catches (mean
+maximum age of only 5 years (Meng and Ren, 1988).                    no./tow) of blackcheek tonguefishes reported (VIMS6)
+By comparison, longevity estimates for a variety of                  in this region during fall sampling (1987, 75.4/tow;
+other flatfishes occurring in temperate latitudes and                1988, 25.7/tow) compared with springtime catches
+from families other than the Cynoglossidae range                     (1987, 11.0/tow; 1988, 4.37/tow; 1989, 2.2/tow). Data
+from 6 to 30 years (Devold, 1942; Arora, 1951; Pitt,                 supplied in Wenner and Sedberry (1989) also sup-
+1967; Lux and Nichy, 1969; Lux, 1970, 1973; Koski,                   port the hypothesis that there is a seasonal migra-
+1978; Wada, 1970; Zoutendyk, 1974; Smith and                         tion of larger tonguefishes out of estuaries and onto
+Daiber, 1977).                                                       the coastal shelf off South Carolina. They reported
+   As stated earlier, the population of S. plagiusa in               that this species was widespread throughout the
+Chesapeake Bay represents the northernmost loca-                     survey area but noted that significant seasonal dif-
+tion of a major population of this species (Munroe,                  ferences were apparent in the frequency of occurrence
+1998). In the western North Atlantic, variability in                 and abundance of S. plagiusa in coastal habitats.
+abiotic conditions increases from southern to north-                 This species occurred less frequently during winter
+ern latitudes (Parr, 1933; Miller et al., 1991). Abiotic             (48% of all tows; 566 individuals) than in spring (85%
+variability also increases in environments located                   of tows; 1,460 individuals), summer (76% of tows;
+closer to the shoreline (Russell-Hunter, 1970; Miller                798 individuals), or fall (94% of tows; 5962 individu-
+et al., 1991). Fluctuations in abiotic factors, especially           als). Catches (mean no./tow) of this species were low-
+seasonal extremes of temperature during winter, may                  est in summer (8/tow) and winter (9/tow), higher in
+contribute to the high level of total instantaneous                  spring (21/tow), and highest during the fall (62/tow),
+mortality measured for blackcheek tonguefishes                       when the largest fish (up to 210 mm TL) were taken.
+within Chesapeake Bay. Bottom trawls conducted in                    Although Wenner and Sedberry (and other studies)
+this system during late winter and early spring of                   have reported that it is usually only larger-size
+some years (1996, for example) catch numerous dead                   blackcheek tonguefishes that are captured on the
+and moribund tonguefishes (Geer5), apparently due                    inner shelf region, no studies have verified any sea-
+to stresses associated with extremely cold water tem-                sonal or spawning movements of blackcheek
+peratures (ca. 2°C. in 1996). More extreme winter                    tonguefishes out of the estuaries, or the amount of
+temperatures and longer duration of cold tempera-                    exchange of individuals within populations between
+tures may be a factor limiting the establishment of                  estuarine embayments and adjacent neritic habitats
+populations of blackcheek tonguefishes in more                       on the inner shelf. It is also unknown whether all
+northern estuaries, where this species is known only                 larger individuals undergo an ontogenetic migration
+by the occurrence of newly settled juveniles. In coastal             out of estuaries onto the nearby shelf; what portion
+estuaries throughout its U.S. geographic range,                      of a population residing in estuaries moves out onto
+blackcheek tonguefishes appear to be sensitive to ex-                the shelf at any given age; what the estuarine resi-
+treme winter temperatures, because winter mortali-                   dency time is for larger tonguefishes, especially in
+ties have also been reported for this species in estu-               such larger and deeper estuaries as the Chesapeake
+aries even as far south as those in Texas (McEach-                   Bay which may be utilized by larger tonguefishes for
+ron et al., 1994). In addition to causing death out-                 longer periods of time; or even if further exchange of
+right, stresses associated with extreme winter tempera-              individuals between these two environments occurs
+tures may also render weakened tonguefishes easier                   once an individual has emigrated beyond the estua-
+prey to predators and thus further contribute to win-                rine boundary. Analysis of catch curve data (Fig. 10)
+ter mortalities.                                                     may also lend insight on inflated mortality estimates.
+   Mortality estimates for the population of black-                  Although the bimodality of the catch curve data in-
+cheek tonguefishes residing in Chesapeake Bay may                    fers possible variability in year-class strength that
+also be inflated due to emigration of larger individu-               invalidates its use for mortality estimations (Robson
+als out of the Bay and onto the nearby continental                   and Chapman, 1961; Everhart and Youngs, 1981),
+shelf. Hildebrand and Cable (1930) earlier had sug-                  the data suggest that a seventh year class may ex-
+gested that adult blackcheek tonguefishes in North                   ist, possibly on the nearby shelf region. If so, mortal-
+Carolina estuaries undergo a seaward migration                       ity estimates based on a maximum age of 5+ years
+
+5 Geer, P. J.1996. VIMS, Department of Fisheries, Gloucester         6 VIMS,   Department of Fisheries, Gloucester Point, VA
+ Point, VA 23062. Personal commun.                                    23062.   Unpubl. data.
+356                                                                                            Fishery Bulletin 97(2), 1999
+
+
+
+would be inflated compared with
+those calculated for an older year
+class.
+  Sex ratio of tonguefishes
+sampled during this study devi-
+ated from 1:1 mostly due to large
+single-sex catches of females dur-
+ing the summer months in the
+lower Bay. In lower Chesapeake
+Bay, apparently some spatial
+separation of the sexes occurs
+(Terwilliger, 1996). Here, dense
+concentrations of female black-
+cheek tonguefishes were com-
+monly found in the deeper areas,
+and fewer males were taken in
+the same trawls. Among sympa-
+tric species of pleuronectiforms,
+the hogchoker also reportedly
+displays bathymetric separation
+of the sexes in tributaries of
+Chesapeake Bay during the sum-                                               Figure 10
+mer months prior to spawning               Catch curve for blackcheek tonguefish, Symphurus plagiusa, collected by otter
+(Mansuetti and Pauly, 1956),               trawl in lower Chesapeake Bay and major lower tributaries, 1993–95. Numbers
+                                           above plot represent numbers at each age.
+when females occupy grass beds
+and shoal regions, while males
+are surmised to occupy deeper ar-
+eas within the estuary. This pattern of habitat seg-            preting adult movements of any of these other
+regation by adult hogchokers, however, was not evi-             cynoglossid species have yet to be performed.
+dent in the study conducted by Koski (1978) in the                 North temperate estuaries, such as Chesapeake
+Hudson River, although he noted that although the               Bay, are rigorous physical systems well known for
+overall sex ratio for fishes examined did not differ            environmental extremes in temperature, salinity, and
+from 1:1, some individual trawl catches were domi-              dissolved oxygen, and for strong seasonal cycles of
+nated by or consisted entirely of one sex. Significant          primary and secondary production. However, the
+differences in the sex ratios of catches of other               extensive distribution within the Bay and its tribu-
+tonguefishes have also been reported. Seshappa and              taries of shallow, soft bottom sediments presents con-
+Bhimachar (1955) noted that sex ratios of catches of            siderable amounts of suitable habitat for flatfishes.
+Malabar sole during the spawning period were mark-              Twelve species of flatfishes have been recorded from
+edly different than those made during other times of            the Bay (Murdy et al., 1997). The unique geographi-
+the year and attributed these differences to differ-            cal location of Chesapeake Bay at the northern end
+ential behavior of the two sexes during their spawn-            of a warm temperate and southern end of a cold tem-
+ing migrations. Hoda and Khalil (1995) also reported            perate region (Briggs, 1974) may account for the oc-
+skewed sex ratios (1.0:2.55 males to females) for               currence within the Bay of diverse faunal compo-
+catches of Cynoglossus arel, whereas those (1.16:1)             nents, which have either warm or cold water affini-
+for C. bilineatus were not significantly different from         ties. Among pleuronectiforms inhabiting Chesapeake
+1:1. A skewed ratio (1.56:1) favoring females over              Bay, for example, are six species representing five
+males was also found for C. semilaevis (Meng and                different families (Cynoglossidae, Achiridae, Para-
+Ren, 1988). Although some studies have inferred                 lichthyidae, Scophthalmidae, and Pleuronectidae).
+spatial differences in movements of the different               This assemblage includes representatives of families
+sexes of cynoglossid tonguefishes based on fisheries            whose species occur primarily in cold temperate
+catch data, it is difficult to draw any general conclu-         or boreal areas (Scophthalmidae, Pleuronectidae) or
+sions from these data. Just as we lack reliable docu-           in warm temperate and tropical regions (Cyno-
+mentation concerning spatial movements for the two              glossidae, Achiridae, Paralichthyidae). Of the spe-
+sexes of blackcheek tonguefish, directed studies pro-           cies occurring within Chesapeake Bay are blackcheek
+viding the detailed information necessary for inter-            tonguefish, hogchoker, and smallmouth flounder,
+Terwilliger and Munroe: Age, growth, longevity, and mortality of Symphurus plagiusa                                     357
+
+
+
+Etropus microstomus (to ca. 159 mm TL), small-size                   considerably among members of this assemblage.
+species that are not commercially or recreationally                  Asymptotic lengths for summer flounder (859 mm
+exploited and ones that complete their life cycles                   TL) and southern flounder (to 760 mm) greatly exceed
+within the Bay. Virtually nothing is known concern-                  those for blackcheek tonguefish and hogchoker (192 and
+ing age and growth of smallmouth flounder, espe-                     210 mm, respectively). In fact, these fishes grow more
+cially within the Bay system; therefore further com-                 during their first year than do blackcheek tonguefish
+parisons of its life history with those of sympatric                 and hogchokers in a lifetime. Windowpane and winter
+flatfishes are limited. The flatfish fauna of the Bay                flounder (383 and 376 mm, respectively) attain asymp-
+also includes summer flounder (Paralichthys dentatus),               totic lengths intermediate to these other two groups of
+southern flounder (Paralichthys lethostigma), window-                sympatrically occurring estuarine flatfishes.
+pane (Scophthalmus aquosus), and winter flounder                        Estimates of instantaneous total mortality based
+(Pseudopleuronectes americanus), species that do not                 on blackcheek tonguefishes caught within Chesa-
+necessarily complete their life cycles entirely within               peake Bay during this study are also relatively higher
+Chesapeake Bay and ones that are heavily exploited                   when compared with those for most other estuarine
+both commercially and recreationally. The remain-                    dependent species of northwestern Atlantic Pleuro-
+ing species of flatfishes recorded from the Bay are                  nectiformes (Table 6). In this comparison, blackcheek
+transient species that occur only irregularly within                 tonguefish are among the shortest-lived species and
+the Bay and will not be discussed further. The diver-                therefore have one of the higher rates of instanta-
+sity in size and growth parameters represented                       neous total mortality. Relatively few individuals
+among those flatfishes occurring in Chesapeake Bay                   within Chesapeake Bay are older than three years.
+which have been studied provides an interesting                      Extrapolating mortality rates for a possible seventh
+opportunity for investigating comparative life histo-                year class (age 6+), which may be found on the inner
+ries of sympatric members of an estuarine benthic                    shelf region, provides an instantaneous total mor-
+fish assemblage with somewhat similar lifestyles                     tality estimate comparable to those for hogchokers
+(Table 5).                                                           and southern flounder caught in Chesapeake Bay.
+   Few published age-growth studies exist for                           Blackcheek tonguefish exhibit the youngest age at
+noncommercially exploited flatfishes, especially for                 first maturity, the highest growth coefficient, the
+those species occurring in temperate estuaries of the                youngest known maximum age, and the smallest
+western North Atlantic. Von Bertalanffy growth pa-                   asymptotic length when compared with sympatric
+rameters for species other than blackcheek tongue-                   pleuronectiforms from Chesapeake Bay. Blackcheek
+fish were taken from data found in the literature                    tonguefish exhibit rapid growth until maturity, af-
+(Miller et al., 1991; Desfosse, 1995). These data re-                ter which growth rate declines markedly. Munroe
+veal that among this assemblage, blackcheek tongue-                  (1990, 1998) indicated that eight dwarf species of
+fish have the highest value for growth parameter K                   Symphurus reach sexual maturity between 28 and
+(Table 5), and therefore reach asymptotic length                     45 mm SL. Small size and presumably early age at
+faster than sympatric counterparts (Francis, 1996).                  maturation may be characteristic of species in this
+Of sympatric flatfishes occurring in Chesapeake Bay,                 genus (Munroe, 1988); even S. jenynsi, the largest
+only hogchokers display growth parameters and                        species in the genus (reaching ca. 350 mm TL), ma-
+maturation schedules (some males mature at end of                    tures at a relatively small size (about 132 mm TL).
+first year, most of both sexes mature by age 2; Koski,               More ageing studies on fishes of this genus are re-
+1978) similar to those observed for blackcheek                       quired to test this hypothesis. Other cynoglossid flat-
+tonguefish. In contrast, summer and southern floun-                  fishes, although they attain a relatively large size
+ders mature at ages 2–3, windowpane flounders                        before reaching sexual maturity, are only 1 or 2 yr
+mature at ages 3 or 4, and winter flounders mature                   old when first maturing. According to available data,
+at ages 2–5. Later age at maturation in these spe-                   it is quite possible then that tonguefishes in general
+cies reflects a different life history pattern, and one              have an age dependent maturity schedule. Roff (1982)
+that allows for energy allocation favoring increased                 indicated that age, and not size, would appear to be
+somatic growth during several years prior to the on-                 most important in fish species that mature early.
+set of maturation. Because these other species ma-                   Data for tonguefishes support that finding.
+ture at later ages than do blackcheek tonguefish and                    When compared with estimates for sympatric flat-
+hogchoker, growth in length for these fishes would be                fishes, blackcheek tonguefish caught during this
+relatively rapid over the course of several years during             study exhibit the highest rates of instantaneous to-
+the early part of their lives (Fig. 11).                             tal mortality. Other species inhabiting the Bay sys-
+   Estimates of asymptotic length, reflecting average                tem also mature at larger sizes, have larger asymp-
+maximum length attained by a species, also varies                    totic lengths, and slower growth rates. Interesting
+358                                                                                                   Fishery Bulletin 97(2), 1999
+
+
+
+
+                                                          Figure 11
+                Von Bertalanffy growth curves for selected Pleuronectiformes occurring in western North Atlantic
+                temperate estuaries. Values for species other than Symphurus plagiusa were derived from the
+                literature.
+
+
+
+
+to note, it is only the smallest-size and shortest-lived          Farrar, Pat Geer, Paul Gerdes, Dave Hata, Mike
+flatfishes (S. plagiusa, T. maculatus, and probably               Land, Todd Mathes, Dee Seaver, Mike Seebo, and
+E. microstomus) that complete their life cycles within            Chandell Terwilliger of VIMS for assisting in field
+Chesapeake Bay. Under an environmental regime                     collections and for providing data and specimens. We
+with a large component of unpredictable, nonselec-                extend our appreciation to Herb Austin for allowing
+tive mortality, an organism is hypothesized to allo-              us access to sources of unpublished data archived in
+cate a larger portion of its resources to reproductive            the VIMS Fisheries Department. This study bene-
+activities (Adams, 1980). Life history parameters,                fited from financial support arranged by Herb Aus-
+such as rapid growth, small body size, early age at               tin, Jack Musick, Gene Burreson, and Joe Loesch
+maturity and relatively short life span, characteris-             (VIMS). Additional financial support was provided
+tics featured in these small-size flatfishes complet-             by the VIMS minigrant committee, the student con-
+ing their life cycles within Chesapeake Bay, are con-             ference fund of the College of William and Mary, and
+sistent with those observed for other fish species that           by the American Institute of Fisheries Research Bi-
+survive in and successfully exploit seasonally dy-                ologists’ student conference fund. Chandell Terwil-
+namic and highly unpredictable environments.                      liger provided moral support throughout the course
+                                                                  of the study. Pat Geer, Dave Hata, Steve Bobko
+                                                                  (ORST), and Mike Murphy (FL DEP) provided valu-
+Acknowledgments                                                   able insight on statistical analyses. A special thanks
+                                                                  to Pat Geer for his help with trawl survey data analy-
+This study represents part of a M.A. thesis (by Mark              sis and manipulation. Tom Sminkey (FL DEP) pro-
+R. Terwilliger) at the School of Marine Science, Vir-             vided useful instruction on use of the Biosonics Op-
+ginia Institute of Marine Science, College of William             tical Pattern Recognition System, and Dave
+and Mary. We thank Joy Dameron, Deane Estes, Eric                 Harshany (FL DEP) helped with image production
+Terwilliger and Munroe: Age, growth, longevity, and mortality of Symphurus plagiusa                                                 359
+
+
+
+using Optimas software. Martha Nizinski (VIMS)                              bight. Unpubl. Ph.D. diss., College of William and Mary,
+assisted with figure preparation. Sandra Raredon,                           Williamsburg, VA, 187 p.
+                                                                      Devold, F.
+Division of Fisheries, Smithsonian Institution, pro-                      1942. Plaice investigations in Norwegian waters. Rep.
+vided assistance with manuscript translation. Roy                           Norw. Fish. Mar. Invest. VII(3), 83 p.
+Crabtree, Tom Sminkey (FL DEP), Kathy Lang                            Everhart, W. H., and W. D. Youngs.
+(NMFS, Woods Hole), Bruce Collette (NMFS System-                          1981. Principles of fishery science, 2nd ed. Cornell Univ.
+atics Laboratory), and three anonymous reviewers                            Press, Ithaca, New York, NY, 349 p.
+                                                                      Francis, R. I. C. C.
+critically reviewed earlier drafts of the manuscript.                     1996. Do herring grow faster than orange roughy? Fish.
+                                                                            Bull. 94:783–786.
+                                                                      Geer, P. J., H. M. Austin, and C. F. Bonzek.
+Literature cited                                                          1997. Juvenile fish and blue crab stock assessment program
+                                                                            bottom trawl survey annual data summary report. An-
+Adams, P. B.                                                                nual data summary report series, vol. 1996. Special Scien-
+    1980. Life history patterns in marine fishes and their con-             tific Report 124, Virginia Institute of Marine Science, Col-
+      sequences for fisheries management. Fish. Bull. 78:1–12.              lege of William and Mary, Gloucester Point, VA, 275 p.
+Arora, H. L.                                                          Geer, P. J., J. A. Colvocoresses, H. M. Austin, and C. Bonzek.
+    1951. An investigation of the California sand dab, Cithar-            1993. Estimation of relative abundance of recreationally
+      ichthys sordidus (Girard). Calif. Fish Game 37(1):3–42.               important finfish in the Virginia portion of Chesapeake
+Bagenal, T. B., and F. W. Tesch.                                            Bay: annual progress report. U.S. Fish and Wildlife Ser-
+    1978. Age and growth. In T. B. Bagenal (ed.), Methods for               vice Sportfish Restoration Project F104R2, College of Wil-
+      assessment of fish production in fresh waters, 3rd ed., p.            liam and Mary, Virginia Institute of Marine Science,
+      101–136. Blackwell Scientific Publications, Oxford.                   Gloucester Point, VA, 105 p.
+Barbieri, L. R.                                                       Gerking, S. D.
+    1993. Life history, population dynamics and yield-per-re-             1957. Evidence of ageing in natural populations of fishes.
+      cruit modeling of Atlantic croaker, Micropogonias undu-               Gerontologia 1:287–305.
+      latus, in the Chesapeake Bay area. Unpubl. Ph.D. diss.,         Ginsburg, I.
+      College of William and Mary, Williamsburg, VA, 140 p.               1951. Western Atlantic tonguefishes with descriptions of
+Biosonics, Inc.                                                             six new species. Zoologica (NY) 36:185–201.
+    1987. Optical Pattern Recognition System data acquisition         Heidinger, R. C., and K. Clodfelter.
+      program manual, version 1.08. Biosonics, Inc., Seattle,             1987. Validity of the otolith for determining age and growth
+      WA, 112 p.                                                            of the walleye, striped bass, and smallmouth bass in power
+Bonzek, C. F., P. J. Geer, J. A. Colvocoresses, and                         plant cooling ponds. In R. C. Summerfelt and G. E. Hall
+  R. E. Harris Jr.                                                          (eds.), Age and growth in fish, p. 241–251. Iowa State
+    1993. Juvenile finfish and blue crab stock assessment pro-              Univ. Press, Ames, IA.
+      gram, bottom trawl survey, annual data summary. An-             Hildebrand, S. F., and L. E. Cable.
+      nual data summary report series, vol. 1992. Special Scien-          1930. Development and life history of fourteen teleostean
+      tific Report 124, Virginia Institute of Marine Science, Col-          fishes at Beaufort, North Carolina. Bull. U.S. Bur. Fish.
+      lege of William and Mary, Gloucester Point, VA, 217 p.                43:383–488.
+Briggs, J. C.                                                         Hildebrand, S. F., and W. C. Schroeder.
+    1974. Marine zoogeography. McGraw-Hill Book Co., New                  1928. Fishes of Chesapeake Bay. Bull. U.S. Bur. Fish.
+      York, NY, 475 p.                                                      43:1–366.
+Cerrato, R. M.                                                        Hoda, S. M. S., and B. Khalil.
+    1990. Interpretable statistical tests for growth comparisons          1995. Observations on the biology of Cynoglossus bilineatus
+      using parameters in the von Bertalanffy equation. Can.                (Lacep.) and C. Arel (Bl. & Schn.) from the Karachi-Sindh
+      J. Fish. Aquat. Sci. 47:1416–1426.                                    coast. In M. F. Thompson and N. M. Tirmizi (eds.), The
+Chauvet, C.                                                                 Arabian Sea: living marine resources and the environment,
+    1972. Croissance et détermination de l’âge par lecture                  p. 309–330. Vanguard Books Ltd., Lahore, Pakistan.
+      d’ecailles d’un poisson plat de Côte d’Ivoire Cynoglossus       Hoenig, J. M.
+      canariensis (Steind. 1882). Doc. Scient. Cent. Rech.                1983. Empirical use of longevity data to estimate mortal-
+      Oceanogr. Abidjan 3:1–18.                                             ity rates. Fish. Bull. 82:898–902.
+Chen, D., C. Liu, and S. Dao.                                         Jearld, A., Jr.
+    1992. The biology of flatfish (Pleuronectidae) in the coastal         1983. Age determination. In L. A. Nielsen and D. L.
+      waters of China. Neth. J. Sea. Res. 29:25–33.                         Johnson (eds.), Fisheries techniques, p. 301–324. Am.
+Chittenden, M. E., Jr., and S. D. McEachran.                                Fish. Soc., Bethesda, MD.
+    1976. Composition, ecology, and dynamics of demersal fish         Jorgenson, S. C., and G. L. Miller.
+      communities on the northwestern Gulf of Mexico continen-            1968. Length relations of some marine fishes from coastal
+      tal shelf, with a similar synopsis for the entire Gulf. Texas         Georgia. U.S. Fish Wildl. Serv. SSR-Fisheries, No. 575, 16 p.
+      A&M University, TAMU-SG-76-208, 104 p.                          Kimura, D. K.
+Dawson, C. E.                                                             1980. Likelihood methods for the von Bertalanffy growth
+    1965. Length-weight relationships of some Gulf of Mexico                curve. Fish. Bull. 77:765–775.
+      fishes. Trans. Am. Fish. Soc. 94(3):279–280.                    Koski, R. T.
+Desfosse, J. C.                                                           1978. Age, growth, and maturity of the hogchoker, Trinectes
+    1995. Movements and ecology of summer flounder, Para-                   maculatus, in the Hudson River, New York. Trans. Am.
+      lichthys dentatus, tagged in the southern mid-Atlantic                Fish. Soc. 107:449–453.
+360                                                                                                         Fishery Bulletin 97(2), 1999
+
+
+
+Kutty, M. K.                                                                  Symphurus plagiusa (Pisces: Cynoglossidae), in the lower
+    1967. Observations on the growth and mortality of the large               Chesapeake Bay. Ches. Sci. 17:229–237.
+      scaled tonguefish Cynoglossus macrolepidotus (Bleeker).          Parr, A. E.
+      Proc. Natl. Inst. Sci. India 33:94–110.                              1933. A geographic-ecological analysis of the seasonal
+Lagler, K. F.                                                                 changes in temperature conditions in shallow water along
+    1956. Freshwater fishery biology, 2nd ed. W.C. Brown Co.                  the Atlantic coast of the United States. Bull. Bingham
+      Publ., Dubuque, IA, 421 p.                                              Oceanogr. Lab. 4:1–90.
+Lin, M.-C.                                                             Pitt, T. K.
+    1982. Age and growth of north Taiwan tongue sole                       1967. Age and growth of American plaice (Hippoglossoides
+      Cynoglossus arel. Bull. Taiwan Fish. Res. Inst. 34:91–99.               platessoides) in the Newfoundland area of the northwest
+Lux, F. E.                                                                    Atlantic. J. Fish. Res. Board Can. 24:1077–1099.
+    1970. Note on growth of American plaice, Hippoglossoides           Prather, E. E.
+      platessoides (Fabr.) in ICNAF Subarea 5. Int. Comm.                  1967. The accuracy of the scale method in determining the
+      Northwest Atl. Fish. Spec. Publ. 7:5–7.                                 ages of largemouth bass and bluegills. Proc. Ann. Conf.
+    1973. Age and growth of the winter flounder, Pseudopleuro-                Southeast. Assoc. Game Fish Commission. 20:483–486.
+      nectes americanus, on Georges Bank. Fish. Bull. 71:505–512.      Qasim, S. Z.
+Lux, F. E., and F. E. Nichy.                                               1973. Some implications of the problem of age and growth
+    1969. Growth of yellowtail flounder, Limanda ferruginea                   in marine fishes from the Indian waters. Indian J. Fish.
+      (Storer), on three New England fishing grounds. Int.                    20(2):351–371.
+      Comm. Northwest Atl. Fish. Res. Bull. 6:5–25.                    Rajaguru, A.
+Mansuetti, R., and R. Pauly.                                               1992. Biology of two co-occurring tonguefishes, Cynoglossus
+    1956. Age and growth of the northern hogchoker, Trinectes                 arel and C. lida (Pleuronectiformes: Cynoglossidae), from
+      maculatus, in the Patuxent River, Maryland. Copeia                      Indian waters. Fish. Bull. 90:328–367.
+      1956:60–62.                                                      Ramanathan, N., P. Vijaya, V. Ramaiyan, and R. Natarajan.
+McEachron, L. W., G. C. Matlock, C. E. Bryan, P. Unger,                    1980. On the biology of the large scaled tongue sole
+  R. J. Cody, and J. H. Martin.                                               Cynoglossus macrolepidotus (Bleeker). Indian J. Fish.
+    1994. Winter mass mortality of animals in Texas bays.                     24:83–89.
+      Northeast Gulf Sci. 13(2):121–138.                               Ramos, J.
+Meng, T., and S. Ren.                                                      1982. Estudio de la edad y crecimiento del lenguado, Solea
+    1988. Age and growth of Cynoglossus semilaevis Günther                    solea (Linneo, 1758) (Pisces: Soleidae). Invest. Pesq.
+      in the Bohai Sea. Mar. Fish. Res. (Shandong) 9:173–183.                 46(1):15–28.
+      [In Chinese, with English abstract.]                             Reichert, M. J. M., and H. W. van der Veer.
+Menon, A. G. K.                                                            1991. Settlement, abundance, growth, and mortality of ju-
+    1977. A systematic monograph of the tongue soles of the                   venile flatfish in a subtropical tidal estuary (Georgia,
+      genus Cynoglossus Hamilton- Buchanan (Pisces: Cyno-                     U.S.A.). Neth. J. Sea. Res. 27:375–391.
+      glossidae). Smithson. Contrib. Zool. 238:1–129.                  Ricker, W. E.
+Miller, J. M., J. S. Burke, and G. R. Fitzhugh.                            1975. Computation and interpretation of biological statis-
+    1991. Early life history patterns of Atlantic North Ameri-                tics of fish populations. Department of the Environment,
+      can flatfish: Likely (and unlikely) factors controlling                 Fisheries and Marine Service, Fish. Res. Board Can. Bull.
+      recruitment. Neth. J. Sea. Res. 27:261–275.                             191, Ottawa, Canada, 400 p.
+Moe, M. A., Jr., and G. T. Martin.                                     Robson, D. S., and D. G. Chapman.
+    1965. Fishes taken in monthly trawl samples offshore of                1961. Catch curves and mortality rates. Trans. Am. Fish.
+      Pinellas County, Florida, with new additions to the fish fauna          Soc. 90:181–189.
+      of the Tampa Bay area. Tulane Stud. Zool. 12:129–151.            Roff, D. A.
+Moore, E.                                                                  1982. Reproductive strategies in flatfish: a first synthesis.
+    1947. Studies on the marine resources of southern New                     Can. J. Fish. Aquat. Sci. 39:1686– 1698.
+      England. 6. The sand flounder, Lophopsetta aquosa                Royce, W. F.
+      (Mitchill): a general study of the species with emphasis on          1972. Introduction to the fishery sciences. Academic
+      age determination by means of scales and otoliths. Bull.                Press, New York, NY, 351 p.
+      Bingham Oceanogr. Coll. 11:1–79.                                 Russell-Hunter, W. D.
+Munroe, T. A.                                                              1970. Aquatic productivity. The Macmillan Co., London,
+    1990. Eastern Atlantic tonguefishes (Symphurus: Cyno-                     306 p.
+      glossidae: Pleuronectiformes), with descriptions of two new      Saila, S. B., C. W. Recksieck, and M. H. Prager.
+      species. Bull. Mar. Sci. 47:464–515.                                 1988. Basic fishery science programs. Elsevier, Amster-
+    1998. Systematics and ecology of tonguefishes of the genus                dam, 230 p.
+      Symphurus (Cynoglossidae: Pleuronectiformes) from the            Santos, P. T.
+      western Atlantic Ocean. Fish. Bull. 96:1–182.                        1994. Growth and reproduction of the population of the four-
+Murdy, E. O., R. S. Birdsong, and J. A. Musick.                               spot megrim (Lepidorhombus boscii Risso) off the Portu-
+    1997. Fishes of Chesapeake Bay. Smithsonian Institution                   guese coast. Neth. J. Sea. Res. 32:379– 383.
+      Press, Washington, DC, 324 p.                                    Seshappa, G.
+Music, J. L., and J. M. Pafford.                                           1976. On the fishery and biology of the large tongue-sole,
+    1984. Population dynamics and life history aspects of ma-                 Cynoglossus dubius Day, at Calicut, Kerala. Indian J.
+      jor marine sportfishes in Georgia’s coastal waters. Geor-               Fish. 21:345–356.
+      gia Dep. Nat. Res., Coast. Res. Div., Contr. Ser. 38:1–382.          1978. Report on a collection of tongue soles (Cynoglossus
+Olney, J. E., and G. C. Grant.                                                sp.) from Moplah Bay with a description of C. lida
+    1976. Early planktonic larvae of the blackcheek tonguefish,               (Bleeker). Indian J. Fish. 23:160–173.
+Terwilliger and Munroe: Age, growth, longevity, and mortality of Symphurus plagiusa                                                361
+
+
+
+    1981. Observations on the size distribution and the occur-       Toepfer, C. S., and J. W. Fleeger.
+      rence of growth rings in the scales of three species of            1995. Diet of juvenile fishes Citharichthys spilopterus,
+      Cynoglossus at Calicut. Indian J. Fish. 25:188–196.                  Symphurus plagiusa, and Gobionellus boleosoma. Bull.
+Seshappa, G., and B. S. Bhimachar.                                         Mar. Sci. 56(1):238–249.
+    1954. Studies on the age and growth of the Malabar sole,         Topp, R. W., and F. H. Hoff Jr.
+      Cynoglossus semifasciatus Day. Indian J. Fish. 1(1):145–           1972. Flatfishes (Pleuronectiformes). Fla. Dep. Nat.
+      162.                                                                 Resour., St. Petersburg. Mem. Hourglass Cruises 4:1–135.
+    1955. Studies on the fishery and biology of the Malabar          Vaughan, D. S., and M. L. Burton.
+      sole, Cynoglossus semifasciatus Day. Indian J. Fish.               1994. Estimation of von Bertalanffy growth parameters in
+      2(1):180–230.                                                        the presence of size- selective mortality: a simulated ex-
+Seshappa, G., and B. K. Chakrapani.                                        ample with red grouper. Trans. Am. Fish. Soc. 123:1–8.
+    1984. A scalimetric comparison of the malabar sole               Victor, A. C. C.
+                                                                         1981. Length-weight relationship in the Malabar sole,
+      Cynoglossus semifasciatus Day from different centres of
+      the west coast. Indian J. Fish. 31:82–89.                            Cynoglossus macrostomus Norman. Indian J. Fish.
+                                                                           25:259–262.
+Shealy, M. H., Jr., J. V. Miglarese, and E. B. Joseph.               Wada, K.
+    1974. Bottom fishes of South Carolina estuaries—Relative
+                                                                         1970. Studies on the population biology of the flatfish,
+      abundance, seasonal distribution, and length frequency               Limanda herzensteini Jordan et Snyder, in Nigata
+      relationships. Tech. Rep. 6, South Carolina Marine Re-               Region. Bull. Jpn. Sea Reg. Fish. Res. Lab. 22:31–43.
+      source Center, Charleston, SC, 189 p.
+                                                                     Wenner, C. A., and G. R. Sedberry.
+Smith, R. W., and F. C. Daiber.                                          1989. Species composition, distribution, and relative abun-
+    1977. Biology of the summer flounder, Paralichthys                     dance of fishes in the coastal habitat off the southeastern
+      dentatus, in Delaware Bay. Fish. Bull. 75:823–830.                   United States. NOAA Tech. Rep. NMFS-SSRF 79, 49 p.
+Spurr, A. R.                                                         White, M. L., and M. E. Chittenden Jr.
+    1969. A low-viscosity epoxy resin embedding medium for               1977. Age determination, reproduction, and population dy-
+      electron microscopy. J. Ultrastruct. Res. 26:31–43.                  namics of the Atlantic croaker, Micropogonias undulatus.
+Stickney, R. R.                                                            Fish. Bull. 75:109–123.
+    1976. Food habits of Georgia estuarine fishes II. Symphurus      Zhu, X., and D. Ma.
+      plagiusa (Pleuronectiformes: Cynoglossidae). Trans. Am.            1992. Studies on age, growth, and age class structures of
+      Fish. Soc. 105:202–207.                                              the tonguefish, Cynoglossus abbreviatus (Day) in the
+Terwilliger, M. R.                                                         Jiaozhou Bay waters. Mar. Sci. (Beijing) 1:49–53. [In
+    1996. Age, growth, and reproductive biology of the                     Chinese, with English abstract.]
+      blackcheek tonguefish, Symphurus plagiusa (Cyno-               Zoutendyk, P.
+      glossidae: Pleuronectiformes), in Chesapeake Bay,                  1974. The biology of the Agulhas sole, Austroglossus pecto-
+      Virginia. M.A. thesis, The College of William and Mary,              ralis. Part-2: Age and growth. Trans. R. Soc. So. Afr. 41(1):
+      Williamsburg, VA, 116 p.                                             33–41.
+

@@ -1,0 +1,6 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Membras martinica","adult",1891,"1891",24,0,24,-100,-50,5,60,2,"species/Membras_martinica/adult_frames/year_1891.png"
+"Membras martinica","adult",1892,"1892",68,67,1,-100,-50,5,60,2,"species/Membras_martinica/adult_frames/year_1892.png"
+"Membras martinica","adult",1915,"1915",48,48,0,-100,-50,5,60,2,"species/Membras_martinica/adult_frames/year_1915.png"
+"Membras martinica","adult",1916,"1916",14,14,0,-100,-50,5,60,2,"species/Membras_martinica/adult_frames/year_1916.png"
+"Membras martinica","adult",1920,"1920",7,0,7,-100,-50,5,60,2,"species/Membras_martinica/adult_frames/year_1920.png"

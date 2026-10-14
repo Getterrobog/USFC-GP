@@ -1,0 +1,26 @@
+// One SVG is replaced on selection; the coast and coordinate transform stay fixed.
+function renderMap(){
+  if(!selected)return;
+  const sp=selected.species,stage=$('map-stage').value,s=explorer.summary.find(s=>s.species===sp&&s.map_stage===stage),cells=explorer.cells.filter(c=>c.species===sp&&c.map_stage===stage);
+  const b=explorer.bounds,left=70,top=105,width=740,height=width*(b.north-b.south)/(b.east-b.west)/Math.cos((b.south+b.north)/2*Math.PI/180),bottom=top+height;
+  const px=lon=>left+(lon-b.west)/(b.east-b.west)*width,py=lat=>top+(b.north-lat)/(b.north-b.south)*height;
+  const text=(x,y,value,size=16,extra='')=>`<text x="${x}" y="${y}" font-size="${size}" ${extra}>${esc(value)}</text>`;
+  const wrapped=cells.map(c=>wrapLabel(yearLabel(c))),heights=wrapped.map(l=>Math.max(22,l.length*20));
+  const cx=cells.map(c=>px(c.cell_lon+explorer.cellDegrees/2)),cy=cells.map(c=>py(c.cell_lat+explorer.cellDegrees/2)),ys=labelPositions(cy,heights,top+8,bottom-8);
+  let svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 1220" width="1250" height="1220" role="img" aria-labelledby="map-title map-desc" data-species="${esc(sp)}" data-stage="${stage}" data-specimens="${s.mapped_specimens}" data-west="${b.west}" data-east="${b.east}" data-south="${b.south}" data-north="${b.north}" data-maximum="${s.color_maximum}"><title id="map-title">${esc(sp)} — ${labels[stage]}</title><desc id="map-desc">All-year geographic specimen heatmap. Numbered cells connect to year (specimen count) labels. Hatching marks approximate positions.</desc><style>text{font-family:Arial,sans-serif;fill:#233342}.cell-number{font-weight:bold;paint-order:stroke;stroke:white;stroke-width:3px;stroke-linejoin:round}</style><defs><clipPath id="extent"><rect x="70" y="105" width="740" height="${height}"/></clipPath><pattern id="estimated" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M-2 2L2-2M0 8L8 0M6 10L10 6" stroke="#233342" stroke-opacity=".45" stroke-width="1"/></pattern></defs><rect width="1250" height="1220" fill="white"/>`;
+  svg+=text(left,35,sp,25,'font-style="italic"')+text(left,62,`${labels[stage]} · ${s.specimens} specimens · ${s.mapped_specimens} plotted · ${s.unmapped_specimens} without a usable location`,17)+text(left,85,`${s.recorded_specimens} recorded-coordinate + ${s.approximate_specimens} approximate specimens plotted`,15)+text(855,85,'Cell · Year (specimens)',17,'font-weight="bold"')+background;
+  cells.forEach((c,i)=>{svg+=`<path d="M${cx[i]} ${cy[i]}L830 ${ys[i]+heights[i]/2}H850" fill="none" stroke="#7893a2" stroke-opacity=".65" stroke-width="1"/>`;});
+  svg+='<g clip-path="url(#extent)">';
+  cells.forEach((c,i)=>{const x=px(c.cell_lon),y=py(c.cell_lat+explorer.cellDegrees),w=px(c.cell_lon+explorer.cellDegrees)-x,h=py(c.cell_lat)-y;svg+=`<g class="sample-cell" data-cell="${c.cell_label}" data-specimens="${c.specimens}"><title>Cell ${c.cell_label}: ${c.specimens} specimens; ${esc(yearLabel(c))}</title><rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${c.fill}" stroke="#665646"/>`;if(c.approximate_specimens>0)svg+=`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="url(#estimated)"/>`;svg+=text(cx[i],cy[i]+4,c.cell_label,12,'class="cell-number" text-anchor="middle"')+'</g>';});
+  svg+='</g>';
+  cells.forEach((c,i)=>{svg+=`<g class="year-label" data-cell="${c.cell_label}">`+text(855,ys[i]+16,c.cell_label,15,'font-weight="bold"');wrapped[i].forEach((line,j)=>{svg+=text(887,ys[i]+16+j*20,line,16);});svg+='</g>';});
+  if(!cells.length)svg+=text(left+width/2,top+height/2,s.specimens?'No specimens have usable display locations':'No specimens recorded for this life stage',19,'text-anchor="middle"');
+  const legendY=bottom+49;explorer.legend.forEach((p,i)=>{svg+=`<rect x="${left+i/128*width}" y="${legendY}" width="${width/128+.1}" height="14" fill="${p.fill}"/>`;});
+  for(const n of Array.from(new Set([1,10,100,s.color_maximum])).filter(n=>n<=s.color_maximum).sort((a,b)=>a-b))svg+=text(left+Math.log1p(n)/Math.log1p(s.color_maximum)*width,legendY+33,n,14,'text-anchor="middle"');
+  svg+=text(left,legendY+58,`Specimens per ${explorer.cellDegrees}° cell · log colors fixed across life stages within this species`,15)+text(left,legendY+80,'Hatching: approximate locations. Blank cells indicate no plotted sampling, not biological absence.',15)+'</svg>';
+  $('map-host').innerHTML=svg;
+  $('map-summary').textContent=`${labels[stage]}: ${s.specimens.toLocaleString()} specimens in ${s.lots.toLocaleString()} lots · ${s.mapped_specimens.toLocaleString()} plotted in ${s.cells} cells · ${s.unmapped_specimens.toLocaleString()} without usable locations · ${s.undated_specimens.toLocaleString()} undated.`;
+  $('selection-status').textContent=`Showing ${selected.label} · ${labels[stage]}. ${eligible.length} species selectable.`;
+  $('cell-table').innerHTML='<table><thead><tr><th>Cell</th><th>Longitude / latitude bounds</th><th>Year (specimens)</th><th>Total specimens</th><th>Approximate</th></tr></thead><tbody>'+cells.map(c=>`<tr><td>${c.cell_label}</td><td>${c.cell_lon} to ${c.cell_lon+explorer.cellDegrees}°; ${c.cell_lat} to ${c.cell_lat+explorer.cellDegrees}°</td><td>${esc(yearLabel(c))}</td><td>${c.specimens}</td><td>${c.approximate_specimens}</td></tr>`).join('')+'</tbody></table>';
+  history.replaceState(null,'','#'+selected.template.id+'/'+stage);
+}

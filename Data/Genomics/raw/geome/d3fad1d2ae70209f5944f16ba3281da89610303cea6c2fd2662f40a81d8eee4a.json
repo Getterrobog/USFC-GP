@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Lagodon+rhomboides%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:09.604149+00:00",
+  "sha256": "b0d599696006e6f63e44ef117937602a9dfbf1adf1bc2d39419e8bdea37656f3",
+  "http_status": 200,
+  "bytes": 4574,
+  "cache_path": "Data/Genomics/raw/geome/d3fad1d2ae70209f5944f16ba3281da89610303cea6c2fd2662f40a81d8eee4a.gz"
+}

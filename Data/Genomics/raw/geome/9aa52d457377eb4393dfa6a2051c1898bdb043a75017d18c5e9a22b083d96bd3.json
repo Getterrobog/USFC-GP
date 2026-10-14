@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Poecilia+vivipara%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:11.007073+00:00",
+  "sha256": "9a8b28a8776068e39ac4dd388f35b456e27f86b82dcb43774322818e2cbe16c2",
+  "http_status": 200,
+  "bytes": 48,
+  "cache_path": "Data/Genomics/raw/geome/9aa52d457377eb4393dfa6a2051c1898bdb043a75017d18c5e9a22b083d96bd3.gz"
+}

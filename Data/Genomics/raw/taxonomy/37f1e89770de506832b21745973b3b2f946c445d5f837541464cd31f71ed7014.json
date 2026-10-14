@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Cyclothone%20microdon",
+  "retrieved_utc": "2026-10-13T04:05:16.550726+00:00",
+  "sha256": "3f224f0c8e668fb618e3a41651314932a8237b6b813bba5d02e0e2483406d46e",
+  "http_status": 200,
+  "bytes": 710,
+  "cache_path": "Data/Genomics/raw/taxonomy/37f1e89770de506832b21745973b3b2f946c445d5f837541464cd31f71ed7014.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Hypoclydonia+bella%22+OR+scientificName%3D%22Synagrops+bellus%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:39.208314+00:00",
+  "sha256": "d63a9c7e15ed941d9a36c73fe2fef97c9d442e96f7cda25a242dcc0e3b6ff432",
+  "http_status": 200,
+  "bytes": 3371,
+  "cache_path": "Data/Genomics/raw/geome/9d8b6fcaaa35c274d94a57d7ef813ad3f4c99a0749f4ff980f7789d7d74e5b66.gz"
+}

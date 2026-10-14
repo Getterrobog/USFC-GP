@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Gambusia%20affinis",
+  "retrieved_utc": "2026-10-13T04:05:20.699011+00:00",
+  "sha256": "c8dd62cc49add58f4162b1b78fabc63038fffe4ef997de2749e96bb00b3aeb50",
+  "http_status": 200,
+  "bytes": 703,
+  "cache_path": "Data/Genomics/raw/taxonomy/79ce49deab7378803abec2acccfdae0ad065ac17e7bd5f1e46775f070d0359b5.gz"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Histrio%20histrio",
+  "retrieved_utc": "2026-10-13T04:05:24.221018+00:00",
+  "sha256": "aedcd33241602a56b9888de55daf16c5742257130e7f7ebdb251e138a8685c10",
+  "http_status": 200,
+  "bytes": 829,
+  "cache_path": "Data/Genomics/raw/taxonomy/74ffa9fc3355c74f693edcac6a270e893fa55a7bd84b9d6f22b94e42b14bd5ee.gz"
+}

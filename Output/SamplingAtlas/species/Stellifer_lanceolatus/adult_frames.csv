@@ -1,0 +1,4 @@
+"species","life_stage","year","label","specimens","mapped_specimens","approximate_specimens","west","east","south","north","cell_degrees","png"
+"Stellifer lanceolatus","adult",1915,"1915",750,750,0,-100,-50,5,60,2,"species/Stellifer_lanceolatus/adult_frames/year_1915.png"
+"Stellifer lanceolatus","adult",1917,"1917",11,0,11,-100,-50,5,60,2,"species/Stellifer_lanceolatus/adult_frames/year_1917.png"
+"Stellifer lanceolatus","adult",,"Undated",5,0,5,-100,-50,5,60,2,"species/Stellifer_lanceolatus/adult_frames/undated.png"

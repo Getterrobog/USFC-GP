@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/taxonomy/rest/any-name/Mullus%20auratus",
+  "retrieved_utc": "2026-10-13T04:05:29.603387+00:00",
+  "sha256": "9afd4e50e453e0c495a638f7a9a79ea9681991df0d38a7b3d3e98228bbb184ac",
+  "http_status": 200,
+  "bytes": 672,
+  "cache_path": "Data/Genomics/raw/taxonomy/ca32e0dd6e65a172c9899abd99d38d080aab1f070634045464f9d5f6e5596b66.gz"
+}

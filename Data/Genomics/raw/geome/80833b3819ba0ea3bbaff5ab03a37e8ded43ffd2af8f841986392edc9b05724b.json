@@ -1,0 +1,8 @@
+{
+  "url": "https://api.geome-db.org/records/Sample/json?q=%28scientificName%3D%22Fundulus+similis%22%29+_select_%3A%5BEvent%2CTissue%5D&limit=1000&page=0",
+  "retrieved_utc": "2026-10-13T04:35:03.641441+00:00",
+  "sha256": "9a8b28a8776068e39ac4dd388f35b456e27f86b82dcb43774322818e2cbe16c2",
+  "http_status": 200,
+  "bytes": 48,
+  "cache_path": "Data/Genomics/raw/geome/80833b3819ba0ea3bbaff5ab03a37e8ded43ffd2af8f841986392edc9b05724b.gz"
+}

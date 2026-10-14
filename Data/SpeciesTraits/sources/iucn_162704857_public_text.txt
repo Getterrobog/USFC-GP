@@ -1,0 +1,227 @@
+Glyptocephalus cynoglossus (Witch Flounder) (https://doi.org/10.2305/IUCN.UK.2022-2.RLTS.T18214757A162704857.en)
+citeturn54search0 [wordlim: 200] Published: 3.8 years ago; Crawled: 6 days ago; Witch Flounder Glyptocephalus cynoglossus has most recently been assessed for The IUCN Red List of Threatened Species in 2021. ... Habitat and ecology ... Witch flounder, Glyptocephalus cynoglossus, life history and habitat characteristics. ... Stock assessment of Witch Flounder (Glyptocephalus cynoglossus) in NAFO Subdivision 3Ps.
+
+# Witch Flounder
+
+Glyptocephalus cynoglossus
+
+Abstract
+
+Witch Flounder Glyptocephalus cynoglossus has most recently been assessed for The IUCN Red List of Threatened Species in 2021. Glyptocephalus cynoglossus is listed as Vulnerable under criteria A1bd.
+
+Text Overview
+
+### The Red list Assessment i
+
+Cadrin, S., González Troncoso, D., Nimmegeers, S., Vansteenbrugge, L., Wheeland, L. & Munroe, T.A. 2022. Glyptocephalus cynoglossus. The IUCN Red List of Threatened Species 2022: e.T18214757A162704857. https://dx.doi.org/10.2305/IUCN.UK.2022-2.RLTS.T18214757A162704857.en. Accessed on 06 October 2026.
+
+Last assessed
+
+12 February 2021
+
+Scope of assessment
+
+Global
+
+Population trend
+
+Decreasing
+
+Habitat and ecology
+
+Marine Neritic, Marine Deep Benthic
+
+Habitat and ecology in detail
+
+  * Extant (resident)
+
+IUCN Marine Biodiversity Unit/GMSA 2021. Glyptocephalus cynoglossus. The IUCN Red List of Threatened Species. Version 2026-1
+
+Geographic range in detail
+
+## Taxonomy
+
+### Kingdom
+
+Animalia
+
+### Phylum
+
+Chordata
+
+### Class
+
+Actinopterygii
+
+### Order
+
+Pleuronectiformes
+
+### Family
+
+Pleuronectidae
+
+### Genus
+
+Glyptocephalus
+
+Taxonomy in detail
+
+#### Scientific name
+
+Glyptocephalus cynoglossus
+
+#### Authority
+
+(Linnaeus, 1758)
+
+#### Synonyms
+
+Pleuronectes cynoglossus Linnaeus, 1758
+
+#### Common names
+
+##### English
+
+Witch Flounder, Grey Sole
+
+##### Dutch; Flemish
+
+Witje
+
+##### Icelandic
+
+Langlúra
+
+#### Taxonomic sources
+
+Fricke, R., Eschmeyer, W.N. and Van der Laan, R. (eds). 2022. Eschmeyer's Catalog of Fishes: genera, species, references. Updated 4 Oct 2022. California Academy of Sciences. Available at: http://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp.
+
+#### Identification Information
+
+#### Taxonomic notes
+
+## Assessment Information
+
+### Global Assessment
+
+### IUCN Red List Category and Criteria - Global Assessment
+
+Vulnerable A1bd
+
+ver 3.1
+
+### Date assessed
+
+12 February 2021
+
+### Year published
+
+2022
+
+#### Year last seen
+
+#### Previously published Red List assessments
+
+#### Regional assessments
+
+  * Europe
+
+#### Assessor(s)
+
+Cadrin, S., González Troncoso, D., Nimmegeers, S., Vansteenbrugge, L., Wheeland, L. & Munroe, T.A.
+
+#### Reviewer(s)
+
+Kulka, D.W. & Linardich, C.
+
+#### Contributor(s)
+
+#### Facilitator(s) / Compiler(s)
+
+Linardich, C.
+
+#### Partner(s) / Institution(s)
+
+#### Authority / Authorities
+
+#### Justification
+
+This widely distributed, cold-water, demersal species is long-lived, late-maturing, slow-growing, and forms dense spawning aggregations in offshore areas. The estimated generation length is 16–17 years. This species is commercially exploited in most of its range and is susceptible to rapid declines under high fishing pressure. The western Atlantic is thought to have a larger proportion of the global population compared to the eastern Atlantic. Historically (three generations ago, or in the early 1970s), the larger proportion of the western Atlantic population was assumed to be in the Newfoundland-Labrador stock (Divs. 2J3KL), the southern Grand Banks stock (Divs. 3NO), and the northeast U.S. stock (Divs. 5YZ).
+In the eastern Atlantic, it is generally not directly targeted, but is retained as bycatch in some areas. Abundance is monitored and some fisheries management measures are in place. North Sea biomass declined from 1998 to 2010, but by 2014, biomass returned to the level observed in 1993. Reduced recruitment over the past decade in the North Sea stock may cause a declining biomass trend in the near future. In Icelandic waters, total biomass has been relatively stable since 2004, but there is an ongoing declining trend since 2015 due to poor recruitment.
+In the western Atlantic, this species is directly targeted by commercial fisheries in Canadian and U.S. waters, and these fisheries are stringently managed and monitored throughout this region. Biomass and abundance in the Newfoundland-Labrador stock in Divs. 2J3KL (the largest historically) were lower in 2017 by 58–72% compared to 1984 due to overfishing (especially targeting of spawning aggregations) and climate shifts that occurred in the late 1980s to early 1990s. A fishing moratorium has been in place since the mid-1990s, recruitment has been relatively high since 2013, and biomass has been gradually increasing since 2003 but remains well below historic levels. Biomass and abundance in the southern Newfoundland (Subdiv. 3Ps) stock have been stable over the past 30+ years, or since at least 1983, and it is not overfished. Spawning stock biomass in the Gulf of St. Lawrence (Divs. 4RST) stock declined by 75% from 1960 to 2016 due to overexploitation, especially in the late 1980s to mid-1990s. Catch limits have allowed some recovery to occur in recent years and the stock is not currently being overfished, but it remains below historic levels. From 1958 to 1994, relative biomass of the southern Grand Banks stock (Divs. 3NO) declined by about 80%, and though biomass has been above the biomass limit (B_{lim}) since the early 1990s and has been increasing gradually since 2015, it remains well below historic levels. Survey biomass on the Flemish Cap (Div. 3M) from 1988 to 2019 shows a mostly increasing trend since 2002. Survey biomass on the Scotian Shelf (Divs. 4VWX) has been gradually increasing since the late 1990s. In U.S. waters, biomass declined by 90% during the 45-year period from 1971 to 2016. The steepest decline occurred in the late 1980s, and despite declines in the exploitation rate, the stock remains well below historic levels.
+This species is listed as Vulnerable (VU A1bd) based on an inferred average biomass decline across all fishery stocks of 50–60%, where the three historically largest stocks are weighed heavier than the other six. The use of A1 is justified because the cause of the decline is understood to be historical overfishing, and due to stringently enforced fisheries management measures, some recovery has begun to occur within the past generation (since the early 2000s), as evidenced by increasing trends in most fishery stocks, including in the three historically largest.
+Recommendations include continuance of fisheries management measures, research on stock structure, improving population data collection in the eastern Atlantic, and monitoring of potential future impacts from climate change. 
+
+The global population of this species comprises at least nine fishery stocks: two in the eastern Atlantic and seven in the western Atlantic. These stocks vary in size and information on population structure across its range is limited, and therefore, several assumptions were made to estimate a global-level percent decline for the purposes of this Red List assessment. Based on relative biomass estimates available from stock assessments and survey indices (regardless of catchability), it is inferred that a larger proportion (~90%) of the global population occurs in the western Atlantic, compared to the eastern Atlantic (~10%); therefore, the western Atlantic stocks are weighted heavier when estimating global decline. Population structure across the seven western Atlantic stocks is also not currently understood. To estimate the relative weight of each of the nine stocks, we compared data on peak fishery catches and historical relative biomass (defined as biomass levels three generations ago, or in the early 1970s), where the bigger catches and larger biomass are suspected to indicate a larger overall relative stock size. Western Atlantic: This species is common in the Gulf of Maine, the Gulf of St. Lawrence, on the Flemish Cap, and offshore Newfoundland Banks, and is rare north of Hamilton Inlet Bank, southern Labrador, and the southern Greenland shelf (Mecklenburg et al. 2018); however, it is less common south of the Gulf of Maine (Shinn 2018). According to offshore surveys conducted in the Greenland area since 1990, this species was only sporadically recorded off Southwest Greenland (Divs. 1C-F), with no records in 2018–2020. This species has not been recorded in Baffin Bay surveys, and only one specimen, taken in 2011, is reported from this area (Mecklenburg et al. 2018). On average, only a few individuals are recorded in the annual inshore surveys conducted off Greenland (R. Nygaard and A. Nogueira pers. comm. 2021). The population structure of this species across the western Atlantic is not clearly understood.
+An analysis of allozymes suggested six relatively small subpopulations in Newfoundland (Fairbairn 1981), but the potential for dispersal from their long larval period (4–6 months: Bigelow and Schroeder 1953 to 1 year: Evseenko and Nevinsky 1975) and a continuously distributed habitat throughout the Northwest Atlantic (Cargnelli et al. 1999) suggest that the allozyme differences may reflect local selection of functional genetic characters.
+The Hamilton Bank/northern Grand Bank (Divs. 2J3KL) fishery began targeting offshore spawning aggregations in the early 1960s and peaked in the early 1970s. A moratorium on this directed fishery  has been in place since 1995 in Canadian waters and since 1998 in the NAFO regulatory area. About 174 t were taken annually as bycatch from 2013 to 2017. Survey indices of abundance declined by 58% and biomass by 72% from the 1984 peak to 2017, with a steep decline (95%) occurring from 1984 to 1995. Although the indices were higher in 2016 and 2017 than they had been since 1990, they remain below levels observed in the mid-1980s. Recruitment has been improving since 2013 and the population has recently expanded to deep channel areas previously not occupied since the mid-1980s. A severe decline in the marine community of the Newfoundland-Labrador bioregion occurred in the late 1980s to early 1990s due to overfishing and a climate shift. Despite some indications of improvement, the stock status remains critical and well below historic levels. Local oceanographic conditions have been in a cold period since about 2015, but little is known on the impact of environmental changes on the species (DFO 2019). 
+The St. Pierre Bank and adjacent area (Subdiv. 3Ps) biomass has been stable since the mid-1990s and abundance has increased overall. Recruitment was relatively high from 2002 to 2011 but was below average in 2012 and 2013. From 1983 to 2017, biomass and abundance indices have remained relatively stable. The most recent assessment indicates that overfishing is not occurring, and the stock is not overfished. Annual catch has remained below the total allowable catch limit and size of individuals in the catch has been stable (DFO 2018).
+The northern Gulf of St. Lawrence (Divs. 4RS) fishery stock has been exploited since at least 1960 and catches peaked in the late 1980s. Spawning aggregations were targeted from 1976 until landings declined sharply in 1981 due to reduced trawler effort and then increased to a peak in the late 1980s before declining to a historic low in 1995. Annual landings have been near or below total allowable catch limits since 2000. The proportion of larger individuals in the landings declined from the late 1970s to 2006–2011, but it has increased in recent years. ## Habitat and Ecology
+
+### System
+
+Marine
+
+### Habitat type
+
+Marine Neritic, Marine Deep Benthic
+
+### Generation length (years)
+
+16-17 years
+
+### Congregatory
+
+### Movement patterns
+
+### Continuing decline in area, extent and/or quality of habitat
+
+Habitat and Ecology in detail
+
+#### Habitat and Ecology
+
+This cold-water, deep-water species occurs on fine substrates (clay, muddy sand, and mud) on the continental shelf and slope. It is most associated with shelf-slope areas and deeper channels (Bigelow and Schroeder 1953, Cargnelli et al. 1999, DFO 2019). Adults mostly occur between 45 and 500 m depth (McKenzie 1955, Bowering and Brodie 1991, Mecklenburg et al. 2018). Distribution can extend to about 1,600 m, and changes in depth distribution have been linked, in part, to thermal habitat availability (Wheeland et al. 2019). Juveniles occur at different depths than those inhabited by adults (Klein-MacPhee 2002, Alfonso 2018), usually settling on the outer continental shelf and upper continental slope (see Powles and Kohler 1970 and Markle 1975 for discussion of potential nursery habitats for 1–5-year-old fish). This benthic predator feeds primarily on polychaete worms (often >75% of the adult diet), with crustaceans, snails, molluscs, brittle stars, and small fishes also contributing to its diverse diet (Rae 1969, Bowman et al. 2000, Klein-MacPhee 2002 and references therein, Alfonso 2018). This species forms dense spawning aggregations in offshore, deeper waters (Bowering 1995). Spawning occurs from spring to summer, depending on the area. Females produce pelagic eggs. The larval pelagic stage is the longest among all pleuronectids, up to one year, with size at metamorphosis of up to 50 mm (Evseenko and Nevinsky 1975, Alfonso 2018). The maximum total length is 78 cm, but individuals typically are smaller than 50 cm (Mecklenburg et al. 2018). 
+In the Gulf of St. Lawrence, prior to overexploitation that occurred in the late 1970s and early 1980s, females reached maturity at 40 to 45 cm and 9 to 14 years of age and males at 30 to 34 cm and 5 to 8 years of age (Bowering and Brodie 1980). By the 2000s, maturity occurred at small sizes: for females, maturity was reached at 28-29 cm and for males at 26 cm (DFO 2017). The age at first maturity has also been reduced in the Barents Sea, to 4–5 years (Wienerroither et al. 2011). In U.S. waters, age at first maturity for females has varied between 4 and 6 years (NEFSC 2017). Reported maximum age is variable. It has been aged to 22 years off southern Newfoundland (DFO 2018), to 30 years in U.S. waters (NEFSC 2017), and to 30+ years in the Newfoundland-Labrador region (DFO 2019). The maximum age reported in the western Atlantic is 36-38 years (Powles 1965). In the eastern Atlantic, it has been aged to 12 years in Scotland, to 14 years in Skagerrak, Kattegat, and Iceland, and to 18 years in the Barents Sea (Molander 1925, Bowers 1960, Wienerroither et al. 2011). Natural mortality is assumed to be 0.2 (NEFSC 2017, ICES 2019). Generation length (1/adult mortality + age of first reproduction) is about 16–17 years.
+
+#### Classification scheme
+
+Habitats  | Season  | Suitability  | Major importance
+--- | --- | --- | ---
+9. Marine Neritic  | 9.5. Marine Neritic - Subtidal Sandy-Mud  |  | Resident  | Suitable  | Yes
+ | 9.6. Marine Neritic - Subtidal Muddy  |  | Resident  | Suitable  | Yes
+11. Marine Deep Benthic  | 11.1. Marine Deep Benthic - Continental Slope/Bathyl Zone (200-4,000m)  | 11.1.2. Soft Substrate  | Resident  | Suitable  | Yes
+
+## Conservation Actions
+
+### In-place research and monitoring
+
+  * Systematic monitoring scheme : Yes
+
+### In-place species management
+
+  * Harvest management plan : Yes
+
+Conservation Actions in detail
+
+#### Conservation Actions
+
+In the eastern Atlantic, fisheries management advice, provided by the International Council for the Exploration of the Sea (ICES), includes recommendations for annual total catch limits. No minimum landing size is implemented for European Union (EU) waters, but a size limit is enforced locally in Germany, Denmark, the Netherlands, Scotland, Sweden, and some parts of England. An EU total allowable catch for this species is set for the Norwegian Sea and North Sea (ICES 2013). The discard rate is currently lower than 10% and has been declining since 2010. Estimates of discards extend back to 2002 and have improved since the 2013 stock assessment. The EU discard ban implemented in 2019 includes landings of all size categories of the stock (Stokstad 2019, ICES 2020). Stock assessment advice and fishery independent survey data for Icelandic waters are provided by the Marine and Freshwater Research Institute to advise total allowable catch limits set by the Ministry of Industries and Innovation (MFRI 2020). This species was assessed as Least Concern in a European regional Red List assessment conducted in 2014.
+In the western Atlantic, fishery independent surveys are carried out for all stocks. Total allowable catch limits are in place for the southern Grand Banks stock (Divs. 3NO) and this stock is regularly assessed and monitored by the Northwest Atlantic Fisheries Organization (NAFO). The Labrador and Newfoundland stock (Divs. 2J3KL) has been under a fishing moratorium since the mid to late 1990s and stock assessments are conducted by Fisheries and Oceans Canada (DFO 2019). The southern Newfoundland and northern Gulf of St. Lawrence stocks are also managed by DFO and total allowable catch limits are in place (DFO 2017; 2018). In Canada, management plans for recovery are in place and this species is designated at risk by the Committee for the Status of Endangered Wildlife in Canada (COSEWIC) but has not been listed under the Species at Risk Act (SARA). In U.S. waters, this species is managed and monitored by NOAA Fisheries and the New England Fishery Management Council under the Northeast Multispecies Fishery Management Plan. Fishing regulations include permitting requirements, seasonal area fishing closures, minimum size limits, and annual catch limits (NEFSC 2017).
+Research is needed on spatial population structure in the western Atlantic (DFO 2017, NEFSC 2017) as well as on the potential impact from oceanographic changes. Expanding the coverage of the fishery independent surveys conducted in the North Sea as well as collection of ageing data are needed to improve stock assessments in the eastern Atlantic (ICES 2020).
+
+#### Conservation actions classification scheme
+
+Conservation Actions Needed  | Notes
+--- | ---
+3. Species management  | 3.1. Species management  | 3.1.1. Harvest management  | 
+
+#### Research classification scheme
+
+Research Needed  | Notes
+--- | ---
+1. Research  | 1.2. Population size, distribution & trends  |  | 
+ | 1.4. Harvest, use & livelihoods  |  | 
+ | 1.5. Threats  |  | 
+
+
