@@ -1,6 +1,7 @@
 .R-library/
 .Rhistory
 .RData
+.Rproj.user
 
 # Keep the complete, shareable atlas in Output/SamplingAtlas/.
 # Preview and intermediate builds stay local.
