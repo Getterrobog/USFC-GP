@@ -5,6 +5,7 @@
 # email: ivan.r.lopez@hotmail.com
 # I used R version 4.6.1 (2026-06-24) -- "Happy Hop"
 # I used Gemini AI to troubleshoot.
+# Adds Populations_plot df, Populations_plot_filtered df, species_list vector
 
 library(dplyr)
 library(ggplot2)

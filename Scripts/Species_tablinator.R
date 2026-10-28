@@ -1,14 +1,16 @@
 library(dplyr)
-Library(geosphere)
+library(geosphere)
+library(gridExtra)
+library(grid)
 
 # I. Create Species_table.pdf
-# A. Temporal Filtering for Species Table using mapply over Date.Collected and Vessel
+# A. Temporal Filtering for Species Table using mapply over Date.ISO.8601 and Vessel
 filter_table_by_year <- TRUE
 max_table_year       <- 1947
 
 Populations_table_input <- Populations %>%
   mutate(
-    Extracted_Year = mapply(extract_collection_year, Date.Collected, Vessel)
+    Extracted_Year = mapply(extract_collection_year, Date.ISO.8601, Vessel)
   ) %>%
   filter(
     if (filter_table_by_year) {

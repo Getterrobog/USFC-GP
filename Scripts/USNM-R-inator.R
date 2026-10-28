@@ -30,15 +30,14 @@ setwd("/Users/ivanlopez/OneDrive - University of Central Florida/USFCGP/R-USFCGP
 
 #Process the data
 source("./Scripts/nmnhsearchinator.R")
-invisible(readline(prompt = "nmnhsearchinator complete. Press [enter] to proceed."))
+#invisible(readline(prompt = "nmnhsearchinator complete. Press [enter] to proceed."))
 
 # Create a *.kmz file for use with mapping software
 source("./Scripts/pop_kmz-inator.R")
-invisible(readline(prompt = "pop_kmz-inator complete. Press [enter] to proceed."))
 
 # Create Histograms to view a time span
 source("./Scripts/Histograminator.R")
-invisible(readline(prompt = "Histograminator complete. Press [enter] to proceed."))
 
 # Create Summary tables for assessment
 source("./Scripts/Species_tablinator.R")
+source("./Scripts/Candidatetablinator.R")

@@ -5,6 +5,7 @@
 # email: ivan.r.lopez@hotmail.com
 # I used R version 4.6.1 (2026-06-24) -- "Happy Hop"
 # I used Gemini AI to troubleshoot.
+# Adds Populations_kmz
 
 library(dplyr)
 library(utils)
